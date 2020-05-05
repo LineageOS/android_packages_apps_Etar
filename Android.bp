@@ -1,0 +1,30 @@
+android_app {
+    name: "Etar",
+    overrides: ["Calendar"],
+
+    resource_dirs: ["res"],
+
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+        "src_aosp/**/*.java",
+        "src_aosp/**/*.kt",
+    ],
+
+    product_specific: true,
+
+    static_libs: [
+        "android-common",
+        "android-opt-timezonepicker",
+        "androidx.preference_preference",
+        "calendar-common",
+        "colorpicker",
+        "com.google.android.material_material",
+        "etar-lib-kotlinx-coroutines-android",
+        "etar-lib-kotlinx-coroutines-core",
+        "kotlin-annotations",
+        "libchips",
+    ],
+
+    sdk_version: "current",
+}

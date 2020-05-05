@@ -1,0 +1,13 @@
+java_import {
+    name: "etar-lib-kotlinx-coroutines-android",
+    host_supported: true,
+    jars: ["kotlinx-coroutines-android-1.1.1.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "etar-lib-kotlinx-coroutines-core",
+    host_supported: true,
+    jars: ["kotlinx-coroutines-core-1.2.1.jar"],
+    sdk_version: "current",
+}
