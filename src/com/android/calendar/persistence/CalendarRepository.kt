@@ -105,7 +105,7 @@ internal class CalendarRepository(val application: Application) {
     }
 
     private fun buildLocalCalendarContentValues(accountName: String, displayName: String): ContentValues {
-        val internalName = "etar_local_" + displayName.replace("[^a-zA-Z0-9]".toRegex(), "")
+        val internalName = "calendar_local_" + displayName.replace("[^a-zA-Z0-9]".toRegex(), "")
         return ContentValues().apply {
             put(CalendarContract.Calendars.ACCOUNT_NAME, accountName)
             put(CalendarContract.Calendars.ACCOUNT_TYPE, CalendarContract.ACCOUNT_TYPE_LOCAL)

@@ -953,7 +953,7 @@ public class AlertService extends Service {
 
             NotificationChannel channel  = new NotificationChannel(
                     ALERT_CHANNEL_ID,
-                    context.getString(R.string.standalone_app_label),
+                    context.getString(R.string.app_label),
                     NotificationManager.IMPORTANCE_HIGH);
 
             NotificationChannel foregroundChannel = new NotificationChannel(
