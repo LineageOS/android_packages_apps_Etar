@@ -2259,7 +2259,7 @@ public class Utils {
             return true;
         } else {
             if (showWarningToast) {
-                Toast.makeText(context, R.string.user_rejected_calendar_write_permission, Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, R.string.user_rejected_calendar_write_permission_lineage, Toast.LENGTH_SHORT).show();
             }
             return false;
         }

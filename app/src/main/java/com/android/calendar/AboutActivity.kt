@@ -17,7 +17,7 @@ class AboutActivity : AppCompatActivity() {
         setContentView(binding.root)
         setSupportActionBar(binding.include.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        title = getString(R.string.preferences_menu_about)
+        title = getString(R.string.preferences_menu_about_lineage)
 
         if (savedInstanceState == null) {
             supportFragmentManager
