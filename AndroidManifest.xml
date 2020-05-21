@@ -36,7 +36,7 @@
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_label"
-        android:taskAffinity="ws.xsoh.etar.task"
+        android:taskAffinity="org.lineageos.etar.task"
         android:requiredAccountType="*"
         android:usesCleartextTraffic="false"
         android:theme="@style/CalendarAppTheme">
@@ -189,7 +189,7 @@
 
         <provider android:name="com.android.calendar.CalendarRecentSuggestionsProvider"
             android:exported="false"
-            android:authorities="ws.xsoh.etar.CalendarRecentSuggestionsProvider" />
+            android:authorities="org.lineageos.etar.CalendarRecentSuggestionsProvider" />
 
         <!-- Declarations for alerts/reminders -->
         <activity

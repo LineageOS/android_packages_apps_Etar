@@ -247,7 +247,7 @@ public class Utils {
      * Gets the intent action for telling the widget to update.
      */
     public static String getSearchAuthority(Context context) {
-        return "ws.xsoh.etar.CalendarRecentSuggestionsProvider";
+        return "org.lineageos.etar.CalendarRecentSuggestionsProvider";
     }
 
     /**
