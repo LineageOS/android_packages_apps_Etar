@@ -31,7 +31,7 @@
         <item
             android:id="@+id/action_about"
             android:icon="@drawable/ic_info_outline"
-            android:title="@string/preferences_menu_about" />
+            android:title="@string/preferences_menu_about_lineage" />
 
     </group>
 </menu>
