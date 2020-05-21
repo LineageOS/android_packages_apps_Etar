@@ -125,7 +125,7 @@ public class AlertReceiver extends BroadcastReceiver {
 
             if (mStartingService == null) {
                 mStartingService = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
-                        "Etar:StartingAlertService");
+                        "Calendar:StartingAlertService");
                 mStartingService.setReferenceCounted(false);
             }
             mStartingService.acquire();
