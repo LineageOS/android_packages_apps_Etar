@@ -479,7 +479,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
                     checkAndRequestDisablingDoze();
 
                 } else {
-                    Toast.makeText(getApplicationContext(), R.string.user_rejected_calendar_write_permission, Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.user_rejected_calendar_write_permission_lineage, Toast.LENGTH_LONG).show();
                 }
                 return;
             }

@@ -33,7 +33,7 @@ public class VCalendar {
     public static String CALSCALE = "CALSCALE";
     public static String METHOD = "METHOD";
 
-    public final static String PRODUCT_IDENTIFIER = "-//Etar//ws.xsoh.etar";
+    public final static String PRODUCT_IDENTIFIER = "-//Calendar//ws.xsoh.etar";
 
     // Stores the -arity of the attributes that this component can have
     private final static HashMap<String, Integer> sPropertyList = new HashMap<String, Integer>();
