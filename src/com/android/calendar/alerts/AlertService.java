@@ -951,9 +951,9 @@ public class AlertService extends Service {
             NotificationMgr nm = new NotificationMgrWrapper(
                     (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE));
 
-            NotificationChannel channel  = new NotificationChannel(
+            NotificationChannel channel = new NotificationChannel(
                     ALERT_CHANNEL_ID,
-                    context.getString(R.string.standalone_app_label),
+                    context.getString(R.string.app_label),
                     NotificationManager.IMPORTANCE_HIGH);
 
             NotificationChannel foregroundChannel = new NotificationChannel(
