@@ -32,7 +32,8 @@
                 android:gravity="center_vertical"
                 android:clickable="true"
                 android:focusable="true"
-                android:background="?attr/selectableItemBackground">
+                android:background="?attr/selectableItemBackground"
+                android:visibility="gone">
                 <ImageView
                     android:src="?attr/iconSettingsAbout"
                     android:layout_width="24dp"
@@ -135,7 +136,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:layout_gravity="center_vertical">
+                android:layout_gravity="center_vertical"
+                android:visibility="gone">
                 <Button
                     android:id="@+id/source"
                     android:layout_width="wrap_content"
