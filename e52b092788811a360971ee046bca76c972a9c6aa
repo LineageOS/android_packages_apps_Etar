@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7fb7a4a8_01249afd",
+        "filename": "src/com/android/calendar/alerts/AlertService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 954,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2020-05-24T21:55:52Z",
+      "side": 0,
+      "message": "leave this space alone?",
+      "range": {
+        "startLine": 954,
+        "startChar": 40,
+        "endLine": 954,
+        "endChar": 41
+      },
+      "revId": "e52b092788811a360971ee046bca76c972a9c6aa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
