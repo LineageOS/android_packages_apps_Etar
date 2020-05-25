@@ -13,7 +13,7 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_PACKAGE_NAME := CalendarTests
 
-LOCAL_INSTRUMENTATION_FOR := Calendar
+LOCAL_INSTRUMENTATION_FOR := Etar
 
 # unbundled
 LOCAL_STATIC_JAVA_LIBRARIES := android-common
