@@ -3,7 +3,10 @@ package com.android.calendar;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.content.res.Resources;
+
+import lineageos.providers.LineageSettings;
 
 import ws.xsoh.etar.R;
 
@@ -42,7 +45,19 @@ public class DynamicTheme {
     }
 
     private static String getTheme(Context context) {
-        return Utils.getSharedPreference(context, THEME_PREF, LIGHT);
+        int currentNightMode = context.getResources().getConfiguration().uiMode
+                                    & Configuration.UI_MODE_NIGHT_MASK;
+        String targetTheme = LIGHT;
+        if (currentNightMode == Configuration.UI_MODE_NIGHT_NO) {
+            targetTheme = LIGHT;
+        } else {
+            if (LineageSettings.System.getInt(context.getContentResolver(),
+                        LineageSettings.System.BERRY_BLACK_THEME, 0) == 1) {
+                targetTheme = BLACK;
+            } else {
+                targetTheme = DARK;
+            }
+        }
     }
 
     private static int getSelectedTheme(Activity activity) {
