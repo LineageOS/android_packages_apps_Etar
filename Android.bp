@@ -11,6 +11,8 @@ android_app {
         "src_aosp/**/*.kt",
     ],
 
+    platform_apis: true,
+
     product_specific: true,
 
     static_libs: [
@@ -24,9 +26,8 @@ android_app {
         "etar-lib-kotlinx-coroutines-core",
         "kotlin-annotations",
         "libchips",
+        "org.lineageos.platform.internal",
     ],
-
-    sdk_version: "current",
 
     aaptflags: [
         "--rename-manifest-package",
