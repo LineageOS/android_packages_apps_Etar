@@ -26,6 +26,10 @@ android_app {
         "libchips",
     ],
 
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+
     sdk_version: "current",
 
     aaptflags: [
