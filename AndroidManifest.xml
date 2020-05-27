@@ -43,6 +43,7 @@
 
         <activity
             android:name="com.android.calendar.AllInOneActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="true"
             android:launchMode="singleTask"
             android:theme="@style/CalendarTheme.WithoutActionBar"
