@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e2b71613_ecd49524",
+        "filename": "src/com/android/calendar/DynamicTheme.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-05-27T16:18:27Z",
+      "side": 1,
+      "message": "What kind of indentation style is this?",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 36
+      },
+      "revId": "f6f28ecba783c60df467a7a12ec3a7fdccff06df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "17810744_4c0dec5c",
+        "filename": "src/com/android/calendar/DynamicTheme.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-05-27T16:18:27Z",
+      "side": 1,
+      "message": "Wrong here as well.",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 24
+      },
+      "revId": "f6f28ecba783c60df467a7a12ec3a7fdccff06df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
