@@ -3,7 +3,10 @@ package com.android.calendar;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.content.res.Resources;
+
+import lineageos.providers.LineageSettings;
 
 import ws.xsoh.etar.R;
 
@@ -24,6 +27,7 @@ public class DynamicTheme {
     private static final String RED  = "red";
     private static final String PURPLE = "purple";
     private int currentTheme;
+    private static String currentThemePrimary;
 
 
     public void onCreate(Activity activity) {
@@ -42,7 +46,26 @@ public class DynamicTheme {
     }
 
     private static String getTheme(Context context) {
-        return Utils.getSharedPreference(context, THEME_PREF, LIGHT);
+        if (currentThemePrimary != null) {
+            // Can't change theme while Etar is running or it will crash
+            // TO-DO: Safely change the theme while Etar is running
+            return currentThemePrimary;
+        }
+        int currentNightMode = context.getResources().getConfiguration().uiMode
+                & Configuration.UI_MODE_NIGHT_MASK;
+        String targetTheme = LIGHT;
+        if (currentNightMode == Configuration.UI_MODE_NIGHT_NO) {
+            targetTheme = LIGHT;
+        } else {
+            if (LineageSettings.System.getInt(context.getContentResolver(),
+                    LineageSettings.System.BERRY_BLACK_THEME, 0) == 1) {
+                targetTheme = BLACK;
+            } else {
+                targetTheme = DARK;
+            }
+        }
+        currentThemePrimary = targetTheme;
+        return currentThemePrimary;
     }
 
     private static int getSelectedTheme(Activity activity) {
