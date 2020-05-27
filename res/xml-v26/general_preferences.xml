@@ -22,6 +22,7 @@
             app:title="@string/preferences_theme"
             app:entries="@array/pref_theme_entries"
             app:entryValues="@array/pref_theme_values"
+            app:isPreferenceVisible="false"
             app:defaultValue="light"/>
         <Preference
             app:key="pref_color"
