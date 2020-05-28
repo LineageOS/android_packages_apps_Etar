@@ -199,5 +199,23 @@
         <item name="app_bar_color">@color/app_bar_black</item>
     </style>
 
+    <style name="CalendarAppThemeLightSystem" parent="CalendarAppTheme">
+        <item name="colorPrimary">@color/colorSystemPrimary</item>
+        <item name="colorPrimaryDark">@color/colorSystemPrimaryDark</item>
+        <item name="colorAccent">@color/colorSystemPrimaryDark</item>
+        <item name="app_bar_color">@color/colorSystemPrimary</item>
+    </style>
+    <style name="CalendarAppThemeDarkSystem" parent="CalendarAppThemeDark">
+        <item name="colorPrimary">@color/colorSystemPrimary</item>
+        <item name="colorPrimaryDark">@color/colorSystemPrimaryDark</item>
+        <item name="colorAccent">@color/colorSystemPrimary</item>
+        <item name="app_bar_color">@color/colorSystemPrimary</item>
+    </style>
+    <style name="CalendarAppThemeBlackSystem" parent="CalendarAppThemeBlack">
+        <item name="colorPrimary">@color/colorSystemPrimary</item>
+        <item name="colorPrimaryDark">@color/bg_black</item>
+        <item name="colorAccent">@color/colorSystemPrimary</item>
+        <item name="app_bar_color">@color/app_bar_black</item>
+    </style>
 
 </resources>

@@ -19,6 +19,9 @@
 -->
 <resources>
 
+    <color name="colorSystemPrimary">@*android:color/accent_device_default_light</color>
+    <color name="colorSystemPrimaryDark">@*android:color/accent_device_default_dark</color>
+
     <color name="colorPrimary">#41c3b1</color>
     <color name="colorPrimaryDark">#388d7f</color>
     <color name="colorAccent">#1dc1ab</color>

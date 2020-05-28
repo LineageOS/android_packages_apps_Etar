@@ -29,6 +29,7 @@
             app:title="@string/preferences_color"
             app:entries="@array/pref_color_entries"
             app:entryValues="@array/pref_color_values"
+            app:isPreferenceVisible="false"
             app:defaultValue="teal"/>
         <ListPreference
             app:key="preferences_default_start"

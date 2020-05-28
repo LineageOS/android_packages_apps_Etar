@@ -60,51 +60,21 @@ public class DynamicTheme {
     }
 
     private static int getSelectedTheme(Activity activity) {
-        String theme = getTheme(activity) + getPrimaryColor(activity);
+        String theme = getTheme(activity);
         switch (theme) {
-            case LIGHT+TEAL:
-                return R.style.CalendarAppThemeLightTeal;
-            case DARK+TEAL:
-                return R.style.CalendarAppThemeDarkTeal;
-            case BLACK+TEAL:
-                return R.style.CalendarAppThemeBlackTeal;
-            case LIGHT+ORANGE:
-                return R.style.CalendarAppThemeLightOrange;
-            case DARK+ORANGE:
-                return R.style.CalendarAppThemeDarkOrange;
-            case BLACK+ORANGE:
-                return R.style.CalendarAppThemeBlackOrange;
-            case LIGHT+BLUE:
-                return R.style.CalendarAppThemeLightBlue;
-            case DARK+BLUE:
-                return R.style.CalendarAppThemeDarkBlue;
-            case BLACK+BLUE:
-                return R.style.CalendarAppThemeBlackBlue;
-            case LIGHT+GREEN:
-                return R.style.CalendarAppThemeLightGreen;
-            case DARK+GREEN:
-                return R.style.CalendarAppThemeDarkGreen;
-            case BLACK+GREEN:
-                return R.style.CalendarAppThemeBlackGreen;
-            case LIGHT+RED:
-                return R.style.CalendarAppThemeLightRed;
-            case DARK+RED:
-                return R.style.CalendarAppThemeDarkRed;
-            case BLACK+RED:
-                return R.style.CalendarAppThemeBlackRed;
-            case LIGHT+PURPLE:
-                return R.style.CalendarAppThemeLightPurple;
-            case DARK+PURPLE:
-                return R.style.CalendarAppThemeDarkPurple;
-            case BLACK+PURPLE:
-                return R.style.CalendarAppThemeBlackPurple;
+            case LIGHT:
+                return R.style.CalendarAppThemeLightSystem;
+            case DARK:
+                return R.style.CalendarAppThemeDarkSystem;
+            case BLACK:
+                return R.style.CalendarAppThemeBlackSystem;
             default:
                 throw new UnsupportedOperationException("Unknown theme: " + getTheme(activity));
         }
     }
 
     public static String getPrimaryColor(Context context) {
-        return Utils.getSharedPreference(context, COLOR_PREF, TEAL);
+        return "";
     }
 
     private static String getSuffix(String theme) {
@@ -119,22 +89,7 @@ public class DynamicTheme {
         }
     }
     public static int getColorId(String name) {
-        switch (name) {
-            case TEAL:
-                return R.color.colorPrimary;
-            case BLUE:
-                return R.color.colorBluePrimary;
-            case ORANGE:
-                return R.color.colorOrangePrimary;
-            case GREEN:
-                return R.color.colorGreenPrimary;
-            case RED:
-                return R.color.colorRedPrimary;
-            case PURPLE:
-                return R.color.colorPurplePrimary;
-            default:
-                throw new UnsupportedOperationException("Unknown color name : " + name);
-        }
+        return R.color.colorSystemPrimary;
     }
 
     public static String getColorName(int id) {
