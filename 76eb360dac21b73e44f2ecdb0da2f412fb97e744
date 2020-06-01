@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "abcee7b0_2aafed75",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2020-06-01T15:33:06Z",
+      "side": 1,
+      "message": "\"alert synchronisation\", no need to abbreviate",
+      "revId": "76eb360dac21b73e44f2ecdb0da2f412fb97e744",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "796c4689_5ddb848e",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 722,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2020-06-01T15:33:06Z",
+      "side": 1,
+      "message": "from THE settings app?",
+      "revId": "76eb360dac21b73e44f2ecdb0da2f412fb97e744",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
