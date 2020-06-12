@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8d081c0a_3b16816b",
+        "filename": "src/com/android/calendar/DayView.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 2474,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-06-12T10:12:27Z",
+      "side": 1,
+      "message": "Kinda strange, but I take that you want to follow upstream.",
+      "revId": "15839311cbd99da88f123c1a2e9fbb1c16a84ad6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
