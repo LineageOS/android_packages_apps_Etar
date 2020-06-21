@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">ប្រតិទិន</string>
+    <string name="what_label">អំពី​អ្វី</string>
+    <string name="where_label">ទីកន្លែង</string>
+    <string name="when_label">ពេលណា</string>
+    <string name="timezone_label">តំបន់​ពេលវេលា</string>
+    <string name="attendees_label">ភ្ញៀវ</string>
+    <string name="today">ថ្ងៃនេះ</string>
+    <string name="tomorrow">ថ្ងៃស្អែក</string>
+    <string name="today_at_time_fmt">"ថ្ងៃនេះ​នៅ <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"ថ្ងៃស្អែក​នៅ <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">កាល​ធ្វើ​ឡើងវិញ</string>
+    <string name="no_title_label">(គ្មាន​ចំណងជើង)</string>
+    <plurals name="Nminutes">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> នាទី</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> នាទី</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ម៉ោង</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ថ្ងៃ</item>
+    </plurals>
+    <string name="show_day_view">"បង្ហាញ​ថ្ងៃ"</string>
+    <string name="agenda_view">"របៀបវារៈ"</string>
+    <string name="day_view">"ថ្ងៃ​"</string>
+    <string name="week_view">"សប្ដាហ៍​"</string>
+    <string name="month_view">"ខែ"</string>
+    <string name="event_view">"មើល​ព្រឹត្តិការណ៍"</string>
+    <string name="event_create">"ព្រឹត្តិការណ៍​ថ្មី"</string>
+    <string name="event_edit">"កែ​ព្រឹត្តិការណ៍"</string>
+    <string name="event_delete">"លុប​ព្រឹត្តិការណ៍"</string>
+    <string name="goto_today">"ថ្ងៃនេះ"</string>
+    <string name="menu_preferences">"ការ​កំណត់"</string>
+    <string name="search">"ស្វែងរក"</string>
+    <string name="hide_controls">"លាក់​ឧបករណ៍​បញ្ជា"</string>
+    <string name="show_controls">"បង្ហាញ​ឧបករណ៍​បញ្ជា"</string>
+    <string name="select_synced_calendars_button">ប្រតិទិន​ដែល​ត្រូវ​ធ្វើ​សមកាលកម្ម</string>
+    <string name="hint_what">"ឈ្មោះ​ព្រឹត្តិការណ៍"</string>
+    <string name="hint_where">"ទី​តាំង​"</string>
+    <string name="hint_description">"ពណ៌នា"</string>
+    <string name="hint_attendees">"ភ្ញៀវ"</string>
+    <string name="creating_event">"បាន​បង្កើត​ព្រឹត្តិការណ៍។"</string>
+    <string name="saving_event">"បាន​រក្សាទុក​ព្រឹត្តិការណ៍។"</string>
+    <string name="empty_event">"មិន​បាន​បង្កើត​ព្រឹត្តិការណ៍​ទទេ។"</string>
+    <string name="creating_event_with_guest">"នឹង​ផ្ញើ​ការ​អញ្ជើញ"</string>
+    <string name="saving_event_with_guest">"នឹង​ផ្ញើ​បច្ចុប្បន្នភាព។"</string>
+    <string name="rsvp_accepted">"បាន​ឆ្លើយ​តប​ បាទ​/ចាស។"</string>
+    <string name="rsvp_tentative">"បាន​ឆ្លើយតប ប្រហែល​​ជា​ទៅ។"</string>
+    <string name="rsvp_declined">"បាន​ឆ្លើយ​តប​ ទេ​។"</string>
+    <string name="create_event_dialog_save">រក្សាទុក</string>
+    <string name="alert_title">ការ​ជូនដំណឹង​ប្រតិទិន</string>
+    <string name="event_info_title">មើល​ព្រឹត្តិការណ៍</string>
+    <string name="event_info_title_invite">ការ​អញ្ជើញ​ប្រជុំ</string>
+    <string name="edit_event_to_label">ដល់</string>
+    <string name="edit_event_from_label">ពី</string>
+    <string name="edit_event_all_day_label">ពេញ​មួយ​ថ្ងៃ</string>
+    <string name="edit_event_calendar_label">ប្រតិទិន</string>
+    <string name="description_label">ពណ៌នា</string>
+    <string name="presence_label">បង្ហាញ​ថាខ្ញុំ​</string>
+    <string name="privacy_label">ភាព​ឯកជន</string>
+    <string name="reminders_label">បន្ថែម​កម្មវិធី​រំលឹក</string>
+    <string name="no_syncable_calendars">មិន​មានប្រតិទិន</string>
+    <string name="no_calendars_found">ដើម្បី​អាច​បន្ថែម​ព្រឹត្តិការណ៍​បាន អ្នក​ត្រូវតែ​បន្ថែម​គណនី​ប្រតិទិន​យ៉ាង​ហោច​មួយ​ទៅកាន់​ឧបករណ៍ រួច​ធ្វើឲ្យ​ប្រតិទិន​មើល​ឃើញ។ ប៉ះ \"បន្ថែម​គណនី\" ដើម្បី​បន្ថែម​គណនី (ប្រសិនបើ​អ្នក​គ្រាន់តែ​បន្ថែម​គណនី សូម​រង់ចាំ​ឲ្យ​វា​បញ្ចប់​ការ​ធ្វើ​សមកាលកម្ម រួច​ព្យាយាម​ម្ដងទៀត)។ ឬ​ប៉ះ បោះបង់ និង​ប្រាកដ​ថា​មាន​ប្រតិទិន​យ៉ាង​ហោច​មួយ​ដែល​អាច​មើល​ឃើញ។</string>
+    <string name="add_account">បន្ថែម​គណនី</string>
+    <string name="view_event_calendar_label">ប្រតិទិន៖</string>
+    <string name="view_event_organizer_label">អ្នក​រៀបចំ៖</string>
+    <string name="choose_event_color_label">ជ្រើស​ពណ៌​ព្រឹត្តិការណ៍</string>
+    <string name="event_color_picker_dialog_title">ពណ៌​ព្រឹត្តិការណ៍</string>
+    <string name="event_color_set_to_default">កំណត់​ទៅ​ពណ៌​ប្រតិទិន​លំនាំដើម</string>
+    <string name="calendar_color_picker_dialog_title">ពណ៌​ប្រតិទិន</string>
+    <string name="calendar_square_color_picker_description">ឧបករណ៍​ជ្រើស​ពណ៌</string>
+    <string name="view_event_response_label">ចូលរួម?</string>
+    <string name="response_yes">បាទ/ចាស</string>
+    <string name="response_maybe">ប្រហែល</string>
+    <string name="response_no">ទេ</string>
+    <string name="email_guests_label">អ៊ីមែល​ភ្ញៀវ</string>
+    <string name="email_organizer_label">អ៊ីមែល​អ្នក​រៀបចំ</string>
+    <string name="email_picker_label">អ៊ីមែល​ទៅ</string>
+    <string name="event_not_found">"រក​មិន​ឃើញ​ព្រឹត្តិការណ៍។"</string>
+    <string name="map_label">ផែនទី</string>
+    <string name="call_label">ហៅ</string>
+    <string name="quick_response_settings">ឆ្លើយតប​រហ័ស</string>
+    <string name="quick_response_settings_summary">កែ​ចម្លើយ​តប​លំនាំដើម​ពេល​ផ្ញើ​អ៊ីមែល​ភ្ញៀវ</string>
+    <string name="quick_response_settings_edit_title">ឆ្លើយតប​រហ័ស</string>
+    <string name="quick_response_dialog_title">ជ្រើស​ចម្លើយ​តប​រហ័ស</string>
+    <string name="quick_response_email_failed">បាន​បរាជ័យ​ក្នុង​ការ​រក​កម្មវិធី​អ៊ីមែល</string>
+    <string-array name="quick_response_defaults">
+        <item>កំពុង​ដំណើរការ​ពីរ​បី​នាទី​ទៀត។</item>
+        <item>នឹង​ដល់​ទីនោះ​ក្នុង​រយៈពេល​១០​នាទី​ទៀត។</item>
+        <item>ទៅ​មុន និង​ចាប់ផ្ដើម​ដោយ​មិន​បាច់​មាន​ខ្ញុំ។</item>
+        <item>សុំទោស ខ្ញុំ​មិន​អាច​បង្កើត​វា​បាន​ទេ។ យើង​ចាំបាច់​ត្រូវ​កំណត់​កាលវិភាគ​ឡើងវិញ។</item>
+    </string-array>
+    <string name="quick_response_custom_msg">សរសេរ​ផ្ទាល់ខ្លួន​របស់​អ្នក…</string>
+    <string name="event_info_organizer">អ្នក​រៀបចំ៖</string>
+    <string name="event_info_reminders_label">កម្មវិធី​រំលឹក</string>
+    <string name="loading">កំពុង​ផ្ទុក...</string>
+    <string name="show_older_events">ប៉ះ​ដើម្បី​មើល​ព្រឹត្តិការណ៍​មុន​ពេល <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
+    <string name="show_newer_events">ប៉ះ​ដើម្បី​មើល​ព្រឹត្តិការណ៍​បន្ទាប់ពី <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
+    <string name="search_title">រក​ប្រតិទិន​ខ្ញុំ</string>
+    <string name="edit_event_label">"សេចក្ដី​លម្អិត"</string>
+    <string name="edit_label">"កែសម្រួល"</string>
+    <string name="delete_label">"លុប"</string>
+    <string name="save_label">ធ្វើ​រួច</string>
+    <string name="discard_label">បោះ​បង់​</string>
+    <string name="dismiss_all_label">"បដិសេធ​ទាំងអស់"</string>
+    <string name="snooze_label">"ផ្អាក"</string>
+    <string name="does_not_repeat">ព្រឹត្តិការណ៍​មួយ​ពេល</string>
+    <string name="endByDate">; រហូតដល់ <xliff:g id="DATE">%s</xliff:g></string>
+    <plurals name="endByCount">
+        <item quantity="other">; សម្រាប់ <xliff:g id="NUMBER">%d</xliff:g> ដង</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">រាល់ <xliff:g id="NUMBER">%d</xliff:g> ថ្ងៃ</item>
+    </plurals>
+    <string name="every_weekday">"រាល់ថ្ងៃ​ធ្វើការ (ចន្ទ–សុក្រ)"</string>
+    <plurals name="weekly">
+        <item quantity="other">រាល់ <xliff:g id="NUMBER">%1$d</xliff:g> សប្ដាហ៍​នៃ <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+    </plurals>
+    <string name="monthly">ប្រចាំខែ</string>
+    <string name="yearly_plain">ប្រចាំ​ឆ្នាំ</string>
+    <string name="custom" product="default">"តាម​តម្រូវ​ការ (មិន​អាច​ប្ដូរ​តាម​តម្រូវ​ការ​នៅ​លើ​ទូរស័ព្ទ)"</string>
+    <string name="modify_event">ប្ដូរ​តែ​ព្រឹត្តិការណ៍​នេះ</string>
+    <string name="modify_all">ប្ដូរ​ព្រឹត្តិការណ៍​ទាំងអស់​នៅ​ក្នុង​ស៊េរី</string>
+    <string name="modify_all_following">ប្ដូរ​វា និង​ព្រឹត្តិការណ៍​ខាងមុខ​ទាំងអស់</string>
+    <string name="new_event_dialog_label">"ព្រឹត្តិការណ៍​ថ្មី"</string>
+    <string name="new_event_dialog_option">"ព្រឹត្តិការណ៍​ថ្មី"</string>
+    <string name="delete_this_event_title">លុប​ព្រឹត្តិការណ៍​នេះ?</string>
+    <string name="delete_recurring_event_title">លុប <xliff:g id="EVENTTITLE">%s</xliff:g>?</string>
+    <string name="change_response_title">ប្ដូរ​ចម្លើយ​តប</string>
+    <string name="preferences_title">"ការ​កំណត់"</string>
+    <string name="preferences_general_title">ការ​កំណត់​ទិដ្ឋភាព​ប្រតិទិន</string>
+    <string name="preferences_reminder_title">ការ​ជូនដំណឹង &amp; កម្មវិធី​រំលឹក</string>
+    <string name="preferences_hide_declined_title">លាក់​ព្រឹត្តិការណ៍​ដែល​បាន​បដិសេធ</string>
+    <string name="preferences_week_start_day_title">សប្ដាហ៍​ចាប់ផ្ដើម​នៅ</string>
+    <string name="preferences_week_start_day_dialog">សប្ដាហ៍​ចាប់ផ្ដើម​នៅ</string>
+    <string name="preferences_clear_search_history_title">សម្អាត​ប្រវត្តិ​ស្វែងរក</string>
+    <string name="preferences_clear_search_history_summary">លុប​ការ​ស្វែងរក​ទាំងអស់​ដែល​អ្នក​បាន​ធ្វើ</string>
+    <string name="search_history_cleared">បាន​សម្អាត​ប្រវត្តិ​រក។</string>
+    <string name="preferences_alerts_title">ការ​ជូនដំណឹង</string>
+    <string name="preferences_alerts_vibrateWhen_title">ញ័រ</string>
+    <string name="preferences_alerts_ringtone_title">សំឡេង</string>
+    <string name="preferences_alerts_popup_title">ការ​ជូនដំណឹង​លេចឡើង</string>
+    <string name="preferences_default_reminder_title">ម៉ោង​កម្មវិធី​រំលឹក​លំនាំដើម</string>
+    <string name="preferences_default_reminder_dialog">ម៉ោង​កម្មវិធី​រំលឹក​លំនាំដើម</string>
+    <string name="preferences_default_reminder_default">១០</string>
+    <string name="preferences_use_home_tz_title">ប្រើ​តំបន់​ពេលវេលា​ដើម</string>
+    <string name="preferences_use_home_tz_descrip">បង្ហាញ​ប្រតិទិន និង​ម៉ោង​ព្រឹត្តិការណ៍​នៅ​ក្នុង​តំបន់​ពេលវេលា​ដើម​ពេល​ធ្វើដំណើរ</string>
+    <string name="preferences_home_tz_title">តំបន់​ពេលវេលា​ដើម</string>
+    <string name="preferences_show_week_num_title">បង្ហាញ​ចំនួន​សប្ដាហ៍</string>
+    <string name="preferences_build_version">ស្ថាបនា​កំណែ</string>
+    <plurals name="month_more_events">
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">មិន​មាន​ព្រឹត្តិការណ៍​ដែលនឹង​មកដល់​ទេ</string>
+    <string name="preferences_experimental_category">ពិសោធន៍</string>
+    <string name="preferences_reminders_responded_label">រំលង​កម្មវិធី​រំលឹក</string>
+    <string name="preferences_reminders_responded_dialog">រំលង​កម្មវិធី​រំលឹក</string>
+    <string name="copy_db">ផ្ញើ​មូលដ្ឋាន​ទិន្នន័យ</string>
+    <string name="directory_searching_fmt">កំពុង​រក <xliff:g id="DOMAIN">%s</xliff:g>…</string>
+    <string name="accessibility_remove_attendee">លុប​អ្នកចូលរួម</string>
+    <string name="accessibility_pick_start_date">កាលបរិច្ឆេទ​ចាប់ផ្ដើម</string>
+    <string name="accessibility_pick_start_time">ម៉ោង​ចាប់ផ្ដើម</string>
+    <string name="accessibility_pick_end_date">កាលបរិច្ឆេទ​បញ្ចប់</string>
+    <string name="accessibility_pick_end_time">ម៉ោង​បញ្ចប់</string>
+    <string name="accessibility_pick_time_zone">តំបន់​ពេលវេលា</string>
+    <string name="accessibility_pick_recurrence">ធ្វើ​ព្រឹត្តិការណ៍​ម្ដងទៀត</string>
+    <string name="accessibility_add_reminder">បន្ថែម​ការ​ជូនដំណឹង</string>
+    <string name="accessibility_remove_reminder">លុប​កម្មវិធី​ជូនដំណឹង</string>
+    <string name="accessibility_add_attendee">បន្ថែម​អ្នកចូលរួម</string>
+    <string name="accessibility_all_day">ព្រឹត្តិការណ៍​ពេញ​មួយ​​ថ្ងៃ</string>
+    <string name="accessibility_reminder_time">ម៉ោង​កម្មវិធី​ជូនដំណឹង</string>
+    <string name="accessibility_reminder_type">ប្រភេទ​កម្មវិធី​ជូនដំណឹង</string>
+    <string name="accessibility_reminder_showmeas">បង្ហាញ​ថាខ្ញុំ​</string>
+    <string name="accessibility_reminder_privacy">ភាព​ឯកជន</string>
+    <string name="day_view_new_event_hint">+ ព្រឹត្តិការណ៍​ថ្មី</string>
+    <string name="template_announce_item_index">ព្រឹត្តិការណ៍ <xliff:g id="ITEM_INDEX">%1$s</xliff:g> នៃ <xliff:g id="ITEM_COUNT">%2$s</xliff:g> ។</string>
+    <plurals name="Nevents">
+        <item quantity="other">ព្រឹត្តិការណ៍ <xliff:g id="COUNT">%d</xliff:g></item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> ព្រឹត្តិការណ៍</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">ជ្រើស​ព្រឹត្តិការណ៍</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">រាល់ <xliff:g id="COUNT">%d</xliff:g> ថ្ងៃ</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">រាល់ <xliff:g id="COUNT">%d</xliff:g> សប្ដាហ៍</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">រាល់ <xliff:g id="COUNT">%d</xliff:g> ខែ</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">ឆ្នាំ <xliff:g id="COUNT">%d</xliff:g> ឆ្នាំ</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">នៅ​ថ្ងៃ​ដដែល​នៃ​ខែ​នីមួយៗ</string>
+    <string name="recurrence_end_continously">ជានិច្ច</string>
+    <string name="recurrence_end_date_label">រហូតដល់​កាលបរិច្ឆេទ</string>
+    <string name="recurrence_end_date">រហូតដល់ <xliff:g id="DATE">%s</xliff:g></string>
+    <string name="recurrence_end_count_label">សម្រាប់​ព្រឹត្តិការណ៍​មួយ​ចំនួន</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">សម្រាប់ <xliff:g id="EVENT_COUNT">%d</xliff:g> ព្រឹត្តិការណ៍</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">ប្ដូរ​កាលបរិច្ឆេទ​បញ្ចប់</string>
+</resources>

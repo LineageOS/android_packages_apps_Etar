@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">கேலெண்டர்</string>
+    <string name="what_label">என்ன</string>
+    <string name="where_label">எங்கு</string>
+    <string name="when_label">எப்போது</string>
+    <string name="timezone_label">நேர மண்டலம்</string>
+    <string name="attendees_label">விருந்தினர்கள்</string>
+    <string name="today">இன்று</string>
+    <string name="tomorrow">நாளை</string>
+    <string name="today_at_time_fmt">"இன்று <xliff:g id="TIME_INTERVAL">%s</xliff:g> மணிக்கு"</string>
+    <string name="tomorrow_at_time_fmt">"நாளை <xliff:g id="TIME_INTERVAL">%s</xliff:g> க்கு"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">நினைவுபடுத்துதல்</string>
+    <string name="no_title_label">(தலைப்பு இல்லை)</string>
+    <plurals name="Nminutes">
+        <item quantity="one">1 நிமிடம்</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 நிமிடம்</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நிமிடங்கள்</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 மணிநேரம்</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> மணிநேரம்</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 நாள்</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நாட்கள்</item>
+    </plurals>
+    <string name="show_day_view">"கிழமையைக் காட்டு"</string>
+    <string name="agenda_view">"நிகழ்ச்சி விவரம்"</string>
+    <string name="day_view">"நாள்"</string>
+    <string name="week_view">"வாரம்"</string>
+    <string name="month_view">"மாதம்"</string>
+    <string name="event_view">"நிகழ்வைக் காட்டு"</string>
+    <string name="event_create">"புதிய நிகழ்வு"</string>
+    <string name="event_edit">"நிகழ்வைத் திருத்து"</string>
+    <string name="event_delete">"நிகழ்வை நீக்கு"</string>
+    <string name="goto_today">"இன்று"</string>
+    <string name="menu_preferences">"அமைப்புகள்"</string>
+    <string name="search">"தேடு"</string>
+    <string name="hide_controls">"கட்டுப்பாடுகளை மறை"</string>
+    <string name="show_controls">"கட்டுப்பாடுகளைக் காட்டு"</string>
+    <string name="select_synced_calendars_button">கேலெண்டர்களை ஒத்திசை</string>
+    <string name="hint_what">"நிகழ்வின் பெயர்"</string>
+    <string name="hint_where">"இடம்"</string>
+    <string name="hint_description">"விளக்கம்"</string>
+    <string name="hint_attendees">"விருந்தினர்கள்"</string>
+    <string name="creating_event">"நிகழ்வு உருவாக்கப்பட்டது."</string>
+    <string name="saving_event">"நிகழ்வு சேமிக்கப்பட்டது."</string>
+    <string name="empty_event">"நிகழ்வு வெறுமையாக உள்ளதால் உருவாக்கப்படவில்லை."</string>
+    <string name="creating_event_with_guest">"அழைப்புகள் அனுப்பப்படும்."</string>
+    <string name="saving_event_with_guest">"அறிவிப்புகள் அனுப்பப்படும்."</string>
+    <string name="rsvp_accepted">"ஆம் எனப் பதிலளித்தவர்கள்."</string>
+    <string name="rsvp_tentative">"கலந்துகொள்ளக்கூடும் எனப் பதிலளித்தவர்கள்."</string>
+    <string name="rsvp_declined">"இல்லை எனப் பதிலளித்தவர்கள்."</string>
+    <string name="create_event_dialog_save">சேமி</string>
+    <string name="alert_title">கேலெண்டர் அறிவிப்புகள்</string>
+    <string name="event_info_title">நிகழ்வைக் காட்டு</string>
+    <string name="event_info_title_invite">சந்திப்பிற்கான அழைப்பு</string>
+    <string name="edit_event_to_label">வரை</string>
+    <string name="edit_event_from_label">இலிருந்து</string>
+    <string name="edit_event_all_day_label">முழு நாளும்</string>
+    <string name="edit_event_calendar_label">கேலெண்டர்</string>
+    <string name="description_label">விளக்கம்</string>
+    <string name="presence_label">என்னை இவ்வாறாகக் காட்டு</string>
+    <string name="privacy_label">தனியுரிமை</string>
+    <string name="reminders_label">நினைவூட்டலைச் சேர்</string>
+    <string name="no_syncable_calendars">கேலெண்டர்கள் இல்லை</string>
+    <string name="no_calendars_found">நீங்கள் நிகழ்வைச் சேர்ப்பதற்கு முன், உங்கள் சாதனத்தில் ஒரு கேலெண்டர் கணக்கையாவது சேர்த்து, அதைத் தெரிவுநிலையில் வைக்க வேண்டும். கணக்கைச் சேர்ப்பதற்கு, கணக்கைச் சேர் என்பதைத் தொடவும் (நீங்கள் கணக்கைச் சேர்த்தீர்கள் எனில், அது ஒத்திசைத்து முடியும் வரை காத்திருந்து மீண்டும் முயற்சிக்கவும்). அல்லது ரத்துசெய் என்பதைத் தொடவும், மேலும் ஒரு கேலெண்டராவது தெரிவுநிலையில் இருக்கிறது என்பதை உறுதிசெய்யவும்.</string>
+    <string name="add_account">கணக்கைச் சேர்</string>
+    <string name="view_event_calendar_label">கேலெண்டர்:</string>
+    <string name="view_event_organizer_label">அமைப்பாளர்:</string>
+    <string name="choose_event_color_label">நிகழ்வின் வண்ணத்தைத் தேர்வுசெய்க</string>
+    <string name="event_color_picker_dialog_title">நிகழ்வின் வண்ணம்</string>
+    <string name="event_color_set_to_default">இயல்பு கேலெண்டர் வண்ணத்தை அமை</string>
+    <string name="calendar_color_picker_dialog_title">கேலெண்டர் வண்ணம்</string>
+    <string name="calendar_square_color_picker_description">வண்ணத் தேர்வி</string>
+    <string name="view_event_response_label">பங்கேற்கிறீர்களா?</string>
+    <string name="response_yes">ஆம்</string>
+    <string name="response_maybe">கலந்துகொள்ளக்கூடும்</string>
+    <string name="response_no">இல்லை</string>
+    <string name="email_guests_label">விருந்தினர்களுக்கு மின்னஞ்சல் செய்</string>
+    <string name="email_organizer_label">அமைப்பாளருக்கு மின்னஞ்சல் செய்</string>
+    <string name="email_picker_label">இவர்களுடன் மின்னஞ்சல் செய்</string>
+    <string name="event_not_found">"நிகழ்வு இல்லை."</string>
+    <string name="map_label">வரைபடம்</string>
+    <string name="call_label">அழை</string>
+    <string name="quick_response_settings">விரைவு பதில்கள்</string>
+    <string name="quick_response_settings_summary">விருந்தினர்களுக்கு மின்னஞ்சல் செய்யும்போது பதில்களுக்கான இயல்பைத் திருத்தவும்</string>
+    <string name="quick_response_settings_edit_title">விரைவு பதில்</string>
+    <string name="quick_response_dialog_title">விரைவான பதிலைத் தேர்வுசெய்க</string>
+    <string name="quick_response_email_failed">மின்னஞ்சல் திட்டத்தைக் கண்டறிவதில் தோல்வி</string>
+    <string-array name="quick_response_defaults">
+        <item>சில நிமிடங்களில் தொடங்கும்.</item>
+        <item>10 நிமிடங்கள் காத்திருக்கவும்.</item>
+        <item>நான் இல்லாமல் தொடங்கவும்.</item>
+        <item>மன்னிக்கவும், என்னால் பங்கேற்க முடியாது. நாம் மீண்டும் திட்டமிட வேண்டும்.</item>
+    </string-array>
+    <string name="quick_response_custom_msg">நீங்களாகவே எழுதவும்...</string>
+    <string name="event_info_organizer">அமைப்பாளர்:</string>
+    <string name="event_info_reminders_label">நினைவூட்டல்கள்</string>
+    <string name="loading">ஏற்றுகிறது...</string>
+    <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> க்கு முன்பு உள்ள நிகழ்வுகளைப் பார்ப்பதற்குத் தொடவும்</string>
+    <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> க்குப் பிறகு உள்ள நிகழ்வுகளைப் பார்ப்பதற்குத் தொடவும்</string>
+    <string name="search_title">எனது கேலெண்டர்களில் தேடு</string>
+    <string name="edit_event_label">"விவரங்கள்"</string>
+    <string name="edit_label">"திருத்து"</string>
+    <string name="delete_label">"நீக்கு"</string>
+    <string name="save_label">முடிந்தது</string>
+    <string name="discard_label">ரத்துசெய்</string>
+    <string name="dismiss_all_label">"எல்லாவற்றையும் விலக்கு"</string>
+    <string name="snooze_label">"உறக்கநிலை"</string>
+    <string name="does_not_repeat">ஒரு முறை நிகழ்வு</string>
+    <string name="endByDate">; <xliff:g id="DATE">%s</xliff:g> வரை</string>
+    <plurals name="endByCount">
+        <item quantity="one">; ஒரு முறை</item>
+        <item quantity="other">; <xliff:g id="NUMBER">%d</xliff:g> முறைகள்</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">தினசரி</item>
+        <item quantity="other">ஒவ்வொரு <xliff:g id="NUMBER">%d</xliff:g> நாட்கள்</item>
+    </plurals>
+    <string name="every_weekday">"எல்லா வாரநாட்கள் (திங்கள்–வெள்ளி)"</string>
+    <plurals name="weekly">
+        <item quantity="one">வாரந்தோறும் - <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+        <item quantity="other">ஒவ்வொரு <xliff:g id="NUMBER">%1$d</xliff:g> வாரங்களில் - <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+    </plurals>
+    <string name="monthly">மாதந்தோறும்</string>
+    <string name="yearly_plain">ஆண்டுதோறும்</string>
+    <string name="custom" product="default">"தனிப்பயன் (தொலைபேசியில் தனிப்பயனாக்க முடியாது)"</string>
+    <string name="modify_event">இந்த நிகழ்வை மட்டும் மாற்று</string>
+    <string name="modify_all">தொடரில் உள்ள எல்லா நிகழ்வுகளையும் மாற்று</string>
+    <string name="modify_all_following">இந்த நிகழ்வு மற்றும் எதிர்கால நிகழ்வுகளை மாற்று</string>
+    <string name="new_event_dialog_label">"புதிய நிகழ்வு"</string>
+    <string name="new_event_dialog_option">"புதிய நிகழ்வு"</string>
+    <string name="delete_this_event_title">இந்த நிகழ்வை நீக்கவா?</string>
+    <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g> ஐ நீக்கவா?</string>
+    <string name="change_response_title">பதிலை மாற்று</string>
+    <string name="preferences_title">"அமைப்புகள்"</string>
+    <string name="preferences_general_title">கேலெண்டர் காட்சி அமைப்பு</string>
+    <string name="preferences_reminder_title">அறிவிப்புகள் &amp; நினைவூட்டல்கள்</string>
+    <string name="preferences_hide_declined_title">நிராகரிக்கப்பட்ட நிகழ்வுகளை மறை</string>
+    <string name="preferences_week_start_day_title">இதில் வாரம் தொடங்கும்</string>
+    <string name="preferences_week_start_day_dialog">இதில் வாரம் தொடங்கும்</string>
+    <string name="preferences_clear_search_history_title">தேடல் வரலாற்றை அழி</string>
+    <string name="preferences_clear_search_history_summary">நீங்கள் மேற்கொண்ட எல்லா தேடல்களையும் அகற்றவும்</string>
+    <string name="search_history_cleared">தேடல் வரலாறு அழிக்கப்பட்டது.</string>
+    <string name="preferences_alerts_title">அறிவிப்புகள்</string>
+    <string name="preferences_alerts_vibrateWhen_title">அதிர்வு</string>
+    <string name="preferences_alerts_ringtone_title">ஒலி</string>
+    <string name="preferences_alerts_popup_title">பாப்-அப் அறிவிப்பு</string>
+    <string name="preferences_default_reminder_title">இயல்பு நினைவூட்டல் நேரம்</string>
+    <string name="preferences_default_reminder_dialog">இயல்பு நினைவூட்டல் நேரம்</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">தாய்நாட்டின் நேரத்தைப் பயன்படுத்து</string>
+    <string name="preferences_use_home_tz_descrip">பயணத்தின்போது உங்கள் தாய்நாட்டின் நேரத்தில் கேலெண்டர், நிகழ்வின் நேரத்தை காட்டுகிறது</string>
+    <string name="preferences_home_tz_title">தாய்நாடு நேர மண்டலம்</string>
+    <string name="preferences_show_week_num_title">வாரத்தின் எண்ணைக் காட்டு</string>
+    <string name="preferences_build_version">நடப்புப் பதிப்பு</string>
+    <plurals name="month_more_events">
+        <item quantity="one">"+1"</item>
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">வரவிருக்கும் கேலெண்டர் நிகழ்வுகள் எதுவுமில்லை</string>
+    <string name="preferences_experimental_category">சோதனை முயற்சி</string>
+    <string name="preferences_reminders_responded_label">நினைவூட்டல்களைத் தவிர்</string>
+    <string name="preferences_reminders_responded_dialog">நினைவூட்டல்களைத் தவிர்</string>
+    <string name="copy_db">தரவுத்தளத்தை அனுப்பு</string>
+    <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> ஐத் தேடுகிறது…</string>
+    <string name="accessibility_remove_attendee">பங்கேற்பாளரை அகற்று</string>
+    <string name="accessibility_pick_start_date">தொடக்கத் தேதி</string>
+    <string name="accessibility_pick_start_time">தொடக்க நேரம்</string>
+    <string name="accessibility_pick_end_date">முடிவுத் தேதி</string>
+    <string name="accessibility_pick_end_time">முடிவு நேரம்</string>
+    <string name="accessibility_pick_time_zone">நேர மண்டலம்</string>
+    <string name="accessibility_pick_recurrence">நிகழ்வை நினைவுபடுத்து</string>
+    <string name="accessibility_add_reminder">நினைவூட்டலைச் சேர்</string>
+    <string name="accessibility_remove_reminder">நினைவூட்டலை அகற்று</string>
+    <string name="accessibility_add_attendee">பங்கேற்பாளரைச் சேர்</string>
+    <string name="accessibility_all_day">நாள் முழுவதற்குமான நிகழ்வு</string>
+    <string name="accessibility_reminder_time">நினைவூட்டல் நேரம்</string>
+    <string name="accessibility_reminder_type">நினைவூட்டல் வகை</string>
+    <string name="accessibility_reminder_showmeas">என்னை இவ்வாறாகக் காட்டு</string>
+    <string name="accessibility_reminder_privacy">தனியுரிமை</string>
+    <string name="day_view_new_event_hint">+ புதிய நிகழ்வு</string>
+    <string name="template_announce_item_index"><xliff:g id="ITEM_COUNT">%2$s</xliff:g> இல் <xliff:g id="ITEM_INDEX">%1$s</xliff:g> ஆவது நிகழ்வு.</string>
+    <plurals name="Nevents">
+        <item quantity="one">1 நிகழ்வு</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நிகழ்வுகள்</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 நிகழ்வு</item>
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> நிகழ்வுகள்</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">தேர்ந்தெடுத்த நிகழ்வு</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">ஒவ்வொரு <xliff:g id="COUNT">%d</xliff:g> நாள்</item>
+        <item quantity="other">ஒவ்வொரு <xliff:g id="COUNT">%d</xliff:g> நாட்கள்</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">ஒவ்வொரு <xliff:g id="COUNT">%d</xliff:g> வாரம்</item>
+        <item quantity="other">ஒவ்வொரு <xliff:g id="COUNT">%d</xliff:g> வாரங்கள்</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> மாதம்</item>
+        <item quantity="other">ஒவ்வொரு <xliff:g id="COUNT">%d</xliff:g> மாதங்கள்</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">ஒவ்வொரு <xliff:g id="COUNT">%d</xliff:g> ஆண்டு</item>
+        <item quantity="other">ஒவ்வொரு <xliff:g id="COUNT">%d</xliff:g> ஆண்டுகள்</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">ஒவ்வொரு மாதமும் இதே தினத்தில்</string>
+    <string name="recurrence_end_continously">எப்போதும்</string>
+    <string name="recurrence_end_date_label">தேதி வரை</string>
+    <string name="recurrence_end_date"><xliff:g id="DATE">%s</xliff:g> வரை</string>
+    <string name="recurrence_end_count_label">நிகழ்வுகளின் எண்ணிக்கை</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one"><xliff:g id="EVENT_COUNT">%d</xliff:g> நிகழ்விற்கு</item>
+        <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g> நிகழ்வுகளுக்கு</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">முடிவு தேதியை மாற்று</string>
+</resources>

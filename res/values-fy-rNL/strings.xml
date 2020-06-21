@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Aginda</string>
+    <string name="what_label">Wat</string>
+    <string name="where_label">Wêr</string>
+    <string name="when_label">Wannear</string>
+    <string name="timezone_label">Tiidsône</string>
+    <string name="attendees_label">Gasten</string>
+    <string name="today">Hjoed</string>
+    <string name="tomorrow">Moarn</string>
+    <string name="today_at_time_fmt">"Hjoed om <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"Moarn om <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">Werhelling</string>
+    <string name="no_title_label">(Gjinn titel)</string>
+    <plurals name="Nminutes">
+        <item quantity="one">1 minút</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minuten</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 min.</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> min.</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 oerr</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> oerr</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 dei</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dagen</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Wike <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Wiken <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="calendar_refresh">"Aktualisearje"</string>
+    <string name="show_day_view">"Dei toane"</string>
+    <string name="agenda_view">"Agindanda"</string>
+    <string name="day_view">"Dei"</string>
+    <string name="week_view">"Wike"</string>
+    <string name="month_view">"Moanne"</string>
+    <string name="event_view">"Ofspraak toane"</string>
+    <string name="event_create">"Nije ôfspraak"</string>
+    <string name="event_edit">"Ofspraak bewurkje"</string>
+    <string name="event_delete">"Ofspraak fuortsmite"</string>
+    <string name="share_label">Diele</string>
+    <string name="goto_today">"Hjoed"</string>
+    <string name="goto_date">Gean nei\u2026</string>
+    <string name="menu_preferences">"Ynstellingen"</string>
+    <string name="search">"Sykje"</string>
+    <string name="hide_controls">"Betsjinning ferstopje"</string>
+    <string name="show_controls">"Betsjinning toane"</string>
+    <string name="view_settings">"Ynstellingen besjen"</string>
+    <string name="select_synced_calendars_button">Aginda\'s om te syngronisearjen</string>
+    <string name="hint_what">"Ofspraaknamme"</string>
+    <string name="hint_where">"Lokaasje"</string>
+    <string name="hint_description">"Beskriuwing"</string>
+    <string name="hint_attendees">"Gasten"</string>
+    <string name="creating_event">"Ofspraak makke."</string>
+    <string name="saving_event">"Ofspraak bewarre."</string>
+    <string name="empty_event">"Lege ôfspraak net makke."</string>
+    <string name="creating_event_with_guest">"Utnûgingen wurde ferstjoerd."</string>
+    <string name="saving_event_with_guest">"Fernijingen wurde ferstjoerd."</string>
+    <string name="rsvp_accepted">"Reagearre mei ja."</string>
+    <string name="rsvp_tentative">"Reagearre mei miskien."</string>
+    <string name="rsvp_declined">"Reagearre mei nee."</string>
+    <string name="create_event_dialog_save">Bewarje</string>
+    <string name="alert_title">Aginda-omtinkens</string>
+    <string name="foreground_notification_channel_name">Alarmsyngronisaasje</string>
+</resources>

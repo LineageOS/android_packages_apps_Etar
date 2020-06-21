@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>Hysbysiad</item>
+        <item>Ebost</item>
+        <item>SMS</item>
+        <item>Larwm</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 munudau</item>
+        <item>1 munud</item>
+        <item>5 munud</item>
+        <item>10 munud</item>
+        <item>15 munud</item>
+        <item>20 munud</item>
+        <item>25 munud</item>
+        <item>30 munud</item>
+        <item>45 munud</item>
+        <item>1 awr</item>
+        <item>2 awr</item>
+        <item>3 awr</item>
+        <item>12 awr</item>
+        <item>24 awr</item>
+        <item>2 ddiwrnod</item>
+        <item>1 wythnos</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Dim</item>
+        <item>0 munudau</item>
+        <item>1 munud</item>
+        <item>5 munud</item>
+        <item>10 munud</item>
+        <item>15 munud</item>
+        <item>20 munud</item>
+        <item>25 munud</item>
+        <item>30 munud</item>
+        <item>45 munud</item>
+        <item>1 awr</item>
+        <item>2 awr</item>
+        <item>3 awr</item>
+        <item>12 awr</item>
+        <item>24 awr</item>
+        <item>2 ddiwrnod</item>
+        <item>1 wythnos</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Locale rhagosodedig</item>
+        <item>Dydd Sadwrn</item>
+        <item>Dydd Sul</item>
+        <item>Dydd Llun</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Yn brysur</item>
+        <item>Ar gael</item>
+        <item>Efallai</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Dim ymateb</item>
+        <item>Ie</item>
+        <item>Efallai</item>
+        <item>Na</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Dim ond y digwyddiad hwn</item>
+        <item>Hwn a digwyddiadau yn y dyfodol</item>
+        <item>Pob digwyddiad</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Dim ond y digwyddiad hwn</item>
+        <item>Pob digwyddiad yn y gyfres</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Diwrnod</item>
+        <item>Wythnos</item>
+        <item>Mis</item>
+        <item>Agenda</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Dim ond os gwrthodwyd</item>
+        <item>Os gwrthodwyd neu heb ymateb</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>AILADRODD YN DDYDDIOL</item>
+        <item>AILADRODD YN WYTHNOSOL</item>
+        <item>AILADRODD YN FISOL</item>
+        <item>AILADRODD YN FLYNYDDOL</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>pob dydd Sul cyntaf</item>
+        <item>pob ail ddydd Sul</item>
+        <item>pob trydydd dydd Sul</item>
+        <item>pob pedwerydd dydd Sul</item>
+        <item>pob dydd Sul olaf</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>pob dydd Llun cyntaf</item>
+        <item>pob ail ddydd Llun</item>
+        <item>pob trydydd dydd Llun</item>
+        <item>pob pedwerydd dydd Llun</item>
+        <item>pob dydd Llun olaf</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>pob dydd Mawrth cyntaf</item>
+        <item>pob ail ddydd Mawrth</item>
+        <item>pob trydydd dydd Mawrth</item>
+        <item>pob pedwerydd dydd Mawrth</item>
+        <item>pob dydd Mawrth olaf</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>pob dydd Mercher cyntaf</item>
+        <item>pob ail ddydd Mercher</item>
+        <item>pob trydydd dydd Mercher</item>
+        <item>pob pedwerydd dydd Mercher</item>
+        <item>pob dydd Mercher olaf</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>pob dydd Iau cyntaf</item>
+        <item>pob ail ddydd Iau</item>
+        <item>pob trydydd dydd Iau</item>
+        <item>pob pedwerydd dydd Iau</item>
+        <item>pob dydd Iau olaf</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>pob dydd Gwener cyntaf</item>
+        <item>pob ail ddydd Gwener</item>
+        <item>pob trydydd dydd Gwener</item>
+        <item>pob pedwerydd dydd Gwener</item>
+        <item>pob dydd Gwener olaf</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>pob dydd Sadwrn cyntaf</item>
+        <item>pob ail ddydd Sadwrn</item>
+        <item>pob trydydd dydd Sadwrn</item>
+        <item>pob pedwerydd dydd Sadwrn</item>
+        <item>pob dydd Sadwrn olaf</item>
+    </string-array>
+</resources>

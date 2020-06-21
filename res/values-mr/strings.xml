@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">कॅलेंडर</string>
+    <string name="what_label">काय</string>
+    <string name="where_label">कुठे</string>
+    <string name="when_label">केव्हा</string>
+    <string name="timezone_label">टाइम झोन</string>
+    <string name="attendees_label">अतिथी</string>
+    <string name="today">आज</string>
+    <string name="tomorrow">उद्या</string>
+    <string name="today_at_time_fmt">"आज <xliff:g id="TIME_INTERVAL">%s</xliff:g> वाजता"</string>
+    <string name="tomorrow_at_time_fmt">"उद्या <xliff:g id="TIME_INTERVAL">%s</xliff:g> वाजता"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">पुनरावृत्ती</string>
+    <string name="no_title_label">(शीर्षक नाही)</string>
+    <plurals name="Nminutes">
+        <item quantity="one">1 मिनिट</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> मिनिटे</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 मिनिट</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> मिनिटे</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 तास</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> तास</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 दिवस</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> दिवस</item>
+    </plurals>
+    <string name="show_day_view">"दिवस दर्शवा"</string>
+    <string name="agenda_view">"अजेंडा"</string>
+    <string name="day_view">"दिवस"</string>
+    <string name="week_view">"आठवडा"</string>
+    <string name="month_view">"महिना"</string>
+    <string name="event_view">"इव्हेंट पहा"</string>
+    <string name="event_create">"नवीन इव्हेंट"</string>
+    <string name="event_edit">"इव्हेंट संपादित करा"</string>
+    <string name="event_delete">"इव्हेंट हटवा"</string>
+    <string name="goto_today">"आज"</string>
+    <string name="menu_preferences">"सेटिंग्ज"</string>
+    <string name="search">"शोध"</string>
+    <string name="hide_controls">"नियंत्रणे लपवा"</string>
+    <string name="show_controls">"नियंत्रणे दर्शवा"</string>
+    <string name="select_synced_calendars_button">संकालित करण्यासाठी कॅलेंडर</string>
+    <string name="hint_what">"इव्हेंटचे नाव"</string>
+    <string name="hint_where">"स्थान"</string>
+    <string name="hint_description">"वर्णन"</string>
+    <string name="hint_attendees">"अतिथी"</string>
+    <string name="creating_event">"इव्हेंट तयार केला."</string>
+    <string name="saving_event">"इव्हेंट जतन केला."</string>
+    <string name="empty_event">"रिक्त इव्हेंट तयार झाला नाही."</string>
+    <string name="creating_event_with_guest">"आमंत्रणे पाठविली जातील."</string>
+    <string name="saving_event_with_guest">"अद्यतने पाठविली जातील."</string>
+    <string name="rsvp_accepted">"होय असा प्रतिसाद दिला."</string>
+    <string name="rsvp_tentative">"कदाचित असा प्रतिसाद दिला."</string>
+    <string name="rsvp_declined">"नाही असा प्रतिसाद दिला."</string>
+    <string name="create_event_dialog_save">जतन करा</string>
+    <string name="alert_title">कॅलेंडर सूचना</string>
+    <string name="event_info_title">इव्हेंट पहा</string>
+    <string name="event_info_title_invite">संमेलनाचे आमंत्रण</string>
+    <string name="edit_event_to_label">ते</string>
+    <string name="edit_event_from_label">पासून</string>
+    <string name="edit_event_all_day_label">सर्व दिवस</string>
+    <string name="edit_event_calendar_label">कॅलेंडर</string>
+    <string name="description_label">वर्णन</string>
+    <string name="presence_label">मला असे म्हणून दर्शवा</string>
+    <string name="privacy_label">गोपनीयता</string>
+    <string name="reminders_label">स्मरणपत्र जोडा</string>
+    <string name="no_syncable_calendars">कोणतीही कॅलेंडर नाहीत</string>
+    <string name="no_calendars_found">आपण इव्हेंट जोडण्यापूर्वी, आपण आपल्या डिव्हाइसवर किमान एक कॅलेंडर खाते जोडणे आणि कॅलेंडर दृश्यमान करणे आवश्यक आहे. खाते जोडण्यासाठी खाते जोडा ला स्पर्श करा (आपण इतक्यातच खाते जोडले असल्यास, त्याने संकालन करणे समाप्त करण्याची प्रतीक्षा करा आणि पुन्हा प्रयत्न करा). किंवा रद्द करा ला स्पर्श करा आणि किमान एक कॅलेंडर दृश्यमान असल्याचे सुनिश्चित करा.</string>
+    <string name="add_account">खाते जोडा</string>
+    <string name="view_event_calendar_label">कॅलेंडर:</string>
+    <string name="view_event_organizer_label">आयोजक:</string>
+    <string name="choose_event_color_label">इव्हेंट रंग निवडा</string>
+    <string name="event_color_picker_dialog_title">इव्हेंट रंग</string>
+    <string name="event_color_set_to_default">डीफॉल्ट कॅलेंडर रंगावर सेट करा</string>
+    <string name="calendar_color_picker_dialog_title">कॅलेंडर रंग</string>
+    <string name="calendar_square_color_picker_description">रंग वेचक</string>
+    <string name="view_event_response_label">उपस्थित राहणार आहात?</string>
+    <string name="response_yes">होय</string>
+    <string name="response_maybe">कदाचित</string>
+    <string name="response_no">नाही</string>
+    <string name="email_guests_label">अतिथींना ईमेल करा</string>
+    <string name="email_organizer_label">आयोजकास ईमेल करा</string>
+    <string name="email_picker_label">यासह ईमेल</string>
+    <string name="event_not_found">"इव्हेंट आढळला नाही."</string>
+    <string name="map_label">नकाशा</string>
+    <string name="call_label">कॉल करा</string>
+    <string name="quick_response_settings">द्रुत प्रतिसाद</string>
+    <string name="quick_response_settings_summary">अतिथींना ईमेल करताना डीफॉल्ट प्रतिसाद संपादित करा</string>
+    <string name="quick_response_settings_edit_title">द्रुत प्रतिसाद</string>
+    <string name="quick_response_dialog_title">द्रुत प्रतिसाद निवडा</string>
+    <string name="quick_response_email_failed">ईमेल प्रोग्राम शोधण्यात अयशस्वी</string>
+    <string-array name="quick_response_defaults">
+        <item>केवळ काही मिनिटे विलंब होत आहे.</item>
+        <item>सुमारे 10 मिनिटांमध्ये तेथे पोहोचा.</item>
+        <item>आपण जा आणि माझ्याशिवाय प्रारंभ करा.</item>
+        <item>क्षमस्व, मी हे करू शकत नाही. आम्हाला पुन्हा अनुसूची करावी लागेल.</item>
+    </string-array>
+    <string name="quick_response_custom_msg">आपण स्वतःच लिहा…</string>
+    <string name="event_info_organizer">आयोजक:</string>
+    <string name="event_info_reminders_label">स्मरणपत्रे</string>
+    <string name="loading">लोड करत आहे...</string>
+    <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> पूर्वी इव्हेंट पाहण्यासाठी स्पर्श करा</string>
+    <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> नंतर इव्हेंट पाहण्यासाठी स्पर्श करा</string>
+    <string name="search_title">माझी कॅलेंडर शोधा</string>
+    <string name="edit_event_label">"तपशील"</string>
+    <string name="edit_label">"संपादित करा"</string>
+    <string name="delete_label">"हटवा"</string>
+    <string name="save_label">पूर्ण केले</string>
+    <string name="discard_label">रद्द करा</string>
+    <string name="dismiss_all_label">"सर्व डिसमिस करा"</string>
+    <string name="snooze_label">"स्नूझ करा"</string>
+    <string name="does_not_repeat">एकाच-वेळचा इव्हेंट</string>
+    <string name="endByDate">; <xliff:g id="DATE">%s</xliff:g> पर्यंत</string>
+    <plurals name="endByCount">
+        <item quantity="one">; एका वेळी</item>
+        <item quantity="other">; <xliff:g id="NUMBER">%d</xliff:g> वेळी</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">दैनिक</item>
+        <item quantity="other">दर <xliff:g id="NUMBER">%d</xliff:g> दिवसांनी</item>
+    </plurals>
+    <string name="every_weekday">"शनि रवि खेरिज इतर कोणताही वार (सोम–शुक्र)"</string>
+    <plurals name="weekly">
+        <item quantity="one"><xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g> रोजी साप्ताहिक</item>
+        <item quantity="other"><xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g> रोजी दर <xliff:g id="NUMBER">%1$d</xliff:g> आठवड्यांनी</item>
+    </plurals>
+    <string name="monthly">मासिक</string>
+    <string name="yearly_plain">वार्षिक</string>
+    <string name="custom" product="default">"सानुकूल (फोनवर सानुकूलित करू शकत नाही)"</string>
+    <string name="modify_event">केवळ हा इव्हेंट बदला</string>
+    <string name="modify_all">मालिकेतील सर्व इव्हेंट बदला</string>
+    <string name="modify_all_following">हा आणि सर्व भविष्यातील इव्हेंट बदला</string>
+    <string name="new_event_dialog_label">"नवीन इव्हेंट"</string>
+    <string name="new_event_dialog_option">"नवीन इव्हेंट"</string>
+    <string name="delete_this_event_title">हा इव्हेंट हटवायचा?</string>
+    <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g> हटवायचे?</string>
+    <string name="change_response_title">प्रतिसाद बदला</string>
+    <string name="preferences_title">"सेटिंग्ज"</string>
+    <string name="preferences_general_title">कॅलेंडर दृश्य सेटिंग</string>
+    <string name="preferences_reminder_title">सूचनापत्र आणि स्मरणपत्रे</string>
+    <string name="preferences_hide_declined_title">नाकारलेले इव्हेंट लपवा</string>
+    <string name="preferences_week_start_day_title">रोजी आठवडा सुरु होतो</string>
+    <string name="preferences_week_start_day_dialog">रोजी आठवडा सुरु होतो</string>
+    <string name="preferences_clear_search_history_title">शोध इतिहास साफ करा</string>
+    <string name="preferences_clear_search_history_summary">आपण केलेले सर्व शोध काढा</string>
+    <string name="search_history_cleared">शोध इतिहास साफ केला.</string>
+    <string name="preferences_alerts_title">सूचना</string>
+    <string name="preferences_alerts_vibrateWhen_title">कंपन होणे</string>
+    <string name="preferences_alerts_ringtone_title">ध्वनि</string>
+    <string name="preferences_alerts_popup_title">पॉप-अप सूचना</string>
+    <string name="preferences_default_reminder_title">डीफॉल्ट स्मरणपत्र वेळ</string>
+    <string name="preferences_default_reminder_dialog">डीफॉल्ट स्मरणपत्र वेळ</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">होम टाइम झोन वापरा</string>
+    <string name="preferences_use_home_tz_descrip">प्रवास करताना आपल्या होम टाइम झोनमध्ये कॅलेंडर आणि इव्हेंट वेळा प्रदर्शित करते</string>
+    <string name="preferences_home_tz_title">होम टाइम झोन</string>
+    <string name="preferences_show_week_num_title">आठवड्याचा क्रमांक दर्शवा</string>
+    <string name="preferences_build_version">बिल्ड आवृत्ती</string>
+    <plurals name="month_more_events">
+        <item quantity="one">"+1"</item>
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">कोणतेही आगामी कॅलेंडर इव्हेंट नाहीत</string>
+    <string name="preferences_experimental_category">प्रायोगिक</string>
+    <string name="preferences_reminders_responded_label">स्मरणपत्रे वगळा</string>
+    <string name="preferences_reminders_responded_dialog">स्मरणपत्रे वगळा</string>
+    <string name="copy_db">डेटाबेस पाठवा</string>
+    <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> शोधत आहे…</string>
+    <string name="accessibility_remove_attendee">उपस्थित होणारे काढा</string>
+    <string name="accessibility_pick_start_date">प्रारंभ तारीख</string>
+    <string name="accessibility_pick_start_time">प्रारंभ वेळ</string>
+    <string name="accessibility_pick_end_date">समाप्ती तारीख</string>
+    <string name="accessibility_pick_end_time">समाप्ती वेळ</string>
+    <string name="accessibility_pick_time_zone">टाइम झोन</string>
+    <string name="accessibility_pick_recurrence">इव्हेंटची पुनरावृत्ती करा</string>
+    <string name="accessibility_add_reminder">स्मरणपत्र जोडा</string>
+    <string name="accessibility_remove_reminder">स्मरणपत्र काढा</string>
+    <string name="accessibility_add_attendee">उपस्थित होणारे जोडा</string>
+    <string name="accessibility_all_day">दिवसभराचा इव्हेंट</string>
+    <string name="accessibility_reminder_time">स्मरणपत्र वेळ</string>
+    <string name="accessibility_reminder_type">स्मरणपत्र प्रकार</string>
+    <string name="accessibility_reminder_showmeas">मला असे म्हणून दर्शवा</string>
+    <string name="accessibility_reminder_privacy">गोपनीयता</string>
+    <string name="day_view_new_event_hint">+ नवीन इव्हेंट</string>
+    <string name="template_announce_item_index"><xliff:g id="ITEM_COUNT">%2$s</xliff:g> पैकी <xliff:g id="ITEM_INDEX">%1$s</xliff:g> इव्हेंट.</string>
+    <plurals name="Nevents">
+        <item quantity="one">1 इव्हेंट</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> इव्हेंट</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 इव्हेंट</item>
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> इव्हेंट</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">निवडलेला इव्हेंट</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">दर <xliff:g id="COUNT">%d</xliff:g> दिवसाने</item>
+        <item quantity="other">दर <xliff:g id="COUNT">%d</xliff:g> दिवसांनी</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">दर <xliff:g id="COUNT">%d</xliff:g> आठवड्यात</item>
+        <item quantity="other">दर <xliff:g id="COUNT">%d</xliff:g> आठवड्यांनी</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">दर <xliff:g id="COUNT">%d</xliff:g> महिन्याने</item>
+        <item quantity="other">दर <xliff:g id="COUNT">%d</xliff:g> महिन्यांनी</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">दर <xliff:g id="COUNT">%d</xliff:g> वर्षी</item>
+        <item quantity="other">दर <xliff:g id="COUNT">%d</xliff:g> वर्षांनी</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">प्रत्येक महिन्याच्या त्याच दिवशी</string>
+    <string name="recurrence_end_continously">कायम</string>
+    <string name="recurrence_end_date_label">या तारखेपर्यंत</string>
+    <string name="recurrence_end_date"><xliff:g id="DATE">%s</xliff:g> पर्यंत</string>
+    <string name="recurrence_end_count_label">अनेक इव्हेंटसाठी</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one"><xliff:g id="EVENT_COUNT">%d</xliff:g> इव्हेंटसाठी</item>
+        <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g> इव्हेंटसाठी</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">समाप्ती तारीख बदला</string>
+</resources>

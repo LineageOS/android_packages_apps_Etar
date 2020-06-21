@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">ပြက္ခဒိန်</string>
+    <string name="what_label">အမည်</string>
+    <string name="where_label">နေရာ</string>
+    <string name="when_label">အချိန်</string>
+    <string name="timezone_label">အချိန် ဇုန်</string>
+    <string name="attendees_label">ဧည့်သည်များ</string>
+    <string name="today">ယနေ့</string>
+    <string name="tomorrow">နက်ဖြန်</string>
+    <string name="today_at_time_fmt">"ယနေ့ <xliff:g id="TIME_INTERVAL">%s</xliff:g> တွင်"</string>
+    <string name="tomorrow_at_time_fmt">"နက်ဖြန် <xliff:g id="TIME_INTERVAL">%s</xliff:g>တွင်"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>၊ <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">ထပ်ဖြစ်မှု</string>
+    <string name="no_title_label">(ခေါင်းစဉ်မဲ့)</string>
+    <plurals name="Nminutes">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> မိနစ်</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> မိနစ်</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> နာရီ</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ရက်</item>
+    </plurals>
+    <string name="show_day_view">"ရက်ကို ပြရန်"</string>
+    <string name="agenda_view">"အစီအစဉ်"</string>
+    <string name="day_view">"နေ့ရက်"</string>
+    <string name="week_view">"အပတ်"</string>
+    <string name="month_view">"လ"</string>
+    <string name="event_view">"ဖြစ်ရပ်များကို ကြည့်ရန်"</string>
+    <string name="event_create">"ဖြစ်ရပ် အသစ်"</string>
+    <string name="event_edit">"ဖြစ်ရပ်ကို တည်းဖြတ်ရန်"</string>
+    <string name="event_delete">"ဖြစ်ရပ်ကို ဖျက်ရန်"</string>
+    <string name="goto_today">"ယနေ့"</string>
+    <string name="menu_preferences">"ဆက်တင်များ"</string>
+    <string name="search">"ရှာဖွေရန်"</string>
+    <string name="hide_controls">"ထိန်းချုပ်မှုများ ဝှက်ထားရန်"</string>
+    <string name="show_controls">"ထိန်းချုပ်မှု ပြရန်"</string>
+    <string name="select_synced_calendars_button">စင့်က် လုပ်ရန် ပြက္ခဒိန်များ</string>
+    <string name="hint_what">"ဖြစ်ရပ် အမည်"</string>
+    <string name="hint_where">"တည်နေရာ"</string>
+    <string name="hint_description">"ဖော်ပြချက်"</string>
+    <string name="hint_attendees">"ဧည့်သည်"</string>
+    <string name="creating_event">"ဖြစ်ရပ်ကို ဖန်တီးလိုက်ပြီ"</string>
+    <string name="saving_event">"ဖြစ်ရပ် သိမ်းဆည်းပြီး"</string>
+    <string name="empty_event">"ပလာ ဖြစ်ရပ်ကို ဖန်တီး မပေးခဲပါ။"</string>
+    <string name="creating_event_with_guest">"အကြောင်းကြားချက်များကို ပို့ပေးမည်။"</string>
+    <string name="saving_event_with_guest">"မွမ်းမံချက်များကို ပို့ပေးမည်။"</string>
+    <string name="rsvp_accepted">"လက်ခံဟု ပြန်ကြားခဲ့သည်။"</string>
+    <string name="rsvp_tentative">"ဖြစ်နိုင်ဟု ပြန်ကြားခဲ့သည်။"</string>
+    <string name="rsvp_declined">"လက်မခံဟု ပြန်ကြားခဲ့သည်။"</string>
+    <string name="create_event_dialog_save">သိမ်းဆည်း</string>
+    <string name="alert_title">ပြက္ခဒိန် အကြောင်းကြားချက်များ</string>
+    <string name="event_info_title">ဖြစ်ရပ် ကြည့်ရန်</string>
+    <string name="event_info_title_invite">တွေ့ဆုံရန် ဖိတ်ကြားချက်</string>
+    <string name="edit_event_to_label">သို့​</string>
+    <string name="edit_event_from_label">မှ</string>
+    <string name="edit_event_all_day_label">တစ်နေ့လုံး</string>
+    <string name="edit_event_calendar_label">ပြက္ခဒိန်</string>
+    <string name="description_label">ဖော်ပြချက်</string>
+    <string name="presence_label">ကျွန်ုပ်ကို အဖြစ် ပြရန်</string>
+    <string name="privacy_label">ကိုယ်ရေး</string>
+    <string name="reminders_label">သတိပေးချက် ထည့်ရန်</string>
+    <string name="no_syncable_calendars">ပြက္ခဒိန်များ မရှိ</string>
+    <string name="no_calendars_found">သင်သည် ဖြစ်ရပ် တစ်ခုကို ထည့်မပေးခင်မှာ၊ သင်သည် အနည်းဆုံး ပြက္ခဒိန် ဖြစ်ရပ် တစ်ခုကို ထည့်ပေးလျက် ပြက္ခဒိန် တစ်ခုကို မြင်ရအောင် လုပ်ပေးရန် လိုမည်။ အကောင့် တစ်ခုကို ထည့်ရန် အကောင့် ထည့်ရန်ကို ထိပါ (အကယ်၍ သင်သည် အကောင့်ကို ယခုလေးတင် ထည့်ပေးခဲ့သည် ဆိုလျှင် ၎င်းက စင့်က် လုပ်ပြီးမှကို စောင့်ပြီး နောက်မှာ ထပ်စမ်းပါ)။ သို့မဟုတ် ပယ်ဖျက်ရန်ကို ထိလိုက်ကာ အနည်းဆုံး ပြက္ခဒိန် တစ်ခု မြင်ရတာ သေချာပါစေ။</string>
+    <string name="add_account">အကောင့် ထည့်ရန်</string>
+    <string name="view_event_calendar_label">ပြက္ခဒိန်:</string>
+    <string name="view_event_organizer_label">စည်းရုံးသူ:</string>
+    <string name="choose_event_color_label">ဖြစ်ရပ် အရောင်ကို ရွေးရန်</string>
+    <string name="event_color_picker_dialog_title">ဖြစ်ရပ် အရောင်</string>
+    <string name="event_color_set_to_default">ပြက္ခဒိန် ပုံသေ အရောင်သို့ သတ်မှတ်ရန်</string>
+    <string name="calendar_color_picker_dialog_title">ပြက္ခဒိန် အရောင်</string>
+    <string name="calendar_square_color_picker_description">အရောင် ရွေးမှု</string>
+    <string name="view_event_response_label">တက်ရောက်မှာလား?</string>
+    <string name="response_yes">လက်ခံ</string>
+    <string name="response_maybe">ဖြစ်နိုင်</string>
+    <string name="response_no">မတက်ပါ</string>
+    <string name="email_guests_label">ဧည့်သည်များထံ အီးမေးလ်ပို့ရန်</string>
+    <string name="email_organizer_label">အီးမေးလ် စည်းရုံးပေးသူ</string>
+    <string name="email_picker_label">...နှင့် အီးမေးလ် ဆက်သွယ်ရန်</string>
+    <string name="event_not_found">"ဖြစ်ရပ်ကို ရှာမတွေ့ခဲ့ပါ။"</string>
+    <string name="map_label">မြေပုံ</string>
+    <string name="call_label">ခေါ်ဆိုမှု</string>
+    <string name="quick_response_settings">အမြန် တုံ့ပြန်မှု</string>
+    <string name="quick_response_settings_summary">ဧည့်သည်များထံ အီးမေးလ် ပို့ချိန်မှာ ပုံသေ တုံ့ပြန်ချက်များကို တည်းဖြတ်ရန်</string>
+    <string name="quick_response_settings_edit_title">အမြန် တုံ့ပြန်ချက်</string>
+    <string name="quick_response_dialog_title">အမြန် တုံ့ပြန်မှုကို ရွေးရန်</string>
+    <string name="quick_response_email_failed">အီးမေးလ် ပရိုဂရမ်ကို ရှာမရခဲ့</string>
+    <string-array name="quick_response_defaults">
+        <item>ပြေးရာမှာ နှစ်မိနစ်ခန့် နောက်ကျနေသည်။</item>
+        <item>အဲဒီကို ၁၀ မိနစ် အတွင်းမှာ ရောက်လာမည်။</item>
+        <item>သွားနှင့်ပြီး ကျွန်ုပ် မပါဘဲ စတင်ပါ။</item>
+        <item>ဆော်ရီး၊ ကျွန်ုပ် အဲဒါကို မလုပ်နိုင်ပါ။ ကျွန်ုပ်တို့ ပြန်ပြီး စီစဉ်ရန် လိုမည်။</item>
+    </string-array>
+    <string name="quick_response_custom_msg">သင် ကိုယ်တိုင်၏…ကို ရေးရန်</string>
+    <string name="event_info_organizer">စည်းရုံးသူ</string>
+    <string name="event_info_reminders_label">သတိပေးချက်များ</string>
+    <string name="loading">တင်နေ…</string>
+    <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> မတိုင်မီတုန်းက ဖြစ်ရပ်များကို ကြည့်ရန် ထိပါ</string>
+    <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> နောက်ပိုင်း ဖြစ်ရပ်များကို ကြည့်ရန် ထိပါ</string>
+    <string name="search_title">ကျွန်ုပ် ပြက္ခဒိန်များ ရှာဖွေ</string>
+    <string name="edit_event_label">"အသေးစိတ်များ"</string>
+    <string name="edit_label">"တည်းဖြတ်"</string>
+    <string name="delete_label">"ဖျက်ရန်"</string>
+    <string name="save_label">လုပ်ပြီး</string>
+    <string name="discard_label">ပယ်ဖျက်ရန်</string>
+    <string name="dismiss_all_label">"အားလုံးကို ပယ်ရန်"</string>
+    <string name="snooze_label">"မှေးမည်"</string>
+    <string name="does_not_repeat">တစ်ကြိမ် ဖြစ်ရပ်</string>
+    <string name="endByDate">;<xliff:g id="DATE">%s</xliff:g> အထိ</string>
+    <plurals name="endByCount">
+        <item quantity="other">;၊ <xliff:g id="NUMBER">%d</xliff:g> ကြိမ်</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> ရက်တိုင်း</item>
+    </plurals>
+    <string name="every_weekday">"ရုံးရက်တိုင်း (တနင်္လာ–သောကြာ)"</string>
+    <plurals name="weekly">
+        <item quantity="other"><xliff:g id="NUMBER">%1$d</xliff:g> ပတ်တိုင်း <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g> တွင်</item>
+    </plurals>
+    <string name="monthly">လစဉ်</string>
+    <string name="yearly_plain">နှစ်စဉ်</string>
+    <string name="custom" product="default">"စိတ်ကြိုက် (ဖုန်း ထဲတွင် စိတ်ကြိုက် ပြုပြင် မရပါ)"</string>
+    <string name="modify_event">ဒီဖြစ်ရပ်ကိုသာ ပြောင်းလဲရန်</string>
+    <string name="modify_all">စီးရီးများထဲက ဖြစ်ရပ် အားလုံး ပြောင်းလဲရန်</string>
+    <string name="modify_all_following">လက်ရှိ နှင့် အနာဂတ် ဖြစ်ရပ်များကို ပြောင်းလဲရန်</string>
+    <string name="new_event_dialog_label">"ဖြစ်ရပ် အသစ်"</string>
+    <string name="new_event_dialog_option">"ဖြစ်ရပ် အသစ်"</string>
+    <string name="delete_this_event_title">ဒီဖြစ်ရပ်ကို ဖျက်ရမလား?</string>
+    <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g>ကို ဖျက်ရမလား?</string>
+    <string name="change_response_title">တုံ့ပြန်ချက်ကို ပြောင်းလဲရန်</string>
+    <string name="preferences_title">"ဆက်တင်များ"</string>
+    <string name="preferences_general_title">ပြက္ခဒိန် မြင်ကွင်း ဆက်တင်</string>
+    <string name="preferences_reminder_title">အကြောင်းကြားချက်များ &amp; သတိပေးချက်များ</string>
+    <string name="preferences_hide_declined_title">ငြင်းထားသည့် ပွဲများဖျောက်ထားရန်</string>
+    <string name="preferences_week_start_day_title">အပတ် စတင်သည်မှာ</string>
+    <string name="preferences_week_start_day_dialog">အပတ် စတင်သည်မှာ</string>
+    <string name="preferences_clear_search_history_title">ရှာဖွေမှု မှတ်တမ်းကို ရှင်းရန်</string>
+    <string name="preferences_clear_search_history_summary">သင် လုပ်ဆောင်ခဲ့သည့် ရှာဖွေမှု အားလုံး ဖယ်ရှားရန်</string>
+    <string name="search_history_cleared">ရှာဖွေမှု မှတ်တမ်း ရှင်းပြီးပြီ။</string>
+    <string name="preferences_alerts_title">အကြောင်းကြားချက်များ</string>
+    <string name="preferences_alerts_vibrateWhen_title">တုန်ခါမှု</string>
+    <string name="preferences_alerts_ringtone_title">အသံ</string>
+    <string name="preferences_alerts_popup_title">ပေါ့အာပ် အကြောင်းကြားချက်များ</string>
+    <string name="preferences_default_reminder_title">သတိပေးချက် ပုံသေ အချိန်</string>
+    <string name="preferences_default_reminder_dialog">သတိပေးချက် ပုံသေ အချိန်</string>
+    <string name="preferences_default_reminder_default">၁၀</string>
+    <string name="preferences_use_home_tz_title">အိမ်ချိန်ဇုန်သုံးရန်</string>
+    <string name="preferences_use_home_tz_descrip">ခရီးမှာ ပြက္ခဒိန် နှင့် ဖြစ်ရပ်ချိန်ကို သင့်အိမ် အချိန် ဇုန်ဖြင့် ပြရန်</string>
+    <string name="preferences_home_tz_title">အိမ်၏ အချိန် ဇုန်</string>
+    <string name="preferences_show_week_num_title">အပတ်၏ နံပါတ်စဉ်ကို ပြရန်</string>
+    <string name="preferences_build_version">တည်ဆောက်မှု ဗားရှင်း</string>
+    <plurals name="month_more_events">
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">လာမည့် ပြက္ခဒိန် ဖြစ်ရပ်များ မရှိ</string>
+    <string name="preferences_experimental_category">စမ်းသပ်ရေး</string>
+    <string name="preferences_reminders_responded_label">သတိပေးချက်များ ကျော်ရန်</string>
+    <string name="preferences_reminders_responded_dialog">သတိပေးချက်များ ကျော်ရန်</string>
+    <string name="copy_db">ဒေတာဘေ့စ် ပို့ရန်</string>
+    <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> ကို ရှာနေ…</string>
+    <string name="accessibility_remove_attendee">တက်ရောက်သူကို ဖယ်ရှားရန်</string>
+    <string name="accessibility_pick_start_date">စတင်မှု ရက်စွဲ</string>
+    <string name="accessibility_pick_start_time">စတင်ချိန်</string>
+    <string name="accessibility_pick_end_date">ပြီးဆုံးမှု ရက်စွဲ</string>
+    <string name="accessibility_pick_end_time">ပြီးဆုံးချိန်</string>
+    <string name="accessibility_pick_time_zone">အချိန် ဇုန်</string>
+    <string name="accessibility_pick_recurrence">ဖြစ်ရပ်ကို ထပ်လုပ်ရန်</string>
+    <string name="accessibility_add_reminder">သတိပေးချက် ထည့်ရန်</string>
+    <string name="accessibility_remove_reminder">သတိပေးမှု ဖယ်ရှားရန်</string>
+    <string name="accessibility_add_attendee">တက်ရောက်သူကို ထည့်ရန်</string>
+    <string name="accessibility_all_day">တစ်နေ့လုံး ဖြစ်ရပ်</string>
+    <string name="accessibility_reminder_time">သတိပေးချက် အချိန်</string>
+    <string name="accessibility_reminder_type">သတိပေးချက် ပုံစံ</string>
+    <string name="accessibility_reminder_showmeas">ကျွန်ုပ်ကို ...အဖြစ် ပြရန်</string>
+    <string name="accessibility_reminder_privacy">ကိုယ်ရေး</string>
+    <string name="day_view_new_event_hint">+ ဖြစ်ရပ် အသစ်</string>
+    <string name="template_announce_item_index">ဖြစ်ရပ် <xliff:g id="ITEM_INDEX">%1$s</xliff:g> of <xliff:g id="ITEM_COUNT">%2$s</xliff:g>။</string>
+    <plurals name="Nevents">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ဖြစ်ရပ်များ</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> ဖြစ်ရပ်များ</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">ရွေထားသည့် ဖြစ်ရပ်</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ရက်တိုင်း</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ပတ်တိုင်း</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> လတိုင်း</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> နှစ်တိုင်း</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">လစဉ် ထို နေ့မှာ</string>
+    <string name="recurrence_end_continously">ထာဝရ</string>
+    <string name="recurrence_end_date_label">ရက်စွဲ အထိ</string>
+    <string name="recurrence_end_date"><xliff:g id="DATE">%s</xliff:g> အထိ</string>
+    <string name="recurrence_end_count_label">ဖြစ်ရပ် တစ်သီကြီး အတွက်</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="other">ဖြစ်ရပ်များ <xliff:g id="EVENT_COUNT">%d</xliff:g> အတွက်</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">ပြီးဆုံးရက်စွဲကို ပြောင်းရန်</string>
+</resources>

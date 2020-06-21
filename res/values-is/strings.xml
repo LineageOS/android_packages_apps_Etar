@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Dagatal</string>
+    <string name="what_label">Hvað</string>
+    <string name="where_label">Hvar</string>
+    <string name="when_label">Hvenær</string>
+    <string name="timezone_label">Tímabelti</string>
+    <string name="attendees_label">Gestir</string>
+    <string name="today">Í dag</string>
+    <string name="tomorrow">Á morgun</string>
+    <string name="today_at_time_fmt">"Í dag klukkan <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"Á morgun klukkan <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g> kl. <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">Endurtekning</string>
+    <string name="no_title_label">(Enginn titill)</string>
+    <plurals name="Nminutes">
+        <item quantity="one">1 mínúta</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> mínútur</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 mín.</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> mín.</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 klukkustund</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> klukkustundir</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 dagur</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dagar</item>
+    </plurals>
+    <string name="show_day_view">"Sýna dag"</string>
+    <string name="agenda_view">"Dagskrá"</string>
+    <string name="day_view">"Dagur"</string>
+    <string name="week_view">"Vika"</string>
+    <string name="month_view">"Mánuður"</string>
+    <string name="event_view">"Skoða viðburð"</string>
+    <string name="event_create">"Nýr viðburður"</string>
+    <string name="event_edit">"Breyta viðburði"</string>
+    <string name="event_delete">"Eyða viðburði"</string>
+    <string name="goto_today">"Í dag"</string>
+    <string name="menu_preferences">"Stillingar"</string>
+    <string name="search">"Leita"</string>
+    <string name="hide_controls">"Fela stýringu"</string>
+    <string name="show_controls">"Sýna stýringar"</string>
+    <string name="select_synced_calendars_button">Dagatöl sem á að samstilla</string>
+    <string name="hint_what">"Heiti viðburðar"</string>
+    <string name="hint_where">"Staðsetning"</string>
+    <string name="hint_description">"Lýsing"</string>
+    <string name="hint_attendees">"Gestir"</string>
+    <string name="creating_event">"Viðburður búinn til."</string>
+    <string name="saving_event">"Viðburður vistaður."</string>
+    <string name="empty_event">"Tómur viðburður ekki vistaður."</string>
+    <string name="creating_event_with_guest">"Boð verða send."</string>
+    <string name="saving_event_with_guest">"Uppfærslur verða sendar."</string>
+    <string name="rsvp_accepted">"Mætir."</string>
+    <string name="rsvp_tentative">"Mætir kannski."</string>
+    <string name="rsvp_declined">"Mætir ekki."</string>
+    <string name="create_event_dialog_save">Vista</string>
+    <string name="alert_title">Dagatalstilkynningar</string>
+    <string name="event_info_title">Skoða viðburð</string>
+    <string name="event_info_title_invite">Fundarboð</string>
+    <string name="edit_event_to_label">Til</string>
+    <string name="edit_event_from_label">Frá</string>
+    <string name="edit_event_all_day_label">Allur dagurinn</string>
+    <string name="edit_event_calendar_label">Dagatal</string>
+    <string name="description_label">Lýsing</string>
+    <string name="presence_label">Sýna að ég sé</string>
+    <string name="privacy_label">Birtingarstillingar</string>
+    <string name="reminders_label">Bæta áminningu við</string>
+    <string name="no_syncable_calendars">Engin dagatöl</string>
+    <string name="no_calendars_found">Áður en þú getur bætt viðburði við verður þú að bæta a.m.k. einum dagatalsreikningi við tækið þitt og gera dagatal sýnilegt. Smelltu á Bæta við reikningi til að bæta reikningi við (ef þú hefur þegar bætt reikningi við skaltu bíða eftir að samstillingu hans ljúki og reyna aftur). Eða smelltu á Hætta við til að ganga úr skugga um að a.m.k. eitt dagatal sé sýnilegt.</string>
+    <string name="add_account">Bæta við reikningi</string>
+    <string name="view_event_calendar_label">Dagatal:</string>
+    <string name="view_event_organizer_label">Skipuleggjandi:</string>
+    <string name="choose_event_color_label">Velja lit fyrir viðburðinn</string>
+    <string name="event_color_picker_dialog_title">Litur viðburðar</string>
+    <string name="event_color_set_to_default">Nota sjálfgefinn lit fyrir dagatal</string>
+    <string name="calendar_color_picker_dialog_title">Litur dagatals</string>
+    <string name="calendar_square_color_picker_description">Litaval</string>
+    <string name="view_event_response_label">Ætlarðu að mæta?</string>
+    <string name="response_yes">Já</string>
+    <string name="response_maybe">Kannski</string>
+    <string name="response_no">Nei</string>
+    <string name="email_guests_label">Senda gestum tölvupóst</string>
+    <string name="email_organizer_label">Senda skipuleggjanda tölvupóst</string>
+    <string name="email_picker_label">Senda með</string>
+    <string name="event_not_found">"Viðburðurinn fannst ekki."</string>
+    <string name="map_label">Kort</string>
+    <string name="call_label">Hringja</string>
+    <string name="quick_response_settings">Snarsvör</string>
+    <string name="quick_response_settings_summary">Breyta sjálfgefnum svörum þegar gestum er sendur tölvupóstur</string>
+    <string name="quick_response_settings_edit_title">Snarsvar</string>
+    <string name="quick_response_dialog_title">Veldu snarsvar</string>
+    <string name="quick_response_email_failed">Tókst ekki að finna tölvupóstsforrit</string>
+    <string-array name="quick_response_defaults">
+        <item>Mér seinkar um nokkrar mínútur.</item>
+        <item>Mæti eftir um það bil 10 mínútur.</item>
+        <item>Byrjið bara á undan mér.</item>
+        <item>Því miður kemst ég ekki. Við verðum að finna annan tíma.</item>
+    </string-array>
+    <string name="quick_response_custom_msg">Skrifaðu þitt eigið...</string>
+    <string name="event_info_organizer">Skipuleggjandi:</string>
+    <string name="event_info_reminders_label">Áminningar</string>
+    <string name="loading">Hleður…</string>
+    <string name="show_older_events">Snertu til að skoða viðburði fyrir <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
+    <string name="show_newer_events">Snertu til að skoða viðburði eftir <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
+    <string name="search_title">Leita í dagatölunum mínum</string>
+    <string name="edit_event_label">"Upplýsingar"</string>
+    <string name="edit_label">"Breyta"</string>
+    <string name="delete_label">"Eyða"</string>
+    <string name="save_label">Lokið</string>
+    <string name="discard_label">Hætta við</string>
+    <string name="dismiss_all_label">"Hunsa allt"</string>
+    <string name="snooze_label">"Þagga"</string>
+    <string name="does_not_repeat">Eitt skipti</string>
+    <string name="endByDate">, til <xliff:g id="DATE">%s</xliff:g></string>
+    <plurals name="endByCount">
+        <item quantity="one">, í eitt skipti</item>
+        <item quantity="other">, <xliff:g id="NUMBER">%d</xliff:g> sinnum</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Daglega</item>
+        <item quantity="other">Á <xliff:g id="NUMBER">%d</xliff:g> daga fresti</item>
+    </plurals>
+    <string name="every_weekday">"Alla virka daga (mán.–fös.)"</string>
+    <plurals name="weekly">
+        <item quantity="one">Vikulega á <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+        <item quantity="other">Á <xliff:g id="NUMBER">%1$d</xliff:g> þriggja vikna fresti á <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+    </plurals>
+    <string name="monthly">Mánaðarlega</string>
+    <string name="yearly_plain">Árlega</string>
+    <string name="custom" product="default">"Sérsniðið (ekki er hægt að sérsníða í síma)"</string>
+    <string name="modify_event">Breyta þessum viðburði eingöngu</string>
+    <string name="modify_all">Breyta öllum viðburðum í röðinni</string>
+    <string name="modify_all_following">Breyta þessum viðburði og öllum síðari viðburðum</string>
+    <string name="new_event_dialog_label">"Nýr viðburður"</string>
+    <string name="new_event_dialog_option">"Nýr viðburður"</string>
+    <string name="delete_this_event_title">Eyða þessum viðburði?</string>
+    <string name="delete_recurring_event_title">Eyða <xliff:g id="EVENTTITLE">%s</xliff:g>?</string>
+    <string name="change_response_title">Breyta svari</string>
+    <string name="preferences_title">"Stillingar"</string>
+    <string name="preferences_general_title">Birtingarstilling dagatals</string>
+    <string name="preferences_reminder_title">Tilkynningar og áminningar</string>
+    <string name="preferences_hide_declined_title">Fela viðburði sem hefur verið hafnað</string>
+    <string name="preferences_week_start_day_title">Vika byrjar á</string>
+    <string name="preferences_week_start_day_dialog">Vika byrjar á</string>
+    <string name="preferences_clear_search_history_title">Hreinsa leitarferil</string>
+    <string name="preferences_clear_search_history_summary">Fjarlægja allar fyrri leitir</string>
+    <string name="search_history_cleared">Leitarferill hreinsaður.</string>
+    <string name="preferences_alerts_title">Tilkynningar</string>
+    <string name="preferences_alerts_vibrateWhen_title">Titringur</string>
+    <string name="preferences_alerts_ringtone_title">Hljóð</string>
+    <string name="preferences_alerts_popup_title">Tilkynning í sprettiglugga</string>
+    <string name="preferences_default_reminder_title">Sjálfgefinn áminningartími</string>
+    <string name="preferences_default_reminder_dialog">Sjálfgefinn áminningartími</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">Nota tímabelti heimalands míns</string>
+    <string name="preferences_use_home_tz_descrip">Birtir dagatöl og tímasetningu viðburða með tíma heimalands</string>
+    <string name="preferences_home_tz_title">Heimatímabelti</string>
+    <string name="preferences_show_week_num_title">Sýna vikunúmer</string>
+    <string name="preferences_build_version">Útgáfa smíðar</string>
+    <plurals name="month_more_events">
+        <item quantity="one">"+1"</item>
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">Engir viðburðir á döfinni</string>
+    <string name="preferences_experimental_category">Tilraunaeiginleiki</string>
+    <string name="preferences_reminders_responded_label">Sleppa áminningum</string>
+    <string name="preferences_reminders_responded_dialog">Sleppa áminningum</string>
+    <string name="copy_db">Senda gagnagrunn</string>
+    <string name="directory_searching_fmt">Leitar í <xliff:g id="DOMAIN">%s</xliff:g>…</string>
+    <string name="accessibility_remove_attendee">Fjarlægja þátttakanda</string>
+    <string name="accessibility_pick_start_date">Upphafsdagur</string>
+    <string name="accessibility_pick_start_time">Upphafstími</string>
+    <string name="accessibility_pick_end_date">Lokadagur</string>
+    <string name="accessibility_pick_end_time">Lokatími</string>
+    <string name="accessibility_pick_time_zone">Tímabelti</string>
+    <string name="accessibility_pick_recurrence">Endurtaka viðburð</string>
+    <string name="accessibility_add_reminder">Bæta áminningu við</string>
+    <string name="accessibility_remove_reminder">Fjarlægja áminningu</string>
+    <string name="accessibility_add_attendee">Bæta þátttakanda við</string>
+    <string name="accessibility_all_day">Heilsdagsviðburður</string>
+    <string name="accessibility_reminder_time">Tími áminningar</string>
+    <string name="accessibility_reminder_type">Tegund áminningar</string>
+    <string name="accessibility_reminder_showmeas">Sýna að ég sé</string>
+    <string name="accessibility_reminder_privacy">Birtingarstilling</string>
+    <string name="day_view_new_event_hint">+ Nýr viðburður</string>
+    <string name="template_announce_item_index">Viðburður <xliff:g id="ITEM_INDEX">%1$s</xliff:g> af <xliff:g id="ITEM_COUNT">%2$s</xliff:g>.</string>
+    <plurals name="Nevents">
+        <item quantity="one">1 viðburður</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> viðburðir</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 viðburður</item>
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> viðburðir</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">Valinn viðburður</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Á <xliff:g id="COUNT">%d</xliff:g> dags fresti</item>
+        <item quantity="other">Á <xliff:g id="COUNT">%d</xliff:g> daga fresti</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Á <xliff:g id="COUNT">%d</xliff:g> viku fresti</item>
+        <item quantity="other">Á <xliff:g id="COUNT">%d</xliff:g> vikna fresti</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Á <xliff:g id="COUNT">%d</xliff:g> mánaðar fresti</item>
+        <item quantity="other">Á <xliff:g id="COUNT">%d</xliff:g> mánaða fresti</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Á <xliff:g id="COUNT">%d</xliff:g> árs fresti</item>
+        <item quantity="other">Á <xliff:g id="COUNT">%d</xliff:g> ára fresti</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">sama dag í hverjum mánuði</string>
+    <string name="recurrence_end_continously">Ótímabundið</string>
+    <string name="recurrence_end_date_label">Til</string>
+    <string name="recurrence_end_date">Til <xliff:g id="DATE">%s</xliff:g></string>
+    <string name="recurrence_end_count_label">Fyrir marga viðburði</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Fyrir <xliff:g id="EVENT_COUNT">%d</xliff:g> viðburði</item>
+        <item quantity="other">Fyrir <xliff:g id="EVENT_COUNT">%d</xliff:g> viðburði</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">breyta lokadegi</string>
+</resources>

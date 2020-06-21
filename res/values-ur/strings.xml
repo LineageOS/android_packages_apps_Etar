@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">کیلنڈر</string>
+    <string name="what_label">کیا</string>
+    <string name="where_label">کہاں</string>
+    <string name="when_label">کب</string>
+    <string name="timezone_label">ٹائم زون</string>
+    <string name="today">آج</string>
+    <string name="tomorrow">آئندہ کل</string>
+    <string name="today_at_time_fmt">"آج بوقت <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"آئندہ کل بوقت <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>، <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="no_title_label">(کوئی عنوان نہیں)</string>
+    <string name="show_day_view">"دن دکھائیں"</string>
+    <string name="day_view">"دن"</string>
+    <string name="week_view">"ہفتہ"</string>
+    <string name="month_view">"مہینہ"</string>
+    <string name="event_view">"ایونٹ دیکھیں"</string>
+    <string name="event_create">"نیا ایونٹ"</string>
+    <string name="event_edit">"ایونٹ میں ترمیم کریں"</string>
+    <string name="event_delete">"ایونٹ حذف کریں"</string>
+    <string name="search">"تلاش کریں"</string>
+    <string name="hint_what">"ایونٹ کا نام"</string>
+    <string name="hint_where">"مقام"</string>
+    <string name="hint_description">"تفصیل"</string>
+    <string name="creating_event">"ایونٹ بنا دیا گیا۔"</string>
+    <string name="saving_event">"ایونٹ محفوظ کر دیا گیا۔"</string>
+    <string name="empty_event">"خالی ایونٹ نہیں بنایا گیا۔"</string>
+    <string name="creating_event_with_guest">"دعوت نامے بھیج دیے جائیں گے۔"</string>
+    <string name="saving_event_with_guest">"اپ ڈیٹس بھیج دیے جائیں گے۔"</string>
+    <string name="rsvp_accepted">"ہاں میں جواب دیا۔"</string>
+    <string name="rsvp_tentative">"شاید میں جواب دیا۔"</string>
+    <string name="rsvp_declined">"نہیں میں جواب دیا۔"</string>
+    <string name="create_event_dialog_save">محفوظ کریں</string>
+    <string name="alert_title">کیلنڈر کی اطلاعات</string>
+    <string name="event_info_title">ایونٹ دیکھیں</string>
+    <string name="event_info_title_invite">میٹنگ کا دعوت نامہ</string>
+    <string name="edit_event_all_day_label">پورے دن</string>
+    <string name="description_label">تفصیل</string>
+    <string name="presence_label">مجھے دکھائیں بطور</string>
+    <string name="privacy_label">رازداری</string>
+    <string name="no_syncable_calendars">کوئی کیلنڈرز نہیں ہیں</string>
+    <string name="view_event_calendar_label">کیلنڈر:</string>
+    <string name="view_event_organizer_label">منتظم:</string>
+    <string name="choose_event_color_label">ایونٹ کا رنگ منتخب کریں</string>
+    <string name="event_color_picker_dialog_title">ایونٹ کا رنگ</string>
+    <string name="event_color_set_to_default">ڈیفالٹ کیلنڈر رنگ پر سیٹ کریں</string>
+    <string name="calendar_color_picker_dialog_title">کیلنڈر کا رنگ</string>
+    <string name="response_yes">ہاں</string>
+    <string name="response_maybe">شاید</string>
+    <string name="response_no">نہیں</string>
+    <string name="email_guests_label">مہمانوں کو ای میل کریں</string>
+    <string name="email_organizer_label">منتظم کو ای میل کریں</string>
+    <string name="email_picker_label">اس کے ساتھ ای میل کریں</string>
+    <string name="event_not_found">"ایونٹ نہیں ملا۔"</string>
+    <string name="map_label">نقشہ</string>
+    <string name="quick_response_settings">فوری جوابات</string>
+    <string name="quick_response_settings_summary">مہمانوں کو ای میل کرتے وقت ڈیفالٹ جوابات میں ترمیم کریں</string>
+    <string name="quick_response_settings_edit_title">فوری جواب</string>
+    <string name="quick_response_dialog_title">فوری جواب منتخب کریں</string>
+    <string name="quick_response_email_failed">ای میل پروگرام تلاش کرنا ناکام ہوگیا۔</string>
+    <string-array name="quick_response_defaults">
+        <item>محض کچھ منٹ کی تاخیر سے چل رہا ہے۔</item>
+        <item>تقریباً 10 منٹ میں وہاں پہنچیں۔</item>
+        <item>آگے بڑھیں اور میرے بغیر شروع کریں۔</item>
+        <item>معذرت، میں اسے نہیں کر سکتا۔ ہمیں اسے دوبارہ شیڈول کرنا ہوگا۔</item>
+    </string-array>
+    <string name="quick_response_custom_msg">خود اپنا تحریر کریں…</string>
+    <string name="loading">لوڈ ہو رہا ہے…</string>
+    <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> سے پہلے ایونٹس دیکھنے کیلئے ٹچ کریں</string>
+    <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> کے بعد ایونٹس دیکھنے کیلئے ٹچ کریں</string>
+    <string name="search_title">میرے کیلنڈرز کی تلاش کریں</string>
+    <string name="edit_event_label">"تفصیلات"</string>
+    <string name="edit_label">"ترمیم کریں"</string>
+    <string name="modify_event">صرف یہ ایونٹ تبدیل کریں</string>
+    <string name="modify_all">سلسلے کے سبھی ایونٹس تبدیل کریں</string>
+    <string name="modify_all_following">یہ اور سبھی آئندہ ایونٹس تبدیل کریں</string>
+    <string name="new_event_dialog_label">"نیا ایونٹ"</string>
+    <string name="new_event_dialog_option">"نیا ایونٹ"</string>
+    <string name="delete_this_event_title">یہ ایونٹ حذف کریں؟</string>
+    <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g> کو حذف کریں؟</string>
+    <string name="change_response_title">جواب تبدیل کریں</string>
+    <string name="preferences_title">"ترتیبات"</string>
+    <string name="preferences_general_title">کیلنڈر منظر کی ترتیب</string>
+    <string name="preferences_reminder_title">اطلاعات اور یاد دہانیاں</string>
+    <string name="preferences_hide_declined_title">مسترد ایونٹس چھپائیں</string>
+    <string name="preferences_clear_search_history_title">تلاش کی سرگزشت صاف کریں</string>
+    <string name="preferences_clear_search_history_summary">اپنے ذریعے کی گئی سبھی تلاشیں ہٹائیں</string>
+    <string name="search_history_cleared">تلاش کی سرگزشت صاف کر دی گئی۔</string>
+    <string name="preferences_alerts_title">اطلاعات</string>
+    <string name="preferences_alerts_vibrateWhen_title">وائبریٹ کرے</string>
+    <string name="preferences_alerts_ringtone_title">آواز</string>
+    <string name="preferences_default_reminder_title">ڈیفالٹ یاد دہانی کا وقت</string>
+    <string name="preferences_default_reminder_dialog">ڈیفالٹ یاد دہانی کا وقت</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">گھر کا ٹائم زون استعمال کریں</string>
+    <string name="preferences_use_home_tz_descrip">سفر کے دوران آپ کے گھر کے ٹائم زون میں کیلنڈر اور ایونٹ کے اوقات ڈسپلے کرتا ہے</string>
+    <string name="preferences_home_tz_title">گھر کا ٹائم زون</string>
+    <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> کی تلاش ہو رہی ہے…</string>
+    <string name="accessibility_pick_time_zone">ٹائم زون</string>
+    <string name="accessibility_pick_recurrence">ایونٹ دہرائیں</string>
+    <string name="accessibility_add_reminder">یاد دہانی شامل کریں</string>
+    <string name="accessibility_all_day">پورے دن کا ایونٹ</string>
+    <string name="accessibility_reminder_time">یاد دہانی کا وقت</string>
+    <string name="accessibility_reminder_type">یاد دہانی کی قسم</string>
+    <string name="accessibility_reminder_showmeas">مجھے دکھائیں بطور</string>
+    <string name="day_view_new_event_hint">+ نیا ایونٹ</string>
+    <string name="template_announce_item_index">ایونٹ <xliff:g id="ITEM_INDEX">%1$s</xliff:g> از <xliff:g id="ITEM_COUNT">%2$s</xliff:g>۔</string>
+    <string name="acessibility_selected_marker_description">منتخب ایونٹس</string>
+</resources>

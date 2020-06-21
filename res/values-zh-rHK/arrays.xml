@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>通知</item>
+        <item>電郵</item>
+        <item>短訊</item>
+        <item>鬧鐘</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 分鐘</item>
+        <item>1 分鐘</item>
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>12 小時</item>
+        <item>24 小時</item>
+        <item>2 天</item>
+        <item>1 星期</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>無</item>
+        <item>0 分鐘</item>
+        <item>1 分鐘</item>
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>12 小時</item>
+        <item>24 小時</item>
+        <item>2 天</item>
+        <item>1 週</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>地區設定預設值</item>
+        <item>星期六</item>
+        <item>星期日</item>
+        <item>星期一</item>
+    </string-array>
+    <string-array name="availability">
+        <item>忙碌</item>
+        <item>有空</item>
+        <item>暫定</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>沒有回應</item>
+        <item>是</item>
+        <item>不確定</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>僅限此活動</item>
+        <item>此活動及未來活動</item>
+        <item>所有活動</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>僅限此活動</item>
+        <item>系列中的所有活動</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>日</item>
+        <item>週</item>
+        <item>月</item>
+        <item>待辦事項</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>只限拒絕時</item>
+        <item>拒絕或未回應時</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>每天重複</item>
+        <item>每星期重複</item>
+        <item>每月重複</item>
+        <item>每年重複</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>逢每月第一個星期日</item>
+        <item>逢每月第二個星期日</item>
+        <item>逢每月第三個星期日</item>
+        <item>逢每月第四個星期日</item>
+        <item>逢每月最後一個星期日</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>逢每月第一個星期一</item>
+        <item>逢每月第二個星期一</item>
+        <item>逢每月第三個星期一</item>
+        <item>逢每月第四個星期一</item>
+        <item>逢每月最後一個星期一</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>逢每月第一個星期二</item>
+        <item>逢每月第二個星期二</item>
+        <item>逢每月第三個星期二</item>
+        <item>逢每月第四個星期二</item>
+        <item>逢每月最後一個星期二</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>逢每月第一個星期三</item>
+        <item>逢每月第二個星期三</item>
+        <item>逢每月第三個星期三</item>
+        <item>逢每月第四個星期三</item>
+        <item>逢每月最後一個星期三</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>逢每月第一個星期四</item>
+        <item>逢每月第二個星期四</item>
+        <item>逢每月第三個星期四</item>
+        <item>逢每月第四個星期四</item>
+        <item>逢每月最後一個星期四</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>逢每月第一個星期五</item>
+        <item>逢每月第二個星期五</item>
+        <item>逢每月第三個星期五</item>
+        <item>逢每月第四個星期五</item>
+        <item>逢每月最後一個星期五</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>逢每月第一個星期六</item>
+        <item>逢每月第二個星期六</item>
+        <item>逢每月第三個星期六</item>
+        <item>逢每月第四個星期六</item>
+        <item>逢每月最後一個星期六</item>
+    </string-array>
+</resources>

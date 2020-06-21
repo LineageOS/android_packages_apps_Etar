@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Təqvim</string>
+    <string name="what_label">Nə</string>
+    <string name="where_label">Harada</string>
+    <string name="when_label">Nə vaxt</string>
+    <string name="timezone_label">Saat qurşağı</string>
+    <string name="attendees_label">Qonaqlar</string>
+    <string name="today">Bu gün</string>
+    <string name="tomorrow">Sabah</string>
+    <string name="today_at_time_fmt">"Bu gün saat <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"Sabah saat <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">Təkrarlama</string>
+    <string name="no_title_label">(Başlıq yoxdur)</string>
+    <plurals name="Nminutes">
+        <item quantity="one">1 dəqiqə</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dəqiqə</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 dəq</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dəq</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 saat</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> saat</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 gün</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> gün</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g>. həftə</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>. həftə</item>
+    </plurals>
+    <string name="calendar_refresh">"Təzələ"</string>
+    <string name="show_day_view">"Günü göstər"</string>
+    <string name="agenda_view">"Gündəlik"</string>
+    <string name="day_view">"Gün"</string>
+    <string name="week_view">"Həftə"</string>
+    <string name="month_view">"Ay"</string>
+    <string name="event_view">"Tədbirə bax"</string>
+    <string name="event_create">"Yeni tədbir"</string>
+    <string name="event_edit">"Tədbiri redaktə et"</string>
+    <string name="event_delete">"Tədbiri sil"</string>
+    <string name="share_label">Paylaş</string>
+    <string name="goto_today">"Bugün"</string>
+    <string name="goto_date">Get\u2026</string>
+    <string name="menu_preferences">"Parametrlər"</string>
+    <string name="search">"Axtarış"</string>
+    <string name="hide_controls">"Kontrolu gizlət"</string>
+    <string name="show_controls">"Kontrolu göstər"</string>
+    <string name="view_settings">"Tənzimləmələrə bax"</string>
+    <string name="select_synced_calendars_button">Sinxronlaşdırılacaq təqvimlər</string>
+    <string name="hint_what">"Tədbir adı"</string>
+    <string name="hint_where">"Yer"</string>
+    <string name="hint_description">"Təsvir"</string>
+    <string name="hint_attendees">"Qonaqlar"</string>
+    <string name="creating_event">"Tədbir yaradıldı."</string>
+    <string name="saving_event">"Tədbir yadda saxlanıldı."</string>
+    <string name="empty_event">"Boş tədbir yaradıla bilmədi."</string>
+    <string name="creating_event_with_guest">"Dəvətlər göndəriləcək."</string>
+    <string name="saving_event_with_guest">"Güncəlləmələr göndəriləcək."</string>
+    <string name="rsvp_accepted">"Bəli cavabı verildi."</string>
+    <string name="rsvp_tentative">"Bəlkə cavabı verildi."</string>
+    <string name="rsvp_declined">"Xeyr cavabı verildi."</string>
+    <string name="create_event_dialog_save">Yadda saxla</string>
+    <string name="alert_title">Təqvim bildirişləri</string>
+    <string name="foreground_notification_channel_name">Xəbərdarlıq eyniləşdirməsi</string>
+    <string name="foreground_notification_channel_description">Daxili xəbərdarlıq eyniləşdirməsi üçün önplan bildirişi tələb olunur.</string>
+    <string name="event_info_title">Tədbirə bax</string>
+    <string name="event_info_title_invite">Yığıncaq dəvəti</string>
+    <string name="edit_event_to_label">Kimə</string>
+    <string name="edit_event_from_label">Kimdən</string>
+    <string name="edit_event_all_day_label">Bütün gün</string>
+    <string name="edit_event_calendar_label">Təqvim</string>
+    <string name="description_label">Təsvir</string>
+    <string name="presence_label">Mən:</string>
+    <string name="privacy_label">Gizlilik</string>
+    <string name="reminders_label">Xatırladıcı əlavə et</string>
+    <string name="no_syncable_calendars">Təqvim yoxdur</string>
+    <string name="no_calendars_found">Tədbir əlavə etməzdən əvvəl cihaza ən az bir Təqvim hesabı əlavə edib təqvimi görünən etməlisiniz. Hesab əlavə etmək üçün Hesab Əlavə Et-ə toxunun (əgər yenicə hesab əlavə etmisinizsə, onun sinxronlaşdırılmasını gözləyin və yenidən yoxlayın). Və ya Ləğv Et-ə toxunun və ən az bir təqvimin görünən olduğundan əmin olun.</string>
+    <string name="add_account">Hesab əlavə et</string>
+    <string name="view_event_calendar_label">Təqvim:</string>
+    <string name="view_event_organizer_label">Təşkilatçı:</string>
+    <string name="choose_event_color_label">Tədbir rəngini seç</string>
+    <string name="event_color_picker_dialog_title">Tədbirin Rəngi</string>
+    <string name="event_color_set_to_default">Təqvimin defolt rəngini təyin et</string>
+    <string name="calendar_color_picker_dialog_title">Təqvim Rəngi</string>
+    <string name="calendar_square_color_picker_description">Rəng seçən</string>
+    <string name="view_event_response_label">İştirak edirsiniz?</string>
+    <string name="response_yes">Bəli</string>
+    <string name="response_maybe">Bəlkə</string>
+    <string name="response_no">Xeyr</string>
+    <string name="email_guests_label">Qonaqlara e-poçt göndər</string>
+    <string name="email_organizer_label">Təşkilatçıya e-poçt göndər</string>
+    <string name="email_picker_label">E-poçt ilə yazış:</string>
+    <string name="event_not_found">"Tədbir tapılmadı."</string>
+    <string name="map_label">Xəritə</string>
+    <string name="no_map">Xəritə tətbiqi quraşdırılmayıb</string>
+    <string name="call_label">Zəng et</string>
+    <string name="quick_response_settings">Qısa cavablar</string>
+    <string name="quick_response_settings_summary">Qonaqlara e-poçt göndərərkən defolt cavabları redaktə et</string>
+    <string name="quick_response_settings_edit_title">Qısa cavab</string>
+    <string name="quick_response_dialog_title">Qısa cavab seç</string>
+    <string name="quick_response_email_failed">E-poçt proqram tapılmadı</string>
+    <string-array name="quick_response_defaults">
+        <item>Sadəcə bir neçə dəqiqə gec qalır.</item>
+        <item>10 dəqiqə içərisində orda olun.</item>
+        <item>Davam edin və mənsiz başlayın.</item>
+        <item>Bağışlayın, mənə uyğun deyil. Yenidən planlaşdırmalı olacağıq.</item>
+    </string-array>
+    <string name="quick_response_custom_msg">Özünüzünkünü yazın…</string>
+    <string name="event_info_organizer">Təşkilatçı:</string>
+    <string name="event_info_reminders_label">Xatırladıcılar</string>
+    <string name="agenda_today">Bugün, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Dünən, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Sabah, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="loading">Yüklənir…</string>
+    <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> seçimindən əvvəlki tədbirləri görmək üçün toxunun</string>
+    <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> seçimindən sonrakı tədbirləri görmək üçün toxunun</string>
+    <string name="search_title">Təqvimlərimdə axtar</string>
+    <string name="edit_event_label">"Detallar"</string>
+    <string name="edit_label">"Redaktə et"</string>
+    <string name="delete_label">"Sil"</string>
+    <string name="save_label">Bitdi</string>
+    <string name="discard_label">Ləğv et</string>
+    <string name="dismiss_all_label">"Hamısını kənarlaşdır"</string>
+    <string name="snooze_label">"Mürgülə"</string>
+    <string name="does_not_repeat">Tək səfərlik tədbir</string>
+    <string name="endByDate">; <xliff:g id="DATE">%s</xliff:g> tarixinə qədər</string>
+    <plurals name="endByCount">
+        <item quantity="one">; bir dəfəlik</item>
+        <item quantity="other">; <xliff:g id="NUMBER">%d</xliff:g> dəfəlik</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Günlük</item>
+        <item quantity="other">Hər <xliff:g id="NUMBER">%d</xliff:g> gün</item>
+    </plurals>
+    <string name="every_weekday">"Hər həftə içi (B.e.–Cümə)"</string>
+    <plurals name="weekly">
+        <item quantity="one">Hər həftə <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+        <item quantity="other">Hər <xliff:g id="NUMBER">%1$d</xliff:g> həftədən bir <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+    </plurals>
+    <string name="monthly">Hər ay</string>
+    <string name="yearly_plain">Hər il</string>
+    <string name="custom" product="default">"Fərdi (telefonda fərdiləşdirilə bilməz)"</string>
+    <string name="modify_event">Sadəcə bu tədbiri dəyişdir</string>
+    <string name="modify_all">Bu seriyadakı bütün tədbirləri dəyişdir</string>
+    <string name="modify_all_following">Bunu və gələcəkdəki bütün tədbirləri dəyişdir</string>
+    <string name="new_event_dialog_label">"Yeni tədbir"</string>
+    <string name="new_event_dialog_option">"Yeni tədbir"</string>
+    <string name="delete_this_event_title">Bu tədbir silinsin?</string>
+    <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g> silinsin?</string>
+    <string name="change_response_title">Cavabı dəyiş</string>
+    <string name="preferences_title">"Parametrlər"</string>
+    <string name="preferences_general_title">Təqvim görünüş parametri</string>
+    <string name="preferences_month_view_portrait">Ay görünüş düzümü (Şaquli)</string>
+    <string name="preferences_month_view_landscape">Ay görünüş düzümü (Üfüqi)</string>
+    <string name="preferences_theme">Tema</string>
+    <string name="preferences_light_theme">Açıq</string>
+    <string name="preferences_dark_theme">Tünd</string>
+    <string name="preferences_black_theme">Qara</string>
+    <string name="preferences_color">Əsas rəng</string>
+    <string name="preferences_color_pick">Əsas rəng</string>
+    <string name="preferences_reminder_title">Bildirişlər &amp; xatırladıcılar</string>
+    <string name="preferences_hide_declined_title">Rədd edilmiş tədbirləri gizlət</string>
+    <string name="default_start_title">İlkin görünüş</string>
+    <string name="display_options">Görüntü seçimləri</string>
+    <string name="display_time">Görüntü müddəti</string>
+    <string name="display_location">Görüntü yerləşməsi</string>
+    <string name="maximum_number_of_lines">Tədbirdə maksimal sətir sayı</string>
+    <string name="default_start_last">Əvvəlcədən istifadə edilən görünüş</string>
+    <string name="preferences_week_start_day_title">Həftə başlayır:</string>
+    <string name="preferences_week_start_day_dialog">Həftə başlayır:</string>
+    <string name="preferences_days_per_week_title">Həftə başına gün</string>
+    <string name="preferences_days_per_week_dialog">Həftə başına gün</string>
+    <string name="preferences_default_event_duration_title">İlkin tədbir müddəti</string>
+    <string name="preferences_clear_search_history_title">Axtarış tarixçəsini təmizlə</string>
+    <string name="preferences_clear_search_history_summary">Bütün axtarışlarınızı silin</string>
+    <string name="search_history_cleared">Axtarış tarixçəsi təmizləndi.</string>
+    <string name="preferences_alerts_title">Bildirişlər</string>
+    <string name="preferences_alerts_vibrateWhen_title">Vibrasiya etdir</string>
+    <string name="preferences_alerts_ringtone_title">Səs</string>
+    <string name="preferences_alerts_popup_title">Popup bildiriş</string>
+    <string name="preferences_default_reminder_title">Defolt xatırlatma vaxtı</string>
+    <string name="preferences_default_reminder_dialog">Defolt xatırlatma vaxtı</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">Yerli saat qurşağını işlət</string>
+    <string name="preferences_use_home_tz_descrip">Səyahət edərkən təqvimi və tədbir zamanını yerli saat qurşağına uyğun olaraq göstərir</string>
+    <string name="preferences_home_tz_title">Yerli saat qurşağı</string>
+    <string name="preferences_show_week_num_title">Həftə nömrəsini göstər</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Xatırladıcını ertələmə gecikməsini istəyin</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Xatırladıcıları ertələyərkən ertələmə gecikməsini istəyin</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Həmişə ilkin ertələmə gecikməsini istifadə edin</string>
+    <string name="snooze_delay_dialog_title">Ertələmə gecikməsini tənzimlə</string>
+    <string name="preferences_default_snooze_delay_title">İlkin ertələmə gecikmə vaxtı</string>
+    <string name="preferences_default_snooze_delay_dialog">İlkin ertələmə gecikməsi</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> Etar Layihəsi. Hissələr \u00a9 2005-<xliff:g>%s</xliff:g> Android Açıq Mənbə Layihəsi.</string>
+    <string name="authors">Müəlliflər</string>
+    <string name="changelog">Dəyişiklik jurnalı</string>
+    <string name="license">Lisenziya</string>
+    <string name="preferences_build_version">Quruluş versiyası</string>
+    <string name="preferences_issues">Problem bildir</string>
+    <string name="source_code">Mənbə</string>
+    <plurals name="month_more_events">
+        <item quantity="one">"+1"</item>
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">Gələcək təqvim tədbiri yoxdur</string>
+    <string name="preferences_experimental_category">Eksperimental</string>
+    <string name="preferences_reminders_responded_label">Xatırladıcıları keç</string>
+    <string name="preferences_reminders_responded_dialog">Xatırladıcıları keç</string>
+    <string name="copy_db">Verilənlər bazasını göndər</string>
+    <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> axtarılır…</string>
+    <string name="accessibility_remove_attendee">İştirakçını sil</string>
+    <string name="accessibility_pick_start_date">Başlama tarixi</string>
+    <string name="accessibility_pick_start_time">Başlama vaxtı</string>
+    <string name="accessibility_pick_end_date">Bitmə tarixi</string>
+    <string name="accessibility_pick_end_time">Bitmə tarixi</string>
+    <string name="accessibility_pick_time_zone">Saat qurşağı</string>
+    <string name="accessibility_pick_recurrence">Tədbiri təkrarla</string>
+    <string name="accessibility_add_reminder">Xatırladıcı əlavə et</string>
+    <string name="accessibility_remove_reminder">Xatırlatmanı sil</string>
+    <string name="accessibility_add_attendee">İştirakçı əlavə et</string>
+    <string name="accessibility_all_day">Bütün gün tədbiri</string>
+    <string name="accessibility_reminder_time">Xatırlatma vaxtı</string>
+    <string name="accessibility_reminder_type">Xatırlatma tipi</string>
+    <string name="accessibility_reminder_showmeas">Məni belə göstər</string>
+    <string name="accessibility_reminder_privacy">Gizlilik</string>
+    <string name="day_view_new_event_hint">+ Yeni tədbir</string>
+    <string name="template_announce_item_index"><xliff:g id="ITEM_COUNT">%2$s</xliff:g> tədbirdən <xliff:g id="ITEM_INDEX">%1$s</xliff:g>.</string>
+    <plurals name="Nevents">
+        <item quantity="one">1 tədbir</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> tədbir</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 tədbir</item>
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> tədbir</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">Seçilmiş tədbir</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Hər <xliff:g id="COUNT">%d</xliff:g> gündən bir</item>
+        <item quantity="other">Hər <xliff:g id="COUNT">%d</xliff:g> gündən bir</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Hər <xliff:g id="COUNT">%d</xliff:g> həftədən bir</item>
+        <item quantity="other">Hər <xliff:g id="COUNT">%d</xliff:g> həftədən bir</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Hər <xliff:g id="COUNT">%d</xliff:g> aydan bir</item>
+        <item quantity="other">Hər <xliff:g id="COUNT">%d</xliff:g> aydan bir</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Hər <xliff:g id="COUNT">%d</xliff:g> ildən bir</item>
+        <item quantity="other">Hər <xliff:g id="COUNT">%d</xliff:g> ildən bir</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">hər ayın eyni günü</string>
+    <string name="recurrence_end_continously">Həmişə</string>
+    <string name="recurrence_end_date_label">Bir tarixə qədər</string>
+    <string name="recurrence_end_date"><xliff:g id="DATE">%s</xliff:g> tarixinə qədər</string>
+    <string name="recurrence_end_count_label">Bir sıra tədbirlər üçün</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Hər <xliff:g id="EVENT_COUNT">%d</xliff:g> tədbir</item>
+        <item quantity="other">Hər <xliff:g id="EVENT_COUNT">%d</xliff:g> tədbir</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">son tarixi dəyiş</string>
+    <string name="user_rejected_calendar_write_permission">Təqvim, normal işləməsi üçün oxuma və yazma icazəsi tələb edir. Zəhmət olmasa yenidən sınayın.</string>
+    <string name="calendar_permission_not_granted">Tələb edilən icazələr rədd edildi, tədbirlərə düzəliş etmək üçün Tənzimləmələr tətbiqindən icazələri fəallaşdırın.</string>
+    <string name="visibility_default">İlkin</string>
+    <string name="visibility_confidential">Gizli</string>
+    <string name="visibility_private">Özəl</string>
+    <string name="visibility_public">İctimai</string>
+    <string name="two_days">2 gün</string>
+    <string name="three_days">3 gün</string>
+    <string name="four_days">4 gün</string>
+    <string name="five_days">5 gün</string>
+    <string name="six_days">6 gün</string>
+    <string name="seven_days">7 gün</string>
+    <string name="zero_minutes">0 dəqiqə</string>
+    <string name="fifteen_minutes">15 dəqiqə</string>
+    <string name="thirty_minutes">30 dəqiqə</string>
+    <string name="one_hour">1 saat</string>
+    <string name="one_and_a_half_hours">1.5 saat</string>
+    <string name="two_hours">2 saat</string>
+    <string name="error_generating_ics">Tədbir paylaşılan zaman problem baş verdi</string>
+    <string name="cal_share_intent_title">Tədbiri göndər:</string>
+    <string name="cal_export_event_sdcard_title">SD karta köçür</string>
+    <string name="cal_export_succ_msg">Tədbir uğurla köçürüldü: %1s</string>
+    <string name="cal_import_menu_title">Tədbir götür</string>
+    <string name="cal_nothing_to_import">Götürüləcək heçnə yoxdur</string>
+    <string name="cal_import_error_msg">Götürmə uğursuz oldu</string>
+    <string name="cal_import_error_time_zone_msg">Verllən vaxt qurşağı anlaşılmır: %s</string>
+    <string name="cal_import_error_date_msg">Verilən tarix anlaşılmır: %s</string>
+    <string name="cal_pick_ics">Götürüləcək faylı seçin</string>
+    <string name="show_time_no">Vaxtı göstərmə</string>
+    <string name="show_time_start">Yalnız başlama vaxtı</string>
+    <string name="show_time_start_end">Başlama və bitmə vaxtı</string>
+    <string name="show_time_start_end_below">Başlama və bitmə vaxtı tədbirin altında</string>
+    <string name="preferences_calendar_no_display_name">Adsız təqvim</string>
+    <string name="preferences_calendar_account">%1$s hesab</string>
+    <string name="preferences_calendar_account_local">Xətdən kənar təqvim</string>
+    <string name="preferences_calendar_configure_account">%1$s hesabında təqvimi konfiqurasiya et</string>
+    <string name="preferences_calendar_number_of_events">%1d tədbir</string>
+    <string name="preferences_calendar_delete">Təqvimi sil</string>
+    <string name="preferences_calendar_display_name">Adı dəyişdir</string>
+    <string name="preferences_calendar_info_category">Təqvim məlumatı</string>
+    <string name="preferences_calendar_color">Rəng</string>
+    <string name="preferences_calendar_visible">Tədbirləri görüntülə</string>
+    <string name="preferences_calendar_synchronize">Bu təqvimi eyniləşdir</string>
+    <string name="preferences_calendar_color_warning_title">Xəbərdarlıq</string>
+    <string name="preferences_calendar_color_warning_message">Təqvim təkrar eyniləşdiriləndə rəng dəyişdirilməsi geri qaytarıla bilər.\n\n DAVx⁵-də bunun qarşısını almaq üçün \'Təqvim rənglərini idarə et\' sıradan çıxarılmış ola bilər.</string>
+    <string name="preferences_calendar_color_warning_button">Anlayıram</string>
+    <string name="preferences_calendar_delete_message">Həqiqətən bu təqvimi silmək istəyirsiniz?</string>
+    <string name="preferences_calendar_delete_delete">Təqvimi sil</string>
+    <string name="preferences_calendar_delete_cancel">İmtina</string>
+    <string name="preferences_list_calendar_summary_sync_off">Eyniləşdirilməyib</string>
+    <string name="preferences_list_calendar_summary_invisible">Tədbirlər görüntülənmir</string>
+    <string name="preferences_list_general">Ümumi tənzimləmələr</string>
+    <string name="preferences_list_add_remote">Uzaq təqvim əlavə et (CalDAV)</string>
+    <string name="preferences_list_add_offline">Xətdən kənar təqvim əlavə et</string>
+    <string name="preferences_list_add_offline_title">Xətdən kənar təqvim əlavə et</string>
+    <string name="preferences_list_add_offline_error_empty">Bir təqvim adı daxil edin!</string>
+    <string name="preferences_list_add_offline_message">Xətdən kənar təqvimlər, bir bulud xidməti ilə EYNİLƏŞDİRİLMİR və yalnız telefonunuzda əlçatan olur.</string>
+    <string name="preferences_list_add_offline_button">Təqvim əlavə et</string>
+    <string name="preferences_list_add_offline_name">Ad</string>
+    <string name="preferences_list_add_offline_cancel">İmtina</string>
+    <string name="preferences_menu_about">Təqvim Haqqında</string>
+    <string name="offline_account_name">Xətdən Kənar Təqvim</string>
+</resources>

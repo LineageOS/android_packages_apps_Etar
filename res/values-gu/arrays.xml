@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>સૂચના</item>
+        <item>ઇમેઇલ</item>
+        <item>SMS</item>
+        <item>એલાર્મ</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 મિનિટ</item>
+        <item>1 મિનિટ</item>
+        <item>5 મિનિટ</item>
+        <item>10 મિનિટ</item>
+        <item>15 મિનિટ</item>
+        <item>20 મિનિટ</item>
+        <item>25 મિનિટ</item>
+        <item>30 મિનિટ</item>
+        <item>45 મિનિટ</item>
+        <item>1 કલાક</item>
+        <item>2 કલાક</item>
+        <item>3 કલાક</item>
+        <item>12 કલાક</item>
+        <item>24 કલાક</item>
+        <item>2 દિવસ</item>
+        <item>1 અઠવાડિયું</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>કોઈ નહીં</item>
+        <item>0 મિનિટ</item>
+        <item>1 મિનિટ</item>
+        <item>5 મિનિટ</item>
+        <item>10 મિનિટ</item>
+        <item>15 મિનિટ</item>
+        <item>20 મિનિટ</item>
+        <item>25 મિનિટ</item>
+        <item>30 મિનિટ</item>
+        <item>45 મિનિટ</item>
+        <item>1 કલાક</item>
+        <item>2 કલાક</item>
+        <item>3 કલાક</item>
+        <item>12 કલાક</item>
+        <item>24 કલાક</item>
+        <item>2 દિવસ</item>
+        <item>1 અઠવાડિયું</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>લોકેલ ડિફોલ્ટ</item>
+        <item>શનિવાર</item>
+        <item>રવિવાર</item>
+        <item>સોમવાર</item>
+    </string-array>
+    <string-array name="availability">
+        <item>વ્યસ્ત</item>
+        <item>ઉપલબ્ધ</item>
+        <item>અનિશ્ચિત</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>કોઈ પ્રતિસાદ નથી</item>
+        <item>હા</item>
+        <item>કદાચ</item>
+        <item>નહીં</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>ફક્ત આ જ ઇવેન્ટ</item>
+        <item>આ અને ભાવિ ઇવેન્ટ્સ</item>
+        <item>બધી ઇવેન્ટ્સ</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>ફક્ત આ જ ઇવેન્ટ</item>
+        <item>આ શ્રેણીની તમામ ઇવેન્ટ્સ</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>દિવસ</item>
+        <item>અઠવાડિયું</item>
+        <item>મહિનો</item>
+        <item>એજેંડા</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>માત્ર નકારવામાં આવે તો જ</item>
+        <item>જો નકાર્યું હોય અથવા પ્રતિસાદ આપ્યો ન હોય</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>દરરોજ પુનરાવર્તન</item>
+        <item>દર અઠવાડિયે પુનરાવર્તન</item>
+        <item>દર મહિને પુનરાવર્તન</item>
+        <item>દર વર્ષે પુનરાવર્તન</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>દર પહેલા રવિવારે</item>
+        <item>દર બીજા રવિવારે</item>
+        <item>દર ત્રીજા રવિવારે</item>
+        <item>દર ચોથા રવિવારે</item>
+        <item>દર છેલ્લા રવિવારે</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>દર પહેલા સોમવારે</item>
+        <item>દર બીજા સોમવારે</item>
+        <item>દર ત્રીજા સોમવારે</item>
+        <item>દર ચોથા સોમવારે</item>
+        <item>દર છેલ્લા સોમવારે</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>દર પહેલા મંગળવારે</item>
+        <item>દર બીજા મંગળવારે</item>
+        <item>દર ત્રીજા મંગળવારે</item>
+        <item>દર ચોથા મંગળવારે</item>
+        <item>દર છેલ્લા મંગળવારે</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>દર પહેલા બુધવારે</item>
+        <item>દર બીજા બુધવારે</item>
+        <item>દર ત્રીજા બુધવારે</item>
+        <item>દર ચોથા બુધવારે</item>
+        <item>દર છેલ્લા બુધવારે</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>દર પહેલા ગુરુવારે</item>
+        <item>દર બીજા ગુરુવારે</item>
+        <item>દર ત્રીજા ગુરુવારે</item>
+        <item>દર ચોથા ગુરુવારે</item>
+        <item>દર છેલ્લા ગુરુવારે</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>દર પહેલા શુક્રવારે</item>
+        <item>દર બીજા શુક્રવારે</item>
+        <item>દર ત્રીજા શુક્રવારે</item>
+        <item>દર ચોથા શુક્રવારે</item>
+        <item>દર છેલ્લા શુક્રવારે</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>દર પહેલા શનિવારે</item>
+        <item>દર બીજા શનિવારે</item>
+        <item>દર ત્રીજા શનિવારે</item>
+        <item>દર ચોથા શનિવારે</item>
+        <item>દર છેલ્લા શનિવારે</item>
+    </string-array>
+</resources>

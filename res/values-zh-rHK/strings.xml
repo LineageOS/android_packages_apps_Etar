@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">日曆</string>
+    <string name="what_label">詳情</string>
+    <string name="where_label">地點</string>
+    <string name="when_label">時間</string>
+    <string name="timezone_label">時區</string>
+    <string name="attendees_label">邀請對象</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="today_at_time_fmt">"今天 <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"明天 <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g> <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">重複頻率</string>
+    <string name="no_title_label">(無標題)</string>
+    <plurals name="Nminutes">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 分鐘</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 分鐘</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 小時</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 天</item>
+    </plurals>
+    <string name="show_day_view">"顯示天"</string>
+    <string name="agenda_view">"待辦事項"</string>
+    <string name="day_view">"天"</string>
+    <string name="week_view">"週"</string>
+    <string name="month_view">"月"</string>
+    <string name="event_view">"檢視活動"</string>
+    <string name="event_create">"新增活動"</string>
+    <string name="event_edit">"編輯活動"</string>
+    <string name="event_delete">"刪除活動"</string>
+    <string name="goto_today">"今天"</string>
+    <string name="menu_preferences">"設定"</string>
+    <string name="search">"搜尋"</string>
+    <string name="hide_controls">"隱藏控制介面"</string>
+    <string name="show_controls">"顯示控制介面"</string>
+    <string name="select_synced_calendars_button">要同步處理的日曆</string>
+    <string name="hint_what">"事件名稱"</string>
+    <string name="hint_where">"位置"</string>
+    <string name="hint_description">"說明"</string>
+    <string name="hint_attendees">"邀請對象"</string>
+    <string name="creating_event">"已建立活動。"</string>
+    <string name="saving_event">"已儲存活動。"</string>
+    <string name="empty_event">"未建立空白活動。"</string>
+    <string name="creating_event_with_guest">"即將發出邀請。"</string>
+    <string name="saving_event_with_guest">"即將傳送更新。"</string>
+    <string name="rsvp_accepted">"已回覆會參加。"</string>
+    <string name="rsvp_tentative">"已回覆或許參加。"</string>
+    <string name="rsvp_declined">"已回覆不參加。"</string>
+    <string name="create_event_dialog_save">儲存</string>
+    <string name="alert_title">日曆通知</string>
+    <string name="event_info_title">檢視活動</string>
+    <string name="event_info_title_invite">會議邀請</string>
+    <string name="edit_event_to_label">至</string>
+    <string name="edit_event_from_label">從</string>
+    <string name="edit_event_all_day_label">整天</string>
+    <string name="edit_event_calendar_label">日曆</string>
+    <string name="description_label">說明</string>
+    <string name="presence_label">將我顯示為</string>
+    <string name="privacy_label">私隱權</string>
+    <string name="reminders_label">新增提醒</string>
+    <string name="no_syncable_calendars">沒有日曆</string>
+    <string name="no_calendars_found">您必須在裝置上至少加入一個「日曆」帳戶，並顯示一個日曆，才能新增活動。輕觸 [新增帳戶] 即可新增帳戶 (如果您剛剛新增帳戶，請等待帳戶完成同步處理，然後再試一次)；或者輕觸 [取消]，並確保至少顯示一個日曆。</string>
+    <string name="add_account">新增帳戶</string>
+    <string name="view_event_calendar_label">日曆：</string>
+    <string name="view_event_organizer_label">主辦人：</string>
+    <string name="choose_event_color_label">選擇活動顏色</string>
+    <string name="event_color_picker_dialog_title">活動顏色</string>
+    <string name="event_color_set_to_default">設為預設日曆顏色</string>
+    <string name="calendar_color_picker_dialog_title">日曆顏色</string>
+    <string name="calendar_square_color_picker_description">顏色挑選器</string>
+    <string name="view_event_response_label">是否參加？</string>
+    <string name="response_yes">是</string>
+    <string name="response_maybe">也許</string>
+    <string name="response_no">否</string>
+    <string name="email_guests_label">發電郵給邀請對象</string>
+    <string name="email_organizer_label">發送電郵給主辦者</string>
+    <string name="email_picker_label">傳送電郵時使用</string>
+    <string name="event_not_found">"找不到活動。"</string>
+    <string name="map_label">地圖</string>
+    <string name="call_label">撥號</string>
+    <string name="quick_response_settings">快速回應</string>
+    <string name="quick_response_settings_summary">編輯向邀請對象發送電郵時的預設回應</string>
+    <string name="quick_response_settings_edit_title">快速回應</string>
+    <string name="quick_response_dialog_title">選擇快速回應</string>
+    <string name="quick_response_email_failed">找不到電郵程式</string>
+    <string-array name="quick_response_defaults">
+        <item>要遲幾分鐘才開始。</item>
+        <item>我大約 10 分鐘後抵達。</item>
+        <item>別等，請直接開始。</item>
+        <item>抱歉，不克前往。我們再約時間。</item>
+    </string-array>
+    <string name="quick_response_custom_msg">自行撰寫回覆…</string>
+    <string name="event_info_organizer">主辦人：</string>
+    <string name="event_info_reminders_label">提醒</string>
+    <string name="loading">載入中…</string>
+    <string name="show_older_events">輕觸即可查看 <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g>之前的活動</string>
+    <string name="show_newer_events">輕觸即可查看 <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g>之後的活動</string>
+    <string name="search_title">搜尋我的日曆</string>
+    <string name="edit_event_label">"詳情"</string>
+    <string name="edit_label">"編輯"</string>
+    <string name="delete_label">"刪除"</string>
+    <string name="save_label">完成</string>
+    <string name="discard_label">取消</string>
+    <string name="dismiss_all_label">"全部關閉"</string>
+    <string name="snooze_label">"重響"</string>
+    <string name="does_not_repeat">單次活動</string>
+    <string name="endByDate">；直至 <xliff:g id="DATE">%s</xliff:g></string>
+    <plurals name="endByCount">
+        <item quantity="other">；<xliff:g id="NUMBER">%d</xliff:g> 次</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">每 <xliff:g id="NUMBER">%d</xliff:g> 天</item>
+    </plurals>
+    <string name="every_weekday">"每週的工作日 (星期一至五)"</string>
+    <plurals name="weekly">
+        <item quantity="other">每 <xliff:g id="NUMBER">%1$d</xliff:g> 星期 (逢<xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g>)</item>
+    </plurals>
+    <string name="monthly">每月</string>
+    <string name="yearly_plain">每年</string>
+    <string name="custom" product="default">"自訂 (無法在手機上自訂)"</string>
+    <string name="modify_event">僅更改此活動</string>
+    <string name="modify_all">更改所有重複的活動</string>
+    <string name="modify_all_following">更改此活動及所有未來活動</string>
+    <string name="new_event_dialog_label">"新增活動"</string>
+    <string name="new_event_dialog_option">"新增活動"</string>
+    <string name="delete_this_event_title">刪除此活動？</string>
+    <string name="delete_recurring_event_title">要刪除「<xliff:g id="EVENTTITLE">%s</xliff:g>」嗎？</string>
+    <string name="change_response_title">更改回應</string>
+    <string name="preferences_title">"設定"</string>
+    <string name="preferences_general_title">日曆檢視設定</string>
+    <string name="preferences_reminder_title">通知與提醒</string>
+    <string name="preferences_hide_declined_title">隱藏已拒絕的活動</string>
+    <string name="preferences_week_start_day_title">一週起始日</string>
+    <string name="preferences_week_start_day_dialog">一週起始日</string>
+    <string name="preferences_clear_search_history_title">清除搜尋記錄</string>
+    <string name="preferences_clear_search_history_summary">移除您的所有搜尋記錄</string>
+    <string name="search_history_cleared">已清除搜尋記錄。</string>
+    <string name="preferences_alerts_title">通知</string>
+    <string name="preferences_alerts_vibrateWhen_title">震動</string>
+    <string name="preferences_alerts_ringtone_title">音效</string>
+    <string name="preferences_alerts_popup_title">彈出式通知</string>
+    <string name="preferences_default_reminder_title">預設提醒時間</string>
+    <string name="preferences_default_reminder_dialog">預設提醒時間</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">使用居住地時區</string>
+    <string name="preferences_use_home_tz_descrip">在旅行期間以您的居住地時區顯示日曆及活動時間</string>
+    <string name="preferences_home_tz_title">居住地時區</string>
+    <string name="preferences_show_week_num_title">顯示週數</string>
+    <string name="preferences_build_version">型號版本</string>
+    <plurals name="month_more_events">
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">沒有即將開始的日曆活動</string>
+    <string name="preferences_experimental_category">實驗版</string>
+    <string name="preferences_reminders_responded_label">略過提醒</string>
+    <string name="preferences_reminders_responded_dialog">略過提醒</string>
+    <string name="copy_db">傳送資料庫</string>
+    <string name="directory_searching_fmt">正在搜尋 <xliff:g id="DOMAIN">%s</xliff:g>...</string>
+    <string name="accessibility_remove_attendee">移除參加者</string>
+    <string name="accessibility_pick_start_date">開始日期</string>
+    <string name="accessibility_pick_start_time">開始時間</string>
+    <string name="accessibility_pick_end_date">結束日期</string>
+    <string name="accessibility_pick_end_time">結束時間</string>
+    <string name="accessibility_pick_time_zone">時區</string>
+    <string name="accessibility_pick_recurrence">重複活動</string>
+    <string name="accessibility_add_reminder">新增提醒</string>
+    <string name="accessibility_remove_reminder">移除提醒</string>
+    <string name="accessibility_add_attendee">新增參加者</string>
+    <string name="accessibility_all_day">整天的活動</string>
+    <string name="accessibility_reminder_time">提醒時間</string>
+    <string name="accessibility_reminder_type">提醒類型</string>
+    <string name="accessibility_reminder_showmeas">將我顯示為</string>
+    <string name="accessibility_reminder_privacy">私隱設定</string>
+    <string name="day_view_new_event_hint">+ 新活動</string>
+    <string name="template_announce_item_index">第 <xliff:g id="ITEM_INDEX">%1$s</xliff:g> 項活動 (共 <xliff:g id="ITEM_COUNT">%2$s</xliff:g> 項)</string>
+    <plurals name="Nevents">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 項活動</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> 項活動</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">選取的活動</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="other">每 <xliff:g id="COUNT">%d</xliff:g> 天</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="other">每 <xliff:g id="COUNT">%d</xliff:g> 星期</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="other">每 <xliff:g id="COUNT">%d</xliff:g> 個月</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="other">每 <xliff:g id="COUNT">%d</xliff:g> 年</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">每月同一日</string>
+    <string name="recurrence_end_continously">無盡期</string>
+    <string name="recurrence_end_date_label">直至指定日期</string>
+    <string name="recurrence_end_date">直至 <xliff:g id="DATE">%s</xliff:g></string>
+    <string name="recurrence_end_count_label">重複幾次</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g>的活動</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">更改結束日期</string>
+</resources>
