@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Kalendaro</string>
+    <string name="where_label">Kie</string>
+    <string name="when_label">Kiam</string>
+    <string name="timezone_label">Horzono</string>
+    <string name="attendees_label">Gastoj</string>
+    <string name="today">Hodiaŭ</string>
+    <string name="tomorrow">Morgaŭ</string>
+    <plurals name="Nminutes">
+        <item quantity="one">1 minuto</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutoj</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 horo</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> horoj</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 tago</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> tagoj</item>
+    </plurals>
+    <string name="day_view">"Tago"</string>
+    <string name="week_view">"Semajno"</string>
+    <string name="month_view">"Monato"</string>
+    <string name="event_create">"Nova evento"</string>
+    <string name="event_edit">"Redakti eventon"</string>
+    <string name="event_delete">"Forigi eventon"</string>
+    <string name="goto_today">"Hodiaŭ"</string>
+    <string name="menu_preferences">"Agordoj"</string>
+    <string name="search">"Serĉi"</string>
+    <string name="hint_where">"Loko"</string>
+    <string name="hint_description">"Priskribo"</string>
+    <string name="hint_attendees">"Gastoj"</string>
+    <string name="create_event_dialog_save">Konservi</string>
+    <string name="edit_event_calendar_label">Kalendaro</string>
+    <string name="description_label">Priskribo</string>
+    <string name="privacy_label">Privateco</string>
+    <string name="view_event_calendar_label">Kalendaro:</string>
+    <string name="response_yes">Jes</string>
+    <string name="response_no">Ne</string>
+    <string name="edit_label">"Redakti"</string>
+    <string name="delete_label">"Forigi"</string>
+    <string name="discard_label">Nuligi</string>
+    <string name="new_event_dialog_label">"Nova evento"</string>
+    <string name="new_event_dialog_option">"Nova evento"</string>
+    <string name="preferences_title">"Agordoj"</string>
+    <string name="preferences_alerts_title">Sciigoj</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="accessibility_pick_time_zone">Horzono</string>
+    <string name="accessibility_reminder_privacy">Privateco</string>
+    <plurals name="Nevents">
+        <item quantity="one">1 evento</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> eventoj</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 evento</item>
+        <item quantity="other">+<xliff:g id="count">%d</xliff:g> eventoj</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Por <xliff:g id="event_count">%d</xliff:g> evento</item>
+        <item quantity="other">Por <xliff:g id="event_count">%d</xliff:g> eventoj</item>
+    </plurals>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>அறிவிப்பு</item>
+        <item>மின்னஞ்சல்</item>
+        <item>SMS</item>
+        <item>அலாரம்</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 நிமிடங்கள்</item>
+        <item>1 நிமிடம்</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>10 நிமிடங்கள்</item>
+        <item>15 நிமிடங்கள்</item>
+        <item>20 நிமிடங்கள்</item>
+        <item>25 நிமிடங்கள்</item>
+        <item>30 நிமிடங்கள்</item>
+        <item>45 நிமிடங்கள்</item>
+        <item>1 மணிநேரம்</item>
+        <item>2 மணிநேரம்</item>
+        <item>3 மணிநேரம்</item>
+        <item>12 மணிநேரம்</item>
+        <item>24 மணி நேரம்</item>
+        <item>2 நாட்கள்</item>
+        <item>1 வாரம்</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>ஏதுமில்லை</item>
+        <item>0 நிமிடங்கள்</item>
+        <item>1 நிமிடம்</item>
+        <item>5 நிமிடங்கள்</item>
+        <item>10 நிமிடங்கள்</item>
+        <item>15 நிமிடங்கள்</item>
+        <item>20 நிமிடங்கள்</item>
+        <item>25 நிமிடங்கள்</item>
+        <item>30 நிமிடங்கள்</item>
+        <item>45 நிமிடங்கள்</item>
+        <item>1 மணிநேரம்</item>
+        <item>2 மணிநேரம்</item>
+        <item>3 மணிநேரம்</item>
+        <item>12 மணிநேரம்</item>
+        <item>24 மணி நேரம்</item>
+        <item>2 நாட்கள்</item>
+        <item>1 வாரம்</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>இயல்பு மொழி</item>
+        <item>சனிக்கிழமை</item>
+        <item>ஞாயிற்றுக்கிழமை</item>
+        <item>திங்கட்கிழமை</item>
+    </string-array>
+    <string-array name="availability">
+        <item>பணிமிகுதி</item>
+        <item>இருக்கிறார்</item>
+        <item>வருவதில் நிச்சயமில்லை</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>பதில் இல்லை</item>
+        <item>ஆம்</item>
+        <item>கலந்துகொள்ளக்கூடும்</item>
+        <item>இல்லை</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>இந்த நிகழ்விற்கு மட்டும்</item>
+        <item>இந்த நிகழ்வு மற்றும் எதிர்கால நிகழ்வுகள்</item>
+        <item>எல்லா நிகழ்வுகளும்</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>இந்த நிகழ்விற்கு மட்டும்</item>
+        <item>தொடரில் உள்ள எல்லா நிகழ்வுகளுக்கும்</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>நாள்</item>
+        <item>வாரம்</item>
+        <item>மாதம்</item>
+        <item>நிகழ்ச்சி விவரம்</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>நிராகரிக்கப்பட்டிருந்தால் மட்டும்</item>
+        <item>நிராகரிக்கப்பட்டிருந்தால் அல்லது பதிலளிக்காமல் இருந்தால்</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>தினமும் நினைவுபடுத்து</item>
+        <item>வாரந்தோறும் நினைவுபடுத்து</item>
+        <item>மாதந்தோறும் நினைவுபடுத்து</item>
+        <item>ஆண்டுதோறும் நினைவுபடுத்து</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>ஒவ்வொரு முதல் ஞாயிற்றுக்கிழமை</item>
+        <item>ஒவ்வொரு இரண்டாவது ஞாயிற்றுக்கிழமை</item>
+        <item>ஒவ்வொரு மூன்றாவது ஞாயிற்றுக்கிழமை</item>
+        <item>ஒவ்வொரு நான்காவது ஞாயிற்றுக்கிழமை</item>
+        <item>ஒவ்வொரு கடைசி ஞாயிற்றுக்கிழமை</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>ஒவ்வொரு முதல் திங்கட்கிழமை</item>
+        <item>ஒவ்வொரு இரண்டாவது திங்கட்கிழமை</item>
+        <item>ஒவ்வொரு மூன்றாவது திங்கட்கிழமை</item>
+        <item>ஒவ்வொரு நான்காவது திங்கட்கிழமை</item>
+        <item>ஒவ்வொரு கடைசி திங்கட்கிழமை</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>ஒவ்வொரு முதல் செவ்வாய்க்கிழமை</item>
+        <item>ஒவ்வொரு இரண்டாவது செவ்வாய்க்கிழமை</item>
+        <item>ஒவ்வொரு மூன்றாவது செவ்வாய்க்கிழமை</item>
+        <item>ஒவ்வொரு நான்காவது செவ்வாய்க்கிழமை</item>
+        <item>ஒவ்வொரு கடைசி செவ்வாய்க்கிழமை</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>ஒவ்வொரு முதல் புதன்கிழமை</item>
+        <item>ஒவ்வொரு இரண்டாவது புதன்கிழமை</item>
+        <item>ஒவ்வொரு மூன்றாவது புதன்கிழமை</item>
+        <item>ஒவ்வொரு நான்காவது புதன்கிழமை</item>
+        <item>ஒவ்வொரு கடைசி புதன்கிழமை</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>ஒவ்வொரு முதல் வியாழக்கிழமை</item>
+        <item>ஒவ்வொரு இரண்டாவது வியாழக்கிழமை</item>
+        <item>ஒவ்வொரு மூன்றாவது வியாழக்கிழமை</item>
+        <item>ஒவ்வொரு நான்காவது வியாழக்கிழமை</item>
+        <item>ஒவ்வொரு கடைசி வியாழக்கிழமை</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>ஒவ்வொரு முதல் வெள்ளிக்கிழமை</item>
+        <item>ஒவ்வொரு இரண்டாவது வெள்ளிக்கிழமை</item>
+        <item>ஒவ்வொரு மூன்றாவது வெள்ளிக்கிழமை</item>
+        <item>ஒவ்வொரு நான்காவது வெள்ளிக்கிழமை</item>
+        <item>ஒவ்வொரு கடைசி வெள்ளிக்கிழமை</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>ஒவ்வொரு முதல் சனிக்கிழமை</item>
+        <item>ஒவ்வொரு இரண்டாவது சனிக்கிழமை</item>
+        <item>ஒவ்வொரு மூன்றாவது சனிக்கிழமை</item>
+        <item>ஒவ்வொரு நான்காவது சனிக்கிழமை</item>
+        <item>ஒவ்வொரு கடைசி சனிக்கிழமை</item>
+    </string-array>
+</resources>

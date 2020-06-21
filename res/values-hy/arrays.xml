@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>Ծանուցում</item>
+        <item>Էլփոստ</item>
+        <item>SMS</item>
+        <item>Ազդանշան</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 րոպե</item>
+        <item>1 րոպե</item>
+        <item>5 րոպե</item>
+        <item>10 րոպե</item>
+        <item>15 րոպե</item>
+        <item>20 րոպե</item>
+        <item>25 րոպե</item>
+        <item>30 րոպե</item>
+        <item>45 րոպե</item>
+        <item>1 ժամ</item>
+        <item>2 ժամ</item>
+        <item>3 ժամ</item>
+        <item>12 ժամ</item>
+        <item>24 ժամ</item>
+        <item>2 օր</item>
+        <item>1 շաբաթ</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Ոչ մեկը</item>
+        <item>0 րոպե</item>
+        <item>1 րոպե</item>
+        <item>5 րոպե</item>
+        <item>10 րոպե</item>
+        <item>15 րոպե</item>
+        <item>20 րոպե</item>
+        <item>25 րոպե</item>
+        <item>30 րոպե</item>
+        <item>45 րոպե</item>
+        <item>1 ժամ</item>
+        <item>2 ժամ</item>
+        <item>3 ժամ</item>
+        <item>12 ժամ</item>
+        <item>24 ժամ</item>
+        <item>2 օր</item>
+        <item>1 շաբաթ</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Տեղային լռելյայն</item>
+        <item>Շաբաթ</item>
+        <item>Կիրակի</item>
+        <item>Երկուշաբթի</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Զբաղված է</item>
+        <item>Հասանելի է</item>
+        <item>Նախնական</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Անպատասխան</item>
+        <item>Այո</item>
+        <item>Գուցե</item>
+        <item>Ոչ</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Միայն այս իրադարձությունը</item>
+        <item>Այս և գալիք իրադարձությունները</item>
+        <item>Բոլոր իրադարձությունները</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Միայն այս իրադարձությունը</item>
+        <item>Շարքի բոլոր իրադարձությունները</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Օր</item>
+        <item>Շաբաթ</item>
+        <item>Ամիս</item>
+        <item>Օրակարգ</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Միայն եթե մերժված է</item>
+        <item>Եթե մերժված է կամ պատասխանված չէ</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>Կրկնել ամեն օր</item>
+        <item>Կրկնել ամեն շաբաթ</item>
+        <item>Կրկնել ամեն ամիս</item>
+        <item>Կրկնել ամեն տարի</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>յուրաքանչյուր առաջին կիրակի</item>
+        <item>յուրաքանչյուր երկրորդ կիրակի</item>
+        <item>յուրաքանչյուր երրորդ կիրակի</item>
+        <item>յուրաքանչյուր չորրորդ կիրակի</item>
+        <item>յուրաքանչյուր վերջին կիրակի</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>յուրաքանչյուր առաջին երկուշաբթի</item>
+        <item>յուրաքանչյուր երկրորդ երկուշաբթի</item>
+        <item>յուրաքանչյուր երրորդ երկուշաբթի</item>
+        <item>յուրաքանչյուր չորրորդ երկուշաբթի</item>
+        <item>յուրաքանչյուր վերջին երկուշաբթի</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>յուրաքանչյուր առաջին երեքշաբթի</item>
+        <item>յուրաքանչյուր երկրորդ երեքշաբթի</item>
+        <item>յուրաքանչյուր երրորդ երեքշաբթի</item>
+        <item>յուրաքանչյուր չորրորդ երեքշաբթի</item>
+        <item>յուրաքանչյուր վերջին երեքշաբթի</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>յուրաքանչյուր առաջին չորեքշաբթի</item>
+        <item>յուրաքանչյուր երկրորդ չորեքշաբթի</item>
+        <item>յուրաքանչյուր երրորդ չորեքշաբթի</item>
+        <item>յուրաքանչյուր չորրորդ չորեքշաբթի</item>
+        <item>յուրաքանչյուր վերջին չորեքշաբթի</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>յուրաքանչյուր առաջին հինգշաբթի</item>
+        <item>յուրաքանչյուր երկրորդ հինգշաբթի</item>
+        <item>յուրաքանչյուր երրորդ հինգշաբթի</item>
+        <item>յուրաքանչյուր չորրորդ հինգշաբթի</item>
+        <item>յուրաքանչյուր վերջին հինգշաբթի</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>յուրաքանչյուր առաջին ուրբաթ</item>
+        <item>յուրաքանչյուր երկրորդ ուրբաթ</item>
+        <item>յուրաքանչյուր երրորդ ուրբաթ</item>
+        <item>յուրաքանչյուր չորրորդ ուրբաթ</item>
+        <item>յուրաքանչյուր վերջին ուրբաթ</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>յուրաքանչյուր առաջին շաբաթ</item>
+        <item>յուրաքանչյուր երկրորդ շաբաթ</item>
+        <item>յուրաքանչյուր երրորդ շաբաթ</item>
+        <item>յուրաքանչյուր չորրորդ շաբաթ</item>
+        <item>յուրաքանչյուր վերջին շաբաթ</item>
+    </string-array>
+</resources>

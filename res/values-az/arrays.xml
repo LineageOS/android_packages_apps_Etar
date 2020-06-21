@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>Bildiriş</item>
+        <item>E-poçt</item>
+        <item>SMS</item>
+        <item>Zəngli saat</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 dəqiqə</item>
+        <item>1 dəqiqə</item>
+        <item>5 dəqiqə</item>
+        <item>10 dəqiqə</item>
+        <item>15 dəqiqə</item>
+        <item>20 dəqiqə</item>
+        <item>25 dəqiqə</item>
+        <item>30 dəqiqə</item>
+        <item>45 dəqiqə</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
+        <item>12 saat</item>
+        <item>24 saat</item>
+        <item>2 gün</item>
+        <item>1 həftə</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Heç biri</item>
+        <item>0 dəqiqə</item>
+        <item>1 gün</item>
+        <item>5 dəqiqə</item>
+        <item>10 dəqiqə</item>
+        <item>15 dəqiqə</item>
+        <item>20 dəqiqə</item>
+        <item>25 dəqiqə</item>
+        <item>30 dəqiqə</item>
+        <item>45 dəqiqə</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
+        <item>12 saat</item>
+        <item>24 saat</item>
+        <item>2 gün</item>
+        <item>1 həftə</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Regional defolt parametr</item>
+        <item>Şənbə</item>
+        <item>Bazar günü</item>
+        <item>Bazar Ertəsi</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Məşğul</item>
+        <item>Müsaid</item>
+        <item>Sınaq</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Cavab yoxdur</item>
+        <item>Bəli</item>
+        <item>Bəlkə</item>
+        <item>Xeyr</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Sadəcə bu tədbir</item>
+        <item>Bu və gələcək tədbirlər</item>
+        <item>Bütün tədbirlər</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Sadəcə bu tədbir</item>
+        <item>Sıradakı bütün tədbirlər</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Gün</item>
+        <item>Həftə</item>
+        <item>Ay</item>
+        <item>Gündəlik</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Sadəcə rədd edilərsə</item>
+        <item>Rədd edilərsə və ya cavab verilməzsə</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>HƏR GÜN TƏKRARLA</item>
+        <item>HƏR HƏFTƏ TƏKRARLA</item>
+        <item>HƏR AY TƏKRARLA</item>
+        <item>HƏR İL TƏKRARLA</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>hər birinci bazar günü</item>
+        <item>hər ikinci bazar günü</item>
+        <item>hər üçüncü bazar günü</item>
+        <item>hər dördüncü bazar günü</item>
+        <item>hər sonuncu bazar günü</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>hər birinci bazar ertəsi</item>
+        <item>hər ikinci bazar ertəsi</item>
+        <item>hər üçüncü bazar ertəsi</item>
+        <item>hər dördüncü bazar ertəsi</item>
+        <item>hər sonuncu bazar ertəsi</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>hər birinci çərşənbə axşamı</item>
+        <item>hər ikinci çərşənbə axşamı</item>
+        <item>hər üçüncü çərşənbə axşamı</item>
+        <item>hər dördüncü çərşənbə axşamı</item>
+        <item>hər sonuncu çərşənbə axşamı</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>hər birinci çərşənbə</item>
+        <item>hər ikinci çərşənbə</item>
+        <item>hər üçüncü çərşənbə</item>
+        <item>hər dördüncü çərşənbə</item>
+        <item>hər sonuncu çərşənbə</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>hər birinci cümə axşamı</item>
+        <item>hər ikinci cümə axşamı</item>
+        <item>hər üçüncü cümə axşamı</item>
+        <item>hər dördüncü cümə axşamı</item>
+        <item>hər sonuncu cümə axşamı</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>hər birinci cümə</item>
+        <item>hər ikinci cümə</item>
+        <item>hər üçüncü cümə</item>
+        <item>hər dördüncü cümə</item>
+        <item>hər sonuncu cümə</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>hər birinci şənbə</item>
+        <item>hər ikinci şənbə</item>
+        <item>hər üçüncü şənbə</item>
+        <item>hər dördüncü şənbə</item>
+        <item>hər sonuncu şənbə</item>
+    </string-array>
+</resources>

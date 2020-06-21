@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">දින දර්ශනය</string>
+    <string name="what_label">කුමක්ද</string>
+    <string name="where_label">කොහේද</string>
+    <string name="when_label">කවදාද</string>
+    <string name="timezone_label">කාල කලාපය</string>
+    <string name="attendees_label">අමුත්තන්</string>
+    <string name="today">අද</string>
+    <string name="tomorrow">හෙට</string>
+    <string name="today_at_time_fmt">"අද <xliff:g id="TIME_INTERVAL">%s</xliff:g> ට"</string>
+    <string name="tomorrow_at_time_fmt">"හෙට <xliff:g id="TIME_INTERVAL">%s</xliff:g> ට"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">පුනරාවර්තනය</string>
+    <string name="no_title_label">(නමක් නොමැත)</string>
+    <plurals name="Nminutes">
+        <item quantity="one">මිනිත්තු 1</item>
+        <item quantity="other">මිනිත්තු <xliff:g id="COUNT">%d</xliff:g></item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">මිනි 1</item>
+        <item quantity="other">මිනි <xliff:g id="COUNT">%d</xliff:g></item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">පැය 1</item>
+        <item quantity="other">පැය <xliff:g id="COUNT">%d</xliff:g></item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">දවස් 1</item>
+        <item quantity="other">දින <xliff:g id="COUNT">%d</xliff:g></item>
+    </plurals>
+    <string name="show_day_view">"දවස පෙන්වන්න"</string>
+    <string name="agenda_view">"න්‍යාය පත්‍රය"</string>
+    <string name="day_view">"දවස"</string>
+    <string name="week_view">"සතිය"</string>
+    <string name="month_view">"මාසය"</string>
+    <string name="event_view">"සිදුවීම බලන්න"</string>
+    <string name="event_create">"නව සිදුවීම"</string>
+    <string name="event_edit">"සිදුවීම සංස්කරණය කරන්න"</string>
+    <string name="event_delete">"සිදුවීම මකන්න"</string>
+    <string name="goto_today">"අද"</string>
+    <string name="menu_preferences">"සැකසුම්"</string>
+    <string name="search">"සෙවීම"</string>
+    <string name="hide_controls">"පාලන සඟවන්න"</string>
+    <string name="show_controls">"පාලක පෙන්වන්න"</string>
+    <string name="select_synced_calendars_button">සමම්හුර්ත වීමට දින දර්ශන</string>
+    <string name="hint_what">"සිදුවීමේ නම"</string>
+    <string name="hint_where">"ස්ථානය"</string>
+    <string name="hint_description">"විස්තරය"</string>
+    <string name="hint_attendees">"අමුත්තන්"</string>
+    <string name="creating_event">"සිදුවීම සෑදුනි."</string>
+    <string name="saving_event">"සිදුවිම සුරැකුණි."</string>
+    <string name="empty_event">"හිස් සිදුවීම සැදුනේ නැත."</string>
+    <string name="creating_event_with_guest">"ආරාධනාව යැවෙනු ඇත."</string>
+    <string name="saving_event_with_guest">"යාවත්කාලීන යැවෙනු ඇත."</string>
+    <string name="rsvp_accepted">"ඔව් ලෙස ප්‍රතිචාර දක්වන ලදි."</string>
+    <string name="rsvp_tentative">"ඇතැම් විට ලෙස ප්‍රතිචාර දක්වන ලදි."</string>
+    <string name="rsvp_declined">"නැත ලෙස ප්‍රතිචාර දක්වන ලදි."</string>
+    <string name="create_event_dialog_save">සුරකින්න</string>
+    <string name="alert_title">දින දර්ශන දැනුම්දීම්</string>
+    <string name="event_info_title">සිදුවීම බලන්න</string>
+    <string name="event_info_title_invite">රැස්වීමේ ආරාධනාව</string>
+    <string name="edit_event_to_label">වෙත</string>
+    <string name="edit_event_from_label">වෙතින්</string>
+    <string name="edit_event_all_day_label">දවස පුරා</string>
+    <string name="edit_event_calendar_label">දින දර්ශනය</string>
+    <string name="description_label">විස්තරය</string>
+    <string name="presence_label">මාව පෙන්වන්නේ</string>
+    <string name="privacy_label">පෞද්ගලිකත්වය</string>
+    <string name="reminders_label">සිහි කැඳවීමක් එක් කරන්න</string>
+    <string name="no_syncable_calendars">දින දර්ශන නොමැත</string>
+    <string name="no_calendars_found">ඔබ සිදුවීමක් එක් කිරීමට පෙර, ඔබ අඩුම තරමේ එක් දින දර්ශන ගිණුමක් වත් ඔබේ උපාංගයට එක් කර දින දර්ශනය පෙන්වා තිබිය යුතුය. ගිණුමක් එක් කිරීමට \"ගිණුමක් එක් කරන්න\" ස්පර්ශ කරන්න (ඔබ දැන් ගිණුමක් එක් කළේ නම්, එය සමමුහුර්ත වන තුරු ඉවසා පසුව උත්සාහ කරන්න). නැති නම් අවලංගු කරන්න ස්පර්ශ කර අඩු තරමේ එක් ගිණුමක් වත් දර්ශන වීමට ඇතැයි යන්න සැක හැර දැනගන්න.</string>
+    <string name="add_account">ගිණුමක් එක් කරන්න</string>
+    <string name="view_event_calendar_label">දින දර්ශනය:</string>
+    <string name="view_event_organizer_label">සංවිධායක:</string>
+    <string name="choose_event_color_label">සිදුවීමේ පැහැය තෝරන්න</string>
+    <string name="event_color_picker_dialog_title">සිදුවීමේ පැහැය</string>
+    <string name="event_color_set_to_default">සුපුරුදු දින දර්ශන වර්ණයට සකසන්න</string>
+    <string name="calendar_color_picker_dialog_title">දින දර්ශනයේ වර්ණය</string>
+    <string name="calendar_square_color_picker_description">වර්ණ සොයා ගන්නා</string>
+    <string name="view_event_response_label">සහාභාගී වනවාද?</string>
+    <string name="response_yes">ඔව්</string>
+    <string name="response_maybe">සමහර විට</string>
+    <string name="response_no">නැත</string>
+    <string name="email_guests_label">අමුත්තන්ට ඊ-තැපැල් කරන්න</string>
+    <string name="email_organizer_label">සංවිධායකයාට ඊ-තැපැල් කරන්න</string>
+    <string name="email_picker_label">ඊ-තැපැල් කරන්නේ</string>
+    <string name="event_not_found">"සිදුවීම හමුනොවුණි."</string>
+    <string name="map_label">සිතියම</string>
+    <string name="call_label">ඇමතුම</string>
+    <string name="quick_response_settings">ක්ෂණික ප්‍රතිචාර</string>
+    <string name="quick_response_settings_summary">අමුත්තන්ට ඊ-තැපැල් කරන විට සුපුරුදු ප්‍රතිචාර සංස්කරණය කරන්න</string>
+    <string name="quick_response_settings_edit_title">ක්ෂණික ප්‍රතිචාරය</string>
+    <string name="quick_response_dialog_title">ක්ෂණික ප්‍රතිචාරය තෝරන්න</string>
+    <string name="quick_response_email_failed">ඊ-තැපැල් ක්‍රමලේඛනක් සොයාගැනීමට අපොහොසත් විය</string>
+    <string-array name="quick_response_defaults">
+        <item>තත්පර කිහිපයක් පමණක් පරක්කුවී දුවයි.</item>
+        <item>මිනිත්තු 10 කින් පමණ එහි සිටින්න.</item>
+        <item>ඉදිරියටම ගොස් මම නැතුව ආරම්භ කරන්න.</item>
+        <item>කණගාටුයි, මට එන්න වෙන්නෙ නෑ. අපි යළි වෙලාව වෙනස් කරන්න වෙනවා.</item>
+    </string-array>
+    <string name="quick_response_custom_msg">ඔබෙම එකක් ලියන්න...</string>
+    <string name="event_info_organizer">සංවිධායක:</string>
+    <string name="event_info_reminders_label">සිහි කැඳවීම්</string>
+    <string name="loading">පූරණය වෙමින්...</string>
+    <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> පෙර සිදුවීම් බැලීමට ස්පර්ශ කරන්න</string>
+    <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> පසු සිදුවීම් බැලීමට ස්පර්ශ කරන්න</string>
+    <string name="search_title">මගේ දින දර්ශන සොයන්න</string>
+    <string name="edit_event_label">"විස්තර"</string>
+    <string name="edit_label">"සංස්කරණය කරන්න"</string>
+    <string name="delete_label">"මකන්න"</string>
+    <string name="save_label">හරි</string>
+    <string name="discard_label">අවලංගු කරන්න</string>
+    <string name="dismiss_all_label">"සියල්ල ඉවතලන්න"</string>
+    <string name="snooze_label">"යළි සිහි කැඳවන්න"</string>
+    <string name="does_not_repeat">එක්-වරක් වන සිදුවීමක්</string>
+    <string name="endByDate">; <xliff:g id="DATE">%s</xliff:g> තෙක්</string>
+    <plurals name="endByCount">
+        <item quantity="one">; එක් වරක් සඳහා</item>
+        <item quantity="other">; වාර <xliff:g id="NUMBER">%d</xliff:g> සඳහා</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">දිනපතා</item>
+        <item quantity="other">සෑම දින <xliff:g id="NUMBER">%d</xliff:g> කට</item>
+    </plurals>
+    <string name="every_weekday">"සෑම සතියේ දිනකම (සඳු–සිකු)"</string>
+    <plurals name="weekly">
+        <item quantity="one">සතිපතාම <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g> දින</item>
+        <item quantity="other">සෑම සති <xliff:g id="NUMBER">%1$d</xliff:g> කට වරක් <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g> දින</item>
+    </plurals>
+    <string name="monthly">මාසිකව</string>
+    <string name="yearly_plain">වාර්ෂිකව</string>
+    <string name="custom" product="default">"අභිරුචි (දුරකථනයමත අභිරුචි කළ නොහැක)"</string>
+    <string name="modify_event">මෙම සිදුවීම පමණක් වෙනස් කරන්න</string>
+    <string name="modify_all">මාලාවේ සියලු සිදුවීම් වෙනස් කරන්න</string>
+    <string name="modify_all_following">මෙය සහ සියලු අනාගත සිදුවීම් වෙනස් කරන්න</string>
+    <string name="new_event_dialog_label">"නව සිදුවීම"</string>
+    <string name="new_event_dialog_option">"නව සිදුවීම"</string>
+    <string name="delete_this_event_title">මෙම සිදුවීම මකන්නද?</string>
+    <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g> මකන්නද?</string>
+    <string name="change_response_title">ප්‍රතිචාරය වෙනස් කිරීම</string>
+    <string name="preferences_title">"සැකසුම්"</string>
+    <string name="preferences_general_title">දින දර්ශන පෙන්වීමේ සැකසුම</string>
+    <string name="preferences_reminder_title">දැනුම්දීම් සහ සිහිකැඳවීම්</string>
+    <string name="preferences_hide_declined_title">ප්‍රතික්ෂේපිත සිදුවීම් සඟවන්න</string>
+    <string name="preferences_week_start_day_title">සතිය ආරම්භ වන්නේ</string>
+    <string name="preferences_week_start_day_dialog">සතිය ආරම්භ වන්නේ</string>
+    <string name="preferences_clear_search_history_title">සෙවුම් ඉතිහාසය අස් කරන්න</string>
+    <string name="preferences_clear_search_history_summary">ඔබ කර ඇති සියලු සෙවුම් ඉවත් කරන්න</string>
+    <string name="search_history_cleared">සෙවුම් ඉතිහාසය හිස් කෙරුණි.</string>
+    <string name="preferences_alerts_title">දැනුම්දීම්</string>
+    <string name="preferences_alerts_vibrateWhen_title">කම්පනය වීම</string>
+    <string name="preferences_alerts_ringtone_title">ශබ්දය</string>
+    <string name="preferences_alerts_popup_title">උත්පතන දැනුම්දීම</string>
+    <string name="preferences_default_reminder_title">සුපුරුදු සිහිකැඳවීමේ වෙලාව</string>
+    <string name="preferences_default_reminder_dialog">සුපුරුදු සිහිකැඳවීමේ වෙලාව</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">නිවසේ කාල කලාපය භාවිතා කරන්න</string>
+    <string name="preferences_use_home_tz_descrip">සංචාරය කරන විට දින දර්ශන සහ සිදුවීම් වේලාවන් ඔබගේ නිවසේ කාල කලාපයෙන් පෙන්වන්න</string>
+    <string name="preferences_home_tz_title">නිවසේ කාල කලාපය</string>
+    <string name="preferences_show_week_num_title">සති අංකය පෙන්වන්න</string>
+    <string name="preferences_build_version">තැනුම් අනුවාදය</string>
+    <plurals name="month_more_events">
+        <item quantity="one">"+1"</item>
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">ඉදිරියට පැමිණීම කිසිඳු දින දර්ශන සිදුවීමක් නැත</string>
+    <string name="preferences_experimental_category">පරීක්ෂණාත්මක</string>
+    <string name="preferences_reminders_responded_label">සිහිකැඳවීම මඟහරින්න</string>
+    <string name="preferences_reminders_responded_dialog">සිහිකැඳවීම මඟහරින්න</string>
+    <string name="copy_db">දත්ත සමුදාය යවන්න</string>
+    <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> සොයමින්…</string>
+    <string name="accessibility_remove_attendee">සහභාගීවන්නා ඉවත් කරන්න</string>
+    <string name="accessibility_pick_start_date">ආරම්භක දිනය</string>
+    <string name="accessibility_pick_start_time">ආරම්භක වේලාව</string>
+    <string name="accessibility_pick_end_date">අවසන් වන දිනය</string>
+    <string name="accessibility_pick_end_time">අවසන් වන වේලාව</string>
+    <string name="accessibility_pick_time_zone">කාල කලාපය</string>
+    <string name="accessibility_pick_recurrence">සිදුවීම නැවතත් කරන්න</string>
+    <string name="accessibility_add_reminder">සිහි කැඳවීමක් එක් කරන්න</string>
+    <string name="accessibility_remove_reminder">සිහිකැඳවනය ඉවත් කරන්න</string>
+    <string name="accessibility_add_attendee">සහභාගීවන්නෙකු එක් කරන්න</string>
+    <string name="accessibility_all_day">සම්පුර්ණ දවස පුරා වන සිදුවීම</string>
+    <string name="accessibility_reminder_time">සිහි කැඳවීමේ වෙලාව</string>
+    <string name="accessibility_reminder_type">සිහි කැඳවනයේ වර්ගය</string>
+    <string name="accessibility_reminder_showmeas">මාව පෙන්වන්නේ</string>
+    <string name="accessibility_reminder_privacy">පෞද්ගලිකත්වය</string>
+    <string name="day_view_new_event_hint">+ නව සිදුවීම</string>
+    <string name="template_announce_item_index"><xliff:g id="ITEM_COUNT">%2$s</xliff:g> ගෙන් <xliff:g id="ITEM_INDEX">%1$s</xliff:g> සිදුවීම.</string>
+    <plurals name="Nevents">
+        <item quantity="one">සිදුවීම් 1</item>
+        <item quantity="other">සිදුවීම් <xliff:g id="COUNT">%d</xliff:g></item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 සිදුවීම්</item>
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> සිදුවීම්</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">සිදුවීම තෝරන්න</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">සෑම දින <xliff:g id="COUNT">%d</xliff:g> කට</item>
+        <item quantity="other">සෑම දින <xliff:g id="COUNT">%d</xliff:g> කට</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">සෑම සති <xliff:g id="COUNT">%d</xliff:g> කට</item>
+        <item quantity="other">සෑම සති <xliff:g id="COUNT">%d</xliff:g> කට</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">සෑම මාස <xliff:g id="COUNT">%d</xliff:g> කට</item>
+        <item quantity="other">සෑම මාස <xliff:g id="COUNT">%d</xliff:g> කට</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">සෑම වසර <xliff:g id="COUNT">%d</xliff:g> කට</item>
+        <item quantity="other">සෑම වසර <xliff:g id="COUNT">%d</xliff:g> කට</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">සෑම මසකම එකම දිනයේ</string>
+    <string name="recurrence_end_continously">සදහටම</string>
+    <string name="recurrence_end_date_label">දිනයක් දක්වා</string>
+    <string name="recurrence_end_date"><xliff:g id="DATE">%s</xliff:g> තෙක්</string>
+    <string name="recurrence_end_count_label">සිදුවීම් ගණනක් සඳහා</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">සිදුවීම් <xliff:g id="EVENT_COUNT">%d</xliff:g> සඳහා</item>
+        <item quantity="other">සිදුවීම් <xliff:g id="EVENT_COUNT">%d</xliff:g> සඳහා</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">අවසන්වන දිනය වෙනස් කරන්න</string>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>Melding</item>
+        <item>E-mail</item>
+        <item>Sms</item>
+        <item>Alarm</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minuten</item>
+        <item>1 minút</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>20 minuten</item>
+        <item>25 minuten</item>
+        <item>30 minuten</item>
+        <item>45 minuten</item>
+        <item>1 oer</item>
+        <item>2 oer</item>
+        <item>3 oer</item>
+        <item>12 oer</item>
+        <item>24 oer</item>
+        <item>2 dagen</item>
+        <item>1 wike</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Gjin</item>
+        <item>0 minuten</item>
+        <item>1 minút</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>20 minuten</item>
+        <item>25 minuten</item>
+        <item>30 minuten</item>
+        <item>45 minuten</item>
+        <item>1 oer</item>
+        <item>2 oer</item>
+        <item>3 oer</item>
+        <item>12 oer</item>
+        <item>24 oer</item>
+        <item>2 dagen</item>
+        <item>1 wike</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Standertlânynstelling</item>
+        <item>Sneon</item>
+        <item>Snein</item>
+        <item>Moandei</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Beset</item>
+        <item>Beskikber</item>
+        <item>Foarlopich</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Gjin reaksje</item>
+        <item>Ja</item>
+        <item>Miskien</item>
+        <item>Nee</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Allinnich dizze ôfspraak</item>
+        <item>Dizze en takomstige ôfspraken</item>
+        <item>Alle ôfspraken</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Allinnich dizze ôfspraak</item>
+        <item>Alle barrens yn de rige</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Dei</item>
+        <item>Wike</item>
+        <item>Moanne</item>
+        <item>Aginda</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Allinnich wannear wegere</item>
+        <item>Wannear wegere of net reagearre</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>DEISTICH WERHELJE</item>
+        <item>WYKLIKS WERHELJE</item>
+        <item>MOANLIKS WERHELJE</item>
+        <item>JIERLIKS WERHELJE</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>op elke earste snein</item>
+        <item>op elke twadde snein</item>
+        <item>op elke tredde snein</item>
+        <item>op elke fjirde snein</item>
+        <item>op elke lêste snein</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>op elke earste moandei</item>
+        <item>op elke twadde moandei</item>
+        <item>op elke tredde moandei</item>
+        <item>op elke fjirde moandei</item>
+        <item>op elke lêste moandei</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>op elke earste tiisdei</item>
+        <item>op elke twadde tiisdei</item>
+        <item>op elke tredde tiisdei</item>
+        <item>op elke fjirde tiisdei</item>
+        <item>op elke lêste tiisdei</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>op elke earste woansdei</item>
+        <item>op elke twadde woansdei</item>
+        <item>op elke tredde woansdei</item>
+        <item>op elke fjirde woansdei</item>
+        <item>op elke lêste woansdei</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>op elke earste tongersdei</item>
+        <item>op elke twadde tongersdei</item>
+        <item>op elke tredde tongersdei</item>
+        <item>op elke fjirde tongersdei</item>
+        <item>op elke lêste tongersdei</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>op elke earste freed</item>
+        <item>op elke twadde freed</item>
+        <item>op elke tredde freed</item>
+        <item>op elke fjirde freed</item>
+        <item>op elke lêste freed</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>op elke earste sneon</item>
+        <item>op elke twadde sneon</item>
+        <item>op elke tredde sneon</item>
+        <item>op elke fjirde sneon</item>
+        <item>op elke lêste sneon</item>
+    </string-array>
+</resources>

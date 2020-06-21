@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>నోటిఫికేషన్</item>
+        <item>ఇమెయిల్</item>
+        <item>SMS</item>
+        <item>అలారం</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 నిమిషాలు</item>
+        <item>1 నిమిషం</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>15 నిమిషాలు</item>
+        <item>20 నిమిషాలు</item>
+        <item>25 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+        <item>45 నిమిషాలు</item>
+        <item>1 గంట</item>
+        <item>2 గంటలు</item>
+        <item>3 గంటలు</item>
+        <item>12 గంటలు</item>
+        <item>24 గంటలు</item>
+        <item>2 రోజులు</item>
+        <item>1 వారం</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>ఏదీ కాదు</item>
+        <item>0 నిమిషాలు</item>
+        <item>1 నిమిషం</item>
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>15 నిమిషాలు</item>
+        <item>20 నిమిషాలు</item>
+        <item>25 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+        <item>45 నిమిషాలు</item>
+        <item>1 గంట</item>
+        <item>2 గంటలు</item>
+        <item>3 గంటలు</item>
+        <item>12 గంటలు</item>
+        <item>24 గంటలు</item>
+        <item>2 రోజులు</item>
+        <item>1 వారం</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>లొకేల్ డిఫాల్ట్</item>
+        <item>శనివారం</item>
+        <item>ఆదివారం</item>
+        <item>సోమవారం</item>
+    </string-array>
+    <string-array name="availability">
+        <item>బిజీగా ఉంది</item>
+        <item>అందుబాటులో ఉంది</item>
+        <item>పరీక్షార్థక స్థితిలో ఉంది</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>ప్రతిస్పందన లేదు</item>
+        <item>హాజరవుతారు</item>
+        <item>హాజరు కావచ్చు</item>
+        <item>హాజరు కావడం లేదు</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>ఈ ఈవెంట్ మాత్రమే</item>
+        <item>ఇది మరియు భవిష్యత్తు ఈవెంట్‌లు</item>
+        <item>అన్ని ఈవెంట్‌లు</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>ఈ ఈవెంట్ మాత్రమే</item>
+        <item>శ్రేణిలోని అన్ని ఈవెంట్‌లు</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>రోజు</item>
+        <item>వారం</item>
+        <item>నెల</item>
+        <item>విషయ పట్టిక</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>తిరస్కరిస్తే మాత్రమే</item>
+        <item>తిరస్కరిస్తే లేదా ప్రతిస్పందించకపోతే</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>ప్రతిరోజు పునరావృతం చేయి</item>
+        <item>ప్రతి వారం పునరావృతం చేయి</item>
+        <item>ప్రతి నెల పునరావృతం చేయి</item>
+        <item>ప్రతి సంవత్సరం పునరావృతం చేయి</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>ప్రతి మొదటి ఆదివారం</item>
+        <item>ప్రతి రెండవ ఆదివారం</item>
+        <item>ప్రతి మూడవ ఆదివారం</item>
+        <item>ప్రతి నాలుగవ ఆదివారం</item>
+        <item>ప్రతి చివరి ఆదివారం</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>ప్రతి మొదటి సోమవారం</item>
+        <item>ప్రతి రెండవ సోమవారం</item>
+        <item>ప్రతి మూడవ సోమవారం</item>
+        <item>ప్రతి నాలుగవ సోమవారం</item>
+        <item>ప్రతి చివరి సోమవారం</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>ప్రతి మొదటి మంగళవారం</item>
+        <item>ప్రతి రెండవ మంగళవారం</item>
+        <item>ప్రతి మూడవ మంగళవారం</item>
+        <item>ప్రతి నాలుగవ మంగళవారం</item>
+        <item>ప్రతి చివరి మంగళవారం</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>ప్రతి మొదటి బుధవారం</item>
+        <item>ప్రతి రెండవ బుధవారం</item>
+        <item>ప్రతి మూడవ బుధవారం</item>
+        <item>ప్రతి నాలుగవ బుధవారం</item>
+        <item>ప్రతి చివరి బుధవారం</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>ప్రతి మొదటి గురువారం</item>
+        <item>ప్రతి రెండవ గురువారం</item>
+        <item>ప్రతి మూడవ గురువారం</item>
+        <item>ప్రతి నాలుగవ గురువారం</item>
+        <item>ప్రతి చివరి గురువారం</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>ప్రతి మొదటి శుక్రవారం</item>
+        <item>ప్రతి రెండవ శుక్రవారం</item>
+        <item>ప్రతి మూడవ శుక్రవారం</item>
+        <item>ప్రతి నాలుగవ శుక్రవారం</item>
+        <item>ప్రతి చివరి శుక్రవారం</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>ప్రతి మొదటి శనివారం</item>
+        <item>ప్రతి రెండవ శనివారం</item>
+        <item>ప్రతి మూడవ శనివారం</item>
+        <item>ప్రతి నాలుగవ శనివారం</item>
+        <item>ప్రతి చివరి శనివారం</item>
+    </string-array>
+</resources>

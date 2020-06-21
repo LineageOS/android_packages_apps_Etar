@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">ক্যালেন্ডার</string>
+    <string name="what_label">কি</string>
+    <string name="where_label">কোথায়</string>
+    <string name="when_label">কখন</string>
+    <string name="timezone_label">সময় অঞ্চল</string>
+    <string name="attendees_label">অতিথিগণ</string>
+    <string name="today">আজ</string>
+    <string name="tomorrow">আগামীকাল</string>
+    <string name="today_at_time_fmt">"আজ <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"আগামীকাল <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">পুনরাবৃত্তি</string>
+    <string name="no_title_label">(কোনো শীর্ষক নেই)</string>
+    <plurals name="Nminutes">
+        <item quantity="one">১ মিনিট</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> মিনিট</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">১ মিনিট</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> মিনিট</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">১ ঘন্টা</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ঘন্টা</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">১ দিন</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> দিন</item>
+    </plurals>
+    <string name="show_day_view">"দিনটি দেখান"</string>
+    <string name="agenda_view">"কার্যসূচি"</string>
+    <string name="day_view">"দিন"</string>
+    <string name="week_view">"সপ্তাহ"</string>
+    <string name="month_view">"মাস"</string>
+    <string name="event_view">"ইভেন্ট দেখুন"</string>
+    <string name="event_create">"নতুন ইভেন্ট"</string>
+    <string name="event_edit">"ইভেন্ট সম্পাদনা করুন"</string>
+    <string name="event_delete">"ইভেন্ট মুছুন"</string>
+    <string name="goto_today">"আজ"</string>
+    <string name="menu_preferences">"সেটিংস"</string>
+    <string name="search">"অনুসন্ধান করুন"</string>
+    <string name="hide_controls">"নিয়ন্ত্রণগুলি লুকান"</string>
+    <string name="show_controls">"নিয়ন্ত্রণগুলি দেখান"</string>
+    <string name="select_synced_calendars_button">সিঙ্ক করার জন্য ক্যালেন্ডার</string>
+    <string name="hint_what">"ইভেন্টের নাম"</string>
+    <string name="hint_where">"অবস্থান"</string>
+    <string name="hint_description">"বর্ণনা"</string>
+    <string name="hint_attendees">"অতিথিগণ"</string>
+    <string name="creating_event">"ইভেন্ট তৈরি করা হয়েছে"</string>
+    <string name="saving_event">"ইভেন্টের সংরক্ষণ করা হয়েছে৷"</string>
+    <string name="empty_event">"ফাঁকা ইভেন্ট, তৈরি করা হয়নি৷"</string>
+    <string name="creating_event_with_guest">"আমন্ত্রণগুলি পাঠানো হবে৷"</string>
+    <string name="saving_event_with_guest">"আপডেটগুলি পাঠানো হবে৷"</string>
+    <string name="rsvp_accepted">"সম্মতি জানিয়েছেন৷"</string>
+    <string name="rsvp_tentative">"নিশ্চিতভাবে কিছু জানাননি৷"</string>
+    <string name="rsvp_declined">"অসম্মতি জানিয়েছেন৷"</string>
+    <string name="create_event_dialog_save">সংরক্ষণ</string>
+    <string name="alert_title">ক্যালেন্ডার বিজ্ঞপ্তিগুলি</string>
+    <string name="event_info_title">ইভেন্ট দেখুন</string>
+    <string name="event_info_title_invite">মিটিংয়ের আমন্ত্রণ</string>
+    <string name="edit_event_to_label">এই তারিখ পর্যন্ত</string>
+    <string name="edit_event_from_label">এই তারিখ থেকে</string>
+    <string name="edit_event_all_day_label">সারা দিন</string>
+    <string name="edit_event_calendar_label">ক্যালেন্ডার</string>
+    <string name="description_label">বর্ণনা</string>
+    <string name="presence_label">আমার স্থিতি এমনি করে দেখান</string>
+    <string name="privacy_label">গোপনীয়তা</string>
+    <string name="reminders_label">অনুস্মারক যোগ করুন</string>
+    <string name="no_syncable_calendars">কোনো ক্যালেন্ডার নেই</string>
+    <string name="no_calendars_found">আপনার দ্বারা একটি ইভেন্ট যোগ করার আগে, আপনাকে আপনার ডিভাইসের সাথে কমপক্ষে একটি ক্যালেন্ডার অ্যাকাউন্ট অবশ্যই যোগ করতে হবে এবং একটি ক্যালেন্ডারকে দৃশ্যমান করতে হবে৷ একটি অ্যাকাউন্ট যোগ করার জন্য \'অ্যাকাউন্ট যোগ করুন\' এ স্পর্শ করুন (যদি আপনি এইমাত্র একটি অ্যাকাউন্ট যোগ করে থাকেন, তাহলে সেটির সিঙ্ক হওয়ার প্রক্রিয়া শেষ হওয়া পর্যন্ত অপেক্ষা করে আবার চেষ্টা করুন)৷ অথবা \'বাতিল করুন\' এ স্পর্শ করুন এবং কমপক্ষে একটি ক্যালেন্ডার দৃশ্যমান থাকার বিষয়টিকে নিশ্চিত করুন৷</string>
+    <string name="add_account">অ্যাকাউন্ট যোগ করুন</string>
+    <string name="view_event_calendar_label">ক্যালেন্ডার:</string>
+    <string name="view_event_organizer_label">সংগঠক:</string>
+    <string name="choose_event_color_label">ইভেন্টের রঙ চয়ন করুন</string>
+    <string name="event_color_picker_dialog_title">ইভেন্টের রঙ</string>
+    <string name="event_color_set_to_default">ডিফল্ট ক্যালেন্ডারের রঙ সেট করুন</string>
+    <string name="calendar_color_picker_dialog_title">ক্যালেন্ডারের রঙ</string>
+    <string name="calendar_square_color_picker_description">রঙ বাছাইকারী</string>
+    <string name="view_event_response_label">অংশগ্রহণ করছেন?</string>
+    <string name="response_yes">হ্যাঁ</string>
+    <string name="response_maybe">হয়তো</string>
+    <string name="response_no">না</string>
+    <string name="email_guests_label">অতিথিদেরকে ইমেল পাঠান</string>
+    <string name="email_organizer_label">সংগঠকে ইমেল পাঠান</string>
+    <string name="email_picker_label">এটি সহ ইমেল পাঠান</string>
+    <string name="event_not_found">"ইভেন্ট পাওয়া যায়নি৷"</string>
+    <string name="map_label">মানচিত্র</string>
+    <string name="call_label">কল করুন</string>
+    <string name="quick_response_settings">দ্রুত প্রতিক্রিয়াগুলি</string>
+    <string name="quick_response_settings_summary">অতিথিদের ইমেল পাঠানোর সময়ে ডিফল্ট প্রতিক্রিয়াগুলির সম্পাদনা করুন</string>
+    <string name="quick_response_settings_edit_title">দ্রুত প্রতিক্রিয়া</string>
+    <string name="quick_response_dialog_title">দ্রুত প্রতিক্রিয়া চয়ন করুন</string>
+    <string name="quick_response_email_failed">একটি ইমেল প্রোগ্রাম খুঁজে পেতে ব্যর্থ হয়েছে</string>
+    <string-array name="quick_response_defaults">
+        <item>মাত্র কয়েক মিনিট দেরীতে চলছে৷</item>
+        <item>১০ মিনিটের মধ্যে উপস্থিত হোন৷</item>
+        <item>চালিয়ে যান এবং আমাকে ছাড়াই শুরু করুন৷</item>
+        <item>দুঃখিত, আমি আসতে পারছি না৷ আমাদেরকে আবার সময়সূচী নির্ধারণ করতে হবে৷</item>
+    </string-array>
+    <string name="quick_response_custom_msg">আপনার নিজের পছন্দ মতো লিখুন…</string>
+    <string name="event_info_organizer">সংগঠক:</string>
+    <string name="event_info_reminders_label">অনুস্মারকগুলি</string>
+    <string name="loading">লোড হচ্ছে...</string>
+    <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> এর পূর্বের ইভেন্টগুলি দেখতে স্পর্শ করুন</string>
+    <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> এর পরের ইভেন্টগুলি দেখতে স্পর্শ করুন</string>
+    <string name="search_title">আমার ক্যালেন্ডার সন্ধান করুন</string>
+    <string name="edit_event_label">"বিশদ বিবরণ"</string>
+    <string name="edit_label">"সম্পাদনা করুন"</string>
+    <string name="delete_label">"মুছুন"</string>
+    <string name="save_label">সম্পন্ন হয়েছে</string>
+    <string name="discard_label">বাতিল করুন</string>
+    <string name="dismiss_all_label">"সব খারিজ করুন"</string>
+    <string name="snooze_label">"স্নুজ"</string>
+    <string name="does_not_repeat">এক বারের জন্য ইভেন্ট</string>
+    <string name="endByDate">; <xliff:g id="DATE">%s</xliff:g> তারিখ পর্যন্ত</string>
+    <plurals name="endByCount">
+        <item quantity="one">; একবারের জন্য</item>
+        <item quantity="other">; <xliff:g id="NUMBER">%d</xliff:g> বারের জন্য</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">প্রতিদিন</item>
+        <item quantity="other">প্রতি <xliff:g id="NUMBER">%d</xliff:g> দিনে</item>
+    </plurals>
+    <string name="every_weekday">"প্রতিটি কর্মদিবসে (সোম–শুক্র)"</string>
+    <plurals name="weekly">
+        <item quantity="one">প্রতি সপ্তাহের <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g> এ</item>
+        <item quantity="other">প্রতি <xliff:g id="NUMBER">%1$d</xliff:g> সপ্তাহ পর পর <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g> এ</item>
+    </plurals>
+    <string name="monthly">মাসিক</string>
+    <string name="yearly_plain">বাৎসরিক</string>
+    <string name="custom" product="default">"কাস্টম (ফোনে কাস্টমাইজ করা যাবে না)"</string>
+    <string name="modify_event">শুধুমাত্র এই ইভেন্টের পরিবর্তন করুন</string>
+    <string name="modify_all">এই সিরিজের সমস্ত ইভেন্ট পরিবর্তন করুন</string>
+    <string name="modify_all_following">এটি এবং ভবিষ্যতের সমস্ত ইভেন্ট পরিবর্তন করুন</string>
+    <string name="new_event_dialog_label">"নতুন ইভেন্ট"</string>
+    <string name="new_event_dialog_option">"নতুন ইভেন্ট"</string>
+    <string name="delete_this_event_title">এই ইভেন্টটি মুছতে চান?</string>
+    <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g> মুছতে চান?</string>
+    <string name="change_response_title">প্রতিক্রিয়া পরিবর্তন করুন</string>
+    <string name="preferences_title">"সেটিংস"</string>
+    <string name="preferences_general_title">ক্যালেন্ডার দর্শনের সেটিং</string>
+    <string name="preferences_reminder_title">বিজ্ঞপ্তি &amp; অনুস্মারকগুলি</string>
+    <string name="preferences_hide_declined_title">প্রত্যাখ্যাত ইভেন্টগুলি লুকান</string>
+    <string name="preferences_week_start_day_title">সপ্তাহের শুরু</string>
+    <string name="preferences_week_start_day_dialog">সপ্তাহের শুরু</string>
+    <string name="preferences_clear_search_history_title">অনুসন্ধানের ইতিহাস সাফ করুন</string>
+    <string name="preferences_clear_search_history_summary">আপনার করা সমস্ত অনুসন্ধান সরান</string>
+    <string name="search_history_cleared">অনুসন্ধানের ইতিহাস সাফ করা হয়েছে৷</string>
+    <string name="preferences_alerts_title">বিজ্ঞপ্তিগুলি</string>
+    <string name="preferences_alerts_vibrateWhen_title">কম্পন</string>
+    <string name="preferences_alerts_ringtone_title">শব্দ</string>
+    <string name="preferences_alerts_popup_title">পপ-আপ বিজ্ঞপ্তি</string>
+    <string name="preferences_default_reminder_title">অনুস্মারকের ডিফল্ট সময়</string>
+    <string name="preferences_default_reminder_dialog">অনুস্মারকের ডিফল্ট সময়</string>
+    <string name="preferences_default_reminder_default">১০</string>
+    <string name="preferences_use_home_tz_title">হোম সময় অঞ্চল ব্যবহার করুন</string>
+    <string name="preferences_use_home_tz_descrip">ভ্রমণের সময়ে আপনার হোম সময় অঞ্চলের ভিত্তিতে ক্যালেন্ডার ও ইভেন্টের সময়গুলি দেখায়</string>
+    <string name="preferences_home_tz_title">হোম সময় অঞ্চল</string>
+    <string name="preferences_show_week_num_title">কত নম্বর সপ্তাহ তা দেখান</string>
+    <string name="preferences_build_version">তৈরির সংস্করণ</string>
+    <plurals name="month_more_events">
+        <item quantity="one">"+১"</item>
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">কোনো আগত ক্যালেন্ডার ইভেন্ট নেই</string>
+    <string name="preferences_experimental_category">পরীক্ষামূলক</string>
+    <string name="preferences_reminders_responded_label">অনুস্মারকগুলি উপেক্ষা করুন</string>
+    <string name="preferences_reminders_responded_dialog">অনুস্মারকগুলি উপেক্ষা করুন</string>
+    <string name="copy_db">ডেটাবেস পাঠান</string>
+    <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> অনুসন্ধান করছে…</string>
+    <string name="accessibility_remove_attendee">অংশগ্রহণকারীদের সরান</string>
+    <string name="accessibility_pick_start_date">শুরুর তারিখ</string>
+    <string name="accessibility_pick_start_time">শুরুর সময়</string>
+    <string name="accessibility_pick_end_date">সমাপ্তির তারিখ</string>
+    <string name="accessibility_pick_end_time">সমাপ্তির সময়</string>
+    <string name="accessibility_pick_time_zone">সময় অঞ্চল</string>
+    <string name="accessibility_pick_recurrence">ইভেন্ট পুনরাবৃত্তি</string>
+    <string name="accessibility_add_reminder">অনুস্মারক যোগ করুন</string>
+    <string name="accessibility_remove_reminder">অনুস্মারক সরান</string>
+    <string name="accessibility_add_attendee">অংশগ্রহণকারীদের যোগ করুন</string>
+    <string name="accessibility_all_day">সারাদিনের অনুষ্ঠান</string>
+    <string name="accessibility_reminder_time">অনুস্মারকের সময়</string>
+    <string name="accessibility_reminder_type">অনুস্মারকের প্রকার</string>
+    <string name="accessibility_reminder_showmeas">আমার স্থিতি এমনি করে দেখান</string>
+    <string name="accessibility_reminder_privacy">গোপনীয়তা</string>
+    <string name="day_view_new_event_hint">+ নতুন ইভেন্ট</string>
+    <string name="template_announce_item_index"><xliff:g id="ITEM_COUNT">%2$s</xliff:g>টির মধ্যে <xliff:g id="ITEM_INDEX">%1$s</xliff:g> নম্বর ইভেন্ট৷</string>
+    <plurals name="Nevents">
+        <item quantity="one">১টি ইভেন্ট</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>টি ইভেন্ট</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+১টি ইভেন্ট</item>
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g>টি ইভেন্ট</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">নির্বাচিত ইভেন্ট</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">প্রতি <xliff:g id="COUNT">%d</xliff:g> দিনে</item>
+        <item quantity="other">প্রতি <xliff:g id="COUNT">%d</xliff:g> দিনে</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">প্রতি <xliff:g id="COUNT">%d</xliff:g> সপ্তাহে</item>
+        <item quantity="other">প্রতি <xliff:g id="COUNT">%d</xliff:g> সপ্তাহে</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">প্রতি <xliff:g id="COUNT">%d</xliff:g> মাসে</item>
+        <item quantity="other">প্রতি <xliff:g id="COUNT">%d</xliff:g> মাসে</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">প্রতি <xliff:g id="COUNT">%d</xliff:g> বছরে</item>
+        <item quantity="other">প্রতি <xliff:g id="COUNT">%d</xliff:g> বছরে</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">প্রতি মাসের একই দিনে</string>
+    <string name="recurrence_end_continously">চিরকাল</string>
+    <string name="recurrence_end_date_label">একটি তারিখ পর্যন্ত</string>
+    <string name="recurrence_end_date"><xliff:g id="DATE">%s</xliff:g> পর্যন্ত</string>
+    <string name="recurrence_end_count_label">একাধিক ঘটনার জন্য</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one"><xliff:g id="EVENT_COUNT">%d</xliff:g>টি ইভেন্টের জন্য</item>
+        <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g>টি ইভেন্টের জন্য</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">সমাপ্তির তারিখ পরিবর্তন করুন</string>
+</resources>

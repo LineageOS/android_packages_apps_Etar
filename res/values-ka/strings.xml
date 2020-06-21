@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">კალენდარი</string>
+    <string name="what_label">რა</string>
+    <string name="where_label">სად</string>
+    <string name="when_label">როდის</string>
+    <string name="timezone_label">დროის ზონა</string>
+    <string name="attendees_label">სტუმრები</string>
+    <string name="today">დღეს</string>
+    <string name="tomorrow">ხვალ</string>
+    <string name="today_at_time_fmt">"დღეს <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"ხვალ <xliff:g id="TIME_INTERVAL">%s</xliff:g>-ზე"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">გამეორება</string>
+    <string name="no_title_label">(სათაურის გარეშე)</string>
+    <plurals name="Nminutes">
+        <item quantity="one">1 წუთი</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> წუთი</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 წთ</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> წთ</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 საათი</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> საათი</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 დღე</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> დღე</item>
+    </plurals>
+    <string name="show_day_view">"დღის ჩვენება"</string>
+    <string name="agenda_view">"დღის განრიგი"</string>
+    <string name="day_view">"დღე"</string>
+    <string name="week_view">"კვირა"</string>
+    <string name="month_view">"თვე"</string>
+    <string name="event_view">"მოვლენის ნახვა"</string>
+    <string name="event_create">"ახალი ღონისძიება"</string>
+    <string name="event_edit">"ღონისძიების რედაქტირება"</string>
+    <string name="event_delete">"ღონისძიების წაშლა"</string>
+    <string name="goto_today">"დღეს"</string>
+    <string name="menu_preferences">"პარამეტრები"</string>
+    <string name="search">"ძიება"</string>
+    <string name="hide_controls">"კონტროლების დამალვა"</string>
+    <string name="show_controls">"კონტროლების ჩვენება"</string>
+    <string name="select_synced_calendars_button">კალენდრები სინქრონიზაციისათვის</string>
+    <string name="hint_what">"ღონისძიების სახელი"</string>
+    <string name="hint_where">"მდებარეობა"</string>
+    <string name="hint_description">"აღწერილობა"</string>
+    <string name="hint_attendees">"სტუმრები"</string>
+    <string name="creating_event">"ღონისძიება შექმნილია."</string>
+    <string name="saving_event">"ღონისძიება დამახსორებულია."</string>
+    <string name="empty_event">"ცარიელი ღონისძიება არ შეიქმნა."</string>
+    <string name="creating_event_with_guest">"მოსაწვევები გაიგზავნება."</string>
+    <string name="saving_event_with_guest">"განახლებები გაიგზავნება."</string>
+    <string name="rsvp_accepted">"დადებითი პასუხით."</string>
+    <string name="rsvp_tentative">"პასუხით „შესაძლებელია“."</string>
+    <string name="rsvp_declined">"უარყოფითი პასუხით."</string>
+    <string name="create_event_dialog_save">შენახვა</string>
+    <string name="alert_title">კალენდრის შეტყობინებები</string>
+    <string name="event_info_title">მოვლენის ნახვა</string>
+    <string name="event_info_title_invite">შეხვედრის მოსაწვევი</string>
+    <string name="edit_event_to_label">თარიღამდე</string>
+    <string name="edit_event_from_label">თარიღიდან</string>
+    <string name="edit_event_all_day_label">მთელი დღე</string>
+    <string name="edit_event_calendar_label">კალენდარი</string>
+    <string name="description_label">აღწერილობა</string>
+    <string name="presence_label">მაჩვენე, როგორც</string>
+    <string name="privacy_label">პირადი</string>
+    <string name="reminders_label">შეხსენების დამატება</string>
+    <string name="no_syncable_calendars">კალენდრები არ არის</string>
+    <string name="no_calendars_found">ვიდრე შეძლებდეთ ღონისძიებას შექმნას, სულ მცირე ერთი კალენდრის ანგარიში მაინც უნდა დაამატოთ თქვენს მოწყობილობას და გახადოთ ის ხილვადი. ამისათვის, შეეხეთ „ანგარიშის დამატებას“ (თუ უკვე დაამატეთ ანგარიში, დაელოდეთ სანამ დაასრულებს სინქრონიზაციას და სცადეთ ხელახლა). ან დააჭირეთ გაუქმებას და დარწმუნდით რომ სულ მცირე ერთი კალენდარი მაინც არის ხილვადი.</string>
+    <string name="add_account">ანგარიშის დამატება</string>
+    <string name="view_event_calendar_label">კალენდარი</string>
+    <string name="view_event_organizer_label">ორგანიზატორი:</string>
+    <string name="choose_event_color_label">ღონისძიების ფერის შერჩევა</string>
+    <string name="event_color_picker_dialog_title">ღონისძიების ფერი</string>
+    <string name="event_color_set_to_default">კალენდრის ნაგულისხმევ ფერად დაყენება</string>
+    <string name="calendar_color_picker_dialog_title">კალენდრის ფერი</string>
+    <string name="calendar_square_color_picker_description">ფერის ამომრჩევი</string>
+    <string name="view_event_response_label">ესწრებით?</string>
+    <string name="response_yes">დიახ</string>
+    <string name="response_maybe">ალბათ</string>
+    <string name="response_no">არა</string>
+    <string name="email_guests_label">ელფოსტის გაგზავნა სტუმრებისთვის</string>
+    <string name="email_organizer_label">ელფოსტის გაგზავნა ორგანიზატორისთვის</string>
+    <string name="email_picker_label">ელფოსტის გაგზავნა</string>
+    <string name="event_not_found">"ღონისძიება არ მოიძებნა."</string>
+    <string name="map_label">რუკა</string>
+    <string name="no_map">არ აყენია რუკების არცერი აპი</string>
+    <string name="call_label">დარეკვა</string>
+    <string name="quick_response_settings">სწრაფი პასუხები</string>
+    <string name="quick_response_settings_summary">სტუმრებთან მიწერისას ნაგულისხმები პასუხების რედაქტირება</string>
+    <string name="quick_response_settings_edit_title">სწრაფი პასუხი</string>
+    <string name="quick_response_dialog_title">სწრაფი პასუხის არჩევა</string>
+    <string name="quick_response_email_failed">ელფოსტის პროგრამის მოძიება ვერ მოხერხდა</string>
+    <string-array name="quick_response_defaults">
+        <item>მაგვიანდება მხოლოდ რამდენიმე წუთით.</item>
+        <item>10 წუთში მანდ ვარ.</item>
+        <item>არ დამელოდოთ, დაიწყეთ უჩემოდ.</item>
+        <item>უკაცრავად, ვერ ვახერხებ. მოგვიწევს ხელახლა დაგეგმვა.</item>
+    </string-array>
+    <string name="quick_response_custom_msg">დაწერეთ თქვენი საკუთარი…</string>
+    <string name="event_info_organizer">ორგანიზატორი:</string>
+    <string name="event_info_reminders_label">შეხსენებები</string>
+    <string name="loading">ჩატვირთვა…</string>
+    <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g>-მდე ღონისძიებების სანახავად, შეეხეთ.</string>
+    <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g>-ის შემდგომი ღონისძიებების სანახავად შეეხეთ.</string>
+    <string name="search_title">ჩემს კალენდრებში ძიება</string>
+    <string name="edit_event_label">"დეტალები"</string>
+    <string name="edit_label">"რედაქტირება"</string>
+    <string name="delete_label">"წაშლა"</string>
+    <string name="save_label">დასრულდა</string>
+    <string name="discard_label">გაუქმება</string>
+    <string name="dismiss_all_label">"ყველას გაუქმება"</string>
+    <string name="snooze_label">"ჩაჩუმება"</string>
+    <string name="does_not_repeat">ერთჯერადი ღონისძიება</string>
+    <string name="endByDate">; <xliff:g id="DATE">%s</xliff:g>-მდე</string>
+    <plurals name="endByCount">
+        <item quantity="one">; ერთხელ</item>
+        <item quantity="other">; <xliff:g id="NUMBER">%d</xliff:g>-ჯერ</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">ყოველდღიურად</item>
+        <item quantity="other">ყოველ <xliff:g id="NUMBER">%d</xliff:g> დღეს</item>
+    </plurals>
+    <string name="every_weekday">"ყოველ სამუშაო დღეს (ორშ–პარ)"</string>
+    <plurals name="weekly">
+        <item quantity="one">ყოველკვირეულად <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g>-ობით</item>
+        <item quantity="other">ყოველ <xliff:g id="NUMBER">%1$d</xliff:g> კვირაში, <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g>-ობით</item>
+    </plurals>
+    <string name="monthly">ყოველთვიურად</string>
+    <string name="yearly_plain">ყოველწლიურად</string>
+    <string name="custom" product="default">"მორგებული (ტელეფონზე მორგება ვერ ხერხდება)"</string>
+    <string name="modify_event">მხოლოდ ამ ღონისძიების შეცვლა</string>
+    <string name="modify_all">ამ სერიებში ყველა ღონისძიების შეცვლა</string>
+    <string name="modify_all_following">ამ და ყველა მომავალი ღონისძიების შეცვლა</string>
+    <string name="new_event_dialog_label">"ახალი ღონისძიება"</string>
+    <string name="new_event_dialog_option">"ახალი ღონისძიება"</string>
+    <string name="delete_this_event_title">წაიშალოს ეს ღონისძიება?</string>
+    <string name="delete_recurring_event_title">წაიშალოს <xliff:g id="EVENTTITLE">%s</xliff:g>?</string>
+    <string name="change_response_title">პასუხის შეცვლა</string>
+    <string name="preferences_title">"პარამეტრები"</string>
+    <string name="preferences_general_title">კალენდრის ხედის პარამეტრები</string>
+    <string name="preferences_reminder_title">შეტყობინებები და შეხსენებები</string>
+    <string name="preferences_hide_declined_title">უარყოფილი ღონისძიებების დამალვა</string>
+    <string name="preferences_week_start_day_title">კვირა იწყება</string>
+    <string name="preferences_week_start_day_dialog">კვირა იწყება</string>
+    <string name="preferences_clear_search_history_title">ძიების ისტორიის წაშლა</string>
+    <string name="preferences_clear_search_history_summary">თქვენ მიერ განხორციელებული ყველა ძიების წაშლა</string>
+    <string name="search_history_cleared">ძიების ისტორია გასუფთავებულია.</string>
+    <string name="preferences_alerts_title">შეტყობინებები</string>
+    <string name="preferences_alerts_vibrateWhen_title">ვიბრაცია</string>
+    <string name="preferences_alerts_ringtone_title">ხმა</string>
+    <string name="preferences_alerts_popup_title">ამომხტარი შეტყობინება</string>
+    <string name="preferences_default_reminder_title">შეხსენების ნაგულისხმევი დრო</string>
+    <string name="preferences_default_reminder_dialog">შეხსენების ნაგულისხმევი დრო</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">ლოკალური დროის ზონის გამოყენება</string>
+    <string name="preferences_use_home_tz_descrip">მოგზაურობის დროს აჩვენებს კალენდრებსა და ღონისძიებებს  თქვენ ლოკალურ დროის ზონაში</string>
+    <string name="preferences_home_tz_title">ლოკალური დროის ზონა</string>
+    <string name="preferences_show_week_num_title">კვირის მიმდევრობის ჩვენება</string>
+    <string name="preferences_build_version">ვერსიის შექმნა</string>
+    <plurals name="month_more_events">
+        <item quantity="one">"1-იც"</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g>-იც</item>
+    </plurals>
+    <string name="gadget_no_events">მოახლოებული ღონისძიებები კალენდარში არ არის</string>
+    <string name="preferences_experimental_category">ექსპერიმენტული</string>
+    <string name="preferences_reminders_responded_label">შეხსენებების გამოტოვება</string>
+    <string name="preferences_reminders_responded_dialog">შეხსენებების გამოტოვება</string>
+    <string name="copy_db">მონაცემთა ბაზის გაგზავნა</string>
+    <string name="directory_searching_fmt">ძიება <xliff:g id="DOMAIN">%s</xliff:g>…</string>
+    <string name="accessibility_remove_attendee">დამსწრეს წაშლა</string>
+    <string name="accessibility_pick_start_date">დაწყების თარიღი</string>
+    <string name="accessibility_pick_start_time">დაწყების დრო</string>
+    <string name="accessibility_pick_end_date">თარიღის დამატება</string>
+    <string name="accessibility_pick_end_time">დროის დამატება</string>
+    <string name="accessibility_pick_time_zone">დროის ზონა</string>
+    <string name="accessibility_pick_recurrence">ღონისძიების გამეორება</string>
+    <string name="accessibility_add_reminder">შეხსენების დამატება</string>
+    <string name="accessibility_remove_reminder">შეხსენების წაშლა</string>
+    <string name="accessibility_add_attendee">დამსწრეს დამატება</string>
+    <string name="accessibility_all_day">ღონისძიება მთელი დღის განმავლობაში</string>
+    <string name="accessibility_reminder_time">შეხსენების დრო</string>
+    <string name="accessibility_reminder_type">შეხსენების ტიპი</string>
+    <string name="accessibility_reminder_showmeas">მაჩვენე, როგორც</string>
+    <string name="accessibility_reminder_privacy">პირადი</string>
+    <string name="day_view_new_event_hint">+ ახალი ღონისძიება</string>
+    <string name="template_announce_item_index">ღონისძიება <xliff:g id="ITEM_INDEX">%1$s</xliff:g> <xliff:g id="ITEM_COUNT">%2$s</xliff:g>-დან)</string>
+    <plurals name="Nevents">
+        <item quantity="one">1 ღონისძიება</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ღონისძიება</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 ღონისძიება</item>
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> ღონისძიება</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">მონიშნული ღონისძიება</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">ყოველ <xliff:g id="COUNT">%d</xliff:g> დღეში</item>
+        <item quantity="other">ყოველ <xliff:g id="COUNT">%d</xliff:g> დღეში</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">ყოველ <xliff:g id="COUNT">%d</xliff:g> კვირაში</item>
+        <item quantity="other">ყოველ <xliff:g id="COUNT">%d</xliff:g> კვირაში</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">ყოველ <xliff:g id="COUNT">%d</xliff:g> თვეში</item>
+        <item quantity="other">ყოველ <xliff:g id="COUNT">%d</xliff:g> თვეში</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">ყოველ <xliff:g id="COUNT">%d</xliff:g> წელიწადში</item>
+        <item quantity="other">ყოველ <xliff:g id="COUNT">%d</xliff:g> წელიწადში</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">თითოეული თვის ერთსა და იმავე დღეს</string>
+    <string name="recurrence_end_continously">სამუდამოდ</string>
+    <string name="recurrence_end_date_label">თარიღამდე</string>
+    <string name="recurrence_end_date"><xliff:g id="DATE">%s</xliff:g>-მდე</string>
+    <string name="recurrence_end_count_label">რამდენიმე ღონისძიებისთვის</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one"><xliff:g id="EVENT_COUNT">%d</xliff:g> ღონისძიებისთვის</item>
+        <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g> ღონისძიებისთვის</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">დასრულების თარიღის შეცვლა</string>
+</resources>

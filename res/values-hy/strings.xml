@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Օրացույց</string>
+    <string name="what_label">Ինչ</string>
+    <string name="where_label">Որտեղ</string>
+    <string name="when_label">Երբ</string>
+    <string name="timezone_label">Ժամային գոտի</string>
+    <string name="attendees_label">Հյուրեր</string>
+    <string name="today">Այսօր</string>
+    <string name="tomorrow">Վաղը</string>
+    <string name="today_at_time_fmt">"Այսօր՝ <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"Վաղը՝ <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="repeats_label">Կրկնություն</string>
+    <string name="no_title_label">(Անվերնագիր)</string>
+    <plurals name="Nminutes">
+        <item quantity="one">1 րոպե</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> րոպե</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 րոպե</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> րոպե</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 ժամ</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ժամ</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 օր</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> օր</item>
+    </plurals>
+    <string name="show_day_view">"Ցուցադրել օրը"</string>
+    <string name="agenda_view">"Օրակարգ"</string>
+    <string name="day_view">"Օր"</string>
+    <string name="week_view">"Շաբաթ"</string>
+    <string name="month_view">"Ամիս"</string>
+    <string name="event_view">"Դիտել իրադարձությունը"</string>
+    <string name="event_create">"Նոր իրադարձություն"</string>
+    <string name="event_edit">"Խմբագրել իրադարձությունը"</string>
+    <string name="event_delete">"Ջնջել իրադարձությունը"</string>
+    <string name="goto_today">"Այսօր"</string>
+    <string name="menu_preferences">"Կարգավորումներ"</string>
+    <string name="search">"Որոնել"</string>
+    <string name="hide_controls">"Թաքցնել կարգավորիչները"</string>
+    <string name="show_controls">"Ցուցադրել կարգավորիչները"</string>
+    <string name="select_synced_calendars_button">Օրացույցներ՝ համաժամեցման համար</string>
+    <string name="hint_what">"Իրադարձության անունը"</string>
+    <string name="hint_where">"Տեղադրությունը"</string>
+    <string name="hint_description">"Նկարագրություն"</string>
+    <string name="hint_attendees">"Հյուրեր"</string>
+    <string name="creating_event">"Իրադարձությունը ստեղծված է:"</string>
+    <string name="saving_event">"Իրադարձությունը պահված է:"</string>
+    <string name="empty_event">"Անբովանդակ իրադարձությունը չի ստեղծվել:"</string>
+    <string name="creating_event_with_guest">"Հրավերները կուղարկվեն"</string>
+    <string name="saving_event_with_guest">"Թարմացումները կուղարկվեն:"</string>
+    <string name="rsvp_accepted">"Պատասխանը՝ այո:"</string>
+    <string name="rsvp_tentative">"Պատասխանը՝ գուցե:"</string>
+    <string name="rsvp_declined">"Պատասխանը՝ ոչ:"</string>
+    <string name="create_event_dialog_save">Պահել</string>
+    <string name="alert_title">Օրացուցային ծանուցումներ</string>
+    <string name="event_info_title">Դիտել իրադարձությունը</string>
+    <string name="event_info_title_invite">Հանդիպման հրավեր</string>
+    <string name="edit_event_to_label">Ստացող</string>
+    <string name="edit_event_from_label">Ուղարկող</string>
+    <string name="edit_event_all_day_label">Ամբողջ օրը</string>
+    <string name="edit_event_calendar_label">Օրացույց</string>
+    <string name="description_label">Նկարագրություն</string>
+    <string name="presence_label">Ցուցադրել ինձ որպես</string>
+    <string name="privacy_label">Գաղտնիություն</string>
+    <string name="reminders_label">Ավելացնել հիշեցում</string>
+    <string name="no_syncable_calendars">Օրացույցներ չկան</string>
+    <string name="no_calendars_found">Նախքան դուք կարող եք ավելացնել իրադարձություն, դուք պետք է սարքում ավելացնեք նվազագույնը մեկ օրացուցային հաշիվ և այն դարձնեք տեսանելի: Հպեք Ավելացնել հաշիվ՝ հաշվի ավելացման համար (եթե քիչ առաջ ավելացրել եք հաշիվ, սպասեք, մինչ կավարտվի համաժամեցումը և կրկին փորձեք): Կամ հպեք Չեղարկել և համոզվեք, որ նվազագույնը մեկ օրացույց տեսանելի է:</string>
+    <string name="add_account">Ավելացնել հաշիվ</string>
+    <string name="view_event_calendar_label">Օրացույց՝</string>
+    <string name="view_event_organizer_label">Կազմակերպիչ՝</string>
+    <string name="choose_event_color_label">Ընտրել իրադարձության գույնը</string>
+    <string name="event_color_picker_dialog_title">Իրադարձության գույնը</string>
+    <string name="event_color_set_to_default">Նշել օրացույցի լռելյայն գույնը</string>
+    <string name="calendar_color_picker_dialog_title">Օրացույցի գույնը</string>
+    <string name="calendar_square_color_picker_description">Գույնի ընտրիչ</string>
+    <string name="view_event_response_label">Մասնակցե՞լ</string>
+    <string name="response_yes">Այո</string>
+    <string name="response_maybe">Գուցե</string>
+    <string name="response_no">Ոչ</string>
+    <string name="email_guests_label">Նամակագրել հյուրերին</string>
+    <string name="email_organizer_label">Նամակագրել կազմակերպչին</string>
+    <string name="email_picker_label">Նամակագրել</string>
+    <string name="event_not_found">"Իրադարձությունը չի գտնվել:"</string>
+    <string name="map_label">Քարտեզ</string>
+    <string name="call_label">Հեռախոսազանգ</string>
+    <string name="quick_response_settings">Արագ պատասխաններ</string>
+    <string name="quick_response_settings_summary">Խմբագրել հյուրերին հաղորդագրվող լռելյայն պատասխանները</string>
+    <string name="quick_response_settings_edit_title">Արագ պատասխան</string>
+    <string name="quick_response_dialog_title">Ընտրեք արագ պատասխանը</string>
+    <string name="quick_response_email_failed">Էլփոստի ծրագրի որոնումը ձախողվել է</string>
+    <string-array name="quick_response_defaults">
+        <item>Ընդամենը մի քանի րոպե անց կլինեմ:</item>
+        <item>Կլինեմ այնտեղ մոտ 10 րոպեից:</item>
+        <item>Գնացեք և սկսեք առանց ինձ:</item>
+        <item>Ներեցեք, ես չեմ կարող հասցնել: Մենք ստիպված կլինենք վերապլանավորել:</item>
+    </string-array>
+    <string name="quick_response_custom_msg">Գրեք ձեր սեփականը…</string>
+    <string name="event_info_organizer">Կազմակերպիչ՝</string>
+    <string name="event_info_reminders_label">Հիշեցումներ</string>
+    <string name="loading">Բեռնում...</string>
+    <string name="show_older_events">Հպեք՝ դիտելու իրադարձությունները նախքան <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g>-ը</string>
+    <string name="show_newer_events">Հպեք՝ դիտելու իրադարձությունները <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g>-ից հետո</string>
+    <string name="search_title">Որոնել իմ օրացույցները</string>
+    <string name="edit_event_label">"Մանրամասներ"</string>
+    <string name="edit_label">"Խմբագրել"</string>
+    <string name="delete_label">"Ջնջել"</string>
+    <string name="save_label">Կատարված է</string>
+    <string name="discard_label">Չեղարկել</string>
+    <string name="dismiss_all_label">"Անտեսել բոլորը"</string>
+    <string name="snooze_label">"Ննջել"</string>
+    <string name="does_not_repeat">Մեկանգամյա իրադարձություն</string>
+    <string name="endByDate">; մինչև <xliff:g id="DATE">%s</xliff:g></string>
+    <plurals name="endByCount">
+        <item quantity="one">; մեկ անգամ</item>
+        <item quantity="other">; <xliff:g id="NUMBER">%d</xliff:g> անգամ</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Ամեն օր</item>
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> օրը մեկ</item>
+    </plurals>
+    <string name="every_weekday">"Յուրաքանչյուր աշխատանքային օր (երկ-ուրբ)"</string>
+    <plurals name="weekly">
+        <item quantity="one">Շաբաթը մեկ՝ <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+        <item quantity="other"><xliff:g id="NUMBER">%1$d</xliff:g> շաբաթը մեկ՝ <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+    </plurals>
+    <string name="monthly">Ամեն ամիս</string>
+    <string name="yearly_plain">Ամեն տարի</string>
+    <string name="custom" product="default">"Հատուկ (հնարավոր չէ հարմարեցնել հեռախոսում)"</string>
+    <string name="modify_event">Փոխել միայն այս իրադարձությունը</string>
+    <string name="modify_all">Փոխել շարքի բոլոր իրադարձությունները</string>
+    <string name="modify_all_following">Փոխել այս և հետագա բոլոր իրադարձությունները</string>
+    <string name="new_event_dialog_label">"Նոր իրադարձություն"</string>
+    <string name="new_event_dialog_option">"Նոր իրադարձություն"</string>
+    <string name="delete_this_event_title">Ջնջե՞լ այս իրադարձությունը:</string>
+    <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g>-ը ջնջե՞լ:</string>
+    <string name="change_response_title">Փոխել պատասխանը</string>
+    <string name="preferences_title">"Կարգավորումներ"</string>
+    <string name="preferences_general_title">Օրացույցի դիտման կարգավորում</string>
+    <string name="preferences_reminder_title">Ծանուցումներ &amp; հիշեցումներ</string>
+    <string name="preferences_hide_declined_title">Թաքցնել մերժված իրադարձությունները</string>
+    <string name="preferences_week_start_day_title">Շաբաթը սկսվում է</string>
+    <string name="preferences_week_start_day_dialog">Շաբաթը սկսվում է</string>
+    <string name="preferences_clear_search_history_title">Մաքրել որոնման պատմությունը</string>
+    <string name="preferences_clear_search_history_summary">Հեռացնել բոլոր որոնումները, որոնք դուք կատարել եք</string>
+    <string name="search_history_cleared">Որոնման պատմությունը մաքրվել է:</string>
+    <string name="preferences_alerts_title">Ծանուցումներ</string>
+    <string name="preferences_alerts_vibrateWhen_title">Թրթռալ</string>
+    <string name="preferences_alerts_ringtone_title">Ձայն</string>
+    <string name="preferences_alerts_popup_title">Ելնող պատուհանով ծանուցում</string>
+    <string name="preferences_default_reminder_title">Լռելյայն հիշեցման ժամանակը</string>
+    <string name="preferences_default_reminder_dialog">Լռելյայն հիշեցման ժամանակը</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">Օգտագործել տնային ժամային գոտին</string>
+    <string name="preferences_use_home_tz_descrip">Ցուցադրում է օրացույցները և իրադարձությունների ժամանակը ձեր տնային ժամային գոտում ճամփորդելիս</string>
+    <string name="preferences_home_tz_title">Տնային ժամային գոտի</string>
+    <string name="preferences_show_week_num_title">Ցուցադրել շաբաթվա համարը</string>
+    <string name="preferences_build_version">Պատրաստման տարբերակ</string>
+    <plurals name="month_more_events">
+        <item quantity="one">"+1"</item>
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">Առաջիկա օրացուցային իրադարձություններ չկան</string>
+    <string name="preferences_experimental_category">Փորձնական</string>
+    <string name="preferences_reminders_responded_label">Բաց թողնել հիշեցումները</string>
+    <string name="preferences_reminders_responded_dialog">Բաց թողնել հիշեցումները</string>
+    <string name="copy_db">Ուղարկել տվյալների շտեմարանը</string>
+    <string name="directory_searching_fmt">Որոնում է <xliff:g id="DOMAIN">%s</xliff:g>…</string>
+    <string name="accessibility_remove_attendee">Հեռացնել մասնակցին</string>
+    <string name="accessibility_pick_start_date">Մեկնարկի ամսաթիվը</string>
+    <string name="accessibility_pick_start_time">Մեկնարկի ժամը</string>
+    <string name="accessibility_pick_end_date">Ավարտի ամսաթիվը</string>
+    <string name="accessibility_pick_end_time">Ավարտի ժամը</string>
+    <string name="accessibility_pick_time_zone">Ժամային գոտին</string>
+    <string name="accessibility_pick_recurrence">Կրկնել իրադարձությունը</string>
+    <string name="accessibility_add_reminder">Ավելացնել հիշեցում</string>
+    <string name="accessibility_remove_reminder">Հեռացնել հիշեցումը</string>
+    <string name="accessibility_add_attendee">Ավելացնել մասնակից</string>
+    <string name="accessibility_all_day">Ամբողջ օրվա իրադարձություն</string>
+    <string name="accessibility_reminder_time">Հիշեցման ժամանակը</string>
+    <string name="accessibility_reminder_type">Հիշեցման տեսակը</string>
+    <string name="accessibility_reminder_showmeas">Ցուցադրել ինձ որպես</string>
+    <string name="accessibility_reminder_privacy">Գաղտնիություն</string>
+    <string name="day_view_new_event_hint">+ Նոր իրադարձություն</string>
+    <string name="template_announce_item_index">Իրադարձւթյուն <xliff:g id="ITEM_INDEX">%1$s</xliff:g> <xliff:g id="ITEM_COUNT">%2$s</xliff:g>-ից:</string>
+    <plurals name="Nevents">
+        <item quantity="one">1 իրադարձություն</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> իրադարձություն</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="one">+1 իրադարձություն</item>
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> իրադարձություն</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">Ընտրված իրադարձությունը</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> օրը մեկ</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> օրը մեկ</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> շաբաթը մեկ</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> շաբաթը մեկ</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> ամիսը մեկ</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ամիսը մեկ</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> տարին մեկ</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> տարին մեկ</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">ամեն ամսվա նույն օրը</string>
+    <string name="recurrence_end_continously">Ընդմիշտ</string>
+    <string name="recurrence_end_date_label">Մինչև ամսաթիվը</string>
+    <string name="recurrence_end_date">Մինչև <xliff:g id="DATE">%s</xliff:g>-ը</string>
+    <string name="recurrence_end_count_label">Իրադարձությունների քանակով</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one"><xliff:g id="EVENT_COUNT">%d</xliff:g> իրադարձության համար</item>
+        <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g> իրադարձության համար</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">փոխել ավարտի ամսաթիվը</string>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>ການແຈ້ງເຕືອນ</item>
+        <item>ອີເມວ</item>
+        <item>SMS</item>
+        <item>ໂມງປຸກ</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 ນາທີ</item>
+        <item>1 ນາທີ</item>
+        <item>5 ນາທີ</item>
+        <item>10 ນາທີ</item>
+        <item>15 ນາທີ</item>
+        <item>20 ນາທີ</item>
+        <item>25 ນາທີ</item>
+        <item>30 ນາທີ</item>
+        <item>45 ນາທີ</item>
+        <item>1 ຊົ່ວໂມງ</item>
+        <item>2 ຊົ່ວໂມງ</item>
+        <item>3 ຊົ່ວໂມງ</item>
+        <item>12 ຊົ່ວໂມງ</item>
+        <item>24 ຊົ່ວໂມງ</item>
+        <item>2 ມື້</item>
+        <item>1 ອາທິດ</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>ບໍ່ໃຊ້</item>
+        <item>0 ນາທີ</item>
+        <item>1 ນາທີ</item>
+        <item>5 ນາທີ</item>
+        <item>10 ນາທີ</item>
+        <item>15 ນາທີ</item>
+        <item>20 ນາທີ</item>
+        <item>25 ນາທີ</item>
+        <item>30 ນາທີ</item>
+        <item>45 ນາທີ</item>
+        <item>1 ຊົ່ວໂມງ</item>
+        <item>2 ຊົ່ວໂມງ</item>
+        <item>3 ຊົ່ວໂມງ</item>
+        <item>12 ຊົ່ວໂມງ</item>
+        <item>24 ຊົ່ວໂມງ</item>
+        <item>2 ມື້</item>
+        <item>1 ອາທິດ</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>ຕາມທ້ອງຖິ່ນ</item>
+        <item>ວັນເສົາ</item>
+        <item>ວັນອາທິດ</item>
+        <item>ວັນຈັນ</item>
+    </string-array>
+    <string-array name="availability">
+        <item>ບໍ່ຫວ່າງ</item>
+        <item>ຫວ່າງ</item>
+        <item>ບໍ່ແນ່ໃຈ</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>ບໍ່ມີການຕອບກັບ</item>
+        <item>ຕົກລົງ</item>
+        <item>ອາດຈະໄປ</item>
+        <item>ບໍ່</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>ສະເພາະນັດໝາຍນີ້</item>
+        <item>ນັດໝາຍນີ້ ແລະໃນອະນາຄົດ</item>
+        <item>ກິດຈະກໍາທັງຫມົດ</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>ສະເພາະນັດໝາຍນີ້</item>
+        <item>ທຸກນັດໝາຍແບບດຽວກັນນີ້</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>ມື້</item>
+        <item>ອາທິດ</item>
+        <item>ເດືອນ</item>
+        <item>ຕາຕາລາງການນັດໝາຍ</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>ສະເພາະກໍລະນີປະຕິເສດ</item>
+        <item>ຫາກປະຕິເສດ ຫຼື ບໍ່ໃຫ້ຄຳຕອບ</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>ຊ້ຳທຸກໆມື້</item>
+        <item>ຊ້ຳທຸກໆອາທິດ</item>
+        <item>ຊ້ຳທຸກໆເດືອນ</item>
+        <item>ຊ້ຳທຸກໆປີ</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>ໃນທຸກໆວັນອາທິດທຳອິດ</item>
+        <item>ໃນທຸກໆວັນອາທິດທີສອງ</item>
+        <item>ໃນທຸກໆວັນອາທິດທີສາມ</item>
+        <item>ໃນທຸກໆວັນອາທິດທີສີ່</item>
+        <item>ໃນທຸກໆວັນອາທິດສຸດທ້າຍ</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>ໃນທຸກໆວັນຈັນທຳອິດ</item>
+        <item>ໃນທຸກໆວັນຈັນທີສອງ</item>
+        <item>ໃນທຸກໆວັນຈັນທີສາມ</item>
+        <item>ໃນທຸກໆວັນຈັນທີສີ່</item>
+        <item>ໃນທຸກໆວັນຈັນສຸດທ້າຍ</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>ໃນທຸກໆວັນອັງຄານທຳອິດ</item>
+        <item>ໃນທຸກໆວັນອັງຄານທີສອງ</item>
+        <item>ໃນທຸກໆວັນອັງຄານທີສາມ</item>
+        <item>ໃນທຸກໆວັນອັງຄານທີສີ່</item>
+        <item>ໃນທຸກໆວັນອັງຄານສຸດທ້າຍ</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>ໃນທຸກໆວັນພຸດທຳອິດ</item>
+        <item>ໃນທຸກໆວັນພຸດທີສອງ</item>
+        <item>ໃນທຸກໆວັນພຸດທີສາມ</item>
+        <item>ໃນທຸກໆວັນພຸດທີສີ່</item>
+        <item>ໃນທຸກໆວັນພຸດທີສຸດທ້າຍ</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>ໃນທຸກໆວັນພະຫັດທຳອິດ</item>
+        <item>ໃນທຸກໆວັນພະຫັດທີສອງ</item>
+        <item>ໃນທຸກໆວັນພະຫັດທີສາມ</item>
+        <item>ໃນທຸກໆວັນພະຫັດທີສີ່</item>
+        <item>ໃນທຸກໆວັນພະຫັດທີສຸດທ້າຍ</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>ໃນທຸກໆວັນສຸກທໍາອິດ</item>
+        <item>ໃນທຸກໆວັນສຸກທີສອງ</item>
+        <item>ໃນທຸກໆວັນສຸກທີສາມ</item>
+        <item>ໃນທຸກໆວັນສຸກທີສີ່</item>
+        <item>ໃນທຸກໆວັນສຸກສຸດທ້າຍ</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>ໃນທຸກໆວັນເສົາທຳອິດ</item>
+        <item>ໃນທຸກໆວັນເສົາທີສອງ</item>
+        <item>ໃນທຸກໆວັນເສົາທີສາມ</item>
+        <item>ໃນທຸກໆວັນເສົາທີສີ່</item>
+        <item>ໃນທຸກໆວັນເສົາສຸດທ້າຍ</item>
+    </string-array>
+</resources>

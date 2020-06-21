@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>දැනුම්දීම</item>
+        <item>ඊ-තැපෑල</item>
+        <item>SMS</item>
+        <item>සීනුව</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>මිනිත්තු 0</item>
+        <item>මිනිත්තු 1</item>
+        <item>මිනිත්තු 5</item>
+        <item>මිනිත්තු 10</item>
+        <item>මිනිත්තු 15</item>
+        <item>මිනිත්තු 20</item>
+        <item>මිනිත්තු 25</item>
+        <item>මිනිත්තු 30</item>
+        <item>මිනිත්තු 45</item>
+        <item>පැය 1</item>
+        <item>පැය 2</item>
+        <item>පැය 3</item>
+        <item>පැය 12</item>
+        <item>පැය 24</item>
+        <item>දින 2</item>
+        <item>සති 1</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>කිසිවක් නැත</item>
+        <item>මිනිත්තු 0</item>
+        <item>මිනිත්තු 1</item>
+        <item>මිනිත්තු 5</item>
+        <item>මිනිත්තු 10</item>
+        <item>මිනිත්තු 15</item>
+        <item>මිනිත්තු 20</item>
+        <item>මිනිත්තු 25</item>
+        <item>මිනිත්තු 30</item>
+        <item>මිනිත්තු 45</item>
+        <item>පැය 1</item>
+        <item>පැය 2</item>
+        <item>පැය 3</item>
+        <item>පැය 12</item>
+        <item>පැය 24</item>
+        <item>දින 2</item>
+        <item>සති 1</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>පෙදෙසියට සුපුරුදු</item>
+        <item>සෙනසුරාදා</item>
+        <item>ඉරිදා</item>
+        <item>සඳුදා</item>
+    </string-array>
+    <string-array name="availability">
+        <item>කාර්යබහුල</item>
+        <item>උපයෝජ්‍ය</item>
+        <item>අස්ථිරයි</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>ප්‍රතිචාරයක් නැත</item>
+        <item>ඔව්</item>
+        <item>සමහර විට</item>
+        <item>නැත</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>මෙම සිදුවීම පමණයි</item>
+        <item>මෙය සහ අනාගත සිදුවීම්</item>
+        <item>සියලු සිදුවීම්</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>මෙම සිදුවීම පමණයි</item>
+        <item>මාලාවේ සියලු සිදුවීම්</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>දවස</item>
+        <item>සතිය</item>
+        <item>මාසය</item>
+        <item>න්‍යාය පත්‍රය</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>ප්‍රතික්ෂේප කළහොත් පමණි</item>
+        <item>ප්‍රතික්ෂේප කළහොත් හෝ ප්‍රතිචාර නොදැක්වුව හොත්</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>දිනපතා නැවත කරන්න</item>
+        <item>සතිපතා නැවත කරන්න</item>
+        <item>මාස්පතා නැවත කරන්න</item>
+        <item>වාර්ෂිකව නැවත කරන්න</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>සෑම පළමු ඉරිදාවකම</item>
+        <item>සෑම දෙවන ඉරිදාවකම</item>
+        <item>සෑම තෙවන ඉරිදාවකම</item>
+        <item>සෑම සිව්වන ඉරිදාවකම</item>
+        <item>සෑම අවසන් ඉරිදාවකම</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>සෑම පළමු සඳුදාවකම</item>
+        <item>සෑම දෙවන සඳුදාවකම</item>
+        <item>සෑම තෙවන සඳුදාවකම</item>
+        <item>සෑම සිව්වන සඳුදාවකම</item>
+        <item>සෑම අවසන් සඳුදාවකම</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>සෑම පළමු අඟහරුවාදාකම</item>
+        <item>සෑම දෙවන අඟහරුවාදාකම</item>
+        <item>සෑම තෙවන අඟහරුවාදාකම</item>
+        <item>සෑම සිව්වන අඟහරුවාදාකම</item>
+        <item>සෑම අවසන් අඟහරුවාදාකම</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>සෑම පළමු බදාදාවකම</item>
+        <item>සෑම දෙවන බදාදාවකම</item>
+        <item>සෑම තෙවන බදාදාවකම</item>
+        <item>සෑම සිව්වන බදාදාවකම</item>
+        <item>සෑම අවසන් බදාදාවකම</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>සෑම පළමු බ්‍රහස්පතින්දාවකම</item>
+        <item>සෑම දෙවන බ්‍රහස්පතින්දාවකම</item>
+        <item>සෑම තෙවන බ්‍රහස්පතින්දාවකම</item>
+        <item>සෑම සිව්වන බ්‍රහස්පතින්දාවකම</item>
+        <item>සෑම අවසන් බ්‍රහස්පතින්දාවකම</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>සෑම පළමු සිකුරාදාවකම</item>
+        <item>සෑම දෙවන සිකුරාදාවකම</item>
+        <item>සෑම තෙවන සිකුරාදාවකම</item>
+        <item>සෑම සිව්වන සිකුරාදාවකම</item>
+        <item>සෑම අවසන් සිකුරාදාවකම</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>සෑම පළමු සෙනසුරාදාවකම</item>
+        <item>සෑම දෙවන සෙනසුරාදාවකම</item>
+        <item>සෑම තෙවන සෙනසුරාදාවකම</item>
+        <item>සෑම සිව්වන සෙනසුරාදාවකම</item>
+        <item>සෑම අවසන් සෙනසුරාදාවකම</item>
+    </string-array>
+</resources>

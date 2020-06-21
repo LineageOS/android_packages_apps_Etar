@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Mìosachan</string>
+    <string name="what_label">Dè</string>
+    <string name="where_label">Càit</string>
+    <string name="when_label">Cuin</string>
+    <string name="timezone_label">Roinn-tìde</string>
+    <string name="attendees_label">Aoighean</string>
+    <string name="today">An-diugh</string>
+    <string name="tomorrow">A-màireach</string>
+    <string name="today_at_time_fmt">"An-diugh aig <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"A-màireach aig <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <string name="repeats_label">Ath-chùrsachd</string>
+    <string name="no_title_label">(Gun tiotal)</string>
+    <plurals name="Nminutes">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> mhionaid</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> mhionaid</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> mionaidean</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> mionaid</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> mhion</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> mhion</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> mion</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> mion</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> uair a thìde</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> uair a thìde</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> uairean a thìde</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> uair a thìde</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> latha</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> latha</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> làithean</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> latha</item>
+    </plurals>
+    <string name="show_day_view">"Seall an latha"</string>
+    <string name="agenda_view">"Clàr-gnothaich"</string>
+    <string name="day_view">"Latha"</string>
+    <string name="week_view">"Seachdain"</string>
+    <string name="month_view">"Mìos"</string>
+    <string name="event_view">"Seall an tachartas"</string>
+    <string name="event_create">"Tachartas ùr"</string>
+    <string name="event_edit">"Deasaich an tachartas"</string>
+    <string name="event_delete">"Sguab às an tachartas"</string>
+    <string name="goto_today">"An-diugh"</string>
+    <string name="menu_preferences">"Roghainnean"</string>
+    <string name="search">"Lorg"</string>
+    <string name="hide_controls">"Falaich na h-uidheaman-smachd"</string>
+    <string name="show_controls">"Seall na h-uidheaman-smachd"</string>
+    <string name="select_synced_calendars_button">Mìosachain a thèid a shioncronachadh</string>
+    <string name="hint_what">"Ainm an tachartais"</string>
+    <string name="hint_where">"Ionad"</string>
+    <string name="hint_description">"Tuairisgeul"</string>
+    <string name="hint_attendees">"Aoighean"</string>
+    <string name="creating_event">"Chaidh an tachartas a chruthachadh."</string>
+    <string name="saving_event">"Chaidh an tachartas a shàbhaladh."</string>
+    <string name="empty_event">"Cha deach tachartas bàn a chruthachadh."</string>
+    <string name="creating_event_with_guest">"Thèid cuiridhean a chur."</string>
+    <string name="saving_event_with_guest">"Thèid ùrachaidhean a chur."</string>
+    <string name="create_event_dialog_save">Sàbhail</string>
+    <string name="edit_event_to_label">Gu</string>
+    <string name="edit_event_from_label">O</string>
+    <string name="edit_event_all_day_label">Fad an latha</string>
+    <string name="description_label">Tuairisgeul</string>
+    <string name="privacy_label">Prìobhaideachd</string>
+    <string name="reminders_label">Cuir cuimhneachan ris</string>
+    <string name="response_maybe">Gun chinnt</string>
+    <string name="map_label">Mapa</string>
+    <string name="loading">’Ga luchdadh...</string>
+    <string name="show_older_events">Suath ris a dh’fhaicinn tachartasan ron <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
+    <string name="show_newer_events">Suath ris a dh’fhaicinn tachartasan an dèidh <xliff:g id="newest_search_range">%1$s</xliff:g></string>
+    <string name="search_title">Lorg sna mìosachain agam</string>
+    <string name="edit_event_label">"Mion-fhiosrachadh"</string>
+    <string name="edit_label">"Deasaich"</string>
+    <string name="delete_label">"Sguab às"</string>
+    <string name="save_label">Deiseil</string>
+    <string name="discard_label">Sguir dheth</string>
+    <string name="dismiss_all_label">"Leig seachad na h-uile"</string>
+    <string name="snooze_label">"Dèan dùsal"</string>
+    <string name="does_not_repeat">Tachartas aon turais</string>
+    <string name="endByDate">; gu ruige <xliff:g id="date">%s</xliff:g></string>
+    <plurals name="endByCount">
+        <item quantity="one">; <xliff:g id="number">%d</xliff:g> turas</item>
+        <item quantity="two">; <xliff:g id="number">%d</xliff:g> thuras</item>
+        <item quantity="few">; <xliff:g id="number">%d</xliff:g> turais</item>
+        <item quantity="other">; <xliff:g id="number">%d</xliff:g> turas</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Gach <xliff:g id="number">%d</xliff:g> latha</item>
+        <item quantity="two">Gach <xliff:g id="number">%d</xliff:g> latha</item>
+        <item quantity="few">Gach <xliff:g id="number">%d</xliff:g> làithean</item>
+        <item quantity="other">Gach <xliff:g id="number">%d</xliff:g> latha</item>
+    </plurals>
+    <string name="every_weekday">"Gach latha-seachdain (DiL\u2013Dih)"</string>
+    <plurals name="weekly">
+        <item quantity="one">Gach <xliff:g id="number">%1$d</xliff:g> seachdain <xliff:g id="days_of_week">%2$s</xliff:g></item>
+        <item quantity="two">Gach <xliff:g id="number">%1$d</xliff:g> seachdain <xliff:g id="days_of_week">%2$s</xliff:g></item>
+        <item quantity="few">Gach <xliff:g id="number">%1$d</xliff:g> seachdain <xliff:g id="days_of_week">%2$s</xliff:g></item>
+        <item quantity="other">Gach <xliff:g id="number">%1$d</xliff:g> seachdain <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    </plurals>
+    <string name="monthly">Gach mìos</string>
+    <string name="yearly_plain">Bliadhnail</string>
+    <string name="custom" product="default">"Gnàthaichte (cha ghabh a ghnàthachadh air fòn)"</string>
+    <string name="modify_event">Na atharraich ach an tachartas seo</string>
+    <string name="modify_all">Atharraich gach tachartas san t-sreath</string>
+    <string name="modify_all_following">Atharraich seo ’s gach tachartas ’na dhèidh</string>
+    <string name="new_event_dialog_label">"Tachartas ùr"</string>
+    <string name="new_event_dialog_option">"Tachartas ùr"</string>
+    <string name="delete_this_event_title">A bheil thu airson an tachartas seo a sguabadh às?</string>
+    <string name="delete_recurring_event_title">A bheil thu airson <xliff:g id="eventtitle">%s</xliff:g> a sguabadh às?</string>
+    <string name="change_response_title">Atharraich an fhreagairt</string>
+    <string name="preferences_title">"Roghainnean"</string>
+    <string name="preferences_general_title">Roghainnean sealladh a’ mhìosachain</string>
+    <string name="preferences_reminder_title">Brathan ⁊ cuimhneachain</string>
+    <string name="preferences_hide_declined_title">Falaich tachartasan a chaidh a dhiùltadh</string>
+    <string name="preferences_week_start_day_title">Tòisichidh an t-seachdain</string>
+    <string name="preferences_week_start_day_dialog">Tòisichidh an t-seachdain</string>
+    <string name="preferences_clear_search_history_title">Falamhaich eachdraidh nan lorg</string>
+    <string name="preferences_clear_search_history_summary">Thoir air falbh gach lorg a rinn thu roimhe</string>
+    <string name="search_history_cleared">Chaidh eachdraidh nan lorg fhalamhachadh.</string>
+    <string name="preferences_alerts_title">Brathan</string>
+    <string name="preferences_alerts_vibrateWhen_title">Dèan crith</string>
+    <string name="preferences_alerts_ringtone_title">Fuaim</string>
+    <string name="preferences_alerts_popup_title">Priob-uinneag</string>
+    <string name="preferences_experimental_category">Deuchainneil</string>
+    <string name="accessibility_pick_start_date">Ceann-là tòiseachaidh</string>
+    <string name="accessibility_pick_start_time">Àm tòiseachaidh</string>
+    <string name="accessibility_pick_end_date">Ceann-là crìochnachaidh</string>
+    <string name="accessibility_pick_end_time">Àm crìochnachaidh</string>
+    <string name="accessibility_pick_time_zone">Roinn-tìde</string>
+    <string name="accessibility_add_reminder">Cuir cuimhneachan ris</string>
+    <string name="accessibility_all_day">Tachartas fad an latha</string>
+    <string name="accessibility_reminder_privacy">Prìobhaideachd</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Gach <xliff:g id="count">%d</xliff:g> latha</item>
+        <item quantity="two">Gach <xliff:g id="count">%d</xliff:g> latha</item>
+        <item quantity="few">Gach <xliff:g id="count">%d</xliff:g> làithean</item>
+        <item quantity="other">Gach <xliff:g id="count">%d</xliff:g> latha</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Gach <xliff:g id="count">%d</xliff:g> seachdain</item>
+        <item quantity="two">Gach <xliff:g id="count">%d</xliff:g> sheachdain</item>
+        <item quantity="few">Gach <xliff:g id="count">%d</xliff:g> seachdainean</item>
+        <item quantity="other">Gach <xliff:g id="count">%d</xliff:g> seachdain</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Gach <xliff:g id="count">%d</xliff:g> mhìos</item>
+        <item quantity="two">Gach <xliff:g id="count">%d</xliff:g> mhìos</item>
+        <item quantity="few">Gach <xliff:g id="count">%d</xliff:g> mìosan</item>
+        <item quantity="other">Gach <xliff:g id="count">%d</xliff:g> mìos</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Gach <xliff:g id="count">%d</xliff:g> bhliadhna</item>
+        <item quantity="two">Gach <xliff:g id="count">%d</xliff:g> bhliadhna</item>
+        <item quantity="few">Gach <xliff:g id="count">%d</xliff:g> bliadhnaichean</item>
+        <item quantity="other">Gach <xliff:g id="count">%d</xliff:g> bliadhna</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">air an aon latha gach mìos</string>
+    <string name="recurrence_end_continously">Gu bràth</string>
+    <string name="recurrence_end_date_label">Gu ruige ceann-là</string>
+    <string name="recurrence_end_date">Gu ruige <xliff:g id="date">%s</xliff:g></string>
+    <string name="recurrence_end_count_label">Fad àireamh de thachartasan</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Fad <xliff:g id="event_count">%d</xliff:g> tachartas</item>
+        <item quantity="two">Fad <xliff:g id="event_count">%d</xliff:g> thachartas</item>
+        <item quantity="few">Fad <xliff:g id="event_count">%d</xliff:g> tachartasan</item>
+        <item quantity="other">Fad <xliff:g id="event_count">%d</xliff:g> tachartas</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">atharraich an ceann-là crìochnachaidh</string>
+</resources>

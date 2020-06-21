@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>Notificação</item>
+        <item>E-mail</item>
+        <item>SMS</item>
+        <item>Alarme</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minutos</item>
+        <item>1 minuto</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>25 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
+        <item>12 horas</item>
+        <item>24 horas</item>
+        <item>2 dias</item>
+        <item>1 semana</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Nenhum</item>
+        <item>0 minutos</item>
+        <item>1 minuto</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>25 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
+        <item>12 horas</item>
+        <item>24 horas</item>
+        <item>2 days</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>No response</item>
+        <item>Sim</item>
+        <item>Talvez</item>
+        <item>Não</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>on every first Tuesday</item>
+        <item>toda segunda terça-feira</item>
+        <item>toda terça terça-feira</item>
+        <item>toda quarta terça-feira</item>
+        <item>toda última terça-feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>toda primeira quarta-feira</item>
+        <item>toda segunda quarta-feira</item>
+        <item>toda terceira quarta-feira</item>
+        <item>toda quarta quarta-feira</item>
+        <item>toda última quarta-feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>toda primeira quinta-feira</item>
+        <item>toda segunda quinta-feira</item>
+        <item>toda terceira quinta-feira</item>
+        <item>toda quarta quinta-feira</item>
+        <item>toda última quinta-feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>toda primeira sexta-feira</item>
+        <item>toda segunda sexta-feira</item>
+        <item>toda terceira sexta-feira</item>
+        <item>toda quarta sexta-feira</item>
+        <item>toda última sexta-feira</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>todo primeiro sábado</item>
+        <item>todo segundo sábado</item>
+        <item>todo terceiro sábado</item>
+        <item>todo quarto sábado</item>
+        <item>todo último sábado</item>
+    </string-array>
+</resources>
