@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7bd9133d_0e6b86f8",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 771,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2020-06-24T12:16:12Z",
+      "side": 1,
+      "message": "the rest of the file uses non positional arguments. Make the corrections %s and %d accordingly",
+      "range": {
+        "startLine": 771,
+        "startChar": 57,
+        "endLine": 771,
+        "endChar": 68
+      },
+      "revId": "597bdbc28ea1237504e02efd829954f66d37f1ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
