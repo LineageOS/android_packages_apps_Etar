@@ -280,7 +280,7 @@
     <string name="error_generating_ics">ปัญหาที่พบระหว่างที่แชร์กิจกรรม</string>
     <string name="cal_share_intent_title">ส่งกิจกรรมไปยัง:</string>
     <string name="cal_export_event_sdcard_title">ส่งออกไปยัง SD การ์ด</string>
-    <string name="cal_export_succ_msg">ส่งออกกิจกรรมเรียบร้อยแล้ว: %1s</string>
+    <string name="cal_export_succ_msg">ส่งออกกิจกรรมเรียบร้อยแล้ว: %1$s</string>
     <string name="cal_import_menu_title">นำเข้ากิจกรรม</string>
     <string name="cal_nothing_to_import">ไม่มีสิ่งที่จะนำเข้า</string>
     <string name="cal_import_error_msg">การนำเข้าในปฏิทินล้มเหลว</string>
@@ -295,7 +295,7 @@
     <string name="preferences_calendar_account">%1$s บัญชี</string>
     <string name="preferences_calendar_account_local">ปฏิทินออฟไลน์</string>
     <string name="preferences_calendar_configure_account">กำหนดค่าปฏิทินใน %1$s</string>
-    <string name="preferences_calendar_number_of_events">%1d กิจกรรม</string>
+    <string name="preferences_calendar_number_of_events">%1$d กิจกรรม</string>
     <string name="preferences_calendar_delete">ลบปฏิทิน</string>
     <string name="preferences_calendar_display_name">เปลี่ยนชื่อ</string>
     <string name="preferences_calendar_info_category">ข้อมูลปฏิทิน</string>

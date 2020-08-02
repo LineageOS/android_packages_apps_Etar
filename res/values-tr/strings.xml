@@ -210,7 +210,6 @@
     <string name="snooze_delay_dialog_title">Erteleme gecikmesini ayarla</string>
     <string name="preferences_default_snooze_delay_title">Varsayılan erteleme gecikme süresi</string>
     <string name="preferences_default_snooze_delay_dialog">Varsayılan erteleme gecikmesi</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> Etar Projesi. Bölümler \u00a9 2005<xliff:g>%s</xliff:g> Android Açık Kaynak Projesi.</string>
     <string name="authors">Yazarlar</string>
     <string name="changelog">Değişiklikler</string>
     <string name="license">Lisans</string>
@@ -300,7 +299,7 @@
     <string name="error_generating_ics">Etkinlik paylaşılırken karşılaşılan sorunlar</string>
     <string name="cal_share_intent_title">Etkinliği gönder:</string>
     <string name="cal_export_event_sdcard_title">SD karta kaydet</string>
-    <string name="cal_export_succ_msg">Etkinlik başarıyla kaydedildi: %1s</string>
+    <string name="cal_export_succ_msg">Etkinlik başarıyla dışa aktarıldı: %1s</string>
     <string name="cal_import_menu_title">Etkinlik al</string>
     <string name="cal_nothing_to_import">Alınacak bir şey yok</string>
     <string name="cal_import_error_msg">Takvime alma başarısız</string>
@@ -315,7 +314,7 @@
     <string name="preferences_calendar_account">%1$s hesabı</string>
     <string name="preferences_calendar_account_local">Çevrimdışı takvim</string>
     <string name="preferences_calendar_configure_account">%1$s  içinde takvimi yapılandır</string>
-    <string name="preferences_calendar_number_of_events">%1d etkinlik</string>
+    <string name="preferences_calendar_number_of_events">%1$d etkinlik</string>
     <string name="preferences_calendar_delete">Takvimi sil</string>
     <string name="preferences_calendar_display_name">İsim değiştir</string>
     <string name="preferences_calendar_info_category">Takvim bilgileri</string>

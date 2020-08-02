@@ -43,6 +43,10 @@
         <item quantity="one">1 día</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> días</item>
     </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Semana <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="other">Semana <xliff:g id="COUNT">%d</xliff:g></item>
+    </plurals>
     <string name="show_day_view">"Mostrar día"</string>
     <string name="agenda_view">"Axenda"</string>
     <string name="day_view">"Día"</string>

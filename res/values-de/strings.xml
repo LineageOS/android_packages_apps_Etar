@@ -286,7 +286,6 @@
     <string name="error_generating_ics">Beim Teilen des Termins ist ein Problem aufgetreten</string>
     <string name="cal_share_intent_title">Termin senden an:</string>
     <string name="cal_export_event_sdcard_title">Auf SD-Karte exportieren</string>
-    <string name="cal_export_succ_msg">Termin erfolgreich exportiert: %1s</string>
     <string name="cal_import_menu_title">Termin importieren</string>
     <string name="cal_nothing_to_import">Nichts zu importieren</string>
     <string name="show_time_no">Zeit nicht anzeigen</string>
@@ -295,7 +294,6 @@
     <string name="show_time_start_end_below">Start- und Endzeit unter dem Termin</string>
     <string name="preferences_calendar_no_display_name">Unbenannter Kalender</string>
     <string name="preferences_calendar_account_local">Offline-Kalender</string>
-    <string name="preferences_calendar_number_of_events">%1d Termine</string>
     <string name="preferences_calendar_delete">Kalender löschen</string>
     <string name="preferences_calendar_display_name">Name ändern</string>
     <string name="preferences_calendar_info_category">Kalenderinformation</string>
@@ -303,6 +301,7 @@
     <string name="preferences_calendar_visible">Termine anzeigen</string>
     <string name="preferences_calendar_synchronize">Diesen Kalender synchronisieren</string>
     <string name="preferences_calendar_color_warning_title">Warnung</string>
+    <string name="preferences_calendar_color_warning_message">Die Änderung der Farbe kann verworfen werden, wenn der Kalender erneut synchronisiert wird.\n\nIn DAVx⁵ \"Kalenderfarben verwalten\" deaktivieren, um dies zu verhindern.</string>
     <string name="preferences_calendar_color_warning_button">Ich verstehe</string>
     <string name="preferences_calendar_delete_message">Wollen Sie wirklich diesen Kalender löschen?</string>
     <string name="preferences_calendar_delete_delete">Kalender löschen</string>
