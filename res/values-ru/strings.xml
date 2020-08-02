@@ -188,6 +188,7 @@
     <string name="preferences_month_view_portrait">Вид месяца (в портретном)</string>
     <string name="preferences_month_view_landscape">Вид месяца (в альбомном)</string>
     <string name="preferences_theme">Тема</string>
+    <string name="preferences_system_theme">По умолчанию</string>
     <string name="preferences_light_theme">Светлая</string>
     <string name="preferences_dark_theme">Темная</string>
     <string name="preferences_black_theme">Черная</string>
@@ -226,7 +227,6 @@
     <string name="snooze_delay_dialog_title">Период отсрочки</string>
     <string name="preferences_default_snooze_delay_title">Период отсрочки по умолчанию</string>
     <string name="preferences_default_snooze_delay_dialog">Отсрочка по умолчанию</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> Проект Etar. Разделы \u00a9 2005-<xliff:g>%s</xliff:g> Проект Android с открытым исходным кодом.</string>
     <string name="authors">Авторы</string>
     <string name="changelog">Список изменений</string>
     <string name="license">Лицензия</string>
@@ -332,7 +332,7 @@
     <string name="error_generating_ics">Не удалось отправить событие</string>
     <string name="cal_share_intent_title">Отправить событие:</string>
     <string name="cal_export_event_sdcard_title">Экспорт на SD-карту</string>
-    <string name="cal_export_succ_msg">Событие экспортировано: %1s</string>
+    <string name="cal_export_succ_msg">Событий экспортировано: %1$s</string>
     <string name="cal_import_menu_title">Импортировать событие</string>
     <string name="cal_nothing_to_import">Импортировать нечего</string>
     <string name="cal_import_error_msg">Импорт в календарь не удался</string>
@@ -347,7 +347,7 @@
     <string name="preferences_calendar_account">%1$s аккаунт</string>
     <string name="preferences_calendar_account_local">Автономный календарь</string>
     <string name="preferences_calendar_configure_account">Настроить календарь в %1$s</string>
-    <string name="preferences_calendar_number_of_events">Событий %1d</string>
+    <string name="preferences_calendar_number_of_events">Событий: %1$d</string>
     <string name="preferences_calendar_delete">Удалить календарь</string>
     <string name="preferences_calendar_display_name">Изменить название</string>
     <string name="preferences_calendar_info_category">Информация о календаре</string>

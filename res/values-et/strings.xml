@@ -155,6 +155,7 @@
     <string name="change_response_title">Muuda vastust</string>
     <string name="preferences_title">"Seaded"</string>
     <string name="preferences_general_title">Kalendrivaate seade</string>
+    <string name="preferences_system_theme">Süsteemi vaikesäte</string>
     <string name="preferences_reminder_title">Märguanded ja meeldetuletused</string>
     <string name="preferences_hide_declined_title">Peida tagasilükatud sündmused</string>
     <string name="preferences_week_start_day_title">Nädala algus:</string>

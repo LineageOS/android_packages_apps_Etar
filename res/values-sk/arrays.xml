@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string-array name="reminder_methods_labels">
         <item>Upozornenie</item>
         <item>E-mail</item>

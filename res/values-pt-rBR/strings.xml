@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendário</string>
+    <string name="what_label">O quê</string>
     <string name="where_label">Local</string>
     <string name="when_label">Quando</string>
     <string name="timezone_label">Fuso horário</string>
@@ -49,20 +50,29 @@
     <string name="day_view">"Dia"</string>
     <string name="week_view">"Semana"</string>
     <string name="month_view">"Mês"</string>
+    <string name="event_view">"Visualizar evento"</string>
     <string name="event_create">"Novo evento"</string>
     <string name="event_edit">"Editar evento"</string>
     <string name="event_delete">"Excluir evento"</string>
     <string name="share_label">Compartilhar</string>
     <string name="goto_today">"Hoje"</string>
     <string name="goto_date">Ir para\u2026</string>
+    <string name="menu_preferences">"Configurações"</string>
+    <string name="hint_where">"Local"</string>
+    <string name="hint_attendees">"Convidados"</string>
     <string name="create_event_dialog_save">Salvar</string>
     <string name="alert_title">Notificações do calendário</string>
+    <string name="edit_event_calendar_label">Calendário</string>
+    <string name="description_label">Descrição</string>
+    <string name="privacy_label">Privacidade</string>
+    <string name="reminders_label">Adicionar lembrete</string>
     <string name="add_account">Adicionar conta</string>
     <string name="view_event_calendar_label">Calendário:</string>
     <string name="view_event_organizer_label">Organizador:</string>
     <string name="choose_event_color_label">Escolher a cor do evento</string>
     <string name="event_color_picker_dialog_title">Cor do evento</string>
     <string name="calendar_color_picker_dialog_title">Cor do calendário</string>
+    <string name="calendar_square_color_picker_description">Seletor de cores</string>
     <string name="view_event_response_label">Participar?</string>
     <string name="response_yes">Sim</string>
     <string name="response_maybe">Talvez</string>
@@ -127,7 +137,6 @@
     <string name="snooze_delay_dialog_title">Definir atraso da soneca</string>
     <string name="preferences_default_snooze_delay_title">Tempo padrão de atraso da soneca</string>
     <string name="preferences_default_snooze_delay_dialog">Definir atraso da soneca</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> The Etar Project. Porções \u00a9 2005-<xliff:g>%s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Autores</string>
     <string name="changelog">Alterações</string>
     <string name="license">Licença</string>

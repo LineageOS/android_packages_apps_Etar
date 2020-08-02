@@ -210,7 +210,6 @@
     <string name="snooze_delay_dialog_title">Imposta tempo ritardo</string>
     <string name="preferences_default_snooze_delay_title">Tempo ritardo rinvio</string>
     <string name="preferences_default_snooze_delay_dialog">Tempo ritardo rinvio predefinito</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> The Etar Project. Parti da \u00a9 2005-<xliff:g>%s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Autori</string>
     <string name="changelog">Changelog</string>
     <string name="license">Licenza</string>

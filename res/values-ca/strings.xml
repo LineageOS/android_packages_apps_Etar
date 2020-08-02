@@ -210,7 +210,6 @@
     <string name="snooze_delay_dialog_title">Estableix el retard de la repetició</string>
     <string name="preferences_default_snooze_delay_title">Temps de retard de la repetició per defecte</string>
     <string name="preferences_default_snooze_delay_dialog">Retard de la repetició per defecte</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Autors</string>
     <string name="changelog">Registre de canvis</string>
     <string name="license">Llicència</string>
@@ -300,7 +299,7 @@
     <string name="error_generating_ics">Han sorgit problemes en compartir l\'esdeveniment</string>
     <string name="cal_share_intent_title">Envia l\'esdeveniment a:</string>
     <string name="cal_export_event_sdcard_title">Exporta a la targeta SD</string>
-    <string name="cal_export_succ_msg">L\'esdeveniment s\'ha exportat amb èxit: %1s</string>
+    <string name="cal_export_succ_msg">L\'esdeveniment s\'ha exportat amb èxit: %1$s</string>
     <string name="cal_import_menu_title">Importa l\'esdeveniment</string>
     <string name="cal_nothing_to_import">Res per importar</string>
     <string name="cal_import_error_msg">La importació al calendari ha fallat</string>
@@ -315,7 +314,7 @@
     <string name="preferences_calendar_account">Compte de %1$s</string>
     <string name="preferences_calendar_account_local">Calendari fora de línia</string>
     <string name="preferences_calendar_configure_account">Configura el calendari a %1$s</string>
-    <string name="preferences_calendar_number_of_events">%1d esdeveniments</string>
+    <string name="preferences_calendar_number_of_events">%1$d esdeveniments</string>
     <string name="preferences_calendar_delete">Elimina el calendari</string>
     <string name="preferences_calendar_display_name">Canvia el nom</string>
     <string name="preferences_calendar_info_category">Informació del calendari</string>

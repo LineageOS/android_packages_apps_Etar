@@ -210,7 +210,6 @@
     <string name="snooze_delay_dialog_title">Ertələmə gecikməsini tənzimlə</string>
     <string name="preferences_default_snooze_delay_title">İlkin ertələmə gecikmə vaxtı</string>
     <string name="preferences_default_snooze_delay_dialog">İlkin ertələmə gecikməsi</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> Etar Layihəsi. Hissələr \u00a9 2005-<xliff:g>%s</xliff:g> Android Açıq Mənbə Layihəsi.</string>
     <string name="authors">Müəlliflər</string>
     <string name="changelog">Dəyişiklik jurnalı</string>
     <string name="license">Lisenziya</string>
@@ -300,7 +299,7 @@
     <string name="error_generating_ics">Tədbir paylaşılan zaman problem baş verdi</string>
     <string name="cal_share_intent_title">Tədbiri göndər:</string>
     <string name="cal_export_event_sdcard_title">SD karta köçür</string>
-    <string name="cal_export_succ_msg">Tədbir uğurla köçürüldü: %1s</string>
+    <string name="cal_export_succ_msg">Tədbir uğurla ixrac edildi: %1$s</string>
     <string name="cal_import_menu_title">Tədbir götür</string>
     <string name="cal_nothing_to_import">Götürüləcək heçnə yoxdur</string>
     <string name="cal_import_error_msg">Götürmə uğursuz oldu</string>
@@ -315,7 +314,7 @@
     <string name="preferences_calendar_account">%1$s hesab</string>
     <string name="preferences_calendar_account_local">Xətdən kənar təqvim</string>
     <string name="preferences_calendar_configure_account">%1$s hesabında təqvimi konfiqurasiya et</string>
-    <string name="preferences_calendar_number_of_events">%1d tədbir</string>
+    <string name="preferences_calendar_number_of_events">%1$d tədbir</string>
     <string name="preferences_calendar_delete">Təqvimi sil</string>
     <string name="preferences_calendar_display_name">Adı dəyişdir</string>
     <string name="preferences_calendar_info_category">Təqvim məlumatı</string>

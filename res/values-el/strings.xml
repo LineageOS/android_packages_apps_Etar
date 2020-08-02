@@ -172,6 +172,7 @@
     <string name="preferences_month_view_portrait">Διάταξη προβολής μήνα (Πορτραίτο)</string>
     <string name="preferences_month_view_landscape">Διάταξη προβολής μήνα (Τοπίο)</string>
     <string name="preferences_theme">Θέμα</string>
+    <string name="preferences_system_theme">Προεπιλογή συστήματος</string>
     <string name="preferences_light_theme">Φωτεινό</string>
     <string name="preferences_dark_theme">Σκοτεινό</string>
     <string name="preferences_black_theme">Μαύρο</string>
@@ -299,10 +300,12 @@
     <string name="error_generating_ics">Αντιμετωπίστηκε πρόβλημα κατά την κοινή χρήση του συμβάντος</string>
     <string name="cal_share_intent_title">Αποστολή συμβάντος προς:</string>
     <string name="cal_export_event_sdcard_title">Εξαγωγή στην κάρτα SD</string>
-    <string name="cal_export_succ_msg">Επιτυχής εξαγωγή του συμβάντος: %1s</string>
+    <string name="cal_export_succ_msg">Επιτυχής εξαγωγή του συμβάντος: %1$s</string>
     <string name="cal_import_menu_title">Εισαγωγή συμβάντος</string>
     <string name="cal_nothing_to_import">Τίποτα για εισαγωγή</string>
     <string name="cal_import_error_msg">Αποτυχία εισαγωγής στο ημερολόγιο</string>
+    <string name="cal_import_error_time_zone_msg">Δεν είναι δυνατή η κατανόηση της δεδομένης ζώνης ώρας: %s</string>
+    <string name="cal_import_error_date_msg">Δεν είναι δυνατή η κατανόηση της δεδομένης ημερομηνίας: %s</string>
     <string name="cal_pick_ics">Επιλέξτε αρχείο για εισαγωγή</string>
     <string name="show_time_no">Να μην εμφανίζεται η ώρα</string>
     <string name="show_time_start">Μόνο ώρα έναρξης</string>
@@ -311,7 +314,8 @@
     <string name="preferences_calendar_no_display_name">Ανώνυμο ημερολόγιο</string>
     <string name="preferences_calendar_account">Λογαριασμός %1$s</string>
     <string name="preferences_calendar_account_local">Ημερολόγιο χωρίς σύνδεση</string>
-    <string name="preferences_calendar_number_of_events">%1d συμβάντα</string>
+    <string name="preferences_calendar_configure_account">Ρύθμιση ημερολογίου στο λογαριασμό %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d συμβάντα</string>
     <string name="preferences_calendar_delete">Διαγραφή ημερολογίου</string>
     <string name="preferences_calendar_display_name">Αλλαγή ονόματος</string>
     <string name="preferences_calendar_info_category">Πληροφορίες ημερολογίου</string>
@@ -319,6 +323,7 @@
     <string name="preferences_calendar_visible">Προβολή συμβάντων</string>
     <string name="preferences_calendar_synchronize">Συγχρονισμός αυτού του ημερολογίου</string>
     <string name="preferences_calendar_color_warning_title">Προσοχή</string>
+    <string name="preferences_calendar_color_warning_message">Η αλλαγή του χρώματος μπορεί να αντιστραφεί όταν συγχρονιστεί ξανά το ημερολόγιο.\n\nΜπορείτε να απενεργοποιήσετε τη \"Διαχείριση χρωμάτων ημερολογίου\" στο DAVx⁵ για να αποφευχθεί αυτό.</string>
     <string name="preferences_calendar_color_warning_button">Καταλαβαίνω</string>
     <string name="preferences_calendar_delete_message">Θέλετε σίγουρα να διαγράψετε το ημερολόγιο;</string>
     <string name="preferences_calendar_delete_delete">Διαγραφή ημερολογίου</string>
@@ -330,6 +335,7 @@
     <string name="preferences_list_add_offline">Προσθήκη ημερολογίου χωρίς σύνδεση</string>
     <string name="preferences_list_add_offline_title">Προσθήκη ημερολογίου χωρίς σύνδεση</string>
     <string name="preferences_list_add_offline_error_empty">Εισάγετε ένα όνομα ημερολογίου!</string>
+    <string name="preferences_list_add_offline_message">Τα ημερολόγια εκτός σύνδεσης ΔΕΝ συγχρονίζονται με μια υπηρεσία cloud και διατίθενται μόνο στο τηλέφωνό σας.</string>
     <string name="preferences_list_add_offline_button">Προσθήκη ημερολογίου</string>
     <string name="preferences_list_add_offline_name">Όνομα</string>
     <string name="preferences_list_add_offline_cancel">Άκυρο</string>

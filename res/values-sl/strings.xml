@@ -62,7 +62,7 @@
     <string name="agenda_view">"Dnevni red"</string>
     <string name="day_view">"Dan"</string>
     <string name="week_view">"Teden"</string>
-    <string name="month_view">"mesec"</string>
+    <string name="month_view">"Mesec"</string>
     <string name="event_view">"Ogled dogodka"</string>
     <string name="event_create">"Nov dogodek"</string>
     <string name="event_edit">"Uredi dogodek"</string>
@@ -226,7 +226,6 @@
     <string name="snooze_delay_dialog_title">Nastavi zakasnitev dremeža</string>
     <string name="preferences_default_snooze_delay_title">Privzeti čas zakasnitve dremeža</string>
     <string name="preferences_default_snooze_delay_dialog">Privzeta zakasnitev dremeža</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Avtorji</string>
     <string name="changelog">Dnevnik sprememb</string>
     <string name="license">Licenca</string>
@@ -332,7 +331,7 @@
     <string name="error_generating_ics">Med deljenjem dogodka so se pojavile težave</string>
     <string name="cal_share_intent_title">Pošlji dogodek na:</string>
     <string name="cal_export_event_sdcard_title">Izvozi na kartico SD</string>
-    <string name="cal_export_succ_msg">Dogodek uspešno izvožen: %1s</string>
+    <string name="cal_export_succ_msg">Dogodek uspešno izvožen: %1$s</string>
     <string name="cal_import_menu_title">Uvozi dogodek</string>
     <string name="cal_nothing_to_import">Ničesar ni za uvoziti</string>
     <string name="cal_import_error_msg">Uvoz v koledar je spodletel</string>
@@ -347,7 +346,7 @@
     <string name="preferences_calendar_account">%1$s račun</string>
     <string name="preferences_calendar_account_local">Koledar brez povezave</string>
     <string name="preferences_calendar_configure_account">Nastavi koledar v %1$s</string>
-    <string name="preferences_calendar_number_of_events">%1d dogodkov</string>
+    <string name="preferences_calendar_number_of_events">%1$d dogodkov</string>
     <string name="preferences_calendar_delete">Izbriši koledar</string>
     <string name="preferences_calendar_display_name">Spremeni ime</string>
     <string name="preferences_calendar_info_category">Podatki koledarja</string>

@@ -202,7 +202,6 @@
     <string name="snooze_delay_dialog_title">设定延迟提醒的重复时间</string>
     <string name="preferences_default_snooze_delay_title">默认延迟提醒时长</string>
     <string name="preferences_default_snooze_delay_dialog">默认延迟提醒时长</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">作者</string>
     <string name="changelog">更新日志</string>
     <string name="license">授权许可</string>
@@ -284,7 +283,7 @@
     <string name="error_generating_ics">分享事件时出现问题</string>
     <string name="cal_share_intent_title">将事件发送到：</string>
     <string name="cal_export_event_sdcard_title">导出到 SD 卡</string>
-    <string name="cal_export_succ_msg">成功导出事件：%1s</string>
+    <string name="cal_export_succ_msg">已成功导出的事件：%1$s</string>
     <string name="cal_import_menu_title">导入事件</string>
     <string name="cal_nothing_to_import">没有可供导入的事件</string>
     <string name="cal_import_error_msg">导入到日历失败</string>
@@ -299,7 +298,7 @@
     <string name="preferences_calendar_account">%1$s 账户</string>
     <string name="preferences_calendar_account_local">离线日历</string>
     <string name="preferences_calendar_configure_account">配置 %1$s 中的日历</string>
-    <string name="preferences_calendar_number_of_events">%1d 事件</string>
+    <string name="preferences_calendar_number_of_events">%1$d 个事件</string>
     <string name="preferences_calendar_delete">删除日历</string>
     <string name="preferences_calendar_display_name">重命名</string>
     <string name="preferences_calendar_info_category">日历信息</string>

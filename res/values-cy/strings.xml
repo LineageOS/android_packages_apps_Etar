@@ -242,7 +242,6 @@
     <string name="snooze_delay_dialog_title">Gosod oediad hepian</string>
     <string name="preferences_default_snooze_delay_title">Amser rhagosodedig oedi hepian</string>
     <string name="preferences_default_snooze_delay_dialog">Oediad hepian rhagosodedig</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> Etar Project. Rhannau \u00a9 2005-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
     <string name="authors">Awduron</string>
     <string name="changelog">Log newidiadau</string>
     <string name="license">Trwydded</string>
@@ -364,7 +363,6 @@
     <string name="error_generating_ics">Cafwyd problemau wrth rannu\'r digwyddiad</string>
     <string name="cal_share_intent_title">Anfon digwyddiad at:</string>
     <string name="cal_export_event_sdcard_title">Allforio i gerdyn SD</string>
-    <string name="cal_export_succ_msg">Allforiwyd y digwyddiad yn llwyddiannus: %1s</string>
     <string name="cal_import_menu_title">Mewnforio digwyddiad</string>
     <string name="cal_nothing_to_import">Dim byd i\'w fewnforio</string>
     <string name="cal_import_error_msg">Methodd y mewnforio i\'r calendr</string>
@@ -379,7 +377,6 @@
     <string name="preferences_calendar_account">Cyfrif %1$s</string>
     <string name="preferences_calendar_account_local">Calendr all-lein</string>
     <string name="preferences_calendar_configure_account">Ffurfweddu\'r calendr yn %1$s</string>
-    <string name="preferences_calendar_number_of_events">%1d digwyddiad</string>
     <string name="preferences_calendar_delete">Dileu\'r calendr</string>
     <string name="preferences_calendar_display_name">Newid yr enw</string>
     <string name="preferences_calendar_info_category">Gwybodaeth y calendr</string>

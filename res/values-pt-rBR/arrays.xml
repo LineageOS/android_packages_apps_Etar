@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string-array name="reminder_methods_labels">
         <item>Notificação</item>
         <item>E-mail</item>
@@ -54,14 +54,36 @@
         <item>3 horas</item>
         <item>12 horas</item>
         <item>24 horas</item>
-        <item>2 days</item>
-        <item>1 week</item>
+        <item>2 dias</item>
+        <item>1 semana</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Locale default</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+        <item>Segunda-feira</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Busy</item>
+        <item>Disponível</item>
+        <item>Tentative</item>
     </string-array>
     <string-array name="response_labels1">
         <item>No response</item>
         <item>Sim</item>
         <item>Talvez</item>
         <item>Não</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Only this event</item>
+        <item>This and future events</item>
+        <item>Todos os eventos</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>REPEAT DAILY</item>
+        <item>REPEAT WEEKLY</item>
+        <item>REPEAT MONTHLY</item>
+        <item>REPETIR ANUALMENTE</item>
     </string-array>
     <string-array name="repeat_by_nth_tues">
         <item>on every first Tuesday</item>

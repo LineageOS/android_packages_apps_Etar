@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string-array name="preferences_default_reminder_labels">
         <item>کوئی نہیں</item>
         <item>0 منٹ</item>

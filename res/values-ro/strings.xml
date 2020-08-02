@@ -180,6 +180,7 @@
     <string name="preferences_month_view_portrait">Aspect vizualizare lună (Portret)</string>
     <string name="preferences_month_view_landscape">Aspect vizualizare lună (Peisaj)</string>
     <string name="preferences_theme">Temă</string>
+    <string name="preferences_system_theme">Implicit sistem</string>
     <string name="preferences_light_theme">Luminos</string>
     <string name="preferences_dark_theme">Întunecat</string>
     <string name="preferences_black_theme">Negru</string>
@@ -218,7 +219,6 @@
     <string name="snooze_delay_dialog_title">Setare întârziere amânare</string>
     <string name="preferences_default_snooze_delay_title">Timpul implicit de întârziere al amânării</string>
     <string name="preferences_default_snooze_delay_dialog">Întârzierea amânare implicită</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Autori</string>
     <string name="changelog">Changelog</string>
     <string name="license">Licenţă</string>
@@ -316,7 +316,7 @@
     <string name="error_generating_ics">Au fost întâmpinate probleme în partajarea evenimentului</string>
     <string name="cal_share_intent_title">Trimite eveniment către:</string>
     <string name="cal_export_event_sdcard_title">Exportă pe cardul SD</string>
-    <string name="cal_export_succ_msg">Eveniment exportat cu succes: %1s</string>
+    <string name="cal_export_succ_msg">Eveniment exportat cu succes: %1$s</string>
     <string name="cal_import_menu_title">Importă eveniment</string>
     <string name="cal_nothing_to_import">Nimic de importat</string>
     <string name="cal_import_error_msg">Importul în calendar a eșuat</string>
@@ -331,7 +331,7 @@
     <string name="preferences_calendar_account">Cont %1$s</string>
     <string name="preferences_calendar_account_local">Calendar offline</string>
     <string name="preferences_calendar_configure_account">Configurare calendar în %1$s</string>
-    <string name="preferences_calendar_number_of_events">%1d evenimente</string>
+    <string name="preferences_calendar_number_of_events">%1$d evenimente</string>
     <string name="preferences_calendar_delete">Ștergere calendar</string>
     <string name="preferences_calendar_display_name">Schimbare nume</string>
     <string name="preferences_calendar_info_category">Informații calendar</string>
