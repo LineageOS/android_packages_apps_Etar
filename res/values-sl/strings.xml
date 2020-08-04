@@ -188,6 +188,7 @@
     <string name="preferences_month_view_portrait">Razporeditev mesečnega pogleda (pokončno)</string>
     <string name="preferences_month_view_landscape">Razporeditev mesečnega pogleda (ležeče)</string>
     <string name="preferences_theme">Tema</string>
+    <string name="preferences_system_theme">Sistemska privzeta</string>
     <string name="preferences_light_theme">Svetla</string>
     <string name="preferences_dark_theme">Temna</string>
     <string name="preferences_black_theme">Črna</string>
