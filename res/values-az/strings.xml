@@ -172,6 +172,7 @@
     <string name="preferences_month_view_portrait">Ay görünüş düzümü (Şaquli)</string>
     <string name="preferences_month_view_landscape">Ay görünüş düzümü (Üfüqi)</string>
     <string name="preferences_theme">Tema</string>
+    <string name="preferences_system_theme">İlkin sistem</string>
     <string name="preferences_light_theme">Açıq</string>
     <string name="preferences_dark_theme">Tünd</string>
     <string name="preferences_black_theme">Qara</string>

@@ -164,6 +164,7 @@
     <string name="preferences_month_view_portrait">月视图布局(纵向)</string>
     <string name="preferences_month_view_landscape">月视图布局(横向)</string>
     <string name="preferences_theme">主题</string>
+    <string name="preferences_system_theme">系统默认</string>
     <string name="preferences_light_theme">亮色</string>
     <string name="preferences_dark_theme">暗色</string>
     <string name="preferences_black_theme">黑色</string>
