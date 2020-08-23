@@ -210,7 +210,7 @@
     <string name="snooze_delay_dialog_title">Estableix el retard de la repetició</string>
     <string name="preferences_default_snooze_delay_title">Temps de retard de la repetició per defecte</string>
     <string name="preferences_default_snooze_delay_dialog">Retard de la repetició per defecte</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%s</xliff:g> The Android Open Source Project.</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Autors</string>
     <string name="changelog">Registre de canvis</string>
     <string name="license">Llicència</string>
