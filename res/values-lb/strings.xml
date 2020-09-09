@@ -24,7 +24,7 @@
     <string name="tomorrow">Muer</string>
     <string name="today_at_time_fmt">"Haut um <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Muer um <xliff:g id="time_interval">%s</xliff:g>"</string>
-    <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%1$s</xliff:g>"</string>
     <string name="repeats_label">Widderhuelung</string>
     <string name="no_title_label">(Keen Titel)</string>
     <plurals name="Nminutes">

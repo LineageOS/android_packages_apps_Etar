@@ -24,7 +24,7 @@
     <string name="tomorrow">A-màireach</string>
     <string name="today_at_time_fmt">"An-diugh aig <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"A-màireach aig <xliff:g id="time_interval">%s</xliff:g>"</string>
-    <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%1$s</xliff:g>"</string>
     <string name="repeats_label">Ath-chùrsachd</string>
     <string name="no_title_label">(Gun tiotal)</string>
     <plurals name="Nminutes">

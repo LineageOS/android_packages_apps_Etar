@@ -24,7 +24,7 @@
     <string name="tomorrow">Yfory</string>
     <string name="today_at_time_fmt">"Heddiw am <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Yfory am <xliff:g id="time_interval">%s</xliff:g>"</string>
-    <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%1$s</xliff:g>"</string>
     <string name="repeats_label">Ailadrodd</string>
     <string name="no_title_label">(Dim teitl)</string>
     <plurals name="Nminutes">

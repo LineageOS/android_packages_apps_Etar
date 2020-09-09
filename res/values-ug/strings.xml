@@ -24,7 +24,7 @@
     <string name="tomorrow">ئەتە</string>
     <string name="today_at_time_fmt">"بۈگۈن <xliff:g id="TIME_INTERVAL">%s</xliff:g> دە"</string>
     <string name="tomorrow_at_time_fmt">"ئەتە <xliff:g id="TIME_INTERVAL">%s</xliff:g> دە"</string>
-    <string name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>، <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>، <xliff:g id="TIME_INTERVAL">%1$s</xliff:g>"</string>
     <string name="repeats_label">تەكرارلاش</string>
     <string name="no_title_label">(ماۋزۇسىز)</string>
     <string name="show_day_view">"كۈن كۆرسەت"</string>
