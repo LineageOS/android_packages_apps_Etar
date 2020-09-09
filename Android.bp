@@ -20,9 +20,9 @@ android_app {
         "calendar-common",
         "colorpicker",
         "com.google.android.material_material",
-        "etar-lib-kotlinx-coroutines-android",
-        "etar-lib-kotlinx-coroutines-core",
         "kotlin-annotations",
+        "kotlinx-coroutines-android",
+        "kotlinx-coroutines-core",
         "libchips",
     ],
 
