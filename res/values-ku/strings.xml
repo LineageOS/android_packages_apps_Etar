@@ -24,7 +24,7 @@
     <string name="tomorrow">سبەینێ</string>
     <string name="today_at_time_fmt">"ئەمڕۆ لە <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"سبەینێ لە<xliff:g id="time_interval">%s</xliff:g>"</string>
-    <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%1$s</xliff:g>"</string>
     <string name="repeats_label">دووبارەکردنەوە</string>
     <string name="no_title_label">(بێ ناونیشان)</string>
     <plurals name="Nminutes">

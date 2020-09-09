@@ -210,7 +210,7 @@
     <string name="snooze_delay_dialog_title">Az elhalasztás hosszúságának beállítása</string>
     <string name="preferences_default_snooze_delay_title">Alapértelmezett elhalasztási idő</string>
     <string name="preferences_default_snooze_delay_dialog">Alapértelmezett elhalasztás</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> az ETAR Projekt. Egy része \u00a9 2005-<xliff:g>%s</xliff:g> az Android Open Source Projekt.</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> az ETAR Projekt. Egy része \u00a9 2005-<xliff:g>%1$s</xliff:g> az Android Open Source Projekt.</string>
     <string name="authors">Szerzők</string>
     <string name="changelog">Újdonságok</string>
     <string name="preferences_build_version">Build verziószáma</string>

@@ -210,7 +210,7 @@
     <string name="snooze_delay_dialog_title">Ertələmə gecikməsini tənzimlə</string>
     <string name="preferences_default_snooze_delay_title">İlkin ertələmə gecikmə vaxtı</string>
     <string name="preferences_default_snooze_delay_dialog">İlkin ertələmə gecikməsi</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> Etar Layihəsi. Hissələr \u00a9 2005-<xliff:g>%s</xliff:g> Android Açıq Mənbə Layihəsi.</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Etar Layihəsi. Hissələr \u00a9 2005-<xliff:g>%1$s</xliff:g> Android Açıq Mənbə Layihəsi.</string>
     <string name="authors">Müəlliflər</string>
     <string name="changelog">Dəyişiklik jurnalı</string>
     <string name="license">Lisenziya</string>

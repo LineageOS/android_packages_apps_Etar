@@ -226,7 +226,7 @@
     <string name="snooze_delay_dialog_title">Nastavi zakasnitev dremeža</string>
     <string name="preferences_default_snooze_delay_title">Privzeti čas zakasnitve dremeža</string>
     <string name="preferences_default_snooze_delay_dialog">Privzeta zakasnitev dremeža</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%s</xliff:g> The Android Open Source Project.</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Avtorji</string>
     <string name="changelog">Dnevnik sprememb</string>
     <string name="license">Licenca</string>
