@@ -218,7 +218,7 @@
     <string name="snooze_delay_dialog_title">Setare întârziere amânare</string>
     <string name="preferences_default_snooze_delay_title">Timpul implicit de întârziere al amânării</string>
     <string name="preferences_default_snooze_delay_dialog">Întârzierea amânare implicită</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%s</xliff:g> The Android Open Source Project.</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Autori</string>
     <string name="changelog">Changelog</string>
     <string name="license">Licenţă</string>

@@ -24,7 +24,7 @@
     <string name="tomorrow">Yfory</string>
     <string name="today_at_time_fmt">"Heddiw am <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Yfory am <xliff:g id="time_interval">%s</xliff:g>"</string>
-    <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
     <string name="repeats_label">Ailadrodd</string>
     <string name="no_title_label">(Dim teitl)</string>
     <plurals name="Nminutes">
@@ -242,7 +242,7 @@
     <string name="snooze_delay_dialog_title">Gosod oediad hepian</string>
     <string name="preferences_default_snooze_delay_title">Amser rhagosodedig oedi hepian</string>
     <string name="preferences_default_snooze_delay_dialog">Oediad hepian rhagosodedig</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> Etar Project. Rhannau \u00a9 2005-<xliff:g>%s</xliff:g> Android Open Source Project.</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Etar Project. Rhannau \u00a9 2005-<xliff:g>%1$s</xliff:g> Android Open Source Project.</string>
     <string name="authors">Awduron</string>
     <string name="changelog">Log newidiadau</string>
     <string name="license">Trwydded</string>

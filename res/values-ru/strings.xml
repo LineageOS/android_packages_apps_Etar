@@ -226,7 +226,7 @@
     <string name="snooze_delay_dialog_title">Период отсрочки</string>
     <string name="preferences_default_snooze_delay_title">Период отсрочки по умолчанию</string>
     <string name="preferences_default_snooze_delay_dialog">Отсрочка по умолчанию</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> Проект Etar. Разделы \u00a9 2005-<xliff:g>%s</xliff:g> Проект Android с открытым исходным кодом.</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Проект Etar. Разделы \u00a9 2005-<xliff:g>%1$s</xliff:g> Проект Android с открытым исходным кодом.</string>
     <string name="authors">Авторы</string>
     <string name="changelog">Список изменений</string>
     <string name="license">Лицензия</string>

@@ -127,7 +127,7 @@
     <string name="snooze_delay_dialog_title">Definir atraso da soneca</string>
     <string name="preferences_default_snooze_delay_title">Tempo padrão de atraso da soneca</string>
     <string name="preferences_default_snooze_delay_dialog">Definir atraso da soneca</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%s</xliff:g> The Etar Project. Porções \u00a9 2005-<xliff:g>%s</xliff:g> The Android Open Source Project.</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Porções \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Autores</string>
     <string name="changelog">Alterações</string>
     <string name="license">Licença</string>
