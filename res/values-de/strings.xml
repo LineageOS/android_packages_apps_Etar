@@ -43,6 +43,10 @@
         <item quantity="one">1 Tag</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> Tag(e)</item>
     </plurals>
+    <plurals name="weekN">
+        <item quantity="one">KW <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">KW <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
     <string name="calendar_refresh">"Aktualisieren"</string>
     <string name="show_day_view">"Tag anzeigen"</string>
     <string name="agenda_view">"Terminübersicht"</string>
@@ -55,6 +59,7 @@
     <string name="event_delete">"Termin löschen"</string>
     <string name="share_label">Teilen</string>
     <string name="goto_today">"Heute"</string>
+    <string name="goto_date">Gehe zu\u2026</string>
     <string name="menu_preferences">"Einstellungen"</string>
     <string name="search">"Suche"</string>
     <string name="hide_controls">"Steuerelemente aus"</string>
@@ -165,6 +170,7 @@
     <string name="preferences_month_view_portrait">Layout der Monatsansicht (Hochformat)</string>
     <string name="preferences_month_view_landscape">Layout der Monatsansicht (Querformat)</string>
     <string name="preferences_theme">Design</string>
+    <string name="preferences_system_theme">Systemstandard</string>
     <string name="preferences_light_theme">Hell</string>
     <string name="preferences_dark_theme">Dunkel</string>
     <string name="preferences_black_theme">Schwarz</string>
@@ -178,8 +184,8 @@
     <string name="display_location">Ort anzeigen</string>
     <string name="maximum_number_of_lines">Maximale Anzahl von Zeilen pro Termin</string>
     <string name="default_start_last">Zuletzt verwendete Ansicht</string>
-    <string name="preferences_week_start_day_title">Woche beginnt am</string>
-    <string name="preferences_week_start_day_dialog">Woche beginnt am</string>
+    <string name="preferences_week_start_day_title">Wochenbeginn</string>
+    <string name="preferences_week_start_day_dialog">Wochenbeginn</string>
     <string name="preferences_days_per_week_title">Tage pro Woche</string>
     <string name="preferences_days_per_week_dialog">Tage pro Woche</string>
     <string name="preferences_default_event_duration_title">Standarddauer für Termine</string>
@@ -286,14 +292,19 @@
     <string name="error_generating_ics">Beim Teilen des Termins ist ein Problem aufgetreten</string>
     <string name="cal_share_intent_title">Termin senden an:</string>
     <string name="cal_export_event_sdcard_title">Auf SD-Karte exportieren</string>
+    <string name="cal_export_succ_msg">Termin erfolgreich exportiert: %1$s</string>
     <string name="cal_import_menu_title">Termin importieren</string>
     <string name="cal_nothing_to_import">Nichts zu importieren</string>
+    <string name="cal_import_error_msg">Importieren in den Kalender fehlgeschlagen</string>
+    <string name="cal_pick_ics">Datei zum Importieren auswählen</string>
     <string name="show_time_no">Zeit nicht anzeigen</string>
     <string name="show_time_start">Nur Startzeit</string>
     <string name="show_time_start_end">Start- und Endzeit</string>
     <string name="show_time_start_end_below">Start- und Endzeit unter dem Termin</string>
     <string name="preferences_calendar_no_display_name">Unbenannter Kalender</string>
+    <string name="preferences_calendar_account">%1$s Konto</string>
     <string name="preferences_calendar_account_local">Offline-Kalender</string>
+    <string name="preferences_calendar_number_of_events">%1$d Termine</string>
     <string name="preferences_calendar_delete">Kalender löschen</string>
     <string name="preferences_calendar_display_name">Name ändern</string>
     <string name="preferences_calendar_info_category">Kalenderinformation</string>
@@ -309,6 +320,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Nicht synchronisiert</string>
     <string name="preferences_list_calendar_summary_invisible">Termine werden nicht angezeigt</string>
     <string name="preferences_list_general">Allgemeine Einstellungen</string>
+    <string name="preferences_list_add_remote">Online-Kalender hinzufügen (CalDAV)</string>
+    <string name="preferences_list_add_offline">Offline-Kalender hinzufügen</string>
     <string name="preferences_list_add_offline_title">Offline-Kalender hinzufügen</string>
     <string name="preferences_list_add_offline_message">Offline-Kalender werden NICHT mit einem Cloud-Service synchronisiert und sind nur auf Ihrem Telefon verfügbar.</string>
     <string name="preferences_list_add_offline_button">Kalender hinzufügen</string>

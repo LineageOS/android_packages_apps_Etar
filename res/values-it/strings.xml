@@ -172,6 +172,7 @@
     <string name="preferences_month_view_portrait">Layout vista mese (Verticale)</string>
     <string name="preferences_month_view_landscape">Layout vista mese (Orizzontale)</string>
     <string name="preferences_theme">Tema</string>
+    <string name="preferences_system_theme">Predefinito di sistema</string>
     <string name="preferences_light_theme">Chiaro</string>
     <string name="preferences_dark_theme">Scuro</string>
     <string name="preferences_black_theme">Nero</string>

@@ -172,6 +172,7 @@
     <string name="preferences_month_view_portrait">Vue par mois (Portrait)</string>
     <string name="preferences_month_view_landscape">Vue par mois (paysage)</string>
     <string name="preferences_theme">Thème</string>
+    <string name="preferences_system_theme">Valeurs par défaut du système</string>
     <string name="preferences_light_theme">Clair</string>
     <string name="preferences_dark_theme">Sombre</string>
     <string name="preferences_black_theme">Noir</string>
@@ -298,6 +299,7 @@
     <string name="error_generating_ics">Problèmes rencontrés lors du partage de l\'événement</string>
     <string name="cal_share_intent_title">Envoyer l\'évènement à:</string>
     <string name="cal_export_event_sdcard_title">Exporter vers la carte SD</string>
+    <string name="cal_export_succ_msg">Événement exporté avec succès: %1$s</string>
     <string name="cal_import_menu_title">Importer un événement</string>
     <string name="cal_nothing_to_import">Rien à importer</string>
     <string name="cal_import_error_msg">L\'importation dans le calendrier a échoué</string>
@@ -311,6 +313,7 @@
     <string name="preferences_calendar_account">%1$s compte</string>
     <string name="preferences_calendar_account_local">Calendrier hors ligne</string>
     <string name="preferences_calendar_configure_account">Configurer le calendrier dans %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d événements</string>
     <string name="preferences_calendar_delete">Supprimer le calendrier</string>
     <string name="preferences_calendar_display_name">Modifier le nom</string>
     <string name="preferences_calendar_info_category">Informations du calendrier</string>

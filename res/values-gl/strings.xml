@@ -47,6 +47,7 @@
         <item quantity="one">Semana <xliff:g id="COUNT">%d</xliff:g></item>
         <item quantity="other">Semana <xliff:g id="COUNT">%d</xliff:g></item>
     </plurals>
+    <string name="calendar_refresh">"Refrescar"</string>
     <string name="show_day_view">"Mostrar día"</string>
     <string name="agenda_view">"Axenda"</string>
     <string name="day_view">"Día"</string>
@@ -56,11 +57,14 @@
     <string name="event_create">"Novo evento"</string>
     <string name="event_edit">"Editar evento"</string>
     <string name="event_delete">"Eliminar evento"</string>
+    <string name="share_label">Compartir</string>
     <string name="goto_today">"Hoxe"</string>
+    <string name="goto_date">Ir a\u2026</string>
     <string name="menu_preferences">"Configuración"</string>
     <string name="search">"Buscar"</string>
     <string name="hide_controls">"Ocultar controis"</string>
     <string name="show_controls">"Mostrar controis"</string>
+    <string name="view_settings">"Ver axustes"</string>
     <string name="select_synced_calendars_button">Calendarios para sincronizar</string>
     <string name="hint_what">"Nome do evento"</string>
     <string name="hint_where">"Localización"</string>
@@ -76,6 +80,8 @@
     <string name="rsvp_declined">"Respondeu que non."</string>
     <string name="create_event_dialog_save">Gardar</string>
     <string name="alert_title">Notificacións do calendario</string>
+    <string name="foreground_notification_channel_name">Alerta de sincronización</string>
+    <string name="foreground_notification_channel_description">Requírese dunha notificación en primeiro plano para a sincronización de alertas internas</string>
     <string name="event_info_title">Ver evento</string>
     <string name="event_info_title_invite">Invitación de reunión</string>
     <string name="edit_event_to_label">Ata o</string>
@@ -105,6 +111,7 @@
     <string name="email_picker_label">Enviar un correo electrónico con</string>
     <string name="event_not_found">"Non se atopou o evento."</string>
     <string name="map_label">Mapa</string>
+    <string name="no_map">Non hai ningunha aplicación de mapas instalada</string>
     <string name="call_label">Chamar</string>
     <string name="quick_response_settings">Respostas rápidas</string>
     <string name="quick_response_settings_summary">Editar respostas predeterminadas ao enviar correos electrónicos aos convidados</string>
@@ -120,6 +127,9 @@
     <string name="quick_response_custom_msg">Escribe a túa propia…</string>
     <string name="event_info_organizer">Organizador:</string>
     <string name="event_info_reminders_label">Recordatorios</string>
+    <string name="agenda_today">Hoxe, <xliff:g id="DATE">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Onte, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Mañá, <xliff:g id="DATE">%1$s</xliff:g></string>
     <string name="loading">Cargando...</string>
     <string name="show_older_events">Tocar para ver os eventos antes do <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">Tocar para ver os eventos despois do <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
@@ -159,10 +169,28 @@
     <string name="change_response_title">Cambiar a resposta</string>
     <string name="preferences_title">"Configuración"</string>
     <string name="preferences_general_title">Configuración de vista de calendario</string>
+    <string name="preferences_month_view_portrait">Vista mensual (vertical)</string>
+    <string name="preferences_month_view_landscape">Vista mensual (horizontal)</string>
+    <string name="preferences_theme">Tema</string>
+    <string name="preferences_system_theme">Predefinido do sistema</string>
+    <string name="preferences_light_theme">Claro</string>
+    <string name="preferences_dark_theme">Escuro</string>
+    <string name="preferences_black_theme">Negro</string>
+    <string name="preferences_color">Cor primaria</string>
+    <string name="preferences_color_pick">Cor primaria</string>
     <string name="preferences_reminder_title">Notificacións e recordatorios</string>
     <string name="preferences_hide_declined_title">Ocultar eventos rexeitados</string>
+    <string name="default_start_title">Vista predeterminada</string>
+    <string name="display_options">Opcións de presentación</string>
+    <string name="display_time">Amosar a hora</string>
+    <string name="display_location">Amosar a ubicación</string>
+    <string name="maximum_number_of_lines">Número máximo de lineas no evento</string>
+    <string name="default_start_last">Vista empregada anteriormente</string>
     <string name="preferences_week_start_day_title">A semana comeza o</string>
     <string name="preferences_week_start_day_dialog">A semana comeza o</string>
+    <string name="preferences_days_per_week_title">Días por semana</string>
+    <string name="preferences_days_per_week_dialog">Días por semana</string>
+    <string name="preferences_default_event_duration_title">Duración predefinida do evento</string>
     <string name="preferences_clear_search_history_title">Borrar o Historial de busca</string>
     <string name="preferences_clear_search_history_summary">Eliminar todas as buscas realizadas</string>
     <string name="search_history_cleared">Borrouse o Historial de busca.</string>
@@ -177,7 +205,18 @@
     <string name="preferences_use_home_tz_descrip">Mostra calendarios e horas de eventos no teu fuso horario de orixe cando esteas de viaxe</string>
     <string name="preferences_home_tz_title">Zona horaria local</string>
     <string name="preferences_show_week_num_title">Mostrar número de semana</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Preguntar polo adiamento da alerta repetitiva</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Preguntar polo adiamento da repetición coas alertas repetitivas</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Utilizar sempre o adiamento predeterminado das alertas</string>
+    <string name="snooze_delay_dialog_title">Estabelecer o adiamento da repetición</string>
+    <string name="preferences_default_snooze_delay_title">Tempo predeterminado do adiamento das alertas</string>
+    <string name="preferences_default_snooze_delay_dialog">Adiamento predeterminado das alertas repetitivas</string>
+    <string name="authors">Autores</string>
+    <string name="changelog">Rexistro de cambios</string>
+    <string name="license">Licenza</string>
     <string name="preferences_build_version">Versión da compilación</string>
+    <string name="preferences_issues">Reportar problemas</string>
+    <string name="source_code">Fonte</string>
     <plurals name="month_more_events">
         <item quantity="one">"1 máis"</item>
         <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> máis</item>
@@ -240,4 +279,66 @@
         <item quantity="other">Para <xliff:g id="EVENT_COUNT">%d</xliff:g> eventos</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">cambiar a data de finalización</string>
+    <string name="user_rejected_calendar_write_permission">O calendario require de permisos de lectura e escritura para funcionar correctamente. Por favor, téntao de novo.</string>
+    <string name="calendar_permission_not_granted">Os permisos necesarios denegaronse, ao actívalos desde a aplicación de Axustes para editar os eventos</string>
+    <string name="visibility_default">Defecto</string>
+    <string name="visibility_confidential">Confidencial</string>
+    <string name="visibility_private">Privado</string>
+    <string name="visibility_public">Público</string>
+    <string name="two_days">2 días</string>
+    <string name="three_days">3 días</string>
+    <string name="four_days">4 días</string>
+    <string name="five_days">5 días</string>
+    <string name="six_days">6 días</string>
+    <string name="seven_days">7 días</string>
+    <string name="zero_minutes">0 minutos</string>
+    <string name="fifteen_minutes">15 minutos</string>
+    <string name="thirty_minutes">30 minutos</string>
+    <string name="one_hour">1 hora</string>
+    <string name="one_and_a_half_hours">1.5 horas</string>
+    <string name="two_hours">2 horas</string>
+    <string name="error_generating_ics">Atopáronse problemas ao compartir a actividade</string>
+    <string name="cal_share_intent_title">Enviar evento a:</string>
+    <string name="cal_export_event_sdcard_title">Exportar á tarxecta SD</string>
+    <string name="cal_export_succ_msg">Actividade exportada correctamente: %1$s</string>
+    <string name="cal_import_menu_title">Importar actividade</string>
+    <string name="cal_nothing_to_import">Nada para importar</string>
+    <string name="cal_import_error_msg">Produciuse un fallo ao importar no calendario</string>
+    <string name="cal_import_error_time_zone_msg">Non é posíbel entender o fuso horario: %s</string>
+    <string name="cal_import_error_date_msg">Non é posíbel entender a data: %s</string>
+    <string name="cal_pick_ics">Escolle un ficheiro para importar</string>
+    <string name="show_time_no">Non amosar a hora</string>
+    <string name="show_time_start">Só hora de inicio</string>
+    <string name="show_time_start_end">Hora de inicio e fin</string>
+    <string name="show_time_start_end_below">Hora de inicio e fin debaixo do evento</string>
+    <string name="preferences_calendar_no_display_name">Calendario sen nome</string>
+    <string name="preferences_calendar_account">%1$s conta</string>
+    <string name="preferences_calendar_account_local">Calendario sen conexión</string>
+    <string name="preferences_calendar_configure_account">Configurar calendario en %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d eventos</string>
+    <string name="preferences_calendar_delete">Borrar calendario</string>
+    <string name="preferences_calendar_display_name">Mudar nome</string>
+    <string name="preferences_calendar_info_category">Información do calendario</string>
+    <string name="preferences_calendar_color">Cor</string>
+    <string name="preferences_calendar_visible">Amosar eventos</string>
+    <string name="preferences_calendar_synchronize">Sincronizar o calendario</string>
+    <string name="preferences_calendar_color_warning_title">Coidado</string>
+    <string name="preferences_calendar_color_warning_message">O troco de cor pode reverterse ao sincronizar o calendario de novo.\n\nNo DAVx⁵, a \'Xestión das cores do calendario\' pode ser desactivada para evitar isto.</string>
+    <string name="preferences_calendar_color_warning_button">Entendo</string>
+    <string name="preferences_calendar_delete_message">Realmente quere eliminar este calendario ?</string>
+    <string name="preferences_calendar_delete_delete">Borrar calendario</string>
+    <string name="preferences_calendar_delete_cancel">Cancelar</string>
+    <string name="preferences_list_calendar_summary_sync_off">Non sincronizado</string>
+    <string name="preferences_list_calendar_summary_invisible">Os eventos non se amosan</string>
+    <string name="preferences_list_general">Configuración xeral</string>
+    <string name="preferences_list_add_remote">Engadir calendario remoto (CalDAV)</string>
+    <string name="preferences_list_add_offline">Agregar calendario sen conexión</string>
+    <string name="preferences_list_add_offline_title">Agregar calendario sen conexión</string>
+    <string name="preferences_list_add_offline_error_empty">Inserir o nome do calendario!</string>
+    <string name="preferences_list_add_offline_message">Os calendarios fora de liña NON están sincronizados co servizo da nube e só están dispoñíbeis no teléfono.</string>
+    <string name="preferences_list_add_offline_button">Engadir calendario</string>
+    <string name="preferences_list_add_offline_name">Nome</string>
+    <string name="preferences_list_add_offline_cancel">Cancelar</string>
+    <string name="preferences_menu_about">Acerca do calendario</string>
+    <string name="offline_account_name">Calendario sen conexión</string>
 </resources>
