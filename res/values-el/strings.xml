@@ -211,6 +211,7 @@
     <string name="snooze_delay_dialog_title">Ορισμός καθυστέρησης αναβολής</string>
     <string name="preferences_default_snooze_delay_title">Προεπιλεγμένος χρόνος καθυστέρησης αναβολής</string>
     <string name="preferences_default_snooze_delay_dialog">Προεπιλεγμένη καθυστέρηση αναβολής</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Δημιουργοί</string>
     <string name="changelog">Αρχείο αλλαγών</string>
     <string name="license">Άδεια χρήσης</string>

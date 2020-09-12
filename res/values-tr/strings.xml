@@ -172,6 +172,7 @@
     <string name="preferences_month_view_portrait">Ay görünümü düzeni (Dikey)</string>
     <string name="preferences_month_view_landscape">Ay görünümü düzeni (Yatay)</string>
     <string name="preferences_theme">Tema</string>
+    <string name="preferences_system_theme">Sistem varsayılanı</string>
     <string name="preferences_light_theme">Açık</string>
     <string name="preferences_dark_theme">Koyu</string>
     <string name="preferences_black_theme">Siyah</string>
