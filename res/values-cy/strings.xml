@@ -243,6 +243,7 @@
     <string name="snooze_delay_dialog_title">Gosod oediad hepian</string>
     <string name="preferences_default_snooze_delay_title">Amser rhagosodedig oedi hepian</string>
     <string name="preferences_default_snooze_delay_dialog">Oediad hepian rhagosodedig</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Rhannau \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Awduron</string>
     <string name="changelog">Log newidiadau</string>
     <string name="license">Trwydded</string>

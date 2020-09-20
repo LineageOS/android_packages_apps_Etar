@@ -211,6 +211,7 @@
     <string name="snooze_delay_dialog_title">Erteleme gecikmesini ayarla</string>
     <string name="preferences_default_snooze_delay_title">Varsayılan erteleme gecikme süresi</string>
     <string name="preferences_default_snooze_delay_dialog">Varsayılan erteleme gecikmesi</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Etar Projesi. Bölümler \u00a9 2005-<xliff:g>%1$s</xliff:g> Android Açık Kaynak Projesi.</string>
     <string name="authors">Yazarlar</string>
     <string name="changelog">Değişiklikler</string>
     <string name="license">Lisans</string>

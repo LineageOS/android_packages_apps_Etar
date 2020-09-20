@@ -198,6 +198,7 @@
     <string name="preferences_home_tz_title">기본 시간대</string>
     <string name="preferences_show_week_num_title">몇째 주인지 표시</string>
     <string name="preferences_alerts_custom_snooze_delay_title">알림 일시 중지할 시간 묻기</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">알림 일시 중지할 시간 항상 묻기</string>
     <string name="authors">제작자</string>
     <string name="changelog">변경 내역</string>
     <string name="license">라이선스</string>
@@ -261,6 +262,7 @@
     <string name="calendar_permission_not_granted">필요한 권한이 거부되었습니다. 일정을 편집하려면 설정 앱에서 권한을 허용해 주세요.</string>
     <string name="visibility_default">기본값</string>
     <string name="visibility_private">비공개</string>
+    <string name="visibility_public">공개</string>
     <string name="two_days">2일</string>
     <string name="three_days">3일</string>
     <string name="four_days">4일</string>
@@ -279,6 +281,7 @@
     <string name="cal_nothing_to_import">가져올 일정 없음</string>
     <string name="cal_import_error_msg">캘린더 가져오기 실패</string>
     <string name="cal_import_error_time_zone_msg">시간대: %s 을 알 수 없음</string>
+    <string name="cal_import_error_date_msg">날짜: %s 을 알 수 없음</string>
     <string name="cal_pick_ics">가져올 파일 선택</string>
     <string name="show_time_no">시간 표시 안 함</string>
     <string name="show_time_start">시작 시간만 표시</string>
@@ -295,6 +298,7 @@
     <string name="preferences_calendar_visible">일정 표시</string>
     <string name="preferences_calendar_synchronize">이 캘린더 동기화</string>
     <string name="preferences_calendar_color_warning_title">주의</string>
+    <string name="preferences_calendar_color_warning_message">변경한 색상은 캘린더를 다시 동기화하는 중에 초기화될 수 있습니다.\n\nDAVx⁵의 \'캘린더 색상 관리\'를 비활성화하여 색상 초기화를 방지할 수 있습니다.</string>
     <string name="preferences_calendar_color_warning_button">알겠습니다</string>
     <string name="preferences_calendar_delete_message">정말 이 캘린더를 삭제하시겠습니까?</string>
     <string name="preferences_calendar_delete_delete">캘린더 삭제</string>

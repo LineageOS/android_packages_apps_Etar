@@ -211,6 +211,7 @@
     <string name="snooze_delay_dialog_title">Set snooze delay</string>
     <string name="preferences_default_snooze_delay_title">Default snooze delay time</string>
     <string name="preferences_default_snooze_delay_dialog">Default snooze delay</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Authors</string>
     <string name="changelog">Changelog</string>
     <string name="license">Licence</string>
