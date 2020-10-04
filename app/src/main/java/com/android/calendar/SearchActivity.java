@@ -37,7 +37,6 @@ import android.view.MenuItem;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.MenuItemCompat;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -49,6 +48,7 @@ import com.android.calendar.agenda.AgendaFragment;
 import com.android.calendarcommon2.Time;
 
 import ws.xsoh.etar.R;
+import ws.xsoh.etar.databinding.SimpleFrameLayoutMaterialBinding;
 
 public class SearchActivity extends AppCompatActivity implements CalendarController.EventHandler,
         SearchView.OnQueryTextListener, MenuItemCompat.OnActionExpandListener {
@@ -106,9 +106,9 @@ public class SearchActivity extends AppCompatActivity implements CalendarControl
         mShowEventDetailsWithAgenda =
             Utils.getConfigBool(this, R.bool.show_event_details_with_agenda);
 
-        setContentView(R.layout.simple_frame_layout_material);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        SimpleFrameLayoutMaterialBinding binding = SimpleFrameLayoutMaterialBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+        setSupportActionBar(binding.include.toolbar);
 
         setDefaultKeyMode(DEFAULT_KEYS_SEARCH_LOCAL);
 

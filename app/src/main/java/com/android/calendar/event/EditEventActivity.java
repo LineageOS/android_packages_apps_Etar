@@ -28,7 +28,6 @@ import android.util.Log;
 import android.view.MenuItem;
 
 import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.android.calendar.AbstractCalendarActivity;
@@ -42,6 +41,7 @@ import com.android.calendarcommon2.Time;
 import java.util.ArrayList;
 
 import ws.xsoh.etar.R;
+import ws.xsoh.etar.databinding.SimpleFrameLayoutMaterialBinding;
 
 public class EditEventActivity extends AbstractCalendarActivity {
     public static final String EXTRA_EVENT_COLOR = "event_color";
@@ -68,13 +68,14 @@ public class EditEventActivity extends AbstractCalendarActivity {
         super.onCreate(icicle);
 
         dynamicTheme.onCreate(this);
-        setContentView(R.layout.simple_frame_layout_material);
         mEventInfo = getEventInfoFromIntent(icicle);
         mReminders = getReminderEntriesFromIntent();
         mEventColorInitialized = getIntent().hasExtra(EXTRA_EVENT_COLOR);
         mEventColor = getIntent().getIntExtra(EXTRA_EVENT_COLOR, -1);
-        Toolbar myToolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(myToolbar);
+
+        SimpleFrameLayoutMaterialBinding binding = SimpleFrameLayoutMaterialBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+        setSupportActionBar(binding.include.toolbar);
 
         mEditFragment = (EditEventFragment) getSupportFragmentManager().findFragmentById(R.id.body_frame);
 
