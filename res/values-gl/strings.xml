@@ -211,6 +211,7 @@
     <string name="snooze_delay_dialog_title">Estabelecer o adiamento da repetición</string>
     <string name="preferences_default_snooze_delay_title">Tempo predeterminado do adiamento das alertas</string>
     <string name="preferences_default_snooze_delay_dialog">Adiamento predeterminado das alertas repetitivas</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Proxecto Etar. Contén partes \u00a9 2005-<xliff:g>%1$s</xliff:g> de The Android Open Source Project.</string>
     <string name="authors">Autores</string>
     <string name="changelog">Rexistro de cambios</string>
     <string name="license">Licenza</string>
