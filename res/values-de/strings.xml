@@ -80,6 +80,8 @@
     <string name="rsvp_declined">"Abgesagt"</string>
     <string name="create_event_dialog_save">Speichern</string>
     <string name="alert_title">Benachrichtigungen</string>
+    <string name="foreground_notification_channel_name">Alarmsynchronisation</string>
+    <string name="foreground_notification_channel_description">Vordergrundbenachrichtigung für interne Alarmsynchronisation erforderlich.</string>
     <string name="event_info_title">Termin anzeigen</string>
     <string name="event_info_title_invite">Einladung zu einer Besprechung</string>
     <string name="edit_event_to_label">Bis</string>
