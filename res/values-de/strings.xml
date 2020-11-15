@@ -205,6 +205,7 @@
     <string name="preferences_use_home_tz_descrip">Zeigt unterwegs Kalender-/Terminzeiten in Heimatzeitzone</string>
     <string name="preferences_home_tz_title">Heimatzeitzone</string>
     <string name="preferences_show_week_num_title">Wochennummer anzeigen</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Das Etar Projekt. Teile davon \u00a9 2005-<xliff:g>%1$s</xliff:g> Das Android Open Source Projekt.</string>
     <string name="authors">Autoren</string>
     <string name="changelog">Änderungsprotokoll</string>
     <string name="license">Lizenz</string>
@@ -298,6 +299,8 @@
     <string name="cal_import_menu_title">Termin importieren</string>
     <string name="cal_nothing_to_import">Nichts zu importieren</string>
     <string name="cal_import_error_msg">Importieren in den Kalender fehlgeschlagen</string>
+    <string name="cal_import_error_time_zone_msg">Die angegebene Zeitzone kann nicht erkannt werden: %s</string>
+    <string name="cal_import_error_date_msg">Das angegebene Datum kann nicht erkannt werden: %s</string>
     <string name="cal_pick_ics">Datei zum Importieren auswählen</string>
     <string name="show_time_no">Zeit nicht anzeigen</string>
     <string name="show_time_start">Nur Startzeit</string>
