@@ -173,7 +173,7 @@
     <string name="preferences_reminder_title">알림</string>
     <string name="preferences_hide_declined_title">거부한 일정 숨기기</string>
     <string name="default_start_title">기본 보기</string>
-    <string name="display_options">옵션 표시</string>
+    <string name="display_options">표시 옵션</string>
     <string name="display_time">시간 표시</string>
     <string name="display_location">위치 표시</string>
     <string name="maximum_number_of_lines">일정 최대 줄 수</string>
@@ -199,6 +199,7 @@
     <string name="preferences_show_week_num_title">몇째 주인지 표시</string>
     <string name="preferences_alerts_custom_snooze_delay_title">알림 일시 중지할 시간 묻기</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">알림 일시 중지할 시간 항상 묻기</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">알림을 일시 중지할 시간으로 항상 기본값 사용</string>
     <string name="authors">제작자</string>
     <string name="changelog">변경 내역</string>
     <string name="license">라이선스</string>
@@ -259,6 +260,7 @@
         <item quantity="other">반복 횟수 <xliff:g id="EVENT_COUNT">%d</xliff:g>번</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">종료일 변경</string>
+    <string name="user_rejected_calendar_write_permission">캘린더는 정상 작동을 위해 [일정 읽고 쓰기] 권한이 필요합니다. 다시 시도해 주세요.</string>
     <string name="calendar_permission_not_granted">필요한 권한이 거부되었습니다. 일정을 편집하려면 설정 앱에서 권한을 허용해 주세요.</string>
     <string name="visibility_default">기본값</string>
     <string name="visibility_private">비공개</string>

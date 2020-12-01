@@ -59,8 +59,14 @@
     <string name="goto_today">"Hoje"</string>
     <string name="goto_date">Ir para\u2026</string>
     <string name="menu_preferences">"Configurações"</string>
+    <string name="search">"Pesquisar"</string>
+    <string name="view_settings">"Ver configurações"</string>
+    <string name="hint_what">"Nome do evento"</string>
     <string name="hint_where">"Local"</string>
+    <string name="hint_description">"Descrição"</string>
     <string name="hint_attendees">"Convidados"</string>
+    <string name="creating_event">"Evento criado."</string>
+    <string name="saving_event">"Evento salvo."</string>
     <string name="create_event_dialog_save">Salvar</string>
     <string name="alert_title">Notificações do calendário</string>
     <string name="edit_event_to_label">Até</string>
