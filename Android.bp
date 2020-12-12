@@ -16,6 +16,7 @@ android_app {
     static_libs: [
         "android-common",
         "android-opt-timezonepicker",
+        "androidx-constraintlayout_constraintlayout",
         "androidx.preference_preference",
         "calendar-common",
         "colorpicker",
