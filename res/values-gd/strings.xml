@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Mìosachan</string>
-    <string name="what_label">Dè</string>
-    <string name="where_label">Càit</string>
     <string name="when_label">Cuin</string>
-    <string name="timezone_label">Roinn-tìde</string>
-    <string name="attendees_label">Aoighean</string>
     <string name="today">An-diugh</string>
     <string name="tomorrow">A-màireach</string>
     <string name="today_at_time_fmt">"An-diugh aig <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"A-màireach aig <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Ath-chùrsachd</string>
     <string name="no_title_label">(Gun tiotal)</string>
     <plurals name="Nminutes">
         <item quantity="one"><xliff:g id="count">%d</xliff:g> mhionaid</item>
@@ -76,10 +71,7 @@
     <string name="creating_event_with_guest">"Thèid cuiridhean a chur."</string>
     <string name="saving_event_with_guest">"Thèid ùrachaidhean a chur."</string>
     <string name="create_event_dialog_save">Sàbhail</string>
-    <string name="edit_event_to_label">Gu</string>
-    <string name="edit_event_from_label">O</string>
     <string name="edit_event_all_day_label">Fad an latha</string>
-    <string name="description_label">Tuairisgeul</string>
     <string name="privacy_label">Prìobhaideachd</string>
     <string name="reminders_label">Cuir cuimhneachan ris</string>
     <string name="response_maybe">Gun chinnt</string>

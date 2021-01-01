@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalendārs</string>
-    <string name="what_label">Kas</string>
-    <string name="where_label">Kur</string>
     <string name="when_label">Kad</string>
-    <string name="timezone_label">Laika josla</string>
-    <string name="attendees_label">Viesi</string>
     <string name="today">Šodien</string>
     <string name="tomorrow">Rīt</string>
     <string name="today_at_time_fmt">"Šodien plkst. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Rīt plkst. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Atkārtošana</string>
     <string name="no_title_label">(Nav nosaukuma)</string>
     <plurals name="Nminutes">
         <item quantity="zero">1 minūte</item>
@@ -78,11 +73,8 @@
     <string name="alert_title">Kalendāra paziņojumi</string>
     <string name="event_info_title">Skatīt pasākumu</string>
     <string name="event_info_title_invite">Ielūgums uz sapulci</string>
-    <string name="edit_event_to_label">līdz</string>
-    <string name="edit_event_from_label">No</string>
     <string name="edit_event_all_day_label">Visu dienu</string>
     <string name="edit_event_calendar_label">Kalendārs</string>
-    <string name="description_label">Apraksts</string>
     <string name="presence_label">Rādīt mani ar šādu statusu:</string>
     <string name="privacy_label">Konfidencialitāte</string>
     <string name="reminders_label">Pievienot atgādin.</string>

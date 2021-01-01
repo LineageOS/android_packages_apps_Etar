@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalendár</string>
-    <string name="what_label">Čo</string>
-    <string name="where_label">Kde</string>
     <string name="when_label">Kedy</string>
-    <string name="timezone_label">Časové pásmo</string>
-    <string name="attendees_label">Hostia</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zajtra</string>
     <string name="today_at_time_fmt">"Dnes o <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Zajtra o <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Opakovanie</string>
     <string name="no_title_label">(Bez názvu)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minúta</item>
@@ -82,11 +77,8 @@
     <string name="alert_title">Upozornenia v kalendári</string>
     <string name="event_info_title">Zobraziť udalosť</string>
     <string name="event_info_title_invite">Pozvánka na stretnutie</string>
-    <string name="edit_event_to_label">Do</string>
-    <string name="edit_event_from_label">Od</string>
     <string name="edit_event_all_day_label">Celý deň</string>
     <string name="edit_event_calendar_label">Kalendár</string>
-    <string name="description_label">Popis</string>
     <string name="presence_label">Zobraziť ma ako</string>
     <string name="privacy_label">Úroveň súkromia</string>
     <string name="reminders_label">Pridať pripomenutie</string>

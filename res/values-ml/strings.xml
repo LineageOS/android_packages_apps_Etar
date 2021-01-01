@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">കലണ്ടർ</string>
-    <string name="what_label">ഇവന്റ് പേര്</string>
-    <string name="where_label">എവിടെ</string>
     <string name="when_label">എപ്പോൾ</string>
-    <string name="timezone_label">സമയ മേഖല</string>
-    <string name="attendees_label">അതിഥികൾ</string>
     <string name="today">ഇന്ന്</string>
     <string name="tomorrow">നാളെ</string>
     <string name="today_at_time_fmt">"ഇന്ന് <xliff:g id="TIME_INTERVAL">%s</xliff:g> മണിയ്‌ക്ക്"</string>
     <string name="tomorrow_at_time_fmt">"നാളെ <xliff:g id="TIME_INTERVAL">%s</xliff:g> മണിയ്‌ക്ക്"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">ആവർത്തിക്കുക</string>
     <string name="no_title_label">(ശീർഷകമൊന്നുമില്ല)</string>
     <plurals name="Nminutes">
         <item quantity="one">ഒരു മിനിറ്റ്</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">കലണ്ടർ അറിയിപ്പുകൾ</string>
     <string name="event_info_title">ഇവന്റ് കാണുക</string>
     <string name="event_info_title_invite">മീറ്റിംഗ് ക്ഷണം</string>
-    <string name="edit_event_to_label">അവസാനിക്കുന്ന സമയം</string>
-    <string name="edit_event_from_label">ആരംഭിക്കുന്ന സമയം</string>
     <string name="edit_event_all_day_label">എല്ലാ ദിവസവും</string>
     <string name="edit_event_calendar_label">കലണ്ടർ</string>
-    <string name="description_label">വിവരണം</string>
     <string name="presence_label">എന്നെ ഇങ്ങനെ ദൃശ്യമാക്കുക</string>
     <string name="privacy_label">സ്വകാര്യത</string>
     <string name="reminders_label">ഓർമ്മപ്പെടുത്തൽ ചേർക്കുക</string>

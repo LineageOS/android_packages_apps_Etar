@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendariu</string>
-    <string name="what_label">Asuntu</string>
-    <string name="where_label">Ónde</string>
     <string name="when_label">Cuándo</string>
-    <string name="timezone_label">Fusu horariu</string>
-    <string name="attendees_label">Convidaos</string>
     <string name="today">Güei</string>
     <string name="tomorrow">Mañana</string>
     <string name="today_at_time_fmt">"Güei a les <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Mañana a les <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Repitición</string>
     <string name="no_title_label">(Ensin títulu)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minutu</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Avisos de Calendariu</string>
     <string name="event_info_title">Ver eventu</string>
     <string name="event_info_title_invite">Invitación a eventu</string>
-    <string name="edit_event_to_label">Hasta</string>
-    <string name="edit_event_from_label">Dende</string>
     <string name="edit_event_all_day_label">Tol día</string>
     <string name="edit_event_calendar_label">Calendariu</string>
-    <string name="description_label">Descripción</string>
     <string name="presence_label">Amosame como</string>
     <string name="privacy_label">Privacidá</string>
     <string name="reminders_label">Amestar recordatoriu</string>

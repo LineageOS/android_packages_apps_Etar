@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalendář</string>
-    <string name="what_label">Co</string>
-    <string name="where_label">Kde</string>
     <string name="when_label">Kdy</string>
-    <string name="timezone_label">Časové pásmo</string>
-    <string name="attendees_label">Hosté</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zítra</string>
     <string name="today_at_time_fmt">"Dnes v <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Zítra v <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Opakování</string>
     <string name="no_title_label">(bez názvu)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuta</item>
@@ -94,11 +89,8 @@
     <string name="foreground_notification_channel_description">Pro interní synchronizaci upozornění je vyžadováno oznámení na popředí.</string>
     <string name="event_info_title">Zobrazit událost</string>
     <string name="event_info_title_invite">Pozvánka na schůzku</string>
-    <string name="edit_event_to_label">Do</string>
-    <string name="edit_event_from_label">Od</string>
     <string name="edit_event_all_day_label">Celý den</string>
     <string name="edit_event_calendar_label">Kalendář</string>
-    <string name="description_label">Popis</string>
     <string name="presence_label">Zobrazit mě jako</string>
     <string name="privacy_label">Soukromá/Veřejná</string>
     <string name="reminders_label">Přidat připomenutí</string>
@@ -364,7 +356,6 @@
     <string name="preferences_list_calendar_summary_sync_off">Není synchronizován</string>
     <string name="preferences_list_calendar_summary_invisible">Události nejsou zobrazeny</string>
     <string name="preferences_list_general">Obecná nastavení</string>
-    <string name="preferences_list_add_remote">Přidat vzdálený kalendář (CalDAV)</string>
     <string name="preferences_list_add_offline">Přidat offline kalendář</string>
     <string name="preferences_list_add_offline_title">Přidat offline kalendář</string>
     <string name="preferences_list_add_offline_error_empty">Zadejte název kalendáře!</string>

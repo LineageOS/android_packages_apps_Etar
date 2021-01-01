@@ -15,10 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">کیلنڈر</string>
-    <string name="what_label">کیا</string>
-    <string name="where_label">کہاں</string>
     <string name="when_label">کب</string>
-    <string name="timezone_label">ٹائم زون</string>
     <string name="today">آج</string>
     <string name="tomorrow">آئندہ کل</string>
     <string name="today_at_time_fmt">"آج بوقت <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
@@ -50,7 +47,6 @@
     <string name="event_info_title">ایونٹ دیکھیں</string>
     <string name="event_info_title_invite">میٹنگ کا دعوت نامہ</string>
     <string name="edit_event_all_day_label">پورے دن</string>
-    <string name="description_label">تفصیل</string>
     <string name="presence_label">مجھے دکھائیں بطور</string>
     <string name="privacy_label">رازداری</string>
     <string name="no_syncable_calendars">کوئی کیلنڈرز نہیں ہیں</string>

@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Dagatal</string>
-    <string name="what_label">Hvað</string>
-    <string name="where_label">Hvar</string>
     <string name="when_label">Hvenær</string>
-    <string name="timezone_label">Tímabelti</string>
-    <string name="attendees_label">Gestir</string>
     <string name="today">Í dag</string>
     <string name="tomorrow">Á morgun</string>
     <string name="today_at_time_fmt">"Í dag klukkan <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Á morgun klukkan <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g> kl. <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Endurtekning</string>
     <string name="no_title_label">(Enginn titill)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 mínúta</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Dagatalstilkynningar</string>
     <string name="event_info_title">Skoða viðburð</string>
     <string name="event_info_title_invite">Fundarboð</string>
-    <string name="edit_event_to_label">Til</string>
-    <string name="edit_event_from_label">Frá</string>
     <string name="edit_event_all_day_label">Allur dagurinn</string>
     <string name="edit_event_calendar_label">Dagatal</string>
-    <string name="description_label">Lýsing</string>
     <string name="presence_label">Sýna að ég sé</string>
     <string name="privacy_label">Birtingarstillingar</string>
     <string name="reminders_label">Bæta áminningu við</string>

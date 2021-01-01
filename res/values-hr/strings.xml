@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalendar</string>
-    <string name="what_label">Što</string>
-    <string name="where_label">Gdje</string>
     <string name="when_label">Kad</string>
-    <string name="timezone_label">Vremenska zona</string>
-    <string name="attendees_label">Gosti</string>
     <string name="today">Danas</string>
     <string name="tomorrow">Sutra</string>
     <string name="today_at_time_fmt">"Danas u <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Sutra u <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Ponavljanje</string>
     <string name="no_title_label">(bez naslova)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuta</item>
@@ -78,11 +73,8 @@
     <string name="alert_title">Obavijesti kalendara</string>
     <string name="event_info_title">Prikaži događaj</string>
     <string name="event_info_title_invite">Pozivnica za sastanak</string>
-    <string name="edit_event_to_label">Prima:</string>
-    <string name="edit_event_from_label">Šalje:</string>
     <string name="edit_event_all_day_label">Cijeli dan</string>
     <string name="edit_event_calendar_label">Kalendar</string>
-    <string name="description_label">Opis</string>
     <string name="presence_label">Prikaži me kao</string>
     <string name="privacy_label">Privatnost</string>
     <string name="reminders_label">Dodavanje podsjetnika</string>

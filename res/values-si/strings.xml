@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">දින දර්ශනය</string>
-    <string name="what_label">කුමක්ද</string>
-    <string name="where_label">කොහේද</string>
     <string name="when_label">කවදාද</string>
-    <string name="timezone_label">කාල කලාපය</string>
-    <string name="attendees_label">අමුත්තන්</string>
     <string name="today">අද</string>
     <string name="tomorrow">හෙට</string>
     <string name="today_at_time_fmt">"අද <xliff:g id="TIME_INTERVAL">%s</xliff:g> ට"</string>
     <string name="tomorrow_at_time_fmt">"හෙට <xliff:g id="TIME_INTERVAL">%s</xliff:g> ට"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">පුනරාවර්තනය</string>
     <string name="no_title_label">(නමක් නොමැත)</string>
     <plurals name="Nminutes">
         <item quantity="one">මිනිත්තු 1</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">දින දර්ශන දැනුම්දීම්</string>
     <string name="event_info_title">සිදුවීම බලන්න</string>
     <string name="event_info_title_invite">රැස්වීමේ ආරාධනාව</string>
-    <string name="edit_event_to_label">වෙත</string>
-    <string name="edit_event_from_label">වෙතින්</string>
     <string name="edit_event_all_day_label">දවස පුරා</string>
     <string name="edit_event_calendar_label">දින දර්ශනය</string>
-    <string name="description_label">විස්තරය</string>
     <string name="presence_label">මාව පෙන්වන්නේ</string>
     <string name="privacy_label">පෞද්ගලිකත්වය</string>
     <string name="reminders_label">සිහි කැඳවීමක් එක් කරන්න</string>

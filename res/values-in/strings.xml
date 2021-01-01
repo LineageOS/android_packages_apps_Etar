@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalender</string>
-    <string name="what_label">Apa</string>
-    <string name="where_label">Di mana</string>
     <string name="when_label">Kapan</string>
-    <string name="timezone_label">Zona waktu</string>
-    <string name="attendees_label">Tamu</string>
     <string name="today">Hari ini</string>
     <string name="tomorrow">Besok</string>
     <string name="today_at_time_fmt">"Hari ini pukul <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Besok pukul <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Perulangan</string>
     <string name="no_title_label">(Tanpa judul)</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> menit</item>
@@ -77,11 +72,8 @@
     <string name="alert_title">Notifikasi kalender</string>
     <string name="event_info_title">Lihat acara</string>
     <string name="event_info_title_invite">Undangan rapat</string>
-    <string name="edit_event_to_label">Kepada</string>
-    <string name="edit_event_from_label">Dari</string>
     <string name="edit_event_all_day_label">Seharian</string>
     <string name="edit_event_calendar_label">Kalender</string>
-    <string name="description_label">Deskripsi</string>
     <string name="presence_label">Tampilkan saya:</string>
     <string name="privacy_label">Privasi</string>
     <string name="reminders_label">Tambahkan pengingat</string>

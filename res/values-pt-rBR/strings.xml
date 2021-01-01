@@ -15,11 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendário</string>
-    <string name="what_label">O quê</string>
-    <string name="where_label">Local</string>
     <string name="when_label">Quando</string>
-    <string name="timezone_label">Fuso horário</string>
-    <string name="attendees_label">Convidados</string>
     <string name="today">Hoje</string>
     <string name="tomorrow">Amanhã</string>
     <string name="today_at_time_fmt">"Hoje às <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
@@ -69,10 +65,7 @@
     <string name="saving_event">"Evento salvo."</string>
     <string name="create_event_dialog_save">Salvar</string>
     <string name="alert_title">Notificações do calendário</string>
-    <string name="edit_event_to_label">Até</string>
-    <string name="edit_event_from_label">De</string>
     <string name="edit_event_calendar_label">Calendário</string>
-    <string name="description_label">Descrição</string>
     <string name="privacy_label">Privacidade</string>
     <string name="reminders_label">Adicionar lembrete</string>
     <string name="add_account">Adicionar conta</string>
@@ -235,7 +228,6 @@
     <string name="preferences_calendar_delete_cancel">Cancelar</string>
     <string name="preferences_list_calendar_summary_sync_off">Não sincronizado</string>
     <string name="preferences_list_general">Configurações gerais</string>
-    <string name="preferences_list_add_remote">Adicionar calendário remoto (CalDAV)</string>
     <string name="preferences_list_add_offline">Adicionar calendário local</string>
     <string name="preferences_list_add_offline_title">Adicionar calendário local</string>
     <string name="preferences_list_add_offline_error_empty">Digite um nome para o calendário</string>

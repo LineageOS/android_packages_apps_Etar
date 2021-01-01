@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendario</string>
-    <string name="what_label">Che cosa</string>
-    <string name="where_label">Dove</string>
     <string name="when_label">Intervallo di tempo</string>
-    <string name="timezone_label">Fuso orario</string>
-    <string name="attendees_label">Invitati</string>
     <string name="today">Oggi</string>
     <string name="tomorrow">Domani</string>
     <string name="today_at_time_fmt">"Oggi alle <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Domani alle <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Ripetizione</string>
     <string name="no_title_label">(Senza titolo)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuto</item>
@@ -84,11 +79,8 @@
     <string name="foreground_notification_channel_description">Notifica in primo piano richiesta per la sincronizzazione degli avvisi interni.</string>
     <string name="event_info_title">Visualizza evento</string>
     <string name="event_info_title_invite">Invito a riunione</string>
-    <string name="edit_event_to_label">A</string>
-    <string name="edit_event_from_label">Da</string>
     <string name="edit_event_all_day_label">Tutto il giorno</string>
     <string name="edit_event_calendar_label">Calendario</string>
-    <string name="description_label">Descrizione</string>
     <string name="presence_label">Imposta il mio stato su</string>
     <string name="privacy_label">Privacy</string>
     <string name="reminders_label">Aggiungi promemoria</string>
@@ -332,7 +324,6 @@
     <string name="preferences_list_calendar_summary_sync_off">Non sincronizzato</string>
     <string name="preferences_list_calendar_summary_invisible">Gli eventi non vengono visualizzati</string>
     <string name="preferences_list_general">Impostazioni generali</string>
-    <string name="preferences_list_add_remote">Aggiungi calendario remoto (CalDAV)</string>
     <string name="preferences_list_add_offline">Aggiungi calendario offline</string>
     <string name="preferences_list_add_offline_title">Aggiungi calendario offline</string>
     <string name="preferences_list_add_offline_error_empty">Inserisci un nome per il calendario!</string>

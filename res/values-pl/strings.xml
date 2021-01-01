@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalendarz</string>
-    <string name="what_label">Co</string>
-    <string name="where_label">Gdzie</string>
     <string name="when_label">Kiedy</string>
-    <string name="timezone_label">Strefa czasowa</string>
-    <string name="attendees_label">Goście</string>
     <string name="today">Dzisiaj</string>
     <string name="tomorrow">Jutro</string>
     <string name="today_at_time_fmt">"Dzisiaj o <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Jutro o <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Powtarzanie</string>
     <string name="no_title_label">(Bez tytułu)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 min</item>
@@ -82,11 +77,8 @@
     <string name="alert_title">Powiadomienia kalendarza</string>
     <string name="event_info_title">Wyświetl wydarzenie</string>
     <string name="event_info_title_invite">Zaproszenie na spotkanie</string>
-    <string name="edit_event_to_label">Do</string>
-    <string name="edit_event_from_label">Od</string>
     <string name="edit_event_all_day_label">Cały dzień</string>
     <string name="edit_event_calendar_label">Kalendarz</string>
-    <string name="description_label">Opis</string>
     <string name="presence_label">Pokaż mój stan jako</string>
     <string name="privacy_label">Prywatność</string>
     <string name="reminders_label">Dodaj przypomnienie</string>

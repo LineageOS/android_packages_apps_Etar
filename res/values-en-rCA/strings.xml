@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendar</string>
-    <string name="what_label">What</string>
-    <string name="where_label">Where</string>
     <string name="when_label">When</string>
-    <string name="timezone_label">Time zone</string>
-    <string name="attendees_label">Guests</string>
     <string name="today">Today</string>
     <string name="tomorrow">Tomorrow</string>
     <string name="today_at_time_fmt">"Today at <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Tomorrow at <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Repetition</string>
     <string name="no_title_label">(No title)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minute</item>
@@ -84,11 +79,8 @@
     <string name="foreground_notification_channel_description">Foreground notification required for internal alert sync.</string>
     <string name="event_info_title">View event</string>
     <string name="event_info_title_invite">Meeting invitation</string>
-    <string name="edit_event_to_label">To</string>
-    <string name="edit_event_from_label">From</string>
     <string name="edit_event_all_day_label">All day</string>
     <string name="edit_event_calendar_label">Calendar</string>
-    <string name="description_label">Description</string>
     <string name="presence_label">Show me as</string>
     <string name="privacy_label">Privacy</string>
     <string name="reminders_label">Add reminder</string>
@@ -178,6 +170,7 @@
     <string name="preferences_black_theme">Black</string>
     <string name="preferences_color">Primary colour</string>
     <string name="preferences_color_pick">Primary colour</string>
+    <string name="preferences_pure_black_night_mode">Pure black night mode</string>
     <string name="preferences_reminder_title">Notifications \u0026 reminders</string>
     <string name="preferences_hide_declined_title">Hide declined events</string>
     <string name="default_start_title">Default view</string>
@@ -332,7 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Not synchronized</string>
     <string name="preferences_list_calendar_summary_invisible">Events are not displayed</string>
     <string name="preferences_list_general">General settings</string>
-    <string name="preferences_list_add_remote">Add remote calendar (CalDAV)</string>
+    <string name="preferences_list_add_remote">Add CalDAV calendar</string>
+    <string name="preferences_list_add_remote_etesync">Add EteSync calendar</string>
     <string name="preferences_list_add_offline">Add offline calendar</string>
     <string name="preferences_list_add_offline_title">Add offline calendar</string>
     <string name="preferences_list_add_offline_error_empty">Enter a calendar name!</string>

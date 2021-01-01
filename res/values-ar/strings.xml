@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">التقويم</string>
-    <string name="what_label">الحدث</string>
-    <string name="where_label">المكان</string>
     <string name="when_label">الموعد</string>
-    <string name="timezone_label">المنطقة الزمنية</string>
-    <string name="attendees_label">المدعوون</string>
     <string name="today">اليوم</string>
     <string name="tomorrow">غدًا</string>
     <string name="today_at_time_fmt">"اليوم في <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"غدًا في <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>، <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">التكرار</string>
     <string name="no_title_label">(بلا عنوان)</string>
     <plurals name="Nminutes">
         <item quantity="zero">دقيقة واحدة</item>
@@ -90,11 +85,8 @@
     <string name="alert_title">إعلامات التقاويم</string>
     <string name="event_info_title">عرض الحدث</string>
     <string name="event_info_title_invite">دعوة اجتماع</string>
-    <string name="edit_event_to_label">إلى</string>
-    <string name="edit_event_from_label">من</string>
     <string name="edit_event_all_day_label">اليوم كله</string>
     <string name="edit_event_calendar_label">التقويم</string>
-    <string name="description_label">الوصف</string>
     <string name="presence_label">حالتي المعروضة هي</string>
     <string name="privacy_label">الخصوصية</string>
     <string name="reminders_label">إضافة تذكير</string>

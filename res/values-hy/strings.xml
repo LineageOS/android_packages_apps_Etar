@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Օրացույց</string>
-    <string name="what_label">Ինչ</string>
-    <string name="where_label">Որտեղ</string>
     <string name="when_label">Երբ</string>
-    <string name="timezone_label">Ժամային գոտի</string>
-    <string name="attendees_label">Հյուրեր</string>
     <string name="today">Այսօր</string>
     <string name="tomorrow">Վաղը</string>
     <string name="today_at_time_fmt">"Այսօր՝ <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Վաղը՝ <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Կրկնություն</string>
     <string name="no_title_label">(Անվերնագիր)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 րոպե</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Օրացուցային ծանուցումներ</string>
     <string name="event_info_title">Դիտել իրադարձությունը</string>
     <string name="event_info_title_invite">Հանդիպման հրավեր</string>
-    <string name="edit_event_to_label">Ստացող</string>
-    <string name="edit_event_from_label">Ուղարկող</string>
     <string name="edit_event_all_day_label">Ամբողջ օրը</string>
     <string name="edit_event_calendar_label">Օրացույց</string>
-    <string name="description_label">Նկարագրություն</string>
     <string name="presence_label">Ցուցադրել ինձ որպես</string>
     <string name="privacy_label">Գաղտնիություն</string>
     <string name="reminders_label">Ավելացնել հիշեցում</string>

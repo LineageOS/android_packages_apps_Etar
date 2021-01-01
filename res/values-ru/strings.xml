@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Календарь</string>
-    <string name="what_label">Что</string>
-    <string name="where_label">Где</string>
     <string name="when_label">Когда</string>
-    <string name="timezone_label">Часовой пояс</string>
-    <string name="attendees_label">Гости</string>
     <string name="today">Сегодня</string>
     <string name="tomorrow">Завтра</string>
     <string name="today_at_time_fmt">"Сегодня, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Завтра, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Повторять</string>
     <string name="no_title_label">(Нет заголовка)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 мин.</item>
@@ -94,11 +89,8 @@
     <string name="foreground_notification_channel_description">Уведомление переднего плана требуется для внутренней синхронизации оповещений.</string>
     <string name="event_info_title">Просмотр мероприятия</string>
     <string name="event_info_title_invite">Приглашение на встречу</string>
-    <string name="edit_event_to_label">До</string>
-    <string name="edit_event_from_label">С</string>
     <string name="edit_event_all_day_label">Целый день</string>
     <string name="edit_event_calendar_label">Календарь</string>
-    <string name="description_label">Описание</string>
     <string name="presence_label">Мой статус:</string>
     <string name="privacy_label">Конфиденциальность</string>
     <string name="reminders_label">Добавить напоминание</string>
@@ -194,6 +186,7 @@
     <string name="preferences_black_theme">Черная</string>
     <string name="preferences_color">Основной цвет</string>
     <string name="preferences_color_pick">Основной цвет</string>
+    <string name="preferences_pure_black_night_mode">Настоящий черный в ночном режиме</string>
     <string name="preferences_reminder_title">Уведомления и напоминания</string>
     <string name="preferences_hide_declined_title">Скрыть отклоненные</string>
     <string name="default_start_title">Вид по умолчанию</string>
@@ -365,7 +358,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Не синхронизирован</string>
     <string name="preferences_list_calendar_summary_invisible">События не отображаются</string>
     <string name="preferences_list_general">Основные настройки</string>
-    <string name="preferences_list_add_remote">Добавить удаленный календарь (CalDAV)</string>
+    <string name="preferences_list_add_remote">Добавить календарь CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Добавить календарь EteSync</string>
     <string name="preferences_list_add_offline">Добавить автономный календарь</string>
     <string name="preferences_list_add_offline_title">Добавить автономный календарь</string>
     <string name="preferences_list_add_offline_error_empty">Введите название календаря!</string>

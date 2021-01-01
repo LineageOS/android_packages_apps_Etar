@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">יומן</string>
-    <string name="what_label">מה</string>
-    <string name="where_label">היכן</string>
     <string name="when_label">מתי</string>
-    <string name="timezone_label">אזור זמן</string>
-    <string name="attendees_label">אורחים</string>
     <string name="today">היום</string>
     <string name="tomorrow">מחר</string>
     <string name="today_at_time_fmt">"היום ב-<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"מחר ב-<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">חזרה</string>
     <string name="no_title_label">(אין כותרת)</string>
     <plurals name="Nminutes">
         <item quantity="one">דקה אחת</item>
@@ -82,11 +77,8 @@
     <string name="alert_title">התראות של יומן</string>
     <string name="event_info_title">הצג אירוע</string>
     <string name="event_info_title_invite">הזמנה לפגישה</string>
-    <string name="edit_event_to_label">עד</string>
-    <string name="edit_event_from_label">1546</string>
     <string name="edit_event_all_day_label">כל היום</string>
     <string name="edit_event_calendar_label">יומן</string>
-    <string name="description_label">תיאור</string>
     <string name="presence_label">הצג אותי כ</string>
     <string name="privacy_label">פרטיות</string>
     <string name="reminders_label">הוסף תזכורת</string>

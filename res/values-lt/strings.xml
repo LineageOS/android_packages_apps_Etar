@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalendorius</string>
-    <string name="what_label">Kas</string>
-    <string name="where_label">Kur</string>
     <string name="when_label">Kada</string>
-    <string name="timezone_label">Laiko juosta</string>
-    <string name="attendees_label">Svečiai</string>
     <string name="today">Šiandien</string>
     <string name="tomorrow">Rytoj</string>
     <string name="today_at_time_fmt">"Šiandien <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Rytoj <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Pasikartojimas</string>
     <string name="no_title_label">(Nėra pavadinimo)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 min.</item>
@@ -82,11 +77,8 @@
     <string name="alert_title">Kalendoriaus įspėjimai</string>
     <string name="event_info_title">Žiūrėti įvykį</string>
     <string name="event_info_title_invite">Kvietimas į susitikimą</string>
-    <string name="edit_event_to_label">Iki</string>
-    <string name="edit_event_from_label">Nuo</string>
     <string name="edit_event_all_day_label">Visos dienos</string>
     <string name="edit_event_calendar_label">Kalendorius</string>
-    <string name="description_label">Aprašas</string>
     <string name="presence_label">Rodyti mane kaip</string>
     <string name="privacy_label">Privatumas</string>
     <string name="reminders_label">Pridėti priminimą</string>

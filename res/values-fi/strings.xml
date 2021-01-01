@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalenteri</string>
-    <string name="what_label">Mitä</string>
-    <string name="where_label">Missä</string>
     <string name="when_label">Milloin</string>
-    <string name="timezone_label">Aikavyöhyke</string>
-    <string name="attendees_label">Osallistujat</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
     <string name="today_at_time_fmt">"Tänään klo <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Huomenna klo <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Toisto</string>
     <string name="no_title_label">(Ei otsikkoa)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuutti</item>
@@ -84,11 +79,8 @@
     <string name="foreground_notification_channel_description">Taustailmoitus tarvitaan hälytyksen synkronoimiseksi</string>
     <string name="event_info_title">Näytä tapahtuma</string>
     <string name="event_info_title_invite">Kokouskutsu</string>
-    <string name="edit_event_to_label">Loppupvm</string>
-    <string name="edit_event_from_label">Alkupvm</string>
     <string name="edit_event_all_day_label">Koko päivä</string>
     <string name="edit_event_calendar_label">Kalenteri</string>
-    <string name="description_label">Kuvaus</string>
     <string name="presence_label">Näytä että olen</string>
     <string name="privacy_label">Tietosuoja</string>
     <string name="reminders_label">Lisää muistutus</string>
@@ -178,6 +170,7 @@
     <string name="preferences_black_theme">Musta</string>
     <string name="preferences_color">Pääväri</string>
     <string name="preferences_color_pick">Pääväri</string>
+    <string name="preferences_pure_black_night_mode">Puhdas musta yötila</string>
     <string name="preferences_reminder_title">Ilmoitukset ja muistutukset</string>
     <string name="preferences_hide_declined_title">Piilota hylätyt tapahtumat</string>
     <string name="default_start_title">Oletusnäkymä</string>
@@ -332,7 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Ei synkronoitu</string>
     <string name="preferences_list_calendar_summary_invisible">Tapahtumia ei näytetä</string>
     <string name="preferences_list_general">Yleiset asetukset</string>
-    <string name="preferences_list_add_remote">Lisää etäkalenteri (CalDAV)</string>
+    <string name="preferences_list_add_remote">Lisää CalDAV-kalenteri</string>
+    <string name="preferences_list_add_remote_etesync">Lisää EteSync-kalenteri</string>
     <string name="preferences_list_add_offline">Lisää offline-kalenteri</string>
     <string name="preferences_list_add_offline_title">Lisää offline-kalenteri</string>
     <string name="preferences_list_add_offline_error_empty">Kirjoita kalenterin nimi!</string>

@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalenda</string>
-    <string name="what_label">Nini</string>
-    <string name="where_label">Wapi</string>
     <string name="when_label">Lini</string>
-    <string name="timezone_label">Saa za eneo</string>
-    <string name="attendees_label">Wageni</string>
     <string name="today">Leo</string>
     <string name="tomorrow">Kesho</string>
     <string name="today_at_time_fmt">"Leo saa <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Kesho saa <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Kurudia</string>
     <string name="no_title_label">(Hakuna kichwa)</string>
     <plurals name="Nminutes">
         <item quantity="one">Dakika 1</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Arifa za kalenda</string>
     <string name="event_info_title">Tazama tukio</string>
     <string name="event_info_title_invite">Mwaliko wa mktutano</string>
-    <string name="edit_event_to_label">Hadi</string>
-    <string name="edit_event_from_label">Kuanzia</string>
     <string name="edit_event_all_day_label">Siku nzima</string>
     <string name="edit_event_calendar_label">Kalenda</string>
-    <string name="description_label">Maelezo</string>
     <string name="presence_label">Onyesha kuwa</string>
     <string name="privacy_label">Faragha</string>
     <string name="reminders_label">Ongeza kikumbusho</string>

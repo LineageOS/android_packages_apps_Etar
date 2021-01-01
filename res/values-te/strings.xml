@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">క్యాలెండర్</string>
-    <string name="what_label">ఏమిటి</string>
-    <string name="where_label">ఎక్కడ</string>
     <string name="when_label">ఎప్పుడు</string>
-    <string name="timezone_label">సమయ మండలి</string>
-    <string name="attendees_label">అతిథులు</string>
     <string name="today">ఈ రోజు</string>
     <string name="tomorrow">రేపు</string>
     <string name="today_at_time_fmt">"ఈ రోజు <xliff:g id="TIME_INTERVAL">%s</xliff:g>కి"</string>
     <string name="tomorrow_at_time_fmt">"రేపు <xliff:g id="TIME_INTERVAL">%s</xliff:g>కి"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">పునరావృతం</string>
     <string name="no_title_label">(శీర్షిక లేదు)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 నిమిషం</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">క్యాలెండర్ నోటిఫికేషన్‌లు</string>
     <string name="event_info_title">ఈవెంట్‌ను వీక్షించండి</string>
     <string name="event_info_title_invite">సమావేశ ఆహ్వానం</string>
-    <string name="edit_event_to_label">ఈ సమయం వరకు</string>
-    <string name="edit_event_from_label">ఈ సమయం నుండి</string>
     <string name="edit_event_all_day_label">రోజు మొత్తం</string>
     <string name="edit_event_calendar_label">క్యాలెండర్</string>
-    <string name="description_label">వివరణ</string>
     <string name="presence_label">నన్ను ఇలా చూపు</string>
     <string name="privacy_label">గోప్యత</string>
     <string name="reminders_label">రిమైండర్‌ను జోడించ.</string>

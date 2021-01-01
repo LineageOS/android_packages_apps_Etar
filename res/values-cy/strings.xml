@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendr</string>
-    <string name="what_label">Beth</string>
-    <string name="where_label">Ble</string>
     <string name="when_label">Pa bryd</string>
-    <string name="timezone_label">Cylchfa amser</string>
-    <string name="attendees_label">Gwesteion</string>
     <string name="today">Heddiw</string>
     <string name="tomorrow">Yfory</string>
     <string name="today_at_time_fmt">"Heddiw am <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Yfory am <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Ailadrodd</string>
     <string name="no_title_label">(Dim teitl)</string>
     <plurals name="Nminutes">
         <item quantity="zero"><xliff:g id="count">%d</xliff:g> munudau</item>
@@ -104,11 +99,8 @@
     <string name="foreground_notification_channel_description">Hysbysiad blaendir sydd ei angen ar gyfer cydweddu rhybuddion mewnol</string>
     <string name="event_info_title">Gweld y digwyddiad</string>
     <string name="event_info_title_invite">Gwahoddiad cyfarfod</string>
-    <string name="edit_event_to_label">Hyd at</string>
-    <string name="edit_event_from_label">O</string>
     <string name="edit_event_all_day_label">Trwy\'r dydd</string>
     <string name="edit_event_calendar_label">Calendr</string>
-    <string name="description_label">Disgrifiad</string>
     <string name="presence_label">Fy nangos i fel</string>
     <string name="privacy_label">Preifatrwydd</string>
     <string name="reminders_label">Ychwanegu nodyn atgoffa</string>
@@ -396,7 +388,6 @@
     <string name="preferences_list_calendar_summary_sync_off">Heb ei gysoni</string>
     <string name="preferences_list_calendar_summary_invisible">Dyw digwyddiadau heb eu dangos</string>
     <string name="preferences_list_general">Gosodiadau cyffredinol</string>
-    <string name="preferences_list_add_remote">Ychwanegu calendr o bell (CalDAV)</string>
     <string name="preferences_list_add_offline">Ychwanegu calendr all-lein</string>
     <string name="preferences_list_add_offline_title">Ychwanegu calendr all-lein</string>
     <string name="preferences_list_add_offline_error_empty">Rho enw i\'r calendr</string>

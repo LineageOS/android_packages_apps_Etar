@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">ปฏิทิน</string>
-    <string name="what_label">อะไร</string>
-    <string name="where_label">สถานที่</string>
     <string name="when_label">เมื่อใด</string>
-    <string name="timezone_label">เขตเวลา</string>
-    <string name="attendees_label">ผู้เข้าร่วม</string>
     <string name="today">วันนี้</string>
     <string name="tomorrow">วันพรุ่งนี้</string>
     <string name="today_at_time_fmt">"วันนี้เวลา <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"พรุ่งนี้เวลา <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">การเกิดซ้ำ</string>
     <string name="no_title_label">(ไม่มีชื่อ)</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> นาที</item>
@@ -79,11 +74,8 @@
     <string name="foreground_notification_channel_description">การแจ้งเตือนในเบื้องหน้าจำเป็นต่อการซิงค์การแจ้งเตือนภายใน</string>
     <string name="event_info_title">ดูกิจกรรม</string>
     <string name="event_info_title_invite">คำเชิญเข้าประชุม</string>
-    <string name="edit_event_to_label">ถึง</string>
-    <string name="edit_event_from_label">จาก</string>
     <string name="edit_event_all_day_label">ตลอดทั้งวัน</string>
     <string name="edit_event_calendar_label">ปฏิทิน</string>
-    <string name="description_label">คำอธิบาย</string>
     <string name="presence_label">แสดงสถานะว่าฉัน</string>
     <string name="privacy_label">ข้อมูลส่วนบุคคล</string>
     <string name="reminders_label">เพิ่มการแจ้งเตือน</string>
@@ -311,7 +303,6 @@
     <string name="preferences_list_calendar_summary_sync_off">ยังไม่ซิงค์</string>
     <string name="preferences_list_calendar_summary_invisible">กิจกรรมไม่ถูกแสดง</string>
     <string name="preferences_list_general">การตั้งค่าทั่วไป</string>
-    <string name="preferences_list_add_remote">เพิ่มปฏิทินรีโมท (CalDAV)</string>
     <string name="preferences_list_add_offline">เพิ่มปฏิทินออฟไลน์</string>
     <string name="preferences_list_add_offline_title">เพิ่มปฏิทินออฟไลน์</string>
     <string name="preferences_list_add_offline_error_empty">กรอกชื่อปฏิทิน!</string>

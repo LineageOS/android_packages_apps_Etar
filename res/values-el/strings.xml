@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Ημερολόγιο</string>
-    <string name="what_label">Τι</string>
-    <string name="where_label">Που</string>
     <string name="when_label">Πότε</string>
-    <string name="timezone_label">Ζώνη ώρας</string>
-    <string name="attendees_label">Προσκεκλημένοι</string>
     <string name="today">Σήμερα</string>
     <string name="tomorrow">Αύριο</string>
     <string name="today_at_time_fmt">"Σήμερα στις <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Αύριο στις <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Επανάληψη</string>
     <string name="no_title_label">(Χωρίς τίτλο)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 λεπτό</item>
@@ -84,11 +79,8 @@
     <string name="foreground_notification_channel_description">Ειδοποίηση προσκηνίου που απαιτείται για τον εσωτερικό συγχρονισμό ειδοποιήσεων.</string>
     <string name="event_info_title">Προβολή συμβάντος</string>
     <string name="event_info_title_invite">Πρόσκληση συνάντησης</string>
-    <string name="edit_event_to_label">Έως</string>
-    <string name="edit_event_from_label">Από</string>
     <string name="edit_event_all_day_label">Ολοήμερο</string>
     <string name="edit_event_calendar_label">Ημερολόγιο</string>
-    <string name="description_label">Περιγραφή</string>
     <string name="presence_label">Να εμφανίζομαι ως</string>
     <string name="privacy_label">Απόρρητο</string>
     <string name="reminders_label">Προσθήκη υπενθύμισης</string>
@@ -178,6 +170,7 @@
     <string name="preferences_black_theme">Μαύρο</string>
     <string name="preferences_color">Βασικό χρώμα</string>
     <string name="preferences_color_pick">Βασικό χρώμα</string>
+    <string name="preferences_pure_black_night_mode">Απόλυτο μαύρο στη νυχτ. λειτουργία</string>
     <string name="preferences_reminder_title">Ειδοποιήσεις και υπενθυμίσεις</string>
     <string name="preferences_hide_declined_title">Απόκρυψη συμβάντων που έχουν απορριφθεί</string>
     <string name="default_start_title">Προεπιλεγμένη προβολή</string>
@@ -332,7 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Μη συγχρονισμένο</string>
     <string name="preferences_list_calendar_summary_invisible">Τα συμβάντα δεν εμφανίζονται</string>
     <string name="preferences_list_general">Γενικές ρυθμίσεις</string>
-    <string name="preferences_list_add_remote">Προσθήκη απομακρυσμένου ημερολογίου (CalDAV)</string>
+    <string name="preferences_list_add_remote">Προσθήκη ημερολογίου CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Προσθήκη ημερολογίου EteSync</string>
     <string name="preferences_list_add_offline">Προσθήκη ημερολογίου χωρίς σύνδεση</string>
     <string name="preferences_list_add_offline_title">Προσθήκη ημερολογίου χωρίς σύνδεση</string>
     <string name="preferences_list_add_offline_error_empty">Εισάγετε ένα όνομα ημερολογίου!</string>
