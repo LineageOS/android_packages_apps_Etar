@@ -16,6 +16,7 @@
 
 package com.android.calendar.widget;
 
+import android.annotation.TargetApi;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -23,6 +24,8 @@ import android.appwidget.AppWidgetProvider;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.net.Uri;
 import android.provider.CalendarContract;
 import android.text.format.DateUtils;
@@ -47,6 +50,9 @@ import static android.provider.CalendarContract.EXTRA_EVENT_END_TIME;
 public class CalendarAppWidgetProvider extends AppWidgetProvider {
     static final String TAG = "CalendarAppWidgetProvider";
     static final boolean LOGD = false;
+
+    private static boolean sWidgetChecked = false;
+    private static boolean sWidgetSupported = false;
 
     // TODO Move these to Calendar.java
     static final String EXTRA_EVENT_IDS = "com.android.calendar.EXTRA_EVENT_IDS";
@@ -134,6 +140,10 @@ public class CalendarAppWidgetProvider extends AppWidgetProvider {
         if (LOGD)
             Log.d(TAG, "AppWidgetProvider got the intent: " + intent.toString());
         if (Utils.getWidgetUpdateAction(context).equals(action)) {
+            if (!CalendarAppWidgetProvider.isWidgetSupported(context)) {
+                return;
+            }
+
             AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
             performUpdate(context, appWidgetManager,
                     appWidgetManager.getAppWidgetIds(getComponentName(context)),
@@ -177,6 +187,10 @@ public class CalendarAppWidgetProvider extends AppWidgetProvider {
     private void performUpdate(Context context,
             AppWidgetManager appWidgetManager, int[] appWidgetIds,
             long[] changedEventIds) {
+        if (!CalendarAppWidgetProvider.isWidgetSupported(context)) {
+            return;
+        }
+
         // Launch over to service so it can perform update
         for (int appWidgetId : appWidgetIds) {
             if (LOGD) Log.d(TAG, "Building widget update...");
@@ -230,5 +244,26 @@ public class CalendarAppWidgetProvider extends AppWidgetProvider {
 
             appWidgetManager.updateAppWidget(appWidgetId, views);
         }
+    }
+
+    public static boolean isWidgetSupported(Context context) {
+        if (!CalendarAppWidgetProvider.sWidgetChecked) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+                CalendarAppWidgetProvider.sWidgetSupported = hasAppWidgetsSystemFeature(context);
+            } else {
+                // Before SDK 18, we can assume AppWidgetManager#getInstance will
+                // never return null, so we can always return true regardless of
+                // whether the widgets are really supported.
+                CalendarAppWidgetProvider.sWidgetSupported = true;
+            }
+            CalendarAppWidgetProvider.sWidgetChecked = true;
+        }
+
+        return CalendarAppWidgetProvider.sWidgetSupported;
+    }
+
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR2)
+    private static boolean hasAppWidgetsSystemFeature(Context context) {
+        return context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_APP_WIDGETS);
     }
 }
