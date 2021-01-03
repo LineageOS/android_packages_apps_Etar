@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "b55893a4_083f5219",
+        "filename": "src/com/android/calendar/widget/CalendarAppWidgetProvider.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2021-01-03T14:10:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2015aad3_f10c857c",
+      "range": {
+        "startLine": 53,
+        "startChar": 27,
+        "endLine": 53,
+        "endChar": 43
+      },
+      "revId": "52ef3cc124521340e2c2fea0f88502a46248af8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "22947082_67fe3854",
         "filename": "src/com/android/calendar/widget/CalendarAppWidgetProvider.java",
         "patchSetId": 3
@@ -87,6 +111,24 @@
       "revId": "52ef3cc124521340e2c2fea0f88502a46248af8e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7ecf3d60_2ea4a185",
+        "filename": "src/com/android/calendar/widget/CalendarAppWidgetProvider.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2021-01-03T14:10:46Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "22947082_67fe3854",
+      "revId": "52ef3cc124521340e2c2fea0f88502a46248af8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
