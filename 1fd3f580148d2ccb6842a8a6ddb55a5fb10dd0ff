@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "320b5026_77dfff98",
+        "filename": "src/com/android/calendar/widget/CalendarAppWidgetProvider.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2021-01-03T13:46:13Z",
+      "side": 1,
+      "message": "Etar minSdk is 21 so this is useless",
+      "range": {
+        "startLine": 254,
+        "startChar": 0,
+        "endLine": 256,
+        "endChar": 60
+      },
+      "revId": "1fd3f580148d2ccb6842a8a6ddb55a5fb10dd0ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
