@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "937b1591_0c045847",
+        "filename": "src/com/android/calendar/widget/CalendarAppWidgetProvider.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2021-01-03T13:57:46Z",
+      "side": 1,
+      "message": "This seems to be unused?",
+      "range": {
+        "startLine": 53,
+        "startChar": 27,
+        "endLine": 53,
+        "endChar": 43
+      },
+      "revId": "52ef3cc124521340e2c2fea0f88502a46248af8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
