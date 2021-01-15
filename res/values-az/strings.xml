@@ -170,6 +170,7 @@
     <string name="preferences_black_theme">Qara</string>
     <string name="preferences_color">Əsas rəng</string>
     <string name="preferences_color_pick">Əsas rəng</string>
+    <string name="preferences_pure_black_night_mode">Saf qara gecə rejimi</string>
     <string name="preferences_reminder_title">Bildirişlər &amp; xatırladıcılar</string>
     <string name="preferences_hide_declined_title">Rədd edilmiş tədbirləri gizlət</string>
     <string name="default_start_title">İlkin görünüş</string>
@@ -324,6 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Eyniləşdirilməyib</string>
     <string name="preferences_list_calendar_summary_invisible">Tədbirlər görüntülənmir</string>
     <string name="preferences_list_general">Ümumi tənzimləmələr</string>
+    <string name="preferences_list_add_remote">CalDAV təqvimi əlavə et</string>
+    <string name="preferences_list_add_remote_etesync">EteSync təqvimi əlavə et</string>
     <string name="preferences_list_add_offline">Xətdən kənar təqvim əlavə et</string>
     <string name="preferences_list_add_offline_title">Xətdən kənar təqvim əlavə et</string>
     <string name="preferences_list_add_offline_error_empty">Bir təqvim adı daxil edin!</string>

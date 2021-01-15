@@ -203,10 +203,12 @@
     <string name="snooze_delay_dialog_title">Régler le délai de répétition</string>
     <string name="preferences_default_snooze_delay_title">Délai de mise en veille par défaut</string>
     <string name="preferences_default_snooze_delay_dialog">Délai de mise en veille par défaut</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Le projet Etar. Parties \u00a9 2005-<xliff:g>%1$s</xliff:g>  The Android Open Source Project.</string>
     <string name="authors">Auteurs</string>
     <string name="changelog">Historique des modifications</string>
     <string name="license">Licence</string>
     <string name="preferences_build_version">Version</string>
+    <string name="preferences_issues">Signaler les bugs</string>
     <string name="source_code">Source</string>
     <plurals name="month_more_events">
         <item quantity="one">"+ 1"</item>
@@ -301,6 +303,7 @@
     <string name="show_time_no">Ne pas afficher l\'heure</string>
     <string name="show_time_start">Heure de début uniquement</string>
     <string name="show_time_start_end">Heure de début et de fin</string>
+    <string name="show_time_start_end_below">Début et fin placés sous l\'événement</string>
     <string name="preferences_calendar_no_display_name">Calendrier sans nom</string>
     <string name="preferences_calendar_account">%1$s compte</string>
     <string name="preferences_calendar_account_local">Calendrier hors ligne</string>
@@ -313,6 +316,7 @@
     <string name="preferences_calendar_visible">Afficher les événements</string>
     <string name="preferences_calendar_synchronize">Synchroniser ce calendrier</string>
     <string name="preferences_calendar_color_warning_title">Avertissement</string>
+    <string name="preferences_calendar_color_warning_message">La modification de la couleur peut être annulée lorsque le calendrier est synchronisé à nouveau.\n\nDans DAVx5, \'Gérer les couleurs du calendrier\' peut être désactivé pour éviter cela.</string>
     <string name="preferences_calendar_color_warning_button">Je comprends</string>
     <string name="preferences_calendar_delete_message">Voulez-vous vraiment supprimer ce compteur ?</string>
     <string name="preferences_calendar_delete_delete">Supprimer le calendrier</string>
@@ -320,6 +324,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Non synchronisé</string>
     <string name="preferences_list_calendar_summary_invisible">Les événements ne sont pas affichés</string>
     <string name="preferences_list_general">Paramètres généraux</string>
+    <string name="preferences_list_add_remote">Ajouter un calendrier CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Ajouter un calendrier EteSync</string>
     <string name="preferences_list_add_offline">Ajouter un calendrier hors ligne</string>
     <string name="preferences_list_add_offline_title">Ajouter un calendrier hors ligne</string>
     <string name="preferences_list_add_offline_error_empty">Entrez un nom de calendrier !</string>

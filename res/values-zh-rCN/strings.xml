@@ -162,6 +162,7 @@
     <string name="preferences_black_theme">黑色</string>
     <string name="preferences_color">主色调</string>
     <string name="preferences_color_pick">主色调</string>
+    <string name="preferences_pure_black_night_mode">纯黑夜间模式</string>
     <string name="preferences_reminder_title">通知和提醒</string>
     <string name="preferences_hide_declined_title">隐藏您不参加的活动</string>
     <string name="default_start_title">默认视图</string>
@@ -308,6 +309,8 @@
     <string name="preferences_list_calendar_summary_sync_off">尚未同步</string>
     <string name="preferences_list_calendar_summary_invisible">事件未显示。</string>
     <string name="preferences_list_general">常规设置</string>
+    <string name="preferences_list_add_remote">添加 CalDAV 日历</string>
+    <string name="preferences_list_add_remote_etesync">添加 EteSync 日历</string>
     <string name="preferences_list_add_offline">添加离线日历</string>
     <string name="preferences_list_add_offline_title">添加离线日历</string>
     <string name="preferences_list_add_offline_error_empty">输入日历名称！</string>

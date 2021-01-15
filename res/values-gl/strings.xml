@@ -170,6 +170,7 @@
     <string name="preferences_black_theme">Negro</string>
     <string name="preferences_color">Cor primaria</string>
     <string name="preferences_color_pick">Cor primaria</string>
+    <string name="preferences_pure_black_night_mode">Modo noite escura pura</string>
     <string name="preferences_reminder_title">Notificacións e recordatorios</string>
     <string name="preferences_hide_declined_title">Ocultar eventos rexeitados</string>
     <string name="default_start_title">Vista predeterminada</string>
@@ -324,6 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Non sincronizado</string>
     <string name="preferences_list_calendar_summary_invisible">Os eventos non se amosan</string>
     <string name="preferences_list_general">Configuración xeral</string>
+    <string name="preferences_list_add_remote">Engadir un calendario CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Engadir un calendario EteSync</string>
     <string name="preferences_list_add_offline">Agregar calendario sen conexión</string>
     <string name="preferences_list_add_offline_title">Agregar calendario sen conexión</string>
     <string name="preferences_list_add_offline_error_empty">Inserir o nome do calendario!</string>

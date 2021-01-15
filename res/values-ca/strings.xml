@@ -170,6 +170,7 @@
     <string name="preferences_black_theme">Negre</string>
     <string name="preferences_color">Color principal</string>
     <string name="preferences_color_pick">Color principal</string>
+    <string name="preferences_pure_black_night_mode">Mode nit negre pur</string>
     <string name="preferences_reminder_title">Notificacions i recordatoris</string>
     <string name="preferences_hide_declined_title">Amaga esdeveniments rebutjats</string>
     <string name="default_start_title">Vista per defecte</string>
@@ -324,6 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">No sincronitzat</string>
     <string name="preferences_list_calendar_summary_invisible">Els esdeveniments no es mostren</string>
     <string name="preferences_list_general">Configuració general</string>
+    <string name="preferences_list_add_remote">Afegeix un calendari CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Afegeix un calendari EteSync</string>
     <string name="preferences_list_add_offline">Afegeix un calendari fora de línia</string>
     <string name="preferences_list_add_offline_title">Afegeix un calendari fora de línia</string>
     <string name="preferences_list_add_offline_error_empty">Introduïu el nom del calendari</string>
