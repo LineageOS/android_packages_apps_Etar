@@ -58,13 +58,13 @@
         <item>1 semana</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
-        <item>Locale default</item>
+        <item>Padrão do idioma</item>
         <item>Sábado</item>
         <item>Domingo</item>
         <item>Segunda-feira</item>
     </string-array>
     <string-array name="availability">
-        <item>Busy</item>
+        <item>Ocupado</item>
         <item>Disponível</item>
         <item>Tentative</item>
     </string-array>
@@ -79,14 +79,34 @@
         <item>This and future events</item>
         <item>Todos os eventos</item>
     </string-array>
+    <string-array name="buttons_list">
+        <item>Dia</item>
+        <item>Semana</item>
+        <item>Mês</item>
+        <item>Agenda</item>
+    </string-array>
     <string-array name="recurrence_freq">
         <item>REPEAT DAILY</item>
         <item>REPEAT WEEKLY</item>
         <item>REPEAT MONTHLY</item>
         <item>REPETIR ANUALMENTE</item>
     </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>todo primeiro domingo</item>
+        <item>todo segundo domingo</item>
+        <item>todo terceiro domingo</item>
+        <item>todo quarto domingo</item>
+        <item>todo último domingo</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>toda primeira segunda-feira</item>
+        <item>toda segunda segunda-feira</item>
+        <item>toda terceira segunda-feira</item>
+        <item>toda quarta segunda-feira</item>
+        <item>toda última segunda-feira</item>
+    </string-array>
     <string-array name="repeat_by_nth_tues">
-        <item>on every first Tuesday</item>
+        <item>toda primeira terça-feira</item>
         <item>toda segunda terça-feira</item>
         <item>toda terça terça-feira</item>
         <item>toda quarta terça-feira</item>

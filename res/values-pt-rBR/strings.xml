@@ -15,16 +15,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendário</string>
-    <string name="what_label">O quê</string>
-    <string name="where_label">Local</string>
     <string name="when_label">Quando</string>
-    <string name="timezone_label">Fuso horário</string>
-    <string name="attendees_label">Convidados</string>
     <string name="today">Hoje</string>
     <string name="tomorrow">Amanhã</string>
     <string name="today_at_time_fmt">"Hoje às <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Amanhã às <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="no_title_label">(sem título)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuto</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minutos</item>
@@ -58,12 +55,17 @@
     <string name="goto_today">"Hoje"</string>
     <string name="goto_date">Ir para\u2026</string>
     <string name="menu_preferences">"Configurações"</string>
+    <string name="search">"Pesquisar"</string>
+    <string name="view_settings">"Ver configurações"</string>
+    <string name="hint_what">"Nome do evento"</string>
     <string name="hint_where">"Local"</string>
+    <string name="hint_description">"Descrição"</string>
     <string name="hint_attendees">"Convidados"</string>
+    <string name="creating_event">"Evento criado."</string>
+    <string name="saving_event">"Evento salvo."</string>
     <string name="create_event_dialog_save">Salvar</string>
     <string name="alert_title">Notificações do calendário</string>
     <string name="edit_event_calendar_label">Calendário</string>
-    <string name="description_label">Descrição</string>
     <string name="privacy_label">Privacidade</string>
     <string name="reminders_label">Adicionar lembrete</string>
     <string name="add_account">Adicionar conta</string>
@@ -84,6 +86,12 @@
     <string name="no_map">Não há aplicativos de mapas instalados</string>
     <string name="call_label">Ligar</string>
     <string name="quick_response_settings">Respostas rápidas</string>
+    <string-array name="quick_response_defaults">
+        <item>Running just a couple of minutes late.</item>
+        <item>Chegarei aí em cerca de 10 minutos.</item>
+        <item>Go ahead and start without me.</item>
+        <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
+    </string-array>
     <string name="event_info_organizer">Organizador:</string>
     <string name="event_info_reminders_label">Lembretes</string>
     <string name="agenda_today">Hoje, <xliff:g id="date">%1$s</xliff:g></string>
@@ -117,6 +125,7 @@
     <string name="change_response_title">Alterar resposta</string>
     <string name="preferences_title">"Configurações"</string>
     <string name="preferences_theme">Tema</string>
+    <string name="preferences_system_theme">Padrão do sistema</string>
     <string name="preferences_light_theme">Claro</string>
     <string name="preferences_dark_theme">Escuro</string>
     <string name="preferences_black_theme">Preto</string>
@@ -124,6 +133,8 @@
     <string name="preferences_color_pick">Cor principal</string>
     <string name="preferences_reminder_title">Notificações e lembretes</string>
     <string name="preferences_hide_declined_title">Ocultar eventos recusados</string>
+    <string name="preferences_week_start_day_title">Começar a semana em</string>
+    <string name="preferences_week_start_day_dialog">Começar a semana em</string>
     <string name="preferences_days_per_week_title">Dias por semana</string>
     <string name="preferences_days_per_week_dialog">Dias por semana</string>
     <string name="preferences_alerts_title">Notificações</string>
@@ -204,6 +215,7 @@
     <string name="preferences_calendar_no_display_name">Calendário sem nome</string>
     <string name="preferences_calendar_account_local">Calendário local</string>
     <string name="preferences_calendar_configure_account">Configurar o calendário em %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d eventos</string>
     <string name="preferences_calendar_delete">Excluir calendário</string>
     <string name="preferences_calendar_info_category">Informações do calendário</string>
     <string name="preferences_calendar_color">Cor</string>
@@ -216,7 +228,6 @@
     <string name="preferences_calendar_delete_cancel">Cancelar</string>
     <string name="preferences_list_calendar_summary_sync_off">Não sincronizado</string>
     <string name="preferences_list_general">Configurações gerais</string>
-    <string name="preferences_list_add_remote">Adicionar calendário remoto (CalDAV)</string>
     <string name="preferences_list_add_offline">Adicionar calendário local</string>
     <string name="preferences_list_add_offline_title">Adicionar calendário local</string>
     <string name="preferences_list_add_offline_error_empty">Digite um nome para o calendário</string>

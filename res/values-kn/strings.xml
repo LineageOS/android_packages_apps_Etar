@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">ಕ್ಯಾಲೆಂಡರ್‌</string>
-    <string name="what_label">ಏನು</string>
-    <string name="where_label">ಎಲ್ಲಿ</string>
     <string name="when_label">ಯಾವಾಗ</string>
-    <string name="timezone_label">ಸಮಯ ವಲಯ</string>
-    <string name="attendees_label">ಅತಿಥಿಗಳು</string>
     <string name="today">ಇಂದು</string>
     <string name="tomorrow">ನಾಳೆ</string>
     <string name="today_at_time_fmt">"<xliff:g id="TIME_INTERVAL">%s</xliff:g> ಕ್ಕೆ ಇಂದು"</string>
     <string name="tomorrow_at_time_fmt">"<xliff:g id="TIME_INTERVAL">%s</xliff:g> ಕ್ಕೆ ನಾಳೆ"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">ಪುನರಾವರ್ತಿಸುವಿಕೆ</string>
     <string name="no_title_label">(ಯಾವುದೇ ಶೀರ್ಷಿಕೆಯಿಲ್ಲ)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 ನಿಮಿಷ</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">ಕ್ಯಾಲೆಂಡರ್ ಅಧಿಸೂಚನೆಗಳು</string>
     <string name="event_info_title">ಈವೆಂಟ್ ವೀಕ್ಷಿಸು</string>
     <string name="event_info_title_invite">ಆಹ್ವಾನ ಸಭೆ</string>
-    <string name="edit_event_to_label">ವರೆಗೆ</string>
-    <string name="edit_event_from_label">ಪ್ರಾರಂಭ</string>
     <string name="edit_event_all_day_label">ದಿನಪೂರ್ತಿ</string>
     <string name="edit_event_calendar_label">ಕ್ಯಾಲೆಂಡರ್‌</string>
-    <string name="description_label">ವಿವರಣೆ</string>
     <string name="presence_label">ನನ್ನನ್ನು ಹೀಗೆ ತೋರಿಸು</string>
     <string name="privacy_label">ಗೌಪ್ಯತೆ</string>
     <string name="reminders_label">ಜ್ಞಾಪನೆಯನ್ನು ಸೇರಿಸಿ</string>

@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">يىلنامە</string>
-    <string name="what_label">مەزمۇن</string>
-    <string name="where_label">ئورۇن</string>
     <string name="when_label">قاچان</string>
-    <string name="timezone_label">ۋاقىت رايونى</string>
-    <string name="attendees_label">مېھمانلار</string>
     <string name="today">بۈگۈن</string>
     <string name="tomorrow">ئەتە</string>
     <string name="today_at_time_fmt">"بۈگۈن <xliff:g id="TIME_INTERVAL">%s</xliff:g> دە"</string>
     <string name="tomorrow_at_time_fmt">"ئەتە <xliff:g id="TIME_INTERVAL">%s</xliff:g> دە"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>، <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">تەكرارلاش</string>
     <string name="no_title_label">(ماۋزۇسىز)</string>
     <string name="show_day_view">"كۈن كۆرسەت"</string>
     <string name="agenda_view">"كۈنتەرتىپ"</string>
@@ -58,11 +53,8 @@
     <string name="alert_title">يىلنامە ئۇقتۇرۇشى</string>
     <string name="event_info_title">پائالىيەتنى كۆرسەت</string>
     <string name="event_info_title_invite">يىغىن تەكلىپى</string>
-    <string name="edit_event_to_label">قوبۇللىغۇچى</string>
-    <string name="edit_event_from_label">ئەۋەتكۈچى</string>
     <string name="edit_event_all_day_label">پۈتۈن كۈن</string>
     <string name="edit_event_calendar_label">يىلنامە</string>
-    <string name="description_label">چۈشەندۈرۈش</string>
     <string name="presence_label">مېنى كۆرسىتىشى</string>
     <string name="privacy_label">شەخسىيەت</string>
     <string name="reminders_label">ئەسكەرتىش قوش</string>

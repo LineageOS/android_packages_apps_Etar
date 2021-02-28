@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalender</string>
-    <string name="what_label">Mis?</string>
-    <string name="where_label">Kus</string>
     <string name="when_label">Millal?</string>
-    <string name="timezone_label">Ajavöönd</string>
-    <string name="attendees_label">Külalised</string>
     <string name="today">Täna</string>
     <string name="tomorrow">Homme</string>
     <string name="today_at_time_fmt">"Täna kell <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Homme kell <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Kordamine</string>
     <string name="no_title_label">(Pealkiri puudub)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minut</item>
@@ -43,6 +38,11 @@
         <item quantity="one">1 päev</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> päeva</item>
     </plurals>
+    <plurals name="weekN">
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> nädal</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> nädalat</item>
+    </plurals>
+    <string name="calendar_refresh">"Värskenda"</string>
     <string name="show_day_view">"Kuva päev"</string>
     <string name="agenda_view">"Päevakord"</string>
     <string name="day_view">"Päev"</string>
@@ -52,11 +52,14 @@
     <string name="event_create">"Uus sündmus"</string>
     <string name="event_edit">"Muuda sündmust"</string>
     <string name="event_delete">"Kustuta sündmus"</string>
+    <string name="share_label">Jaga</string>
     <string name="goto_today">"Täna"</string>
+    <string name="goto_date">Mine\u2026</string>
     <string name="menu_preferences">"Seaded"</string>
     <string name="search">"Otsing"</string>
     <string name="hide_controls">"Peida juhtelemendid"</string>
     <string name="show_controls">"Kuva juhtelement"</string>
+    <string name="view_settings">"Vaata seadeid"</string>
     <string name="select_synced_calendars_button">Sünkroonitavad kalendrid</string>
     <string name="hint_what">"Sündmuse nimi"</string>
     <string name="hint_where">"Asukoht"</string>
@@ -72,13 +75,11 @@
     <string name="rsvp_declined">"Vastas eitavalt."</string>
     <string name="create_event_dialog_save">Salvesta</string>
     <string name="alert_title">Kalendriteadistused</string>
+    <string name="foreground_notification_channel_name">Alarmi sünkroonimine</string>
     <string name="event_info_title">Sündmuse vaatamine</string>
     <string name="event_info_title_invite">Koosolekukutse</string>
-    <string name="edit_event_to_label">Kuni</string>
-    <string name="edit_event_from_label">Alates</string>
     <string name="edit_event_all_day_label">Kogu päev</string>
     <string name="edit_event_calendar_label">Kalender</string>
-    <string name="description_label">Kirjeldus</string>
     <string name="presence_label">Kuva mind olekus</string>
     <string name="privacy_label">Privaatsus</string>
     <string name="reminders_label">Lisa meeldetuletus</string>
@@ -101,6 +102,7 @@
     <string name="email_picker_label">Meili saatmine:</string>
     <string name="event_not_found">"Sündmust ei leitud."</string>
     <string name="map_label">Kaart</string>
+    <string name="no_map">Kaardirakendus(i) ei ole installeeritud</string>
     <string name="call_label">Helista</string>
     <string name="quick_response_settings">Kiirvastused</string>
     <string name="quick_response_settings_summary">Vastuste muutmine</string>
@@ -116,6 +118,9 @@
     <string name="quick_response_custom_msg">Kirjutage ise …</string>
     <string name="event_info_organizer">Korraldaja:</string>
     <string name="event_info_reminders_label">Meeldetuletused</string>
+    <string name="agenda_today">Täna, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Eile, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Homme, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Laadimine ...</string>
     <string name="show_older_events">Puudutage enne vahemikku <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> toimuvate sündmuste kuvamiseks</string>
     <string name="show_newer_events">Puudutage pärast vahemikku <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> toimuvate sündmuste vaatamiseks</string>
@@ -155,9 +160,21 @@
     <string name="change_response_title">Muuda vastust</string>
     <string name="preferences_title">"Seaded"</string>
     <string name="preferences_general_title">Kalendrivaate seade</string>
+    <string name="preferences_month_view_portrait">Kuuvaate paigutus (püstasend)</string>
+    <string name="preferences_month_view_landscape">Kuuvaate paigutus (rõhtasend)</string>
+    <string name="preferences_theme">Teema</string>
     <string name="preferences_system_theme">Süsteemi vaikesäte</string>
+    <string name="preferences_light_theme">Hele</string>
+    <string name="preferences_dark_theme">Tume</string>
+    <string name="preferences_black_theme">Must</string>
+    <string name="preferences_color">Põhivärv</string>
+    <string name="preferences_color_pick">Põhivärv</string>
     <string name="preferences_reminder_title">Märguanded ja meeldetuletused</string>
     <string name="preferences_hide_declined_title">Peida tagasilükatud sündmused</string>
+    <string name="default_start_title">Vaikimisi vaade</string>
+    <string name="display_options">Kuvamisvalikud</string>
+    <string name="display_time">Kuva kellaaeg</string>
+    <string name="display_location">Näita asukohta</string>
     <string name="preferences_week_start_day_title">Nädala algus:</string>
     <string name="preferences_week_start_day_dialog">Nädala algus:</string>
     <string name="preferences_clear_search_history_title">Otsinguajaloo kustutamine</string>
@@ -174,7 +191,13 @@
     <string name="preferences_use_home_tz_descrip">Kuvab reisides kalendrid ja sündmuste ajad koduse aja järgi</string>
     <string name="preferences_home_tz_title">Kodune ajavöönd</string>
     <string name="preferences_show_week_num_title">Nädala numbri kuvamine</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Etar Project. Osad \u00a9 2005-<xliff:g>%1$s</xliff:g> Android Open Source Project.</string>
+    <string name="authors">Autorid</string>
+    <string name="changelog">Muudatuste logi</string>
+    <string name="license">Litsents</string>
     <string name="preferences_build_version">Järguversioon</string>
+    <string name="preferences_issues">Teavita vigadest</string>
+    <string name="source_code">Allikas</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
@@ -237,4 +260,28 @@
         <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g> sündmuse puhul</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">lõppkuupäeva muutmine</string>
+    <string name="visibility_default">Vaikimisi</string>
+    <string name="visibility_confidential">Konfidentsiaalne</string>
+    <string name="visibility_private">Privaatne</string>
+    <string name="visibility_public">Avalik</string>
+    <string name="two_days">2 päeva</string>
+    <string name="three_days">3 päeva</string>
+    <string name="four_days">4 päeva</string>
+    <string name="five_days">5 päeva</string>
+    <string name="six_days">6 päeva</string>
+    <string name="seven_days">7 päeva</string>
+    <string name="zero_minutes">0 minutit</string>
+    <string name="fifteen_minutes">15 minutit</string>
+    <string name="thirty_minutes">30 minutit</string>
+    <string name="one_hour">1 tund</string>
+    <string name="one_and_a_half_hours">1,5 tundi</string>
+    <string name="two_hours">2 tundi</string>
+    <string name="preferences_calendar_color_warning_title">Hoiatus</string>
+    <string name="preferences_calendar_color_warning_button">Saan aru</string>
+    <string name="preferences_calendar_delete_message">Kas olete kindel, et soovite seda kalendrit kustutada?</string>
+    <string name="preferences_calendar_delete_delete">Kustuta kalender</string>
+    <string name="preferences_calendar_delete_cancel">Tühista</string>
+    <string name="preferences_list_calendar_summary_sync_off">Sünkroniseerimata</string>
+    <string name="preferences_list_calendar_summary_invisible">Sündmusi ei kuvata</string>
+    <string name="preferences_list_general">Üldseaded</string>
 </resources>

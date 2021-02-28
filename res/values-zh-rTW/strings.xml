@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Google 日曆</string>
-    <string name="what_label">主題</string>
-    <string name="where_label">地點</string>
     <string name="when_label">時間</string>
-    <string name="timezone_label">時區</string>
-    <string name="attendees_label">邀請對象</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
     <string name="today_at_time_fmt">"今天，<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"明天，<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>，<xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">顯示頻率</string>
     <string name="no_title_label">(無標題)</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 分鐘</item>
@@ -70,11 +65,8 @@
     <string name="alert_title">日曆通知</string>
     <string name="event_info_title">檢視活動</string>
     <string name="event_info_title_invite">會議邀請</string>
-    <string name="edit_event_to_label">到</string>
-    <string name="edit_event_from_label">從</string>
     <string name="edit_event_all_day_label">全天</string>
     <string name="edit_event_calendar_label">日曆</string>
-    <string name="description_label">說明</string>
     <string name="presence_label">狀態顯示</string>
     <string name="privacy_label">隱私權</string>
     <string name="reminders_label">新增提醒</string>

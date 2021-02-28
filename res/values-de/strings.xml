@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalender</string>
-    <string name="what_label">Was</string>
-    <string name="where_label">Wo</string>
     <string name="when_label">Wann</string>
-    <string name="timezone_label">Zeitzone</string>
-    <string name="attendees_label">Gäste</string>
     <string name="today">Heute</string>
     <string name="tomorrow">Morgen</string>
     <string name="today_at_time_fmt">"Heute, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Morgen, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Wiederholung</string>
     <string name="no_title_label">(Kein Titel)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 Minute</item>
@@ -80,13 +75,12 @@
     <string name="rsvp_declined">"Abgesagt"</string>
     <string name="create_event_dialog_save">Speichern</string>
     <string name="alert_title">Benachrichtigungen</string>
+    <string name="foreground_notification_channel_name">Alarmsynchronisation</string>
+    <string name="foreground_notification_channel_description">Vordergrundbenachrichtigung für interne Alarmsynchronisation erforderlich.</string>
     <string name="event_info_title">Termin anzeigen</string>
     <string name="event_info_title_invite">Einladung zu einer Besprechung</string>
-    <string name="edit_event_to_label">Bis</string>
-    <string name="edit_event_from_label">Von</string>
     <string name="edit_event_all_day_label">Ganztägig</string>
     <string name="edit_event_calendar_label">Kalender</string>
-    <string name="description_label">Beschreibung</string>
     <string name="presence_label">Mein Status</string>
     <string name="privacy_label">Vertraulichkeit</string>
     <string name="reminders_label">Erinnerung hinzufügen</string>
@@ -203,6 +197,7 @@
     <string name="preferences_use_home_tz_descrip">Zeigt unterwegs Kalender-/Terminzeiten in Heimatzeitzone</string>
     <string name="preferences_home_tz_title">Heimatzeitzone</string>
     <string name="preferences_show_week_num_title">Wochennummer anzeigen</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Das Etar Projekt. Teile davon \u00a9 2005-<xliff:g>%1$s</xliff:g> Das Android Open Source Projekt.</string>
     <string name="authors">Autoren</string>
     <string name="changelog">Änderungsprotokoll</string>
     <string name="license">Lizenz</string>
@@ -296,6 +291,8 @@
     <string name="cal_import_menu_title">Termin importieren</string>
     <string name="cal_nothing_to_import">Nichts zu importieren</string>
     <string name="cal_import_error_msg">Importieren in den Kalender fehlgeschlagen</string>
+    <string name="cal_import_error_time_zone_msg">Die angegebene Zeitzone kann nicht erkannt werden: %s</string>
+    <string name="cal_import_error_date_msg">Das angegebene Datum kann nicht erkannt werden: %s</string>
     <string name="cal_pick_ics">Datei zum Importieren auswählen</string>
     <string name="show_time_no">Zeit nicht anzeigen</string>
     <string name="show_time_start">Nur Startzeit</string>
@@ -320,7 +317,6 @@
     <string name="preferences_list_calendar_summary_sync_off">Nicht synchronisiert</string>
     <string name="preferences_list_calendar_summary_invisible">Termine werden nicht angezeigt</string>
     <string name="preferences_list_general">Allgemeine Einstellungen</string>
-    <string name="preferences_list_add_remote">Online-Kalender hinzufügen (CalDAV)</string>
     <string name="preferences_list_add_offline">Offline-Kalender hinzufügen</string>
     <string name="preferences_list_add_offline_title">Offline-Kalender hinzufügen</string>
     <string name="preferences_list_add_offline_message">Offline-Kalender werden NICHT mit einem Cloud-Service synchronisiert und sind nur auf Ihrem Telefon verfügbar.</string>

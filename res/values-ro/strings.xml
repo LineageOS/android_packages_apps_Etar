@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendar</string>
-    <string name="what_label">Ce</string>
-    <string name="where_label">Unde</string>
     <string name="when_label">Când</string>
-    <string name="timezone_label">Fus orar</string>
-    <string name="attendees_label">Invitaţi</string>
     <string name="today">Azi</string>
     <string name="tomorrow">Mâine</string>
     <string name="today_at_time_fmt">"Astăzi la <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Mâine la <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Repetiţie</string>
     <string name="no_title_label">(Fără titlu)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minut</item>
@@ -89,11 +84,8 @@
     <string name="foreground_notification_channel_description">Este necesară o notificare în prim-plan pentru sincronizarea internă a alertelor.</string>
     <string name="event_info_title">Vizualizaţi evenimentul</string>
     <string name="event_info_title_invite">Invitaţie de întâlnire</string>
-    <string name="edit_event_to_label">Pentru</string>
-    <string name="edit_event_from_label">De la</string>
     <string name="edit_event_all_day_label">Toată ziua</string>
     <string name="edit_event_calendar_label">Calendar</string>
-    <string name="description_label">Descriere</string>
     <string name="presence_label">Doresc să fiu afişat(ă) ca</string>
     <string name="privacy_label">Confidenţialitate</string>
     <string name="reminders_label">Adăugaţi memento</string>
@@ -186,6 +178,7 @@
     <string name="preferences_black_theme">Negru</string>
     <string name="preferences_color">Culoare primară</string>
     <string name="preferences_color_pick">Culoare primară</string>
+    <string name="preferences_pure_black_night_mode">Mod negru noapte pur</string>
     <string name="preferences_reminder_title">Notificări și mementouri</string>
     <string name="preferences_hide_declined_title">Ascundeţi evenimentele refuzate</string>
     <string name="default_start_title">Vizualizare implicită</string>
@@ -348,7 +341,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Nu este sincronizat</string>
     <string name="preferences_list_calendar_summary_invisible">Evenimentele nu sunt afişate</string>
     <string name="preferences_list_general">Setări generale</string>
-    <string name="preferences_list_add_remote">Adăugați calendar extern (CalDAV)</string>
+    <string name="preferences_list_add_remote">Adaugă Calendar CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Adaugă calendar EteSync</string>
     <string name="preferences_list_add_offline">Adăugați un calendar offline</string>
     <string name="preferences_list_add_offline_title">Adăugați un calendar offline</string>
     <string name="preferences_list_add_offline_error_empty">Introduceți numele calendarului!</string>

@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Agenda</string>
-    <string name="what_label">Wat</string>
-    <string name="where_label">Waar</string>
     <string name="when_label">Wanneer</string>
-    <string name="timezone_label">Tijdzone</string>
-    <string name="attendees_label">Gasten</string>
     <string name="today">Vandaag</string>
     <string name="tomorrow">Morgen</string>
     <string name="today_at_time_fmt">"Vandaag om <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Morgen om <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Herhaling</string>
     <string name="no_title_label">(Geen titel)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuut</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Agenda-herinneringen</string>
     <string name="event_info_title">Afspraak weergeven</string>
     <string name="event_info_title_invite">Uitnodiging voor vergadering</string>
-    <string name="edit_event_to_label">Tot</string>
-    <string name="edit_event_from_label">Van</string>
     <string name="edit_event_all_day_label">De hele dag</string>
     <string name="edit_event_calendar_label">Agenda</string>
-    <string name="description_label">Beschrijving</string>
     <string name="presence_label">Mij weergeven als</string>
     <string name="privacy_label">Privacy</string>
     <string name="reminders_label">Herinnering toevoegen</string>

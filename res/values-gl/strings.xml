@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendario</string>
-    <string name="what_label">Que</string>
-    <string name="where_label">Onde</string>
     <string name="when_label">Cando</string>
-    <string name="timezone_label">Fuso horario</string>
-    <string name="attendees_label">Convidados</string>
     <string name="today">Hoxe</string>
     <string name="tomorrow">Mañá</string>
     <string name="today_at_time_fmt">"Hoxe ás <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Mañá ás <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Repetición</string>
     <string name="no_title_label">(Sen título)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuto</item>
@@ -84,11 +79,8 @@
     <string name="foreground_notification_channel_description">Requírese dunha notificación en primeiro plano para a sincronización de alertas internas</string>
     <string name="event_info_title">Ver evento</string>
     <string name="event_info_title_invite">Invitación de reunión</string>
-    <string name="edit_event_to_label">Ata o</string>
-    <string name="edit_event_from_label">Desde o</string>
     <string name="edit_event_all_day_label">Todo o día</string>
     <string name="edit_event_calendar_label">Calendario</string>
-    <string name="description_label">Descrición</string>
     <string name="presence_label">Mostrarme como</string>
     <string name="privacy_label">Privacidade</string>
     <string name="reminders_label">Engadir recordatorio</string>
@@ -178,6 +170,7 @@
     <string name="preferences_black_theme">Negro</string>
     <string name="preferences_color">Cor primaria</string>
     <string name="preferences_color_pick">Cor primaria</string>
+    <string name="preferences_pure_black_night_mode">Modo noite escura pura</string>
     <string name="preferences_reminder_title">Notificacións e recordatorios</string>
     <string name="preferences_hide_declined_title">Ocultar eventos rexeitados</string>
     <string name="default_start_title">Vista predeterminada</string>
@@ -332,7 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Non sincronizado</string>
     <string name="preferences_list_calendar_summary_invisible">Os eventos non se amosan</string>
     <string name="preferences_list_general">Configuración xeral</string>
-    <string name="preferences_list_add_remote">Engadir calendario remoto (CalDAV)</string>
+    <string name="preferences_list_add_remote">Engadir un calendario CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Engadir un calendario EteSync</string>
     <string name="preferences_list_add_offline">Agregar calendario sen conexión</string>
     <string name="preferences_list_add_offline_title">Agregar calendario sen conexión</string>
     <string name="preferences_list_add_offline_error_empty">Inserir o nome do calendario!</string>

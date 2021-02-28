@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">캘린더</string>
-    <string name="what_label">내용</string>
-    <string name="where_label">장소</string>
     <string name="when_label">일시</string>
-    <string name="timezone_label">시간대</string>
-    <string name="attendees_label">참석자</string>
     <string name="today">오늘</string>
     <string name="tomorrow">내일</string>
     <string name="today_at_time_fmt">"오늘 <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"내일 <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">반복</string>
     <string name="no_title_label">(제목 없음)</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>분</item>
@@ -54,7 +49,7 @@
     <string name="event_delete">"일정 삭제"</string>
     <string name="share_label">공유</string>
     <string name="goto_today">"오늘"</string>
-    <string name="goto_date">\u2026 으로 이동</string>
+    <string name="goto_date">특정 날짜로 이동\u2026</string>
     <string name="menu_preferences">"설정"</string>
     <string name="search">"검색"</string>
     <string name="hide_controls">"컨트롤 숨기기"</string>
@@ -79,11 +74,8 @@
     <string name="foreground_notification_channel_description">내부 알림 동기화에 포그라운드 알림이 필요합니다.</string>
     <string name="event_info_title">일정 보기</string>
     <string name="event_info_title_invite">회의 초대</string>
-    <string name="edit_event_to_label">종료:</string>
-    <string name="edit_event_from_label">시작:</string>
     <string name="edit_event_all_day_label">종일</string>
     <string name="edit_event_calendar_label">캘린더</string>
-    <string name="description_label">일정 설명</string>
     <string name="presence_label">내 상태</string>
     <string name="privacy_label">공개 설정</string>
     <string name="reminders_label">알림 추가</string>
@@ -170,10 +162,11 @@
     <string name="preferences_black_theme">검정색</string>
     <string name="preferences_color">기본 색상</string>
     <string name="preferences_color_pick">기본 색상</string>
+    <string name="preferences_pure_black_night_mode">야간 모드에 검정색 사용</string>
     <string name="preferences_reminder_title">알림</string>
     <string name="preferences_hide_declined_title">거부한 일정 숨기기</string>
     <string name="default_start_title">기본 보기</string>
-    <string name="display_options">옵션 표시</string>
+    <string name="display_options">표시 옵션</string>
     <string name="display_time">시간 표시</string>
     <string name="display_location">위치 표시</string>
     <string name="maximum_number_of_lines">일정 최대 줄 수</string>
@@ -199,6 +192,11 @@
     <string name="preferences_show_week_num_title">몇째 주인지 표시</string>
     <string name="preferences_alerts_custom_snooze_delay_title">알림 일시 중지할 시간 묻기</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">알림 일시 중지할 시간 항상 묻기</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">알림을 일시 중지할 시간으로 항상 기본값 사용</string>
+    <string name="snooze_delay_dialog_title">일시 중지할 시간 설정</string>
+    <string name="preferences_default_snooze_delay_title">기본 알림 일시 중지 시간</string>
+    <string name="preferences_default_snooze_delay_dialog">기본 알림 일시 중지 지연 시간</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">제작자</string>
     <string name="changelog">변경 내역</string>
     <string name="license">라이선스</string>
@@ -259,8 +257,10 @@
         <item quantity="other">반복 횟수 <xliff:g id="EVENT_COUNT">%d</xliff:g>번</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">종료일 변경</string>
+    <string name="user_rejected_calendar_write_permission">캘린더는 정상 작동을 위해 [일정 읽고 쓰기] 권한이 필요합니다. 다시 시도해 주세요.</string>
     <string name="calendar_permission_not_granted">필요한 권한이 거부되었습니다. 일정을 편집하려면 설정 앱에서 권한을 허용해 주세요.</string>
     <string name="visibility_default">기본값</string>
+    <string name="visibility_confidential">비밀</string>
     <string name="visibility_private">비공개</string>
     <string name="visibility_public">공개</string>
     <string name="two_days">2일</string>
@@ -275,8 +275,10 @@
     <string name="one_hour">1시간</string>
     <string name="one_and_a_half_hours">1.5시간</string>
     <string name="two_hours">2시간</string>
+    <string name="error_generating_ics">일정을 공유하는 중 문제가 발생했습니다</string>
     <string name="cal_share_intent_title">일정 보내기:</string>
     <string name="cal_export_event_sdcard_title">SD 카드로 내보내기</string>
+    <string name="cal_export_succ_msg">일정이 성공적으로 내보내짐: %1$s</string>
     <string name="cal_import_menu_title">일정 가져오기</string>
     <string name="cal_nothing_to_import">가져올 일정 없음</string>
     <string name="cal_import_error_msg">캘린더 가져오기 실패</string>
@@ -290,6 +292,7 @@
     <string name="preferences_calendar_no_display_name">이름 없는 캘린더</string>
     <string name="preferences_calendar_account">%1$s 계정</string>
     <string name="preferences_calendar_account_local">오프라인 캘린더</string>
+    <string name="preferences_calendar_configure_account">%1$s 의 캘린더 구성</string>
     <string name="preferences_calendar_number_of_events">%1$d 개의 일정</string>
     <string name="preferences_calendar_delete">캘린더 삭제</string>
     <string name="preferences_calendar_display_name">이름 바꾸기</string>
@@ -306,7 +309,8 @@
     <string name="preferences_list_calendar_summary_sync_off">동기화되지 않음</string>
     <string name="preferences_list_calendar_summary_invisible">이벤트가 표시되지 않음</string>
     <string name="preferences_list_general">일반 설정</string>
-    <string name="preferences_list_add_remote">원격 캘린더 추가 (CalDAV)</string>
+    <string name="preferences_list_add_remote">CalDAV 캘린더 추가</string>
+    <string name="preferences_list_add_remote_etesync">EteSync 캘린더 추가</string>
     <string name="preferences_list_add_offline">오프라인 캘린더 추가</string>
     <string name="preferences_list_add_offline_title">오프라인 캘린더 추가</string>
     <string name="preferences_list_add_offline_error_empty">캘린더 이름을 입력하세요!</string>

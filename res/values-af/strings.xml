@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalender</string>
-    <string name="what_label">Wat</string>
-    <string name="where_label">Waar</string>
     <string name="when_label">Wanneer</string>
-    <string name="timezone_label">Tydsone</string>
-    <string name="attendees_label">Gaste</string>
     <string name="today">Vandag</string>
     <string name="tomorrow">Môre</string>
     <string name="today_at_time_fmt">"Vandag om <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Môre om <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Herhaling</string>
     <string name="no_title_label">(Titelloos)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuut</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Kalender-kennisgewings</string>
     <string name="event_info_title">Bekyk gebeurtenis</string>
     <string name="event_info_title_invite">Uitnodiging</string>
-    <string name="edit_event_to_label">Tot</string>
-    <string name="edit_event_from_label">Van</string>
     <string name="edit_event_all_day_label">Heeldag</string>
     <string name="edit_event_calendar_label">Kalender</string>
-    <string name="description_label">Beskrywing</string>
     <string name="presence_label">Wys my as</string>
     <string name="privacy_label">Privaatheid</string>
     <string name="reminders_label">Voeg herinnering by</string>

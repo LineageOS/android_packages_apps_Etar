@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">કેલેન્ડર</string>
-    <string name="what_label">શું</string>
-    <string name="where_label">ક્યાં</string>
     <string name="when_label">ક્યારે</string>
-    <string name="timezone_label">સમય ઝોન</string>
-    <string name="attendees_label">અતિથિઓ</string>
     <string name="today">આજે</string>
     <string name="tomorrow">આવતીકાલે</string>
     <string name="today_at_time_fmt">"<xliff:g id="TIME_INTERVAL">%s</xliff:g> વાગ્યે આજે"</string>
     <string name="tomorrow_at_time_fmt">"<xliff:g id="TIME_INTERVAL">%s</xliff:g> વાગ્યે આવતીકાલે"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">પુનરાવર્તન</string>
     <string name="no_title_label">(શીર્ષક નહીં)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 મિનિટ</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">કેલેન્ડર સૂચનાઓ</string>
     <string name="event_info_title">પ્રસંગ જુઓ</string>
     <string name="event_info_title_invite">મીટિંગનું આમંત્રણ</string>
-    <string name="edit_event_to_label">પ્રતિ</string>
-    <string name="edit_event_from_label">અહીંથી</string>
     <string name="edit_event_all_day_label">આખો દિવસ</string>
     <string name="edit_event_calendar_label">કેલેન્ડર</string>
-    <string name="description_label">વર્ણન</string>
     <string name="presence_label">મને આ રીતે બતાવો</string>
     <string name="privacy_label">ગોપનીયતા</string>
     <string name="reminders_label">રિમાઇન્ડર ઉમેરો</string>

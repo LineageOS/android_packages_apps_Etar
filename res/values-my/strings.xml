@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">ပြက္ခဒိန်</string>
-    <string name="what_label">အမည်</string>
-    <string name="where_label">နေရာ</string>
     <string name="when_label">အချိန်</string>
-    <string name="timezone_label">အချိန် ဇုန်</string>
-    <string name="attendees_label">ဧည့်သည်များ</string>
     <string name="today">ယနေ့</string>
     <string name="tomorrow">နက်ဖြန်</string>
     <string name="today_at_time_fmt">"ယနေ့ <xliff:g id="TIME_INTERVAL">%s</xliff:g> တွင်"</string>
     <string name="tomorrow_at_time_fmt">"နက်ဖြန် <xliff:g id="TIME_INTERVAL">%s</xliff:g>တွင်"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>၊ <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">ထပ်ဖြစ်မှု</string>
     <string name="no_title_label">(ခေါင်းစဉ်မဲ့)</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> မိနစ်</item>
@@ -70,11 +65,8 @@
     <string name="alert_title">ပြက္ခဒိန် အကြောင်းကြားချက်များ</string>
     <string name="event_info_title">ဖြစ်ရပ် ကြည့်ရန်</string>
     <string name="event_info_title_invite">တွေ့ဆုံရန် ဖိတ်ကြားချက်</string>
-    <string name="edit_event_to_label">သို့​</string>
-    <string name="edit_event_from_label">မှ</string>
     <string name="edit_event_all_day_label">တစ်နေ့လုံး</string>
     <string name="edit_event_calendar_label">ပြက္ခဒိန်</string>
-    <string name="description_label">ဖော်ပြချက်</string>
     <string name="presence_label">ကျွန်ုပ်ကို အဖြစ် ပြရန်</string>
     <string name="privacy_label">ကိုယ်ရေး</string>
     <string name="reminders_label">သတိပေးချက် ထည့်ရန်</string>

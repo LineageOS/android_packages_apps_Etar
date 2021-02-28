@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalenner</string>
-    <string name="what_label">Wat</string>
-    <string name="where_label">Wou</string>
     <string name="when_label">Wéini</string>
-    <string name="timezone_label">Zäitzon</string>
-    <string name="attendees_label">Gäscht</string>
     <string name="today">Haut</string>
     <string name="tomorrow">Muer</string>
     <string name="today_at_time_fmt">"Haut um <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Muer um <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Widderhuelung</string>
     <string name="no_title_label">(Keen Titel)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 Minutt</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Notifikatioune vum Kalenner</string>
     <string name="event_info_title">Rendezvous ukucken</string>
     <string name="event_info_title_invite">Aluedung zu engem Meeting</string>
-    <string name="edit_event_to_label">Bis</string>
-    <string name="edit_event_from_label">Vun</string>
     <string name="edit_event_all_day_label">Ganzen Dag</string>
     <string name="edit_event_calendar_label">Kalenner</string>
-    <string name="description_label">Beschreiwung</string>
     <string name="presence_label">Weis mech als</string>
     <string name="privacy_label">Privatsphär</string>
     <string name="reminders_label">Erënnerung dobäisetzen</string>

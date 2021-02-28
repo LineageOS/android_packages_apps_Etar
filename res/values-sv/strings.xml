@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalender</string>
-    <string name="what_label">Vad</string>
-    <string name="where_label">Var</string>
     <string name="when_label">När</string>
-    <string name="timezone_label">Tidszon</string>
-    <string name="attendees_label">Gäster</string>
     <string name="today">Idag</string>
     <string name="tomorrow">Imorgon</string>
     <string name="today_at_time_fmt">"Idag kl. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Imorgon kl. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Upprepning</string>
     <string name="no_title_label">(Ingen titel)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minut</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Kalenderaviseringar</string>
     <string name="event_info_title">Visa händelse</string>
     <string name="event_info_title_invite">Inbjudan till möte</string>
-    <string name="edit_event_to_label">Till</string>
-    <string name="edit_event_from_label">Från</string>
     <string name="edit_event_all_day_label">Hela dagen</string>
     <string name="edit_event_calendar_label">Kalender</string>
-    <string name="description_label">Beskrivning</string>
     <string name="presence_label">Visa mig som</string>
     <string name="privacy_label">Sekretess</string>
     <string name="reminders_label">Lägg till påminnelse</string>

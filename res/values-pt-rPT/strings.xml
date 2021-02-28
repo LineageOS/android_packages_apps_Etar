@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendário</string>
-    <string name="what_label">O quê</string>
-    <string name="where_label">Onde</string>
     <string name="when_label">Quando</string>
-    <string name="timezone_label">Fuso horário</string>
-    <string name="attendees_label">Convidados</string>
     <string name="today">Hoje</string>
     <string name="tomorrow">Amanhã</string>
     <string name="today_at_time_fmt">"Hoje às <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Amanhã às <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Repetição</string>
     <string name="no_title_label">(Sem título)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuto</item>
@@ -84,11 +79,8 @@
     <string name="foreground_notification_channel_description">Notificação em primeiro plano necessária para sincronização de alerta interno.</string>
     <string name="event_info_title">Visualizar evento</string>
     <string name="event_info_title_invite">Convite para reunião</string>
-    <string name="edit_event_to_label">Até</string>
-    <string name="edit_event_from_label">De</string>
     <string name="edit_event_all_day_label">Todo o dia</string>
     <string name="edit_event_calendar_label">Calendário</string>
-    <string name="description_label">Descrição</string>
     <string name="presence_label">Mostrar-me como</string>
     <string name="privacy_label">Privacidade</string>
     <string name="reminders_label">Adicionar lembrete</string>
@@ -178,6 +170,7 @@
     <string name="preferences_black_theme">Preto</string>
     <string name="preferences_color">Cor principal</string>
     <string name="preferences_color_pick">Cor principal</string>
+    <string name="preferences_pure_black_night_mode">Modo de noite com preto puro</string>
     <string name="preferences_reminder_title">Notificações e lembretes</string>
     <string name="preferences_hide_declined_title">Ocultar eventos recusados</string>
     <string name="default_start_title">Vista padrão</string>
@@ -211,6 +204,7 @@
     <string name="snooze_delay_dialog_title">Definir o tempo para adiamento</string>
     <string name="preferences_default_snooze_delay_title">Tempo para adiamento predefinido</string>
     <string name="preferences_default_snooze_delay_dialog">Tempo para adiamento predefinido</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Autores</string>
     <string name="changelog">Lista de alterações</string>
     <string name="license">Licença</string>
@@ -331,7 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Não sincronizado</string>
     <string name="preferences_list_calendar_summary_invisible">Os eventos não são apresentados</string>
     <string name="preferences_list_general">Definições gerais</string>
-    <string name="preferences_list_add_remote">Adicionar calendário remoto (CalDAV)</string>
+    <string name="preferences_list_add_remote">Adicionar calendário CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Adicionar calendário EteSync</string>
     <string name="preferences_list_add_offline">Adicionar calendário local</string>
     <string name="preferences_list_add_offline_title">Adicionar calendário local</string>
     <string name="preferences_list_add_offline_error_empty">Introduza um nome para o calendário!</string>

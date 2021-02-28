@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Agenda</string>
-    <string name="what_label">Quoi</string>
-    <string name="where_label">Où</string>
     <string name="when_label">Quand</string>
-    <string name="timezone_label">Fuseau horaire</string>
-    <string name="attendees_label">Invités</string>
     <string name="today">Aujourd’hui</string>
     <string name="tomorrow">Demain</string>
     <string name="today_at_time_fmt">"Aujourd'hui, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Demain, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Répétition</string>
     <string name="no_title_label">(Sans titre)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minute</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Notifications de l\'agenda</string>
     <string name="event_info_title">Afficher l\'événement</string>
     <string name="event_info_title_invite">Invitation à une réunion</string>
-    <string name="edit_event_to_label">À</string>
-    <string name="edit_event_from_label">De</string>
     <string name="edit_event_all_day_label">Toute la journée</string>
     <string name="edit_event_calendar_label">Agenda</string>
-    <string name="description_label">Description</string>
     <string name="presence_label">Ma disponibilité</string>
     <string name="privacy_label">Confidentialité</string>
     <string name="reminders_label">Ajouter un rappel</string>

@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">கேலெண்டர்</string>
-    <string name="what_label">என்ன</string>
-    <string name="where_label">எங்கு</string>
     <string name="when_label">எப்போது</string>
-    <string name="timezone_label">நேர மண்டலம்</string>
-    <string name="attendees_label">விருந்தினர்கள்</string>
     <string name="today">இன்று</string>
     <string name="tomorrow">நாளை</string>
     <string name="today_at_time_fmt">"இன்று <xliff:g id="TIME_INTERVAL">%s</xliff:g> மணிக்கு"</string>
     <string name="tomorrow_at_time_fmt">"நாளை <xliff:g id="TIME_INTERVAL">%s</xliff:g> க்கு"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">நினைவுபடுத்துதல்</string>
     <string name="no_title_label">(தலைப்பு இல்லை)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 நிமிடம்</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">கேலெண்டர் அறிவிப்புகள்</string>
     <string name="event_info_title">நிகழ்வைக் காட்டு</string>
     <string name="event_info_title_invite">சந்திப்பிற்கான அழைப்பு</string>
-    <string name="edit_event_to_label">வரை</string>
-    <string name="edit_event_from_label">இலிருந்து</string>
     <string name="edit_event_all_day_label">முழு நாளும்</string>
     <string name="edit_event_calendar_label">கேலெண்டர்</string>
-    <string name="description_label">விளக்கம்</string>
     <string name="presence_label">என்னை இவ்வாறாகக் காட்டு</string>
     <string name="privacy_label">தனியுரிமை</string>
     <string name="reminders_label">நினைவூட்டலைச் சேர்</string>

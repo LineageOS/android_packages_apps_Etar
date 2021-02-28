@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Takvim</string>
-    <string name="what_label">Başlık:</string>
-    <string name="where_label">Yer</string>
     <string name="when_label">Zaman:</string>
-    <string name="timezone_label">Saat dilimi</string>
-    <string name="attendees_label">Davetliler</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Yarın</string>
     <string name="today_at_time_fmt">"Bugün şu saatler arasında: <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Yarın şu saatler arasında: <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Tekrar</string>
     <string name="no_title_label">(Başlıksız)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 dakika</item>
@@ -84,11 +79,8 @@
     <string name="foreground_notification_channel_description">Dahili uyarı senkronizasyonu için ön plan bildirimi gerekir.</string>
     <string name="event_info_title">Etkinliği görüntüle</string>
     <string name="event_info_title_invite">Toplantı davetiyesi</string>
-    <string name="edit_event_to_label">Bitiş:</string>
-    <string name="edit_event_from_label">Başlangıç:</string>
     <string name="edit_event_all_day_label">Tüm gün</string>
     <string name="edit_event_calendar_label">Takvim</string>
-    <string name="description_label">Açıklama</string>
     <string name="presence_label">Durumumu şu şekilde göster:</string>
     <string name="privacy_label">Gizlilik</string>
     <string name="reminders_label">Hatırlatıcı ekle</string>
@@ -178,6 +170,7 @@
     <string name="preferences_black_theme">Siyah</string>
     <string name="preferences_color">Ana renk</string>
     <string name="preferences_color_pick">Ana renk</string>
+    <string name="preferences_pure_black_night_mode">Saf siyah gece modu</string>
     <string name="preferences_reminder_title">Bildirimler ve hatırlatıcılar</string>
     <string name="preferences_hide_declined_title">Reddedilmiş etkin. gizle</string>
     <string name="default_start_title">Varsayılan görünüm</string>
@@ -332,7 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Senkronize değil</string>
     <string name="preferences_list_calendar_summary_invisible">Etkinlikler görüntülenmiyor</string>
     <string name="preferences_list_general">Genel ayarlar</string>
-    <string name="preferences_list_add_remote">Uzak takvim ekle (CalDAV)</string>
+    <string name="preferences_list_add_remote">CalDAV takvimi ekle</string>
+    <string name="preferences_list_add_remote_etesync">EteSync takvimi ekle</string>
     <string name="preferences_list_add_offline">Çevrimdışı takvim ekle</string>
     <string name="preferences_list_add_offline_title">Çevrimdışı takvim ekle</string>
     <string name="preferences_list_add_offline_error_empty">Bir takvim adı girin!</string>

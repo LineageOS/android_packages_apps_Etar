@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Ikhalenda</string>
-    <string name="what_label">Ini</string>
-    <string name="where_label">Kuphi</string>
     <string name="when_label">Nini</string>
-    <string name="timezone_label">Indawo yesikhathi</string>
-    <string name="attendees_label">Abavakashi</string>
     <string name="today">Namhlanje</string>
     <string name="tomorrow">Kusasa</string>
     <string name="today_at_time_fmt">"Namuhla ngo-<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Kusasa ngo-<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Impinda</string>
     <string name="no_title_label">(Asikho isihloko)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 iminithi</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Izaziso zekhalenda</string>
     <string name="event_info_title">Buka umcimbi</string>
     <string name="event_info_title_invite">Isimemo somhlangano</string>
-    <string name="edit_event_to_label">Kuya ku</string>
-    <string name="edit_event_from_label">Kusuka</string>
     <string name="edit_event_all_day_label">Usuku Lonke</string>
     <string name="edit_event_calendar_label">Ikhalenda</string>
-    <string name="description_label">Incazelo</string>
     <string name="presence_label">Ngibonise njengo</string>
     <string name="privacy_label">Okwangasese</string>
     <string name="reminders_label">Faka isikhumbuzi</string>

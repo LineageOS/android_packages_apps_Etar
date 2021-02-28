@@ -15,10 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalendaro</string>
-    <string name="where_label">Kie</string>
     <string name="when_label">Kiam</string>
-    <string name="timezone_label">Horzono</string>
-    <string name="attendees_label">Gastoj</string>
     <string name="today">Hodiaŭ</string>
     <string name="tomorrow">Morgaŭ</string>
     <plurals name="Nminutes">
@@ -47,7 +44,6 @@
     <string name="hint_attendees">"Gastoj"</string>
     <string name="create_event_dialog_save">Konservi</string>
     <string name="edit_event_calendar_label">Kalendaro</string>
-    <string name="description_label">Priskribo</string>
     <string name="privacy_label">Privateco</string>
     <string name="view_event_calendar_label">Kalendaro:</string>
     <string name="response_yes">Jes</string>

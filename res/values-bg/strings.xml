@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Календар</string>
-    <string name="what_label">Какво</string>
-    <string name="where_label">Къде</string>
     <string name="when_label">Кога</string>
-    <string name="timezone_label">Часова зона</string>
-    <string name="attendees_label">Гости</string>
     <string name="today">Днес</string>
     <string name="tomorrow">Утре</string>
     <string name="today_at_time_fmt">"Днес от <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Утре от <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Повторение</string>
     <string name="no_title_label">(Без заглавие)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 минута</item>
@@ -43,6 +38,10 @@
         <item quantity="one">1 ден</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> дни</item>
     </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Седмица <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Седмица <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
     <string name="calendar_refresh">"Опресни"</string>
     <string name="show_day_view">"Показване на деня"</string>
     <string name="agenda_view">"График"</string>
@@ -55,10 +54,12 @@
     <string name="event_delete">"Изтриване на събитие"</string>
     <string name="share_label">Споделяне</string>
     <string name="goto_today">"Днес"</string>
+    <string name="goto_date">Отиди на\u2026</string>
     <string name="menu_preferences">"Настройки"</string>
     <string name="search">"Търсене"</string>
     <string name="hide_controls">"Контроли: Скриване"</string>
     <string name="show_controls">"Контроли: Показване"</string>
+    <string name="view_settings">"Настройки на Преглед"</string>
     <string name="select_synced_calendars_button">Календари за синхронизиране</string>
     <string name="hint_what">"Име на събитието"</string>
     <string name="hint_where">"Местоположение"</string>
@@ -74,13 +75,12 @@
     <string name="rsvp_declined">"Отговорихте с „не“."</string>
     <string name="create_event_dialog_save">Запазване</string>
     <string name="alert_title">Известия от Календар</string>
+    <string name="foreground_notification_channel_name">Синхронизация на известия</string>
+    <string name="foreground_notification_channel_description">Изисква се нотификация на преден план за вътрешна синхронизация на известието.</string>
     <string name="event_info_title">Преглед на събитие</string>
     <string name="event_info_title_invite">Покана за среща</string>
-    <string name="edit_event_to_label">До</string>
-    <string name="edit_event_from_label">От</string>
     <string name="edit_event_all_day_label">Цял ден</string>
     <string name="edit_event_calendar_label">Календар</string>
-    <string name="description_label">Описание</string>
     <string name="presence_label">Показване като</string>
     <string name="privacy_label">Поверителност</string>
     <string name="reminders_label">Добавяне: Напомняне</string>
@@ -161,17 +161,29 @@
     <string name="change_response_title">Промяна на отговор</string>
     <string name="preferences_title">"Настройки"</string>
     <string name="preferences_general_title">Настройки за преглед на календар</string>
+    <string name="preferences_month_view_portrait">Оформление на месечен изглед (Портрет)</string>
+    <string name="preferences_month_view_landscape">Оформление на месечен изглед (Пейзаж)</string>
     <string name="preferences_theme">Тема</string>
+    <string name="preferences_system_theme">По подразбиране</string>
     <string name="preferences_light_theme">Светла</string>
     <string name="preferences_dark_theme">Тъмна</string>
     <string name="preferences_black_theme">Черна</string>
     <string name="preferences_color">Основен цвят</string>
     <string name="preferences_color_pick">Основен цвят</string>
+    <string name="preferences_pure_black_night_mode">Чисто черно в нощен режим</string>
     <string name="preferences_reminder_title">Известия и напомняния</string>
     <string name="preferences_hide_declined_title">Скриване на отказани събития</string>
     <string name="default_start_title">Изглед по подразбиране</string>
+    <string name="display_options">Настройки на екрана</string>
+    <string name="display_time">Време за показване</string>
+    <string name="display_location">Покажи местоположение</string>
+    <string name="maximum_number_of_lines">Макс количество на редове в събитие</string>
+    <string name="default_start_last">Последно използван</string>
     <string name="preferences_week_start_day_title">Седмицата започва от</string>
     <string name="preferences_week_start_day_dialog">Седмицата започва от</string>
+    <string name="preferences_days_per_week_title">Дни от седмицата</string>
+    <string name="preferences_days_per_week_dialog">Дни от седмицата</string>
+    <string name="preferences_default_event_duration_title">Продължителност на събитието по подразбиране</string>
     <string name="preferences_clear_search_history_title">Изчистване на историята на търсенията</string>
     <string name="preferences_clear_search_history_summary">Премахване на всички извършени от вас търсения</string>
     <string name="search_history_cleared">Историята на търсенията е изчистена.</string>
@@ -186,7 +198,19 @@
     <string name="preferences_use_home_tz_descrip">Показва календарите и събитията с часовата ви зона у дома, когато сте на път</string>
     <string name="preferences_home_tz_title">Часова зона у дома</string>
     <string name="preferences_show_week_num_title">Показване на номера на седмицата</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Повторно напомняне</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Попитай за периода между напомнянията</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Винаги ползвай периода между напомнянията по подразбиране</string>
+    <string name="snooze_delay_dialog_title">Задай отлагане на напомнянето</string>
+    <string name="preferences_default_snooze_delay_title">Време на отлагане на напомнянето по подразбиране</string>
+    <string name="preferences_default_snooze_delay_dialog">Отлагане на напомнянето по подразбиране</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
+    <string name="authors">Автори</string>
+    <string name="changelog">Списък с промените</string>
+    <string name="license">Лиценз</string>
     <string name="preferences_build_version">Версия</string>
+    <string name="preferences_issues">Сигнал за проблем</string>
+    <string name="source_code">Източник</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
@@ -249,6 +273,11 @@
         <item quantity="other">За <xliff:g id="EVENT_COUNT">%d</xliff:g> събития</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">промяна на крайната дата</string>
+    <string name="user_rejected_calendar_write_permission">Календарът изисква разрешения за четене и запис, за да работи правилно. Моля, опитайте отново.</string>
+    <string name="calendar_permission_not_granted">Изискваните разрешения бяха отказани. Активирайте ги от Настройки, за да можете да редактирате събития</string>
+    <string name="visibility_default">По подразбиране</string>
+    <string name="visibility_confidential">Поверителна</string>
+    <string name="visibility_private">Лична</string>
     <string name="visibility_public">Публично</string>
     <string name="two_days">2 дни</string>
     <string name="three_days">3 дни</string>
@@ -262,7 +291,49 @@
     <string name="one_hour">1 час</string>
     <string name="one_and_a_half_hours">1,5 часа</string>
     <string name="two_hours">2 часа</string>
+    <string name="error_generating_ics">Възникнаха проблеми при споделянето на събитие</string>
+    <string name="cal_share_intent_title">Изпрати събитие на:</string>
+    <string name="cal_export_event_sdcard_title">Експортиране в картата памет</string>
+    <string name="cal_export_succ_msg">Събитието е експортирано успешно: %1$s</string>
+    <string name="cal_import_menu_title">Импортиране на събитие</string>
+    <string name="cal_nothing_to_import">Няма нищо за импортиране</string>
+    <string name="cal_import_error_msg">Импортирането на календара е неуспешно</string>
+    <string name="cal_import_error_time_zone_msg">Не може да се определи часовата зона: %s</string>
+    <string name="cal_import_error_date_msg">Не може да се определи текущата дата: %s</string>
+    <string name="cal_pick_ics">Изберете файл за импортиране</string>
+    <string name="show_time_no">Не показвай времето</string>
+    <string name="show_time_start">Само начален час</string>
+    <string name="show_time_start_end">Начален и краен час</string>
+    <string name="show_time_start_end_below">Начален и краен час под събитието</string>
+    <string name="preferences_calendar_no_display_name">Безименен календар</string>
+    <string name="preferences_calendar_account">%1$s акаунт</string>
+    <string name="preferences_calendar_account_local">Офлайн календар</string>
+    <string name="preferences_calendar_configure_account">Настройване на календара в %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d събития</string>
+    <string name="preferences_calendar_delete">Изтрий календара</string>
+    <string name="preferences_calendar_display_name">Промяна на името</string>
+    <string name="preferences_calendar_info_category">Информация за календара</string>
+    <string name="preferences_calendar_color">Цвят</string>
+    <string name="preferences_calendar_visible">Покажи събития</string>
+    <string name="preferences_calendar_synchronize">Синхронизиране на този календар</string>
+    <string name="preferences_calendar_color_warning_title">Предупреждение</string>
+    <string name="preferences_calendar_color_warning_message">Смяната на цвета може да се отмени, когато календарът се синхронизира отново. \n\n Във DAVx⁵ „Управление на цветовете на календара“ трябва да се деактивира, за да се предотврати това.</string>
+    <string name="preferences_calendar_color_warning_button">Разбрах</string>
+    <string name="preferences_calendar_delete_message">Наистина ли искате да изтриете този календар?</string>
+    <string name="preferences_calendar_delete_delete">Изтрий календара</string>
+    <string name="preferences_calendar_delete_cancel">Отказ</string>
+    <string name="preferences_list_calendar_summary_sync_off">Не са синхронизирани</string>
+    <string name="preferences_list_calendar_summary_invisible">Събитията не се показват</string>
+    <string name="preferences_list_general">Общи настройки</string>
+    <string name="preferences_list_add_remote">Добави CalDAV календар</string>
+    <string name="preferences_list_add_remote_etesync">Добави EteSync календар</string>
+    <string name="preferences_list_add_offline">Добави офлайн календар</string>
+    <string name="preferences_list_add_offline_title">Добави офлайн календар</string>
+    <string name="preferences_list_add_offline_error_empty">Въведи име на календара!</string>
+    <string name="preferences_list_add_offline_message">Офлайн календарите НЕ се синхронизират с облачната услуга и са достъпни само на вашия телефон.</string>
+    <string name="preferences_list_add_offline_button">Добави календар</string>
     <string name="preferences_list_add_offline_name">Име</string>
     <string name="preferences_list_add_offline_cancel">Отказ</string>
     <string name="preferences_menu_about">Всичко за Календар</string>
+    <string name="offline_account_name">Офлайн календар</string>
 </resources>

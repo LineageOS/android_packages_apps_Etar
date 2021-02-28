@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Egutegia</string>
-    <string name="what_label">Izena</string>
-    <string name="where_label">Kokapena</string>
     <string name="when_label">Data eta ordua</string>
-    <string name="timezone_label">Ordu-zona</string>
-    <string name="attendees_label">Gonbidatuak</string>
     <string name="today">Gaur</string>
     <string name="tomorrow">Bihar</string>
     <string name="today_at_time_fmt">"Gaur (<xliff:g id="TIME_INTERVAL">%s</xliff:g>)"</string>
     <string name="tomorrow_at_time_fmt">"Bihar (<xliff:g id="TIME_INTERVAL">%s</xliff:g>)"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g> (<xliff:g id="TIME_INTERVAL">%2$s</xliff:g>)"</string>
-    <string name="repeats_label">Errepikapena</string>
     <string name="no_title_label">(Ez dauka izenik)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minutu</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Egutegiaren jakinarazpenak</string>
     <string name="event_info_title">Ikusi gertaera</string>
     <string name="event_info_title_invite">Biltzeko gonbidapena</string>
-    <string name="edit_event_to_label">Amaiera:</string>
-    <string name="edit_event_from_label">Hasiera:</string>
     <string name="edit_event_all_day_label">Egun osoa</string>
     <string name="edit_event_calendar_label">Egutegia</string>
-    <string name="description_label">Azalpena</string>
     <string name="presence_label">Erakutsi horrela nagoela:</string>
     <string name="privacy_label">Pribatutasuna</string>
     <string name="reminders_label">Gehitu abisua</string>

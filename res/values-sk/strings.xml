@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalendár</string>
-    <string name="what_label">Čo</string>
-    <string name="where_label">Kde</string>
     <string name="when_label">Kedy</string>
-    <string name="timezone_label">Časové pásmo</string>
-    <string name="attendees_label">Hostia</string>
     <string name="today">Dnes</string>
     <string name="tomorrow">Zajtra</string>
     <string name="today_at_time_fmt">"Dnes o <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Zajtra o <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Opakovanie</string>
     <string name="no_title_label">(Bez názvu)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minúta</item>
@@ -51,6 +46,13 @@
         <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> d.</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> d.</item>
     </plurals>
+    <plurals name="weekN">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g>.\u00a0týždeň</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g>.\u00a0týždňov</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g>.\u00a0týdžňov</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>.\u00a0týždňov</item>
+    </plurals>
+    <string name="calendar_refresh">"Obnoviť"</string>
     <string name="show_day_view">"Zobraziť deň"</string>
     <string name="agenda_view">"Agenda"</string>
     <string name="day_view">"Deň"</string>
@@ -60,11 +62,14 @@
     <string name="event_create">"Nová udalosť"</string>
     <string name="event_edit">"Upraviť udalosť"</string>
     <string name="event_delete">"Odstrániť udalosť"</string>
+    <string name="share_label">Zdieľať</string>
     <string name="goto_today">"Dnes"</string>
+    <string name="goto_date">Ísť na\u2026</string>
     <string name="menu_preferences">"Nastavenia"</string>
     <string name="search">"Hľadať"</string>
     <string name="hide_controls">"Skryť ovlád. prvky"</string>
     <string name="show_controls">"Zobraziť ovl. prvky"</string>
+    <string name="view_settings">"Zobraziť nastavenia"</string>
     <string name="select_synced_calendars_button">Kalendáre, ktoré sa majú synchronizovať</string>
     <string name="hint_what">"Názov udalosti"</string>
     <string name="hint_where">"Miesto"</string>
@@ -80,13 +85,12 @@
     <string name="rsvp_declined">"Odpovedali nie."</string>
     <string name="create_event_dialog_save">Uložiť</string>
     <string name="alert_title">Upozornenia v kalendári</string>
+    <string name="foreground_notification_channel_name">Synchronizácia upozornení</string>
+    <string name="foreground_notification_channel_description">Pre internú synchronizáciu upozornení je potrebné upozornenie na popredí.</string>
     <string name="event_info_title">Zobraziť udalosť</string>
     <string name="event_info_title_invite">Pozvánka na stretnutie</string>
-    <string name="edit_event_to_label">Do</string>
-    <string name="edit_event_from_label">Od</string>
     <string name="edit_event_all_day_label">Celý deň</string>
     <string name="edit_event_calendar_label">Kalendár</string>
-    <string name="description_label">Popis</string>
     <string name="presence_label">Zobraziť ma ako</string>
     <string name="privacy_label">Úroveň súkromia</string>
     <string name="reminders_label">Pridať pripomenutie</string>
@@ -109,6 +113,7 @@
     <string name="email_picker_label">Poslať e-mail</string>
     <string name="event_not_found">"Udalosť sa nenašla."</string>
     <string name="map_label">Mapa</string>
+    <string name="no_map">Nie je nainštalovaná žiadna aplikácia Máp</string>
     <string name="call_label">Zavolať</string>
     <string name="quick_response_settings">Rýchle odpovede</string>
     <string name="quick_response_settings_summary">Upraviť predvoľby e-mailových odpovedí hosťom</string>
@@ -124,6 +129,9 @@
     <string name="quick_response_custom_msg">Napíšte vlastnú...</string>
     <string name="event_info_organizer">Organizátor:</string>
     <string name="event_info_reminders_label">Pripomenutia</string>
+    <string name="agenda_today">Dnes, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Včera, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Zajtra, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Prebieha načítavanie…</string>
     <string name="show_older_events">Dotykom zobrazíte udalosti v období pred <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">Dotykom zobrazíte udalosti v období po <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
@@ -169,10 +177,29 @@
     <string name="change_response_title">Zmeniť odpoveď</string>
     <string name="preferences_title">"Nastavenia"</string>
     <string name="preferences_general_title">Nastavenie zobrazenia kalendára</string>
+    <string name="preferences_month_view_portrait">Mesačný rozvrh (na výšku)</string>
+    <string name="preferences_month_view_landscape">Mesačný rozvrh (na šírku)</string>
+    <string name="preferences_theme">Téma</string>
+    <string name="preferences_system_theme">Predvolené systémom</string>
+    <string name="preferences_light_theme">Svetlá</string>
+    <string name="preferences_dark_theme">Tmavá</string>
+    <string name="preferences_black_theme">Čierna</string>
+    <string name="preferences_color">Základná farba</string>
+    <string name="preferences_color_pick">Základná farba</string>
+    <string name="preferences_pure_black_night_mode">Úplne čierny nočný režim</string>
     <string name="preferences_reminder_title">Upozornenia a pripomenutia</string>
     <string name="preferences_hide_declined_title">Skryť odmietnuté udalosti</string>
+    <string name="default_start_title">Predvolené zobrazenie</string>
+    <string name="display_options">Možnosti zobrazenia</string>
+    <string name="display_time">Zobraziť čas</string>
+    <string name="display_location">Zobraziť polohu</string>
+    <string name="maximum_number_of_lines">Maximálny počet riadkov v udalosti</string>
+    <string name="default_start_last">Naposledy použité zobrazenie</string>
     <string name="preferences_week_start_day_title">Začiatok týždňa</string>
     <string name="preferences_week_start_day_dialog">Začiatok týždňa</string>
+    <string name="preferences_days_per_week_title">Dni v týždni</string>
+    <string name="preferences_days_per_week_dialog">Dni v týždni</string>
+    <string name="preferences_default_event_duration_title">Predvolené trvanie udalosti</string>
     <string name="preferences_clear_search_history_title">Vymazať históriu vyhľadávania</string>
     <string name="preferences_clear_search_history_summary">Odstrániť všetky uskutočnené vyhľadávania</string>
     <string name="search_history_cleared">História vyhľadávania bola vymazaná.</string>
@@ -187,7 +214,19 @@
     <string name="preferences_use_home_tz_descrip">Kalendáre a časy udal. sa zobr. vždy v domovskom čas. pásme</string>
     <string name="preferences_home_tz_title">Domáce čas. pásmo</string>
     <string name="preferences_show_week_num_title">Zobrazovať číslo týždňa</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Pýtať sa na interval odloženia priomienky</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Spýtať sa na časový interval pri odložení upomienky</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Vždy použiť predvolenú dĺžku odloženia</string>
+    <string name="snooze_delay_dialog_title">Nastaviť dĺžku odloženia</string>
+    <string name="preferences_default_snooze_delay_title">Predvolený čas dĺžky odloženia</string>
+    <string name="preferences_default_snooze_delay_dialog">Predvolená dĺžka odloženia</string>
+    <string name="app_copyright">\u00a9 2015–<xliff:g>%1$s</xliff:g> Projekt Etar. Časti \u00a9 2005–<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
+    <string name="authors">Autori</string>
+    <string name="changelog">Zoznam zmien</string>
+    <string name="license">Licencia</string>
     <string name="preferences_build_version">Verzia zostavy</string>
+    <string name="preferences_issues">Nahlásiť problém</string>
+    <string name="source_code">Zdroj</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
         <item quantity="few">+<xliff:g id="NUMBER">%d</xliff:g></item>
@@ -266,4 +305,67 @@
         <item quantity="other">Pre <xliff:g id="EVENT_COUNT">%d</xliff:g> udalosti/-í</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">zmeniť dátum ukončenia</string>
+    <string name="user_rejected_calendar_write_permission">Aplikácia Kalendár vyžaduje oprávnenie kalendára pre čítanie a\u00a0zápis. Skúste to znovu prosím.</string>
+    <string name="calendar_permission_not_granted">Požadované povolenia boli zamietnuté, pre upravovanie udalostí ich musíte povoliť v nastaveniach aplikácie</string>
+    <string name="visibility_default">Predvolené</string>
+    <string name="visibility_confidential">Dôverné</string>
+    <string name="visibility_private">Súkromné</string>
+    <string name="visibility_public">Verejné</string>
+    <string name="two_days">2 dni</string>
+    <string name="three_days">3 dni</string>
+    <string name="four_days">4 dni</string>
+    <string name="five_days">5 dní</string>
+    <string name="six_days">6 dní</string>
+    <string name="seven_days">7 dní</string>
+    <string name="zero_minutes">0 minút</string>
+    <string name="fifteen_minutes">15 minút</string>
+    <string name="thirty_minutes">30 minút</string>
+    <string name="one_hour">1 hodina</string>
+    <string name="one_and_a_half_hours">1,5 hodiny</string>
+    <string name="two_hours">2 hodiny</string>
+    <string name="error_generating_ics">Vyskytli sa problémy pri zdieľaní udalosti</string>
+    <string name="cal_share_intent_title">Poslať udalosť do:</string>
+    <string name="cal_export_event_sdcard_title">Exportovať na SD kartu</string>
+    <string name="cal_export_succ_msg">Udalosť sa úspešne exportovala: %1s</string>
+    <string name="cal_import_menu_title">Importovať udalosť</string>
+    <string name="cal_nothing_to_import">Nie je čo importovať</string>
+    <string name="cal_import_error_msg">Importovanie do kalendára zlyhalo</string>
+    <string name="cal_import_error_time_zone_msg">Zadané časové pásmo nedáva zmysel: %s</string>
+    <string name="cal_import_error_date_msg">Zadaný dátum nedává zmysel: %s</string>
+    <string name="cal_pick_ics">Vybrať súbor na importovanie</string>
+    <string name="show_time_no">Nezobrazovať čas</string>
+    <string name="show_time_start">Iba čas začatia</string>
+    <string name="show_time_start_end">Čas začatia a\u00a0ukončenia</string>
+    <string name="show_time_start_end_below">Čas začatia a\u00a0ukončenia pod udalosťou</string>
+    <string name="preferences_calendar_no_display_name">Nepomenovaný kalendár</string>
+    <string name="preferences_calendar_account">Účet %1$s</string>
+    <string name="preferences_calendar_account_local">Offline kalendár</string>
+    <string name="preferences_calendar_configure_account">Konfigurovať kalendár v\u00a0%1$s</string>
+    <string name="preferences_calendar_number_of_events">Počet udalostí: %1$d</string>
+    <string name="preferences_calendar_delete">Vymazať kalendár</string>
+    <string name="preferences_calendar_display_name">Zmeniť názov</string>
+    <string name="preferences_calendar_info_category">Informácie o kalendári</string>
+    <string name="preferences_calendar_color">Farba</string>
+    <string name="preferences_calendar_visible">Zobraziť zoznam udalostí</string>
+    <string name="preferences_calendar_synchronize">Synchronizovať tento kalendár</string>
+    <string name="preferences_calendar_color_warning_title">Upozornenie</string>
+    <string name="preferences_calendar_color_warning_message">Nastavená farba môže byť počas synchronizácie kalendára navrátená do pôvodného stavu.\n\nTomu sa dá predísť tým, že  v\u00a0DAVx⁵ zakážete položku „Nastavovať farby kalendára“.</string>
+    <string name="preferences_calendar_color_warning_button">Rozumiem</string>
+    <string name="preferences_calendar_delete_message">Naozaj chcete vymazať tento kalendár?</string>
+    <string name="preferences_calendar_delete_delete">Vymazať kalendár</string>
+    <string name="preferences_calendar_delete_cancel">Zrušiť</string>
+    <string name="preferences_list_calendar_summary_sync_off">Nesynchronizované</string>
+    <string name="preferences_list_calendar_summary_invisible">Udalosti nie sú zobrazené</string>
+    <string name="preferences_list_general">Všeobecné nastavenia</string>
+    <string name="preferences_list_add_remote">Pridať CalDAV kalendár</string>
+    <string name="preferences_list_add_remote_etesync">Pridať EteSync kalendár</string>
+    <string name="preferences_list_add_offline">Pridať offline kalendár</string>
+    <string name="preferences_list_add_offline_title">Pridať offline kalendár</string>
+    <string name="preferences_list_add_offline_error_empty">Zadajte názov kalendára!</string>
+    <string name="preferences_list_add_offline_message">Offline kalendáre NIE sú synchronizované s cloudovou službou a sú dostupné iba vo vašom telefóne.</string>
+    <string name="preferences_list_add_offline_button">Pridať kalendár</string>
+    <string name="preferences_list_add_offline_name">Názov</string>
+    <string name="preferences_list_add_offline_cancel">Zrušiť</string>
+    <string name="preferences_menu_about">O Kalendári</string>
+    <string name="offline_account_name">Offline Kalendár</string>
 </resources>

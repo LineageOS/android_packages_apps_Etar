@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalendaryo</string>
-    <string name="what_label">Ano</string>
-    <string name="where_label">Saan</string>
     <string name="when_label">Kailan</string>
-    <string name="timezone_label">Time zone</string>
-    <string name="attendees_label">Mga Bisita</string>
     <string name="today">Ngayong araw</string>
     <string name="tomorrow">Bukas</string>
     <string name="today_at_time_fmt">"Ngayong <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Bukas ng <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Pag-uulit</string>
     <string name="no_title_label">(Walang pamagat)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuto</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">Mga notifcation sa kalendaryo</string>
     <string name="event_info_title">Tingnan ang kaganapan</string>
     <string name="event_info_title_invite">Imbitasyon sa meeting</string>
-    <string name="edit_event_to_label">Hanggang</string>
-    <string name="edit_event_from_label">Mula</string>
     <string name="edit_event_all_day_label">Buong araw</string>
     <string name="edit_event_calendar_label">Kalendaryo</string>
-    <string name="description_label">Paglalarawan</string>
     <string name="presence_label">Ipakita ako bilang</string>
     <string name="privacy_label">Privacy</string>
     <string name="reminders_label">Magdagdag ng paalala</string>

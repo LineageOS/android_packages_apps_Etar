@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">კალენდარი</string>
-    <string name="what_label">რა</string>
-    <string name="where_label">სად</string>
     <string name="when_label">როდის</string>
-    <string name="timezone_label">დროის ზონა</string>
-    <string name="attendees_label">სტუმრები</string>
     <string name="today">დღეს</string>
     <string name="tomorrow">ხვალ</string>
     <string name="today_at_time_fmt">"დღეს <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"ხვალ <xliff:g id="TIME_INTERVAL">%s</xliff:g>-ზე"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">გამეორება</string>
     <string name="no_title_label">(სათაურის გარეშე)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 წუთი</item>
@@ -74,11 +69,8 @@
     <string name="alert_title">კალენდრის შეტყობინებები</string>
     <string name="event_info_title">მოვლენის ნახვა</string>
     <string name="event_info_title_invite">შეხვედრის მოსაწვევი</string>
-    <string name="edit_event_to_label">თარიღამდე</string>
-    <string name="edit_event_from_label">თარიღიდან</string>
     <string name="edit_event_all_day_label">მთელი დღე</string>
     <string name="edit_event_calendar_label">კალენდარი</string>
-    <string name="description_label">აღწერილობა</string>
     <string name="presence_label">მაჩვენე, როგორც</string>
     <string name="privacy_label">პირადი</string>
     <string name="reminders_label">შეხსენების დამატება</string>

@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalenteri</string>
-    <string name="what_label">Mitä</string>
-    <string name="where_label">Missä</string>
     <string name="when_label">Milloin</string>
-    <string name="timezone_label">Aikavyöhyke</string>
-    <string name="attendees_label">Osallistujat</string>
     <string name="today">Tänään</string>
     <string name="tomorrow">Huomenna</string>
     <string name="today_at_time_fmt">"Tänään klo <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Huomenna klo <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Toisto</string>
     <string name="no_title_label">(Ei otsikkoa)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuutti</item>
@@ -43,6 +38,11 @@
         <item quantity="one">1 päivä</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> päivää</item>
     </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Viikko <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Viikko <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="calendar_refresh">"Päivitä"</string>
     <string name="show_day_view">"Näytä päivä"</string>
     <string name="agenda_view">"Tapahtumat"</string>
     <string name="day_view">"Päivä"</string>
@@ -52,11 +52,14 @@
     <string name="event_create">"Uusi tapahtuma"</string>
     <string name="event_edit">"Muokkaa tapahtumaa"</string>
     <string name="event_delete">"Poista tapahtuma"</string>
+    <string name="share_label">Jaa</string>
     <string name="goto_today">"Tämä päivä"</string>
+    <string name="goto_date">Siirry\u2026</string>
     <string name="menu_preferences">"Asetukset"</string>
     <string name="search">"Haku"</string>
     <string name="hide_controls">"Piilota toiminnot"</string>
     <string name="show_controls">"Näytä toiminnot"</string>
+    <string name="view_settings">"Näyttöasetukset"</string>
     <string name="select_synced_calendars_button">Synkronoitavat kalenterit</string>
     <string name="hint_what">"Tapahtuman nimi"</string>
     <string name="hint_where">"Sijainti"</string>
@@ -72,13 +75,12 @@
     <string name="rsvp_declined">"Vastaus: ei."</string>
     <string name="create_event_dialog_save">Tallenna</string>
     <string name="alert_title">Kalenteri-ilmoitukset</string>
+    <string name="foreground_notification_channel_name">Hälytyksen synkronointi</string>
+    <string name="foreground_notification_channel_description">Taustailmoitus tarvitaan hälytyksen synkronoimiseksi</string>
     <string name="event_info_title">Näytä tapahtuma</string>
     <string name="event_info_title_invite">Kokouskutsu</string>
-    <string name="edit_event_to_label">Loppupvm</string>
-    <string name="edit_event_from_label">Alkupvm</string>
     <string name="edit_event_all_day_label">Koko päivä</string>
     <string name="edit_event_calendar_label">Kalenteri</string>
-    <string name="description_label">Kuvaus</string>
     <string name="presence_label">Näytä että olen</string>
     <string name="privacy_label">Tietosuoja</string>
     <string name="reminders_label">Lisää muistutus</string>
@@ -101,6 +103,7 @@
     <string name="email_picker_label">Sähköposti ja</string>
     <string name="event_not_found">"Tapahtumaa ei löydy."</string>
     <string name="map_label">Kartta</string>
+    <string name="no_map">Karttasovellusta ei ole asennettuna</string>
     <string name="call_label">Soita</string>
     <string name="quick_response_settings">Pikavastaukset</string>
     <string name="quick_response_settings_summary">Muokkaa pikavast.</string>
@@ -116,6 +119,9 @@
     <string name="quick_response_custom_msg">Kirjoita oma…</string>
     <string name="event_info_organizer">Järjestäjä:</string>
     <string name="event_info_reminders_label">Muistutukset</string>
+    <string name="agenda_today">Tänään, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Eilen, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Huomenna, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Ladataan…</string>
     <string name="show_older_events">Näytä aikaa <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> edeltävät tapahtumat koskettamalla</string>
     <string name="show_newer_events">Näytä ajan <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> jälkeiset tapahtumat koskettamalla</string>
@@ -155,10 +161,29 @@
     <string name="change_response_title">Muuta vastausta</string>
     <string name="preferences_title">"Asetukset"</string>
     <string name="preferences_general_title">Kalenterinäkymän asetus</string>
+    <string name="preferences_month_view_portrait">Kuukausinäkymän ulkoasu (pysty)</string>
+    <string name="preferences_month_view_landscape">Kuukausinäkymän ulkoasu (vaaka)</string>
+    <string name="preferences_theme">Teema</string>
+    <string name="preferences_system_theme">Järjestelmän oletus</string>
+    <string name="preferences_light_theme">Vaalea</string>
+    <string name="preferences_dark_theme">Tumma</string>
+    <string name="preferences_black_theme">Musta</string>
+    <string name="preferences_color">Pääväri</string>
+    <string name="preferences_color_pick">Pääväri</string>
+    <string name="preferences_pure_black_night_mode">Puhdas musta yötila</string>
     <string name="preferences_reminder_title">Ilmoitukset ja muistutukset</string>
     <string name="preferences_hide_declined_title">Piilota hylätyt tapahtumat</string>
+    <string name="default_start_title">Oletusnäkymä</string>
+    <string name="display_options">Näyttövaihtoehdot</string>
+    <string name="display_time">Näytä aika</string>
+    <string name="display_location">Näytä sijainti</string>
+    <string name="maximum_number_of_lines">Tapahtuman rivien enimmäismäärä</string>
+    <string name="default_start_last">Aiemmin käytetty näkymä</string>
     <string name="preferences_week_start_day_title">Viikko alkaa päivänä</string>
     <string name="preferences_week_start_day_dialog">Viikko alkaa päivänä</string>
+    <string name="preferences_days_per_week_title">Viikon päivät</string>
+    <string name="preferences_days_per_week_dialog">Viikon päivät</string>
+    <string name="preferences_default_event_duration_title">Tapahtuman oletuskesto</string>
     <string name="preferences_clear_search_history_title">Tyhjennä hakuhistoria</string>
     <string name="preferences_clear_search_history_summary">Poista kaikki tekemäsi haut</string>
     <string name="search_history_cleared">Hakuhistoria tyhjennetty.</string>
@@ -173,7 +198,19 @@
     <string name="preferences_use_home_tz_descrip">Näyttää kalenterit ja tapahtumien ajat oman aikavyöhykkeesi ajassa matkustaessasi</string>
     <string name="preferences_home_tz_title">Kotiaikavyöhyke</string>
     <string name="preferences_show_week_num_title">Näytä viikon numero</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Kysy muistutuksen torkkuajasta</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Kysy torkun ajasta kun muistutusta siirretään myöhemmäksi</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Käytä aina oletusaikaa</string>
+    <string name="snooze_delay_dialog_title">Aseta torkkuaika</string>
+    <string name="preferences_default_snooze_delay_title">Oletustorkkuaika</string>
+    <string name="preferences_default_snooze_delay_dialog">Torkun oletusaika</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
+    <string name="authors">Tekijät</string>
+    <string name="changelog">Muutosloki</string>
+    <string name="license">Lisenssi</string>
     <string name="preferences_build_version">Ohjelmistoversio</string>
+    <string name="preferences_issues">Ilmoita ongelmasta</string>
+    <string name="source_code">Lähde</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
@@ -236,4 +273,67 @@
         <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g> tapahtuman ajan</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">muuta lopetuspäivää</string>
+    <string name="user_rejected_calendar_write_permission">Kalenteri vaatii käyttöoikeudet kalenterin lukemiseen ja kirjoittamiseen toimiakseen. Yritä uudelleen.</string>
+    <string name="calendar_permission_not_granted">Tarvittavat käyttöoikeudet hylättiin, ota ne käyttöön Asetukset-sovelluksesta muokataksesi tapahtumia.</string>
+    <string name="visibility_default">Oletus</string>
+    <string name="visibility_confidential">Luottamuksellinen</string>
+    <string name="visibility_private">Yksityinen</string>
+    <string name="visibility_public">Julkinen</string>
+    <string name="two_days">2 päivää</string>
+    <string name="three_days">3 päivää</string>
+    <string name="four_days">4 päivää</string>
+    <string name="five_days">5 päivää</string>
+    <string name="six_days">6 päivää</string>
+    <string name="seven_days">7 päivää</string>
+    <string name="zero_minutes">0 minuuttia</string>
+    <string name="fifteen_minutes">15 minuuttia</string>
+    <string name="thirty_minutes">30 minuuttia</string>
+    <string name="one_hour">1 tunti</string>
+    <string name="one_and_a_half_hours">1,5 tuntia</string>
+    <string name="two_hours">2 tuntia</string>
+    <string name="error_generating_ics">Virhe jaettaessa tapahtumaa</string>
+    <string name="cal_share_intent_title">Lähetä tapahtuma kohteeseen:</string>
+    <string name="cal_export_event_sdcard_title">Vie SD-kortille</string>
+    <string name="cal_export_succ_msg">Tapahtuma viety onnistuneesti: %1$s</string>
+    <string name="cal_import_menu_title">Tuo tapahtuma</string>
+    <string name="cal_nothing_to_import">Ei mitään tuotavaa</string>
+    <string name="cal_import_error_msg">Kalenterin tuonti epäonnistui</string>
+    <string name="cal_import_error_time_zone_msg">Annettua aikavyöhykettä ei voitu ymmärtää: %s</string>
+    <string name="cal_import_error_date_msg">Annettua päivämäärää ei voitu ymmärtää: %s</string>
+    <string name="cal_pick_ics">Valitse tuotava tiedosto</string>
+    <string name="show_time_no">Älä näytä aikaa</string>
+    <string name="show_time_start">Vain aloitusaika</string>
+    <string name="show_time_start_end">Alku- ja loppuaika</string>
+    <string name="show_time_start_end_below">Alku- ja loppuaika tapahtuman alla</string>
+    <string name="preferences_calendar_no_display_name">Nimetön kalenteri</string>
+    <string name="preferences_calendar_account">%1$s tili</string>
+    <string name="preferences_calendar_account_local">Offline-kalenteri</string>
+    <string name="preferences_calendar_configure_account">Määritä kalenteri %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d tapahtumaa</string>
+    <string name="preferences_calendar_delete">Poista kalenteri</string>
+    <string name="preferences_calendar_display_name">Vaihda nimi</string>
+    <string name="preferences_calendar_info_category">Kalenterin tiedot</string>
+    <string name="preferences_calendar_color">Väri</string>
+    <string name="preferences_calendar_visible">Näytä tapahtumat</string>
+    <string name="preferences_calendar_synchronize">Synkronoi tämä kalenteri</string>
+    <string name="preferences_calendar_color_warning_title">Varoitus</string>
+    <string name="preferences_calendar_color_warning_message">Värin muuttaminen voi peruuntua kun kalenteri synkronoidaan uudelleen.\n\nVoit ottaa DAVx⁵:n \"Hallitse kalenterin väriä\" pois käytöstä estääksesi tämän</string>
+    <string name="preferences_calendar_color_warning_button">Ymmärrän</string>
+    <string name="preferences_calendar_delete_message">Haluatko varmasti poistaa tämän kalenterin?</string>
+    <string name="preferences_calendar_delete_delete">Poista kalenteri</string>
+    <string name="preferences_calendar_delete_cancel">Peruuta</string>
+    <string name="preferences_list_calendar_summary_sync_off">Ei synkronoitu</string>
+    <string name="preferences_list_calendar_summary_invisible">Tapahtumia ei näytetä</string>
+    <string name="preferences_list_general">Yleiset asetukset</string>
+    <string name="preferences_list_add_remote">Lisää CalDAV-kalenteri</string>
+    <string name="preferences_list_add_remote_etesync">Lisää EteSync-kalenteri</string>
+    <string name="preferences_list_add_offline">Lisää offline-kalenteri</string>
+    <string name="preferences_list_add_offline_title">Lisää offline-kalenteri</string>
+    <string name="preferences_list_add_offline_error_empty">Kirjoita kalenterin nimi!</string>
+    <string name="preferences_list_add_offline_message">Offline-kalenterita EI synkronoida pilvipalveluun, ja ovat käytössä vain tällä laitteella.</string>
+    <string name="preferences_list_add_offline_button">Lisää kalenteri</string>
+    <string name="preferences_list_add_offline_name">Nimi</string>
+    <string name="preferences_list_add_offline_cancel">Peruuta</string>
+    <string name="preferences_menu_about">Tietoja kalenterista</string>
+    <string name="offline_account_name">Offline-kalenteri</string>
 </resources>

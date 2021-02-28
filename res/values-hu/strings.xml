@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Naptár</string>
-    <string name="what_label">Cím</string>
-    <string name="where_label">Hol</string>
     <string name="when_label">Mikor</string>
-    <string name="timezone_label">Időzóna</string>
-    <string name="attendees_label">Résztvevők</string>
     <string name="today">Ma</string>
     <string name="tomorrow">Holnap</string>
     <string name="today_at_time_fmt">"Ma <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Holnap <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Ismétlés</string>
     <string name="no_title_label">(Nincs cím)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 perc</item>
@@ -84,11 +79,8 @@
     <string name="foreground_notification_channel_description">A belső szinkronizálásához előtérben futó értesítés szükséges</string>
     <string name="event_info_title">Esemény megtekintése</string>
     <string name="event_info_title_invite">Meghívás találkozóra</string>
-    <string name="edit_event_to_label">Vége:</string>
-    <string name="edit_event_from_label">Kezdete:</string>
     <string name="edit_event_all_day_label">Egész nap</string>
     <string name="edit_event_calendar_label">Naptár</string>
-    <string name="description_label">Leírás</string>
     <string name="presence_label">Állapotjelzés</string>
     <string name="privacy_label">Adatvédelem</string>
     <string name="reminders_label">Emlékeztető hozzáad.</string>
@@ -178,6 +170,7 @@
     <string name="preferences_black_theme">Fekete</string>
     <string name="preferences_color">Elsődleges szín</string>
     <string name="preferences_color_pick">Elsődleges szín</string>
+    <string name="preferences_pure_black_night_mode">Tiszta Fekete éjszakai mód</string>
     <string name="preferences_reminder_title">Értesítések és emlékeztetők</string>
     <string name="preferences_hide_declined_title">Elutasított események elrejtése</string>
     <string name="default_start_title">Alapértelmezett nézet</string>
@@ -332,7 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Nincs szinkronizálva</string>
     <string name="preferences_list_calendar_summary_invisible">Az események nincsenek megjelenítve</string>
     <string name="preferences_list_general">Általános beállítások</string>
-    <string name="preferences_list_add_remote">Távoli hozzáférésű (CalDAV) naptár hozzáadása</string>
+    <string name="preferences_list_add_remote">Offline (CalDAV) naptár hozzáadása</string>
+    <string name="preferences_list_add_remote_etesync">Offline (EteSync) naptár hozzáadása</string>
     <string name="preferences_list_add_offline">Offline naptár hozzáadása</string>
     <string name="preferences_list_add_offline_title">Offline naptár hozzáadása</string>
     <string name="preferences_list_add_offline_error_empty">Adja meg a naptár nevét</string>

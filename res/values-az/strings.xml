@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Təqvim</string>
-    <string name="what_label">Nə</string>
-    <string name="where_label">Harada</string>
     <string name="when_label">Nə vaxt</string>
-    <string name="timezone_label">Saat qurşağı</string>
-    <string name="attendees_label">Qonaqlar</string>
     <string name="today">Bu gün</string>
     <string name="tomorrow">Sabah</string>
     <string name="today_at_time_fmt">"Bu gün saat <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Sabah saat <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Təkrarlama</string>
     <string name="no_title_label">(Başlıq yoxdur)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 dəqiqə</item>
@@ -84,11 +79,8 @@
     <string name="foreground_notification_channel_description">Daxili xəbərdarlıq eyniləşdirməsi üçün önplan bildirişi tələb olunur.</string>
     <string name="event_info_title">Tədbirə bax</string>
     <string name="event_info_title_invite">Yığıncaq dəvəti</string>
-    <string name="edit_event_to_label">Kimə</string>
-    <string name="edit_event_from_label">Kimdən</string>
     <string name="edit_event_all_day_label">Bütün gün</string>
     <string name="edit_event_calendar_label">Təqvim</string>
-    <string name="description_label">Təsvir</string>
     <string name="presence_label">Mən:</string>
     <string name="privacy_label">Gizlilik</string>
     <string name="reminders_label">Xatırladıcı əlavə et</string>
@@ -178,6 +170,7 @@
     <string name="preferences_black_theme">Qara</string>
     <string name="preferences_color">Əsas rəng</string>
     <string name="preferences_color_pick">Əsas rəng</string>
+    <string name="preferences_pure_black_night_mode">Saf qara gecə rejimi</string>
     <string name="preferences_reminder_title">Bildirişlər &amp; xatırladıcılar</string>
     <string name="preferences_hide_declined_title">Rədd edilmiş tədbirləri gizlət</string>
     <string name="default_start_title">İlkin görünüş</string>
@@ -332,7 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Eyniləşdirilməyib</string>
     <string name="preferences_list_calendar_summary_invisible">Tədbirlər görüntülənmir</string>
     <string name="preferences_list_general">Ümumi tənzimləmələr</string>
-    <string name="preferences_list_add_remote">Uzaq təqvim əlavə et (CalDAV)</string>
+    <string name="preferences_list_add_remote">CalDAV təqvimi əlavə et</string>
+    <string name="preferences_list_add_remote_etesync">EteSync təqvimi əlavə et</string>
     <string name="preferences_list_add_offline">Xətdən kənar təqvim əlavə et</string>
     <string name="preferences_list_add_offline_title">Xətdən kənar təqvim əlavə et</string>
     <string name="preferences_list_add_offline_error_empty">Bir təqvim adı daxil edin!</string>

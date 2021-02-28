@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendari</string>
-    <string name="what_label">Què</string>
-    <string name="where_label">On</string>
     <string name="when_label">Quan</string>
-    <string name="timezone_label">Zona horària</string>
-    <string name="attendees_label">Convidats</string>
     <string name="today">Avui</string>
     <string name="tomorrow">Demà</string>
     <string name="today_at_time_fmt">"Avui a les <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Demà a les <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Repetició</string>
     <string name="no_title_label">(Sense títol)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minut</item>
@@ -84,11 +79,8 @@
     <string name="foreground_notification_channel_description">Cal una notificació en primer pla per a la sincronització d\'alertes internes.</string>
     <string name="event_info_title">Visualitza l\'esdeveniment</string>
     <string name="event_info_title_invite">Invitació a una reunió</string>
-    <string name="edit_event_to_label">Fins a</string>
-    <string name="edit_event_from_label">De</string>
     <string name="edit_event_all_day_label">Tot el dia</string>
     <string name="edit_event_calendar_label">Calendari</string>
-    <string name="description_label">Descripció</string>
     <string name="presence_label">Mostra\'m com a</string>
     <string name="privacy_label">Privadesa</string>
     <string name="reminders_label">Afegeix recordatori</string>
@@ -178,6 +170,7 @@
     <string name="preferences_black_theme">Negre</string>
     <string name="preferences_color">Color principal</string>
     <string name="preferences_color_pick">Color principal</string>
+    <string name="preferences_pure_black_night_mode">Mode nit negre pur</string>
     <string name="preferences_reminder_title">Notificacions i recordatoris</string>
     <string name="preferences_hide_declined_title">Amaga esdeveniments rebutjats</string>
     <string name="default_start_title">Vista per defecte</string>
@@ -211,6 +204,7 @@
     <string name="snooze_delay_dialog_title">Estableix el retard de la repetició</string>
     <string name="preferences_default_snooze_delay_title">Temps de retard de la repetició per defecte</string>
     <string name="preferences_default_snooze_delay_dialog">Retard de la repetició per defecte</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Projecte Etar. Conté parts \u00a9 2005-<xliff:g>%1$s</xliff:g> de The Android Open Source Project.</string>
     <string name="authors">Autors</string>
     <string name="changelog">Registre de canvis</string>
     <string name="license">Llicència</string>
@@ -331,7 +325,8 @@
     <string name="preferences_list_calendar_summary_sync_off">No sincronitzat</string>
     <string name="preferences_list_calendar_summary_invisible">Els esdeveniments no es mostren</string>
     <string name="preferences_list_general">Configuració general</string>
-    <string name="preferences_list_add_remote">Afegeix un calendari remot (CalDAV)</string>
+    <string name="preferences_list_add_remote">Afegeix un calendari CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Afegeix un calendari EteSync</string>
     <string name="preferences_list_add_offline">Afegeix un calendari fora de línia</string>
     <string name="preferences_list_add_offline_title">Afegeix un calendari fora de línia</string>
     <string name="preferences_list_add_offline_error_empty">Introduïu el nom del calendari</string>

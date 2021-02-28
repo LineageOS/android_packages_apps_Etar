@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">ປະຕິທິນ</string>
-    <string name="what_label">ແມ່ນຫຍັງ</string>
-    <string name="where_label">ຢູ່ໃສ</string>
     <string name="when_label">ຕອນໃດ</string>
-    <string name="timezone_label">ເຂດເວລາ</string>
-    <string name="attendees_label">ຜູ່ເຂົ້າຮ່ວມ</string>
     <string name="today">ມື້ນີ້</string>
     <string name="tomorrow">ມື້ອື່ນ</string>
     <string name="today_at_time_fmt">"ມື້ນີ້ໃນເວລາ <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"ມື້ອື່ນໃນເວລາ <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">ການເກີດຊ້ຳ</string>
     <string name="no_title_label">(ບໍ່ມີຫົວຂໍ້)</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ນາທີ</item>
@@ -70,11 +65,8 @@
     <string name="alert_title">ການແຈ້ງເຕືອນປະຕິທິນ</string>
     <string name="event_info_title">ເບິ່ງນັດໝາຍ</string>
     <string name="event_info_title_invite">ຄໍາເຊີນເຂົ້າຮ່ວມປະຊຸມ</string>
-    <string name="edit_event_to_label">ຮອດ</string>
-    <string name="edit_event_from_label">ຈາກ</string>
     <string name="edit_event_all_day_label">ໝົດມື້</string>
     <string name="edit_event_calendar_label">ປະຕິທິນ</string>
-    <string name="description_label">ລາຍລະອຽດ</string>
     <string name="presence_label">ສະແດງຂ້ອຍເປັນ</string>
     <string name="privacy_label">ຄວາມເປັນສ່ວນຕົວ</string>
     <string name="reminders_label">ເພີ່ມການເຕືອນ</string>

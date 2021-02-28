@@ -15,17 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Kalender</string>
-    <string name="what_label">Apa</string>
-    <string name="where_label">Di mana</string>
     <string name="when_label">Kapan</string>
-    <string name="timezone_label">Zona waktu</string>
-    <string name="attendees_label">Tamu</string>
     <string name="today">Hari ini</string>
     <string name="tomorrow">Besok</string>
     <string name="today_at_time_fmt">"Hari ini pukul <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="tomorrow_at_time_fmt">"Besok pukul <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
-    <string name="repeats_label">Perulangan</string>
     <string name="no_title_label">(Tanpa judul)</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> menit</item>
@@ -54,10 +49,12 @@
     <string name="event_delete">"Hapus acara"</string>
     <string name="share_label">Bagikan</string>
     <string name="goto_today">"Hari ini"</string>
+    <string name="goto_date">Pergi ke\u2026</string>
     <string name="menu_preferences">"Setelan"</string>
     <string name="search">"Telusuri"</string>
     <string name="hide_controls">"Sembunyikan kontrol"</string>
     <string name="show_controls">"Tampilkan kontrol"</string>
+    <string name="view_settings">"Setelan tampilan"</string>
     <string name="select_synced_calendars_button">Kalender untuk disinkronkan</string>
     <string name="hint_what">"Nama acara"</string>
     <string name="hint_where">"Lokasi"</string>
@@ -75,11 +72,8 @@
     <string name="alert_title">Notifikasi kalender</string>
     <string name="event_info_title">Lihat acara</string>
     <string name="event_info_title_invite">Undangan rapat</string>
-    <string name="edit_event_to_label">Kepada</string>
-    <string name="edit_event_from_label">Dari</string>
     <string name="edit_event_all_day_label">Seharian</string>
     <string name="edit_event_calendar_label">Kalender</string>
-    <string name="description_label">Deskripsi</string>
     <string name="presence_label">Tampilkan saya:</string>
     <string name="privacy_label">Privasi</string>
     <string name="reminders_label">Tambahkan pengingat</string>
@@ -157,6 +151,8 @@
     <string name="change_response_title">Ubah tanggapan</string>
     <string name="preferences_title">"Setelan"</string>
     <string name="preferences_general_title">Setelan tampilan kalender</string>
+    <string name="preferences_month_view_portrait">Tata letak tampilan Bulan (Potret)</string>
+    <string name="preferences_month_view_landscape">Tata letak tampilan Bulan (Lanskap)</string>
     <string name="preferences_theme">Tema</string>
     <string name="preferences_light_theme">Terang</string>
     <string name="preferences_dark_theme">Gelap</string>
@@ -166,6 +162,11 @@
     <string name="preferences_reminder_title">Notifikasi &amp; pengingat</string>
     <string name="preferences_hide_declined_title">Sembunyikan acara yang ditolak</string>
     <string name="default_start_title">Tampilan standar</string>
+    <string name="display_options">Opsi tampilan</string>
+    <string name="display_time">Tampilkan waktu</string>
+    <string name="display_location">Tampilkan lokasi</string>
+    <string name="maximum_number_of_lines">Maks jumlah baris pada acara</string>
+    <string name="default_start_last">Tampilan yang digunakan sebelumnya</string>
     <string name="preferences_week_start_day_title">Minggu dimulai:</string>
     <string name="preferences_week_start_day_dialog">Minggu dimulai:</string>
     <string name="preferences_days_per_week_title">Hari per minggu</string>
@@ -245,6 +246,7 @@
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">ubah tanggal akhir</string>
     <string name="visibility_default">Standar</string>
+    <string name="visibility_private">Pribadi</string>
     <string name="two_days">2 hari</string>
     <string name="three_days">3 hari</string>
     <string name="four_days">4 hari</string>
@@ -260,6 +262,7 @@
     <string name="error_generating_ics">Masalah ditemukan saat berbagi acara</string>
     <string name="cal_share_intent_title">Kirim acara ke:</string>
     <string name="cal_export_event_sdcard_title">Ekspor ke kartu SD</string>
+    <string name="cal_export_succ_msg">Acara berhasil diekspor: %1$s</string>
     <string name="cal_import_menu_title">Impor acara</string>
     <string name="cal_nothing_to_import">Tidak ada apapun untuk diimpor</string>
     <string name="cal_import_error_msg">Gagal mengimpor ke kalendar</string>
@@ -271,6 +274,8 @@
     <string name="preferences_calendar_display_name">Ubah nama</string>
     <string name="preferences_calendar_info_category">Informasi kalender</string>
     <string name="preferences_calendar_color">Warna</string>
+    <string name="preferences_calendar_visible">Tampilkan acara</string>
+    <string name="preferences_calendar_synchronize">Sinkronkan kalender ini</string>
     <string name="preferences_calendar_color_warning_title">Peringatan</string>
     <string name="preferences_calendar_color_warning_button">Saya mengerti</string>
     <string name="preferences_calendar_delete_message">Apakah anda yakin ingin menghapus kalender ini?</string>
