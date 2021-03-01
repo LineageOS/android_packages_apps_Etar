@@ -186,6 +186,7 @@
     <string name="preferences_black_theme">Černý</string>
     <string name="preferences_color">Primární barva</string>
     <string name="preferences_color_pick">Primární barva</string>
+    <string name="preferences_pure_black_night_mode">Čistě černý noční režim</string>
     <string name="preferences_reminder_title">Oznámení a připomenutí</string>
     <string name="preferences_hide_declined_title">Skrýt odmítnuté události</string>
     <string name="default_start_title">Výchozí zobrazení</string>
@@ -356,6 +357,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Není synchronizován</string>
     <string name="preferences_list_calendar_summary_invisible">Události nejsou zobrazeny</string>
     <string name="preferences_list_general">Obecná nastavení</string>
+    <string name="preferences_list_add_remote">Přidat CalDAV kalendář</string>
+    <string name="preferences_list_add_remote_etesync">Přidat EteSync kalendář</string>
     <string name="preferences_list_add_offline">Přidat offline kalendář</string>
     <string name="preferences_list_add_offline_title">Přidat offline kalendář</string>
     <string name="preferences_list_add_offline_error_empty">Zadejte název kalendáře!</string>
