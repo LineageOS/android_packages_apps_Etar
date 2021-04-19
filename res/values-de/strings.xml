@@ -170,6 +170,7 @@
     <string name="preferences_black_theme">Schwarz</string>
     <string name="preferences_color">Primärfarbe</string>
     <string name="preferences_color_pick">Primärfarbe</string>
+    <string name="preferences_pure_black_night_mode">Rein schwarzer Nachtmodus</string>
     <string name="preferences_reminder_title">Benachrichtigungen &amp; Erinnerungen</string>
     <string name="preferences_hide_declined_title">Abgelehnte Termine ausblenden</string>
     <string name="default_start_title">Standardansicht</string>
@@ -197,6 +198,12 @@
     <string name="preferences_use_home_tz_descrip">Zeigt unterwegs Kalender-/Terminzeiten in Heimatzeitzone</string>
     <string name="preferences_home_tz_title">Heimatzeitzone</string>
     <string name="preferences_show_week_num_title">Wochennummer anzeigen</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Wiederholungszeit für Erinnerungen</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Jedesmal nach Wiederholzeit fragen, wenn später erinnert werden soll.</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Immer nach Standardzeit erinnern</string>
+    <string name="snooze_delay_dialog_title">Schlummer-Intervall auswählen</string>
+    <string name="preferences_default_snooze_delay_title">Standardwiederholungszeit für Erinnerungen</string>
+    <string name="preferences_default_snooze_delay_dialog">Standardwiederholung für Erinnerungen</string>
     <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Das Etar Projekt. Teile davon \u00a9 2005-<xliff:g>%1$s</xliff:g> Das Android Open Source Projekt.</string>
     <string name="authors">Autoren</string>
     <string name="changelog">Änderungsprotokoll</string>
@@ -267,7 +274,7 @@
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">Enddatum ändern</string>
     <string name="user_rejected_calendar_write_permission">Kalender benötigt Lese- und Schreibberechtigungen für den Kalender, um korrekt zu funktionieren. Bitte versuche es erneut.</string>
-    <string name="calendar_permission_not_granted">Erforderliche Berechtigungen wurden verweigert. Lassen Sie diese in der Einstellungen-App zu, um Termine zu bearbeiten</string>
+    <string name="calendar_permission_not_granted">Erforderliche Berechtigungen wurden verweigert, aktiviere sie in den Einstellungen für die App, um Termine zu bearbeiten</string>
     <string name="visibility_default">Standard</string>
     <string name="visibility_confidential">Vertraulich</string>
     <string name="visibility_private">Privat</string>
@@ -301,6 +308,7 @@
     <string name="preferences_calendar_no_display_name">Unbenannter Kalender</string>
     <string name="preferences_calendar_account">%1$s Konto</string>
     <string name="preferences_calendar_account_local">Offline-Kalender</string>
+    <string name="preferences_calendar_configure_account">Kalender in %1$s konfigurieren</string>
     <string name="preferences_calendar_number_of_events">%1$d Termine</string>
     <string name="preferences_calendar_delete">Kalender löschen</string>
     <string name="preferences_calendar_display_name">Name ändern</string>
@@ -317,8 +325,11 @@
     <string name="preferences_list_calendar_summary_sync_off">Nicht synchronisiert</string>
     <string name="preferences_list_calendar_summary_invisible">Termine werden nicht angezeigt</string>
     <string name="preferences_list_general">Allgemeine Einstellungen</string>
+    <string name="preferences_list_add_remote">CalDAV-Kalender hinzufügen</string>
+    <string name="preferences_list_add_remote_etesync">EteSync-Kalender hinzufügen</string>
     <string name="preferences_list_add_offline">Offline-Kalender hinzufügen</string>
     <string name="preferences_list_add_offline_title">Offline-Kalender hinzufügen</string>
+    <string name="preferences_list_add_offline_error_empty">Einen Kalendernamen eingeben!</string>
     <string name="preferences_list_add_offline_message">Offline-Kalender werden NICHT mit einem Cloud-Service synchronisiert und sind nur auf deinem Telefon verfügbar.</string>
     <string name="preferences_list_add_offline_button">Kalender hinzufügen</string>
     <string name="preferences_list_add_offline_name">Name</string>

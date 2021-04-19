@@ -69,15 +69,19 @@
         <item>Tentative</item>
     </string-array>
     <string-array name="response_labels1">
-        <item>No response</item>
+        <item>Sem resposta</item>
         <item>Sim</item>
         <item>Talvez</item>
         <item>Não</item>
     </string-array>
     <string-array name="delete_repeating_labels">
-        <item>Only this event</item>
+        <item>Apenas este evento</item>
         <item>This and future events</item>
         <item>Todos os eventos</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Apenas este evento</item>
+        <item>Todos os eventos da série</item>
     </string-array>
     <string-array name="buttons_list">
         <item>Dia</item>
@@ -86,9 +90,9 @@
         <item>Agenda</item>
     </string-array>
     <string-array name="recurrence_freq">
-        <item>REPEAT DAILY</item>
-        <item>REPEAT WEEKLY</item>
-        <item>REPEAT MONTHLY</item>
+        <item>REPETIR DIARIAMENTE</item>
+        <item>REPETIR SEMANALMENTE</item>
+        <item>REPETIR MENSALMENTE</item>
         <item>REPETIR ANUALMENTE</item>
     </string-array>
     <string-array name="repeat_by_nth_sun">
