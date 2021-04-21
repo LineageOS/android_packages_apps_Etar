@@ -55,7 +55,7 @@
     <string name="share_label">Paylaş</string>
     <string name="goto_today">"Bugün"</string>
     <string name="goto_date">Get\u2026</string>
-    <string name="menu_preferences">"Parametrlər"</string>
+    <string name="menu_preferences">"Tənzimləmələr"</string>
     <string name="search">"Axtarış"</string>
     <string name="hide_controls">"Kontrolu gizlət"</string>
     <string name="show_controls">"Kontrolu göstər"</string>
@@ -159,8 +159,8 @@
     <string name="delete_this_event_title">Bu tədbir silinsin?</string>
     <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g> silinsin?</string>
     <string name="change_response_title">Cavabı dəyiş</string>
-    <string name="preferences_title">"Parametrlər"</string>
-    <string name="preferences_general_title">Təqvim görünüş parametri</string>
+    <string name="preferences_title">"Tənzimləmələr"</string>
+    <string name="preferences_general_title">Təqvim baxış tənzimləməsi</string>
     <string name="preferences_month_view_portrait">Ay görünüş düzümü (Şaquli)</string>
     <string name="preferences_month_view_landscape">Ay görünüş düzümü (Üfüqi)</string>
     <string name="preferences_theme">Tema</string>

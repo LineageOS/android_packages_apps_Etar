@@ -170,6 +170,7 @@
     <string name="preferences_black_theme">Noir</string>
     <string name="preferences_color">Couleur principale</string>
     <string name="preferences_color_pick">Couleur principale</string>
+    <string name="preferences_pure_black_night_mode">Noir pur pour le mode nuit</string>
     <string name="preferences_reminder_title">Notifications et rappels</string>
     <string name="preferences_hide_declined_title">Masquer événements refusés</string>
     <string name="default_start_title">Vue par défaut</string>
