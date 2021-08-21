@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="reminder_methods_labels">
+        <item>Njoftime</item>
+        <item>Email</item>
+        <item>SMS</item>
+        <item>Alarmi</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minuta</item>
+        <item>1 minutë</item>
+        <item>5 minuta</item>
+        <item>10 minuta</item>
+        <item>15 minuta</item>
+        <item>20 minuta</item>
+        <item>25 minuta</item>
+        <item>30 minuta</item>
+        <item>45 minuta</item>
+        <item>1 orë</item>
+        <item>2 orë</item>
+        <item>3 orë</item>
+        <item>12 orë</item>
+        <item>24 orë</item>
+        <item>2 ditë</item>
+        <item>1 javë</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Asnjë</item>
+        <item>0 minuta</item>
+        <item>1 minutë</item>
+        <item>5 minuta</item>
+        <item>10 minuta</item>
+        <item>15 minuta</item>
+        <item>20 minuta</item>
+        <item>25 minuta</item>
+        <item>30 minuta</item>
+        <item>45 minuta</item>
+        <item>1 orë</item>
+        <item>2 orë</item>
+        <item>3 orë</item>
+        <item>12 orë</item>
+        <item>24 orë</item>
+        <item>2 ditë</item>
+        <item>1 javë</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Vendndodhja e paracaktuar</item>
+        <item>Të shtunë</item>
+        <item>Të djelë</item>
+        <item>Të hënë</item>
+    </string-array>
+    <string-array name="availability">
+        <item>I/e zënë</item>
+        <item>I/E lirë</item>
+        <item>Tentativa</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Pa përgjigje</item>
+        <item>Po</item>
+        <item>Ndoshta</item>
+        <item>Jo</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Vetëm këtë ngjarje</item>
+        <item>Këtë dhe ngjarjet e ardhshme</item>
+        <item>Të gjitha ngjarjet</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Vetëm këtë ngjarje</item>
+        <item>Të gjitha ngjarjet në seri</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Dita</item>
+        <item>Java</item>
+        <item>Muaji</item>
+        <item>Axhenda</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Vetëm nëse refuzohet</item>
+        <item>Nëse refuzohet ose nuk përgjigjet</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>PËRSËRIT ÇDO DITË</item>
+        <item>PËRSËRIT ÇDO JAVË</item>
+        <item>PËRSËRIT ÇDO MUAJ</item>
+        <item>PËRSËRIT ÇDO VIT</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>çdo të dielë të parë</item>
+        <item>çdo të diel të dytë</item>
+        <item>çdo të dielë të tretë</item>
+        <item>çdo të dielë të katërt</item>
+        <item>çdo të dielë të fundit</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>çdo të hënë të parë</item>
+        <item>çdo të hënë të dytë</item>
+        <item>çdo të hënë të tretë</item>
+        <item>çdo të hënë të katërt</item>
+        <item>çdo të hënë të fundit</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>çdo të martë të parë</item>
+        <item>çdo të martë të dytë</item>
+        <item>çdo të martë të tretë</item>
+        <item>çdo të martë të katërt</item>
+        <item>çdo të martë të fundit</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>çdo të mërkurë të parë</item>
+        <item>çdo të mërkurë të dytë</item>
+        <item>çdo të mërkurë të tretë</item>
+        <item>çdo të mërkurë të katërt</item>
+        <item>çdo të mërkurë të fundit</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>në çdo të enjte të parë</item>
+        <item>në çdo të enjte të dytë</item>
+        <item>në çdo të enjte të tretë</item>
+        <item>në çdo të enjte të katërt</item>
+        <item>në çdo të enjte të fundit</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>në çdo të premte të parë</item>
+        <item>në çdo të premte të dytë</item>
+        <item>në çdo të premte të tretë</item>
+        <item>në çdo të premte të katërt</item>
+        <item>në çdo të premte të fundit</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>në çdo të shtunë të parë</item>
+        <item>në çdo të shtunë të dytë</item>
+        <item>në çdo të shtunë të tretë</item>
+        <item>në çdo të shtunë të katërt</item>
+        <item>në çdo të shtunë të fundit</item>
+    </string-array>
+</resources>

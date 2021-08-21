@@ -202,6 +202,7 @@
     <string name="preferences_black_theme">Du</string>
     <string name="preferences_color">Prif liw</string>
     <string name="preferences_color_pick">Prif liw</string>
+    <string name="preferences_pure_black_night_mode">Modd nos du pur</string>
     <string name="preferences_reminder_title">Hysbysiadau \u0026 negeseuon atgoffa</string>
     <string name="preferences_hide_declined_title">Cuddio digwyddiadau wedi\'u gwrthod</string>
     <string name="default_start_title">Golwg rhagosodedig</string>
@@ -388,6 +389,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Heb ei gysoni</string>
     <string name="preferences_list_calendar_summary_invisible">Dyw digwyddiadau heb eu dangos</string>
     <string name="preferences_list_general">Gosodiadau cyffredinol</string>
+    <string name="preferences_list_add_remote">Ychwanegu calendr CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Ychwanegu calendr EteSync</string>
     <string name="preferences_list_add_offline">Ychwanegu calendr all-lein</string>
     <string name="preferences_list_add_offline_title">Ychwanegu calendr all-lein</string>
     <string name="preferences_list_add_offline_error_empty">Rho enw i\'r calendr</string>

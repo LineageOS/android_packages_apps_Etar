@@ -54,6 +54,7 @@
         <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> يوم</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> يوم</item>
     </plurals>
+    <string name="calendar_refresh">"تحديث"</string>
     <string name="show_day_view">"عرض اليوم"</string>
     <string name="agenda_view">"الأجندة"</string>
     <string name="day_view">"يوم"</string>
@@ -63,11 +64,14 @@
     <string name="event_create">"حدث جديد"</string>
     <string name="event_edit">"تعديل الحدث"</string>
     <string name="event_delete">"حذف حدث"</string>
+    <string name="share_label">مشاركة</string>
     <string name="goto_today">"اليوم"</string>
+    <string name="goto_date">الذهاب إلى\u2026</string>
     <string name="menu_preferences">"الإعدادات"</string>
     <string name="search">"بحث"</string>
     <string name="hide_controls">"إخفاء عناصر التحكم"</string>
     <string name="show_controls">"عرض عناصر التحكم"</string>
+    <string name="view_settings">"إعدادات العرض"</string>
     <string name="select_synced_calendars_button">التقاويم المطلوب مزامنتها</string>
     <string name="hint_what">"اسم الحدث"</string>
     <string name="hint_where">"الموقع"</string>
@@ -83,6 +87,8 @@
     <string name="rsvp_declined">"تم الرد بـ \"لا\"."</string>
     <string name="create_event_dialog_save">حفظ</string>
     <string name="alert_title">إعلامات التقاويم</string>
+    <string name="foreground_notification_channel_name">مزامنة التنبيه</string>
+    <string name="foreground_notification_channel_description">الإشعارات الأمامية ضرورية لمزامنة التنبيه الداخلي.</string>
     <string name="event_info_title">عرض الحدث</string>
     <string name="event_info_title_invite">دعوة اجتماع</string>
     <string name="edit_event_all_day_label">اليوم كله</string>
@@ -109,6 +115,7 @@
     <string name="email_picker_label">إرسال رسالة إلكترونية إلى</string>
     <string name="event_not_found">"لم يتم العثور على الحدث."</string>
     <string name="map_label">خريطة</string>
+    <string name="no_map">لا يوجد تطبيق خرائط مثبت</string>
     <string name="call_label">اتصال</string>
     <string name="quick_response_settings">الردود السريعة</string>
     <string name="quick_response_settings_summary">تعديل الردود الافتراضية في المراسلة الإلكترونية للمدعوين</string>
@@ -124,6 +131,9 @@
     <string name="quick_response_custom_msg">اكتب ردك…</string>
     <string name="event_info_organizer">المنظِّم:</string>
     <string name="event_info_reminders_label">تذكيرات</string>
+    <string name="agenda_today">اليوم، <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">البارحة، <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">غدًا، <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">جارٍ التحميل…</string>
     <string name="show_older_events">يمكنك اللمس لمشاهدة الأحداث قبل <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">يمكنك اللمس لمشاهدة الأحداث بعد <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
@@ -175,10 +185,29 @@
     <string name="change_response_title">تغيير الرد</string>
     <string name="preferences_title">"الإعدادات"</string>
     <string name="preferences_general_title">إعداد عرض التقويم</string>
+    <string name="preferences_month_view_portrait">تخطيط عرض الشهر (عمودي)</string>
+    <string name="preferences_month_view_landscape">تخطيط عرض الشهر (أفقي)</string>
+    <string name="preferences_theme">السمة</string>
+    <string name="preferences_system_theme">الإعداد الافتراضي</string>
+    <string name="preferences_light_theme">فاتح</string>
+    <string name="preferences_dark_theme">مظلم</string>
+    <string name="preferences_black_theme">أسود</string>
+    <string name="preferences_color">اللون الرئيسي</string>
+    <string name="preferences_color_pick">اللون الرئيسي</string>
+    <string name="preferences_pure_black_night_mode">الوضع الليلي باللون الأسود الخالص</string>
     <string name="preferences_reminder_title">الإشعارات والتذكيرات</string>
     <string name="preferences_hide_declined_title">إخفاء الأحداث التي تم رفضها</string>
+    <string name="default_start_title">العرض الافتراضي</string>
+    <string name="display_options">خيارات العرض</string>
+    <string name="display_time">وقت العرض</string>
+    <string name="display_location">موقع العرض</string>
+    <string name="maximum_number_of_lines">الحد الأقصى لعدد الأسطر في الحدث</string>
+    <string name="default_start_last">طريقة العرض المستخدمة سابقا</string>
     <string name="preferences_week_start_day_title">يبدأ الأسبوع يوم</string>
     <string name="preferences_week_start_day_dialog">يبدأ الأسبوع يوم</string>
+    <string name="preferences_days_per_week_title">أيام في الأسبوع</string>
+    <string name="preferences_days_per_week_dialog">أيام في الأسبوع</string>
+    <string name="preferences_default_event_duration_title">مدة الحدث الافتراضية</string>
     <string name="preferences_clear_search_history_title">محو سجل البحث</string>
     <string name="preferences_clear_search_history_summary">إزالة جميع عمليات البحث التي أجريتها</string>
     <string name="search_history_cleared">تم محو سجل البحث.</string>
@@ -193,7 +222,19 @@
     <string name="preferences_use_home_tz_descrip">لعرض التقويمات وأوقات الأحداث في المنطقة الزمنية الأساسية أثناء السفر</string>
     <string name="preferences_home_tz_title">المنطقة الزمنية الأساسية</string>
     <string name="preferences_show_week_num_title">إظهار رقم الأسبوع</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">اطلب تذكير تأخير الغفوة</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">اطلب تأخير الغفوة كلما ظهرت تذكيرات الغفوة</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">استخدم دائماً تأخير الغفوة الافتراضي</string>
+    <string name="snooze_delay_dialog_title">تعيين تأخير الغفوة</string>
+    <string name="preferences_default_snooze_delay_title">وقت تأخير التأخير الافتراضي</string>
+    <string name="preferences_default_snooze_delay_dialog">تأخير غفوة افتراضي</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> مشروع إيتار. قسم \u00a9 2005-<xliff:g>%1$s</xliff:g> مشروع أندرويد مفتوح المصدر.</string>
+    <string name="authors">المؤلفون</string>
+    <string name="changelog">سجل التغييرات</string>
+    <string name="license">الترخيص</string>
     <string name="preferences_build_version">نسخة الإصدار</string>
+    <string name="preferences_issues">الإبلاغ عن مشاكل</string>
+    <string name="source_code">المصدر</string>
     <plurals name="month_more_events">
         <item quantity="zero">1+</item>
         <item quantity="one">"+<xliff:g id="NUMBER">%d</xliff:g>"</item>
@@ -288,4 +329,67 @@
         <item quantity="other">لـ <xliff:g id="EVENT_COUNT">%d</xliff:g> من الأحداث</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">تغيير تاريخ الانتهاء</string>
+    <string name="user_rejected_calendar_write_permission">التقويم يتطلب أذونات القراءة والكتابة ليعمل التقويم بشكل صحيح. الرجاء المحاولة مرة أخرى.</string>
+    <string name="calendar_permission_not_granted">رفضت الأذونات المطلوبة، قم بتفعيلها من إعدادات التطبيق لتعديل الأحداث</string>
+    <string name="visibility_default">الافتراضي</string>
+    <string name="visibility_confidential">سري</string>
+    <string name="visibility_private">خاص</string>
+    <string name="visibility_public">عام</string>
+    <string name="two_days">يومين</string>
+    <string name="three_days">3 أيام</string>
+    <string name="four_days">4 أيام</string>
+    <string name="five_days">5 أيام</string>
+    <string name="six_days">6 أيام</string>
+    <string name="seven_days">7 أيام</string>
+    <string name="zero_minutes">0 دقيقة</string>
+    <string name="fifteen_minutes">15 دقيقة</string>
+    <string name="thirty_minutes">30 دقيقة</string>
+    <string name="one_hour">ساعة واحدة</string>
+    <string name="one_and_a_half_hours">ساعة ونصف</string>
+    <string name="two_hours">ساعتان</string>
+    <string name="error_generating_ics">حدثت مشكلة أثناء مشاركة الحدث</string>
+    <string name="cal_share_intent_title">إرسال الحدث إلى:</string>
+    <string name="cal_export_event_sdcard_title">تصدير إلى بطاقة SD</string>
+    <string name="cal_export_succ_msg">صُدر الحدث بنجاح: %1$s</string>
+    <string name="cal_import_menu_title">استيراد الحدث</string>
+    <string name="cal_nothing_to_import">لا شيء للاستيراد</string>
+    <string name="cal_import_error_msg">فشل الاستيراد إلى التقويم</string>
+    <string name="cal_import_error_time_zone_msg">غير قادر على فهم المنطقة الزمنية المعطاة: %s</string>
+    <string name="cal_import_error_date_msg">غير قادر على فهم التاريخ المعطى: %s</string>
+    <string name="cal_pick_ics">اختر ملف للاستيراد</string>
+    <string name="show_time_no">لا تظهر الوقت</string>
+    <string name="show_time_start">وقت البدء فقط</string>
+    <string name="show_time_start_end">تاريخ البدء والانتهاء</string>
+    <string name="show_time_start_end_below">وقت البدء والنهاية تحت الحدث</string>
+    <string name="preferences_calendar_no_display_name">تقويم غير مسمى</string>
+    <string name="preferences_calendar_account">%1$s حساب</string>
+    <string name="preferences_calendar_account_local">تقويم بلا إنترنت</string>
+    <string name="preferences_calendar_configure_account">تكوين التقويم في %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d حدث</string>
+    <string name="preferences_calendar_delete">حذف التقويم</string>
+    <string name="preferences_calendar_display_name">تغيير الاسم</string>
+    <string name="preferences_calendar_info_category">معلومات التقويم</string>
+    <string name="preferences_calendar_color">اللون</string>
+    <string name="preferences_calendar_visible">عرض الأحداث</string>
+    <string name="preferences_calendar_synchronize">مزامنة هذا التقويم</string>
+    <string name="preferences_calendar_color_warning_title">تحذير</string>
+    <string name="preferences_calendar_color_warning_message">قد يُلغى تغيير اللون عند مزامنة التقويم مرة أخرى.\n\n لمع ذلك يمكن تعطيل \'إدارة ألوان التقويم\' فيDAVx⁵.</string>
+    <string name="preferences_calendar_color_warning_button">أتفهم ذلك</string>
+    <string name="preferences_calendar_delete_message">أمتأكد من حذف هذا التقويم؟</string>
+    <string name="preferences_calendar_delete_delete">حذف التقويم</string>
+    <string name="preferences_calendar_delete_cancel">إلغاء</string>
+    <string name="preferences_list_calendar_summary_sync_off">غير متزامنة</string>
+    <string name="preferences_list_calendar_summary_invisible">لم تعرض الأحداث</string>
+    <string name="preferences_list_general">الإعدادات العامة</string>
+    <string name="preferences_list_add_remote">إضافة تقويم CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">إضافة تقويم EteSync</string>
+    <string name="preferences_list_add_offline">إضافة تقويم دون اتصال</string>
+    <string name="preferences_list_add_offline_title">إضافة تقويم دون اتصال</string>
+    <string name="preferences_list_add_offline_error_empty">أدخل اسم التقويم!</string>
+    <string name="preferences_list_add_offline_message">لا تُزامن التقاويم غير المتصلة بالإنترنت مع خدمة سحابية، وهي متوفرة فقط على هاتفك.</string>
+    <string name="preferences_list_add_offline_button">إضافة تقويم</string>
+    <string name="preferences_list_add_offline_name">الاسم</string>
+    <string name="preferences_list_add_offline_cancel">إلغاء</string>
+    <string name="preferences_menu_about">حول التقويم</string>
+    <string name="offline_account_name">تقويم غير متصل</string>
 </resources>

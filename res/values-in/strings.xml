@@ -154,6 +154,7 @@
     <string name="preferences_month_view_portrait">Tata letak tampilan Bulan (Potret)</string>
     <string name="preferences_month_view_landscape">Tata letak tampilan Bulan (Lanskap)</string>
     <string name="preferences_theme">Tema</string>
+    <string name="preferences_system_theme">Default sistem</string>
     <string name="preferences_light_theme">Terang</string>
     <string name="preferences_dark_theme">Gelap</string>
     <string name="preferences_black_theme">Hitam</string>
@@ -171,6 +172,7 @@
     <string name="preferences_week_start_day_dialog">Minggu dimulai:</string>
     <string name="preferences_days_per_week_title">Hari per minggu</string>
     <string name="preferences_days_per_week_dialog">Hari per minggu</string>
+    <string name="preferences_default_event_duration_title">Durasi acara default</string>
     <string name="preferences_clear_search_history_title">Hapus riwayat penelusuran</string>
     <string name="preferences_clear_search_history_summary">Hapus semua penelusuran yang telah Anda lakukan</string>
     <string name="search_history_cleared">Riwayat penelusuran dihapus.</string>
@@ -185,6 +187,13 @@
     <string name="preferences_use_home_tz_descrip">Tampilkan kalender dan waktu acara dalam zona waktu domestik ketika melakukan perjalanan</string>
     <string name="preferences_home_tz_title">Zona waktu domestik</string>
     <string name="preferences_show_week_num_title">Tampilkan angka minggu</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Minta jeda penundaan pengingat</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Minta jeda penundaan setiap kali menunda pengingat</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Selalu gunakan jeda penundaan default</string>
+    <string name="snooze_delay_dialog_title">Setel jeda penundaan</string>
+    <string name="preferences_default_snooze_delay_title">Lama jeda penundaan default</string>
+    <string name="preferences_default_snooze_delay_dialog">Jeda penundaan default</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Penulis</string>
     <string name="changelog">Daftar perubahan</string>
     <string name="license">Lisensi</string>
@@ -246,7 +255,9 @@
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">ubah tanggal akhir</string>
     <string name="visibility_default">Standar</string>
+    <string name="visibility_confidential">Rahasia</string>
     <string name="visibility_private">Pribadi</string>
+    <string name="visibility_public">Publik</string>
     <string name="two_days">2 hari</string>
     <string name="three_days">3 hari</string>
     <string name="four_days">4 hari</string>
@@ -266,9 +277,15 @@
     <string name="cal_import_menu_title">Impor acara</string>
     <string name="cal_nothing_to_import">Tidak ada apapun untuk diimpor</string>
     <string name="cal_import_error_msg">Gagal mengimpor ke kalendar</string>
+    <string name="cal_import_error_time_zone_msg">Zona waktu yang diberikan tidak dapat dimengerti: %s</string>
+    <string name="cal_import_error_date_msg">Tanggal yang diberikan tidak dapat dimengerti: %s</string>
     <string name="cal_pick_ics">Pilih berkas yang akan diimpor</string>
+    <string name="show_time_no">Jangan tampilkan waktu</string>
+    <string name="show_time_start">Hanya waktu mulai</string>
+    <string name="preferences_calendar_no_display_name">Kalender tanpa nama</string>
     <string name="preferences_calendar_account">%1$s akun</string>
     <string name="preferences_calendar_account_local">Kalender offline</string>
+    <string name="preferences_calendar_configure_account">Konfigurasikan kalender pada %1$s</string>
     <string name="preferences_calendar_number_of_events">%1$d acara</string>
     <string name="preferences_calendar_delete">Hapus kalender</string>
     <string name="preferences_calendar_display_name">Ubah nama</string>
@@ -284,6 +301,8 @@
     <string name="preferences_list_calendar_summary_sync_off">Tidak disinkronkan</string>
     <string name="preferences_list_calendar_summary_invisible">Acara tidak ditampilkan</string>
     <string name="preferences_list_general">Pengaturan umum</string>
+    <string name="preferences_list_add_remote">Tambahkan kalender CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Tambahkan kalender EteSync</string>
     <string name="preferences_list_add_offline">Tambah kalender offline</string>
     <string name="preferences_list_add_offline_title">Tambah kalender offline</string>
     <string name="preferences_list_add_offline_error_empty">Masukkan nama kalender!</string>
