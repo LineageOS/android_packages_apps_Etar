@@ -93,6 +93,7 @@
         </activity>
 
         <activity android:name="com.android.calendar.EventInfoActivity"
+            android:exported="true"
             android:parentActivityName="com.android.calendar.AllInOneActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -130,6 +131,7 @@
 
         <activity
             android:name="com.android.calendar.GoogleCalendarUriIntentFilter"
+            android:exported="true"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/app_label"
             android:theme="@android:style/Theme.NoDisplay">
