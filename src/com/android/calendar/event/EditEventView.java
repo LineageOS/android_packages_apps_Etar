@@ -833,7 +833,9 @@ public class EditEventView implements View.OnClickListener, DialogInterface.OnCa
         }
 
         if (mEventRecurrence.startDate == null) {
-            mEventRecurrence.startDate = mStartTime;
+            com.android.calendarcommon2.Time startDate = new com.android.calendarcommon2.Time();
+            startDate.set(mStartTime.toMillis(false));
+            mEventRecurrence.startDate = startDate;
         }
 
         // If the user is allowed to change the attendees set up the view and

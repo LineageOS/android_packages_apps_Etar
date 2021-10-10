@@ -1526,10 +1526,11 @@ public class EventInfoFragment extends DialogFragment implements OnCheckedChange
         if (!TextUtils.isEmpty(rRule)) {
             EventRecurrence eventRecurrence = new EventRecurrence();
             eventRecurrence.parse(rRule);
-            Time date = new Time(localTimezone);
+            com.android.calendarcommon2.Time date =
+                    new com.android.calendarcommon2.Time(localTimezone);
             date.set(mStartMillis);
             if (mAllDay) {
-                date.timezone = Time.TIMEZONE_UTC;
+                date.setTimezone(Time.TIMEZONE_UTC);
             }
             eventRecurrence.setStartDate(date);
             repeatString = EventRecurrenceFormatter.getRepeatString(mContext, resources,
