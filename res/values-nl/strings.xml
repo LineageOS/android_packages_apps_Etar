@@ -38,6 +38,11 @@
         <item quantity="one">1 dag</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dagen</item>
     </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Week <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Week <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="calendar_refresh">"Vernieuw"</string>
     <string name="show_day_view">"Geef dag weer"</string>
     <string name="agenda_view">"Agenda"</string>
     <string name="day_view">"Dag"</string>
@@ -47,11 +52,14 @@
     <string name="event_create">"Nieuwe afspraak"</string>
     <string name="event_edit">"Bewerken"</string>
     <string name="event_delete">"Afspraak verwijderen"</string>
+    <string name="share_label">Deel</string>
     <string name="goto_today">"Vandaag"</string>
+    <string name="goto_date">Ga naar\u2026</string>
     <string name="menu_preferences">"Instellingen"</string>
     <string name="search">"Zoeken"</string>
     <string name="hide_controls">"Bediening verbergen"</string>
     <string name="show_controls">"Bediening weergeven"</string>
+    <string name="view_settings">"Bekijk instellingen"</string>
     <string name="select_synced_calendars_button">Agenda\'s om te synchroniseren</string>
     <string name="hint_what">"Afspraaknaam"</string>
     <string name="hint_where">"Locatie"</string>
@@ -67,6 +75,8 @@
     <string name="rsvp_declined">"Gereageerd met nee."</string>
     <string name="create_event_dialog_save">Opslaan</string>
     <string name="alert_title">Agenda-herinneringen</string>
+    <string name="foreground_notification_channel_name">Synchroniseer waarschuwingen</string>
+    <string name="foreground_notification_channel_description">Voorgrondnotificatie vereist voor interne waarschuwingssynchronisatie</string>
     <string name="event_info_title">Afspraak weergeven</string>
     <string name="event_info_title_invite">Uitnodiging voor vergadering</string>
     <string name="edit_event_all_day_label">De hele dag</string>
@@ -93,6 +103,7 @@
     <string name="email_picker_label">E-mail met</string>
     <string name="event_not_found">"Afspraak niet gevonden."</string>
     <string name="map_label">Kaart</string>
+    <string name="no_map">Er is geen kaarten-app geïnstalleerd</string>
     <string name="call_label">Bellen</string>
     <string name="quick_response_settings">Snelle reacties</string>
     <string name="quick_response_settings_summary">Standaardreacties bewerken voor het e-mailen van gasten</string>
@@ -108,6 +119,9 @@
     <string name="quick_response_custom_msg">Eigen reactie opstellen…</string>
     <string name="event_info_organizer">Organisator:</string>
     <string name="event_info_reminders_label">Herinneringen</string>
+    <string name="agenda_today">VANDAAG, <xliff:g id="DATE">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">GISTEREN, <xliff:g id="DATE">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Morgen, <xliff:g id="DATE">%1$s</xliff:g></string>
     <string name="loading">Laden...</string>
     <string name="show_older_events">Raak aan om gebeurtenissen vóór <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> weer te geven</string>
     <string name="show_newer_events">Raak aan om gebeurtenissen na <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> weer te geven</string>
@@ -147,10 +161,29 @@
     <string name="change_response_title">Reactie wijzigen</string>
     <string name="preferences_title">"Instellingen"</string>
     <string name="preferences_general_title">Instelling agendaweergave</string>
+    <string name="preferences_month_view_portrait">Lay-out van de maand bekijken (Portrait)</string>
+    <string name="preferences_month_view_landscape">Lay-out van de maandelijkse weergave (liggend)</string>
+    <string name="preferences_theme">Thema</string>
+    <string name="preferences_system_theme">Systeemstandaard</string>
+    <string name="preferences_light_theme">Licht</string>
+    <string name="preferences_dark_theme">Donker</string>
+    <string name="preferences_black_theme">Zwart</string>
+    <string name="preferences_color">Hoofdkleur</string>
+    <string name="preferences_color_pick">Hoofdkleur</string>
+    <string name="preferences_pure_black_night_mode">Puur zwarte nachtmodus</string>
     <string name="preferences_reminder_title">Meldingen en herinneringen</string>
     <string name="preferences_hide_declined_title">Geweigerde afspraken verbergen</string>
+    <string name="default_start_title">Standaardweergave</string>
+    <string name="display_options">Weergave-opties</string>
+    <string name="display_time">Weergavetijd</string>
+    <string name="display_location">Locatie weergeven</string>
+    <string name="maximum_number_of_lines">Maximaal aantal regels in afspraak</string>
+    <string name="default_start_last">Eerder gebruikte weergave</string>
     <string name="preferences_week_start_day_title">Week begint op</string>
     <string name="preferences_week_start_day_dialog">Week begint op</string>
+    <string name="preferences_days_per_week_title">Dagen per week</string>
+    <string name="preferences_days_per_week_dialog">Dagen per week</string>
+    <string name="preferences_default_event_duration_title">Standaard afspraakduur</string>
     <string name="preferences_clear_search_history_title">Zoekgeschiedenis wissen</string>
     <string name="preferences_clear_search_history_summary">Alle uitgevoerde zoekopdrachten verwijderen</string>
     <string name="search_history_cleared">Zoekgeschiedenis gewist.</string>
@@ -165,7 +198,19 @@
     <string name="preferences_use_home_tz_descrip">Op reis agenda\'s en afspraaktijden weergeven in tijdzone van thuis</string>
     <string name="preferences_home_tz_title">Eigen tijdzone</string>
     <string name="preferences_show_week_num_title">Weeknummer weergeven</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Sluimertijd vragen</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Vraag sluimertijdverlenging voor gesluimerde herinneringen</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Altijd de standaard sluimertijd gebruiken</string>
+    <string name="snooze_delay_dialog_title">Sluimertijd instellen</string>
+    <string name="preferences_default_snooze_delay_title">Standaard sluimertijd</string>
+    <string name="preferences_default_snooze_delay_dialog">Standaard sluimertijd</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Het Etar Project. Porties \u00a9 2005-<xliff:g>%1$s</xliff:g> Het Android Open Source Project.</string>
+    <string name="authors">Auteurs</string>
+    <string name="changelog">Wijzigingen</string>
+    <string name="license">Licentie</string>
     <string name="preferences_build_version">Build-versie</string>
+    <string name="preferences_issues">Meldt problemen</string>
+    <string name="source_code">Bron</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
@@ -228,4 +273,67 @@
         <item quantity="other">Voor <xliff:g id="EVENT_COUNT">%d</xliff:g> evenementen</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">einddatum wijzigen</string>
+    <string name="user_rejected_calendar_write_permission">Kalender vereist dat u lees- en schrijfrechten hebt om correct te werken. Probeer het opnieuw.</string>
+    <string name="calendar_permission_not_granted">Vereiste machtigingen werden geweigerd, schakel ze in bij Instellingen om afspraak aan te passen.</string>
+    <string name="visibility_default">Standaard</string>
+    <string name="visibility_confidential">Vertrouwelijk</string>
+    <string name="visibility_private">Privé</string>
+    <string name="visibility_public">Openbaar</string>
+    <string name="two_days">2 dagen</string>
+    <string name="three_days">3 dagen</string>
+    <string name="four_days">4 dagen</string>
+    <string name="five_days">5 dagen</string>
+    <string name="six_days">6 dagen</string>
+    <string name="seven_days">7 dagen</string>
+    <string name="zero_minutes">0 minuten</string>
+    <string name="fifteen_minutes">15 minuten</string>
+    <string name="thirty_minutes">30 minuten</string>
+    <string name="one_hour">1 uur</string>
+    <string name="one_and_a_half_hours">1,5 uur</string>
+    <string name="two_hours">2 uur</string>
+    <string name="error_generating_ics">Problemen ondervonden tijdens het delen van gebeurtenis</string>
+    <string name="cal_share_intent_title">Gebeurtenis verzenden naar:</string>
+    <string name="cal_export_event_sdcard_title">Exporteer naar SD Card</string>
+    <string name="cal_export_succ_msg">Afspraak met succes geëxporteerd: %1$s</string>
+    <string name="cal_import_menu_title">Importeer afspraak</string>
+    <string name="cal_nothing_to_import">Niets om te importeren</string>
+    <string name="cal_import_error_msg">Importeren naar agenda mislukt</string>
+    <string name="cal_import_error_time_zone_msg">Begrijp de gegeven tijdzone niet: %s</string>
+    <string name="cal_import_error_date_msg">Begrijp de gegeven datum niet: %s</string>
+    <string name="cal_pick_ics">Kies bestand om te importeren</string>
+    <string name="show_time_no">Geef tijd niet weer</string>
+    <string name="show_time_start">Alleen starttijd</string>
+    <string name="show_time_start_end">Start- en eindtijd</string>
+    <string name="show_time_start_end_below">Start- en eindtijd onder de afspraak</string>
+    <string name="preferences_calendar_no_display_name">Naamloze kalender</string>
+    <string name="preferences_calendar_account">%1$s account</string>
+    <string name="preferences_calendar_account_local">Offline kalender</string>
+    <string name="preferences_calendar_configure_account">Configureer kalender in %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d afspraken</string>
+    <string name="preferences_calendar_delete">Verwijder kalender</string>
+    <string name="preferences_calendar_display_name">Verander naam</string>
+    <string name="preferences_calendar_info_category">Kalender informatie</string>
+    <string name="preferences_calendar_color">Kleur</string>
+    <string name="preferences_calendar_visible">Toon afspraken</string>
+    <string name="preferences_calendar_synchronize">Synchroniseer deze kalender</string>
+    <string name="preferences_calendar_color_warning_title">Waarschuwing</string>
+    <string name="preferences_calendar_color_warning_message">Het wijzigen van de kleur kan ongedaan worden gemaakt wanneer de kalender opnieuw wordt gesynchroniseerd.\n\nIn DAVx5 \'Kalenderkleuren beheren\' kan worden uitgeschakeld om dit te voorkomen.</string>
+    <string name="preferences_calendar_color_warning_button">Ik begrijp het</string>
+    <string name="preferences_calendar_delete_message">Weet u zeker dat u deze kalender wilt verwijderen?</string>
+    <string name="preferences_calendar_delete_delete">Agenda verwijderen</string>
+    <string name="preferences_calendar_delete_cancel">Annuleer</string>
+    <string name="preferences_list_calendar_summary_sync_off">Niet gesynchroniseerd</string>
+    <string name="preferences_list_calendar_summary_invisible">Afspraken worden niet weergegeven</string>
+    <string name="preferences_list_general">Algemene instellingen</string>
+    <string name="preferences_list_add_remote">CalDAV agenda toevoegen</string>
+    <string name="preferences_list_add_remote_etesync">EteSync kalender toevoegen</string>
+    <string name="preferences_list_add_offline">Voeg off-line kalender toe</string>
+    <string name="preferences_list_add_offline_title">Voeg off-line kalender toe</string>
+    <string name="preferences_list_add_offline_error_empty">Voer een kalendernaam in!</string>
+    <string name="preferences_list_add_offline_message">Offline kalenders zijn NIET gesynchroniseerd met een cloud service en alleen beschikbaar op uw telefoon.</string>
+    <string name="preferences_list_add_offline_button">Voeg kalender toe</string>
+    <string name="preferences_list_add_offline_name">Naam</string>
+    <string name="preferences_list_add_offline_cancel">Annuleer</string>
+    <string name="preferences_menu_about">Over kalender</string>
+    <string name="offline_account_name">Offline kalender</string>
 </resources>

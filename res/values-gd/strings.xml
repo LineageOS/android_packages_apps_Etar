@@ -86,7 +86,7 @@
     <string name="create_event_dialog_save">Sàbhail</string>
     <string name="alert_title">Brathan a’ mhìosachain</string>
     <string name="foreground_notification_channel_name">Sioncronachadh nan rabhaidhean</string>
-    <string name="foreground_notification_channel_description">Brath beulaibh riatanach dhan t-sioncronachadh rabhaidhean inntearnail.</string>
+    <string name="foreground_notification_channel_description">Tha brath beulaibh riatanach dhan t-sioncronachadh rabhaidhean inntearnail.</string>
     <string name="event_info_title">Seall an tachartas</string>
     <string name="event_info_title_invite">Cuireadh coinneimh</string>
     <string name="edit_event_all_day_label">Fad an latha</string>
@@ -224,8 +224,8 @@
     <string name="authors">Ùghdaran</string>
     <string name="changelog">Loga nan atharraichean</string>
     <string name="license">Ceadachas</string>
-    <string name="preferences_build_version">Tionndadh an togail</string>
-    <string name="preferences_issues">Dèan aithris air an duilgheadas</string>
+    <string name="preferences_build_version">Tionndadh na togail</string>
+    <string name="preferences_issues">Dèan aithris air duilgheadasan</string>
     <string name="source_code">Tùs</string>
     <plurals name="month_more_events">
         <item quantity="one">"+<xliff:g id="number">%d</xliff:g>"</item>
