@@ -47,7 +47,6 @@ import android.text.Spanned;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.text.format.DateUtils;
-import android.text.format.Time;
 import android.text.style.URLSpan;
 import android.text.util.Linkify;
 import android.util.Log;
@@ -62,6 +61,7 @@ import com.android.calendar.CalendarEventModel.ReminderEntry;
 import com.android.calendar.CalendarUtils.TimeZoneUtils;
 import com.android.calendar.settings.GeneralPreferences;
 import com.android.calendar.widget.CalendarAppWidgetProvider;
+import com.android.calendarcommon2.Time;
 
 import java.util.ArrayList;
 import java.util.Arrays;
