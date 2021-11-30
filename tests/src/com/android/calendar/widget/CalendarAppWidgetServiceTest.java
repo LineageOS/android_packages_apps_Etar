@@ -119,7 +119,7 @@ public class CalendarAppWidgetServiceTest extends AndroidTestCase {
 
         // Test
         CalendarAppWidgetModel actual = CalendarFactory.buildAppWidgetModel(
-                getContext(), cursor, Time.getCurrentTimezone());
+                getContext(), cursor, Utils.getCurrentTimezone());
 
         assertEquals(expected.toString(), actual.toString());
     }
@@ -168,7 +168,7 @@ public class CalendarAppWidgetServiceTest extends AndroidTestCase {
 
         // Test
         CalendarAppWidgetModel actual = CalendarAppWidgetService.CalendarFactory.buildAppWidgetModel(
-                context, cursor, Time.getCurrentTimezone());
+                context, cursor, Utils.getCurrentTimezone());
 
         Log.e("Test", " expected: " + expected.toString()
             + " actual: " + actual.toString());
