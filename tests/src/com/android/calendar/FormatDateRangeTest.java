@@ -54,10 +54,10 @@ public class FormatDateRangeTest extends AndroidTestCase {
             }
 
             date1.set(0, minute1, hour1, day1, month1, year1);
-            date1.normalize(true /* ignore isDst */);
+            date1.normalize();
 
             date2.set(0, minute2, hour2, day2, month2, year2);
-            date2.normalize(true /* ignore isDst */);
+            date2.normalize();
 
             this.flags = flags;
             expectedOutput = output;
@@ -183,8 +183,8 @@ public class FormatDateRangeTest extends AndroidTestCase {
         int len = tests.length;
         for (int index = 0; index < len; index++) {
             DateTest dateTest = tests[index];
-            long startMillis = dateTest.date1.toMillis(false /* use isDst */);
-            long endMillis = dateTest.date2.toMillis(false /* use isDst */);
+            long startMillis = dateTest.date1.toMillis();
+            long endMillis = dateTest.date2.toMillis();
             int flags = dateTest.flags;
             String output = DateUtils.formatDateRange(mContext, startMillis, endMillis, flags);
             if (!dateTest.expectedOutput.equals(output)) {
