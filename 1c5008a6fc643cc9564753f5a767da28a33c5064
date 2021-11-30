@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff50d1c5_3906d1f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2021-11-30T21:45:48Z",
+      "side": 1,
+      "message": "The changes are, to be summarized\n\n* Direct variable access to getters and setters\n* Removal of \u0027ignoreDst\u0027 param from certain methods\n* Removal of custom format from format()\n* Account for removal of internal julian day constant.",
+      "revId": "1c5008a6fc643cc9564753f5a767da28a33c5064",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
