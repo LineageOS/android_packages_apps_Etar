@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba3ffc01_2d1a0284",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2021-11-30T21:37:04Z",
+      "side": 1,
+      "message": "Merged till here upstream, let\u0027s ship?\n\nhttps://github.com/Etar-Group/Etar-Calendar/commit/4c7dcb19dda8dc4b3ee86d3520c195a040afcb1d",
+      "revId": "5265f2874285f365e84f50405e59efe70f394ff6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
