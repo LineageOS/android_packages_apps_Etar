@@ -1505,7 +1505,7 @@ public class Utils {
             } else {
                 Time startTime = new Time(localTimezone);
                 startTime.set(startMillis);
-                tzDisplay = tz.getDisplayName(startTime.isDst != 0, TimeZone.SHORT);
+                tzDisplay = tz.getDisplayName(false, TimeZone.SHORT);
             }
         }
         return tzDisplay;
