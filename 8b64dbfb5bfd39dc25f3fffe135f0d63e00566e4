@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c86aae3_570fdd67",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2021-11-30T21:40:13Z",
+      "side": 1,
+      "message": "Spaces vs tabs, and now newline at end of file vs not. :P",
+      "revId": "8b64dbfb5bfd39dc25f3fffe135f0d63e00566e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
