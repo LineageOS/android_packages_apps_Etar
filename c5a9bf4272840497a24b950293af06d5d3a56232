@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "346766bd_deedf962",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2021-11-30T21:32:04Z",
+      "side": 1,
+      "message": "Minor nits, mostly LGTM otherwise.\n\n",
+      "revId": "c5a9bf4272840497a24b950293af06d5d3a56232",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5fd7c7b8_b600fb3d",
+        "filename": "src/com/android/calendar/Utils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 596,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2021-11-30T21:32:04Z",
+      "side": 1,
+      "message": "Forgot this and one below.",
+      "revId": "c5a9bf4272840497a24b950293af06d5d3a56232",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa43d964_dac0f342",
+        "filename": "src/com/android/calendar/Utils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 621,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2021-11-30T21:32:04Z",
+      "side": 1,
+      "message": "{@link EPOCH_JULIAN_DAY} might still work?",
+      "revId": "c5a9bf4272840497a24b950293af06d5d3a56232",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c73fe969_644585f5",
+        "filename": "src/com/android/calendar/event/CreateEventDialogFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2021-11-30T21:32:04Z",
+      "side": 1,
+      "message": "Will this be fine?",
+      "revId": "c5a9bf4272840497a24b950293af06d5d3a56232",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "09fc13c7_c7a7496e",
+        "filename": "src/com/android/calendar/widget/CalendarAppWidgetModel.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2021-11-30T21:32:04Z",
+      "side": 1,
+      "message": "Only import changes in this file and below, move them to the other commit?",
+      "revId": "c5a9bf4272840497a24b950293af06d5d3a56232",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
