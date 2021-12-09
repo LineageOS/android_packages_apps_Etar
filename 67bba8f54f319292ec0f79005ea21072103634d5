@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0787bff4_67167c42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2021-12-09T20:53:34Z",
+      "side": 1,
+      "message": "Merged upstream, https://github.com/Etar-Group/Etar-Calendar/pull/1046",
+      "revId": "67bba8f54f319292ec0f79005ea21072103634d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
