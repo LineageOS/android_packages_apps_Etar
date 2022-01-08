@@ -14,171 +14,398 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- This is the label underneath the icon for Calendar -->
     <string name="app_label">Mìosachan</string>
+    <!-- Shared Labels. These labels are shared among the activities. -->
+    <!-- This is the label for the time of an event [CHAR LIMIT=30] -->
     <string name="when_label">Cuin</string>
+    <!-- Text to show when an event starts on the current day -->
     <string name="today">An-diugh</string>
+    <!-- Text to show when an event starts on the next day -->
     <string name="tomorrow">A-màireach</string>
+    <!-- Text for an event starting on the current day with a start and end time.
+         For ex, "Today at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
     <string name="today_at_time_fmt">"An-diugh aig <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <!-- Text for an event starting on the next day with a start and end time.
+         For ex, "Tomorrow at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
     <string name="tomorrow_at_time_fmt">"A-màireach aig <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <!-- Format string for a date and time description.  For ex:
+         "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
+    <!-- Title of event when no explicit title is specified by the user -->
     <string name="no_title_label">(Gun tiotal)</string>
+    <!-- Reminder format strings -->
     <plurals name="Nminutes">
+        <!-- This is the label for a 1-minute reminder. -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> mhionaid</item>
         <item quantity="two"><xliff:g id="count">%d</xliff:g> mhionaid</item>
         <item quantity="few"><xliff:g id="count">%d</xliff:g> mionaidean</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> mionaid</item>
     </plurals>
+    <!-- We use the abbreviation "mins" instead of "minutes" to keep the string short.
+         This is the number of minutes displayed for a calendar reminder.  For example,
+         a reminder of 10 minutes would be displayed as '10 mins'.  The translation
+         should use the shortest acceptable abbreviation to save space. -->
     <plurals name="Nmins">
+        <!-- This is the label for a 1-minute reminder. -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> mhion</item>
         <item quantity="two"><xliff:g id="count">%d</xliff:g> mhion</item>
         <item quantity="few"><xliff:g id="count">%d</xliff:g> mion</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> mion</item>
     </plurals>
+    <!-- This is the number of hours displayed for a calendar reminder.  For example,
+         a reminder of 1 hour would be displayed as '1 hour'.  The translation
+         should use the shortest acceptable abbreviation of 'hour' to save space. -->
     <plurals name="Nhours">
+        <!-- This is the label for a 1-hour reminder. -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> uair a thìde</item>
         <item quantity="two"><xliff:g id="count">%d</xliff:g> uair a thìde</item>
         <item quantity="few"><xliff:g id="count">%d</xliff:g> uairean a thìde</item>
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> uair a thìde</item>
     </plurals>
+    <!-- This is the number of days displayed for a calendar reminder.  For example,
+         a reminder of 2 days would be displayed as '2 days'.  The translation
+         should use the shortest acceptable abbreviation of 'day' to save space. -->
     <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> latha</item>
         <item quantity="two"><xliff:g id="count">%d</xliff:g> latha</item>
         <item quantity="few"><xliff:g id="count">%d</xliff:g> làithean</item>
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> latha</item>
     </plurals>
+    <!-- This is for displaying the week of the year near the date. Eg. "January, 2011 Week 1" -->
     <plurals name="weekN">
         <item quantity="one">Seachdain <xliff:g id="count">%d</xliff:g></item>
         <item quantity="two">Seachdain <xliff:g id="count">%d</xliff:g></item>
         <item quantity="few">Seachdain <xliff:g id="count">%d</xliff:g></item>
+        <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
         <item quantity="other">Seachdain <xliff:g id="count">%d</xliff:g></item>
     </plurals>
+    <!-- Menu items: -->
+    <!-- This is a label on a context menu item. Pressing this menu item to initiate
+        syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
     <string name="calendar_refresh">"Ath-nuadhaich"</string>
+    <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Agenda view. -->
+    <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Day view. -->
     <string name="show_day_view">"Seall an latha"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Agenda view. -->
     <string name="agenda_view">"Clàr-gnothaich"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Day view. -->
     <string name="day_view">"Latha"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Week view. -->
     <string name="week_view">"Seachdain"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Month view. -->
     <string name="month_view">"Mìos"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         details of an event. -->
     <string name="event_view">"Seall an tachartas"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to create a new event. -->
     <string name="event_create">"Tachartas ùr"</string>
+    <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to edit or change an existing event. -->
     <string name="event_edit">"Deasaich an tachartas"</string>
+    <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to delete an existing event. -->
     <string name="event_delete">"Sguab às an tachartas"</string>
     <string name="share_label">Co-roinn</string>
+    <!-- This is a label on a menu item. Pressing this menu
+         item takes the user to the current day (today) in whatever view
+         (Day view, Week view, Agenda view, Month view) they are currently in. -->
     <string name="goto_today">"An-diugh"</string>
+    <!-- This is a label on a menu item. Pressing this menu
+         item opens new dialog shown the date that the user wants to go. -->
     <string name="goto_date">Rach gu\u2026</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to view and edit his Settings (or Preferences) -->
     <string name="menu_preferences">"Roghainnean"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
     <string name="search">"Lorg"</string>
+    <!-- This is a label on a menu item. Pressing this menu item hides
+         the navigation controls on the right side. [CHAR LIMIT=20] -->
     <string name="hide_controls">"Falaich na h-uidheaman-smachd"</string>
+    <!-- This is a label on a menu item. Pressing this menu item shows the
+         navigation controls on the right side. [CHAR LIMIT=20] -->
     <string name="show_controls">"Seall na h-uidheaman-smachd"</string>
+    <!-- This is a label on a menu item. Pressing this menu item shows the
+         View settings menu [CHAR LIMIT=20] -->
     <string name="view_settings">"Roghainnean seallaidh"</string>
+    <!-- Month view -->
+    <!-- Select Visible Calendars activity -->
+    <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
     <string name="select_synced_calendars_button">Mìosachain a thèid a shioncronachadh</string>
+    <!-- Event edit activity -->
+    <!-- Default value of What field (as a hint to the user) [CHAR LIMIT=15] -->
     <string name="hint_what">"Ainm an tachartais"</string>
+    <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
     <string name="hint_where">"Ionad"</string>
+    <!-- Default value of Description field (as a hint to the user) [CHAR LIMIT=15]-->
     <string name="hint_description">"Tuairisgeul"</string>
+    <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
     <string name="hint_attendees">"Aoighean"</string>
+    <!-- Toast message displayed when a new event is created -->
     <string name="creating_event">"Chaidh an tachartas a chruthachadh."</string>
+    <!-- Toast message displayed when an existing event is saved after being modified -->
     <string name="saving_event">"Chaidh an tachartas a shàbhaladh."</string>
+    <!-- Toast message displayed when a new event was not saved because it was empty [CHAR LIMIT=30] -->
     <string name="empty_event">"Cha deach tachartas bàn a chruthachadh."</string>
+    <!-- Toast message displayed when a new event with guests is created -->
     <string name="creating_event_with_guest">"Thèid cuiridhean a chur."</string>
+    <!-- Toast message displayed when an existing event with guests is saved after being modified -->
     <string name="saving_event_with_guest">"Thèid ùrachaidhean a chur."</string>
+    <!-- Toast message displayed responding to an event from an email as accepted
+     [CHAR LIMIT=50] -->
     <string name="rsvp_accepted">"Chaidh gabhail ris."</string>
+    <!-- Toast message displayed responding to an event from an email as tentative
+     [CHAR LIMIT=50] -->
     <string name="rsvp_tentative">"Chaidh gabhail ris gun chinnt."</string>
+    <!-- Toast message displayed responding to an event from an email as declined
+     [CHAR LIMIT=50] -->
     <string name="rsvp_declined">"Chaidh a dhiùltadh."</string>
+    <!-- Create event dialog -->
+    <!-- Create event dialog save button [CHAR LIMIT=10] -->
     <string name="create_event_dialog_save">Sàbhail</string>
+    <!-- The alert toast is not actually being displayed for some reason. -->
+    <!-- the title of the alert/notification activity -->
     <string name="alert_title">Brathan a’ mhìosachain</string>
+    <!-- Notification window messages: -->
     <string name="foreground_notification_channel_name">Sioncronachadh nan rabhaidhean</string>
     <string name="foreground_notification_channel_description">Tha brath beulaibh riatanach dhan t-sioncronachadh rabhaidhean inntearnail.</string>
+    <!-- Event info/edit screen labels:-->
+    <!-- This is the title of the screen used to view the details of an event -->
     <string name="event_info_title">Seall an tachartas</string>
+    <!-- This is the title of the screen used to view the details of an invitation
+         to a meeting or event -->
     <string name="event_info_title_invite">Cuireadh coinneimh</string>
+    <!-- EditEventActivity specific strings: -->
+    <!-- Check box label that specifies if this is an all-day event -->
     <string name="edit_event_all_day_label">Fad an latha</string>
+    <!-- Label for choosing one of the calendars -->
     <string name="edit_event_calendar_label">Mìosachan</string>
+    <!-- Menu item to show all choices [CHAR LIMIT=22]-->
+    <!-- Label for the 'Presence' of an event, which can be either 'busy' (the default)
+         or 'available'  [CHAR LIMIT=15] -->
     <string name="presence_label">Seall mi mar</string>
+    <!-- Label for the 'Privacy' of an event, which can be either 'private'
+         or 'public' [CHAR LIMIT=15] -->
     <string name="privacy_label">Prìobhaideachd</string>
+    <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
     <string name="reminders_label">Cuir cuimhneachan ris</string>
+    <!-- Title of alert shown if the user tries to create an event and has no calendars -->
     <string name="no_syncable_calendars">Chan eil mìosachan ann</string>
+    <!-- Body of alert shown if the user tries to create an event and has no calendars. Users can start adding an account here. [CHAR LIMIT=NONE] -->
     <string name="no_calendars_found">Mus cuir thu tachartas ris, feumaidh tu cunntas mìosachain a chur ris an uidheam agad agus mìosachan a nochdadh. Suath ri “Cuir cunntas ris” a chur cunntas ris (ma tha thu dìreach air cunntas a chur ris, fuirich gus am gi an sioncronachadh deiseil is feuch ris a-rithist an uairsin). No suath ri “Sguir dheth” agus dèan cinnteach gu bheil mìosachan a nochdas ann.</string>
+    <!-- Body of dialog prompting the user to create an account.[CHAR LIMIT=NONE] -->
+    <!-- Title of a button shown when there is no account available and the system prompt a user to add one. [CHAR LIMIT=none] -->
     <string name="add_account">Cuir cunntas ris</string>
+    <!-- View Event -->
+    <!-- Label for which calendar an event is part of -->
     <string name="view_event_calendar_label">Mìosachan:</string>
+    <!-- Label for the event organizer -->
     <string name="view_event_organizer_label">Eagraiche:</string>
+    <!-- Label for showing event color picker -->
     <string name="choose_event_color_label">Tagh dath an tachartais</string>
+    <!-- Title for event color picker dialog -->
     <string name="event_color_picker_dialog_title">Dath an tachartais</string>
+    <!-- Label for button which sets event color to default calendar color -->
     <string name="event_color_set_to_default">Suidhich air dath bunaiteach a’ mhìosachain</string>
+    <!-- Title for calendar color picker dialog -->
     <string name="calendar_color_picker_dialog_title">Dath a’ mhìosachain</string>
+    <!-- Description for calendar color squares, which bring up the color picker. -->
     <string name="calendar_square_color_picker_description">Roghnaichear nan dathan</string>
+    <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
     <string name="view_event_response_label">Am bi thu an làthair?</string>
+    <!-- Response for whether attending an event - accepted [CHAR LIMIT=10]-->
     <string name="response_yes">Bidh</string>
+    <!-- Response for whether attending an event - tentative [CHAR LIMIT=10]-->
     <string name="response_maybe">Gun chinnt</string>
+    <!-- Response for whether attending an event - declined [CHAR LIMIT=10]-->
     <string name="response_no">Cha bhi</string>
+    <!-- Label for emailing attendees -->
     <string name="email_guests_label">Cuir post-d dha na h-aoighean</string>
+    <!-- Label for emailing the organizer (when there are no attendees) -->
     <string name="email_organizer_label">Cuir post-d gun eagraiche</string>
+    <!-- This is shown in the popup picker when emailing attendees -->
     <string name="email_picker_label">Cuir post-d le</string>
+    <!-- The is shown in the email subject as the prefix appended to the event title -->
+    <!-- Toast message displayed when the event id was not found LIMIT=30] -->
     <string name="event_not_found">"Cha deach an tachartas a lorg."</string>
+    <!-- Notification label for getting a map of the location. -->
     <string name="map_label">Mapa</string>
+    <!-- No maps found in phone -->
     <string name="no_map">Cha deach aplacaid mhapaichean a stàladh</string>
+    <!-- Notification label for calling a phone number in the location. -->
     <string name="call_label">Cuir fòn</string>
+    <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
     <string name="quick_response_settings">Grad-fhreagairtean</string>
+    <!-- Summary of the quick response item in Settings [CHAR LIMIT=80]-->
     <string name="quick_response_settings_summary">Deasaich na freagairtean bunaiteach nuair a chuireas tu post-d dha na h-aoighean</string>
+    <!-- Title of the quick response screen in Settings->Quick Response [CHAR LIMIT=27]-->
+    <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
     <string name="quick_response_settings_edit_title">Grad-fhreagairt</string>
+    <!-- Title of the dialog prompting the user choose a response when emailing guests  [CHAR LIMIT=none]-->
     <string name="quick_response_dialog_title">Tagh grad-fhreagairt</string>
+    <!-- Error to user when an email program can't be found[CHAR LIMIT=none]-->
     <string name="quick_response_email_failed">Cha do lorg sinn prògram puist-d</string>
+    <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
     <string-array name="quick_response_defaults">
         <item>Thig mi ri àm Gàidhealach.</item>
         <item>Bi mi ann an ceann 10 mionaidean.</item>
         <item>Siuthadaibh is tòisichibh às m’ aonais.</item>
         <item>Tha mi duilich ach chan urrainn dhomh tighinn. Am feuch sinn àm eile?</item>
     </string-array>
+    <!-- Option to create a custom response instead of using defaults [CHAR LIMIT=none] -->
     <string name="quick_response_custom_msg">Sgrìobh freagairt agad fhèin\u2026</string>
+    <!-- Event Info strings-->
+    <!-- Organizer Label [CHAR LIMIT=12]-->
     <string name="event_info_organizer">Eagraiche:</string>
+    <!-- Reminders label [CHAR LIMIT=15]-->
     <string name="event_info_reminders_label">Cuimhneachain</string>
+    <!-- Agenda View strings -->
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
     <string name="agenda_today">An-diugh, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
     <string name="agenda_yesterday">An-dè, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
     <string name="agenda_tomorrow">A-màireach, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown while the calendar events are being loading to the screen. -->
     <string name="loading">’Ga luchdadh...</string>
+    <!-- This is shown at the top of the agenda view showing the beginning of the searched range. If the user taps on this string and Calendar will find events older than what is visible and display them to the user -->
     <string name="show_older_events">Suath ris a dh’fhaicinn tachartasan ron <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
+    <!-- This is shown at the bottom of the agenda view showing the end of the searched range. If the user taps on this string and Calendar will find events later/newer than what is visible and display them to the user -->
     <string name="show_newer_events">Suath ris a dh’fhaicinn tachartasan an dèidh <xliff:g id="newest_search_range">%1$s</xliff:g></string>
+    <!-- Search activity strings -->
+    <!-- Title of the search screen [CHAR LIMIT=30] -->
     <string name="search_title">Lorg sna mìosachain agam</string>
+    <!-- Button labels: -->
+    <!-- This is the title of a popup window that is displayed when the user
+         edits a repeating event. [CHAR LIMIT=20]-->
     <string name="edit_event_label">"Mion-fhiosrachadh"</string>
+    <!-- This is a menu button for switching into edit mode when viewing an event.
+        [CHAR LIMIT=10] -->
     <string name="edit_label">"Deasaich"</string>
+    <!-- The button label for deleting an event -->
     <string name="delete_label">"Sguab às"</string>
+    <!-- A menu item for deleting an event -->
+    <!-- The button label for saving an event -->
     <string name="save_label">Deiseil</string>
+    <!-- The button label for discarding changes to an event -->
     <string name="discard_label">Sguir dheth</string>
+    <!-- Button labels on expanded notification reminders: -->
+    <!-- The button label for making the reminder alarms go away temporarily.
+         The reminder alarms will fire off again in 5 minutes. -->
+    <!-- The button label for dismissing all the current reminder alarms. This
+         causes them to disappear from the notification screen. -->
     <string name="dismiss_all_label">"Leig seachad na h-uile"</string>
+    <!-- The button label for making the reminder alarms go away temporarily
+         and re-fire in 5 minutes. [CHAR LIMIT=12]-->
     <string name="snooze_label">"Dèan dùsal"</string>
+    <!-- Repetition dialog options: -->
+    <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
     <string name="does_not_repeat">Tachartas aon turais</string>
+    <!-- Part of a description of an repeating event. This part states the date when a repeating
+         event ends. The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
     <string name="endByDate">; gu ruige <xliff:g id="date">%s</xliff:g></string>
+    <!-- Part of a description of an repeating event. This part how many times the event repeats.
+         The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
     <plurals name="endByCount">
         <item quantity="one">; <xliff:g id="number">%d</xliff:g> turas</item>
         <item quantity="two">; <xliff:g id="number">%d</xliff:g> thuras</item>
         <item quantity="few">; <xliff:g id="number">%d</xliff:g> turais</item>
         <item quantity="other">; <xliff:g id="number">%d</xliff:g> turas</item>
     </plurals>
+    <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
     <plurals name="daily">
         <item quantity="one">Gach <xliff:g id="number">%d</xliff:g> latha</item>
         <item quantity="two">Gach <xliff:g id="number">%d</xliff:g> latha</item>
         <item quantity="few">Gach <xliff:g id="number">%d</xliff:g> làithean</item>
         <item quantity="other">Gach <xliff:g id="number">%d</xliff:g> latha</item>
     </plurals>
+    <!-- A label in a multiple-choice list for the specifying that an event
+         repeats every weekday (Monday through Friday) -->
     <string name="every_weekday">"Gach latha-seachdain (DiL\u2013Dih)"</string>
+    <!-- A description for an event that repeats weekly on some day of the week. For example,
+         'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
     <plurals name="weekly">
         <item quantity="one">Gach <xliff:g id="number">%1$d</xliff:g> sheachdain <xliff:g id="days_of_week">%2$s</xliff:g></item>
         <item quantity="two">Gach <xliff:g id="number">%1$d</xliff:g> seachdain <xliff:g id="days_of_week">%2$s</xliff:g></item>
         <item quantity="few">Gach <xliff:g id="number">%1$d</xliff:g> seachdainean <xliff:g id="days_of_week">%2$s</xliff:g></item>
         <item quantity="other">Gach <xliff:g id="number">%1$d</xliff:g> seachdain <xliff:g id="days_of_week">%2$s</xliff:g></item>
     </plurals>
+    <!-- The common portion of a string describing how often an event repeats,
+         example: 'Monthly (on day 2)' -->
     <string name="monthly">Gach mìos</string>
+    <!-- Calendar spinner item, to select that an event recurs every year. -->
     <string name="yearly_plain">Bliadhnail</string>
+    <!-- This is a label for telling the user that this event repeats in
+         custom (non-standard) way from the usual repeat rates (such as daily,
+         weekly, etc.) and that the user cannot change this on the phone
+         (but only on the web). -->
     <string name="custom" product="default">"Gnàthaichte (cha ghabh a ghnàthachadh air fòn)"</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change just this one instance
+         of this repeating event. -->
     <string name="modify_event">Na atharraich ach an tachartas seo</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change all occurrences of
+         this repeating event. -->
     <string name="modify_all">Atharraich gach tachartas san t-sreath</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change this instance and all
+         future occurrences of this repeating event. -->
     <string name="modify_all_following">Atharraich seo ’s gach tachartas ’na dhèidh</string>
+    <!-- Dialogs -->
+    <!-- This is a label on the dialog for creating a new event. [CHAR LIMIT=30] -->
     <string name="new_event_dialog_label">"Tachartas ùr"</string>
+    <!-- This is the button to create a new event in a dialog window. [CHAR LIMIT=30] -->
     <string name="new_event_dialog_option">"Tachartas ùr"</string>
+    <!-- Confirmation dialog message -->
+    <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event. The user still has a chance to cancel
+         this operation. -->
     <string name="delete_this_event_title">An sguab thu às an tachartas seo?</string>
+    <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event that is recurring. The user still has a chance to cancel
+         this operation. -->
     <string name="delete_recurring_event_title">An sguab thu às <xliff:g id="eventtitle">%s</xliff:g>?</string>
+    <!-- This is the title of a popup dialog that asks for confirmation before
+         changing the response to an invitation. -->
     <string name="change_response_title">Atharraich an fhreagairt</string>
+    <!-- This is the title of the screen for setting user preferences. -->
     <string name="preferences_title">"Roghainnean"</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events -->
     <string name="preferences_general_title">Roghainnean sealladh a’ mhìosachain</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events in Month view for portrait orientation -->
     <string name="preferences_month_view_portrait">Co-dhealbhachd a’ mhìosa (portraid)</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events in Month view for landscape orientation -->
     <string name="preferences_month_view_landscape">Co-dhealbhachd a’ mhìosa (dreach-tìre)</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to app theme -->
     <string name="preferences_theme">Ùrlar</string>
     <string name="preferences_system_theme">Bun-roghainn an t-siostaim</string>
     <string name="preferences_light_theme">Soilleir</string>
@@ -187,39 +414,70 @@
     <string name="preferences_color">Prìomh-dhath</string>
     <string name="preferences_color_pick">Prìomh-dhath</string>
     <string name="preferences_pure_black_night_mode">Modh oidhche dubh</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to reminders for calendar events -->
     <string name="preferences_reminder_title">Brathan ⁊ cuimhneachain</string>
+    <!-- Settings check box label to hide events that the user has declined to attend -->
     <string name="preferences_hide_declined_title">Falaich tachartasan a chaidh a dhiùltadh</string>
+    <!-- Label values for the default start page preference. -->
     <string name="default_start_title">An sealladh bunaiteach</string>
     <string name="display_options">Roghainnean taisbeanaidh</string>
     <string name="display_time">Seall an t-àm</string>
     <string name="display_location">Seall d’ ionad</string>
     <string name="maximum_number_of_lines">Àireamh as motha de loidhnichean ann an tachartas</string>
     <string name="default_start_last">Sealladh a chleachd thu roimhe</string>
+    <!-- Settings week start label to start week on specific day-->
     <string name="preferences_week_start_day_title">Tòisichidh an t-seachdain</string>
+    <!-- Title of popup for week start day setting-->
     <string name="preferences_week_start_day_dialog">Tòisichidh an t-seachdain</string>
+    <!-- DO NOT TRANSLATE -->
     <string name="preferences_days_per_week_title">Làithean gach seachdain</string>
     <string name="preferences_days_per_week_dialog">Làithean gach seachdain</string>
+    <!-- Title of the default event duration setting-->
     <string name="preferences_default_event_duration_title">Fhaid bhunaiteach nan tachartasan</string>
+    <!-- Title of the settings item to clear the recent search history [CHAR LIMIT=40] -->
     <string name="preferences_clear_search_history_title">Falamhaich eachdraidh nan lorg</string>
+    <!-- Summary of the settings item to clear the recent search history [CHAR LIMIT=70]-->
     <string name="preferences_clear_search_history_summary">Thoir air falbh gach lorg a rinn thu roimhe</string>
+    <!-- Message to show in a toast when the history is cleared [CHAR LIMIT=40] -->
     <string name="search_history_cleared">Chaidh eachdraidh nan lorg fhalamhachadh.</string>
+    <!-- Settings check box label to enable or disable notifications -->
     <string name="preferences_alerts_title">Brathan</string>
+    <!-- Settings dialog label that specifies when the phone should vibrate -->
     <string name="preferences_alerts_vibrateWhen_title">Dèan crith</string>
+    <!-- Title of ringtone selector dialog -->
     <string name="preferences_alerts_ringtone_title">Fuaim</string>
+    <!-- Title of check box label to enable or disable pop-up notifications -->
     <string name="preferences_alerts_popup_title">Priob-uinneag</string>
+    <!-- List item label for setting the default number of reminder minutes -->
     <string name="preferences_default_reminder_title">Àm cuimhneachaidh bunaiteach</string>
+    <!-- Title of dialog for setting the default number of reminder minutes -->
     <string name="preferences_default_reminder_dialog">Àm cuimhneachaidh bunaiteach</string>
+    <!-- Default value for the number of reminder minutes -->
     <string name="preferences_default_reminder_default">10</string>
+    <!-- Settings check box label to keep Calendar in a fixed 'home' time zone [CHAR LIMIT = 18] -->
     <string name="preferences_use_home_tz_title">Cleachd roinn-tìde na dachaigh</string>
+    <!-- Settings description of what setting Calendar to use a fixed 'home' time
+        zone does [CHAR LIMIT = 60]-->
     <string name="preferences_use_home_tz_descrip">Seallaidh seo na mìosachain agus amannan nan tachartasan aig roinn-tìde do dhachaigh nuair a bhios tu a’ siubhal</string>
+    <!-- Settings title for selecting a 'home' time zone to display Calendar in [CHAR LIMIT = 18] -->
     <string name="preferences_home_tz_title">Roinn-tìde na dachaigh</string>
+    <!-- DO NOT TRANSLATE -->
+    <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
     <string name="preferences_show_week_num_title">Seall àireamh na seachdain</string>
+    <!-- Check box label for using custom snooze delays -->
     <string name="preferences_alerts_custom_snooze_delay_title">Iarr dàil air cuimhneachan dùsail</string>
+    <!-- Summaries for using custom snooze delays -->
     <string name="preferences_alerts_custom_snooze_delay_summary_on">Iarr dàil dùsail nuair a chuireas tu cuimhneachan ’na dhùsal</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">Cleachd dàil dùsail bhunaiteach an-còmhnaidh</string>
+    <!-- Title of custom snooze delay dialog -->
     <string name="snooze_delay_dialog_title">Suidhich dàil dùsail</string>
+    <!-- List item label for setting the default snooze delay -->
     <string name="preferences_default_snooze_delay_title">Faid bhunaiteach dàil an dùsail</string>
+    <!-- Title of dialog for setting the default snooze delay -->
     <string name="preferences_default_snooze_delay_dialog">Dàil bhunaiteach an dùsail</string>
+    <!-- Default value for the default snooze delay (in minutes) -->
+    <!-- About dialog strings -->
     <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Pàirtean dheth \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Ùghdaran</string>
     <string name="changelog">Loga nan atharraichean</string>
@@ -227,103 +485,179 @@
     <string name="preferences_build_version">Tionndadh na togail</string>
     <string name="preferences_issues">Dèan aithris air duilgheadasan</string>
     <string name="source_code">Tùs</string>
+    <!-- Widget -->
+    <!-- Title for calendar gadget when displayed in list of all other gadgets -->
+    <!-- Shown in month view next to event icon when additional events exist for that day, but no
+        room remaining -->
     <plurals name="month_more_events">
+        <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
         <item quantity="one">"+<xliff:g id="number">%d</xliff:g>"</item>
         <item quantity="two">+<xliff:g id="number">%d</xliff:g></item>
         <item quantity="few">+<xliff:g id="number">%d</xliff:g></item>
+        <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
         <item quantity="other">+<xliff:g id="number">%d</xliff:g></item>
     </plurals>
+    <!-- Caption to show on gadget when there are no upcoming calendar events -->
     <string name="gadget_no_events">Chan eil tachartas ri thighinn air a’ mhìosachan</string>
+    <!-- Experimental settings [CHAR LIMIT = 30]-->
     <string name="preferences_experimental_category">Deuchainneil</string>
+    <!-- Reminders settings [CHAR LIMIT = 30]-->
+    <!-- Preference label for when to skip reminders [CHAR LIMIT = 25] -->
     <string name="preferences_reminders_responded_label">Geàrr leum thairis air cuimhneachain</string>
+    <!-- Dialog title for when to skip reminders [CHAR LIMIT = 25] -->
     <string name="preferences_reminders_responded_dialog">Geàrr leum thairis air cuimhneachain</string>
+    <!-- Send a copy of the database to developers for debugging [CHAR LIMIT="NONE"] -->
     <string name="copy_db">Cuir an stòr-dàta</string>
+    <!-- Displayed in email address autocomplete list when searching for contacts
+         in corporate directories. Example:  "Searching bigcompany.com..." [CHAR LIMIT=64] -->
     <string name="directory_searching_fmt">A’ lorg <xliff:g id="domain">%s</xliff:g>\u2026</string>
+    <!-- Accessibility Events -->
+    <!-- Strings that describes actions for buttons without text -->
+    <!-- Create a new calendar event [CHAR LIMIT = NONE]-->
+    <!-- Remove a name of an attendee from a calendar event [CHAR LIMIT = NONE]-->
     <string name="accessibility_remove_attendee">Thoir am freastalaiche air falbh</string>
+    <!-- Pick a starting date for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_start_date">Ceann-là tòiseachaidh</string>
+    <!-- Pick a starting time for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_start_time">Àm tòiseachaidh</string>
+    <!-- Pick the ending date for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_end_date">Ceann-là crìochnachaidh</string>
+    <!-- Pick the ending time for a new event[CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_end_time">Àm crìochnachaidh</string>
+    <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_time_zone">Roinn-tìde</string>
+    <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_recurrence">Dèan an tachartas a-rithist</string>
+    <!-- Add a reminder to an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_add_reminder">Cuir cuimhneachan ris</string>
+    <!-- Remove a reminder from an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_remove_reminder">Thoir an cuimhneachan air falbh</string>
+    <!-- Add a new attendee to an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_add_attendee">Cuir freastalaiche ris</string>
+    <!-- Choose if to sync/unsync this calendar with its server [CHAR LIMIT = NONE]-->
+    <!-- Mark this event as an "all day event" [CHAR LIMIT = NONE]-->
     <string name="accessibility_all_day">Tachartas fad an latha</string>
+    <!-- Refresh the data in the calendar [CHAR LIMIT = NONE]-->
+    <!-- Choose the type of repetition for the event (daily, weekly, etc.[CHAR LIMIT = NONE]-->
+    <!-- Set the time for the reminder[CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_time">Àm a’ chuimhneachain</string>
+    <!-- Set the type of the reminder (popup/email/sms)[CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_type">Seòrsa a’ chuimhneachain</string>
+    <!-- Select the way you are visible for the event (busy/free) [CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_showmeas">Seall mi mar</string>
+    <!-- Set the event as private/public/default [CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_privacy">Prìobhaideachd</string>
+    <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
     <string name="day_view_new_event_hint">+ Tachartas ùr</string>
+    <!--
+      Source: A value for announcing the current event index (example: "Event 2 of 6").
+      Description: This is spoken to the user. [CHAR LIMIT="NONE"]
+    -->
     <string name="template_announce_item_index">Tachartas <xliff:g id="item_index">%1$s</xliff:g> à <xliff:g id="item_count">%2$s</xliff:g>.</string>
+    <!-- number of events in the notification bar -->
     <plurals name="Nevents">
+        <!-- This is the label for a 1 event. -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> tachartas</item>
         <item quantity="two"><xliff:g id="count">%d</xliff:g> thachartas</item>
         <item quantity="few"><xliff:g id="count">%d</xliff:g> tachartasan</item>
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> tachartas</item>
     </plurals>
+    <!-- number of remaining events for an alert digest in the notification bar [CHAR LIMIT = 30] -->
     <plurals name="N_remaining_events">
+        <!-- This is the label for 1 event. -->
         <item quantity="one">+<xliff:g id="count">%d</xliff:g> tachartas</item>
         <item quantity="two">+<xliff:g id="count">%d</xliff:g> thachartas</item>
         <item quantity="few">+<xliff:g id="count">%d</xliff:g> tachartasan</item>
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other">+<xliff:g id="count">%d</xliff:g> tachartas</item>
     </plurals>
+    <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
     <string name="acessibility_selected_marker_description">Chaidh an tachartas a thaghadh</string>
+    <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
+    <!-- Dialog title for recurrence picker for configuring a repeating event[CHAR LIMIT=20] -->
+    <!-- Dialog title for recurrence picker when one-time event is selected [CHAR LIMIT=20] -->
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
     <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">Gach <xliff:g id="count">%d</xliff:g> latha</item>
         <item quantity="two">Gach <xliff:g id="count">%d</xliff:g> latha</item>
         <item quantity="few">Gach <xliff:g id="count">%d</xliff:g> làithean</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">Gach <xliff:g id="count">%d</xliff:g> latha</item>
     </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
     <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">Gach <xliff:g id="count">%d</xliff:g> sheachdain</item>
         <item quantity="two">Gach <xliff:g id="count">%d</xliff:g> seachdain</item>
         <item quantity="few">Gach <xliff:g id="count">%d</xliff:g> seachdainean</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">Gach <xliff:g id="count">%d</xliff:g> seachdain</item>
     </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
     <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">Gach <xliff:g id="count">%d</xliff:g> mhìos</item>
         <item quantity="two">Gach <xliff:g id="count">%d</xliff:g> mìos</item>
         <item quantity="few">Gach <xliff:g id="count">%d</xliff:g> mìosan</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">Gach <xliff:g id="count">%d</xliff:g> mìos</item>
     </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
     <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">Gach <xliff:g id="count">%d</xliff:g> bhliadhna</item>
         <item quantity="two">Gach <xliff:g id="count">%d</xliff:g> bliadhna</item>
         <item quantity="few">Gach <xliff:g id="count">%d</xliff:g> bliadhnaichean</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">Gach <xliff:g id="count">%d</xliff:g> bliadhna</item>
     </plurals>
+    <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
     <string name="recurrence_month_pattern_by_day">air an aon latha gach mìos</string>
+    <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
     <string name="recurrence_end_continously">Gu bràth</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=25] -->
     <string name="recurrence_end_date_label">Gu ruige ceann-là</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=20] -->
     <string name="recurrence_end_date">Gu ruige <xliff:g id="date">%s</xliff:g></string>
+    <!-- Specifies that a repeating event to repeat for a number of times. A repeating event can repeat forever, repeat in a certain frequency until a certain date, or repeat for a number of times. e.g. repeat 10 times and stop. This string is for the last case [CHAR LIMIT=25] -->
     <string name="recurrence_end_count_label">Fad àireamh de thachartasan</string>
+    <!-- Specifies that a repeating event should repeat for a certain number of iterations. [CHAR LIMIT=20]-->
     <plurals name="recurrence_end_count">
         <item quantity="one">Fad <xliff:g id="event_count">%d</xliff:g> tachartas</item>
         <item quantity="two">Fad <xliff:g id="event_count">%d</xliff:g> thachartas</item>
         <item quantity="few">Fad <xliff:g id="event_count">%d</xliff:g> tachartasan</item>
         <item quantity="other">Fad <xliff:g id="event_count">%d</xliff:g> tachartas</item>
     </plurals>
+    <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
     <string name="acessibility_recurrence_choose_end_date_description">atharraich an ceann-là crìochnachaidh</string>
+    <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
     <string name="user_rejected_calendar_write_permission">Feumaidh am mìosachan cead leughadh is sgrìobhadh mìosachain ach an obraich e mar bu chòir. Feuch ris a-rithist.</string>
     <string name="calendar_permission_not_granted">Chaidh ceadan riatanach a dhiùltadh, cuir an comas iad ann an aplacaid nan roghainnean mus deasaich thu tachartasan</string>
+    <!-- Strings to describe visibility array -->
     <string name="visibility_default">Bun-roghainn</string>
     <string name="visibility_confidential">Fo rùn</string>
     <string name="visibility_private">Prìobhaideach</string>
     <string name="visibility_public">Poblach</string>
+    <!-- Strings to describe per week labels array -->
     <string name="two_days">2 latha</string>
     <string name="three_days">3 làithean</string>
     <string name="four_days">4 làithean</string>
     <string name="five_days">5 làithean</string>
     <string name="six_days">6 làithean</string>
     <string name="seven_days">Seachdain</string>
+    <!-- Strings to describe default duration array -->
     <string name="zero_minutes">0 mionaid</string>
     <string name="fifteen_minutes">Cairteal na h-uarach</string>
     <string name="thirty_minutes">Leth-uair a thìde</string>
     <string name="one_hour">Uair a thìde</string>
     <string name="one_and_a_half_hours">Uair gu leth a thìde</string>
     <string name="two_hours">2 uair a thìde</string>
+    <!-- Toast message displayed when ics file to share an event can't be generated -->
     <string name="error_generating_ics">Dh’èirich duilgheadas nuair a bha sinn a’ co-roinneadh an tachartais</string>
+    <!-- Sharing calendar event -->
     <string name="cal_share_intent_title">Cuir an tachartas gu:</string>
     <string name="cal_export_event_sdcard_title">Às-phortaich gu cairt SD</string>
     <string name="cal_export_succ_msg">Chaidh an tachartas às-phortadh: %1$s</string>
@@ -333,10 +667,12 @@
     <string name="cal_import_error_time_zone_msg">Cha tuig sinn an roinn-tìde a chaidh a thoirt seachad: %s</string>
     <string name="cal_import_error_date_msg">Cha tuig sinn an ceann-latha a chaidh a thoirt seachad: %s</string>
     <string name="cal_pick_ics">Tagh faidhle airson ion-phortadh</string>
+    <!-- Strings to describe view details array -->
     <string name="show_time_no">Na seall an t-àm</string>
     <string name="show_time_start">Àm tòiseachaidh a-mhàin</string>
     <string name="show_time_start_end">Àm tòiseachaidh ’s crìochnachaidh</string>
     <string name="show_time_start_end_below">Àm tòiseachaidh ’s crìochnachaidh fon tachartas</string>
+    <!-- Preferences -->
     <string name="preferences_calendar_no_display_name">Mìosachan gun ainm</string>
     <string name="preferences_calendar_account">Cunntas %1$s</string>
     <string name="preferences_calendar_account_local">Mìosachan far loidhne</string>

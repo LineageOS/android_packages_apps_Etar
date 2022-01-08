@@ -14,12 +14,25 @@
      limitations under the License.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Entries for the primary color-->
+    <!-- Choices for the "Reminder method" spinner.
+         These must be kept in sync with the reminder_methods_values array.
+         [CHAR LIMIT=10]
+    -->
     <string-array name="reminder_methods_labels">
         <item>ማሳወቂያ</item>
         <item>ኢሜይል</item>
         <item>አጭር የፅሁፍ መልዕክት</item>
         <item>ማንቂያ ደውል</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Choices for the "Reminder minutes" spinner.
+         These must be kept in sync with the reminder_minutes_values array.
+         For consistency, the format should match what
+         EventViewUtils.constructReminderLabel() generates.  (TODO: eliminate
+         this and just generate the list from reminder_minutes_values?)
+         [CHAR LIMIT=15]
+    -->
     <string-array name="reminder_minutes_labels">
         <item>0 ደቂቃዎች</item>
         <item>1 ደቂቃ</item>
@@ -38,6 +51,10 @@
         <item>2 ቀኖች</item>
         <item>1 ሳምንት</item>
     </string-array>
+    <!-- Choices for the "Reminder minutes" spinner in the settings.
+         These must be kept in sync with the preferences_default_reminder_values array.
+         [CHAR LIMIT=12]
+    -->
     <string-array name="preferences_default_reminder_labels">
         <item>የለም</item>
         <item>0 ደቂቃዎች</item>
@@ -57,6 +74,8 @@
         <item>2 ቀኖች</item>
         <item>1 ሳምንት</item>
     </string-array>
+    <!-- Labels for the default startup page preference. -->
+    <!-- Values for the default startup page preference. See CalendarController.ViewType.  -->
     <string-array name="preferences_week_start_day_labels">
         <item>የአካባቢ ነባሪ</item>
         <item>ቅዳሜ</item>
@@ -68,37 +87,68 @@
         <item>የሚገኝ</item>
         <item>ጊዜያዊ</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Invitation responses -->
     <string-array name="response_labels1">
         <item>ምንም  ምላሽ የለም</item>
         <item>አዎ</item>
         <item>ምናልባት</item>
         <item>አይ</item>
     </string-array>
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is a list of choices displayed when the user deletes an event.
+         It only is shown when deleting a recurring event.
+    -->
     <string-array name="delete_repeating_labels">
         <item>ይህ ክስተት ብቻ</item>
         <item>ይሄ እና የወደፊት ክስተቶች</item>
         <item>ሁሉም ክስተቶች</item>
     </string-array>
+    <!-- DO NOT TRANSLATE These values need to correspond to the indices
+         defined in DeleteEventHelper.java-->
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is the same array as above (the "delete_repeating_labels" array,
+         except that the first element "Only this event" is removed.  This
+         array exists to work-around a bug in the CalendarProvider and sync
+         code where you can't delete one instance of a repeating event that
+         was created on the phone until that event has been synced to the server.
+     -->
+    <!-- The corresponding array indices are defined in EventInfoActivity.java -->
+    <!-- The list of choices displayed in a dialog box when the user wants to
+    respond to an invitation that repeats. -->
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>ይህ ክስተት ብቻ</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>ሁሉም ዝግጅቶች በተከታታይ</item>
     </string-array>
+    <!-- Strings for buttons in drop down menu -->
     <string-array name="buttons_list">
         <item>ቀን</item>
         <item>ሳምንት</item>
         <item>ወር</item>
         <item>አጀንዳ</item>
     </string-array>
+    <!-- Experimental options for skipping reminders. [CHAR LIMIT = 37] -->
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>ተቀባይነት ካላገኘ ብቻ</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>ተቀባይነት ካላገኘ ወይም ምላሽ ካልተሰጠበት</item>
     </string-array>
+    <!-- Recurrence picker: How events are to be repeated.  [CHAR LIMIT = 20] -->
     <string-array name="recurrence_freq">
         <item>በየቀኑ ድገም</item>
         <item>በየሳምንቱ ድገም</item>
         <item>በየወሩ ድገም</item>
         <item>በየዓመቱ ድገም</item>
     </string-array>
+    <!-- The following sets of strings describe a monthly recurring event, which will repeat
+         on the Nth WEEKDAY of every month. For example, the 3rd Monday of every month, or
+         the last Sunday. These are set up like this to resolve any gender-matching issues
+         that were present in some languages.
+     -->
+    <!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sun">
         <item>በሁሉም የመጀመሪያ እሁድ</item>
         <item>በሁሉም ሁለተኛ እሁድ</item>
@@ -106,6 +156,7 @@
         <item>በሁሉም አራተኛ እሁድ</item>
         <item>በሁሉም የመጨረሻ እሁድ</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_mon">
         <item>በሁሉም የመጀመሪያ ሰኞ</item>
         <item>በሁሉም ሁለተኛ ሰኞ</item>
@@ -113,6 +164,7 @@
         <item>በሁሉም አራተኛ ሰኞ</item>
         <item>በሁሉም የመጨረሻ ሰኞ</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_tues">
         <item>በሁሉም የመጀመሪያ ማክሰኞ</item>
         <item>በሁሉም ሁለተኛ ማክሰኞ</item>
@@ -120,6 +172,7 @@
         <item>በሁሉም አራተኛ ማክሰኞ</item>
         <item>በሁሉም የመጨረሻ ማክሰኞ</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_wed">
         <item>በሁሉም የመጀመሪያ ረቡዕ</item>
         <item>በሁሉም ሁለተኛ ረቡዕ</item>
@@ -127,6 +180,7 @@
         <item>በሁሉም አራተኛ ረቡዕ</item>
         <item>በሁሉም የመጨረሻ ረቡዕ</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_thurs">
         <item>በሁሉም የመጀመሪያ ሃሙስ</item>
         <item>በሁሉም ሁለተኛ ሃሙስ</item>
@@ -134,6 +188,7 @@
         <item>በሁሉም አራተኛ ሃሙስ</item>
         <item>በሁሉም የመጨረሻ ሃሙስ</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_fri">
         <item>በሁሉም የመጀመሪያ አርብ</item>
         <item>በሁሉም ሁለተኛ አርብ</item>
@@ -141,6 +196,7 @@
         <item>በሁሉም አራተኛ አርብ</item>
         <item>በሁሉም የመጨረሻ አርብ</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sat">
         <item>በሁሉም የመጀመሪያ ቅዳሜ</item>
         <item>በሁሉም ሁለተኛ ቅዳሜ</item>

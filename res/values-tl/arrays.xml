@@ -14,12 +14,25 @@
      limitations under the License.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Entries for the primary color-->
+    <!-- Choices for the "Reminder method" spinner.
+         These must be kept in sync with the reminder_methods_values array.
+         [CHAR LIMIT=10]
+    -->
     <string-array name="reminder_methods_labels">
         <item>Notificatn</item>
         <item>Email</item>
         <item>SMS</item>
         <item>Alarma</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Choices for the "Reminder minutes" spinner.
+         These must be kept in sync with the reminder_minutes_values array.
+         For consistency, the format should match what
+         EventViewUtils.constructReminderLabel() generates.  (TODO: eliminate
+         this and just generate the list from reminder_minutes_values?)
+         [CHAR LIMIT=15]
+    -->
     <string-array name="reminder_minutes_labels">
         <item>0 minuto</item>
         <item>1 minuto</item>
@@ -38,6 +51,10 @@
         <item>2 araw</item>
         <item>1 linggo</item>
     </string-array>
+    <!-- Choices for the "Reminder minutes" spinner in the settings.
+         These must be kept in sync with the preferences_default_reminder_values array.
+         [CHAR LIMIT=12]
+    -->
     <string-array name="preferences_default_reminder_labels">
         <item>Wala</item>
         <item>0 minuto</item>
@@ -57,6 +74,8 @@
         <item>2 araw</item>
         <item>1 linggo</item>
     </string-array>
+    <!-- Labels for the default startup page preference. -->
+    <!-- Values for the default startup page preference. See CalendarController.ViewType.  -->
     <string-array name="preferences_week_start_day_labels">
         <item>Lokal na default</item>
         <item>Sabado</item>
@@ -68,37 +87,68 @@
         <item>Available</item>
         <item>Pansamantala</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Invitation responses -->
     <string-array name="response_labels1">
         <item>Walang tugon</item>
         <item>Oo</item>
         <item>Maaari</item>
         <item>Hindi</item>
     </string-array>
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is a list of choices displayed when the user deletes an event.
+         It only is shown when deleting a recurring event.
+    -->
     <string-array name="delete_repeating_labels">
         <item>Ang kaganapang ito lang</item>
         <item>Ito at mga kaganapan sa hinaharap</item>
         <item>Lahat ng mg kaganapan</item>
     </string-array>
+    <!-- DO NOT TRANSLATE These values need to correspond to the indices
+         defined in DeleteEventHelper.java-->
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is the same array as above (the "delete_repeating_labels" array,
+         except that the first element "Only this event" is removed.  This
+         array exists to work-around a bug in the CalendarProvider and sync
+         code where you can't delete one instance of a repeating event that
+         was created on the phone until that event has been synced to the server.
+     -->
+    <!-- The corresponding array indices are defined in EventInfoActivity.java -->
+    <!-- The list of choices displayed in a dialog box when the user wants to
+    respond to an invitation that repeats. -->
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Ang kaganapang ito lamang</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Lahat ng mga kaganapan sa serye</item>
     </string-array>
+    <!-- Strings for buttons in drop down menu -->
     <string-array name="buttons_list">
         <item>Araw</item>
         <item>Linggo</item>
         <item>Buwan</item>
         <item>Agenda</item>
     </string-array>
+    <!-- Experimental options for skipping reminders. [CHAR LIMIT = 37] -->
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Kung tinanggihan lang</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Kung tinanggihan o hindi tinugunan</item>
     </string-array>
+    <!-- Recurrence picker: How events are to be repeated.  [CHAR LIMIT = 20] -->
     <string-array name="recurrence_freq">
         <item>ULITIN ARAW-ARAW</item>
         <item>ULITIN LINGGO-LINGGO</item>
         <item>ULITIN BUWAN-BUWAN</item>
         <item>ULITIN TAON-TAON</item>
     </string-array>
+    <!-- The following sets of strings describe a monthly recurring event, which will repeat
+         on the Nth WEEKDAY of every month. For example, the 3rd Monday of every month, or
+         the last Sunday. These are set up like this to resolve any gender-matching issues
+         that were present in some languages.
+     -->
+    <!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sun">
         <item>tuwing unang Linggo</item>
         <item>tuwing ikalawang Linggo</item>
@@ -106,6 +156,7 @@
         <item>tuwing ikaapat na Linggo</item>
         <item>tuwing huling Linggo</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_mon">
         <item>tuwing unang Lunes</item>
         <item>tuwing ikalawang Lunes</item>
@@ -113,6 +164,7 @@
         <item>tuwing ikaapat na Lunes</item>
         <item>tuwing huling Lunes</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_tues">
         <item>tuwing unang Martes</item>
         <item>tuwing ikalawang Martes</item>
@@ -120,6 +172,7 @@
         <item>tuwing ikaapat na Martes</item>
         <item>tuwing huling Martes</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_wed">
         <item>tuwing unang Miyerkules</item>
         <item>tuwing ikalawang Miyerkules</item>
@@ -127,6 +180,7 @@
         <item>tuwing ikaapat na Miyerkules</item>
         <item>tuwing huling Miyerkules</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_thurs">
         <item>tuwing unang Huwebes</item>
         <item>tuwing ikalawang Huwebes</item>
@@ -134,6 +188,7 @@
         <item>tuwing ikaapat na Huwebes</item>
         <item>tuwing huling Huwebes</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_fri">
         <item>tuwing unang Biyernes</item>
         <item>tuwing ikalawang Biyernes</item>
@@ -141,6 +196,7 @@
         <item>tuwing ikaapat na Biyernes</item>
         <item>tuwing huling Biyernes</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sat">
         <item>tuwing unang Sabado</item>
         <item>tuwing ikalawang Sabado</item>

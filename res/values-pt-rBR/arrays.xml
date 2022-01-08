@@ -14,12 +14,25 @@
      limitations under the License.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Entries for the primary color-->
+    <!-- Choices for the "Reminder method" spinner.
+         These must be kept in sync with the reminder_methods_values array.
+         [CHAR LIMIT=10]
+    -->
     <string-array name="reminder_methods_labels">
         <item>Notificação</item>
         <item>E-mail</item>
         <item>SMS</item>
         <item>Alarme</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Choices for the "Reminder minutes" spinner.
+         These must be kept in sync with the reminder_minutes_values array.
+         For consistency, the format should match what
+         EventViewUtils.constructReminderLabel() generates.  (TODO: eliminate
+         this and just generate the list from reminder_minutes_values?)
+         [CHAR LIMIT=15]
+    -->
     <string-array name="reminder_minutes_labels">
         <item>0 minutos</item>
         <item>1 minuto</item>
@@ -38,6 +51,10 @@
         <item>2 dias</item>
         <item>1 semana</item>
     </string-array>
+    <!-- Choices for the "Reminder minutes" spinner in the settings.
+         These must be kept in sync with the preferences_default_reminder_values array.
+         [CHAR LIMIT=12]
+    -->
     <string-array name="preferences_default_reminder_labels">
         <item>Nenhum</item>
         <item>0 minutos</item>
@@ -57,6 +74,8 @@
         <item>2 dias</item>
         <item>1 semana</item>
     </string-array>
+    <!-- Labels for the default startup page preference. -->
+    <!-- Values for the default startup page preference. See CalendarController.ViewType.  -->
     <string-array name="preferences_week_start_day_labels">
         <item>Padrão do idioma</item>
         <item>Sábado</item>
@@ -68,33 +87,62 @@
         <item>Disponível</item>
         <item>Tentative</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Invitation responses -->
     <string-array name="response_labels1">
         <item>Sem resposta</item>
         <item>Sim</item>
         <item>Talvez</item>
         <item>Não</item>
     </string-array>
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is a list of choices displayed when the user deletes an event.
+         It only is shown when deleting a recurring event.
+    -->
     <string-array name="delete_repeating_labels">
         <item>Apenas este evento</item>
         <item>This and future events</item>
         <item>Todos os eventos</item>
     </string-array>
+    <!-- DO NOT TRANSLATE These values need to correspond to the indices
+         defined in DeleteEventHelper.java-->
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is the same array as above (the "delete_repeating_labels" array,
+         except that the first element "Only this event" is removed.  This
+         array exists to work-around a bug in the CalendarProvider and sync
+         code where you can't delete one instance of a repeating event that
+         was created on the phone until that event has been synced to the server.
+     -->
+    <!-- The corresponding array indices are defined in EventInfoActivity.java -->
+    <!-- The list of choices displayed in a dialog box when the user wants to
+    respond to an invitation that repeats. -->
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Apenas este evento</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Todos os eventos da série</item>
     </string-array>
+    <!-- Strings for buttons in drop down menu -->
     <string-array name="buttons_list">
         <item>Dia</item>
         <item>Semana</item>
         <item>Mês</item>
         <item>Agenda</item>
     </string-array>
+    <!-- Experimental options for skipping reminders. [CHAR LIMIT = 37] -->
+    <!-- Recurrence picker: How events are to be repeated.  [CHAR LIMIT = 20] -->
     <string-array name="recurrence_freq">
         <item>REPETIR DIARIAMENTE</item>
         <item>REPETIR SEMANALMENTE</item>
         <item>REPETIR MENSALMENTE</item>
         <item>REPETIR ANUALMENTE</item>
     </string-array>
+    <!-- The following sets of strings describe a monthly recurring event, which will repeat
+         on the Nth WEEKDAY of every month. For example, the 3rd Monday of every month, or
+         the last Sunday. These are set up like this to resolve any gender-matching issues
+         that were present in some languages.
+     -->
+    <!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sun">
         <item>todo primeiro domingo</item>
         <item>todo segundo domingo</item>
@@ -102,6 +150,7 @@
         <item>todo quarto domingo</item>
         <item>todo último domingo</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_mon">
         <item>toda primeira segunda-feira</item>
         <item>toda segunda segunda-feira</item>
@@ -109,6 +158,7 @@
         <item>toda quarta segunda-feira</item>
         <item>toda última segunda-feira</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_tues">
         <item>toda primeira terça-feira</item>
         <item>toda segunda terça-feira</item>
@@ -116,6 +166,7 @@
         <item>toda quarta terça-feira</item>
         <item>toda última terça-feira</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_wed">
         <item>toda primeira quarta-feira</item>
         <item>toda segunda quarta-feira</item>
@@ -123,6 +174,7 @@
         <item>toda quarta quarta-feira</item>
         <item>toda última quarta-feira</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_thurs">
         <item>toda primeira quinta-feira</item>
         <item>toda segunda quinta-feira</item>
@@ -130,6 +182,7 @@
         <item>toda quarta quinta-feira</item>
         <item>toda última quinta-feira</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_fri">
         <item>toda primeira sexta-feira</item>
         <item>toda segunda sexta-feira</item>
@@ -137,6 +190,7 @@
         <item>toda quarta sexta-feira</item>
         <item>toda última sexta-feira</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sat">
         <item>todo primeiro sábado</item>
         <item>todo segundo sábado</item>

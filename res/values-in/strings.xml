@@ -14,145 +14,372 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- This is the label underneath the icon for Calendar -->
     <string name="app_label">Kalender</string>
+    <!-- Shared Labels. These labels are shared among the activities. -->
+    <!-- This is the label for the time of an event [CHAR LIMIT=30] -->
     <string name="when_label">Kapan</string>
+    <!-- Text to show when an event starts on the current day -->
     <string name="today">Hari ini</string>
+    <!-- Text to show when an event starts on the next day -->
     <string name="tomorrow">Besok</string>
+    <!-- Text for an event starting on the current day with a start and end time.
+         For ex, "Today at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
     <string name="today_at_time_fmt">"Hari ini pukul <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <!-- Text for an event starting on the next day with a start and end time.
+         For ex, "Tomorrow at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
     <string name="tomorrow_at_time_fmt">"Besok pukul <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <!-- Format string for a date and time description.  For ex:
+         "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <!-- Title of event when no explicit title is specified by the user -->
     <string name="no_title_label">(Tanpa judul)</string>
+    <!-- Reminder format strings -->
     <plurals name="Nminutes">
+        <!-- This is the label for a 1-minute reminder. -->
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> menit</item>
     </plurals>
+    <!-- We use the abbreviation "mins" instead of "minutes" to keep the string short.
+         This is the number of minutes displayed for a calendar reminder.  For example,
+         a reminder of 10 minutes would be displayed as '10 mins'.  The translation
+         should use the shortest acceptable abbreviation to save space. -->
     <plurals name="Nmins">
+        <!-- This is the label for a 1-minute reminder. -->
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> menit</item>
     </plurals>
+    <!-- This is the number of hours displayed for a calendar reminder.  For example,
+         a reminder of 1 hour would be displayed as '1 hour'.  The translation
+         should use the shortest acceptable abbreviation of 'hour' to save space. -->
     <plurals name="Nhours">
+        <!-- This is the label for a 1-hour reminder. -->
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> jam</item>
     </plurals>
+    <!-- This is the number of days displayed for a calendar reminder.  For example,
+         a reminder of 2 days would be displayed as '2 days'.  The translation
+         should use the shortest acceptable abbreviation of 'day' to save space. -->
     <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> hari</item>
     </plurals>
+    <!-- This is for displaying the week of the year near the date. Eg. "January, 2011 Week 1" -->
     <plurals name="weekN">
+        <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
         <item quantity="other">Minggu <xliff:g id="count">%d</xliff:g></item>
     </plurals>
+    <!-- Menu items: -->
+    <!-- This is a label on a context menu item. Pressing this menu item to initiate
+        syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
     <string name="calendar_refresh">"Segarkan"</string>
+    <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Agenda view. -->
+    <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Day view. -->
     <string name="show_day_view">"Tampilkan hari"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Agenda view. -->
     <string name="agenda_view">"Agenda"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Day view. -->
     <string name="day_view">"Hari"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Week view. -->
     <string name="week_view">"Minggu"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Month view. -->
     <string name="month_view">"Bulan"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         details of an event. -->
     <string name="event_view">"Lihat acara"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to create a new event. -->
     <string name="event_create">"Acara baru"</string>
+    <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to edit or change an existing event. -->
     <string name="event_edit">"Edit acara"</string>
+    <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to delete an existing event. -->
     <string name="event_delete">"Hapus acara"</string>
     <string name="share_label">Bagikan</string>
+    <!-- This is a label on a menu item. Pressing this menu
+         item takes the user to the current day (today) in whatever view
+         (Day view, Week view, Agenda view, Month view) they are currently in. -->
     <string name="goto_today">"Hari ini"</string>
+    <!-- This is a label on a menu item. Pressing this menu
+         item opens new dialog shown the date that the user wants to go. -->
     <string name="goto_date">Pergi ke\u2026</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to view and edit his Settings (or Preferences) -->
     <string name="menu_preferences">"Setelan"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
     <string name="search">"Telusuri"</string>
+    <!-- This is a label on a menu item. Pressing this menu item hides
+         the navigation controls on the right side. [CHAR LIMIT=20] -->
     <string name="hide_controls">"Sembunyikan kontrol"</string>
+    <!-- This is a label on a menu item. Pressing this menu item shows the
+         navigation controls on the right side. [CHAR LIMIT=20] -->
     <string name="show_controls">"Tampilkan kontrol"</string>
+    <!-- This is a label on a menu item. Pressing this menu item shows the
+         View settings menu [CHAR LIMIT=20] -->
     <string name="view_settings">"Setelan tampilan"</string>
+    <!-- Month view -->
+    <!-- Select Visible Calendars activity -->
+    <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
     <string name="select_synced_calendars_button">Kalender untuk disinkronkan</string>
+    <!-- Event edit activity -->
+    <!-- Default value of What field (as a hint to the user) [CHAR LIMIT=15] -->
     <string name="hint_what">"Nama acara"</string>
+    <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
     <string name="hint_where">"Lokasi"</string>
+    <!-- Default value of Description field (as a hint to the user) [CHAR LIMIT=15]-->
     <string name="hint_description">"Deskripsi"</string>
+    <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
     <string name="hint_attendees">"Tamu"</string>
+    <!-- Toast message displayed when a new event is created -->
     <string name="creating_event">"Acara dibuat."</string>
+    <!-- Toast message displayed when an existing event is saved after being modified -->
     <string name="saving_event">"Acara disimpan."</string>
+    <!-- Toast message displayed when a new event was not saved because it was empty [CHAR LIMIT=30] -->
     <string name="empty_event">"Acara kosong tidak dibuat."</string>
+    <!-- Toast message displayed when a new event with guests is created -->
     <string name="creating_event_with_guest">"Undangan akan dikirim."</string>
+    <!-- Toast message displayed when an existing event with guests is saved after being modified -->
     <string name="saving_event_with_guest">"Pembaruan akan dikirim."</string>
+    <!-- Toast message displayed responding to an event from an email as accepted
+     [CHAR LIMIT=50] -->
     <string name="rsvp_accepted">"Ditanggapi ya."</string>
+    <!-- Toast message displayed responding to an event from an email as tentative
+     [CHAR LIMIT=50] -->
     <string name="rsvp_tentative">"Ditanggapi mungkin."</string>
+    <!-- Toast message displayed responding to an event from an email as declined
+     [CHAR LIMIT=50] -->
     <string name="rsvp_declined">"Ditanggapi tidak."</string>
+    <!-- Create event dialog -->
+    <!-- Create event dialog save button [CHAR LIMIT=10] -->
     <string name="create_event_dialog_save">Simpan</string>
+    <!-- The alert toast is not actually being displayed for some reason. -->
+    <!-- the title of the alert/notification activity -->
     <string name="alert_title">Notifikasi kalender</string>
+    <!-- Notification window messages: -->
+    <!-- Event info/edit screen labels:-->
+    <!-- This is the title of the screen used to view the details of an event -->
     <string name="event_info_title">Lihat acara</string>
+    <!-- This is the title of the screen used to view the details of an invitation
+         to a meeting or event -->
     <string name="event_info_title_invite">Undangan rapat</string>
+    <!-- EditEventActivity specific strings: -->
+    <!-- Check box label that specifies if this is an all-day event -->
     <string name="edit_event_all_day_label">Seharian</string>
+    <!-- Label for choosing one of the calendars -->
     <string name="edit_event_calendar_label">Kalender</string>
+    <!-- Menu item to show all choices [CHAR LIMIT=22]-->
+    <!-- Label for the 'Presence' of an event, which can be either 'busy' (the default)
+         or 'available'  [CHAR LIMIT=15] -->
     <string name="presence_label">Tampilkan saya:</string>
+    <!-- Label for the 'Privacy' of an event, which can be either 'private'
+         or 'public' [CHAR LIMIT=15] -->
     <string name="privacy_label">Privasi</string>
+    <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
     <string name="reminders_label">Tambahkan pengingat</string>
+    <!-- Title of alert shown if the user tries to create an event and has no calendars -->
     <string name="no_syncable_calendars">Tak ada kalender</string>
+    <!-- Body of alert shown if the user tries to create an event and has no calendars. Users can start adding an account here. [CHAR LIMIT=NONE] -->
     <string name="no_calendars_found">Sebelum Anda dapat menambahkan suatu acara, Anda harus menambahkan setidaknya satu akun Kalender ke perangkat dan membuat kalender terlihat. Sentuh Tambahkan Akun untuk menambah akun (jika Anda baru saja menambahkan akun, tunggu sampai akun ini selesai disinkronkan dan coba lagi). Atau sentuh Batalkan dan pastikan setidaknya satu kalender terlihat.</string>
+    <!-- Body of dialog prompting the user to create an account.[CHAR LIMIT=NONE] -->
+    <!-- Title of a button shown when there is no account available and the system prompt a user to add one. [CHAR LIMIT=none] -->
     <string name="add_account">Tambahkan akun</string>
+    <!-- View Event -->
+    <!-- Label for which calendar an event is part of -->
     <string name="view_event_calendar_label">Kalender:</string>
+    <!-- Label for the event organizer -->
     <string name="view_event_organizer_label">Penyelenggara:</string>
+    <!-- Label for showing event color picker -->
     <string name="choose_event_color_label">Pilih warna acara</string>
+    <!-- Title for event color picker dialog -->
     <string name="event_color_picker_dialog_title">Warna Acara</string>
+    <!-- Label for button which sets event color to default calendar color -->
     <string name="event_color_set_to_default">Setel ke warna default kalendar</string>
+    <!-- Title for calendar color picker dialog -->
     <string name="calendar_color_picker_dialog_title">Warna Kalender</string>
+    <!-- Description for calendar color squares, which bring up the color picker. -->
     <string name="calendar_square_color_picker_description">Pemilih warna</string>
+    <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
     <string name="view_event_response_label">Datang?</string>
+    <!-- Response for whether attending an event - accepted [CHAR LIMIT=10]-->
     <string name="response_yes">Ya</string>
+    <!-- Response for whether attending an event - tentative [CHAR LIMIT=10]-->
     <string name="response_maybe">Mungkin</string>
+    <!-- Response for whether attending an event - declined [CHAR LIMIT=10]-->
     <string name="response_no">Tidak</string>
+    <!-- Label for emailing attendees -->
     <string name="email_guests_label">Kirim email ke tamu</string>
+    <!-- Label for emailing the organizer (when there are no attendees) -->
     <string name="email_organizer_label">Pengelola email</string>
+    <!-- This is shown in the popup picker when emailing attendees -->
     <string name="email_picker_label">Email dengan</string>
+    <!-- The is shown in the email subject as the prefix appended to the event title -->
+    <!-- Toast message displayed when the event id was not found LIMIT=30] -->
     <string name="event_not_found">"Acara tidak ditemukan."</string>
+    <!-- Notification label for getting a map of the location. -->
     <string name="map_label">Peta</string>
+    <!-- No maps found in phone -->
     <string name="no_map">Tidak ada aplikasi peta yang terpasang</string>
+    <!-- Notification label for calling a phone number in the location. -->
     <string name="call_label">Telepon</string>
+    <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
     <string name="quick_response_settings">Respons cepat</string>
+    <!-- Summary of the quick response item in Settings [CHAR LIMIT=80]-->
     <string name="quick_response_settings_summary">Edit respons default untuk email ke tamu</string>
+    <!-- Title of the quick response screen in Settings->Quick Response [CHAR LIMIT=27]-->
+    <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
     <string name="quick_response_settings_edit_title">Tanggapan cepat</string>
+    <!-- Title of the dialog prompting the user choose a response when emailing guests  [CHAR LIMIT=none]-->
     <string name="quick_response_dialog_title">Pilih respons cepat</string>
+    <!-- Error to user when an email program can't be found[CHAR LIMIT=none]-->
     <string name="quick_response_email_failed">Gagal menemukan program email</string>
+    <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
     <string-array name="quick_response_defaults">
         <item>Dijalankan terlambat beberapa menit.</item>
         <item>Tiba sekitar 10 menit lagi.</item>
         <item>Silakan mulai tanpa saya.</item>
         <item>Maaf, saya tidak bisa. Kita harus menjadwalkan ulang.</item>
     </string-array>
+    <!-- Option to create a custom response instead of using defaults [CHAR LIMIT=none] -->
     <string name="quick_response_custom_msg">Tulis respons Anda sendiri…</string>
+    <!-- Event Info strings-->
+    <!-- Organizer Label [CHAR LIMIT=12]-->
     <string name="event_info_organizer">Panitia:</string>
+    <!-- Reminders label [CHAR LIMIT=15]-->
     <string name="event_info_reminders_label">Pengingat</string>
+    <!-- Agenda View strings -->
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
     <string name="agenda_today">Hari ini, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
     <string name="agenda_yesterday">Kemarin, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
     <string name="agenda_tomorrow">Besok, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown while the calendar events are being loading to the screen. -->
     <string name="loading">Memuat…</string>
+    <!-- This is shown at the top of the agenda view showing the beginning of the searched range. If the user taps on this string and Calendar will find events older than what is visible and display them to the user -->
     <string name="show_older_events">Sentuh untuk melihat acara sebelum <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
+    <!-- This is shown at the bottom of the agenda view showing the end of the searched range. If the user taps on this string and Calendar will find events later/newer than what is visible and display them to the user -->
     <string name="show_newer_events">Sentuh untuk melihat acara setelah <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
+    <!-- Search activity strings -->
+    <!-- Title of the search screen [CHAR LIMIT=30] -->
     <string name="search_title">Telusuri kalender saya</string>
+    <!-- Button labels: -->
+    <!-- This is the title of a popup window that is displayed when the user
+         edits a repeating event. [CHAR LIMIT=20]-->
     <string name="edit_event_label">"Detail"</string>
+    <!-- This is a menu button for switching into edit mode when viewing an event.
+        [CHAR LIMIT=10] -->
     <string name="edit_label">"Edit"</string>
+    <!-- The button label for deleting an event -->
     <string name="delete_label">"Hapus"</string>
+    <!-- A menu item for deleting an event -->
+    <!-- The button label for saving an event -->
     <string name="save_label">Selesai</string>
+    <!-- The button label for discarding changes to an event -->
     <string name="discard_label">Batal</string>
+    <!-- Button labels on expanded notification reminders: -->
+    <!-- The button label for making the reminder alarms go away temporarily.
+         The reminder alarms will fire off again in 5 minutes. -->
+    <!-- The button label for dismissing all the current reminder alarms. This
+         causes them to disappear from the notification screen. -->
     <string name="dismiss_all_label">"Tutup semua"</string>
+    <!-- The button label for making the reminder alarms go away temporarily
+         and re-fire in 5 minutes. [CHAR LIMIT=12]-->
     <string name="snooze_label">"Tunda"</string>
+    <!-- Repetition dialog options: -->
+    <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
     <string name="does_not_repeat">Acara sekali</string>
+    <!-- Part of a description of an repeating event. This part states the date when a repeating
+         event ends. The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
     <string name="endByDate">; sampai <xliff:g id="DATE">%s</xliff:g></string>
+    <!-- Part of a description of an repeating event. This part how many times the event repeats.
+         The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
     <plurals name="endByCount">
         <item quantity="other">; untuk <xliff:g id="NUMBER">%d</xliff:g> kali</item>
     </plurals>
+    <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
     <plurals name="daily">
         <item quantity="other">Setiap <xliff:g id="NUMBER">%d</xliff:g> hari</item>
     </plurals>
+    <!-- A label in a multiple-choice list for the specifying that an event
+         repeats every weekday (Monday through Friday) -->
     <string name="every_weekday">"Setiap hari kerja (Sen–Jum)"</string>
+    <!-- A description for an event that repeats weekly on some day of the week. For example,
+         'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
     <plurals name="weekly">
         <item quantity="other">Setiap <xliff:g id="NUMBER">%1$d</xliff:g> minggu hari <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
     </plurals>
+    <!-- The common portion of a string describing how often an event repeats,
+         example: 'Monthly (on day 2)' -->
     <string name="monthly">Bulanan</string>
+    <!-- Calendar spinner item, to select that an event recurs every year. -->
     <string name="yearly_plain">Tahunan</string>
+    <!-- This is a label for telling the user that this event repeats in
+         custom (non-standard) way from the usual repeat rates (such as daily,
+         weekly, etc.) and that the user cannot change this on the phone
+         (but only on the web). -->
     <string name="custom" product="default">"Khusus (tidak dapat disesuaikan di ponsel)"</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change just this one instance
+         of this repeating event. -->
     <string name="modify_event">Ubah acara ini saja</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change all occurrences of
+         this repeating event. -->
     <string name="modify_all">Ubah semua acara dalam rangkaian</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change this instance and all
+         future occurrences of this repeating event. -->
     <string name="modify_all_following">Ubah acara saat ini dan di masa mendatang</string>
+    <!-- Dialogs -->
+    <!-- This is a label on the dialog for creating a new event. [CHAR LIMIT=30] -->
     <string name="new_event_dialog_label">"Acara baru"</string>
+    <!-- This is the button to create a new event in a dialog window. [CHAR LIMIT=30] -->
     <string name="new_event_dialog_option">"Acara baru"</string>
+    <!-- Confirmation dialog message -->
+    <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event. The user still has a chance to cancel
+         this operation. -->
     <string name="delete_this_event_title">Hapus acara ini?</string>
+    <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event that is recurring. The user still has a chance to cancel
+         this operation. -->
     <string name="delete_recurring_event_title">Hapus <xliff:g id="EVENTTITLE">%s</xliff:g>?</string>
+    <!-- This is the title of a popup dialog that asks for confirmation before
+         changing the response to an invitation. -->
     <string name="change_response_title">Ubah tanggapan</string>
+    <!-- This is the title of the screen for setting user preferences. -->
     <string name="preferences_title">"Setelan"</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events -->
     <string name="preferences_general_title">Setelan tampilan kalender</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events in Month view for portrait orientation -->
     <string name="preferences_month_view_portrait">Tata letak tampilan Bulan (Potret)</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events in Month view for landscape orientation -->
     <string name="preferences_month_view_landscape">Tata letak tampilan Bulan (Lanskap)</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to app theme -->
     <string name="preferences_theme">Tema</string>
     <string name="preferences_system_theme">Default sistem</string>
     <string name="preferences_light_theme">Terang</string>
@@ -160,39 +387,70 @@
     <string name="preferences_black_theme">Hitam</string>
     <string name="preferences_color">Warna utama</string>
     <string name="preferences_color_pick">Warna utama</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to reminders for calendar events -->
     <string name="preferences_reminder_title">Notifikasi &amp; pengingat</string>
+    <!-- Settings check box label to hide events that the user has declined to attend -->
     <string name="preferences_hide_declined_title">Sembunyikan acara yang ditolak</string>
+    <!-- Label values for the default start page preference. -->
     <string name="default_start_title">Tampilan standar</string>
     <string name="display_options">Opsi tampilan</string>
     <string name="display_time">Tampilkan waktu</string>
     <string name="display_location">Tampilkan lokasi</string>
     <string name="maximum_number_of_lines">Maks jumlah baris pada acara</string>
     <string name="default_start_last">Tampilan yang digunakan sebelumnya</string>
+    <!-- Settings week start label to start week on specific day-->
     <string name="preferences_week_start_day_title">Minggu dimulai:</string>
+    <!-- Title of popup for week start day setting-->
     <string name="preferences_week_start_day_dialog">Minggu dimulai:</string>
+    <!-- DO NOT TRANSLATE -->
     <string name="preferences_days_per_week_title">Hari per minggu</string>
     <string name="preferences_days_per_week_dialog">Hari per minggu</string>
+    <!-- Title of the default event duration setting-->
     <string name="preferences_default_event_duration_title">Durasi acara default</string>
+    <!-- Title of the settings item to clear the recent search history [CHAR LIMIT=40] -->
     <string name="preferences_clear_search_history_title">Hapus riwayat penelusuran</string>
+    <!-- Summary of the settings item to clear the recent search history [CHAR LIMIT=70]-->
     <string name="preferences_clear_search_history_summary">Hapus semua penelusuran yang telah Anda lakukan</string>
+    <!-- Message to show in a toast when the history is cleared [CHAR LIMIT=40] -->
     <string name="search_history_cleared">Riwayat penelusuran dihapus.</string>
+    <!-- Settings check box label to enable or disable notifications -->
     <string name="preferences_alerts_title">Notifikasi</string>
+    <!-- Settings dialog label that specifies when the phone should vibrate -->
     <string name="preferences_alerts_vibrateWhen_title">Getar</string>
+    <!-- Title of ringtone selector dialog -->
     <string name="preferences_alerts_ringtone_title">Suara</string>
+    <!-- Title of check box label to enable or disable pop-up notifications -->
     <string name="preferences_alerts_popup_title">Notifikasi munculan</string>
+    <!-- List item label for setting the default number of reminder minutes -->
     <string name="preferences_default_reminder_title">Waktu pengingat default</string>
+    <!-- Title of dialog for setting the default number of reminder minutes -->
     <string name="preferences_default_reminder_dialog">Waktu pengingat default</string>
+    <!-- Default value for the number of reminder minutes -->
     <string name="preferences_default_reminder_default">10</string>
+    <!-- Settings check box label to keep Calendar in a fixed 'home' time zone [CHAR LIMIT = 18] -->
     <string name="preferences_use_home_tz_title">Gunakan zona waktu domestik</string>
+    <!-- Settings description of what setting Calendar to use a fixed 'home' time
+        zone does [CHAR LIMIT = 60]-->
     <string name="preferences_use_home_tz_descrip">Tampilkan kalender dan waktu acara dalam zona waktu domestik ketika melakukan perjalanan</string>
+    <!-- Settings title for selecting a 'home' time zone to display Calendar in [CHAR LIMIT = 18] -->
     <string name="preferences_home_tz_title">Zona waktu domestik</string>
+    <!-- DO NOT TRANSLATE -->
+    <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
     <string name="preferences_show_week_num_title">Tampilkan angka minggu</string>
+    <!-- Check box label for using custom snooze delays -->
     <string name="preferences_alerts_custom_snooze_delay_title">Minta jeda penundaan pengingat</string>
+    <!-- Summaries for using custom snooze delays -->
     <string name="preferences_alerts_custom_snooze_delay_summary_on">Minta jeda penundaan setiap kali menunda pengingat</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">Selalu gunakan jeda penundaan default</string>
+    <!-- Title of custom snooze delay dialog -->
     <string name="snooze_delay_dialog_title">Setel jeda penundaan</string>
+    <!-- List item label for setting the default snooze delay -->
     <string name="preferences_default_snooze_delay_title">Lama jeda penundaan default</string>
+    <!-- Title of dialog for setting the default snooze delay -->
     <string name="preferences_default_snooze_delay_dialog">Jeda penundaan default</string>
+    <!-- Default value for the default snooze delay (in minutes) -->
+    <!-- About dialog strings -->
     <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Penulis</string>
     <string name="changelog">Daftar perubahan</string>
@@ -200,77 +458,153 @@
     <string name="preferences_build_version">Versi bentukan</string>
     <string name="preferences_issues">Laporkan masalah</string>
     <string name="source_code">Sumber</string>
+    <!-- Widget -->
+    <!-- Title for calendar gadget when displayed in list of all other gadgets -->
+    <!-- Shown in month view next to event icon when additional events exist for that day, but no
+        room remaining -->
     <plurals name="month_more_events">
+        <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
+        <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
     </plurals>
+    <!-- Caption to show on gadget when there are no upcoming calendar events -->
     <string name="gadget_no_events">Tidak ada acara kalender yang akan datang</string>
+    <!-- Experimental settings [CHAR LIMIT = 30]-->
     <string name="preferences_experimental_category">Eksperimental</string>
+    <!-- Reminders settings [CHAR LIMIT = 30]-->
+    <!-- Preference label for when to skip reminders [CHAR LIMIT = 25] -->
     <string name="preferences_reminders_responded_label">Lewati Pengingat</string>
+    <!-- Dialog title for when to skip reminders [CHAR LIMIT = 25] -->
     <string name="preferences_reminders_responded_dialog">Lewati Pengingat</string>
+    <!-- Send a copy of the database to developers for debugging [CHAR LIMIT="NONE"] -->
     <string name="copy_db">Kirim basis data</string>
+    <!-- Displayed in email address autocomplete list when searching for contacts
+         in corporate directories. Example:  "Searching bigcompany.com..." [CHAR LIMIT=64] -->
     <string name="directory_searching_fmt">Menelusuri <xliff:g id="DOMAIN">%s</xliff:g>…</string>
+    <!-- Accessibility Events -->
+    <!-- Strings that describes actions for buttons without text -->
+    <!-- Create a new calendar event [CHAR LIMIT = NONE]-->
+    <!-- Remove a name of an attendee from a calendar event [CHAR LIMIT = NONE]-->
     <string name="accessibility_remove_attendee">Hapus tamu</string>
+    <!-- Pick a starting date for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_start_date">Tanggal mulai</string>
+    <!-- Pick a starting time for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_start_time">Waktu mulai</string>
+    <!-- Pick the ending date for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_end_date">Tanggal akhir</string>
+    <!-- Pick the ending time for a new event[CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_end_time">Waktu akhir</string>
+    <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_time_zone">Zona waktu</string>
+    <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_recurrence">Acara yang diulang</string>
+    <!-- Add a reminder to an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_add_reminder">Tambahkan pengingat</string>
+    <!-- Remove a reminder from an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_remove_reminder">Hapus pengingat</string>
+    <!-- Add a new attendee to an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_add_attendee">Tambahkan tamu</string>
+    <!-- Choose if to sync/unsync this calendar with its server [CHAR LIMIT = NONE]-->
+    <!-- Mark this event as an "all day event" [CHAR LIMIT = NONE]-->
     <string name="accessibility_all_day">Acara sepanjang hari</string>
+    <!-- Refresh the data in the calendar [CHAR LIMIT = NONE]-->
+    <!-- Choose the type of repetition for the event (daily, weekly, etc.[CHAR LIMIT = NONE]-->
+    <!-- Set the time for the reminder[CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_time">Waktu pengingat</string>
+    <!-- Set the type of the reminder (popup/email/sms)[CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_type">Jenis pengingat</string>
+    <!-- Select the way you are visible for the event (busy/free) [CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_showmeas">Tampilkan saya:</string>
+    <!-- Set the event as private/public/default [CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_privacy">Privasi</string>
+    <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
     <string name="day_view_new_event_hint">+ Acara baru</string>
+    <!--
+      Source: A value for announcing the current event index (example: "Event 2 of 6").
+      Description: This is spoken to the user. [CHAR LIMIT="NONE"]
+    -->
     <string name="template_announce_item_index">Acara <xliff:g id="ITEM_INDEX">%1$s</xliff:g> dari <xliff:g id="ITEM_COUNT">%2$s</xliff:g>.</string>
+    <!-- number of events in the notification bar -->
     <plurals name="Nevents">
+        <!-- This is the label for a 1 event. -->
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> acara</item>
     </plurals>
+    <!-- number of remaining events for an alert digest in the notification bar [CHAR LIMIT = 30] -->
     <plurals name="N_remaining_events">
+        <!-- This is the label for 1 event. -->
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> acara</item>
     </plurals>
+    <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
     <string name="acessibility_selected_marker_description">Acara terpilih</string>
+    <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
+    <!-- Dialog title for recurrence picker for configuring a repeating event[CHAR LIMIT=20] -->
+    <!-- Dialog title for recurrence picker when one-time event is selected [CHAR LIMIT=20] -->
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
     <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> hari sekali</item>
     </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
     <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minggu sekali</item>
     </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
     <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> bulan sekali</item>
     </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
     <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> tahun sekali</item>
     </plurals>
+    <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
     <string name="recurrence_month_pattern_by_day">bulanan-hari yg sama</string>
+    <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
     <string name="recurrence_end_continously">Selamanya</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=25] -->
     <string name="recurrence_end_date_label">Sampai tanggal tertentu</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=20] -->
     <string name="recurrence_end_date">Sampai <xliff:g id="DATE">%s</xliff:g></string>
+    <!-- Specifies that a repeating event to repeat for a number of times. A repeating event can repeat forever, repeat in a certain frequency until a certain date, or repeat for a number of times. e.g. repeat 10 times and stop. This string is for the last case [CHAR LIMIT=25] -->
     <string name="recurrence_end_count_label">Untuk sejumlah acara</string>
+    <!-- Specifies that a repeating event should repeat for a certain number of iterations. [CHAR LIMIT=20]-->
     <plurals name="recurrence_end_count">
         <item quantity="other">Untuk <xliff:g id="EVENT_COUNT">%d</xliff:g> acara</item>
     </plurals>
+    <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
     <string name="acessibility_recurrence_choose_end_date_description">ubah tanggal akhir</string>
+    <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
+    <!-- Strings to describe visibility array -->
     <string name="visibility_default">Standar</string>
     <string name="visibility_confidential">Rahasia</string>
     <string name="visibility_private">Pribadi</string>
     <string name="visibility_public">Publik</string>
+    <!-- Strings to describe per week labels array -->
     <string name="two_days">2 hari</string>
     <string name="three_days">3 hari</string>
     <string name="four_days">4 hari</string>
     <string name="five_days">5 hari</string>
     <string name="six_days">6 hari</string>
     <string name="seven_days">7 Hari</string>
+    <!-- Strings to describe default duration array -->
     <string name="zero_minutes">0 menit</string>
     <string name="fifteen_minutes">15 menit</string>
     <string name="thirty_minutes">30 menit</string>
     <string name="one_hour">1 jam</string>
     <string name="one_and_a_half_hours">1,5 jam</string>
     <string name="two_hours">2 jam</string>
+    <!-- Toast message displayed when ics file to share an event can't be generated -->
     <string name="error_generating_ics">Masalah ditemukan saat berbagi acara</string>
+    <!-- Sharing calendar event -->
     <string name="cal_share_intent_title">Kirim acara ke:</string>
     <string name="cal_export_event_sdcard_title">Ekspor ke kartu SD</string>
     <string name="cal_export_succ_msg">Acara berhasil diekspor: %1$s</string>
@@ -280,8 +614,10 @@
     <string name="cal_import_error_time_zone_msg">Zona waktu yang diberikan tidak dapat dimengerti: %s</string>
     <string name="cal_import_error_date_msg">Tanggal yang diberikan tidak dapat dimengerti: %s</string>
     <string name="cal_pick_ics">Pilih berkas yang akan diimpor</string>
+    <!-- Strings to describe view details array -->
     <string name="show_time_no">Jangan tampilkan waktu</string>
     <string name="show_time_start">Hanya waktu mulai</string>
+    <!-- Preferences -->
     <string name="preferences_calendar_no_display_name">Kalender tanpa nama</string>
     <string name="preferences_calendar_account">%1$s akun</string>
     <string name="preferences_calendar_account_local">Kalender offline</string>

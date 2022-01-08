@@ -14,147 +14,374 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- This is the label underneath the icon for Calendar -->
     <string name="app_label">캘린더</string>
+    <!-- Shared Labels. These labels are shared among the activities. -->
+    <!-- This is the label for the time of an event [CHAR LIMIT=30] -->
     <string name="when_label">일시</string>
+    <!-- Text to show when an event starts on the current day -->
     <string name="today">오늘</string>
+    <!-- Text to show when an event starts on the next day -->
     <string name="tomorrow">내일</string>
+    <!-- Text for an event starting on the current day with a start and end time.
+         For ex, "Today at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
     <string name="today_at_time_fmt">"오늘 <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <!-- Text for an event starting on the next day with a start and end time.
+         For ex, "Tomorrow at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
     <string name="tomorrow_at_time_fmt">"내일 <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <!-- Format string for a date and time description.  For ex:
+         "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <!-- Title of event when no explicit title is specified by the user -->
     <string name="no_title_label">(제목 없음)</string>
+    <!-- Reminder format strings -->
     <plurals name="Nminutes">
+        <!-- This is the label for a 1-minute reminder. -->
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>분</item>
     </plurals>
+    <!-- We use the abbreviation "mins" instead of "minutes" to keep the string short.
+         This is the number of minutes displayed for a calendar reminder.  For example,
+         a reminder of 10 minutes would be displayed as '10 mins'.  The translation
+         should use the shortest acceptable abbreviation to save space. -->
     <plurals name="Nmins">
+        <!-- This is the label for a 1-minute reminder. -->
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>분</item>
     </plurals>
+    <!-- This is the number of hours displayed for a calendar reminder.  For example,
+         a reminder of 1 hour would be displayed as '1 hour'.  The translation
+         should use the shortest acceptable abbreviation of 'hour' to save space. -->
     <plurals name="Nhours">
+        <!-- This is the label for a 1-hour reminder. -->
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>시간</item>
     </plurals>
+    <!-- This is the number of days displayed for a calendar reminder.  For example,
+         a reminder of 2 days would be displayed as '2 days'.  The translation
+         should use the shortest acceptable abbreviation of 'day' to save space. -->
     <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>일</item>
     </plurals>
+    <!-- This is for displaying the week of the year near the date. Eg. "January, 2011 Week 1" -->
     <plurals name="weekN">
+        <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>번째 주</item>
     </plurals>
+    <!-- Menu items: -->
+    <!-- This is a label on a context menu item. Pressing this menu item to initiate
+        syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
     <string name="calendar_refresh">"새로 고침"</string>
+    <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Agenda view. -->
+    <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Day view. -->
     <string name="show_day_view">"요일 표시"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Agenda view. -->
     <string name="agenda_view">"일정목록"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Day view. -->
     <string name="day_view">"일"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Week view. -->
     <string name="week_view">"주"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         Month view. -->
     <string name="month_view">"월"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
+         details of an event. -->
     <string name="event_view">"일정 보기"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to create a new event. -->
     <string name="event_create">"새 일정"</string>
+    <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to edit or change an existing event. -->
     <string name="event_edit">"일정 수정"</string>
+    <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to delete an existing event. -->
     <string name="event_delete">"일정 삭제"</string>
     <string name="share_label">공유</string>
+    <!-- This is a label on a menu item. Pressing this menu
+         item takes the user to the current day (today) in whatever view
+         (Day view, Week view, Agenda view, Month view) they are currently in. -->
     <string name="goto_today">"오늘"</string>
+    <!-- This is a label on a menu item. Pressing this menu
+         item opens new dialog shown the date that the user wants to go. -->
     <string name="goto_date">특정 날짜로 이동\u2026</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to view and edit his Settings (or Preferences) -->
     <string name="menu_preferences">"설정"</string>
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
     <string name="search">"검색"</string>
+    <!-- This is a label on a menu item. Pressing this menu item hides
+         the navigation controls on the right side. [CHAR LIMIT=20] -->
     <string name="hide_controls">"컨트롤 숨기기"</string>
+    <!-- This is a label on a menu item. Pressing this menu item shows the
+         navigation controls on the right side. [CHAR LIMIT=20] -->
     <string name="show_controls">"컨트롤 표시"</string>
+    <!-- This is a label on a menu item. Pressing this menu item shows the
+         View settings menu [CHAR LIMIT=20] -->
     <string name="view_settings">"설정 보기"</string>
+    <!-- Month view -->
+    <!-- Select Visible Calendars activity -->
+    <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
     <string name="select_synced_calendars_button">동기화할 캘린더</string>
+    <!-- Event edit activity -->
+    <!-- Default value of What field (as a hint to the user) [CHAR LIMIT=15] -->
     <string name="hint_what">"일정 이름"</string>
+    <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
     <string name="hint_where">"장소"</string>
+    <!-- Default value of Description field (as a hint to the user) [CHAR LIMIT=15]-->
     <string name="hint_description">"일정 설명"</string>
+    <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
     <string name="hint_attendees">"참석자 추가"</string>
+    <!-- Toast message displayed when a new event is created -->
     <string name="creating_event">"일정을 만들었습니다."</string>
+    <!-- Toast message displayed when an existing event is saved after being modified -->
     <string name="saving_event">"일정을 저장했습니다."</string>
+    <!-- Toast message displayed when a new event was not saved because it was empty [CHAR LIMIT=30] -->
     <string name="empty_event">"빈 일정은 만들 수 없습니다."</string>
+    <!-- Toast message displayed when a new event with guests is created -->
     <string name="creating_event_with_guest">"초대장이 전송됩니다."</string>
+    <!-- Toast message displayed when an existing event with guests is saved after being modified -->
     <string name="saving_event_with_guest">"업데이트가 전송됩니다."</string>
+    <!-- Toast message displayed responding to an event from an email as accepted
+     [CHAR LIMIT=50] -->
     <string name="rsvp_accepted">"참석으로 응답함"</string>
+    <!-- Toast message displayed responding to an event from an email as tentative
+     [CHAR LIMIT=50] -->
     <string name="rsvp_tentative">"미정으로 응답함"</string>
+    <!-- Toast message displayed responding to an event from an email as declined
+     [CHAR LIMIT=50] -->
     <string name="rsvp_declined">"참석 안함으로 응답함"</string>
+    <!-- Create event dialog -->
+    <!-- Create event dialog save button [CHAR LIMIT=10] -->
     <string name="create_event_dialog_save">저장</string>
+    <!-- The alert toast is not actually being displayed for some reason. -->
+    <!-- the title of the alert/notification activity -->
     <string name="alert_title">캘린더 알림</string>
+    <!-- Notification window messages: -->
     <string name="foreground_notification_channel_name">동기화 알림</string>
     <string name="foreground_notification_channel_description">내부 알림 동기화에 포그라운드 알림이 필요합니다.</string>
+    <!-- Event info/edit screen labels:-->
+    <!-- This is the title of the screen used to view the details of an event -->
     <string name="event_info_title">일정 보기</string>
+    <!-- This is the title of the screen used to view the details of an invitation
+         to a meeting or event -->
     <string name="event_info_title_invite">회의 초대</string>
+    <!-- EditEventActivity specific strings: -->
+    <!-- Check box label that specifies if this is an all-day event -->
     <string name="edit_event_all_day_label">종일</string>
+    <!-- Label for choosing one of the calendars -->
     <string name="edit_event_calendar_label">캘린더</string>
+    <!-- Menu item to show all choices [CHAR LIMIT=22]-->
+    <!-- Label for the 'Presence' of an event, which can be either 'busy' (the default)
+         or 'available'  [CHAR LIMIT=15] -->
     <string name="presence_label">내 상태</string>
+    <!-- Label for the 'Privacy' of an event, which can be either 'private'
+         or 'public' [CHAR LIMIT=15] -->
     <string name="privacy_label">공개 설정</string>
+    <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
     <string name="reminders_label">알림 추가</string>
+    <!-- Title of alert shown if the user tries to create an event and has no calendars -->
     <string name="no_syncable_calendars">캘린더 없음</string>
+    <!-- Body of alert shown if the user tries to create an event and has no calendars. Users can start adding an account here. [CHAR LIMIT=NONE] -->
     <string name="no_calendars_found">일정을 추가하기 전에 기기에 하나 이상의 캘린더 계정을 추가하고 캘린더를 표시해야 합니다. 계정 추가를 터치하여 계정을 추가합니다(계정을 추가한 다음 동기화가 완료될 때까지 기다렸다가 다시 시도합니다). 또는 취소를 터치하고 적어도 하나의 캘린더가 표시되도록 합니다.</string>
+    <!-- Body of dialog prompting the user to create an account.[CHAR LIMIT=NONE] -->
+    <!-- Title of a button shown when there is no account available and the system prompt a user to add one. [CHAR LIMIT=none] -->
     <string name="add_account">계정 추가</string>
+    <!-- View Event -->
+    <!-- Label for which calendar an event is part of -->
     <string name="view_event_calendar_label">캘린더:</string>
+    <!-- Label for the event organizer -->
     <string name="view_event_organizer_label">주최자:</string>
+    <!-- Label for showing event color picker -->
     <string name="choose_event_color_label">일정 색상 선택</string>
+    <!-- Title for event color picker dialog -->
     <string name="event_color_picker_dialog_title">일정 색상</string>
+    <!-- Label for button which sets event color to default calendar color -->
     <string name="event_color_set_to_default">기본 캘린더 색상으로 설정</string>
+    <!-- Title for calendar color picker dialog -->
     <string name="calendar_color_picker_dialog_title">캘린더 색상</string>
+    <!-- Description for calendar color squares, which bring up the color picker. -->
     <string name="calendar_square_color_picker_description">색상 선택기</string>
+    <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
     <string name="view_event_response_label">참석하시겠습니까?</string>
+    <!-- Response for whether attending an event - accepted [CHAR LIMIT=10]-->
     <string name="response_yes">예</string>
+    <!-- Response for whether attending an event - tentative [CHAR LIMIT=10]-->
     <string name="response_maybe">미정</string>
+    <!-- Response for whether attending an event - declined [CHAR LIMIT=10]-->
     <string name="response_no">아니요</string>
+    <!-- Label for emailing attendees -->
     <string name="email_guests_label">참석자에게 이메일 보내기</string>
+    <!-- Label for emailing the organizer (when there are no attendees) -->
     <string name="email_organizer_label">이메일 관리도구</string>
+    <!-- This is shown in the popup picker when emailing attendees -->
     <string name="email_picker_label">이메일:</string>
+    <!-- The is shown in the email subject as the prefix appended to the event title -->
+    <!-- Toast message displayed when the event id was not found LIMIT=30] -->
     <string name="event_not_found">"일정을 찾을 수 없습니다."</string>
+    <!-- Notification label for getting a map of the location. -->
     <string name="map_label">지도</string>
+    <!-- No maps found in phone -->
     <string name="no_map">설치된 지도 앱 없음</string>
+    <!-- Notification label for calling a phone number in the location. -->
     <string name="call_label">통화</string>
+    <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
     <string name="quick_response_settings">빠른 응답</string>
+    <!-- Summary of the quick response item in Settings [CHAR LIMIT=80]-->
     <string name="quick_response_settings_summary">참석자에게 보내는 빠른 응답 메시지 수정</string>
+    <!-- Title of the quick response screen in Settings->Quick Response [CHAR LIMIT=27]-->
+    <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
     <string name="quick_response_settings_edit_title">빠른 응답</string>
+    <!-- Title of the dialog prompting the user choose a response when emailing guests  [CHAR LIMIT=none]-->
     <string name="quick_response_dialog_title">빠른 응답 선택</string>
+    <!-- Error to user when an email program can't be found[CHAR LIMIT=none]-->
     <string name="quick_response_email_failed">이메일 프로그램 찾기 실패</string>
+    <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
     <string-array name="quick_response_defaults">
         <item>조금 늦어요.</item>
         <item>약 10분 후에 도착합니다.</item>
         <item>저 없이 시작하세요.</item>
         <item>죄송합니다. 일정을 변경해야 합니다.</item>
     </string-array>
+    <!-- Option to create a custom response instead of using defaults [CHAR LIMIT=none] -->
     <string name="quick_response_custom_msg">직접 메시지 쓰기…</string>
+    <!-- Event Info strings-->
+    <!-- Organizer Label [CHAR LIMIT=12]-->
     <string name="event_info_organizer">주최자:</string>
+    <!-- Reminders label [CHAR LIMIT=15]-->
     <string name="event_info_reminders_label">알림</string>
+    <!-- Agenda View strings -->
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
     <string name="agenda_today">오늘, <xliff:g id="DATE">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
     <string name="agenda_yesterday">어제, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
     <string name="agenda_tomorrow">내일, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown while the calendar events are being loading to the screen. -->
     <string name="loading">로드 중...</string>
+    <!-- This is shown at the top of the agenda view showing the beginning of the searched range. If the user taps on this string and Calendar will find events older than what is visible and display them to the user -->
     <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> 이전 일정을 보려면 터치하세요.</string>
+    <!-- This is shown at the bottom of the agenda view showing the end of the searched range. If the user taps on this string and Calendar will find events later/newer than what is visible and display them to the user -->
     <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> 이후 일정을 보려면 터치하세요.</string>
+    <!-- Search activity strings -->
+    <!-- Title of the search screen [CHAR LIMIT=30] -->
     <string name="search_title">내 캘린더 검색</string>
+    <!-- Button labels: -->
+    <!-- This is the title of a popup window that is displayed when the user
+         edits a repeating event. [CHAR LIMIT=20]-->
     <string name="edit_event_label">"세부정보"</string>
+    <!-- This is a menu button for switching into edit mode when viewing an event.
+        [CHAR LIMIT=10] -->
     <string name="edit_label">"수정"</string>
+    <!-- The button label for deleting an event -->
     <string name="delete_label">"삭제"</string>
+    <!-- A menu item for deleting an event -->
+    <!-- The button label for saving an event -->
     <string name="save_label">완료</string>
+    <!-- The button label for discarding changes to an event -->
     <string name="discard_label">취소</string>
+    <!-- Button labels on expanded notification reminders: -->
+    <!-- The button label for making the reminder alarms go away temporarily.
+         The reminder alarms will fire off again in 5 minutes. -->
+    <!-- The button label for dismissing all the current reminder alarms. This
+         causes them to disappear from the notification screen. -->
     <string name="dismiss_all_label">"모두 해제"</string>
+    <!-- The button label for making the reminder alarms go away temporarily
+         and re-fire in 5 minutes. [CHAR LIMIT=12]-->
     <string name="snooze_label">"알림 일시중지"</string>
+    <!-- Repetition dialog options: -->
+    <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
     <string name="does_not_repeat">없음</string>
+    <!-- Part of a description of an repeating event. This part states the date when a repeating
+         event ends. The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
     <string name="endByDate">, <xliff:g id="DATE">%s</xliff:g>까지</string>
+    <!-- Part of a description of an repeating event. This part how many times the event repeats.
+         The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
     <plurals name="endByCount">
         <item quantity="other">, <xliff:g id="NUMBER">%d</xliff:g>회</item>
     </plurals>
+    <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
     <plurals name="daily">
         <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g>일에 한 번</item>
     </plurals>
+    <!-- A label in a multiple-choice list for the specifying that an event
+         repeats every weekday (Monday through Friday) -->
     <string name="every_weekday">"주중 매일(월-금)"</string>
+    <!-- A description for an event that repeats weekly on some day of the week. For example,
+         'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
     <plurals name="weekly">
         <item quantity="other"><xliff:g id="NUMBER">%1$d</xliff:g>주에 한 번 <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
     </plurals>
+    <!-- The common portion of a string describing how often an event repeats,
+         example: 'Monthly (on day 2)' -->
     <string name="monthly">매월</string>
+    <!-- Calendar spinner item, to select that an event recurs every year. -->
     <string name="yearly_plain">매년</string>
+    <!-- This is a label for telling the user that this event repeats in
+         custom (non-standard) way from the usual repeat rates (such as daily,
+         weekly, etc.) and that the user cannot change this on the phone
+         (but only on the web). -->
     <string name="custom" product="default">"사용자 설정(휴대전화에서는 할 수 없음)"</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change just this one instance
+         of this repeating event. -->
     <string name="modify_event">이번 일정만 변경합니다.</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change all occurrences of
+         this repeating event. -->
     <string name="modify_all">모든 반복일정을 변경합니다.</string>
+    <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change this instance and all
+         future occurrences of this repeating event. -->
     <string name="modify_all_following">이번 및 모든 향후 일정을 변경합니다.</string>
+    <!-- Dialogs -->
+    <!-- This is a label on the dialog for creating a new event. [CHAR LIMIT=30] -->
     <string name="new_event_dialog_label">"새 일정"</string>
+    <!-- This is the button to create a new event in a dialog window. [CHAR LIMIT=30] -->
     <string name="new_event_dialog_option">"새 일정"</string>
+    <!-- Confirmation dialog message -->
+    <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event. The user still has a chance to cancel
+         this operation. -->
     <string name="delete_this_event_title">이번 일정을 삭제하시겠습니까?</string>
+    <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event that is recurring. The user still has a chance to cancel
+         this operation. -->
     <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g>을(를) 삭제하시겠습니까?</string>
+    <!-- This is the title of a popup dialog that asks for confirmation before
+         changing the response to an invitation. -->
     <string name="change_response_title">회신 변경</string>
+    <!-- This is the title of the screen for setting user preferences. -->
     <string name="preferences_title">"설정"</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events -->
     <string name="preferences_general_title">캘린더 보기 설정</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events in Month view for portrait orientation -->
     <string name="preferences_month_view_portrait">월별 보기 레이아웃 (세로)</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events in Month view for landscape orientation -->
     <string name="preferences_month_view_landscape">월별 보기 레이아웃 (가로)</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to app theme -->
     <string name="preferences_theme">테마</string>
     <string name="preferences_system_theme">시스템 기본 설정</string>
     <string name="preferences_light_theme">밝음</string>
@@ -163,39 +390,70 @@
     <string name="preferences_color">기본 색상</string>
     <string name="preferences_color_pick">기본 색상</string>
     <string name="preferences_pure_black_night_mode">야간 모드에 검정색 사용</string>
+    <!-- This is the title of a section in the Settings screen for settings
+         related to reminders for calendar events -->
     <string name="preferences_reminder_title">알림</string>
+    <!-- Settings check box label to hide events that the user has declined to attend -->
     <string name="preferences_hide_declined_title">거부한 일정 숨기기</string>
+    <!-- Label values for the default start page preference. -->
     <string name="default_start_title">기본 보기</string>
     <string name="display_options">표시 옵션</string>
     <string name="display_time">시간 표시</string>
     <string name="display_location">위치 표시</string>
     <string name="maximum_number_of_lines">일정 최대 줄 수</string>
     <string name="default_start_last">이전에 사용한 보기</string>
+    <!-- Settings week start label to start week on specific day-->
     <string name="preferences_week_start_day_title">한 주의 시작</string>
+    <!-- Title of popup for week start day setting-->
     <string name="preferences_week_start_day_dialog">한 주의 시작</string>
+    <!-- DO NOT TRANSLATE -->
     <string name="preferences_days_per_week_title">주당 일 수</string>
     <string name="preferences_days_per_week_dialog">주당 일 수</string>
+    <!-- Title of the default event duration setting-->
     <string name="preferences_default_event_duration_title">일정 기본 지속 시간</string>
+    <!-- Title of the settings item to clear the recent search history [CHAR LIMIT=40] -->
     <string name="preferences_clear_search_history_title">검색기록 지우기</string>
+    <!-- Summary of the settings item to clear the recent search history [CHAR LIMIT=70]-->
     <string name="preferences_clear_search_history_summary">모든 검색기록 삭제</string>
+    <!-- Message to show in a toast when the history is cleared [CHAR LIMIT=40] -->
     <string name="search_history_cleared">검색기록이 삭제되었습니다.</string>
+    <!-- Settings check box label to enable or disable notifications -->
     <string name="preferences_alerts_title">알림</string>
+    <!-- Settings dialog label that specifies when the phone should vibrate -->
     <string name="preferences_alerts_vibrateWhen_title">진동</string>
+    <!-- Title of ringtone selector dialog -->
     <string name="preferences_alerts_ringtone_title">소리</string>
+    <!-- Title of check box label to enable or disable pop-up notifications -->
     <string name="preferences_alerts_popup_title">팝업 알림</string>
+    <!-- List item label for setting the default number of reminder minutes -->
     <string name="preferences_default_reminder_title">기본 알림 시간</string>
+    <!-- Title of dialog for setting the default number of reminder minutes -->
     <string name="preferences_default_reminder_dialog">기본 알림 시간</string>
+    <!-- Default value for the number of reminder minutes -->
     <string name="preferences_default_reminder_default">10</string>
+    <!-- Settings check box label to keep Calendar in a fixed 'home' time zone [CHAR LIMIT = 18] -->
     <string name="preferences_use_home_tz_title">기본 시간대 사용</string>
+    <!-- Settings description of what setting Calendar to use a fixed 'home' time
+        zone does [CHAR LIMIT = 60]-->
     <string name="preferences_use_home_tz_descrip">여행하는 동안 캘린더와 일정 시간을 기본 시간대로 표시합니다.</string>
+    <!-- Settings title for selecting a 'home' time zone to display Calendar in [CHAR LIMIT = 18] -->
     <string name="preferences_home_tz_title">기본 시간대</string>
+    <!-- DO NOT TRANSLATE -->
+    <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
     <string name="preferences_show_week_num_title">몇째 주인지 표시</string>
+    <!-- Check box label for using custom snooze delays -->
     <string name="preferences_alerts_custom_snooze_delay_title">알림 일시 중지할 시간 묻기</string>
+    <!-- Summaries for using custom snooze delays -->
     <string name="preferences_alerts_custom_snooze_delay_summary_on">알림 일시 중지할 시간 항상 묻기</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">알림을 일시 중지할 시간으로 항상 기본값 사용</string>
+    <!-- Title of custom snooze delay dialog -->
     <string name="snooze_delay_dialog_title">일시 중지할 시간 설정</string>
+    <!-- List item label for setting the default snooze delay -->
     <string name="preferences_default_snooze_delay_title">기본 알림 일시 중지 시간</string>
+    <!-- Title of dialog for setting the default snooze delay -->
     <string name="preferences_default_snooze_delay_dialog">기본 알림 일시 중지 지연 시간</string>
+    <!-- Default value for the default snooze delay (in minutes) -->
+    <!-- About dialog strings -->
     <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">제작자</string>
     <string name="changelog">변경 내역</string>
@@ -203,79 +461,155 @@
     <string name="preferences_build_version">빌드 버전</string>
     <string name="preferences_issues">오류 보고</string>
     <string name="source_code">소스</string>
+    <!-- Widget -->
+    <!-- Title for calendar gadget when displayed in list of all other gadgets -->
+    <!-- Shown in month view next to event icon when additional events exist for that day, but no
+        room remaining -->
     <plurals name="month_more_events">
+        <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
+        <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
         <item quantity="other">+ <xliff:g id="NUMBER">%d</xliff:g>개</item>
     </plurals>
+    <!-- Caption to show on gadget when there are no upcoming calendar events -->
     <string name="gadget_no_events">예정된 캘린더 일정이 없습니다.</string>
+    <!-- Experimental settings [CHAR LIMIT = 30]-->
     <string name="preferences_experimental_category">베타</string>
+    <!-- Reminders settings [CHAR LIMIT = 30]-->
+    <!-- Preference label for when to skip reminders [CHAR LIMIT = 25] -->
     <string name="preferences_reminders_responded_label">알림 건너뛰기</string>
+    <!-- Dialog title for when to skip reminders [CHAR LIMIT = 25] -->
     <string name="preferences_reminders_responded_dialog">알림 건너뛰기</string>
+    <!-- Send a copy of the database to developers for debugging [CHAR LIMIT="NONE"] -->
     <string name="copy_db">데이터베이스 보내기</string>
+    <!-- Displayed in email address autocomplete list when searching for contacts
+         in corporate directories. Example:  "Searching bigcompany.com..." [CHAR LIMIT=64] -->
     <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> 검색 중...</string>
+    <!-- Accessibility Events -->
+    <!-- Strings that describes actions for buttons without text -->
+    <!-- Create a new calendar event [CHAR LIMIT = NONE]-->
+    <!-- Remove a name of an attendee from a calendar event [CHAR LIMIT = NONE]-->
     <string name="accessibility_remove_attendee">참석자 삭제</string>
+    <!-- Pick a starting date for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_start_date">시작일</string>
+    <!-- Pick a starting time for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_start_time">시작 시간</string>
+    <!-- Pick the ending date for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_end_date">종료일</string>
+    <!-- Pick the ending time for a new event[CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_end_time">종료 시간</string>
+    <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_time_zone">표준시간대</string>
+    <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_recurrence">일정 반복</string>
+    <!-- Add a reminder to an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_add_reminder">알림 추가</string>
+    <!-- Remove a reminder from an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_remove_reminder">알림 삭제</string>
+    <!-- Add a new attendee to an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_add_attendee">참석자 추가</string>
+    <!-- Choose if to sync/unsync this calendar with its server [CHAR LIMIT = NONE]-->
+    <!-- Mark this event as an "all day event" [CHAR LIMIT = NONE]-->
     <string name="accessibility_all_day">종일 일정</string>
+    <!-- Refresh the data in the calendar [CHAR LIMIT = NONE]-->
+    <!-- Choose the type of repetition for the event (daily, weekly, etc.[CHAR LIMIT = NONE]-->
+    <!-- Set the time for the reminder[CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_time">알림 시간</string>
+    <!-- Set the type of the reminder (popup/email/sms)[CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_type">알림 유형</string>
+    <!-- Select the way you are visible for the event (busy/free) [CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_showmeas">내 상태</string>
+    <!-- Set the event as private/public/default [CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_privacy">공개 설정</string>
+    <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
     <string name="day_view_new_event_hint">+ 새 일정</string>
+    <!--
+      Source: A value for announcing the current event index (example: "Event 2 of 6").
+      Description: This is spoken to the user. [CHAR LIMIT="NONE"]
+    -->
     <string name="template_announce_item_index">일정 <xliff:g id="ITEM_INDEX">%1$s</xliff:g>/<xliff:g id="ITEM_COUNT">%2$s</xliff:g></string>
+    <!-- number of events in the notification bar -->
     <plurals name="Nevents">
+        <!-- This is the label for a 1 event. -->
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other">일정 <xliff:g id="COUNT">%d</xliff:g>개</item>
     </plurals>
+    <!-- number of remaining events for an alert digest in the notification bar [CHAR LIMIT = 30] -->
     <plurals name="N_remaining_events">
+        <!-- This is the label for 1 event. -->
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other">남은 일정 <xliff:g id="COUNT">%d</xliff:g>개</item>
     </plurals>
+    <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
     <string name="acessibility_selected_marker_description">선택한 일정</string>
+    <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
+    <!-- Dialog title for recurrence picker for configuring a repeating event[CHAR LIMIT=20] -->
+    <!-- Dialog title for recurrence picker when one-time event is selected [CHAR LIMIT=20] -->
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
     <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>일에 한 번</item>
     </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
     <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>주에 한 번</item>
     </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
     <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>개월에 한 번</item>
     </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
     <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>년에 한 번</item>
     </plurals>
+    <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
     <string name="recurrence_month_pattern_by_day">매월 같은 날</string>
+    <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
     <string name="recurrence_end_continously">계속</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=25] -->
     <string name="recurrence_end_date_label">특정일까지</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=20] -->
     <string name="recurrence_end_date">종료일: <xliff:g id="DATE">%s</xliff:g></string>
+    <!-- Specifies that a repeating event to repeat for a number of times. A repeating event can repeat forever, repeat in a certain frequency until a certain date, or repeat for a number of times. e.g. repeat 10 times and stop. This string is for the last case [CHAR LIMIT=25] -->
     <string name="recurrence_end_count_label">지정된 횟수만</string>
+    <!-- Specifies that a repeating event should repeat for a certain number of iterations. [CHAR LIMIT=20]-->
     <plurals name="recurrence_end_count">
         <item quantity="other">반복 횟수 <xliff:g id="EVENT_COUNT">%d</xliff:g>번</item>
     </plurals>
+    <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
     <string name="acessibility_recurrence_choose_end_date_description">종료일 변경</string>
+    <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
     <string name="user_rejected_calendar_write_permission">캘린더는 정상 작동을 위해 [일정 읽고 쓰기] 권한이 필요합니다. 다시 시도해 주세요.</string>
     <string name="calendar_permission_not_granted">필요한 권한이 거부되었습니다. 일정을 편집하려면 설정 앱에서 권한을 허용해 주세요.</string>
+    <!-- Strings to describe visibility array -->
     <string name="visibility_default">기본값</string>
     <string name="visibility_confidential">비밀</string>
     <string name="visibility_private">비공개</string>
     <string name="visibility_public">공개</string>
+    <!-- Strings to describe per week labels array -->
     <string name="two_days">2일</string>
     <string name="three_days">3일</string>
     <string name="four_days">4일</string>
     <string name="five_days">5일</string>
     <string name="six_days">6일</string>
     <string name="seven_days">7일</string>
+    <!-- Strings to describe default duration array -->
     <string name="zero_minutes">0분</string>
     <string name="fifteen_minutes">15분</string>
     <string name="thirty_minutes">30분</string>
     <string name="one_hour">1시간</string>
     <string name="one_and_a_half_hours">1.5시간</string>
     <string name="two_hours">2시간</string>
+    <!-- Toast message displayed when ics file to share an event can't be generated -->
     <string name="error_generating_ics">일정을 공유하는 중 문제가 발생했습니다</string>
+    <!-- Sharing calendar event -->
     <string name="cal_share_intent_title">일정 보내기:</string>
     <string name="cal_export_event_sdcard_title">SD 카드로 내보내기</string>
     <string name="cal_export_succ_msg">일정이 성공적으로 내보내짐: %1$s</string>
@@ -285,10 +619,12 @@
     <string name="cal_import_error_time_zone_msg">시간대: %s 을 알 수 없음</string>
     <string name="cal_import_error_date_msg">날짜: %s 을 알 수 없음</string>
     <string name="cal_pick_ics">가져올 파일 선택</string>
+    <!-- Strings to describe view details array -->
     <string name="show_time_no">시간 표시 안 함</string>
     <string name="show_time_start">시작 시간만 표시</string>
     <string name="show_time_start_end">시작 및 종료 시간 표시</string>
     <string name="show_time_start_end_below">일정 아래에 시작 및 종료 시간 표시</string>
+    <!-- Preferences -->
     <string name="preferences_calendar_no_display_name">이름 없는 캘린더</string>
     <string name="preferences_calendar_account">%1$s 계정</string>
     <string name="preferences_calendar_account_local">오프라인 캘린더</string>

@@ -14,12 +14,25 @@
      limitations under the License.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Entries for the primary color-->
+    <!-- Choices for the "Reminder method" spinner.
+         These must be kept in sync with the reminder_methods_values array.
+         [CHAR LIMIT=10]
+    -->
     <string-array name="reminder_methods_labels">
         <item>Обавештење</item>
         <item>Имејл</item>
         <item>SMS</item>
         <item>Аларм</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Choices for the "Reminder minutes" spinner.
+         These must be kept in sync with the reminder_minutes_values array.
+         For consistency, the format should match what
+         EventViewUtils.constructReminderLabel() generates.  (TODO: eliminate
+         this and just generate the list from reminder_minutes_values?)
+         [CHAR LIMIT=15]
+    -->
     <string-array name="reminder_minutes_labels">
         <item>0 минута</item>
         <item>1 минут</item>
@@ -38,6 +51,10 @@
         <item>2 дана</item>
         <item>1 недеља</item>
     </string-array>
+    <!-- Choices for the "Reminder minutes" spinner in the settings.
+         These must be kept in sync with the preferences_default_reminder_values array.
+         [CHAR LIMIT=12]
+    -->
     <string-array name="preferences_default_reminder_labels">
         <item>Ништа</item>
         <item>0 минута</item>
@@ -57,6 +74,8 @@
         <item>2 дана</item>
         <item>1 недеља</item>
     </string-array>
+    <!-- Labels for the default startup page preference. -->
+    <!-- Values for the default startup page preference. See CalendarController.ViewType.  -->
     <string-array name="preferences_week_start_day_labels">
         <item>Подразумевано за локалитет</item>
         <item>субота</item>
@@ -68,37 +87,68 @@
         <item>Доступан/а</item>
         <item>Проба</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Invitation responses -->
     <string-array name="response_labels1">
         <item>Без одговора</item>
         <item>Да</item>
         <item>Можда</item>
         <item>Не</item>
     </string-array>
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is a list of choices displayed when the user deletes an event.
+         It only is shown when deleting a recurring event.
+    -->
     <string-array name="delete_repeating_labels">
         <item>Само овај догађај</item>
         <item>Овај и будући догађаји</item>
         <item>Сви догађаји</item>
     </string-array>
+    <!-- DO NOT TRANSLATE These values need to correspond to the indices
+         defined in DeleteEventHelper.java-->
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is the same array as above (the "delete_repeating_labels" array,
+         except that the first element "Only this event" is removed.  This
+         array exists to work-around a bug in the CalendarProvider and sync
+         code where you can't delete one instance of a repeating event that
+         was created on the phone until that event has been synced to the server.
+     -->
+    <!-- The corresponding array indices are defined in EventInfoActivity.java -->
+    <!-- The list of choices displayed in a dialog box when the user wants to
+    respond to an invitation that repeats. -->
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Само овај догађај</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Сви догађаји у овом низу</item>
     </string-array>
+    <!-- Strings for buttons in drop down menu -->
     <string-array name="buttons_list">
         <item>Дан</item>
         <item>Недеља</item>
         <item>Месец</item>
         <item>Распоред</item>
     </string-array>
+    <!-- Experimental options for skipping reminders. [CHAR LIMIT = 37] -->
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Само за одбијања</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>За одбијања или догађаје без одговора</item>
     </string-array>
+    <!-- Recurrence picker: How events are to be repeated.  [CHAR LIMIT = 20] -->
     <string-array name="recurrence_freq">
         <item>ПОНАВЉАЈ ДНЕВНО</item>
         <item>ПОНАВЉАЈ НЕДЕЉНО</item>
         <item>ПОНАВЉАЈ МЕСЕЧНО</item>
         <item>ПОНАВЉАЈ ГОДИШЊЕ</item>
     </string-array>
+    <!-- The following sets of strings describe a monthly recurring event, which will repeat
+         on the Nth WEEKDAY of every month. For example, the 3rd Monday of every month, or
+         the last Sunday. These are set up like this to resolve any gender-matching issues
+         that were present in some languages.
+     -->
+    <!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sun">
         <item>сваке прве недеље</item>
         <item>сваке друге недеље</item>
@@ -106,6 +156,7 @@
         <item>сваке четврте недеље</item>
         <item>сваке последње недеље</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_mon">
         <item>сваког првог понедељка</item>
         <item>сваког другог понедељка</item>
@@ -113,6 +164,7 @@
         <item>сваког четвртог понедељка</item>
         <item>сваког последњег понедељка</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_tues">
         <item>сваког првог уторка</item>
         <item>сваког другог уторка</item>
@@ -120,6 +172,7 @@
         <item>сваког четвртог уторка</item>
         <item>сваког последњег уторка</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_wed">
         <item>сваке прве среде</item>
         <item>сваке друге среде</item>
@@ -127,6 +180,7 @@
         <item>сваке четврте среде</item>
         <item>сваке последње среде</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_thurs">
         <item>сваког првог четвртка</item>
         <item>сваког другог четвртка</item>
@@ -134,6 +188,7 @@
         <item>сваког четвртог четвртка</item>
         <item>сваког последњег четвртка</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_fri">
         <item>сваког првог петка</item>
         <item>сваког другог петка</item>
@@ -141,6 +196,7 @@
         <item>сваког четвртог петка</item>
         <item>сваког последњег петка</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sat">
         <item>сваке прве суботе</item>
         <item>сваке друге суботе</item>

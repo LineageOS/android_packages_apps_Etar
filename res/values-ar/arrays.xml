@@ -14,12 +14,25 @@
      limitations under the License.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Entries for the primary color-->
+    <!-- Choices for the "Reminder method" spinner.
+         These must be kept in sync with the reminder_methods_values array.
+         [CHAR LIMIT=10]
+    -->
     <string-array name="reminder_methods_labels">
         <item>إشعار</item>
         <item>بريد إلكتروني</item>
         <item>‏رسائل SMS</item>
         <item>المنبه</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Choices for the "Reminder minutes" spinner.
+         These must be kept in sync with the reminder_minutes_values array.
+         For consistency, the format should match what
+         EventViewUtils.constructReminderLabel() generates.  (TODO: eliminate
+         this and just generate the list from reminder_minutes_values?)
+         [CHAR LIMIT=15]
+    -->
     <string-array name="reminder_minutes_labels">
         <item>0 دقائق</item>
         <item>دقيقة واحدة</item>
@@ -38,6 +51,10 @@
         <item>يومان</item>
         <item>أسبوع واحد</item>
     </string-array>
+    <!-- Choices for the "Reminder minutes" spinner in the settings.
+         These must be kept in sync with the preferences_default_reminder_values array.
+         [CHAR LIMIT=12]
+    -->
     <string-array name="preferences_default_reminder_labels">
         <item>لا شيء</item>
         <item>0 دقائق</item>
@@ -57,6 +74,8 @@
         <item>يومان</item>
         <item>أسبوع واحد</item>
     </string-array>
+    <!-- Labels for the default startup page preference. -->
+    <!-- Values for the default startup page preference. See CalendarController.ViewType.  -->
     <string-array name="preferences_week_start_day_labels">
         <item>اللغة الافتراضية</item>
         <item>السبت</item>
@@ -68,37 +87,68 @@
         <item>متواجد</item>
         <item>مبدئي</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Invitation responses -->
     <string-array name="response_labels1">
         <item>لا استجابة</item>
         <item>نعم</item>
         <item>ربما</item>
         <item>لا</item>
     </string-array>
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is a list of choices displayed when the user deletes an event.
+         It only is shown when deleting a recurring event.
+    -->
     <string-array name="delete_repeating_labels">
         <item>هذا الحدث فقط</item>
         <item>هذا الحدث والأحداث المستقبلية</item>
         <item>جميع الأحداث</item>
     </string-array>
+    <!-- DO NOT TRANSLATE These values need to correspond to the indices
+         defined in DeleteEventHelper.java-->
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is the same array as above (the "delete_repeating_labels" array,
+         except that the first element "Only this event" is removed.  This
+         array exists to work-around a bug in the CalendarProvider and sync
+         code where you can't delete one instance of a repeating event that
+         was created on the phone until that event has been synced to the server.
+     -->
+    <!-- The corresponding array indices are defined in EventInfoActivity.java -->
+    <!-- The list of choices displayed in a dialog box when the user wants to
+    respond to an invitation that repeats. -->
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>هذا الحدث فقط</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>جميع الأحداث في سلسلة الأحداث</item>
     </string-array>
+    <!-- Strings for buttons in drop down menu -->
     <string-array name="buttons_list">
         <item>يوم</item>
         <item>أسبوع</item>
         <item>شهر</item>
         <item>أجندة</item>
     </string-array>
+    <!-- Experimental options for skipping reminders. [CHAR LIMIT = 37] -->
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>في حالة الرفض فقط</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>في حالة الرفض أو عدم الرد</item>
     </string-array>
+    <!-- Recurrence picker: How events are to be repeated.  [CHAR LIMIT = 20] -->
     <string-array name="recurrence_freq">
         <item>التكرار يوميًا</item>
         <item>التكرار أسبوعيًا</item>
         <item>التكرار شهريًا</item>
         <item>التكرار سنويًا</item>
     </string-array>
+    <!-- The following sets of strings describe a monthly recurring event, which will repeat
+         on the Nth WEEKDAY of every month. For example, the 3rd Monday of every month, or
+         the last Sunday. These are set up like this to resolve any gender-matching issues
+         that were present in some languages.
+     -->
+    <!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sun">
         <item>يوم الأحد الأول من كل شهر</item>
         <item>يوم الأحد الثاني من كل شهر</item>
@@ -106,6 +156,7 @@
         <item>يوم الأحد الرابع من كل شهر</item>
         <item>يوم الأحد الأخير من كل شهر</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_mon">
         <item>يوم الاثنين الأول من كل شهر</item>
         <item>يوم الاثنين الثاني من كل شهر</item>
@@ -113,6 +164,7 @@
         <item>يوم الاثنين الرابع من كل شهر</item>
         <item>يوم الاثنين الأخير من كل شهر</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_tues">
         <item>يوم الثلاثاء الأول من كل شهر</item>
         <item>يوم الثلاثاء الثاني من كل شهر</item>
@@ -120,6 +172,7 @@
         <item>يوم الثلاثاء الرابع من كل شهر</item>
         <item>يوم الثلاثاء الأخير من كل شهر</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_wed">
         <item>يوم الأربعاء الأول من كل شهر</item>
         <item>يوم الأربعاء الثاني من كل شهر</item>
@@ -127,6 +180,7 @@
         <item>يوم الأربعاء الرابع من كل شهر</item>
         <item>يوم الأربعاء الأخير من كل شهر</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_thurs">
         <item>يوم الخميس الأول من كل شهر</item>
         <item>يوم الخميس الثاني من كل شهر</item>
@@ -134,6 +188,7 @@
         <item>يوم الخميس الرابع من كل شهر</item>
         <item>يوم الخميس الأخير من كل شهر</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_fri">
         <item>يوم الجمعة الأول من كل شهر</item>
         <item>يوم الجمعة الثاني من كل شهر</item>
@@ -141,6 +196,7 @@
         <item>يوم الجمعة الرابع من كل شهر</item>
         <item>يوم الجمعة الأخير من كل شهر</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sat">
         <item>يوم السبت الأول من كل شهر</item>
         <item>يوم السبت الثاني من كل شهر</item>

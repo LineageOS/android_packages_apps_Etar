@@ -14,12 +14,25 @@
      limitations under the License.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Entries for the primary color-->
+    <!-- Choices for the "Reminder method" spinner.
+         These must be kept in sync with the reminder_methods_values array.
+         [CHAR LIMIT=10]
+    -->
     <string-array name="reminder_methods_labels">
         <item>通知</item>
         <item>メール</item>
         <item>SMS</item>
         <item>アラーム</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Choices for the "Reminder minutes" spinner.
+         These must be kept in sync with the reminder_minutes_values array.
+         For consistency, the format should match what
+         EventViewUtils.constructReminderLabel() generates.  (TODO: eliminate
+         this and just generate the list from reminder_minutes_values?)
+         [CHAR LIMIT=15]
+    -->
     <string-array name="reminder_minutes_labels">
         <item>0分</item>
         <item>1分</item>
@@ -38,6 +51,10 @@
         <item>2日</item>
         <item>1週間</item>
     </string-array>
+    <!-- Choices for the "Reminder minutes" spinner in the settings.
+         These must be kept in sync with the preferences_default_reminder_values array.
+         [CHAR LIMIT=12]
+    -->
     <string-array name="preferences_default_reminder_labels">
         <item>なし</item>
         <item>0分</item>
@@ -57,6 +74,8 @@
         <item>2日</item>
         <item>1週間</item>
     </string-array>
+    <!-- Labels for the default startup page preference. -->
+    <!-- Values for the default startup page preference. See CalendarController.ViewType.  -->
     <string-array name="preferences_week_start_day_labels">
         <item>ユーザーの言語/地域での既定の設定</item>
         <item>土曜日</item>
@@ -68,37 +87,68 @@
         <item>予定なし</item>
         <item>仮承諾</item>
     </string-array>
+    <!-- This maps reminder_methods_labels to internal constants. -->
+    <!-- Invitation responses -->
     <string-array name="response_labels1">
         <item>応答がありません</item>
         <item>はい</item>
         <item>未定</item>
         <item>いいえ</item>
     </string-array>
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is a list of choices displayed when the user deletes an event.
+         It only is shown when deleting a recurring event.
+    -->
     <string-array name="delete_repeating_labels">
         <item>この日の予定のみ</item>
         <item>これ以降の予定</item>
         <item>すべての予定</item>
     </string-array>
+    <!-- DO NOT TRANSLATE These values need to correspond to the indices
+         defined in DeleteEventHelper.java-->
+    <!-- The corresponding indices are defined in DeleteEventHelper.java -->
+    <!-- This is the same array as above (the "delete_repeating_labels" array,
+         except that the first element "Only this event" is removed.  This
+         array exists to work-around a bug in the CalendarProvider and sync
+         code where you can't delete one instance of a repeating event that
+         was created on the phone until that event has been synced to the server.
+     -->
+    <!-- The corresponding array indices are defined in EventInfoActivity.java -->
+    <!-- The list of choices displayed in a dialog box when the user wants to
+    respond to an invitation that repeats. -->
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>この予定のみ</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>繰り返す予定すべて</item>
     </string-array>
+    <!-- Strings for buttons in drop down menu -->
     <string-array name="buttons_list">
         <item>日</item>
         <item>週</item>
         <item>月</item>
         <item>予定リスト</item>
     </string-array>
+    <!-- Experimental options for skipping reminders. [CHAR LIMIT = 37] -->
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>辞退した場合のみ</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>辞退したか応答がなかった場合</item>
     </string-array>
+    <!-- Recurrence picker: How events are to be repeated.  [CHAR LIMIT = 20] -->
     <string-array name="recurrence_freq">
         <item>繰り返し: 毎日</item>
         <item>繰り返し: 毎週</item>
         <item>繰り返し: 毎月</item>
         <item>繰り返し: 毎年</item>
     </string-array>
+    <!-- The following sets of strings describe a monthly recurring event, which will repeat
+         on the Nth WEEKDAY of every month. For example, the 3rd Monday of every month, or
+         the last Sunday. These are set up like this to resolve any gender-matching issues
+         that were present in some languages.
+     -->
+    <!-- Repeat a monthly event on the same nth day of every Sunday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sun">
         <item>毎月第1日曜日</item>
         <item>毎月第2日曜日</item>
@@ -106,6 +156,7 @@
         <item>毎月第4日曜日</item>
         <item>毎月最終日曜日</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Monday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_mon">
         <item>毎月第1月曜日</item>
         <item>毎月第2月曜日</item>
@@ -113,6 +164,7 @@
         <item>毎月第4月曜日</item>
         <item>毎月最終月曜日</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Tuesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_tues">
         <item>毎月第1火曜日</item>
         <item>毎月第2火曜日</item>
@@ -120,6 +172,7 @@
         <item>毎月第4火曜日</item>
         <item>毎月最終火曜日</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Wednesday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_wed">
         <item>毎月第1水曜日</item>
         <item>毎月第2水曜日</item>
@@ -127,6 +180,7 @@
         <item>毎月第4水曜日</item>
         <item>毎月最終水曜日</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Thursday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_thurs">
         <item>毎月第1木曜日</item>
         <item>毎月第2木曜日</item>
@@ -134,6 +188,7 @@
         <item>毎月第4木曜日</item>
         <item>毎月最終木曜日</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Friday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_fri">
         <item>毎月第1金曜日</item>
         <item>毎月第2金曜日</item>
@@ -141,6 +196,7 @@
         <item>毎月第4金曜日</item>
         <item>毎月最終金曜日</item>
     </string-array>
+    <!-- Repeat a monthly event on the same nth day of every Saturday. [CHAR LIMIT=30] -->
     <string-array name="repeat_by_nth_sat">
         <item>毎月第1土曜日</item>
         <item>毎月第2土曜日</item>
