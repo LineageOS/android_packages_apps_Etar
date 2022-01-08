@@ -58,7 +58,7 @@
         <item>1 selmana</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
-        <item>Rexón por defeutu</item>
+        <item>Locale predeterminada</item>
         <item>Sábadu</item>
         <item>Domingu</item>
         <item>Llunes</item>
@@ -71,16 +71,16 @@
     <string-array name="response_labels1">
         <item>Ensin rempuesta</item>
         <item>Sí</item>
-        <item>Seique</item>
+        <item>Maybe</item>
         <item>Non</item>
     </string-array>
     <string-array name="delete_repeating_labels">
-        <item>Namái esti eventu</item>
+        <item>Namás esti eventu</item>
         <item>Esti y eventos futuros</item>
         <item>Tolos eventos</item>
     </string-array>
     <string-array name="change_response_labels">
-        <item>Namái esti eventu</item>
+        <item>Namás esti eventu</item>
         <item>Tolos eventos de la serie</item>
     </string-array>
     <string-array name="buttons_list">
@@ -90,8 +90,8 @@
         <item>Axenda</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
-        <item>Namái si se refuga</item>
-        <item>Si se refuga o nun respuende</item>
+        <item>Namás si se refuga</item>
+        <item>Si se refuga o nun hai rempuesta</item>
     </string-array>
     <string-array name="recurrence_freq">
         <item>REPITIR CALDÍA</item>
