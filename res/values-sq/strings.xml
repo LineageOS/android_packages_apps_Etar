@@ -28,11 +28,11 @@
     </plurals>
     <plurals name="Nmins">
         <item quantity="one">1 minutë</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> Minuta</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutë</item>
     </plurals>
     <plurals name="Nhours">
         <item quantity="one">1 orë</item>
-        <item quantity="other">Orë</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> 1 orë</item>
     </plurals>
     <plurals name="Ndays">
         <item quantity="one">1 ditë</item>
@@ -76,6 +76,7 @@
     <string name="create_event_dialog_save">Ruaj</string>
     <string name="alert_title">Njoftimet e kalendarit</string>
     <string name="foreground_notification_channel_name">Sinkronizo zilen</string>
+    <string name="foreground_notification_channel_description">Që të sinkronizohet zilja nevojiten të drejta për njoftimet në prapaskenë.</string>
     <string name="event_info_title">Shiko ngjarjen</string>
     <string name="event_info_title_invite">Ftesë për mbledhje</string>
     <string name="edit_event_all_day_label">Gjithë ditën</string>
