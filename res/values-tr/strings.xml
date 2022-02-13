@@ -307,7 +307,7 @@
     <string name="show_time_start_end_below">Etkinliğin altındaki başlangıç ve bitiş saati</string>
     <string name="preferences_calendar_no_display_name">İsimsiz takvim</string>
     <string name="preferences_calendar_account">%1$s hesabı</string>
-    <string name="preferences_calendar_account_local">Çevrimdışı takvim</string>
+    <string name="preferences_calendar_account_local">Çevrim dışı takvim</string>
     <string name="preferences_calendar_configure_account">%1$s  içinde takvimi yapılandır</string>
     <string name="preferences_calendar_number_of_events">%1$d etkinlik</string>
     <string name="preferences_calendar_delete">Takvimi sil</string>
@@ -327,13 +327,13 @@
     <string name="preferences_list_general">Genel ayarlar</string>
     <string name="preferences_list_add_remote">CalDAV takvimi ekle</string>
     <string name="preferences_list_add_remote_etesync">EteSync takvimi ekle</string>
-    <string name="preferences_list_add_offline">Çevrimdışı takvim ekle</string>
-    <string name="preferences_list_add_offline_title">Çevrimdışı takvim ekle</string>
+    <string name="preferences_list_add_offline">Çevrim dışı takvim ekle</string>
+    <string name="preferences_list_add_offline_title">Çevrim dışı takvim ekle</string>
     <string name="preferences_list_add_offline_error_empty">Bir takvim adı girin!</string>
-    <string name="preferences_list_add_offline_message">Çevrimdışı takvimler bir bulut hizmetiyle senkronize DEĞİLDİR ve yalnızca telefonunuzda kullanılabilir.</string>
+    <string name="preferences_list_add_offline_message">Çevrim dışı takvimler bir bulut hizmetiyle senkronize DEĞİLDİR ve yalnızca telefonunuzda kullanılabilir.</string>
     <string name="preferences_list_add_offline_button">Takvim ekle</string>
     <string name="preferences_list_add_offline_name">İsim</string>
     <string name="preferences_list_add_offline_cancel">İptal</string>
     <string name="preferences_menu_about">Takvim hakkında</string>
-    <string name="offline_account_name">Çevrimdışı Takvim</string>
+    <string name="offline_account_name">Çevrim dışı Takvim</string>
 </resources>
