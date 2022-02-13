@@ -328,7 +328,7 @@
     <string name="cal_export_event_sdcard_title">Às-phortaich gu cairt SD</string>
     <string name="cal_export_succ_msg">Chaidh an tachartas às-phortadh: %1$s</string>
     <string name="cal_import_menu_title">Ion-phortaich tachartas</string>
-    <string name="cal_nothing_to_import">Chan eil dad ri ion-phortadh</string>
+    <string name="cal_nothing_to_import">Gun dad ri ion-phortadh</string>
     <string name="cal_import_error_msg">Dh’fhàillig ion-phortadh a’ mhìosachain</string>
     <string name="cal_import_error_time_zone_msg">Cha tuig sinn an roinn-tìde a chaidh a thoirt seachad: %s</string>
     <string name="cal_import_error_date_msg">Cha tuig sinn an ceann-latha a chaidh a thoirt seachad: %s</string>

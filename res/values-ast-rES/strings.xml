@@ -15,20 +15,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Calendariu</string>
-    <string name="when_label">Cuándo</string>
     <string name="today">Güei</string>
     <string name="tomorrow">Mañana</string>
-    <string name="today_at_time_fmt">"Güei a les <xliff:g id="time_interval">%s</xliff:g>"</string>
-    <string name="tomorrow_at_time_fmt">"Mañana a les <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <string name="today_at_time_fmt">"Güei: <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"Mañana: <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Ensin títulu)</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minutu</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos</item>
-    </plurals>
-    <plurals name="Nmins">
-        <item quantity="one">1 min</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> mins</item>
     </plurals>
     <plurals name="Nhours">
         <item quantity="one">1 hora</item>
@@ -38,194 +33,100 @@
         <item quantity="one">1 día</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> díes</item>
     </plurals>
-    <string name="show_day_view">"Amosar día"</string>
-    <string name="agenda_view">"Axenda"</string>
+    <plurals name="weekN">
+        <item quantity="one">Selmana <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Selmana <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
     <string name="day_view">"Día"</string>
     <string name="week_view">"Selmana"</string>
     <string name="month_view">"Mes"</string>
-    <string name="event_view">"Ver eventu"</string>
     <string name="event_create">"Eventu nuevu"</string>
-    <string name="event_edit">"Editar eventu"</string>
-    <string name="event_delete">"Desaniciar eventu"</string>
     <string name="goto_today">"Güei"</string>
     <string name="menu_preferences">"Axustes"</string>
-    <string name="search">"Guetar"</string>
-    <string name="hide_controls">"Anubrir controles"</string>
-    <string name="show_controls">"Amosar controles"</string>
-    <string name="select_synced_calendars_button">Calendarios pa sincronizar</string>
-    <string name="hint_what">"Nome d'eventu"</string>
-    <string name="hint_where">"Allugamientu"</string>
+    <string name="search">"Buscar"</string>
+    <string name="hint_what">"Nome del eventu"</string>
     <string name="hint_description">"Descripción"</string>
     <string name="hint_attendees">"Convidaos"</string>
-    <string name="creating_event">"Eventu creáu."</string>
-    <string name="saving_event">"Eventu guardáu."</string>
-    <string name="empty_event">"Nun se creó l'eventu baleru."</string>
-    <string name="creating_event_with_guest">"Van unviase les invitaciones."</string>
-    <string name="saving_event_with_guest">"Van unviase los anovamientos."</string>
-    <string name="rsvp_accepted">"Respondióse sí."</string>
-    <string name="rsvp_tentative">"Respondióse seique."</string>
-    <string name="rsvp_declined">"Respondióse non."</string>
-    <string name="create_event_dialog_save">Guardar</string>
-    <string name="alert_title">Avisos de Calendariu</string>
-    <string name="event_info_title">Ver eventu</string>
-    <string name="event_info_title_invite">Invitación a eventu</string>
     <string name="edit_event_all_day_label">Tol día</string>
     <string name="edit_event_calendar_label">Calendariu</string>
-    <string name="presence_label">Amosame como</string>
     <string name="privacy_label">Privacidá</string>
-    <string name="reminders_label">Amestar recordatoriu</string>
-    <string name="no_syncable_calendars">Nun hai calendarios.</string>
-    <string name="no_calendars_found">Enantes de que pueas amestar un eventu, has amestar polo menos una cuenta de Calendariu nel preséu pa facer visibles los calendarios. Toca Amestar cuenta p\'amestar una cuenta (si tas acabante d\'amestar una, espera que fine la sincronización y volvi tentalo). Tamién pues tocar Encaboxar y asegurate que polo menos hai un calendariu visible.</string>
-    <string name="add_account">Amestar cuenta</string>
     <string name="view_event_calendar_label">Calendariu:</string>
-    <string name="view_event_organizer_label">Organizador:</string>
-    <string name="choose_event_color_label">Escoyer color del eventu</string>
-    <string name="event_color_picker_dialog_title">Color del eventu</string>
-    <string name="event_color_set_to_default">Camudar a color predetermináu del calendariu</string>
-    <string name="calendar_color_picker_dialog_title">Color del calendariu</string>
-    <string name="calendar_square_color_picker_description">Seleutor de color</string>
-    <string name="view_event_response_label">¿Vas dir?</string>
+    <string name="view_event_response_label">¿Vas asistir?</string>
     <string name="response_yes">Sí</string>
     <string name="response_maybe">Seique</string>
     <string name="response_no">Non</string>
-    <string name="email_guests_label">Escribir a convidaos</string>
-    <string name="email_organizer_label">Escribir al organizador</string>
-    <string name="email_picker_label">Unviar corréu con</string>
-    <string name="event_not_found">"Nun s'alcontró l'eventu."</string>
-    <string name="map_label">Mapa</string>
-    <string name="call_label">Llamar</string>
+    <string name="event_not_found">"Nun s'atopó l'eventu."</string>
     <string name="quick_response_settings">Rempuestes rápides</string>
-    <string name="quick_response_settings_summary">Edita les rempuestes predeterminaes al escrbi-yos a los convidaos</string>
     <string name="quick_response_settings_edit_title">Rempuesta rápida</string>
-    <string name="quick_response_dialog_title">Escoyeta de rempuesta rápida</string>
-    <string name="quick_response_email_failed">Fallu al alcontrar un programa de corréu</string>
     <string-array name="quick_response_defaults">
-        <item>Voi llegar un par de minutos tarde.</item>
-        <item>Voi llegar nunos diez minutos.</item>
-        <item>Entamái ensin min.</item>
-        <item>Perdón pero nun pueo, meyor n\'otru momentu.</item>
+        <item>Running just a couple of minutes late.</item>
+        <item>Voi aportar nunos 10 minutos.</item>
+        <item>Comenzái ensin min.</item>
+        <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
     </string-array>
-    <string name="quick_response_custom_msg">Escribi la to rempuesta\u2026</string>
-    <string name="event_info_organizer">Organizador:</string>
     <string name="event_info_reminders_label">Recordatorios</string>
+    <string name="agenda_today">Güei, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Ayeri, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Mañana, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Cargando\u2026</string>
-    <string name="show_older_events">Tocar pa ver eventos anteriores al <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
-    <string name="show_newer_events">Tocar pa ver eventos posteriores al <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
-    <string name="search_title">Gueta nos mios calendarios</string>
     <string name="edit_event_label">"Detalles"</string>
     <string name="edit_label">"Editar"</string>
     <string name="delete_label">"Desaniciar"</string>
     <string name="save_label">Fecho</string>
     <string name="discard_label">Encaboxar</string>
     <string name="dismiss_all_label">"Escartar too"</string>
-    <string name="snooze_label">"Posponer"</string>
-    <string name="does_not_repeat">Eventu únicu</string>
-    <string name="endByDate">; hasta\'l día <xliff:g id="date">%s</xliff:g></string>
-    <plurals name="endByCount">
-        <item quantity="one">; una vegada</item>
-        <item quantity="other">; <xliff:g id="number">%d</xliff:g> vegaes</item>
-    </plurals>
+    <string name="snooze_label">"Aplazar"</string>
     <plurals name="daily">
         <item quantity="one">Caldía</item>
         <item quantity="other">Cada <xliff:g id="number">%d</xliff:g> díes</item>
     </plurals>
-    <string name="every_weekday">"Ente selmana (Llu\u2013Vie)"</string>
-    <plurals name="weekly">
-        <item quantity="one">Selmanalmente\'l <xliff:g id="days_of_week">%2$s</xliff:g></item>
-        <item quantity="other">Cada <xliff:g id="number">%1$d</xliff:g> selmanes el <xliff:g id="days_of_week">%2$s</xliff:g></item>
-    </plurals>
     <string name="monthly">Mensualmente</string>
     <string name="yearly_plain">Añalmente</string>
-    <string name="custom" product="default">"Personalizar (nun pue personalizase nel teléfonu)"</string>
-    <string name="modify_event">Camudar namái esti eventu</string>
-    <string name="modify_all">Camudar tolos eventos de la serie</string>
-    <string name="modify_all_following">Camudar esti y tolos eventos futuros</string>
     <string name="new_event_dialog_label">"Eventu nuevu"</string>
     <string name="new_event_dialog_option">"Eventu nuevu"</string>
-    <string name="delete_this_event_title">¿Desaniciar esti eventu?</string>
-    <string name="delete_recurring_event_title">¿Desaniciar <xliff:g id="eventtitlte">%s</xliff:g>?</string>
-    <string name="change_response_title">Cambéu de rempuesta</string>
+    <string name="delete_this_event_title">¿Quies desaniciar esti eventu?</string>
+    <string name="delete_recurring_event_title">¿Quies desaniciar «<xliff:g id="eventtitlte">%s</xliff:g>»?</string>
     <string name="preferences_title">"Axustes"</string>
-    <string name="preferences_general_title">Axustes de vista del calendariu</string>
+    <string name="preferences_theme">Estilu</string>
+    <string name="preferences_system_theme">Lo predeterminao del sistema</string>
+    <string name="preferences_light_theme">Claridá</string>
+    <string name="preferences_dark_theme">Escuridá</string>
+    <string name="preferences_black_theme">Prietu</string>
+    <string name="preferences_color">Color primariu</string>
+    <string name="preferences_color_pick">Color primariu</string>
     <string name="preferences_reminder_title">Avisos y recordatorios</string>
-    <string name="preferences_hide_declined_title">Anubrir eventos refugaos</string>
-    <string name="preferences_week_start_day_title">La selmana entama\'l</string>
-    <string name="preferences_week_start_day_dialog">La selmana entama\'l</string>
-    <string name="preferences_clear_search_history_title">Llimpiar l\'historial de gueta</string>
-    <string name="preferences_clear_search_history_summary">Desanicia toles guetes que fixeres</string>
-    <string name="search_history_cleared">Desanicióse l\'historial de gueta.</string>
+    <string name="preferences_days_per_week_title">Díes per semana</string>
+    <string name="preferences_days_per_week_dialog">Díes per semana</string>
     <string name="preferences_alerts_title">Avisos</string>
-    <string name="preferences_alerts_vibrateWhen_title">Vibrar</string>
-    <string name="preferences_alerts_ringtone_title">Soníu</string>
     <string name="preferences_alerts_popup_title">Avisu emerxente</string>
-    <string name="preferences_default_reminder_title">Tiempu predetermináu del recordatoriu</string>
-    <string name="preferences_default_reminder_dialog">Tiempu predetermináu del recordatoriu</string>
     <string name="preferences_default_reminder_default">10</string>
-    <string name="preferences_use_home_tz_title">Usar hora llocal</string>
-    <string name="preferences_use_home_tz_descrip">Amuesa los calendarios y eventos nel fusu horariu que teas al viaxar</string>
-    <string name="preferences_home_tz_title">Fusu horariu llocal</string>
-    <string name="preferences_show_week_num_title">Amosar númberu de selmana</string>
-    <string name="preferences_build_version">Versión de compilación</string>
-    <plurals name="month_more_events">
-        <item quantity="one">"+1"</item>
-        <item quantity="other">+<xliff:g id="number">%d</xliff:g></item>
-    </plurals>
-    <string name="gadget_no_events">Nun hai eventos futuros nel calendariu</string>
-    <string name="preferences_experimental_category">Esperimental</string>
-    <string name="preferences_reminders_responded_label">Omitir recordatorios</string>
-    <string name="preferences_reminders_responded_dialog">Omitir recordatorios</string>
-    <string name="copy_db">Unviar base de datos</string>
-    <string name="directory_searching_fmt">Guetando <xliff:g id="domain">%s</xliff:g>\u2026</string>
-    <string name="accessibility_remove_attendee">Desaniciar asistente</string>
-    <string name="accessibility_pick_start_date">Data d\'aniciu</string>
-    <string name="accessibility_pick_start_time">Hora d\'aniciu</string>
-    <string name="accessibility_pick_end_date">Data de fin</string>
-    <string name="accessibility_pick_end_time">Hora de fin</string>
-    <string name="accessibility_pick_time_zone">Fusu horariu</string>
-    <string name="accessibility_pick_recurrence">Repitir eventu</string>
-    <string name="accessibility_add_reminder">Amestar recordatoriu</string>
-    <string name="accessibility_remove_reminder">Desaniciar recordatoriu</string>
-    <string name="accessibility_add_attendee">Amestar asistente</string>
-    <string name="accessibility_all_day">Eventu de tol día</string>
-    <string name="accessibility_reminder_time">Tiempu del recordatoriu</string>
-    <string name="accessibility_reminder_type">Triba de recordatoriu</string>
-    <string name="accessibility_reminder_showmeas">Amosame como</string>
+    <string name="changelog">Rexistru de cambeos</string>
+    <string name="license">Llicencia</string>
     <string name="accessibility_reminder_privacy">Privacidá</string>
-    <string name="day_view_new_event_hint">+ Eventu nuevu</string>
-    <string name="template_announce_item_index">Eventu <xliff:g id="item_index">%1$s</xliff:g> de <xliff:g id="item_count">%2$s</xliff:g>.</string>
     <plurals name="Nevents">
         <item quantity="one">1 eventu</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> eventos</item>
     </plurals>
-    <plurals name="N_remaining_events">
-        <item quantity="one">+1 eventu</item>
-        <item quantity="other">+<xliff:g id="count">%d</xliff:g> eventos</item>
-    </plurals>
-    <string name="acessibility_selected_marker_description">Eventu esbilláu</string>
-    <plurals name="recurrence_interval_daily">
-        <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> día</item>
-        <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> díes</item>
-    </plurals>
-    <plurals name="recurrence_interval_weekly">
-        <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> selmana</item>
-        <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> selmanes</item>
-    </plurals>
-    <plurals name="recurrence_interval_monthly">
-        <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> mes</item>
-        <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> meses</item>
-    </plurals>
-    <plurals name="recurrence_interval_yearly">
-        <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> añu</item>
-        <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> años</item>
-    </plurals>
     <string name="recurrence_month_pattern_by_day">el mesmu día de cada mes</string>
-    <string name="recurrence_end_continously">Siempres</string>
-    <string name="recurrence_end_date_label">Hasta una data</string>
-    <string name="recurrence_end_date">Hasta\'l <xliff:g id="date">%s</xliff:g></string>
-    <string name="recurrence_end_count_label">Pa un númberu d\'eventos</string>
-    <plurals name="recurrence_end_count">
-        <item quantity="one">Pa <xliff:g id="event_count">%d</xliff:g> eventu</item>
-        <item quantity="other">Pa <xliff:g id="event_count">%d</xliff:g> eventos</item>
-    </plurals>
-    <string name="acessibility_recurrence_choose_end_date_description">camudar data de fin</string>
+    <string name="two_days">2 díes</string>
+    <string name="three_days">3 díes</string>
+    <string name="four_days">4 díes</string>
+    <string name="five_days">5 díes</string>
+    <string name="six_days">6 díes</string>
+    <string name="seven_days">7 díes</string>
+    <string name="zero_minutes">0 minutos</string>
+    <string name="fifteen_minutes">15 minutos</string>
+    <string name="thirty_minutes">30 minutos</string>
+    <string name="one_hour">1 hora</string>
+    <string name="one_and_a_half_hours">1,5 hores</string>
+    <string name="two_hours">2 hores</string>
+    <string name="error_generating_ics">Atopáronse problemes mentanto se compartía l\'eventu</string>
+    <string name="preferences_calendar_color">Color</string>
+    <string name="preferences_calendar_color_warning_title">Alvertencia</string>
+    <string name="preferences_calendar_delete_message">¿De xuru que quies desaniciar esti calendariu?</string>
+    <string name="preferences_calendar_delete_delete">Desanicialu</string>
+    <string name="preferences_calendar_delete_cancel">Encaboxar</string>
+    <string name="preferences_list_general">Axustes xenerales</string>
+    <string name="preferences_list_add_offline_name">Nome</string>
+    <string name="preferences_list_add_offline_cancel">Encaboxar</string>
 </resources>

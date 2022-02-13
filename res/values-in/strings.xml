@@ -70,6 +70,7 @@
     <string name="rsvp_declined">"Ditanggapi tidak."</string>
     <string name="create_event_dialog_save">Simpan</string>
     <string name="alert_title">Notifikasi kalender</string>
+    <string name="foreground_notification_channel_name">Lansiran sinkronisasi</string>
     <string name="event_info_title">Lihat acara</string>
     <string name="event_info_title_invite">Undangan rapat</string>
     <string name="edit_event_all_day_label">Seharian</string>
