@@ -1246,6 +1246,13 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
                 mBackToPreviousView = false;
             }
 
+            // Check toMillis method for the value -1 and if yes add one hour.
+            // This prevents the date "1970" from being displayed on the day of the
+            // daylight saving time changeover when you tap on the hour that is skipped.
+            if (event.startTime.toMillis(true) == -1) {
+                event.startTime.set(0, 0, 1, event.startTime.monthDay, event.startTime.month, event.startTime.year);
+            }
+
             setMainPane(
                     null, R.id.main_pane, event.viewType, event.startTime.toMillis(false), false);
             if (mSearchView != null) {
