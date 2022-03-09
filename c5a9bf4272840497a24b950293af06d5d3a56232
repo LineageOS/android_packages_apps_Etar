@@ -87,6 +87,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "492d6ab3_44c60491",
+        "filename": "src/com/android/calendar/event/CreateEventDialogFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2022-03-09T21:35:41Z",
+      "side": 1,
+      "message": "This is changed again in https://review.lineageos.org/c/LineageOS/android_packages_apps_Etar/+/320733 to revert to the old behaviour.",
+      "parentUuid": "19866bfd_bdeb5068",
+      "revId": "c5a9bf4272840497a24b950293af06d5d3a56232",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "09fc13c7_c7a7496e",
