@@ -71,6 +71,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "19866bfd_bdeb5068",
+        "filename": "src/com/android/calendar/event/CreateEventDialogFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-03-09T21:27:37Z",
+      "side": 1,
+      "message": "https://cs.android.com/android/platform/superproject/+/master:frameworks/opt/calendar/src/com/android/calendarcommon2/Time.java;drc\u003dmaster;l\u003d38\n\nThis will change the format from \"abbreviated DayOfWeek, abbr. month, Year\"\nto \"abbr. DOW, abbr. month, Year, Hours:Minutes AM/PM\"\n\nAssuming it\u0027s fine. Display in \"Create Event\" will slightly change",
+      "parentUuid": "c73fe969_644585f5",
+      "revId": "c5a9bf4272840497a24b950293af06d5d3a56232",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "09fc13c7_c7a7496e",
         "filename": "src/com/android/calendar/widget/CalendarAppWidgetModel.java",
         "patchSetId": 1
