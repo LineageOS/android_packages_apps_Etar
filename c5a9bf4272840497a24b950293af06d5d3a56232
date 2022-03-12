@@ -138,6 +138,24 @@
       "message": "Only import changes in this file and below, move them to the other commit?",
       "revId": "c5a9bf4272840497a24b950293af06d5d3a56232",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d6a5776_58a42e96",
+        "filename": "src/com/android/calendar/widget/CalendarAppWidgetModel.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2022-03-12T21:50:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "09fc13c7_c7a7496e",
+      "revId": "c5a9bf4272840497a24b950293af06d5d3a56232",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
