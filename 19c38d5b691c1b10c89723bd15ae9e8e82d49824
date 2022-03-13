@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b68c144_416aff04",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2022-03-13T00:02:28Z",
+      "side": 1,
+      "message": "Debug APK: https://github.com/chirayudesai/Etar-Calendar/actions/runs/1974757990",
+      "revId": "19c38d5b691c1b10c89723bd15ae9e8e82d49824",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
