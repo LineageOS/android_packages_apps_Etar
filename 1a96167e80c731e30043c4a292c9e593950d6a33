@@ -16,6 +16,24 @@
       "message": "Sent upstream from here, https://github.com/Etar-Group/Etar-Calendar/pull/1047\n\nPatches before this have all been merged",
       "revId": "1a96167e80c731e30043c4a292c9e593950d6a33",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6efcc5b_9df8511a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2022-03-13T12:40:06Z",
+      "side": 1,
+      "message": "Merged.",
+      "parentUuid": "b36a740c_d7130a6a",
+      "revId": "1a96167e80c731e30043c4a292c9e593950d6a33",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
