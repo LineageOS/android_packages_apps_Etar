@@ -16,6 +16,23 @@
       "message": "Doesn\u0027t compile with new API",
       "revId": "c1e159b5848c6fe1d84ca33fdbd15704e48ebb1f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65120a0b_576cd4c8",
+        "filename": "src/com/android/calendar/AllInOneActivity.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1253,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-03-13T12:30:02Z",
+      "side": 1,
+      "message": "line length",
+      "revId": "c1e159b5848c6fe1d84ca33fdbd15704e48ebb1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
