@@ -254,7 +254,7 @@ public class AlertReceiver extends BroadcastReceiver {
         // Create the base notification.
         notificationBuilder.setContentTitle(title);
         notificationBuilder.setContentText(summaryText);
-        notificationBuilder.setSmallIcon(R.drawable.stat_notify_calendar);
+        notificationBuilder.setSmallIcon(R.drawable.ic_stat_notify_calendar);
         int color = DynamicTheme.getColorId(DynamicTheme.getPrimaryColor(context));
         notificationBuilder.setColor(context.getResources().getColor(color));
         notificationBuilder.setContentIntent(clickIntent);
@@ -404,7 +404,7 @@ public class AlertReceiver extends BroadcastReceiver {
 
         Notification.Builder notificationBuilder = new Notification.Builder(context);
         notificationBuilder.setContentText(digestTitle);
-        notificationBuilder.setSmallIcon(R.drawable.stat_notify_calendar_multiple);
+        notificationBuilder.setSmallIcon(R.drawable.ic_stat_notify_calendar_multiple);
         notificationBuilder.setContentIntent(pendingClickIntent);
         notificationBuilder.setDeleteIntent(pendingDeleteIntent);
         String nEventsStr = res.getQuantityString(R.plurals.Nevents, numEvents, numEvents);

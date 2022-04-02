@@ -927,7 +927,7 @@ public class AlertService extends Service {
                 createChannels(this);
                 Notification notification = new NotificationCompat.Builder(this, FOREGROUND_CHANNEL_ID)
                         .setContentTitle(getString(R.string.foreground_notification_title))
-                        .setSmallIcon(R.drawable.stat_notify_calendar)
+                        .setSmallIcon(R.drawable.ic_stat_notify_calendar)
                         .setShowWhen(false)
                         .build();
                 startForeground(1337, notification);
