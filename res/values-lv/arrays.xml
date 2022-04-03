@@ -20,43 +20,6 @@
         <item>Īsziņa</item>
         <item>Signāls</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minūšu</item>
-        <item>1 minūte</item>
-        <item>5 minūtes</item>
-        <item>10 minūtes</item>
-        <item>15 minūtes</item>
-        <item>20 minūtes</item>
-        <item>25 minūtes</item>
-        <item>30 minūtes</item>
-        <item>45 minūtes</item>
-        <item>1 stunda</item>
-        <item>2 stundas</item>
-        <item>3 stundas</item>
-        <item>12 stundas</item>
-        <item>24 stundas</item>
-        <item>2 dienas</item>
-        <item>1 nedēļa</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Nav</item>
-        <item>0 minūšu</item>
-        <item>1 minūte</item>
-        <item>5 minūtes</item>
-        <item>10 minūtes</item>
-        <item>15 minūtes</item>
-        <item>20 minūtes</item>
-        <item>25 minūtes</item>
-        <item>30 minūtes</item>
-        <item>45 minūtes</item>
-        <item>1 stunda</item>
-        <item>2 stundas</item>
-        <item>3 stundas</item>
-        <item>12 stundas</item>
-        <item>24 stundas</item>
-        <item>2 dienas</item>
-        <item>1 nedēļa</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Lokalizācijas noklusējums</item>
         <item>Sestdiena</item>

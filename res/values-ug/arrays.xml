@@ -20,43 +20,6 @@
         <item>قىسقا ئۇچۇر</item>
         <item>قوڭغۇراق</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 مىنۇت</item>
-        <item>1 مىنۇت</item>
-        <item>5 مىنۇت</item>
-        <item>10 مىنۇت</item>
-        <item>15 مىنۇت</item>
-        <item>20 مىنۇت</item>
-        <item>25 مىنۇت</item>
-        <item>30 مىنۇت</item>
-        <item>45 مىنۇت</item>
-        <item>1 سائەت</item>
-        <item>2 سائەت</item>
-        <item>3 سائەت</item>
-        <item>12 سائەت</item>
-        <item>24 سائەت</item>
-        <item>2 كۈن</item>
-        <item>1 ھەپتە</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>يوق</item>
-        <item>0 مىنۇت</item>
-        <item>1 مىنۇت</item>
-        <item>5 مىنۇت</item>
-        <item>10 مىنۇت</item>
-        <item>15 مىنۇت</item>
-        <item>20 مىنۇت</item>
-        <item>25 مىنۇت</item>
-        <item>30 مىنۇت</item>
-        <item>45 مىنۇت</item>
-        <item>1 سائەت</item>
-        <item>2 سائەت</item>
-        <item>3 سائەت</item>
-        <item>12 سائەت</item>
-        <item>24 سائەت</item>
-        <item>2 كۈن</item>
-        <item>1 ھەپتە</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>يەرلىك كۆڭۈلدىكى قىممەت</item>
         <item>شەنبە</item>

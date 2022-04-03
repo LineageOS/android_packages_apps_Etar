@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Alarm</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minutit</item>
-        <item>1 minut</item>
-        <item>5 minutit</item>
-        <item>10 minutit</item>
-        <item>15 minutit</item>
-        <item>20 minutit</item>
-        <item>25 minutit</item>
-        <item>30 minutit</item>
-        <item>45 minutit</item>
-        <item>1 tund</item>
-        <item>2 tundi</item>
-        <item>3 tundi</item>
-        <item>12 tundi</item>
-        <item>24 tundi</item>
-        <item>2 päeva</item>
-        <item>1 nädal</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Puudub</item>
-        <item>0 minutit</item>
-        <item>1 minut</item>
-        <item>5 minutit</item>
-        <item>10 minutit</item>
-        <item>15 minutit</item>
-        <item>20 minutit</item>
-        <item>25 minutit</item>
-        <item>30 minutit</item>
-        <item>45 minutit</item>
-        <item>1 tund</item>
-        <item>2 tundi</item>
-        <item>3 tundi</item>
-        <item>12 tundi</item>
-        <item>24 tundi</item>
-        <item>2 päeva</item>
-        <item>1 nädal</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Lokaadi vaikeseade</item>
         <item>Laupäev</item>

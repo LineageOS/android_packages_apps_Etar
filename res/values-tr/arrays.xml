@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Alarm</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 dakika</item>
-        <item>1 dakika</item>
-        <item>5 dakika</item>
-        <item>10 dakika</item>
-        <item>15 dakika</item>
-        <item>20 dakika</item>
-        <item>25 dakika</item>
-        <item>30 dakika</item>
-        <item>45 dakika</item>
-        <item>1 saat</item>
-        <item>2 saat</item>
-        <item>3 saat</item>
-        <item>12 saat</item>
-        <item>24 saat</item>
-        <item>2 gün</item>
-        <item>1 hafta</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Yok</item>
-        <item>0 dakika</item>
-        <item>1 dakika</item>
-        <item>5 dakika</item>
-        <item>10 dakika</item>
-        <item>15 dakika</item>
-        <item>20 dakika</item>
-        <item>25 dakika</item>
-        <item>30 dakika</item>
-        <item>45 dakika</item>
-        <item>1 saat</item>
-        <item>2 saat</item>
-        <item>3 saat</item>
-        <item>12 saat</item>
-        <item>24 saat</item>
-        <item>2 gün</item>
-        <item>1 hafta</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Varsayılan yerel ayar</item>
         <item>Cumartesi</item>

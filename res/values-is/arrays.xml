@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Viðvörun</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 mínútum</item>
-        <item>1 mínútu</item>
-        <item>5 mínútum</item>
-        <item>10 mínútum</item>
-        <item>15 mínútum</item>
-        <item>20 mínútum</item>
-        <item>25 mínútum</item>
-        <item>30 mínútum</item>
-        <item>45 mínútum</item>
-        <item>1 klukkustund</item>
-        <item>2 klukkustundum</item>
-        <item>3 klukkustundum</item>
-        <item>12 klukkustundum</item>
-        <item>24 klukkustundum</item>
-        <item>2 dögum</item>
-        <item>1 viku</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Ekkert</item>
-        <item>0 mínútum</item>
-        <item>1 mínútu</item>
-        <item>5 mínútum</item>
-        <item>10 mínútum</item>
-        <item>15 mínútum</item>
-        <item>20 mínútum</item>
-        <item>25 mínútum</item>
-        <item>30 mínútum</item>
-        <item>45 mínútum</item>
-        <item>1 klukkustund</item>
-        <item>2 klukkustundum</item>
-        <item>3 klukkustundum</item>
-        <item>12 klukkustundum</item>
-        <item>24 klukkustundum</item>
-        <item>2 dögum</item>
-        <item>1 viku</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Sjálfgefinn tungumálskóði</item>
         <item>laugardegi</item>

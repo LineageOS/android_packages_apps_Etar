@@ -20,43 +20,6 @@
         <item>‏رسائل SMS</item>
         <item>المنبه</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 دقائق</item>
-        <item>دقيقة واحدة</item>
-        <item>5 دقائق</item>
-        <item>10 دقائق</item>
-        <item>15 دقيقة</item>
-        <item>20 دقيقة</item>
-        <item>25 دقيقة</item>
-        <item>30 دقيقة</item>
-        <item>45 دقيقة</item>
-        <item>ساعة واحدة</item>
-        <item>ساعتان</item>
-        <item>3 ساعات</item>
-        <item>12 ساعة</item>
-        <item>24 ساعة</item>
-        <item>يومان</item>
-        <item>أسبوع واحد</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>لا شيء</item>
-        <item>0 دقائق</item>
-        <item>دقيقة واحدة</item>
-        <item>5 دقائق</item>
-        <item>10 دقائق</item>
-        <item>15 دقيقة</item>
-        <item>20 دقيقة</item>
-        <item>25 دقيقة</item>
-        <item>30 دقيقة</item>
-        <item>45 دقيقة</item>
-        <item>ساعة واحدة</item>
-        <item>ساعتان</item>
-        <item>3 ساعات</item>
-        <item>12 ساعة</item>
-        <item>24 ساعة</item>
-        <item>يومان</item>
-        <item>أسبوع واحد</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>اللغة الافتراضية</item>
         <item>السبت</item>

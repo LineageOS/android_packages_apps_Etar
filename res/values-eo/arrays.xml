@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Alarm</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minutoj</item>
-        <item>1 minuto</item>
-        <item>5 minutoj</item>
-        <item>10 minutoj</item>
-        <item>15 minutoj</item>
-        <item>20 minutoj</item>
-        <item>25 minutoj</item>
-        <item>30 minutoj</item>
-        <item>45 minutoj</item>
-        <item>1 horo</item>
-        <item>2 horoj</item>
-        <item>3 horoj</item>
-        <item>12 horoj</item>
-        <item>24 horoj</item>
-        <item>2 tagoj</item>
-        <item>1 semajno</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>None</item>
-        <item>0 minutoj</item>
-        <item>1 minuto</item>
-        <item>5 minutoj</item>
-        <item>10 minutoj</item>
-        <item>15 minutoj</item>
-        <item>20 minutoj</item>
-        <item>25 minutoj</item>
-        <item>30 minutoj</item>
-        <item>45 minutoj</item>
-        <item>1 horo</item>
-        <item>2 horoj</item>
-        <item>3 horoj</item>
-        <item>12 horoj</item>
-        <item>24 horoj</item>
-        <item>2 tagoj</item>
-        <item>1 semajno</item>
-    </string-array>
     <string-array name="response_labels1">
         <item>No response</item>
         <item>Jes</item>

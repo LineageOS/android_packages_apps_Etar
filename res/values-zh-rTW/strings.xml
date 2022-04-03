@@ -70,8 +70,6 @@
     <string name="rsvp_declined">"已回覆不參加。"</string>
     <string name="create_event_dialog_save">儲存</string>
     <string name="alert_title">日曆通知</string>
-    <string name="foreground_notification_channel_name">鬧鐘同步</string>
-    <string name="foreground_notification_channel_description">內部鬧鐘同步設置需要前景通知。</string>
     <string name="event_info_title">檢視活動</string>
     <string name="event_info_title_invite">會議邀請</string>
     <string name="edit_event_all_day_label">全天</string>

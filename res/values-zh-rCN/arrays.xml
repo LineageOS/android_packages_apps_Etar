@@ -20,43 +20,6 @@
         <item>短信</item>
         <item>闹钟</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 分钟</item>
-        <item>1 分钟</item>
-        <item>5 分钟</item>
-        <item>10 分钟</item>
-        <item>15 分钟</item>
-        <item>20 分钟</item>
-        <item>25 分钟</item>
-        <item>30 分钟</item>
-        <item>45 分钟</item>
-        <item>1 小时</item>
-        <item>2 小时</item>
-        <item>3 小时</item>
-        <item>12 小时</item>
-        <item>24 小时</item>
-        <item>2 天</item>
-        <item>1 周</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>无</item>
-        <item>0 分钟</item>
-        <item>1 分钟</item>
-        <item>5 分钟</item>
-        <item>10 分钟</item>
-        <item>15 分钟</item>
-        <item>20 分钟</item>
-        <item>25 分钟</item>
-        <item>30 分钟</item>
-        <item>45 分钟</item>
-        <item>1 小时</item>
-        <item>2 小时</item>
-        <item>3 小时</item>
-        <item>12 小时</item>
-        <item>24 小时</item>
-        <item>2 天</item>
-        <item>1 周</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>语言区域的默认设置</item>
         <item>星期六</item>

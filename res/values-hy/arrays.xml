@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Ազդանշան</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 րոպե</item>
-        <item>1 րոպե</item>
-        <item>5 րոպե</item>
-        <item>10 րոպե</item>
-        <item>15 րոպե</item>
-        <item>20 րոպե</item>
-        <item>25 րոպե</item>
-        <item>30 րոպե</item>
-        <item>45 րոպե</item>
-        <item>1 ժամ</item>
-        <item>2 ժամ</item>
-        <item>3 ժամ</item>
-        <item>12 ժամ</item>
-        <item>24 ժամ</item>
-        <item>2 օր</item>
-        <item>1 շաբաթ</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Ոչ մեկը</item>
-        <item>0 րոպե</item>
-        <item>1 րոպե</item>
-        <item>5 րոպե</item>
-        <item>10 րոպե</item>
-        <item>15 րոպե</item>
-        <item>20 րոպե</item>
-        <item>25 րոպե</item>
-        <item>30 րոպե</item>
-        <item>45 րոպե</item>
-        <item>1 ժամ</item>
-        <item>2 ժամ</item>
-        <item>3 ժամ</item>
-        <item>12 ժամ</item>
-        <item>24 ժամ</item>
-        <item>2 օր</item>
-        <item>1 շաբաթ</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Տեղային լռելյայն</item>
         <item>Շաբաթ</item>

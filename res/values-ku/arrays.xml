@@ -20,43 +20,6 @@
         <item>کورتەنامە</item>
         <item>وریاکەرەوە</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 خولەک</item>
-        <item>1 خولەک</item>
-        <item>5 خولەک</item>
-        <item>10 خولەک</item>
-        <item>10 خوله‌ک</item>
-        <item>20 خولەک</item>
-        <item>25 خولەک</item>
-        <item>30 خوله‌ک</item>
-        <item>45 خوله‌ك</item>
-        <item>1 كاتژێر</item>
-        <item>2 کاژێر</item>
-        <item>3 کاژێر</item>
-        <item>12 کاژێر</item>
-        <item>24 کاژێر</item>
-        <item>2 ڕۆژ</item>
-        <item>1 هەفتە</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>هیچیان</item>
-        <item>0 خولەک</item>
-        <item>1 خوله‌ک</item>
-        <item>5 خوله‌ک</item>
-        <item>10 خولەک</item>
-        <item>15 خولەک</item>
-        <item>20 خولەک</item>
-        <item>25 خولەک</item>
-        <item>30 خوله‌ک</item>
-        <item>45 خوله‌ك</item>
-        <item>1 كاتژێر</item>
-        <item>2 کاژێر</item>
-        <item>3 کاژێر</item>
-        <item>12 کاژێر</item>
-        <item>24 کاژێر</item>
-        <item>2 ڕۆژ</item>
-        <item>1 هەفتە</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>ناوچەی بنەڕەتی</item>
         <item>شەممە</item>

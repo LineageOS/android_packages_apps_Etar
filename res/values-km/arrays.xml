@@ -20,43 +20,6 @@
         <item>សារ SMS</item>
         <item>រោទ៍</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>០ នាទី</item>
-        <item>១ នាទី</item>
-        <item>៥ នាទី</item>
-        <item>១០ នាទី</item>
-        <item>១៥ នាទី</item>
-        <item>២០ នាទី</item>
-        <item>២៥ នាទី</item>
-        <item>៣០ នាទី</item>
-        <item>៤៥ នាទី</item>
-        <item>១ ម៉ោង</item>
-        <item>២ ម៉ោង</item>
-        <item>៣ ម៉ោង</item>
-        <item>១២ ម៉ោង</item>
-        <item>២៤ ម៉ោង</item>
-        <item>២ ថ្ងៃ</item>
-        <item>១ សប្ដាហ៍</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>គ្មាន</item>
-        <item>០ នាទី</item>
-        <item>១ នាទី</item>
-        <item>៥ នាទី</item>
-        <item>១០ នាទី</item>
-        <item>15 minutes</item>
-        <item>២០ នាទី</item>
-        <item>២៥ នាទី</item>
-        <item>៣០ នាទី</item>
-        <item>៤៥ នាទី</item>
-        <item>១ ម៉ោង</item>
-        <item>២ ម៉ោង</item>
-        <item>៣ ម៉ោង</item>
-        <item>១២ ម៉ោង</item>
-        <item>២៤ ម៉ោង</item>
-        <item>២ ថ្ងៃ</item>
-        <item>១ សប្ដាហ៍</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>លំនាំដើម​មូលដ្ឋាន</item>
         <item>សៅរ៍</item>

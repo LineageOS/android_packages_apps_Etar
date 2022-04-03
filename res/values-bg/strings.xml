@@ -75,8 +75,6 @@
     <string name="rsvp_declined">"Отговорихте с „не“."</string>
     <string name="create_event_dialog_save">Запазване</string>
     <string name="alert_title">Известия от Календар</string>
-    <string name="foreground_notification_channel_name">Синхронизация на известия</string>
-    <string name="foreground_notification_channel_description">Изисква се нотификация на преден план за вътрешна синхронизация на известието.</string>
     <string name="event_info_title">Преглед на събитие</string>
     <string name="event_info_title_invite">Покана за среща</string>
     <string name="edit_event_all_day_label">Цял ден</string>

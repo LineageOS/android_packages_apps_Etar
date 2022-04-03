@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Wecker</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 Minuten</item>
-        <item>1 Minute</item>
-        <item>5 Minuten</item>
-        <item>10 Minuten</item>
-        <item>15 Minuten</item>
-        <item>20 Minuten</item>
-        <item>25 Minuten</item>
-        <item>30 Minuten</item>
-        <item>45 Minuten</item>
-        <item>1 Stunde</item>
-        <item>2 Stunden</item>
-        <item>3 Stunden</item>
-        <item>12 Stunden</item>
-        <item>24 Stunden</item>
-        <item>2 Tage</item>
-        <item>1 Woche</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Keine</item>
-        <item>0 Minuten</item>
-        <item>1 Minute</item>
-        <item>5 Minuten</item>
-        <item>10 Minuten</item>
-        <item>15 Minuten</item>
-        <item>20 Minuten</item>
-        <item>25 Minuten</item>
-        <item>30 Minuten</item>
-        <item>45 Minuten</item>
-        <item>1 Stunde</item>
-        <item>2 Stunden</item>
-        <item>3 Stunden</item>
-        <item>12 Stunden</item>
-        <item>24 Stunden</item>
-        <item>2 Tage</item>
-        <item>1 Woche</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Gebietsschema - Standard</item>
         <item>Samstag</item>

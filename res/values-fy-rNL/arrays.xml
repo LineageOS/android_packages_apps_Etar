@@ -20,43 +20,6 @@
         <item>Sms</item>
         <item>Alarm</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minuten</item>
-        <item>1 minút</item>
-        <item>5 minuten</item>
-        <item>10 minuten</item>
-        <item>15 minuten</item>
-        <item>20 minuten</item>
-        <item>25 minuten</item>
-        <item>30 minuten</item>
-        <item>45 minuten</item>
-        <item>1 oer</item>
-        <item>2 oer</item>
-        <item>3 oer</item>
-        <item>12 oer</item>
-        <item>24 oer</item>
-        <item>2 dagen</item>
-        <item>1 wike</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Gjin</item>
-        <item>0 minuten</item>
-        <item>1 minút</item>
-        <item>5 minuten</item>
-        <item>10 minuten</item>
-        <item>15 minuten</item>
-        <item>20 minuten</item>
-        <item>25 minuten</item>
-        <item>30 minuten</item>
-        <item>45 minuten</item>
-        <item>1 oer</item>
-        <item>2 oer</item>
-        <item>3 oer</item>
-        <item>12 oer</item>
-        <item>24 oer</item>
-        <item>2 dagen</item>
-        <item>1 wike</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Standertlânynstelling</item>
         <item>Sneon</item>

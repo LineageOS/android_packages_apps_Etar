@@ -20,43 +20,6 @@
         <item>Tekstiviesti</item>
         <item>Hälytys</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minuuttia</item>
-        <item>1 minuutti</item>
-        <item>5 minuuttia</item>
-        <item>10 minuuttia</item>
-        <item>15 minuuttia</item>
-        <item>20 minuuttia</item>
-        <item>25 minuuttia</item>
-        <item>30 minuuttia</item>
-        <item>45 minuuttia</item>
-        <item>1 tunti</item>
-        <item>2 tuntia</item>
-        <item>3 tuntia</item>
-        <item>12 tuntia</item>
-        <item>24 tuntia</item>
-        <item>2 päivää</item>
-        <item>1 viikko</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Ei mitään</item>
-        <item>0 minuuttia</item>
-        <item>1 minuutti</item>
-        <item>5 minuuttia</item>
-        <item>10 minuuttia</item>
-        <item>15 minuuttia</item>
-        <item>20 minuuttia</item>
-        <item>25 minuuttia</item>
-        <item>30 minuuttia</item>
-        <item>45 minuuttia</item>
-        <item>1 tunti</item>
-        <item>2 tuntia</item>
-        <item>3 tuntia</item>
-        <item>12 tuntia</item>
-        <item>24 tuntia</item>
-        <item>2 päivää</item>
-        <item>1 viikko</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Oletussijainti</item>
         <item>lauantai</item>

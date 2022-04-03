@@ -70,8 +70,6 @@
     <string name="rsvp_declined">"참석 안함으로 응답함"</string>
     <string name="create_event_dialog_save">저장</string>
     <string name="alert_title">캘린더 알림</string>
-    <string name="foreground_notification_channel_name">동기화 알림</string>
-    <string name="foreground_notification_channel_description">내부 알림 동기화에 포그라운드 알림이 필요합니다.</string>
     <string name="event_info_title">일정 보기</string>
     <string name="event_info_title_invite">회의 초대</string>
     <string name="edit_event_all_day_label">종일</string>

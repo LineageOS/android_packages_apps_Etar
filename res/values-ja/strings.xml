@@ -70,8 +70,6 @@
     <string name="rsvp_declined">"「いいえ」と返信しました。"</string>
     <string name="create_event_dialog_save">保存</string>
     <string name="alert_title">カレンダーの通知</string>
-    <string name="foreground_notification_channel_name">アラートの同期</string>
-    <string name="foreground_notification_channel_description">内部のアラート同期にはフォアグラウンド通知が必要です</string>
     <string name="event_info_title">予定を表示</string>
     <string name="event_info_title_invite">会議への招待状</string>
     <string name="edit_event_all_day_label">終日</string>

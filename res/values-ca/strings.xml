@@ -75,8 +75,6 @@
     <string name="rsvp_declined">"Ha respost que no."</string>
     <string name="create_event_dialog_save">Desa</string>
     <string name="alert_title">Notificacions de Calendar</string>
-    <string name="foreground_notification_channel_name">Sincronització d\'alertes</string>
-    <string name="foreground_notification_channel_description">Cal una notificació en primer pla per a la sincronització d\'alertes internes.</string>
     <string name="event_info_title">Visualitza l\'esdeveniment</string>
     <string name="event_info_title_invite">Invitació a una reunió</string>
     <string name="edit_event_all_day_label">Tot el dia</string>

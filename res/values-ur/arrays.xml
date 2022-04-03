@@ -14,25 +14,6 @@
      limitations under the License.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string-array name="preferences_default_reminder_labels">
-        <item>کوئی نہیں</item>
-        <item>0 منٹ</item>
-        <item>1 منٹ</item>
-        <item>5 منٹ</item>
-        <item>10 منٹ</item>
-        <item>15 منٹ</item>
-        <item>20 منٹ</item>
-        <item>25 منٹ</item>
-        <item>30 منٹ</item>
-        <item>45 منٹ</item>
-        <item>1 گھنٹہ</item>
-        <item>2 گھنٹے</item>
-        <item>3 گھنٹے</item>
-        <item>12 گھنٹے</item>
-        <item>24 گھنٹے</item>
-        <item>2 دن</item>
-        <item>1 ہفتہ</item>
-    </string-array>
     <string-array name="availability">
         <item>مصروف</item>
         <item>دستیاب</item>

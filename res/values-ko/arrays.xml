@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>알람</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0분</item>
-        <item>1분</item>
-        <item>5분</item>
-        <item>10분</item>
-        <item>15분</item>
-        <item>20분</item>
-        <item>25분</item>
-        <item>30분</item>
-        <item>45분</item>
-        <item>1시간</item>
-        <item>2시간</item>
-        <item>3시간</item>
-        <item>12시간</item>
-        <item>24시간</item>
-        <item>2일</item>
-        <item>1주</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>없음</item>
-        <item>0분</item>
-        <item>1분</item>
-        <item>5분</item>
-        <item>10분</item>
-        <item>15분</item>
-        <item>20분</item>
-        <item>25분</item>
-        <item>30분</item>
-        <item>45분</item>
-        <item>1시간</item>
-        <item>2시간</item>
-        <item>3시간</item>
-        <item>12시간</item>
-        <item>24시간</item>
-        <item>2일</item>
-        <item>1주</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>언어 기본값</item>
         <item>토요일</item>

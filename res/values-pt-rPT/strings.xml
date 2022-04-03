@@ -75,8 +75,6 @@
     <string name="rsvp_declined">"Respondeu \"não\"."</string>
     <string name="create_event_dialog_save">Guardar</string>
     <string name="alert_title">Notificações do calendário</string>
-    <string name="foreground_notification_channel_name">Sincronização de alertas</string>
-    <string name="foreground_notification_channel_description">Notificação em primeiro plano necessária para sincronização de alerta interno.</string>
     <string name="event_info_title">Visualizar evento</string>
     <string name="event_info_title_invite">Convite para reunião</string>
     <string name="edit_event_all_day_label">Todo o dia</string>

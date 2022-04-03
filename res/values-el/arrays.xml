@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Ξυπνητήρι</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 λεπτά</item>
-        <item>1 λεπτό</item>
-        <item>5 λεπτά</item>
-        <item>10 λεπτά</item>
-        <item>15 λεπτά</item>
-        <item>20 λεπτά</item>
-        <item>25 λεπτά</item>
-        <item>30 λεπτά</item>
-        <item>45 λεπτά</item>
-        <item>1 ώρα</item>
-        <item>2 ώρες</item>
-        <item>3 ώρες</item>
-        <item>12 ώρες</item>
-        <item>24 ώρες</item>
-        <item>2 ημέρες</item>
-        <item>1 εβδομάδα</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Κανένα</item>
-        <item>0 λεπτά</item>
-        <item>1 λεπτό</item>
-        <item>5 λεπτά</item>
-        <item>10 λεπτά</item>
-        <item>15 λεπτά</item>
-        <item>20 λεπτά</item>
-        <item>25 λεπτά</item>
-        <item>30 λεπτά</item>
-        <item>45 λεπτά</item>
-        <item>1 ώρα</item>
-        <item>2 ώρες</item>
-        <item>3 ώρες</item>
-        <item>12 ώρες</item>
-        <item>24 ώρες</item>
-        <item>2 ημέρες</item>
-        <item>1 εβδομάδα</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Προεπιλογή τοπικών ρυθμίσεων</item>
         <item>Σάββατο</item>

@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>เตือน</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 นาที</item>
-        <item>1 นาที</item>
-        <item>5 นาที</item>
-        <item>10 นาที</item>
-        <item>15 นาที</item>
-        <item>20 นาที</item>
-        <item>25 นาที</item>
-        <item>30 นาที</item>
-        <item>45 นาที</item>
-        <item>1 ชั่วโมง</item>
-        <item>2 ชั่วโมง</item>
-        <item>3 ชั่วโมง</item>
-        <item>12 ชั่วโมง</item>
-        <item>24 ชั่วโมง</item>
-        <item>2 วัน</item>
-        <item>1 สัปดาห์</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>ไม่มี</item>
-        <item>0 นาที</item>
-        <item>1 นาที</item>
-        <item>5 นาที</item>
-        <item>10 นาที</item>
-        <item>15 นาที</item>
-        <item>20 นาที</item>
-        <item>25 นาที</item>
-        <item>30 นาที</item>
-        <item>45 นาที</item>
-        <item>1 ชั่วโมง</item>
-        <item>2 ชั่วโมง</item>
-        <item>3 ชั่วโมง</item>
-        <item>12 ชั่วโมง</item>
-        <item>24 ชั่วโมง</item>
-        <item>2 วัน</item>
-        <item>1 สัปดาห์</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>ตามท้องถิ่น</item>
         <item>วันเสาร์</item>

@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>နှိုးစက်</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>၀ မိနစ်</item>
-        <item>၁ မိနစ်</item>
-        <item>၅ မိနစ်</item>
-        <item>၁၀ မိနစ်</item>
-        <item>၁၅ မိနစ်</item>
-        <item>၂၀ မိနစ်</item>
-        <item>၂၅ မိနစ်</item>
-        <item>၃၀ မိနစ်</item>
-        <item>၄၅ မိနစ်</item>
-        <item>၁ နာရီ</item>
-        <item>၂ နာရီ</item>
-        <item>၃ နာရီ</item>
-        <item>၁၂ နာရီ</item>
-        <item>၂၄ နာရီ</item>
-        <item>၂ ရက်</item>
-        <item>၁ ပတ်</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>မရှိ</item>
-        <item>၀ မိနစ်</item>
-        <item>၁ မိနစ်</item>
-        <item>၅ မိနစ်</item>
-        <item>၁၀ မိနစ်</item>
-        <item>၁၅ မိနစ်</item>
-        <item>၂၀ မိနစ်</item>
-        <item>၂၅ မိနစ်</item>
-        <item>၃၀ မိနစ်</item>
-        <item>၄၅ မိနစ်</item>
-        <item>၁ နာရီ</item>
-        <item>၂ နာရီ</item>
-        <item>၃ နာရီ</item>
-        <item>၁၂ နာရီ</item>
-        <item>၂၄ နာရီ</item>
-        <item>၂ ရက်</item>
-        <item>၁ ပတ်</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>ပုံသေ ဒေသမူ</item>
         <item>စနေ</item>

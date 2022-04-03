@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Аларм</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 минута</item>
-        <item>1 минут</item>
-        <item>5 минута</item>
-        <item>10 минута</item>
-        <item>15 минута</item>
-        <item>20 минута</item>
-        <item>25 минута</item>
-        <item>30 минута</item>
-        <item>45 минута</item>
-        <item>1 сат</item>
-        <item>2 сата</item>
-        <item>3 сата</item>
-        <item>12 сати</item>
-        <item>24 сата</item>
-        <item>2 дана</item>
-        <item>1 недеља</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Ништа</item>
-        <item>0 минута</item>
-        <item>1 минут</item>
-        <item>5 минута</item>
-        <item>10 минута</item>
-        <item>15 минута</item>
-        <item>20 минута</item>
-        <item>25 минута</item>
-        <item>30 минута</item>
-        <item>45 минута</item>
-        <item>1 сат</item>
-        <item>2 сата</item>
-        <item>3 сата</item>
-        <item>12 сати</item>
-        <item>24 сата</item>
-        <item>2 дана</item>
-        <item>1 недеља</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Подразумевано за локалитет</item>
         <item>субота</item>

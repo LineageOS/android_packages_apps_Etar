@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Сигнал</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 хвилин</item>
-        <item>1 хвилина</item>
-        <item>5 хвилин</item>
-        <item>10 хвилин</item>
-        <item>15 хвилин</item>
-        <item>20 хвилин</item>
-        <item>25 хвилин</item>
-        <item>30 хвилин</item>
-        <item>45 хвилин</item>
-        <item>1 година</item>
-        <item>2 години</item>
-        <item>3 години</item>
-        <item>12 годин</item>
-        <item>24 години</item>
-        <item>2 дні</item>
-        <item>1 тиждень</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Немає</item>
-        <item>0 хвилин</item>
-        <item>1 хвилина</item>
-        <item>5 хвилин</item>
-        <item>10 хвилин</item>
-        <item>15 хвилин</item>
-        <item>20 хвилин</item>
-        <item>25 хвилин</item>
-        <item>30 хвилин</item>
-        <item>45 хвилин</item>
-        <item>1 година</item>
-        <item>2 години</item>
-        <item>3 години</item>
-        <item>12 годин</item>
-        <item>24 години</item>
-        <item>2 дні</item>
-        <item>1 тиждень</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Код мови за умовч.</item>
         <item>Субота</item>

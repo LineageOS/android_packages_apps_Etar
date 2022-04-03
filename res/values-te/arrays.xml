@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>అలారం</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 నిమిషాలు</item>
-        <item>1 నిమిషం</item>
-        <item>5 నిమిషాలు</item>
-        <item>10 నిమిషాలు</item>
-        <item>15 నిమిషాలు</item>
-        <item>20 నిమిషాలు</item>
-        <item>25 నిమిషాలు</item>
-        <item>30 నిమిషాలు</item>
-        <item>45 నిమిషాలు</item>
-        <item>1 గంట</item>
-        <item>2 గంటలు</item>
-        <item>3 గంటలు</item>
-        <item>12 గంటలు</item>
-        <item>24 గంటలు</item>
-        <item>2 రోజులు</item>
-        <item>1 వారం</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>ఏదీ కాదు</item>
-        <item>0 నిమిషాలు</item>
-        <item>1 నిమిషం</item>
-        <item>5 నిమిషాలు</item>
-        <item>10 నిమిషాలు</item>
-        <item>15 నిమిషాలు</item>
-        <item>20 నిమిషాలు</item>
-        <item>25 నిమిషాలు</item>
-        <item>30 నిమిషాలు</item>
-        <item>45 నిమిషాలు</item>
-        <item>1 గంట</item>
-        <item>2 గంటలు</item>
-        <item>3 గంటలు</item>
-        <item>12 గంటలు</item>
-        <item>24 గంటలు</item>
-        <item>2 రోజులు</item>
-        <item>1 వారం</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>లొకేల్ డిఫాల్ట్</item>
         <item>శనివారం</item>

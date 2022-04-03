@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>ໂມງປຸກ</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 ນາທີ</item>
-        <item>1 ນາທີ</item>
-        <item>5 ນາທີ</item>
-        <item>10 ນາທີ</item>
-        <item>15 ນາທີ</item>
-        <item>20 ນາທີ</item>
-        <item>25 ນາທີ</item>
-        <item>30 ນາທີ</item>
-        <item>45 ນາທີ</item>
-        <item>1 ຊົ່ວໂມງ</item>
-        <item>2 ຊົ່ວໂມງ</item>
-        <item>3 ຊົ່ວໂມງ</item>
-        <item>12 ຊົ່ວໂມງ</item>
-        <item>24 ຊົ່ວໂມງ</item>
-        <item>2 ມື້</item>
-        <item>1 ອາທິດ</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>ບໍ່ໃຊ້</item>
-        <item>0 ນາທີ</item>
-        <item>1 ນາທີ</item>
-        <item>5 ນາທີ</item>
-        <item>10 ນາທີ</item>
-        <item>15 ນາທີ</item>
-        <item>20 ນາທີ</item>
-        <item>25 ນາທີ</item>
-        <item>30 ນາທີ</item>
-        <item>45 ນາທີ</item>
-        <item>1 ຊົ່ວໂມງ</item>
-        <item>2 ຊົ່ວໂມງ</item>
-        <item>3 ຊົ່ວໂມງ</item>
-        <item>12 ຊົ່ວໂມງ</item>
-        <item>24 ຊົ່ວໂມງ</item>
-        <item>2 ມື້</item>
-        <item>1 ອາທິດ</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>ຕາມທ້ອງຖິ່ນ</item>
         <item>ວັນເສົາ</item>

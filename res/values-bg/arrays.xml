@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Будилник</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 минути</item>
-        <item>1 минута</item>
-        <item>5 минути</item>
-        <item>10 минути</item>
-        <item>15 минути</item>
-        <item>20 минути</item>
-        <item>25 минути</item>
-        <item>30 минути</item>
-        <item>45 минути</item>
-        <item>1 час</item>
-        <item>2 часа</item>
-        <item>3 часа</item>
-        <item>12 часа</item>
-        <item>24 часа</item>
-        <item>2 дни</item>
-        <item>1 седмица</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Няма</item>
-        <item>0 минути</item>
-        <item>1 минута</item>
-        <item>5 минути</item>
-        <item>10 минути</item>
-        <item>15 минути</item>
-        <item>20 минути</item>
-        <item>25 минути</item>
-        <item>30 минути</item>
-        <item>45 минути</item>
-        <item>1 час</item>
-        <item>2 часа</item>
-        <item>3 часа</item>
-        <item>12 часа</item>
-        <item>24 часа</item>
-        <item>2 дни</item>
-        <item>1 седмица</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Стандартно за локала</item>
         <item>събота</item>

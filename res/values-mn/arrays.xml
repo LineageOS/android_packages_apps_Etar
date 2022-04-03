@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Сэрүүлэг</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 минут</item>
-        <item>1 минут</item>
-        <item>5 минут</item>
-        <item>10 минут</item>
-        <item>15 минут</item>
-        <item>20 минут</item>
-        <item>25 минут</item>
-        <item>30 минут</item>
-        <item>45 минут</item>
-        <item>1 цаг</item>
-        <item>2 цаг</item>
-        <item>3 цаг</item>
-        <item>12 цаг</item>
-        <item>24 цаг</item>
-        <item>2 өдөр</item>
-        <item>1 долоо хоног</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Байхгүй</item>
-        <item>0 минут</item>
-        <item>1 минут</item>
-        <item>5 минут</item>
-        <item>10 минут</item>
-        <item>15 минут</item>
-        <item>20 минут</item>
-        <item>25 минут</item>
-        <item>30 минут</item>
-        <item>45 минут</item>
-        <item>1 цаг</item>
-        <item>2 цаг</item>
-        <item>3 цаг</item>
-        <item>12 цаг</item>
-        <item>24 цаг</item>
-        <item>2 өдөр</item>
-        <item>1 долоо хоног</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Тухайн газрын үндсэн</item>
         <item>Бямба</item>

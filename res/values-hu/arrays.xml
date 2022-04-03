@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Ébresztő</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 perc</item>
-        <item>1 perc</item>
-        <item>5 perc</item>
-        <item>10 perc</item>
-        <item>15 perc</item>
-        <item>20 perc</item>
-        <item>25 perc</item>
-        <item>30 perc</item>
-        <item>45 perc</item>
-        <item>1 óra</item>
-        <item>2 óra</item>
-        <item>3 óra</item>
-        <item>12 óra</item>
-        <item>24 óra</item>
-        <item>2 nap</item>
-        <item>1 hét</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Semelyik</item>
-        <item>0 perc</item>
-        <item>1 perc</item>
-        <item>5 perc</item>
-        <item>10 perc</item>
-        <item>15 perc</item>
-        <item>20 perc</item>
-        <item>25 perc</item>
-        <item>30 perc</item>
-        <item>45 perc</item>
-        <item>1 óra</item>
-        <item>2 óra</item>
-        <item>3 óra</item>
-        <item>12 óra</item>
-        <item>24 óra</item>
-        <item>2 nap</item>
-        <item>1 hét</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Helyi alapértelmezett</item>
         <item>Szombat</item>

@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Budík</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minút</item>
-        <item>1 minúta</item>
-        <item>5 minút</item>
-        <item>10 minút</item>
-        <item>15 minút</item>
-        <item>20 minút</item>
-        <item>25 minút</item>
-        <item>30 minút</item>
-        <item>45 minút</item>
-        <item>1 hodina</item>
-        <item>2 hodiny</item>
-        <item>3 hodiny</item>
-        <item>12 hodín</item>
-        <item>24 hodín</item>
-        <item>2 dni</item>
-        <item>1 týždeň</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Žiadne</item>
-        <item>0 minút</item>
-        <item>1 minúta</item>
-        <item>5 minút</item>
-        <item>10 minút</item>
-        <item>15 minút</item>
-        <item>20 minút</item>
-        <item>25 minút</item>
-        <item>30 minút</item>
-        <item>45 minút</item>
-        <item>1 hodina</item>
-        <item>2 hodiny</item>
-        <item>3 hodiny</item>
-        <item>12 hodín</item>
-        <item>24 hodín</item>
-        <item>2 dni</item>
-        <item>1 týždeň</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Predvolená hodnota miestneho nastavenia</item>
         <item>Sobota</item>

@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Alarm</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minute</item>
-        <item>1 minuut</item>
-        <item>5 minute</item>
-        <item>10 minute</item>
-        <item>15 minute</item>
-        <item>20 minute</item>
-        <item>25 minute</item>
-        <item>30 minute</item>
-        <item>45 minute</item>
-        <item>1 uur</item>
-        <item>2 uur</item>
-        <item>3 uur</item>
-        <item>12 uur</item>
-        <item>24 uur</item>
-        <item>2 dae</item>
-        <item>1 week</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Geen</item>
-        <item>0 minute</item>
-        <item>1 minuut</item>
-        <item>5 minute</item>
-        <item>10 minute</item>
-        <item>15 minute</item>
-        <item>20 minute</item>
-        <item>25 minute</item>
-        <item>30 minute</item>
-        <item>45 minute</item>
-        <item>1 uur</item>
-        <item>2 uur</item>
-        <item>3 uur</item>
-        <item>12 uur</item>
-        <item>24 uur</item>
-        <item>2 dae</item>
-        <item>1 week</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Locale-verstek</item>
         <item>Saterdag</item>

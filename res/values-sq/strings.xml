@@ -75,7 +75,6 @@
     <string name="rsvp_declined">"U përgjigj jo."</string>
     <string name="create_event_dialog_save">Ruaj</string>
     <string name="alert_title">Njoftimet e kalendarit</string>
-    <string name="foreground_notification_channel_name">Sinkronizo zilen</string>
     <string name="event_info_title">Shiko ngjarjen</string>
     <string name="event_info_title_invite">Ftesë për mbledhje</string>
     <string name="edit_event_all_day_label">Gjithë ditën</string>
@@ -277,12 +276,12 @@
     <string name="visibility_default">Parapërcaktuar</string>
     <string name="visibility_confidential">Konfidenciale</string>
     <string name="visibility_private">Private</string>
-    <string name="visibility_public">Publike</string>
+    <string name="visibility_public">Publik</string>
     <string name="two_days">2 ditë</string>
     <string name="three_days">3 ditë</string>
     <string name="four_days">4 ditë</string>
-    <string name="five_days">5 ditë</string>
-    <string name="six_days">6 ditë</string>
+    <string name="five_days">5 dite</string>
+    <string name="six_days">6 dite</string>
     <string name="seven_days">7 ditë</string>
     <string name="zero_minutes">0 minuta</string>
     <string name="fifteen_minutes">15 minuta</string>
@@ -323,7 +322,7 @@
     <string name="preferences_calendar_delete_cancel">Anullo</string>
     <string name="preferences_list_calendar_summary_sync_off">I pa sinkronizuar</string>
     <string name="preferences_list_calendar_summary_invisible">Ngjarjet nuk shfaqen</string>
-    <string name="preferences_list_general">Cilësimet e përgjithshme</string>
+    <string name="preferences_list_general">Cilësimet e përgjithshme.</string>
     <string name="preferences_list_add_remote">Shto kalendar CalDAV</string>
     <string name="preferences_list_add_remote_etesync">Shto kalendar EteSync</string>
     <string name="preferences_list_add_offline">Shto kalendar lokal</string>

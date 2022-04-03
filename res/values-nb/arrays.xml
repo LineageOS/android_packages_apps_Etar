@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Alarm</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minutter</item>
-        <item>1 minutt</item>
-        <item>5 minutter</item>
-        <item>10 minutter</item>
-        <item>15 minutter</item>
-        <item>20 minutter</item>
-        <item>25 minutter</item>
-        <item>30 minutter</item>
-        <item>45 minutter</item>
-        <item>1 time</item>
-        <item>To timer</item>
-        <item>3 timer</item>
-        <item>12 timer</item>
-        <item>1 døgn</item>
-        <item>2 dager</item>
-        <item>1 uke</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Ingen</item>
-        <item>0 minutter</item>
-        <item>1 minutt</item>
-        <item>5 minutter</item>
-        <item>10 minutter</item>
-        <item>15 minutter</item>
-        <item>20 minutter</item>
-        <item>25 minutter</item>
-        <item>30 minutter</item>
-        <item>45 minutter</item>
-        <item>1 time</item>
-        <item>2 timer</item>
-        <item>3 timer</item>
-        <item>12 timer</item>
-        <item>24 timer</item>
-        <item>2 dager</item>
-        <item>1 uke</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Språkstandard</item>
         <item>Lørdag</item>

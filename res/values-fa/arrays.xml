@@ -20,43 +20,6 @@
         <item>پیامک</item>
         <item>زنگ هشدار</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 دقیقه</item>
-        <item>۱ دقیقه</item>
-        <item>۵ دقیقه</item>
-        <item>۱۰ دقیقه</item>
-        <item>۱۵ دقیقه</item>
-        <item>۲۰ دقیقه</item>
-        <item>۲۵ دقیقه</item>
-        <item>۳۰ دقیقه</item>
-        <item>۴۵ دقیقه</item>
-        <item>۱ ساعت</item>
-        <item>۲ ساعت</item>
-        <item>۳ ساعت</item>
-        <item>۱۲ ساعت</item>
-        <item>۲۴ ساعت</item>
-        <item>۲ روز</item>
-        <item>۱ هفته</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>هیچکدام</item>
-        <item>0 دقیقه</item>
-        <item>۱ دقیقه</item>
-        <item>۵ دقیقه</item>
-        <item>۱۰ دقیقه</item>
-        <item>۱۵ دقیقه</item>
-        <item>۲۰ دقیقه</item>
-        <item>۲۵ دقیقه</item>
-        <item>۳۰ دقیقه</item>
-        <item>۴۵ دقیقه</item>
-        <item>۱ ساعت</item>
-        <item>۲ ساعت</item>
-        <item>۳ ساعت</item>
-        <item>۱۲ ساعت</item>
-        <item>۲۴ ساعت</item>
-        <item>۲ روز</item>
-        <item>۱ هفته</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>پیش‌فرض محلی</item>
         <item>شنبه</item>

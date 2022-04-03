@@ -75,7 +75,6 @@
     <string name="rsvp_declined">"Vastas eitavalt."</string>
     <string name="create_event_dialog_save">Salvesta</string>
     <string name="alert_title">Kalendriteadistused</string>
-    <string name="foreground_notification_channel_name">Alarmi sünkroonimine</string>
     <string name="event_info_title">Sündmuse vaatamine</string>
     <string name="event_info_title_invite">Koosolekukutse</string>
     <string name="edit_event_all_day_label">Kogu päev</string>

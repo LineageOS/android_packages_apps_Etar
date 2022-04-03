@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Signalas</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 min.</item>
-        <item>1 min.</item>
-        <item>5 min.</item>
-        <item>10 min.</item>
-        <item>15 min.</item>
-        <item>20 min.</item>
-        <item>25 min.</item>
-        <item>30 min.</item>
-        <item>45 min.</item>
-        <item>1 val.</item>
-        <item>2 val.</item>
-        <item>3 val.</item>
-        <item>12 val.</item>
-        <item>24 val.</item>
-        <item>2 d.</item>
-        <item>1 sav.</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Nėra</item>
-        <item>0 min.</item>
-        <item>1 min.</item>
-        <item>5 min.</item>
-        <item>10 min.</item>
-        <item>15 min.</item>
-        <item>20 min.</item>
-        <item>25 min.</item>
-        <item>30 min.</item>
-        <item>45 min.</item>
-        <item>1 val.</item>
-        <item>2 val.</item>
-        <item>3 val.</item>
-        <item>12 val.</item>
-        <item>24 val.</item>
-        <item>2 d.</item>
-        <item>1 sav.</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Numatytoji lokalė</item>
         <item>Šeštadienis</item>

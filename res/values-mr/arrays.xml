@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>अलार्म</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 मिनिटे</item>
-        <item>1 मिनिट</item>
-        <item>5 मिनिटे</item>
-        <item>10 मिनिटे</item>
-        <item>15 मिनिटे</item>
-        <item>20 मिनिटे</item>
-        <item>25 मिनिटे</item>
-        <item>30 मिनिटे</item>
-        <item>45 मिनिटे</item>
-        <item>1 तास</item>
-        <item>2 तास</item>
-        <item>3 तास</item>
-        <item>12 तास</item>
-        <item>24 तास</item>
-        <item>2 दिवस</item>
-        <item>1 आठवडा</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>काहीही नाही</item>
-        <item>0 मिनिटे</item>
-        <item>1 मिनिट</item>
-        <item>5 मिनिटे</item>
-        <item>10 मिनिटे</item>
-        <item>15 मिनिटे</item>
-        <item>20 मिनिटे</item>
-        <item>25 मिनिटे</item>
-        <item>30 मिनिटे</item>
-        <item>45 मिनिटे</item>
-        <item>1 तास</item>
-        <item>2 तास</item>
-        <item>3 तास</item>
-        <item>12 तास</item>
-        <item>24 तास</item>
-        <item>2 दिवस</item>
-        <item>1 आठवडा</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>लोकॅल डीफॉल्ट</item>
         <item>शनिवार</item>

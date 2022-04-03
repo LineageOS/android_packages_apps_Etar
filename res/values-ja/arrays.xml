@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>アラーム</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0分</item>
-        <item>1分</item>
-        <item>5分</item>
-        <item>10分</item>
-        <item>15分</item>
-        <item>20分</item>
-        <item>25分</item>
-        <item>30分</item>
-        <item>45分</item>
-        <item>1時間</item>
-        <item>2時間</item>
-        <item>3時間</item>
-        <item>12時間</item>
-        <item>24時間</item>
-        <item>2日</item>
-        <item>1週間</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>なし</item>
-        <item>0分</item>
-        <item>1分</item>
-        <item>5分</item>
-        <item>10分</item>
-        <item>15分</item>
-        <item>20分</item>
-        <item>25分</item>
-        <item>30分</item>
-        <item>45分</item>
-        <item>1時間</item>
-        <item>2時間</item>
-        <item>3時間</item>
-        <item>12時間</item>
-        <item>24時間</item>
-        <item>2日</item>
-        <item>1週間</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>ユーザーの言語/地域での既定の設定</item>
         <item>土曜日</item>

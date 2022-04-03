@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Caismeachd</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 mionaid</item>
-        <item>Mionaid</item>
-        <item>5 mionaidean</item>
-        <item>10 mionaidean</item>
-        <item>Cairteal na h-uarach</item>
-        <item>20 mionaid</item>
-        <item>25 mionaid</item>
-        <item>Leth-uair a thìde</item>
-        <item>Trì cairteal na h-uarach</item>
-        <item>Uair a thìde</item>
-        <item>2 uair a thìde</item>
-        <item>3 uairean a thìde</item>
-        <item>12 uair a thìde</item>
-        <item>24 uair a thìde</item>
-        <item>2 latha</item>
-        <item>Seachdain</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Chan eil gin</item>
-        <item>0 mionaid</item>
-        <item>Mionaid</item>
-        <item>5 mionaidean</item>
-        <item>10 mionaidean</item>
-        <item>Cairteal na h-uarach</item>
-        <item>20 mionaid</item>
-        <item>25 mionaid</item>
-        <item>Leth-uair a thìde</item>
-        <item>Trì cairteal na h-uarach</item>
-        <item>Uair a thìde</item>
-        <item>2 uair a thìde</item>
-        <item>3 uairean a thìde</item>
-        <item>12 uair a thìde</item>
-        <item>24 uair a thìde</item>
-        <item>2 latha</item>
-        <item>Seachdain</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Bun-roghainn an sgeama ionadail</item>
         <item>DiSathairne</item>

@@ -75,8 +75,6 @@
     <string name="rsvp_declined">"Xeyr cavabı verildi."</string>
     <string name="create_event_dialog_save">Yadda saxla</string>
     <string name="alert_title">Təqvim bildirişləri</string>
-    <string name="foreground_notification_channel_name">Xəbərdarlıq eyniləşdirməsi</string>
-    <string name="foreground_notification_channel_description">Daxili xəbərdarlıq eyniləşdirməsi üçün önplan bildirişi tələb olunur.</string>
     <string name="event_info_title">Tədbirə bax</string>
     <string name="event_info_title_invite">Yığıncaq dəvəti</string>
     <string name="edit_event_all_day_label">Bütün gün</string>

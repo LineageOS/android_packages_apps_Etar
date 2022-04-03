@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Αύριο στις <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Χωρίς τίτλο)</string>
+    <string name="no_reminder_label">Καμία</string>
     <plurals name="Nminutes">
         <item quantity="one">1 λεπτό</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> λεπτά</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 ημέρα</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ημέρες</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 εβδομάδα</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> εβδομάδες</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Εβδομάδα <xliff:g id="COUNT">%d</xliff:g></item>
@@ -75,8 +80,9 @@
     <string name="rsvp_declined">"Απάντησε όχι."</string>
     <string name="create_event_dialog_save">Aποθήκευση</string>
     <string name="alert_title">Ειδοποιήσεις ημερολογίου</string>
-    <string name="foreground_notification_channel_name">Συγχρονισμός ειδοποιήσεων</string>
-    <string name="foreground_notification_channel_description">Ειδοποίηση προσκηνίου που απαιτείται για τον εσωτερικό συγχρονισμό ειδοποιήσεων.</string>
+    <string name="foreground_notification_title">Ρύθμιση νέων υπενθυμίσεων…</string>
+    <string name="foreground_notification_channel_name">Εργασίες παρασκηνίου</string>
+    <string name="foreground_notification_channel_description">Απαιτούμενες ειδοποιήσεις για εσωτερικό συγχρονισμό. Μπορείτε να αποκρύψετε με ασφάλεια αυτό το κανάλι.</string>
     <string name="event_info_title">Προβολή συμβάντος</string>
     <string name="event_info_title_invite">Πρόσκληση συνάντησης</string>
     <string name="edit_event_all_day_label">Ολοήμερο</string>
@@ -170,6 +176,7 @@
     <string name="preferences_black_theme">Μαύρο</string>
     <string name="preferences_color">Βασικό χρώμα</string>
     <string name="preferences_color_pick">Βασικό χρώμα</string>
+    <string name="preferences_real_event_colors">Χρήση πραγματικών χρωμάτων συμβάντων</string>
     <string name="preferences_pure_black_night_mode">Απόλυτο μαύρο στη νυχτ. λειτουργία</string>
     <string name="preferences_reminder_title">Ειδοποιήσεις και υπενθυμίσεις</string>
     <string name="preferences_hide_declined_title">Απόκρυψη συμβάντων που έχουν απορριφθεί</string>
@@ -336,4 +343,5 @@
     <string name="preferences_list_add_offline_cancel">Άκυρο</string>
     <string name="preferences_menu_about">Σχετικά με το Ημερολόγιο</string>
     <string name="offline_account_name">Ημερολόγιο χωρίς σύνδεση</string>
+    <string name="after_start_of_event">μετά την έναρξη του συμβάντος</string>
 </resources>

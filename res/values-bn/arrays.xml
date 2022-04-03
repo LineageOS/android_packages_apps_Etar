@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>অ্যালার্ম</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>০ মিনিট</item>
-        <item>১ মিনিট</item>
-        <item>৫ মিনিট</item>
-        <item>১০ মিনিট</item>
-        <item>১৫ মিনিট</item>
-        <item>২০ মিনিট</item>
-        <item>২৫ মিনিট</item>
-        <item>৩০ মিনিট</item>
-        <item>৪৫ মিনিট</item>
-        <item>১ ঘন্টা</item>
-        <item>২ ঘন্টা</item>
-        <item>৩ ঘন্টা</item>
-        <item>১২ ঘন্টা</item>
-        <item>২৪ ঘন্টা</item>
-        <item>২ দিন</item>
-        <item>১ সপ্তাহ</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>কিছুই নয়</item>
-        <item>০ মিনিট</item>
-        <item>১ মিনিট</item>
-        <item>৫ মিনিট</item>
-        <item>১০ মিনিট</item>
-        <item>১৫ মিনিট</item>
-        <item>২০ মিনিট</item>
-        <item>২৫ মিনিট</item>
-        <item>৩০ মিনিট</item>
-        <item>৪৫ মিনিট</item>
-        <item>১ ঘন্টা</item>
-        <item>২ ঘন্টা</item>
-        <item>৩ ঘন্টা</item>
-        <item>১২ ঘন্টা</item>
-        <item>২৪ ঘন্টা</item>
-        <item>২ দিন</item>
-        <item>১ সপ্তাহ</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>স্থানীয় ডিফল্ট</item>
         <item>শনিবার</item>

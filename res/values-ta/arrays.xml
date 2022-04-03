@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>அலாரம்</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 நிமிடங்கள்</item>
-        <item>1 நிமிடம்</item>
-        <item>5 நிமிடங்கள்</item>
-        <item>10 நிமிடங்கள்</item>
-        <item>15 நிமிடங்கள்</item>
-        <item>20 நிமிடங்கள்</item>
-        <item>25 நிமிடங்கள்</item>
-        <item>30 நிமிடங்கள்</item>
-        <item>45 நிமிடங்கள்</item>
-        <item>1 மணிநேரம்</item>
-        <item>2 மணிநேரம்</item>
-        <item>3 மணிநேரம்</item>
-        <item>12 மணிநேரம்</item>
-        <item>24 மணி நேரம்</item>
-        <item>2 நாட்கள்</item>
-        <item>1 வாரம்</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>ஏதுமில்லை</item>
-        <item>0 நிமிடங்கள்</item>
-        <item>1 நிமிடம்</item>
-        <item>5 நிமிடங்கள்</item>
-        <item>10 நிமிடங்கள்</item>
-        <item>15 நிமிடங்கள்</item>
-        <item>20 நிமிடங்கள்</item>
-        <item>25 நிமிடங்கள்</item>
-        <item>30 நிமிடங்கள்</item>
-        <item>45 நிமிடங்கள்</item>
-        <item>1 மணிநேரம்</item>
-        <item>2 மணிநேரம்</item>
-        <item>3 மணிநேரம்</item>
-        <item>12 மணிநேரம்</item>
-        <item>24 மணி நேரம்</item>
-        <item>2 நாட்கள்</item>
-        <item>1 வாரம்</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>இயல்பு மொழி</item>
         <item>சனிக்கிழமை</item>

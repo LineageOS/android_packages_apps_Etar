@@ -70,8 +70,6 @@
     <string name="rsvp_declined">"ตอบว่าไม่ไป"</string>
     <string name="create_event_dialog_save">บันทึก</string>
     <string name="alert_title">การแจ้งเตือนของปฏิทิน</string>
-    <string name="foreground_notification_channel_name">ซิงค์การแจ้งเตือน</string>
-    <string name="foreground_notification_channel_description">การแจ้งเตือนในเบื้องหน้าจำเป็นต่อการซิงค์การแจ้งเตือนภายใน</string>
     <string name="event_info_title">ดูกิจกรรม</string>
     <string name="event_info_title_invite">คำเชิญเข้าประชุม</string>
     <string name="edit_event_all_day_label">ตลอดทั้งวัน</string>

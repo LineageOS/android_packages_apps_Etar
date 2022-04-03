@@ -75,8 +75,6 @@
     <string name="rsvp_declined">"Vastaus: ei."</string>
     <string name="create_event_dialog_save">Tallenna</string>
     <string name="alert_title">Kalenteri-ilmoitukset</string>
-    <string name="foreground_notification_channel_name">Hälytyksen synkronointi</string>
-    <string name="foreground_notification_channel_description">Taustailmoitus tarvitaan hälytyksen synkronoimiseksi</string>
     <string name="event_info_title">Näytä tapahtuma</string>
     <string name="event_info_title_invite">Kokouskutsu</string>
     <string name="edit_event_all_day_label">Koko päivä</string>

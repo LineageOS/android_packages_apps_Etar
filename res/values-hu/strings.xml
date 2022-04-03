@@ -75,8 +75,6 @@
     <string name="rsvp_declined">"Nemmel válaszolt."</string>
     <string name="create_event_dialog_save">Mentés</string>
     <string name="alert_title">Naptár értesítései</string>
-    <string name="foreground_notification_channel_name">Üzenetszinkron</string>
-    <string name="foreground_notification_channel_description">A belső szinkronizálásához előtérben futó értesítés szükséges</string>
     <string name="event_info_title">Esemény megtekintése</string>
     <string name="event_info_title_invite">Meghívás találkozóra</string>
     <string name="edit_event_all_day_label">Egész nap</string>

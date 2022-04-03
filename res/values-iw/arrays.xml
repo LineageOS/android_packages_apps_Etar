@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>התראה</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 דקות</item>
-        <item>דקה אחת</item>
-        <item>5 דקות</item>
-        <item>10 דקות</item>
-        <item>15 דקות</item>
-        <item>20 דקות</item>
-        <item>25 דקות</item>
-        <item>30 דקות</item>
-        <item>45 דקות</item>
-        <item>שעה אחת</item>
-        <item>שעתיים</item>
-        <item>3 שעות</item>
-        <item>12 שעות</item>
-        <item>24 שעות</item>
-        <item>יומיים</item>
-        <item>שבוע אחד</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>ללא</item>
-        <item>0 דקות</item>
-        <item>דקה אחת</item>
-        <item>5 דקות</item>
-        <item>10 דקות</item>
-        <item>15 דקות</item>
-        <item>20 דקות</item>
-        <item>25 דקות</item>
-        <item>30 דקות</item>
-        <item>45 דקות</item>
-        <item>שעה אחת</item>
-        <item>שעתיים</item>
-        <item>3 שעות</item>
-        <item>12 שעות</item>
-        <item>24 שעות</item>
-        <item>יומיים</item>
-        <item>שבוע אחד</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>ברירת מחדל של מיקום</item>
         <item>יום שבת</item>

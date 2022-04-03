@@ -85,8 +85,6 @@
     <string name="rsvp_declined">"Odgovor »Ne«."</string>
     <string name="create_event_dialog_save">Shrani</string>
     <string name="alert_title">Obvestila koledarja</string>
-    <string name="foreground_notification_channel_name">Sinhronizacija opozorila</string>
-    <string name="foreground_notification_channel_description">Obvestila v ospredju so zahtevana za notranjo sinhronizacijo opozorila</string>
     <string name="event_info_title">Ogled dogodka</string>
     <string name="event_info_title_invite">Povabilo na srečanje</string>
     <string name="edit_event_all_day_label">Ves dan</string>

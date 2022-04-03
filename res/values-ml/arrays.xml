@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>അലാറം</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 മിനിറ്റ്</item>
-        <item>ഒരു മിനിറ്റ്</item>
-        <item>5 മിനിറ്റ്</item>
-        <item>10 മിനിറ്റ്</item>
-        <item>15 മിനിറ്റ്</item>
-        <item>20 മിനിറ്റ്</item>
-        <item>25 മിനിറ്റ്</item>
-        <item>30 മിനിറ്റ്</item>
-        <item>45 മിനിറ്റ്</item>
-        <item>ഒരു മണിക്കൂർ</item>
-        <item>2 മണിക്കൂർ</item>
-        <item>3 മണിക്കൂർ</item>
-        <item>12 മണിക്കൂർ</item>
-        <item>24 മണിക്കൂർ</item>
-        <item>2 ദിവസം</item>
-        <item>ഒരാഴ്ച</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>ഒന്നുമില്ല</item>
-        <item>0 മിനിറ്റ്</item>
-        <item>ഒരു മിനിറ്റ്</item>
-        <item>5 മിനിറ്റ്</item>
-        <item>10 മിനിറ്റ്</item>
-        <item>15 മിനിറ്റ്</item>
-        <item>20 മിനിറ്റ്</item>
-        <item>25 മിനിറ്റ്</item>
-        <item>30 മിനിറ്റ്</item>
-        <item>45 മിനിറ്റ്</item>
-        <item>ഒരു മണിക്കൂർ</item>
-        <item>2 മണിക്കൂർ</item>
-        <item>3 മണിക്കൂർ</item>
-        <item>12 മണിക്കൂർ</item>
-        <item>24 മണിക്കൂർ</item>
-        <item>2 ദിവസം</item>
-        <item>ഒരാഴ്ച</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>സ്ഥിരമായ ലൊക്കേൽ</item>
         <item>ശനി</item>

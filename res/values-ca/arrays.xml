@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Alarma</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minuts</item>
-        <item>1 minut</item>
-        <item>5 minuts</item>
-        <item>10 minuts</item>
-        <item>15 minuts</item>
-        <item>20 minuts</item>
-        <item>25 minuts</item>
-        <item>30 minuts</item>
-        <item>45 minuts</item>
-        <item>1 hora</item>
-        <item>2 hores</item>
-        <item>3 hores</item>
-        <item>12 hores</item>
-        <item>24 hores</item>
-        <item>2 dies</item>
-        <item>1 setmana</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Cap</item>
-        <item>0 minuts</item>
-        <item>1 minut</item>
-        <item>5 minuts</item>
-        <item>10 minuts</item>
-        <item>15 minuts</item>
-        <item>20 minuts</item>
-        <item>25 minuts</item>
-        <item>30 minuts</item>
-        <item>45 minuts</item>
-        <item>1 hora</item>
-        <item>2 hores</item>
-        <item>3 hores</item>
-        <item>12 hores</item>
-        <item>24 hores</item>
-        <item>2 dies</item>
-        <item>1 setmana</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Regió predeterminada</item>
         <item>Dissabte</item>

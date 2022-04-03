@@ -95,8 +95,6 @@
     <string name="rsvp_declined">"Wedi ymateb 'na'."</string>
     <string name="create_event_dialog_save">Cadw</string>
     <string name="alert_title">Hysbysiadau Calendr</string>
-    <string name="foreground_notification_channel_name">Cydweddu rhybuddion</string>
-    <string name="foreground_notification_channel_description">Hysbysiad blaendir sydd ei angen ar gyfer cydweddu rhybuddion mewnol</string>
     <string name="event_info_title">Gweld y digwyddiad</string>
     <string name="event_info_title_invite">Gwahoddiad cyfarfod</string>
     <string name="edit_event_all_day_label">Trwy\'r dydd</string>

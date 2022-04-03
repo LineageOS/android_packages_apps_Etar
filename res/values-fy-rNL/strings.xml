@@ -75,5 +75,4 @@
     <string name="rsvp_declined">"Reagearre mei nee."</string>
     <string name="create_event_dialog_save">Bewarje</string>
     <string name="alert_title">Aginda-omtinkens</string>
-    <string name="foreground_notification_channel_name">Alarmsyngronisaasje</string>
 </resources>

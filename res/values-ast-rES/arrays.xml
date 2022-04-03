@@ -16,55 +16,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string-array name="reminder_methods_labels">
         <item>Avisu</item>
-        <item>Corréu</item>
+        <item>Corréu-e</item>
         <item>SMS</item>
         <item>Alarma</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minutos</item>
-        <item>1 minutu</item>
-        <item>5 minutos</item>
-        <item>10 minutos</item>
-        <item>15 minutos</item>
-        <item>20 minutos</item>
-        <item>25 minutos</item>
-        <item>30 minutos</item>
-        <item>45 minutos</item>
-        <item>1 hora</item>
-        <item>2 hores</item>
-        <item>3 hores</item>
-        <item>12 hores</item>
-        <item>24 hores</item>
-        <item>2 díes</item>
-        <item>1 selmana</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Nengún</item>
-        <item>0 minutos</item>
-        <item>1 minutu</item>
-        <item>5 minutos</item>
-        <item>10 minutos</item>
-        <item>15 minutos</item>
-        <item>20 minutos</item>
-        <item>25 minutos</item>
-        <item>30 minutos</item>
-        <item>45 minutos</item>
-        <item>1 hora</item>
-        <item>2 hores</item>
-        <item>3 hores</item>
-        <item>12 hores</item>
-        <item>24 hores</item>
-        <item>2 díes</item>
-        <item>1 selmana</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
-        <item>Rexón por defeutu</item>
+        <item>Lo predeterminao pola locale</item>
         <item>Sábadu</item>
         <item>Domingu</item>
         <item>Llunes</item>
     </string-array>
     <string-array name="availability">
-        <item>Ocupáu</item>
+        <item>Busy</item>
         <item>Disponible</item>
         <item>Provisional</item>
     </string-array>
@@ -75,12 +38,12 @@
         <item>Non</item>
     </string-array>
     <string-array name="delete_repeating_labels">
-        <item>Namái esti eventu</item>
-        <item>Esti y eventos futuros</item>
+        <item>Namás esti eventu</item>
+        <item>Esti eventu y los futuros</item>
         <item>Tolos eventos</item>
     </string-array>
     <string-array name="change_response_labels">
-        <item>Namái esti eventu</item>
+        <item>Namás esti eventu</item>
         <item>Tolos eventos de la serie</item>
     </string-array>
     <string-array name="buttons_list">
@@ -90,8 +53,8 @@
         <item>Axenda</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
-        <item>Namái si se refuga</item>
-        <item>Si se refuga o nun respuende</item>
+        <item>Namás si se refuga</item>
+        <item>Si se refuga o nun hai rempuesta</item>
     </string-array>
     <string-array name="recurrence_freq">
         <item>REPITIR CALDÍA</item>
@@ -100,52 +63,52 @@
         <item>REPITIR AÑALMENTE</item>
     </string-array>
     <string-array name="repeat_by_nth_sun">
-        <item>cada primer domingu del mes</item>
-        <item>cada segundu domingu del mes</item>
-        <item>cada tercer domingu del mes</item>
-        <item>cada cuartu domingu del mes</item>
-        <item>cada postrer domingu del mes</item>
+        <item>el primer domingu de cada mes</item>
+        <item>el segundu domingu de cada mes</item>
+        <item>el tercer domingu de cada mes</item>
+        <item>el cuartu domingu de cada mes</item>
+        <item>l\'últimu domingu de cada mes</item>
     </string-array>
     <string-array name="repeat_by_nth_mon">
-        <item>cada primer llunes del mes</item>
-        <item>cada segundu llunes del mes</item>
-        <item>cada tercer llunes del mes</item>
-        <item>cada cuartu llunes del mes</item>
-        <item>cada postrer llunes del mes</item>
+        <item>el primer llunes de cada mes</item>
+        <item>el segundu llunes de cada mes</item>
+        <item>el tercer llunes de cada mes</item>
+        <item>el cuartu llunes de cada mes</item>
+        <item>l\'últimu llunes de cada mes</item>
     </string-array>
     <string-array name="repeat_by_nth_tues">
-        <item>cada primer martes del mes</item>
-        <item>cada segundu martes del mes</item>
-        <item>cada tercer martes del mes</item>
-        <item>cada cuartu martes del mes</item>
-        <item>cada postrer martes del mes</item>
+        <item>el primer martes de cada mes</item>
+        <item>el segundu martes de cada mes</item>
+        <item>el tercer martes de cada mes</item>
+        <item>el cuartu martes de cada mes</item>
+        <item>l\'últimu martes de cada mes</item>
     </string-array>
     <string-array name="repeat_by_nth_wed">
-        <item>cada primer miércoles del mes</item>
-        <item>cada segundu miércoles del mes</item>
-        <item>cada tercer miércoles del mes</item>
-        <item>cada cuartu miércoles del mes</item>
-        <item>cada postrer miércoles del mes</item>
+        <item>el primer miércoles de cada mes</item>
+        <item>el segundu miércoles de cada mes</item>
+        <item>el tercer miércoles de cada mes</item>
+        <item>el cuartu miércoles de cada mes</item>
+        <item>l\'últimu miércoles de cada mes</item>
     </string-array>
     <string-array name="repeat_by_nth_thurs">
-        <item>cada primer xueves del mes</item>
-        <item>cada segundu xueves del mes</item>
-        <item>cada tercer xueves del mes</item>
-        <item>cada cuartu xueves del mes</item>
-        <item>cada postrer xueves del mes</item>
+        <item>el primer xueves de cada mes</item>
+        <item>el segundu xueves de cada mes</item>
+        <item>el tercer xueves de cada mes</item>
+        <item>el cuartu xueves de cada mes</item>
+        <item>l\'últimu xueves de cada mes</item>
     </string-array>
     <string-array name="repeat_by_nth_fri">
-        <item>cada primer vienres del mes</item>
-        <item>cada segundu vienres del mes</item>
-        <item>cada tercer vienres del mes</item>
-        <item>cada cuartu vienres del mes</item>
-        <item>cada postrer vienres del mes</item>
+        <item>el primer vienres de cada mes</item>
+        <item>el segundu vienres de cada mes</item>
+        <item>el tercer vienres de cada mes</item>
+        <item>el cuartu vienres de cada mes</item>
+        <item>l\'últimu vienres de cada mes</item>
     </string-array>
     <string-array name="repeat_by_nth_sat">
-        <item>cada primer sábadu del mes</item>
-        <item>cada segundu sábadu del mes</item>
-        <item>cada tercer sábadu del mes</item>
-        <item>cada cuartu sábadu del mes</item>
-        <item>cada postrer sábadu del mes</item>
+        <item>el primer sábadu de cada mes</item>
+        <item>el segundu sábadu de cada mes</item>
+        <item>el tercer sábadu de cada mes</item>
+        <item>el cuartu sábadu de cada mes</item>
+        <item>l\'últimu sábadu de cada mes</item>
     </string-array>
 </resources>

@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Alarmi</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minuta</item>
-        <item>1 minutë</item>
-        <item>5 minuta</item>
-        <item>10 minuta</item>
-        <item>15 minuta</item>
-        <item>20 minuta</item>
-        <item>25 minuta</item>
-        <item>30 minuta</item>
-        <item>45 minuta</item>
-        <item>1 orë</item>
-        <item>2 orë</item>
-        <item>3 orë</item>
-        <item>12 orë</item>
-        <item>24 orë</item>
-        <item>2 ditë</item>
-        <item>1 javë</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Asnjë</item>
-        <item>0 minuta</item>
-        <item>1 minutë</item>
-        <item>5 minuta</item>
-        <item>10 minuta</item>
-        <item>15 minuta</item>
-        <item>20 minuta</item>
-        <item>25 minuta</item>
-        <item>30 minuta</item>
-        <item>45 minuta</item>
-        <item>1 orë</item>
-        <item>2 orë</item>
-        <item>3 orë</item>
-        <item>12 orë</item>
-        <item>24 orë</item>
-        <item>2 ditë</item>
-        <item>1 javë</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Vendndodhja e paracaktuar</item>
         <item>Të shtunë</item>
@@ -104,7 +67,7 @@
         <item>çdo të diel të dytë</item>
         <item>çdo të dielë të tretë</item>
         <item>çdo të dielë të katërt</item>
-        <item>çdo të dielë të fundit</item>
+        <item>në çdo të diel të fundit</item>
     </string-array>
     <string-array name="repeat_by_nth_mon">
         <item>çdo të hënë të parë</item>

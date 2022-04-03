@@ -20,43 +20,6 @@
         <item>Ujumbe mfupi</item>
         <item>Kengele</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>Dakika 0</item>
-        <item>Dakika 1</item>
-        <item>Dakika 5</item>
-        <item>Dakika 10</item>
-        <item>Dakika 15</item>
-        <item>Dakika 20</item>
-        <item>Dakika 25</item>
-        <item>Dakika 30</item>
-        <item>Dakika 45</item>
-        <item>Saa 1</item>
-        <item>Saa 2</item>
-        <item>Saa 3</item>
-        <item>Saa 12</item>
-        <item>Saa 24</item>
-        <item>Siku 2</item>
-        <item>Wiki 1</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Hamna</item>
-        <item>Dakika 0</item>
-        <item>Dakika 1</item>
-        <item>Dakika 5</item>
-        <item>Dakika 10</item>
-        <item>Dakika 15</item>
-        <item>Dakika 20</item>
-        <item>Dakika 25</item>
-        <item>Dakika 30</item>
-        <item>Dakika 45</item>
-        <item>Saa 1</item>
-        <item>Saa 2</item>
-        <item>Saa 3</item>
-        <item>Saa 12</item>
-        <item>Saa 24</item>
-        <item>Siku 2</item>
-        <item>Wiki 1</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Eneo la kawaida</item>
         <item>Jumamosi</item>

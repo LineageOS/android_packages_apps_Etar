@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Zəngli saat</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 dəqiqə</item>
-        <item>1 dəqiqə</item>
-        <item>5 dəqiqə</item>
-        <item>10 dəqiqə</item>
-        <item>15 dəqiqə</item>
-        <item>20 dəqiqə</item>
-        <item>25 dəqiqə</item>
-        <item>30 dəqiqə</item>
-        <item>45 dəqiqə</item>
-        <item>1 saat</item>
-        <item>2 saat</item>
-        <item>3 saat</item>
-        <item>12 saat</item>
-        <item>24 saat</item>
-        <item>2 gün</item>
-        <item>1 həftə</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Heç biri</item>
-        <item>0 dəqiqə</item>
-        <item>1 gün</item>
-        <item>5 dəqiqə</item>
-        <item>10 dəqiqə</item>
-        <item>15 dəqiqə</item>
-        <item>20 dəqiqə</item>
-        <item>25 dəqiqə</item>
-        <item>30 dəqiqə</item>
-        <item>45 dəqiqə</item>
-        <item>1 saat</item>
-        <item>2 saat</item>
-        <item>3 saat</item>
-        <item>12 saat</item>
-        <item>24 saat</item>
-        <item>2 gün</item>
-        <item>1 həftə</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>İlkin yerli tənzimləmə</item>
         <item>Şənbə</item>

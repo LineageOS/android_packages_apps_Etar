@@ -20,43 +20,6 @@
         <item>SMSa</item>
         <item>Alarma</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minutu</item>
-        <item>1 minutu</item>
-        <item>5 minutu</item>
-        <item>10 minutu</item>
-        <item>15 minutu</item>
-        <item>20 minutu</item>
-        <item>25 minutu</item>
-        <item>30 minutu</item>
-        <item>45 minutu</item>
-        <item>1 ordu</item>
-        <item>2 ordu</item>
-        <item>3 ordu</item>
-        <item>12 ordu</item>
-        <item>24 ordu</item>
-        <item>2 egun</item>
-        <item>1 aste</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Bat ere ez</item>
-        <item>0 minutu</item>
-        <item>1 minutu</item>
-        <item>5 minutu</item>
-        <item>10 minutu</item>
-        <item>15 minutu</item>
-        <item>20 minutu</item>
-        <item>25 minutu</item>
-        <item>30 minutu</item>
-        <item>45 minutu</item>
-        <item>1 ordu</item>
-        <item>2 ordu</item>
-        <item>3 ordu</item>
-        <item>12 ordu</item>
-        <item>24 ordu</item>
-        <item>2 egun</item>
-        <item>1 aste</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Eskualdeko ezarpenek lehenetsia</item>
         <item>Larunbata</item>

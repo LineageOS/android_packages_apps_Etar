@@ -85,8 +85,6 @@
     <string name="rsvp_declined">"Odpověď Ne."</string>
     <string name="create_event_dialog_save">Uložit</string>
     <string name="alert_title">Upozornění kalendáře</string>
-    <string name="foreground_notification_channel_name">Synchronizace upozornění</string>
-    <string name="foreground_notification_channel_description">Pro interní synchronizaci upozornění je vyžadováno oznámení na popředí.</string>
     <string name="event_info_title">Zobrazit událost</string>
     <string name="event_info_title_invite">Pozvánka na schůzku</string>
     <string name="edit_event_all_day_label">Celý den</string>

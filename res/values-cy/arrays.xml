@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Larwm</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 munudau</item>
-        <item>1 munud</item>
-        <item>5 munud</item>
-        <item>10 munud</item>
-        <item>15 munud</item>
-        <item>20 munud</item>
-        <item>25 munud</item>
-        <item>30 munud</item>
-        <item>45 munud</item>
-        <item>1 awr</item>
-        <item>2 awr</item>
-        <item>3 awr</item>
-        <item>12 awr</item>
-        <item>24 awr</item>
-        <item>2 ddiwrnod</item>
-        <item>1 wythnos</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Dim</item>
-        <item>0 munudau</item>
-        <item>1 munud</item>
-        <item>5 munud</item>
-        <item>10 munud</item>
-        <item>15 munud</item>
-        <item>20 munud</item>
-        <item>25 munud</item>
-        <item>30 munud</item>
-        <item>45 munud</item>
-        <item>1 awr</item>
-        <item>2 awr</item>
-        <item>3 awr</item>
-        <item>12 awr</item>
-        <item>24 awr</item>
-        <item>2 ddiwrnod</item>
-        <item>1 wythnos</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Locale rhagosodedig</item>
         <item>Dydd Sadwrn</item>

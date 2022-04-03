@@ -85,8 +85,6 @@
     <string name="rsvp_declined">"Вы не пойдете"</string>
     <string name="create_event_dialog_save">Сохранить</string>
     <string name="alert_title">Уведомления календаря</string>
-    <string name="foreground_notification_channel_name">Синхронизация оповещений</string>
-    <string name="foreground_notification_channel_description">Уведомление переднего плана требуется для внутренней синхронизации оповещений.</string>
     <string name="event_info_title">Просмотр мероприятия</string>
     <string name="event_info_title_invite">Приглашение на встречу</string>
     <string name="edit_event_all_day_label">Целый день</string>
@@ -264,10 +262,10 @@
         <item quantity="other">Мероприятий: <xliff:g id="COUNT">%d</xliff:g></item>
     </plurals>
     <plurals name="N_remaining_events">
-        <item quantity="one">Ещё мероприятий: 1</item>
-        <item quantity="few">Ещё мероприятий: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="many">Ещё мероприятий: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="other">Ещё мероприятий: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="one">+1 событие</item>
+        <item quantity="few">+<xliff:g id="count">%d</xliff:g> события</item>
+        <item quantity="many">+<xliff:g id="count">%d</xliff:g> событий</item>
+        <item quantity="other">+<xliff:g id="count">%d</xliff:g> событий</item>
     </plurals>
     <string name="acessibility_selected_marker_description">Выбранное мероприятие</string>
     <plurals name="recurrence_interval_daily">

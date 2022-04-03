@@ -34,6 +34,10 @@
     <plurals name="Ndays">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ngày</item>
     </plurals>
+    <plurals name="weekN">
+        <item quantity="other">Tuần <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="calendar_refresh">"Làm mới"</string>
     <string name="show_day_view">"Hiển thị ngày"</string>
     <string name="agenda_view">"Lịch biểu"</string>
     <string name="day_view">"Ngày"</string>
@@ -43,11 +47,14 @@
     <string name="event_create">"Sự kiện mới"</string>
     <string name="event_edit">"Chỉnh sửa sự kiện"</string>
     <string name="event_delete">"Xóa sự kiện"</string>
+    <string name="share_label">Chia sẻ</string>
     <string name="goto_today">"Hôm nay"</string>
+    <string name="goto_date">Đi tới\u2026</string>
     <string name="menu_preferences">"Cài đặt"</string>
     <string name="search">"Tìm kiếm"</string>
     <string name="hide_controls">"Ẩn các điều khiển"</string>
     <string name="show_controls">"Hiển thị các điều khiển"</string>
+    <string name="view_settings">"Xem cài đặt"</string>
     <string name="select_synced_calendars_button">Lịch để đồng bộ hóa</string>
     <string name="hint_what">"Tên sự kiện"</string>
     <string name="hint_where">"Vị trí"</string>
@@ -89,6 +96,7 @@
     <string name="email_picker_label">Gửi email với</string>
     <string name="event_not_found">"Không tìm thấy sự kiện."</string>
     <string name="map_label">Bản đồ</string>
+    <string name="no_map">Không có ứng dụng bản đồ nào được cài đặt</string>
     <string name="call_label">Cuộc gọi</string>
     <string name="quick_response_settings">Trả lời nhanh</string>
     <string name="quick_response_settings_summary">Sửa trả lời mặc định khi email cho khách</string>
@@ -104,6 +112,9 @@
     <string name="quick_response_custom_msg">Viết trả lời của riêng bạn…</string>
     <string name="event_info_organizer">Người t.chức</string>
     <string name="event_info_reminders_label">Lời nhắc</string>
+    <string name="agenda_today">Hôm nay, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Hôm qua, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Ngày mai, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Đang tải…</string>
     <string name="show_older_events">Chạm để xem sự kiện trước <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">Chạm để xem sự kiện sau <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
@@ -140,10 +151,29 @@
     <string name="change_response_title">Thay đổi phản hồi</string>
     <string name="preferences_title">"Cài đặt"</string>
     <string name="preferences_general_title">Cài đặt chế độ xem lịch</string>
+    <string name="preferences_month_view_portrait">Bố cục chế độ xem tháng (Dọc)</string>
+    <string name="preferences_month_view_landscape">Bố cục chế độ xem tháng (Ngang)</string>
+    <string name="preferences_theme">Giao diện</string>
+    <string name="preferences_system_theme">Mặc định hệ thống</string>
+    <string name="preferences_light_theme">Sáng</string>
+    <string name="preferences_dark_theme">Tối</string>
+    <string name="preferences_black_theme">Đen</string>
+    <string name="preferences_color">Màu chủ đạo</string>
+    <string name="preferences_color_pick">Chọn màu chủ đạo</string>
+    <string name="preferences_pure_black_night_mode">Chế độ đen tuyền</string>
     <string name="preferences_reminder_title">Thông báo và lời nhắc</string>
     <string name="preferences_hide_declined_title">Ẩn sự kiện bị từ chối</string>
+    <string name="default_start_title">Chế độ xem mặc định</string>
+    <string name="display_options">Tùy chọn hiển thị</string>
+    <string name="display_time">Hiển thị thời gian</string>
+    <string name="display_location">Hiển thị vị trí</string>
+    <string name="maximum_number_of_lines">Số dòng tối đa trong sự kiện</string>
+    <string name="default_start_last">Chế độ xem trước đó</string>
     <string name="preferences_week_start_day_title">Tuần bắt đầu vào</string>
     <string name="preferences_week_start_day_dialog">Tuần bắt đầu vào</string>
+    <string name="preferences_days_per_week_title">Ngày mỗi tuần</string>
+    <string name="preferences_days_per_week_dialog">Ngày mỗi tuần</string>
+    <string name="preferences_default_event_duration_title">Thời lượng sự kiện mặc định</string>
     <string name="preferences_clear_search_history_title">Xóa lịch sử tìm kiếm</string>
     <string name="preferences_clear_search_history_summary">Xóa tất cả tìm kiếm bạn đã thực hiện</string>
     <string name="search_history_cleared">Đã xóa lịch sử tìm kiếm.</string>
@@ -158,7 +188,19 @@
     <string name="preferences_use_home_tz_descrip">Hiện lịch và thời gian sự kiện trong múi giờ chính khi đi du lịch</string>
     <string name="preferences_home_tz_title">Múi giờ chính</string>
     <string name="preferences_show_week_num_title">Hiển thị số tuần</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Nhắc nhở độ trễ báo lại</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Yêu cầu độ trễ báo lại bất cứ khi nào có lời nhắc báo lại</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Luôn sử dụng độ trễ báo lại mặc định</string>
+    <string name="snooze_delay_dialog_title">Đặt độ trễ báo lại</string>
+    <string name="preferences_default_snooze_delay_title">Thời gian trễ báo lại mặc định</string>
+    <string name="preferences_default_snooze_delay_dialog">Độ trễ báo lại mặc định</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> Dự án mã nguồn mở Android.</string>
+    <string name="authors">Tác giả</string>
+    <string name="changelog">Nhật kí thay đổi</string>
+    <string name="license">Giấy phép</string>
     <string name="preferences_build_version">Phiên bản đóng gói</string>
+    <string name="preferences_issues">Báo cáo sự cố</string>
+    <string name="source_code">Nguồn</string>
     <plurals name="month_more_events">
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
     </plurals>
@@ -213,4 +255,67 @@
         <item quantity="other">Cho <xliff:g id="EVENT_COUNT">%d</xliff:g> sự kiện</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">thay đổi ngày kết thúc</string>
+    <string name="user_rejected_calendar_write_permission">Lịch yêu cầu quyền đọc và ghi lịch để hoạt động bình thường. Vui lòng thử lại.</string>
+    <string name="calendar_permission_not_granted">Các quyền yêu cầu đã bị từ chối, hãy cho phép chúng từ ứng dụng Cài đặt để chỉnh sửa sự kiện</string>
+    <string name="visibility_default">Mặc định</string>
+    <string name="visibility_confidential">Bảo mật</string>
+    <string name="visibility_private">Riêng tư</string>
+    <string name="visibility_public">Công khai</string>
+    <string name="two_days">2 ngày</string>
+    <string name="three_days">3 ngày</string>
+    <string name="four_days">4 ngày</string>
+    <string name="five_days">5 ngày</string>
+    <string name="six_days">6 ngày</string>
+    <string name="seven_days">7 ngày</string>
+    <string name="zero_minutes">0 phút</string>
+    <string name="fifteen_minutes">15 phút</string>
+    <string name="thirty_minutes">30 phút</string>
+    <string name="one_hour">1 giờ</string>
+    <string name="one_and_a_half_hours">1 giờ 30 phút</string>
+    <string name="two_hours">2 giờ</string>
+    <string name="error_generating_ics">Đã xảy ra lỗi khi chia sẻ sự kiện</string>
+    <string name="cal_share_intent_title">Gửi sự kiện đến:</string>
+    <string name="cal_export_event_sdcard_title">Xuất sang thẻ SD</string>
+    <string name="cal_export_succ_msg">Xuất sự kiện thành công: %1$s</string>
+    <string name="cal_import_menu_title">Nhập sự kiện</string>
+    <string name="cal_nothing_to_import">Không có gì để nhập</string>
+    <string name="cal_import_error_msg">Nhập vào lịch không thành công</string>
+    <string name="cal_import_error_time_zone_msg">Không thể hiểu múi giờ cụ thể: %s</string>
+    <string name="cal_import_error_date_msg">Không thể hiểu ngày cụ thể: %s</string>
+    <string name="cal_pick_ics">Chọn tệp để nhập</string>
+    <string name="show_time_no">Không hiển thị thời gian</string>
+    <string name="show_time_start">Chỉ thời gian bắt đầu</string>
+    <string name="show_time_start_end">Thời gian bắt đầu và kết thúc</string>
+    <string name="show_time_start_end_below">Thời gian bắt đầu và kết thúc bên dưới sự kiện</string>
+    <string name="preferences_calendar_no_display_name">Lịch chưa được đặt tên</string>
+    <string name="preferences_calendar_account">%1$s tài khoản</string>
+    <string name="preferences_calendar_account_local">Lịch ngoại tuyến</string>
+    <string name="preferences_calendar_configure_account">Định cấu hình lịch trong %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d sự kiện</string>
+    <string name="preferences_calendar_delete">Xóa lịch</string>
+    <string name="preferences_calendar_display_name">Đổi tên</string>
+    <string name="preferences_calendar_info_category">Thông tin lịch</string>
+    <string name="preferences_calendar_color">Màu sắc</string>
+    <string name="preferences_calendar_visible">Hiển thị sự kiện</string>
+    <string name="preferences_calendar_synchronize">Đồng bộ hóa lịch này</string>
+    <string name="preferences_calendar_color_warning_title">Cảnh báo</string>
+    <string name="preferences_calendar_color_warning_message">Việc thay đổi màu có thể được hoàn nguyên khi lịch được đồng bộ hóa trở lại.\n\nTính năng \'Quản lý màu lịch\' trong DAVx⁵ có thể được vô hiệu hóa để ngăn chặn điều này.</string>
+    <string name="preferences_calendar_color_warning_button">Tôi hiểu</string>
+    <string name="preferences_calendar_delete_message">Bạn có thực sự muốn xóa lịch này không?</string>
+    <string name="preferences_calendar_delete_delete">Xóa lịch</string>
+    <string name="preferences_calendar_delete_cancel">Hủy</string>
+    <string name="preferences_list_calendar_summary_sync_off">Không được đồng bộ hóa</string>
+    <string name="preferences_list_calendar_summary_invisible">Sự kiện không được hiển thị</string>
+    <string name="preferences_list_general">Cài đặt chung</string>
+    <string name="preferences_list_add_remote">Thêm lịch CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Thêm lịch EteSync</string>
+    <string name="preferences_list_add_offline">Thêm lịch ngoại tuyến</string>
+    <string name="preferences_list_add_offline_title">Thêm lịch ngoại tuyến</string>
+    <string name="preferences_list_add_offline_error_empty">Tên lịch không được để trống!</string>
+    <string name="preferences_list_add_offline_message">Lịch ngoại tuyến KHÔNG được đồng bộ hóa với dịch vụ đám mây và chỉ khả dụng trên điện thoại của bạn.</string>
+    <string name="preferences_list_add_offline_button">Thêm lịch</string>
+    <string name="preferences_list_add_offline_name">Thêm tên lịch</string>
+    <string name="preferences_list_add_offline_cancel">Hủy</string>
+    <string name="preferences_menu_about">Giới thiệu về Lịch</string>
+    <string name="offline_account_name">Lịch ngoại tuyến</string>
 </resources>

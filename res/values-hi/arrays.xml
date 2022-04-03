@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>अलार्म</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 मिनट</item>
-        <item>1 मिनट</item>
-        <item>5 मिनट</item>
-        <item>10 मिनट</item>
-        <item>15 मिनट</item>
-        <item>20 मिनट</item>
-        <item>25 मिनट</item>
-        <item>30 मिनट</item>
-        <item>45 मिनट</item>
-        <item>1 घंटा</item>
-        <item>2 घंटे</item>
-        <item>3 घंटे</item>
-        <item>12 घंटे</item>
-        <item>24 घंटे</item>
-        <item>2 दिन</item>
-        <item>1 सप्ताह</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>कोई नहीं</item>
-        <item>0 मिनट</item>
-        <item>1 मिनट</item>
-        <item>5 मिनट</item>
-        <item>10 मिनट</item>
-        <item>15 मिनट</item>
-        <item>20 मिनट</item>
-        <item>25 मिनट</item>
-        <item>30 मिनट</item>
-        <item>45 मिनट</item>
-        <item>1 घंटा</item>
-        <item>2 घंटे</item>
-        <item>3 घंटे</item>
-        <item>12 घंटे</item>
-        <item>24 घंटे</item>
-        <item>2 दिन</item>
-        <item>1 सप्ताह</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>स्थान डिफ़ॉल्ट</item>
         <item>शनिवार</item>

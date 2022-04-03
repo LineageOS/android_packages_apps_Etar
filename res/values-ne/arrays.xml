@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>अलार्म</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>० मिनेट</item>
-        <item>१ मिनेट</item>
-        <item>५ मिनेट</item>
-        <item>१० मिनेट</item>
-        <item>१५ मिनेट</item>
-        <item>२० मिनेट</item>
-        <item>२५ मिनेट</item>
-        <item>३० मिनेट</item>
-        <item>४५ मिनेट</item>
-        <item>१ घन्टा</item>
-        <item>२ घन्टा</item>
-        <item>३ घन्टा</item>
-        <item>१२ घन्टा</item>
-        <item>२४ घन्टा</item>
-        <item>२ दिन</item>
-        <item>१ हप्ता</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>कुनै पनि होइन</item>
-        <item>० मिनेट</item>
-        <item>१ मिनेट</item>
-        <item>५ मिनेट</item>
-        <item>१० मिनेट</item>
-        <item>१५ मिनेट</item>
-        <item>२० मिनेट</item>
-        <item>२५ मिनेट</item>
-        <item>३० मिनेट</item>
-        <item>४५ मिनेट</item>
-        <item>१ घन्टा</item>
-        <item>२ घन्टा</item>
-        <item>३ घन्टा</item>
-        <item>१२ घन्टा</item>
-        <item>२४ घन्टा</item>
-        <item>२ दिन</item>
-        <item>१ हप्ता</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>पूर्वनिर्धारित लोकेल</item>
         <item>शनिबार</item>

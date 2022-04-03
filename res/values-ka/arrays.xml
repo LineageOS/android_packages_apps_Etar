@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>მაღვიძარა</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 წუთი</item>
-        <item>1 წუთი</item>
-        <item>5 წუთი</item>
-        <item>10 წუთი</item>
-        <item>15 წუთი</item>
-        <item>20 წუთი</item>
-        <item>25 წუთი</item>
-        <item>30 წუთი</item>
-        <item>45 წუთი</item>
-        <item>1 საათი</item>
-        <item>2 საათი</item>
-        <item>3 საათი</item>
-        <item>12 საათი</item>
-        <item>24 საათი</item>
-        <item>2 დღე</item>
-        <item>1 კვირა</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>არცერთი</item>
-        <item>0 წუთი</item>
-        <item>1 წუთი</item>
-        <item>5 წუთი</item>
-        <item>10 წუთი</item>
-        <item>15 წუთი</item>
-        <item>20 წუთი</item>
-        <item>25 წუთი</item>
-        <item>30 წუთი</item>
-        <item>45 წუთი</item>
-        <item>1 საათი</item>
-        <item>2 საათი</item>
-        <item>3 საათი</item>
-        <item>12 საათი</item>
-        <item>24 საათი</item>
-        <item>2 დღე</item>
-        <item>1 კვირა</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>ნაგულისხმევი რეგიონული პარამეტრები</item>
         <item>შაბათი</item>

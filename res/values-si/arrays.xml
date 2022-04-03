@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>සීනුව</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>මිනිත්තු 0</item>
-        <item>මිනිත්තු 1</item>
-        <item>මිනිත්තු 5</item>
-        <item>මිනිත්තු 10</item>
-        <item>මිනිත්තු 15</item>
-        <item>මිනිත්තු 20</item>
-        <item>මිනිත්තු 25</item>
-        <item>මිනිත්තු 30</item>
-        <item>මිනිත්තු 45</item>
-        <item>පැය 1</item>
-        <item>පැය 2</item>
-        <item>පැය 3</item>
-        <item>පැය 12</item>
-        <item>පැය 24</item>
-        <item>දින 2</item>
-        <item>සති 1</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>කිසිවක් නැත</item>
-        <item>මිනිත්තු 0</item>
-        <item>මිනිත්තු 1</item>
-        <item>මිනිත්තු 5</item>
-        <item>මිනිත්තු 10</item>
-        <item>මිනිත්තු 15</item>
-        <item>මිනිත්තු 20</item>
-        <item>මිනිත්තු 25</item>
-        <item>මිනිත්තු 30</item>
-        <item>මිනිත්තු 45</item>
-        <item>පැය 1</item>
-        <item>පැය 2</item>
-        <item>පැය 3</item>
-        <item>පැය 12</item>
-        <item>පැය 24</item>
-        <item>දින 2</item>
-        <item>සති 1</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>පෙදෙසියට සුපුරුදු</item>
         <item>සෙනසුරාදා</item>

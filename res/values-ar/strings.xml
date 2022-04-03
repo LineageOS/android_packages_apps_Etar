@@ -87,8 +87,6 @@
     <string name="rsvp_declined">"تم الرد بـ \"لا\"."</string>
     <string name="create_event_dialog_save">حفظ</string>
     <string name="alert_title">إعلامات التقاويم</string>
-    <string name="foreground_notification_channel_name">مزامنة التنبيه</string>
-    <string name="foreground_notification_channel_description">الإشعارات الأمامية ضرورية لمزامنة التنبيه الداخلي.</string>
     <string name="event_info_title">عرض الحدث</string>
     <string name="event_info_title_invite">دعوة اجتماع</string>
     <string name="edit_event_all_day_label">اليوم كله</string>

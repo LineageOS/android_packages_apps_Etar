@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Penggera</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 minit</item>
-        <item>1 minit</item>
-        <item>5 minit</item>
-        <item>10 minit</item>
-        <item>15 minit</item>
-        <item>20 minit</item>
-        <item>25 minit</item>
-        <item>30 minit</item>
-        <item>45 minit</item>
-        <item>1 jam</item>
-        <item>2 jam</item>
-        <item>3 jam</item>
-        <item>12 jam</item>
-        <item>24 jam</item>
-        <item>2 hari</item>
-        <item>1 minggu</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Tiada</item>
-        <item>0 minit</item>
-        <item>1 minit</item>
-        <item>5 minit</item>
-        <item>10 minit</item>
-        <item>15 minit</item>
-        <item>20 minit</item>
-        <item>25 minit</item>
-        <item>30 minit</item>
-        <item>45 minit</item>
-        <item>1 jam</item>
-        <item>2 jam</item>
-        <item>3 jam</item>
-        <item>12 jam</item>
-        <item>24 jam</item>
-        <item>2 hari</item>
-        <item>1 minggu</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Lalai tempat peristiwa</item>
         <item>Sabtu</item>

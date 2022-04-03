@@ -75,8 +75,6 @@
     <string name="rsvp_declined">"Ha risposto \"No\"."</string>
     <string name="create_event_dialog_save">Salva</string>
     <string name="alert_title">Notifiche di Google Calendar</string>
-    <string name="foreground_notification_channel_name">Sincronizzazione avvisi</string>
-    <string name="foreground_notification_channel_description">Notifica in primo piano richiesta per la sincronizzazione degli avvisi interni.</string>
     <string name="event_info_title">Visualizza evento</string>
     <string name="event_info_title_invite">Invito a riunione</string>
     <string name="edit_event_all_day_label">Tutto il giorno</string>

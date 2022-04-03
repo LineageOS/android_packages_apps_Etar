@@ -20,43 +20,6 @@
         <item>簡訊</item>
         <item>鬧鐘</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 分鐘</item>
-        <item>1 分鐘</item>
-        <item>5 分鐘</item>
-        <item>10 分鐘</item>
-        <item>15 分鐘</item>
-        <item>20 分鐘</item>
-        <item>25 分鐘</item>
-        <item>30 分鐘</item>
-        <item>45 分鐘</item>
-        <item>1 小時</item>
-        <item>2 小時</item>
-        <item>3 小時</item>
-        <item>12 小時</item>
-        <item>24 小時</item>
-        <item>2 天</item>
-        <item>1 週</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>無</item>
-        <item>0 分鐘</item>
-        <item>1 分鐘</item>
-        <item>5 分鐘</item>
-        <item>10 分鐘</item>
-        <item>15 分鐘</item>
-        <item>20 分鐘</item>
-        <item>25 分鐘</item>
-        <item>30 分鐘</item>
-        <item>45 分鐘</item>
-        <item>1 小時</item>
-        <item>2 小時</item>
-        <item>3 小時</item>
-        <item>12 小時</item>
-        <item>24 小時</item>
-        <item>2 天</item>
-        <item>1 週</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>地區設定預設值</item>
         <item>週六</item>

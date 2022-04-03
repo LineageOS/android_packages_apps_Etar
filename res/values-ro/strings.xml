@@ -80,8 +80,6 @@
     <string name="rsvp_declined">"A răspuns „Nu”."</string>
     <string name="create_event_dialog_save">Salvați</string>
     <string name="alert_title">Notificările calendarului</string>
-    <string name="foreground_notification_channel_name">Sincronizare alertă</string>
-    <string name="foreground_notification_channel_description">Este necesară o notificare în prim-plan pentru sincronizarea internă a alertelor.</string>
     <string name="event_info_title">Vizualizaţi evenimentul</string>
     <string name="event_info_title_invite">Invitaţie de întâlnire</string>
     <string name="edit_event_all_day_label">Toată ziua</string>

@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>એલાર્મ</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 મિનિટ</item>
-        <item>1 મિનિટ</item>
-        <item>5 મિનિટ</item>
-        <item>10 મિનિટ</item>
-        <item>15 મિનિટ</item>
-        <item>20 મિનિટ</item>
-        <item>25 મિનિટ</item>
-        <item>30 મિનિટ</item>
-        <item>45 મિનિટ</item>
-        <item>1 કલાક</item>
-        <item>2 કલાક</item>
-        <item>3 કલાક</item>
-        <item>12 કલાક</item>
-        <item>24 કલાક</item>
-        <item>2 દિવસ</item>
-        <item>1 અઠવાડિયું</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>કોઈ નહીં</item>
-        <item>0 મિનિટ</item>
-        <item>1 મિનિટ</item>
-        <item>5 મિનિટ</item>
-        <item>10 મિનિટ</item>
-        <item>15 મિનિટ</item>
-        <item>20 મિનિટ</item>
-        <item>25 મિનિટ</item>
-        <item>30 મિનિટ</item>
-        <item>45 મિનિટ</item>
-        <item>1 કલાક</item>
-        <item>2 કલાક</item>
-        <item>3 કલાક</item>
-        <item>12 કલાક</item>
-        <item>24 કલાક</item>
-        <item>2 દિવસ</item>
-        <item>1 અઠવાડિયું</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>લોકેલ ડિફોલ્ટ</item>
         <item>શનિવાર</item>

@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>I-alamu</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 amaminithi</item>
-        <item>1 iminithi</item>
-        <item>5 amaminithi</item>
-        <item>10 amaminithi</item>
-        <item>15 amaminithi</item>
-        <item>20 amaminithi</item>
-        <item>25 amaminithi</item>
-        <item>30 amaminithi</item>
-        <item>45 amaminithi</item>
-        <item>1 ihora</item>
-        <item>2 amahora</item>
-        <item>3 amahora</item>
-        <item>12 amahora</item>
-        <item>24 amahora</item>
-        <item>2 izinsuku</item>
-        <item>1 iviki</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Lutho</item>
-        <item>0 amaminithi</item>
-        <item>1 iminithi</item>
-        <item>5 amaminithi</item>
-        <item>10 amaminithi</item>
-        <item>15 amaminithi</item>
-        <item>20 amaminithi</item>
-        <item>25 amaminithi</item>
-        <item>30 amaminithi</item>
-        <item>45 amaminithi</item>
-        <item>1 ihora</item>
-        <item>2 amahora</item>
-        <item>3 amahora</item>
-        <item>12 amahora</item>
-        <item>24 amahora</item>
-        <item>2 izinsuku</item>
-        <item>1 iviki</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Okuzenzakalelayo kwezici zakhona</item>
         <item>Umgqibelo</item>

@@ -75,8 +75,6 @@
     <string name="rsvp_declined">"Responded no."</string>
     <string name="create_event_dialog_save">Save</string>
     <string name="alert_title">Calendar notifications</string>
-    <string name="foreground_notification_channel_name">Alert sync</string>
-    <string name="foreground_notification_channel_description">Foreground notification required for internal alert sync.</string>
     <string name="event_info_title">View event</string>
     <string name="event_info_title_invite">Meeting invitation</string>
     <string name="edit_event_all_day_label">All day</string>
