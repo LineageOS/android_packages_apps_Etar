@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Sabah saat <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Başlıq yoxdur)</string>
+    <string name="no_reminder_label">Heç biri</string>
     <plurals name="Nminutes">
         <item quantity="one">1 dəqiqə</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dəqiqə</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 gün</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> gün</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 həftə</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> həftə</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one"><xliff:g id="count">%d</xliff:g>. həftə</item>
@@ -75,6 +80,9 @@
     <string name="rsvp_declined">"Xeyr cavabı verildi."</string>
     <string name="create_event_dialog_save">Yadda saxla</string>
     <string name="alert_title">Təqvim bildirişləri</string>
+    <string name="foreground_notification_title">Yeni xatırladıcılar planlanır…</string>
+    <string name="foreground_notification_channel_name">Arxaplan tapşırıqları</string>
+    <string name="foreground_notification_channel_description">Daxili eyniləşdirmə üçün lazımi bildirişlər. Bu kanalı rahatlıqla gizlədə bilərsiniz.</string>
     <string name="event_info_title">Tədbirə bax</string>
     <string name="event_info_title_invite">Yığıncaq dəvəti</string>
     <string name="edit_event_all_day_label">Bütün gün</string>
@@ -168,6 +176,7 @@
     <string name="preferences_black_theme">Qara</string>
     <string name="preferences_color">Əsas rəng</string>
     <string name="preferences_color_pick">Əsas rəng</string>
+    <string name="preferences_real_event_colors">Gerçək tədbir rənglərini istifadə et</string>
     <string name="preferences_pure_black_night_mode">Saf qara gecə rejimi</string>
     <string name="preferences_reminder_title">Bildirişlər &amp; xatırladıcılar</string>
     <string name="preferences_hide_declined_title">Rədd edilmiş tədbirləri gizlət</string>
@@ -334,4 +343,5 @@
     <string name="preferences_list_add_offline_cancel">İmtina</string>
     <string name="preferences_menu_about">Təqvim Haqqında</string>
     <string name="offline_account_name">Xətdən Kənar Təqvim</string>
+    <string name="after_start_of_event">tədbir başlayandan sonra</string>
 </resources>

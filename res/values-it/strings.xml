@@ -38,6 +38,10 @@
         <item quantity="one">1 giorno</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> giorni</item>
     </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 settimana</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> settimane</item>
+    </plurals>
     <plurals name="weekN">
         <item quantity="one">Settimana <xliff:g id="count">%d</xliff:g></item>
         <item quantity="other">Settimana <xliff:g id="count">%d</xliff:g></item>

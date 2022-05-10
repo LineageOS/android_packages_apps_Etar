@@ -21,6 +21,7 @@
     <string name="tomorrow_at_time_fmt">"Mañana: <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Ensin títulu)</string>
+    <string name="no_reminder_label">Nada</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minutu</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos</item>
@@ -52,7 +53,9 @@
     <string name="hint_where">"Allugamientu"</string>
     <string name="hint_description">"Descripción"</string>
     <string name="hint_attendees">"Convidaos"</string>
+    <string name="foreground_notification_title">Programando los recordatorios nuevos…</string>
     <string name="foreground_notification_channel_name">Xeres en segundu planu</string>
+    <string name="foreground_notification_channel_description">Los avisos riquíos pa la sincronización interna. Pues anubrir esta canal ensin nengún problema.</string>
     <string name="edit_event_all_day_label">Tol día</string>
     <string name="edit_event_calendar_label">Calendariu</string>
     <string name="privacy_label">Privacidá</string>
@@ -135,6 +138,12 @@
     <string name="preferences_calendar_delete_delete">Desanicialu</string>
     <string name="preferences_calendar_delete_cancel">Encaboxar</string>
     <string name="preferences_list_general">Axustes xenerales</string>
+    <string name="preferences_list_add_remote">Amestar un calendariu de CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Amestar un calendariu d\'EteSync</string>
+    <string name="preferences_list_add_offline">Amestar un calendariu llocal</string>
+    <string name="preferences_list_add_offline_message">Los calendarios llocales NUN se sincronicen colos servicios na ñube y namás tán disponibles nel preséu.</string>
     <string name="preferences_list_add_offline_name">Nome</string>
     <string name="preferences_list_add_offline_cancel">Encaboxar</string>
+    <string name="offline_account_name">Calendariu llocal</string>
+    <string name="after_start_of_event">darréu de comenzar l\'eventu</string>
 </resources>

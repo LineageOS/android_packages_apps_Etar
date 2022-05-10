@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"আগামীকাল <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(কোনো শীর্ষক নেই)</string>
+    <string name="no_reminder_label">কিছু না</string>
     <plurals name="Nminutes">
         <item quantity="one">১ মিনিট</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> মিনিট</item>
@@ -38,6 +39,11 @@
         <item quantity="one">১ দিন</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> দিন</item>
     </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">১ সপ্তাহ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> সপ্তাহ</item>
+    </plurals>
+    <string name="calendar_refresh">"রিফ্রেশ"</string>
     <string name="show_day_view">"দিনটি দেখান"</string>
     <string name="agenda_view">"কার্যসূচি"</string>
     <string name="day_view">"দিন"</string>
@@ -47,6 +53,7 @@
     <string name="event_create">"নতুন ইভেন্ট"</string>
     <string name="event_edit">"ইভেন্ট সম্পাদনা করুন"</string>
     <string name="event_delete">"ইভেন্ট মুছুন"</string>
+    <string name="share_label">শেয়ার</string>
     <string name="goto_today">"আজ"</string>
     <string name="menu_preferences">"সেটিংস"</string>
     <string name="search">"অনুসন্ধান করুন"</string>
@@ -67,6 +74,9 @@
     <string name="rsvp_declined">"অসম্মতি জানিয়েছেন৷"</string>
     <string name="create_event_dialog_save">সংরক্ষণ</string>
     <string name="alert_title">ক্যালেন্ডার বিজ্ঞপ্তিগুলি</string>
+    <string name="foreground_notification_title">নতুন অনুস্মারকগুলোকে সময়সূচিতে অন্তর্ভুক্ত করা হচ্ছে...</string>
+    <string name="foreground_notification_channel_name">ব্যাকগ্রাউন্ডের কাজসমূহ</string>
+    <string name="foreground_notification_channel_description">অভ্যন্তরীণ সুসঙ্গতির জন্য এই বিজ্ঞপ্তিটি দেখানো প্রয়োজন। আপনি চাইলে এই চ্যানেলটিকে লুকাতে পারেন।</string>
     <string name="event_info_title">ইভেন্ট দেখুন</string>
     <string name="event_info_title_invite">মিটিংয়ের আমন্ত্রণ</string>
     <string name="edit_event_all_day_label">সারা দিন</string>
@@ -93,6 +103,7 @@
     <string name="email_picker_label">এটি সহ ইমেল পাঠান</string>
     <string name="event_not_found">"ইভেন্ট পাওয়া যায়নি৷"</string>
     <string name="map_label">মানচিত্র</string>
+    <string name="no_map">কোনো ম্যাপ অ্যাপ ইন্সটল করা নেই</string>
     <string name="call_label">কল করুন</string>
     <string name="quick_response_settings">দ্রুত প্রতিক্রিয়াগুলি</string>
     <string name="quick_response_settings_summary">অতিথিদের ইমেল পাঠানোর সময়ে ডিফল্ট প্রতিক্রিয়াগুলির সম্পাদনা করুন</string>
@@ -147,6 +158,7 @@
     <string name="change_response_title">প্রতিক্রিয়া পরিবর্তন করুন</string>
     <string name="preferences_title">"সেটিংস"</string>
     <string name="preferences_general_title">ক্যালেন্ডার দর্শনের সেটিং</string>
+    <string name="preferences_real_event_colors">\"ঘটনা\" ফিচারটির আসল রং ব্যবহার করো</string>
     <string name="preferences_reminder_title">বিজ্ঞপ্তি &amp; অনুস্মারকগুলি</string>
     <string name="preferences_hide_declined_title">প্রত্যাখ্যাত ইভেন্টগুলি লুকান</string>
     <string name="preferences_week_start_day_title">সপ্তাহের শুরু</string>
@@ -228,4 +240,5 @@
         <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g>টি ইভেন্টের জন্য</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">সমাপ্তির তারিখ পরিবর্তন করুন</string>
+    <string name="after_start_of_event">ঘটনাটি শুরু হওয়ার পরে</string>
 </resources>

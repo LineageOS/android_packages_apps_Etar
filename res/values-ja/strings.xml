@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"明日の<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>の<xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">（タイトルなし）</string>
+    <string name="no_reminder_label">なし</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>分</item>
     </plurals>
@@ -33,6 +34,9 @@
     </plurals>
     <plurals name="Ndays">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>日</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>週間</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other">第<xliff:g id="COUNT">%d</xliff:g>週</item>
@@ -70,6 +74,9 @@
     <string name="rsvp_declined">"「いいえ」と返信しました。"</string>
     <string name="create_event_dialog_save">保存</string>
     <string name="alert_title">カレンダーの通知</string>
+    <string name="foreground_notification_title">新しいリマインダーをスケジュール中…</string>
+    <string name="foreground_notification_channel_name">バックグラウンドタスク</string>
+    <string name="foreground_notification_channel_description">内部同期には通知が必要です。このチャンネルは安全に非表示にできます。</string>
     <string name="event_info_title">予定を表示</string>
     <string name="event_info_title_invite">会議への招待状</string>
     <string name="edit_event_all_day_label">終日</string>
@@ -160,6 +167,7 @@
     <string name="preferences_black_theme">ブラック</string>
     <string name="preferences_color">プライマリーカラー</string>
     <string name="preferences_color_pick">プライマリーカラー</string>
+    <string name="preferences_real_event_colors">実際のイベントカラーを使用する</string>
     <string name="preferences_pure_black_night_mode">ピュアブラックナイトモード</string>
     <string name="preferences_reminder_title">通知とリマインダ</string>
     <string name="preferences_hide_declined_title">辞退した予定を非表示</string>
@@ -318,4 +326,5 @@
     <string name="preferences_list_add_offline_cancel">キャンセル</string>
     <string name="preferences_menu_about">カレンダーについて</string>
     <string name="offline_account_name">オフラインカレンダー</string>
+    <string name="after_start_of_event">イベント開始後</string>
 </resources>

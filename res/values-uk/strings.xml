@@ -46,6 +46,7 @@
         <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> дн.</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> дн.</item>
     </plurals>
+    <string name="calendar_refresh">"Оновити"</string>
     <string name="show_day_view">"Показ. день"</string>
     <string name="agenda_view">"Порядок денний"</string>
     <string name="day_view">"День"</string>
@@ -116,6 +117,9 @@
     <string name="quick_response_custom_msg">Напишіть власну відповідь…</string>
     <string name="event_info_organizer">Організатор:</string>
     <string name="event_info_reminders_label">Нагадування</string>
+    <string name="agenda_today">Сьогодні, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Вчора, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Завтра, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Завант-ня…</string>
     <string name="show_older_events">Торкніться, щоб див. події до <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">Торкн., щоб див. події після <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
@@ -161,6 +165,16 @@
     <string name="change_response_title">Змінити відповідь</string>
     <string name="preferences_title">"Налаштування"</string>
     <string name="preferences_general_title">Налаш. перегляду календ.</string>
+    <string name="preferences_month_view_portrait">Показ місяця (портретна орієнтація)</string>
+    <string name="preferences_month_view_landscape">Показ місяця (альбомна орієнтація)</string>
+    <string name="preferences_theme">Тема</string>
+    <string name="preferences_system_theme">Системна</string>
+    <string name="preferences_light_theme">Світла</string>
+    <string name="preferences_dark_theme">Темна</string>
+    <string name="preferences_black_theme">Чорна</string>
+    <string name="preferences_color">Основний колір</string>
+    <string name="preferences_color_pick">Основний колір</string>
+    <string name="preferences_pure_black_night_mode">Повністю чорний нічний режим</string>
     <string name="preferences_reminder_title">Сповіщення й нагадування</string>
     <string name="preferences_hide_declined_title">Сховати відхилені події</string>
     <string name="preferences_week_start_day_title">Початок тижня:</string>
@@ -179,7 +193,11 @@
     <string name="preferences_use_home_tz_descrip">Показувати календарі й час подій у рідному час. поясі під час подорожі</string>
     <string name="preferences_home_tz_title">Мій часовий пояс</string>
     <string name="preferences_show_week_num_title">Показувати номер тижня</string>
+    <string name="authors">Авторство</string>
+    <string name="changelog">Журнал змін</string>
+    <string name="license">Ліцензія</string>
     <string name="preferences_build_version">Версія складання</string>
+    <string name="preferences_issues">Звіт про ваду</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
         <item quantity="few">+<xliff:g id="NUMBER">%d</xliff:g></item>
@@ -258,4 +276,22 @@
         <item quantity="other">Для стількох подій: <xliff:g id="EVENT_COUNT">%d</xliff:g></item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">змінити дату завершення</string>
+    <string name="preferences_calendar_no_display_name">Календар без назви</string>
+    <string name="preferences_calendar_delete">Видалити календар</string>
+    <string name="preferences_calendar_display_name">Змінити назву</string>
+    <string name="preferences_calendar_color">Колір</string>
+    <string name="preferences_calendar_color_warning_title">Попередження</string>
+    <string name="preferences_calendar_delete_delete">Видалити календар</string>
+    <string name="preferences_calendar_delete_cancel">Скасувати</string>
+    <string name="preferences_list_add_remote">Додати календар CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Додати календар EteSync</string>
+    <string name="preferences_list_add_offline">Додати автономний календар</string>
+    <string name="preferences_list_add_offline_title">Додати автономний календар</string>
+    <string name="preferences_list_add_offline_error_empty">Назвіть календар!</string>
+    <string name="preferences_list_add_offline_message">Автономні календарі НЕ синхронізуються з хмарною службою й доступні лише на вашому телефоні.</string>
+    <string name="preferences_list_add_offline_button">Додати календар</string>
+    <string name="preferences_list_add_offline_name">Назва</string>
+    <string name="preferences_list_add_offline_cancel">Скасувати</string>
+    <string name="preferences_menu_about">Про календар</string>
+    <string name="offline_account_name">Автономний календар</string>
 </resources>

@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Yarın şu saatler arasında: <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Başlıksız)</string>
+    <string name="no_reminder_label">Hiçbiri</string>
     <plurals name="Nminutes">
         <item quantity="one">1 dakika</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dakika</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 gün</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> gün</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 hafta</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> hafta</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one"><xliff:g id="count">%d</xliff:g>. Hafta</item>
@@ -75,6 +80,9 @@
     <string name="rsvp_declined">"Hayır yanıtı verildi."</string>
     <string name="create_event_dialog_save">Kaydet</string>
     <string name="alert_title">Takvim bildirimleri</string>
+    <string name="foreground_notification_title">Yeni hatırlatıcılar planlanıyor…</string>
+    <string name="foreground_notification_channel_name">Arkaplan işlemleri</string>
+    <string name="foreground_notification_channel_description">Dahili senkronizasyon için gerekli bildirimler. Bu kanalı güvenle gizleyebilirsiniz.</string>
     <string name="event_info_title">Etkinliği görüntüle</string>
     <string name="event_info_title_invite">Toplantı davetiyesi</string>
     <string name="edit_event_all_day_label">Tüm gün</string>
@@ -168,6 +176,7 @@
     <string name="preferences_black_theme">Siyah</string>
     <string name="preferences_color">Ana renk</string>
     <string name="preferences_color_pick">Ana renk</string>
+    <string name="preferences_real_event_colors">Gerçek etkinlik renklerini kullanın</string>
     <string name="preferences_pure_black_night_mode">Saf siyah gece modu</string>
     <string name="preferences_reminder_title">Bildirimler ve hatırlatıcılar</string>
     <string name="preferences_hide_declined_title">Reddedilmiş etkin. gizle</string>
@@ -334,4 +343,5 @@
     <string name="preferences_list_add_offline_cancel">İptal</string>
     <string name="preferences_menu_about">Takvim hakkında</string>
     <string name="offline_account_name">Çevrim dışı Takvim</string>
+    <string name="after_start_of_event">etkinlik başladıktan sonra</string>
 </resources>

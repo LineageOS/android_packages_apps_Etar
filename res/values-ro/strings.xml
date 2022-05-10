@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Mâine la <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Fără titlu)</string>
+    <string name="no_reminder_label">Niciunul</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minut</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> (de) minute</item>
@@ -41,6 +42,11 @@
         <item quantity="one">1 zi</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> (de) zile</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> (de) zile</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 săptămână</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> săptămâni</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> (de) săptămâni</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Săptămâna <xliff:g id="count">%d</xliff:g></item>
@@ -80,6 +86,9 @@
     <string name="rsvp_declined">"A răspuns „Nu”."</string>
     <string name="create_event_dialog_save">Salvați</string>
     <string name="alert_title">Notificările calendarului</string>
+    <string name="foreground_notification_title">Programare memento-uri noi…</string>
+    <string name="foreground_notification_channel_name">Sarcini de fundal</string>
+    <string name="foreground_notification_channel_description">Notificări necesare pentru sincronizare internă. Puteţi ascunde în siguranţă acest canal.</string>
     <string name="event_info_title">Vizualizaţi evenimentul</string>
     <string name="event_info_title_invite">Invitaţie de întâlnire</string>
     <string name="edit_event_all_day_label">Toată ziua</string>
@@ -176,6 +185,7 @@
     <string name="preferences_black_theme">Negru</string>
     <string name="preferences_color">Culoare primară</string>
     <string name="preferences_color_pick">Culoare primară</string>
+    <string name="preferences_real_event_colors">Folosește culori evenimente reale</string>
     <string name="preferences_pure_black_night_mode">Mod negru noapte pur</string>
     <string name="preferences_reminder_title">Notificări și mementouri</string>
     <string name="preferences_hide_declined_title">Ascundeţi evenimentele refuzate</string>
@@ -350,4 +360,5 @@
     <string name="preferences_list_add_offline_cancel">Anulare</string>
     <string name="preferences_menu_about">Despre Calendar</string>
     <string name="offline_account_name">Calendar offline</string>
+    <string name="after_start_of_event">după începerea evenimentului</string>
 </resources>

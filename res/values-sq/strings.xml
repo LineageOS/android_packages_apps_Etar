@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Nesër në <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Pa titull)</string>
+    <string name="no_reminder_label">Asnjë</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minutë</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> minuta</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 ditë</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> ditë</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 javë</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> javë</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Java <xliff:g id="count">%d</xliff:g></item>
@@ -75,6 +80,9 @@
     <string name="rsvp_declined">"U përgjigj jo."</string>
     <string name="create_event_dialog_save">Ruaj</string>
     <string name="alert_title">Njoftimet e kalendarit</string>
+    <string name="foreground_notification_title">Po planifikon rikujtues të rinj…</string>
+    <string name="foreground_notification_channel_name">Detyrat e sfondit</string>
+    <string name="foreground_notification_channel_description">Kërkohen njoftime për sinkronizimin e brendshëm. Mund ta fshehësh me siguri këtë kanal.</string>
     <string name="event_info_title">Shiko ngjarjen</string>
     <string name="event_info_title_invite">Ftesë për mbledhje</string>
     <string name="edit_event_all_day_label">Gjithë ditën</string>
@@ -168,6 +176,7 @@
     <string name="preferences_black_theme">E zezë</string>
     <string name="preferences_color">Ngjyra kryesore</string>
     <string name="preferences_color_pick">Ngjyra kryesore</string>
+    <string name="preferences_real_event_colors">Përdorni ngjyrat reale të ngjarjeve</string>
     <string name="preferences_pure_black_night_mode">Modaliteti i natës tërësisht i zi</string>
     <string name="preferences_reminder_title">Njoftimet \u0026 kujtesat</string>
     <string name="preferences_hide_declined_title">Fshih ngjarjet e refuzuara</string>
@@ -334,4 +343,5 @@
     <string name="preferences_list_add_offline_cancel">Anullo</string>
     <string name="preferences_menu_about">Rreth Kalendarit</string>
     <string name="offline_account_name">Kalendar lokal</string>
+    <string name="after_start_of_event">pas fillimit të ngjarjes</string>
 </resources>

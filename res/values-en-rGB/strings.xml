@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Tomorrow at <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(No title)</string>
+    <string name="no_reminder_label">None</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minute</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minutes</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 day</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> days</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 week</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> weeks</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Week <xliff:g id="count">%d</xliff:g></item>
@@ -75,6 +80,9 @@
     <string name="rsvp_declined">"Responded no."</string>
     <string name="create_event_dialog_save">Save</string>
     <string name="alert_title">Calendar notifications</string>
+    <string name="foreground_notification_title">Scheduling new reminders…</string>
+    <string name="foreground_notification_channel_name">Background tasks</string>
+    <string name="foreground_notification_channel_description">Notifications required for internal sync. You can safely hide this channel.</string>
     <string name="event_info_title">View event</string>
     <string name="event_info_title_invite">Meeting invitation</string>
     <string name="edit_event_all_day_label">All day</string>
@@ -168,6 +176,7 @@
     <string name="preferences_black_theme">Black</string>
     <string name="preferences_color">Primary colour</string>
     <string name="preferences_color_pick">Primary colour</string>
+    <string name="preferences_real_event_colors">Use real event colours</string>
     <string name="preferences_pure_black_night_mode">Pure black night mode</string>
     <string name="preferences_reminder_title">Notifications &amp; reminders</string>
     <string name="preferences_hide_declined_title">Hide declined events</string>
@@ -334,4 +343,5 @@
     <string name="preferences_list_add_offline_cancel">Cancel</string>
     <string name="preferences_menu_about">About Calendar</string>
     <string name="offline_account_name">Offline Calendar</string>
+    <string name="after_start_of_event">after start of event</string>
 </resources>

@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Morgen om <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Geen titel)</string>
+    <string name="no_reminder_label">Geen</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuut</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minuten</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 dag</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dagen</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 week</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> weken</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Week <xliff:g id="count">%d</xliff:g></item>
@@ -75,6 +80,9 @@
     <string name="rsvp_declined">"Gereageerd met nee."</string>
     <string name="create_event_dialog_save">Opslaan</string>
     <string name="alert_title">Agenda-herinneringen</string>
+    <string name="foreground_notification_title">Nieuwe herinneringen plannen…</string>
+    <string name="foreground_notification_channel_name">Achtergrondtaken</string>
+    <string name="foreground_notification_channel_description">Meldingen vereist voor interne synchronisatie. U kunt dit kanaal veilig verbergen.</string>
     <string name="event_info_title">Afspraak weergeven</string>
     <string name="event_info_title_invite">Uitnodiging voor vergadering</string>
     <string name="edit_event_all_day_label">De hele dag</string>
@@ -168,6 +176,7 @@
     <string name="preferences_black_theme">Zwart</string>
     <string name="preferences_color">Hoofdkleur</string>
     <string name="preferences_color_pick">Hoofdkleur</string>
+    <string name="preferences_real_event_colors">Echte gebeurteniskleuren gebruiken</string>
     <string name="preferences_pure_black_night_mode">Puur zwarte nachtmodus</string>
     <string name="preferences_reminder_title">Meldingen en herinneringen</string>
     <string name="preferences_hide_declined_title">Geweigerde afspraken verbergen</string>
@@ -334,4 +343,5 @@
     <string name="preferences_list_add_offline_cancel">Annuleer</string>
     <string name="preferences_menu_about">Over kalender</string>
     <string name="offline_account_name">Offline kalender</string>
+    <string name="after_start_of_event">na het begin van een gebeurtenis</string>
 </resources>

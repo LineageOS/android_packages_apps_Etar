@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Завтра, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Нет заголовка)</string>
+    <string name="no_reminder_label">Нет</string>
     <plurals name="Nminutes">
         <item quantity="one">1 мин.</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> мин.</item>
@@ -45,6 +46,12 @@
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> дн.</item>
         <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> дн.</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> дн.</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 нед.</item>
+        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> нед.</item>
+        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> нед.</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> нед.</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Недель <xliff:g id="count">%d</xliff:g></item>
@@ -85,6 +92,9 @@
     <string name="rsvp_declined">"Вы не пойдете"</string>
     <string name="create_event_dialog_save">Сохранить</string>
     <string name="alert_title">Уведомления календаря</string>
+    <string name="foreground_notification_title">Планирование новых напоминаний…</string>
+    <string name="foreground_notification_channel_name">Фоновые задачи</string>
+    <string name="foreground_notification_channel_description">Уведомления требуются для внутренней синхронизации. Вы можете безопасно скрыть этот канал.</string>
     <string name="event_info_title">Просмотр мероприятия</string>
     <string name="event_info_title_invite">Приглашение на встречу</string>
     <string name="edit_event_all_day_label">Целый день</string>
@@ -184,6 +194,7 @@
     <string name="preferences_black_theme">Черная</string>
     <string name="preferences_color">Основной цвет</string>
     <string name="preferences_color_pick">Основной цвет</string>
+    <string name="preferences_real_event_colors">Использовать настоящие цвета событий</string>
     <string name="preferences_pure_black_night_mode">Настоящий черный в ночном режиме</string>
     <string name="preferences_reminder_title">Уведомления и напоминания</string>
     <string name="preferences_hide_declined_title">Скрыть отклоненные</string>
@@ -367,4 +378,5 @@
     <string name="preferences_list_add_offline_cancel">Отмена</string>
     <string name="preferences_menu_about">О календаре</string>
     <string name="offline_account_name">Автономный календарь</string>
+    <string name="after_start_of_event">после начала события</string>
 </resources>

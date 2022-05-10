@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Amanhã às <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(sem título)</string>
+    <string name="no_reminder_label">Nenhum</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuto</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minutos</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 dia</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dias</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 semana</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> semanas</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one"><xliff:g id="count">%d</xliff:g>ª semana</item>
@@ -65,6 +70,8 @@
     <string name="saving_event">"Evento salvo."</string>
     <string name="create_event_dialog_save">Salvar</string>
     <string name="alert_title">Notificações do calendário</string>
+    <string name="foreground_notification_title">Agendando novos lembretes…</string>
+    <string name="foreground_notification_channel_name">Tarefas em segundo plano</string>
     <string name="edit_event_calendar_label">Calendário</string>
     <string name="privacy_label">Privacidade</string>
     <string name="reminders_label">Adicionar lembrete</string>
@@ -131,6 +138,7 @@
     <string name="preferences_black_theme">Preto</string>
     <string name="preferences_color">Cor principal</string>
     <string name="preferences_color_pick">Cor principal</string>
+    <string name="preferences_real_event_colors">Usar cores reais para eventos</string>
     <string name="preferences_reminder_title">Notificações e lembretes</string>
     <string name="preferences_hide_declined_title">Ocultar eventos recusados</string>
     <string name="preferences_week_start_day_title">Começar a semana em</string>
@@ -239,4 +247,5 @@
     <string name="preferences_list_add_offline_cancel">Cancelar</string>
     <string name="preferences_menu_about">Sobre o Calendário</string>
     <string name="offline_account_name">Calendário local</string>
+    <string name="after_start_of_event">após o início do evento</string>
 </resources>

@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Besok pukul <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Tanpa judul)</string>
+    <string name="no_reminder_label">Tidak ada</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> menit</item>
     </plurals>
@@ -33,6 +34,9 @@
     </plurals>
     <plurals name="Ndays">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> hari</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> pekan</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other">Minggu <xliff:g id="count">%d</xliff:g></item>
@@ -70,6 +74,8 @@
     <string name="rsvp_declined">"Ditanggapi tidak."</string>
     <string name="create_event_dialog_save">Simpan</string>
     <string name="alert_title">Notifikasi kalender</string>
+    <string name="foreground_notification_title">Menjadwalkan pengingat baru...</string>
+    <string name="foreground_notification_channel_description">Notifikasi diperlukan untuk sinkronisasi internal. Anda dapat menyembunyikan saluran ini dengan aman.</string>
     <string name="event_info_title">Lihat acara</string>
     <string name="event_info_title_invite">Undangan rapat</string>
     <string name="edit_event_all_day_label">Seharian</string>
@@ -311,4 +317,5 @@
     <string name="preferences_list_add_offline_cancel">Batal</string>
     <string name="preferences_menu_about">Tentang Kalender</string>
     <string name="offline_account_name">Kalender Offline</string>
+    <string name="after_start_of_event">setelah acara dimulai</string>
 </resources>

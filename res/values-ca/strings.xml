@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Demà a les <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Sense títol)</string>
+    <string name="no_reminder_label">Cap</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minut</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minuts</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 dia</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dies</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 setmana</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> setmanes</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Setmana <xliff:g id="count">%d</xliff:g></item>
@@ -75,6 +80,7 @@
     <string name="rsvp_declined">"Ha respost que no."</string>
     <string name="create_event_dialog_save">Desa</string>
     <string name="alert_title">Notificacions de Calendar</string>
+    <string name="foreground_notification_channel_name">Tasques en segon pla</string>
     <string name="event_info_title">Visualitza l\'esdeveniment</string>
     <string name="event_info_title_invite">Invitació a una reunió</string>
     <string name="edit_event_all_day_label">Tot el dia</string>
@@ -334,4 +340,5 @@
     <string name="preferences_list_add_offline_cancel">Cancel·la</string>
     <string name="preferences_menu_about">Quant al Calendari</string>
     <string name="offline_account_name">Calendari fora de línia</string>
+    <string name="after_start_of_event">després de l\'inici de l\'esdeveniment</string>
 </resources>

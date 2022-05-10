@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Morgen, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Kein Titel)</string>
+    <string name="no_reminder_label">Keine</string>
     <plurals name="Nminutes">
         <item quantity="one">1 Minute</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> Minuten</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 Tag</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> Tag(e)</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 Woche</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> Wochen</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">KW <xliff:g id="count">%d</xliff:g></item>
@@ -75,6 +80,9 @@
     <string name="rsvp_declined">"Abgesagt"</string>
     <string name="create_event_dialog_save">Speichern</string>
     <string name="alert_title">Benachrichtigungen</string>
+    <string name="foreground_notification_title">Planen neuer Erinnerungen…</string>
+    <string name="foreground_notification_channel_name">Hintergrundprozesse</string>
+    <string name="foreground_notification_channel_description">Benachrichtigungen für die interne Synchronisierung erforderlich. Du kannst diesen Channel sicher ausblenden.</string>
     <string name="event_info_title">Termin anzeigen</string>
     <string name="event_info_title_invite">Einladung zu einer Besprechung</string>
     <string name="edit_event_all_day_label">Ganztägig</string>
@@ -168,6 +176,7 @@
     <string name="preferences_black_theme">Schwarz</string>
     <string name="preferences_color">Primärfarbe</string>
     <string name="preferences_color_pick">Primärfarbe</string>
+    <string name="preferences_real_event_colors">Tatsächliche Ereignisfarben verwenden</string>
     <string name="preferences_pure_black_night_mode">Rein schwarzer Nachtmodus</string>
     <string name="preferences_reminder_title">Benachrichtigungen &amp; Erinnerungen</string>
     <string name="preferences_hide_declined_title">Abgelehnte Termine ausblenden</string>
@@ -334,4 +343,5 @@
     <string name="preferences_list_add_offline_cancel">Abbrechen</string>
     <string name="preferences_menu_about">Über Kalender</string>
     <string name="offline_account_name">Offline-Kalender</string>
+    <string name="after_start_of_event">nach Beginn des Ereignisses</string>
 </resources>

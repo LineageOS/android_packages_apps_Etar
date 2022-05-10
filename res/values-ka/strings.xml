@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"ხვალ <xliff:g id="TIME_INTERVAL">%s</xliff:g>-ზე"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(სათაურის გარეშე)</string>
+    <string name="no_reminder_label">არაა</string>
     <plurals name="Nminutes">
         <item quantity="one">1 წუთი</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> წუთი</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 დღე</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> დღე</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 კვირა</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> კვირა</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">კვირა <xliff:g id="count">%d</xliff:g></item>
@@ -57,8 +62,8 @@
     <string name="goto_date">გადასვლა\u2026</string>
     <string name="menu_preferences">"პარამეტრები"</string>
     <string name="search">"ძიება"</string>
-    <string name="hide_controls">"კონტროლების დამალვა"</string>
-    <string name="show_controls">"კონტროლების ჩვენება"</string>
+    <string name="hide_controls">"სამართავის დამალვა"</string>
+    <string name="show_controls">"სამართავის გამოჩენა"</string>
     <string name="view_settings">"პარამეტრების ნახვა"</string>
     <string name="select_synced_calendars_button">კალენდრები სინქრონიზაციისათვის</string>
     <string name="hint_what">"ღონისძიების სახელი"</string>
@@ -75,6 +80,9 @@
     <string name="rsvp_declined">"უარყოფითი პასუხით."</string>
     <string name="create_event_dialog_save">შენახვა</string>
     <string name="alert_title">კალენდრის შეტყობინებები</string>
+    <string name="foreground_notification_title">იგეგმება ახალი შეხსენებები…</string>
+    <string name="foreground_notification_channel_name">ფონური დავალებები</string>
+    <string name="foreground_notification_channel_description">შეტყობინებები საჭიროებს შიდა სინქრ. შეგიძლიათ უსაფრთხოდ დამალოთ ეს არხი.</string>
     <string name="event_info_title">მოვლენის ნახვა</string>
     <string name="event_info_title_invite">შეხვედრის მოსაწვევი</string>
     <string name="edit_event_all_day_label">მთელი დღე</string>
@@ -168,6 +176,7 @@
     <string name="preferences_black_theme">შავი</string>
     <string name="preferences_color">ძირითადი ფერი</string>
     <string name="preferences_color_pick">ძირითადი ფერი</string>
+    <string name="preferences_real_event_colors">ღონისძიების ნამდვილი ფერები</string>
     <string name="preferences_pure_black_night_mode">სადა შავი ღამის რეჟიმი</string>
     <string name="preferences_reminder_title">შეტყობინებები და შეხსენებები</string>
     <string name="preferences_hide_declined_title">უარყოფილი ღონისძიებების დამალვა</string>
@@ -334,4 +343,5 @@
     <string name="preferences_list_add_offline_cancel">გაუქმება</string>
     <string name="preferences_menu_about">კალენდრის შესახებ</string>
     <string name="offline_account_name">ხაზგარეშე კალენდარი</string>
+    <string name="after_start_of_event">ღონისძიების დაწყების შემდგომ</string>
 </resources>
