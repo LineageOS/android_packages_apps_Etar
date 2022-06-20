@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"I morgen kl. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Ingen titel)</string>
+    <string name="no_reminder_label">Intet</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minut</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minutter</item>
@@ -38,6 +39,15 @@
         <item quantity="one">1 dag</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dage</item>
     </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 uge</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> uger</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Uge <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Uge <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="calendar_refresh">"Opdater"</string>
     <string name="show_day_view">"Vis dag"</string>
     <string name="agenda_view">"Agenda"</string>
     <string name="day_view">"Dag"</string>
@@ -47,11 +57,14 @@
     <string name="event_create">"Ny begivenhed"</string>
     <string name="event_edit">"Rediger"</string>
     <string name="event_delete">"Slet begivenhed"</string>
+    <string name="share_label">Del</string>
     <string name="goto_today">"I dag"</string>
+    <string name="goto_date">Gå til\u2026</string>
     <string name="menu_preferences">"Indstillinger"</string>
     <string name="search">"Søg"</string>
     <string name="hide_controls">"Skjul knapper"</string>
     <string name="show_controls">"Vis knapper"</string>
+    <string name="view_settings">"Se indstillinger"</string>
     <string name="select_synced_calendars_button">Kalendere til synkronisering</string>
     <string name="hint_what">"Begivenhedens navn"</string>
     <string name="hint_where">"Placering"</string>
@@ -67,6 +80,9 @@
     <string name="rsvp_declined">"Har svaret nej."</string>
     <string name="create_event_dialog_save">Gem</string>
     <string name="alert_title">Underretninger fra Kalender</string>
+    <string name="foreground_notification_title">Planlægger nye påmindelser…</string>
+    <string name="foreground_notification_channel_name">Baggrundsopgaver</string>
+    <string name="foreground_notification_channel_description">Notifikationer kræves for intern synkronisering. Du kan skjule denne kanal sikkert.</string>
     <string name="event_info_title">Vis begivenhed</string>
     <string name="event_info_title_invite">Mødeinvitation</string>
     <string name="edit_event_all_day_label">Hele dagen</string>
@@ -93,6 +109,7 @@
     <string name="email_picker_label">Send e-mail til</string>
     <string name="event_not_found">"Begivenheden blev ikke fundet."</string>
     <string name="map_label">Kort</string>
+    <string name="no_map">Der er ingen kort-app installeret</string>
     <string name="call_label">Ring op</string>
     <string name="quick_response_settings">Hurtige svar</string>
     <string name="quick_response_settings_summary">Rediger standardsvar, der kan sendes til gæster</string>
@@ -108,6 +125,9 @@
     <string name="quick_response_custom_msg">Skriv dit eget svar…</string>
     <string name="event_info_organizer">Organisator:</string>
     <string name="event_info_reminders_label">Påmindelser</string>
+    <string name="agenda_today">Idag, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">I går, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">I morgen, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Indlæser...</string>
     <string name="show_older_events">Tryk for at få vist begivenheder før <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">Tryk for at få vist begivenheder efter <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
@@ -147,10 +167,30 @@
     <string name="change_response_title">Skift svar</string>
     <string name="preferences_title">"Indstillinger"</string>
     <string name="preferences_general_title">Indstillinger for kalendervisning</string>
+    <string name="preferences_month_view_portrait">Måned visning layout (Portræt)</string>
+    <string name="preferences_month_view_landscape">Måned visning layout (Landskab)</string>
+    <string name="preferences_theme">Tema</string>
+    <string name="preferences_system_theme">Systemstandard</string>
+    <string name="preferences_light_theme">Lys</string>
+    <string name="preferences_dark_theme">Mørkt</string>
+    <string name="preferences_black_theme">Sort</string>
+    <string name="preferences_color">Primære farve</string>
+    <string name="preferences_color_pick">Primære farve</string>
+    <string name="preferences_real_event_colors">Brug ægte begivenhedsfarver</string>
+    <string name="preferences_pure_black_night_mode">Ren sort nat tilstand</string>
     <string name="preferences_reminder_title">Underretninger og påmindelser</string>
     <string name="preferences_hide_declined_title">Skjul afviste begivenheder</string>
+    <string name="default_start_title">Standardvisning</string>
+    <string name="display_options">Vis muligheder</string>
+    <string name="display_time">Vis tid</string>
+    <string name="display_location">Vis lokation</string>
+    <string name="maximum_number_of_lines">Maks antal linjer i begivenhed</string>
+    <string name="default_start_last">Tidligere anvendt visning</string>
     <string name="preferences_week_start_day_title">Ugen starter</string>
     <string name="preferences_week_start_day_dialog">Ugen starter</string>
+    <string name="preferences_days_per_week_title">Dage per uge</string>
+    <string name="preferences_days_per_week_dialog">Dage per uge</string>
+    <string name="preferences_default_event_duration_title">Standardvarighed for begivenheder</string>
     <string name="preferences_clear_search_history_title">Ryd søgehistorik</string>
     <string name="preferences_clear_search_history_summary">Fjern alle foretagne søgninger</string>
     <string name="search_history_cleared">Søgeoversigten er ryddet.</string>
@@ -165,6 +205,10 @@
     <string name="preferences_use_home_tz_descrip">Viser kalenderbegivenheder i din tidszone, når du rejser</string>
     <string name="preferences_home_tz_title">Egen tidszone</string>
     <string name="preferences_show_week_num_title">Vis ugenummer</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Spørg efter udsættelse ved påmindelse</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Brug altid standard-udsættelses tid</string>
+    <string name="snooze_delay_dialog_title">Sæt udsættelses tid</string>
+    <string name="preferences_default_snooze_delay_title">Standard udsættelses tid</string>
     <string name="preferences_build_version">Version</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
@@ -228,4 +272,35 @@
         <item quantity="other">For <xliff:g id="EVENT_COUNT">%d</xliff:g> begivenheder</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">skift slutdato</string>
+    <string name="preferences_calendar_account">%1$s konto</string>
+    <string name="preferences_calendar_account_local">Offline kalender</string>
+    <string name="preferences_calendar_configure_account">Konfigurer kalender i %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d begivenheder</string>
+    <string name="preferences_calendar_delete">Slet kalender</string>
+    <string name="preferences_calendar_display_name">Omdøb</string>
+    <string name="preferences_calendar_info_category">Kalender information</string>
+    <string name="preferences_calendar_color">Farve</string>
+    <string name="preferences_calendar_visible">Vis begivenheder</string>
+    <string name="preferences_calendar_synchronize">Synkronisér denne kalender</string>
+    <string name="preferences_calendar_color_warning_title">Advarsel</string>
+    <string name="preferences_calendar_color_warning_message">Ændring af farven kan gå tilbage, når kalenderen synkroniseres igen.\n\nI DAVx5 \'Administrer kalenderfarver\' kan deaktiveres for at forhindre dette.</string>
+    <string name="preferences_calendar_color_warning_button">Jeg forstår</string>
+    <string name="preferences_calendar_delete_message">Sikker på, at du vil slette denne kalender?</string>
+    <string name="preferences_calendar_delete_delete">Slet kalender</string>
+    <string name="preferences_calendar_delete_cancel">Annullér</string>
+    <string name="preferences_list_calendar_summary_sync_off">Ikke synkroniseret</string>
+    <string name="preferences_list_calendar_summary_invisible">Begivenheder vises ikke</string>
+    <string name="preferences_list_general">Generelle indstillinger</string>
+    <string name="preferences_list_add_remote">Tilføj CalDAV kalender</string>
+    <string name="preferences_list_add_remote_etesync">Tilføj EteSync kalender</string>
+    <string name="preferences_list_add_offline">Tilføj offline kalender</string>
+    <string name="preferences_list_add_offline_title">Tilføj offline kalender</string>
+    <string name="preferences_list_add_offline_error_empty">Indtast et kalendernavn!</string>
+    <string name="preferences_list_add_offline_message">Offline kalendere synkroniseres IKKE til en cloud tjeneste og er kun tilgængelige på din telefon.</string>
+    <string name="preferences_list_add_offline_button">Tilføj kalender</string>
+    <string name="preferences_list_add_offline_name">Navn</string>
+    <string name="preferences_list_add_offline_cancel">Annullér</string>
+    <string name="preferences_menu_about">Om Kalender</string>
+    <string name="offline_account_name">Offline Kalender</string>
+    <string name="after_start_of_event">efter start af begivenhed</string>
 </resources>

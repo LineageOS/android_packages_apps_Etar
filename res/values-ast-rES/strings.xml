@@ -42,6 +42,7 @@
         <item quantity="one">Selmana <xliff:g id="count">%d</xliff:g></item>
         <item quantity="other">Selmana <xliff:g id="count">%d</xliff:g></item>
     </plurals>
+    <string name="agenda_view">"Axenda"</string>
     <string name="day_view">"Día"</string>
     <string name="week_view">"Selmana"</string>
     <string name="month_view">"Mes"</string>
@@ -50,7 +51,7 @@
     <string name="menu_preferences">"Axustes"</string>
     <string name="search">"Buscar"</string>
     <string name="hint_what">"Nome del eventu"</string>
-    <string name="hint_where">"Allugamientu"</string>
+    <string name="hint_where">"Llocalización"</string>
     <string name="hint_description">"Descripción"</string>
     <string name="hint_attendees">"Convidaos"</string>
     <string name="foreground_notification_title">Programando los recordatorios nuevos…</string>
@@ -60,6 +61,7 @@
     <string name="edit_event_calendar_label">Calendariu</string>
     <string name="privacy_label">Privacidá</string>
     <string name="view_event_calendar_label">Calendariu:</string>
+    <string name="calendar_color_picker_dialog_title">Color del calendariu</string>
     <string name="view_event_response_label">¿Vas asistir?</string>
     <string name="response_yes">Sí</string>
     <string name="response_maybe">Seique</string>
@@ -103,18 +105,42 @@
     <string name="preferences_black_theme">Prietu</string>
     <string name="preferences_color">Color primariu</string>
     <string name="preferences_color_pick">Color primariu</string>
+    <string name="preferences_real_event_colors">Usar los colores de los eventos reales</string>
     <string name="preferences_reminder_title">Avisos y recordatorios</string>
+    <string name="default_start_title">Vista predeterminada</string>
     <string name="preferences_days_per_week_title">Díes per semana</string>
     <string name="preferences_days_per_week_dialog">Díes per semana</string>
+    <string name="preferences_default_event_duration_title">Duración predeterminada de los eventos</string>
+    <string name="preferences_clear_search_history_summary">Quita toles busques que ficieres</string>
     <string name="preferences_alerts_title">Avisos</string>
     <string name="preferences_alerts_popup_title">Avisu emerxente</string>
     <string name="preferences_default_reminder_default">10</string>
     <string name="changelog">Rexistru de cambeos</string>
     <string name="license">Llicencia</string>
+    <string name="preferences_build_version">Versión de la compilación</string>
+    <string name="preferences_experimental_category">Esperimental</string>
+    <string name="accessibility_pick_time_zone">Fusu horariu</string>
+    <string name="accessibility_reminder_showmeas">Apaecer como</string>
     <string name="accessibility_reminder_privacy">Privacidá</string>
     <plurals name="Nevents">
         <item quantity="one">1 eventu</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> eventos</item>
+    </plurals>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> día</item>
+        <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> díes</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> selmana</item>
+        <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> selmanes</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> mes</item>
+        <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> meses</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> añu</item>
+        <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> años</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">el mesmu día de cada mes</string>
     <string name="two_days">2 díes</string>
@@ -132,6 +158,9 @@
     <string name="error_generating_ics">Atopáronse problemes mentanto se compartía l\'eventu</string>
     <string name="cal_import_error_time_zone_msg">Nun ye posible entender el fusu horariu apurríu: %s</string>
     <string name="cal_import_error_date_msg">Nun ye posible entender la data apurrida: %s</string>
+    <string name="preferences_calendar_no_display_name">Calendariu ensin nome</string>
+    <string name="preferences_calendar_account_local">Calendariu llocal</string>
+    <string name="preferences_calendar_display_name">Camudar el nome</string>
     <string name="preferences_calendar_color">Color</string>
     <string name="preferences_calendar_color_warning_title">Alvertencia</string>
     <string name="preferences_calendar_delete_message">¿De xuru que quies desaniciar esti calendariu?</string>
@@ -142,6 +171,7 @@
     <string name="preferences_list_add_remote_etesync">Amestar un calendariu d\'EteSync</string>
     <string name="preferences_list_add_offline">Amestar un calendariu llocal</string>
     <string name="preferences_list_add_offline_message">Los calendarios llocales NUN se sincronicen colos servicios na ñube y namás tán disponibles nel preséu.</string>
+    <string name="preferences_list_add_offline_button">Amestar</string>
     <string name="preferences_list_add_offline_name">Nome</string>
     <string name="preferences_list_add_offline_cancel">Encaboxar</string>
     <string name="offline_account_name">Calendariu llocal</string>

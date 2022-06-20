@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Domani alle <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Senza titolo)</string>
+    <string name="no_reminder_label">Nessuno</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuto</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minuti</item>
@@ -79,6 +80,9 @@
     <string name="rsvp_declined">"Ha risposto \"No\"."</string>
     <string name="create_event_dialog_save">Salva</string>
     <string name="alert_title">Notifiche di Google Calendar</string>
+    <string name="foreground_notification_title">Pianificazione di nuovi promemoria…</string>
+    <string name="foreground_notification_channel_name">Attività in background</string>
+    <string name="foreground_notification_channel_description">Notifiche richieste per la sincronizzazione interna. Puoi nascondere questo canale.</string>
     <string name="event_info_title">Visualizza evento</string>
     <string name="event_info_title_invite">Invito a riunione</string>
     <string name="edit_event_all_day_label">Tutto il giorno</string>
@@ -172,6 +176,7 @@
     <string name="preferences_black_theme">Nero</string>
     <string name="preferences_color">Colore primario</string>
     <string name="preferences_color_pick">Colore primario</string>
+    <string name="preferences_real_event_colors">Usa i colori degli eventi reali</string>
     <string name="preferences_pure_black_night_mode">Modalità nero puro</string>
     <string name="preferences_reminder_title">Notifiche e promemoria</string>
     <string name="preferences_hide_declined_title">Nascondi eventi rifiutati</string>
@@ -338,4 +343,5 @@
     <string name="preferences_list_add_offline_cancel">Annulla</string>
     <string name="preferences_menu_about">Informazioni su Calendario</string>
     <string name="offline_account_name">Calendario offline</string>
+    <string name="after_start_of_event">dopo l\'inizio dell\'evento</string>
 </resources>

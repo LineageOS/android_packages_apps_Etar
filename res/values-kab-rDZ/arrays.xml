@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="reminder_methods_labels">
+        <item>Ilɣa</item>
+        <item>Imayl</item>
+        <item>SMS</item>
+        <item>Teṭentunt</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Locale default</item>
+        <item>Sed</item>
+        <item>Acer (lḥedd)</item>
+        <item>Arim</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Busy</item>
+        <item>Yewjed</item>
+        <item>Tentative</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>No response</item>
+        <item>Ih</item>
+        <item>Maybe</item>
+        <item>Uhu</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Only this event</item>
+        <item>This and future events</item>
+        <item>Akk tidyanin</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Ass</item>
+        <item>Amalas</item>
+        <item>Aggur</item>
+        <item>Tasmektit</item>
+    </string-array>
+</resources>

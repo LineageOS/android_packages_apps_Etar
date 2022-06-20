@@ -137,7 +137,7 @@
     <string name="delete_label">"წაშლა"</string>
     <string name="save_label">მზადაა</string>
     <string name="discard_label">გაუქმება</string>
-    <string name="dismiss_all_label">"ყველას გაუქმება"</string>
+    <string name="dismiss_all_label">"ყველას აცილება"</string>
     <string name="snooze_label">"გადადება"</string>
     <string name="does_not_repeat">ერთჯერადი ღონისძიება</string>
     <string name="endByDate">; <xliff:g id="DATE">%s</xliff:g>-მდე</string>
@@ -185,7 +185,7 @@
     <string name="display_time">ჩვენების დრო</string>
     <string name="display_location">ჩვენების მდებარეობა</string>
     <string name="maximum_number_of_lines">ხაზების დასაშვები რიცხვი ღონისძიებაში</string>
-    <string name="default_start_last">ადრე გამოყენებული ხედი</string>
+    <string name="default_start_last">წინა ხედი</string>
     <string name="preferences_week_start_day_title">კვირის საწყისი დღე</string>
     <string name="preferences_week_start_day_dialog">კვირის საწყისი დღე</string>
     <string name="preferences_days_per_week_title">დღე კვირაში</string>

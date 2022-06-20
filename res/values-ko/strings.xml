@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"내일 <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(제목 없음)</string>
+    <string name="no_reminder_label">없음</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>분</item>
     </plurals>
@@ -33,6 +34,9 @@
     </plurals>
     <plurals name="Ndays">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>일</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g>주</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>번째 주</item>
@@ -70,6 +74,9 @@
     <string name="rsvp_declined">"참석 안함으로 응답함"</string>
     <string name="create_event_dialog_save">저장</string>
     <string name="alert_title">캘린더 알림</string>
+    <string name="foreground_notification_title">새 알림 예약…</string>
+    <string name="foreground_notification_channel_name">백그라운드 작업</string>
+    <string name="foreground_notification_channel_description">내부 동기화에 사용하는 알림입니다. 이 채널을 숨기셔도 됩니다.</string>
     <string name="event_info_title">일정 보기</string>
     <string name="event_info_title_invite">회의 초대</string>
     <string name="edit_event_all_day_label">종일</string>
@@ -160,6 +167,7 @@
     <string name="preferences_black_theme">검정색</string>
     <string name="preferences_color">기본 색상</string>
     <string name="preferences_color_pick">기본 색상</string>
+    <string name="preferences_real_event_colors">실제 일정 색상 사용</string>
     <string name="preferences_pure_black_night_mode">야간 모드에 검정색 사용</string>
     <string name="preferences_reminder_title">알림</string>
     <string name="preferences_hide_declined_title">거부한 일정 숨기기</string>
@@ -318,4 +326,5 @@
     <string name="preferences_list_add_offline_cancel">취소</string>
     <string name="preferences_menu_about">캘린더 정보</string>
     <string name="offline_account_name">오프라인 캘린더</string>
+    <string name="after_start_of_event">일정 시작 후</string>
 </resources>

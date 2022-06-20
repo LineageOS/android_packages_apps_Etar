@@ -300,6 +300,7 @@
     <string name="preferences_calendar_visible">Tampilkan acara</string>
     <string name="preferences_calendar_synchronize">Sinkronkan kalender ini</string>
     <string name="preferences_calendar_color_warning_title">Peringatan</string>
+    <string name="preferences_calendar_color_warning_message">Penggantian warna mungkin dikembalikan ketika kalender disinkronkan lagi.\n\nPada DAVx⁵ \'Kelola warna kalender\' dapat dinonaktifkan untuk mencegah hal ini.</string>
     <string name="preferences_calendar_color_warning_button">Saya mengerti</string>
     <string name="preferences_calendar_delete_message">Apakah anda yakin ingin menghapus kalender ini?</string>
     <string name="preferences_calendar_delete_delete">Hapus kalender</string>
@@ -312,6 +313,7 @@
     <string name="preferences_list_add_offline">Tambah kalender offline</string>
     <string name="preferences_list_add_offline_title">Tambah kalender offline</string>
     <string name="preferences_list_add_offline_error_empty">Masukkan nama kalender!</string>
+    <string name="preferences_list_add_offline_message">Kalender offline TIDAK disinkronkan ke layanan awan dan hanya tersedia di ponsel Anda.</string>
     <string name="preferences_list_add_offline_button">Tambah kalender</string>
     <string name="preferences_list_add_offline_name">Nama</string>
     <string name="preferences_list_add_offline_cancel">Batal</string>
