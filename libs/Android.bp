@@ -1,10 +1,164 @@
+// AppCompat
+
 android_library_import {
-    name: "etar-lib-com.google.android.material_material-nodeps",
-    aars: ["material-1.2.1.aar"],
+    name: "etar-lib-androidx.appcompat_appcompat-resources-nodeps",
+    aars: ["androidx.appcompat_appcompat-resources/appcompat-resources-1.4.2.aar"],
     sdk_version: "current",
     min_sdk_version: "14",
     static_libs: [
-        "androidx.appcompat_appcompat",
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.vectordrawable_vectordrawable",
+        "androidx.vectordrawable_vectordrawable-animated",
+    ],
+}
+
+android_library {
+    name: "etar-lib-androidx.appcompat_appcompat-resources",
+    sdk_version: "current",
+    min_sdk_version: "14",
+    manifest: "androidx.appcompat_appcompat-resources/AndroidManifest.xml",
+    static_libs: [
+        "etar-lib-androidx.appcompat_appcompat-resources-nodeps",
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.vectordrawable_vectordrawable",
+        "androidx.vectordrawable_vectordrawable-animated",
+    ],
+    java_version: "1.7",
+}
+
+android_library_import {
+    name: "etar-lib-androidx.appcompat_appcompat-nodeps",
+    aars: ["androidx.appcompat_appcompat/appcompat-1.4.2.aar"],
+    sdk_version: "current",
+    min_sdk_version: "14",
+    static_libs: [
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.cursoradapter_cursoradapter",
+        "androidx.activity_activity",
+        "androidx.fragment_fragment",
+        "etar-lib-androidx.appcompat_appcompat-resources",
+        "androidx.drawerlayout_drawerlayout",
+        "androidx.savedstate_savedstate",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.lifecycle_lifecycle-viewmodel",
+    ],
+}
+
+android_library {
+    name: "etar-lib-androidx.appcompat_appcompat",
+    sdk_version: "current",
+    min_sdk_version: "14",
+    manifest: "androidx.appcompat_appcompat/AndroidManifest.xml",
+    static_libs: [
+        "etar-lib-androidx.appcompat_appcompat-nodeps",
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.cursoradapter_cursoradapter",
+        "androidx.activity_activity",
+        "androidx.fragment_fragment",
+        "etar-lib-androidx.appcompat_appcompat-resources",
+        "androidx.drawerlayout_drawerlayout",
+        "androidx.savedstate_savedstate",
+        "androidx.lifecycle_lifecycle-runtime",
+        "androidx.lifecycle_lifecycle-viewmodel",
+    ],
+    java_version: "1.7",
+}
+
+// Constraint Layout
+
+java_import {
+    name: "etar-lib-androidx-constraintlayout_constraintlayout-solver-nodeps",
+    jars: ["androidx.constraintlayout_constraintlayout-solver/constraintlayout-solver-2.0.4.jar"],
+    sdk_version: "current",
+}
+
+java_library_static {
+    name: "etar-lib-androidx-constraintlayout_constraintlayout-solver",
+    sdk_version: "current",
+    min_sdk_version: "24",
+    static_libs: [
+        "etar-lib-androidx-constraintlayout_constraintlayout-solver-nodeps",
+    ],
+    java_version: "1.7",
+}
+
+android_library_import {
+    name: "etar-lib-androidx-constraintlayout_constraintlayout-nodeps",
+    aars: ["androidx.constraintlayout_constraintlayout/constraintlayout-2.0.4.aar"],
+    sdk_version: "current",
+    min_sdk_version: "14",
+    static_libs: [
+        "etar-lib-androidx.appcompat_appcompat",
+        "androidx.core_core",
+        "etar-lib-androidx-constraintlayout_constraintlayout-solver",
+    ],
+}
+
+android_library {
+    name: "etar-lib-androidx-constraintlayout_constraintlayout",
+    sdk_version: "current",
+    min_sdk_version: "14",
+    manifest: "androidx.constraintlayout_constraintlayout/AndroidManifest.xml",
+    static_libs: [
+        "etar-lib-androidx-constraintlayout_constraintlayout-nodeps",
+        "etar-lib-androidx.appcompat_appcompat",
+        "androidx.core_core",
+        "etar-lib-androidx-constraintlayout_constraintlayout-solver",
+    ],
+    java_version: "1.7",
+}
+
+// Preference
+
+android_library_import {
+    name: "etar-lib-androidx.preference_preference-nodeps",
+    aars: ["androidx.preference_preference/preference-1.2.0.aar"],
+    sdk_version: "31",
+    min_sdk_version: "14",
+    static_libs: [
+        "etar-lib-androidx.appcompat_appcompat",
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.fragment_fragment",
+        "androidx.recyclerview_recyclerview",
+    ],
+}
+
+android_library {
+    name: "etar-lib-androidx.preference_preference",
+    sdk_version: "31",
+    min_sdk_version: "14",
+    manifest: "androidx.preference_preference/AndroidManifest.xml",
+    static_libs: [
+        "etar-lib-androidx.preference_preference-nodeps",
+        "etar-lib-androidx.appcompat_appcompat",
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.fragment_fragment",
+        "androidx.recyclerview_recyclerview",
+    ],
+    java_version: "1.7",
+}
+
+// Material
+
+android_library_import {
+    name: "etar-lib-com.google.android.material_material-nodeps",
+    aars: ["com.google.android.material_material/material-1.6.1.aar"],
+    sdk_version: "current",
+    min_sdk_version: "14",
+    static_libs: [
+        "etar-lib-androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
         "androidx.coordinatorlayout_coordinatorlayout",
         "androidx.core_core",
@@ -22,11 +176,11 @@ android_library {
     name: "etar-lib-com.google.android.material_material",
     sdk_version: "current",
     min_sdk_version: "14",
-    manifest: "manifests/com.google.android.material_material/AndroidManifest.xml",
+    manifest: "com.google.android.material_material/AndroidManifest.xml",
     static_libs: [
         "etar-lib-com.google.android.material_material-nodeps",
+        "etar-lib-androidx.appcompat_appcompat",
         "androidx.annotation_annotation",
-        "androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
         "androidx.coordinatorlayout_coordinatorlayout",
         "androidx.core_core",
@@ -40,3 +194,4 @@ android_library {
     ],
     java_version: "1.7",
 }
+
