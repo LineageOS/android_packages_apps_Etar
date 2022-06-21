@@ -1,0 +1,31 @@
+android_library_import {
+    name: "etar-lib-androidx.preference_preference-nodeps",
+    aars: ["preference-1.2.0-alpha01.aar"],
+    sdk_version: "31",
+    min_sdk_version: "14",
+    static_libs: [
+        "etar-lib-androidx.appcompat_appcompat",
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.fragment_fragment",
+        "androidx.recyclerview_recyclerview",
+    ],
+}
+
+android_library {
+    name: "etar-lib-androidx.preference_preference",
+    sdk_version: "31",
+    min_sdk_version: "14",
+    manifest: "AndroidManifest.xml",
+    static_libs: [
+        "etar-lib-androidx.preference_preference-nodeps",
+        "etar-lib-androidx.appcompat_appcompat",
+        "androidx.annotation_annotation",
+        "androidx.collection_collection",
+        "androidx.core_core",
+        "androidx.fragment_fragment",
+        "androidx.recyclerview_recyclerview",
+    ],
+    java_version: "1.7",
+}
