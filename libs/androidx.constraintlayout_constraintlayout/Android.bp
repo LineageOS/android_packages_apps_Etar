@@ -1,0 +1,26 @@
+android_library_import {
+    name: "etar-lib-androidx-constraintlayout_constraintlayout-nodeps",
+    aars: ["constraintlayout-2.0.4.aar"],
+    sdk_version: "current",
+    min_sdk_version: "14",
+    static_libs: [
+        "etar-lib-androidx.appcompat_appcompat",
+        "androidx.core_core",
+        "etar-lib-androidx-constraintlayout_constraintlayout-solver",
+    ],
+}
+
+android_library {
+    name: "etar-lib-androidx-constraintlayout_constraintlayout",
+    sdk_version: "current",
+    min_sdk_version: "14",
+    manifest: "AndroidManifest.xml",
+    static_libs: [
+        "etar-lib-androidx-constraintlayout_constraintlayout-nodeps",
+        "etar-lib-androidx.appcompat_appcompat",
+        "androidx.core_core",
+        "etar-lib-androidx-constraintlayout_constraintlayout-solver",
+    ],
+    java_version: "1.7",
+}
+
