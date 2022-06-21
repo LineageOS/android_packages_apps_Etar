@@ -1,10 +1,10 @@
 android_library_import {
     name: "etar-lib-com.google.android.material_material-nodeps",
-    aars: ["material-1.2.1.aar"],
+    aars: ["material-1.6.1.aar"],
     sdk_version: "current",
     min_sdk_version: "14",
     static_libs: [
-        "androidx.appcompat_appcompat",
+        "etar-lib-androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
         "androidx.coordinatorlayout_coordinatorlayout",
         "androidx.core_core",
@@ -22,11 +22,11 @@ android_library {
     name: "etar-lib-com.google.android.material_material",
     sdk_version: "current",
     min_sdk_version: "14",
-    manifest: "manifests/com.google.android.material_material/AndroidManifest.xml",
+    manifest: "AndroidManifest.xml",
     static_libs: [
         "etar-lib-com.google.android.material_material-nodeps",
+        "etar-lib-androidx.appcompat_appcompat",
         "androidx.annotation_annotation",
-        "androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
         "androidx.coordinatorlayout_coordinatorlayout",
         "androidx.core_core",
