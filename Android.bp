@@ -18,15 +18,16 @@ android_app {
     static_libs: [
         "android-common",
         "android-opt-timezonepicker",
-        "androidx-constraintlayout_constraintlayout",
-        "androidx.preference_preference",
         "calendar-common",
         "colorpicker",
-        "etar-lib-com.google.android.material_material",
+        "libchips",
         "kotlin-annotations",
         "kotlinx-coroutines-android",
         "kotlinx-coroutines-core",
-        "libchips",
+        "etar-lib-androidx-constraintlayout_constraintlayout",
+        "etar-lib-androidx.preference_preference",
+        "etar-lib-androidx.appcompat_appcompat",
+        "etar-lib-com.google.android.material_material",
     ],
 
     optimize: {
