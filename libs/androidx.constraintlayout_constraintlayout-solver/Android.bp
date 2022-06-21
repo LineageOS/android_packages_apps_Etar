@@ -1,0 +1,15 @@
+java_import {
+    name: "etar-lib-androidx-constraintlayout_constraintlayout-solver-nodeps",
+    jars: ["constraintlayout-solver-2.0.4.jar"],
+    sdk_version: "current",
+}
+
+java_library_static {
+    name: "etar-lib-androidx-constraintlayout_constraintlayout-solver",
+    sdk_version: "current",
+    min_sdk_version: "24",
+    static_libs: [
+        "etar-lib-androidx-constraintlayout_constraintlayout-solver-nodeps",
+    ],
+    java_version: "1.7",
+}

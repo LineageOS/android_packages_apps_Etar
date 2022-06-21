@@ -20,6 +20,7 @@ android_app {
         "androidx.preference_preference",
         "calendar-common",
         "colorpicker",
+        "etar-lib-androidx.appcompat_appcompat",
         "etar-lib-com.google.android.material_material",
         "kotlin-annotations",
         "kotlinx-coroutines-android",
