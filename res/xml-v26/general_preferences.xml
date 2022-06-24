@@ -22,10 +22,10 @@
             app:title="@string/preferences_theme"
             app:entries="@array/pref_theme_entries"
             app:entryValues="@array/pref_theme_values"
-            app:defaultValue="light" />
+            app:defaultValue="system" />
         <SwitchPreference
             app:key="pref_pure_black_night_mode"
-            app:defaultValue="false"
+            app:defaultValue="true"
             app:title="@string/preferences_pure_black_night_mode" />
         <Preference
             app:key="pref_color"
