@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "323278a3_5d328eb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25485
+      },
+      "writtenOn": "2022-06-25T05:15:30Z",
+      "side": 1,
+      "message": "enabled pure black because lineage-19.1 apps are almost using black theme, like DeskClock.",
+      "revId": "eb894f6998027cf45f788394300576809fd75e80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
