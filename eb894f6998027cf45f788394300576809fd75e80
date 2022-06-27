@@ -16,6 +16,23 @@
       "message": "enabled pure black because lineage-19.1 apps are almost using black theme, like DeskClock.",
       "revId": "eb894f6998027cf45f788394300576809fd75e80",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a71e9213_88a6430c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-06-27T19:49:47Z",
+      "side": 1,
+      "message": "Don\u0027t enable pure black by default.\n\nDark mode. Match other apps.",
+      "revId": "eb894f6998027cf45f788394300576809fd75e80",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
