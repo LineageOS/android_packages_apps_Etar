@@ -37,4 +37,17 @@ android_app {
         "--rename-manifest-package",
         "org.lineageos.etar",
     ],
+
+    required: [
+        "org.lineageos.etar.allowlist"
+    ],
 }
+
+prebuilt_etc {
+    name: "org.lineageos.etar.allowlist",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "org.lineageos.etar.allowlist.xml",
+    filename_from_src: true,
+}
+
