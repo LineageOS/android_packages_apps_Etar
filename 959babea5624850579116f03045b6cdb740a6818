@@ -105,6 +105,24 @@
       "parentUuid": "f46ce560_ca1a9235",
       "revId": "959babea5624850579116f03045b6cdb740a6818",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b11ed8f_1d5fa66e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-06-28T08:44:14Z",
+      "side": 1,
+      "message": "its probably working because of this https://github.com/LineageOS/android_packages_apps_Etar/blob/21585ab5ef1a07d2289285fbc9f7d375f5d88f48/src/com/android/calendar/DynamicTheme.java#L53",
+      "parentUuid": "0b5a8213_b3b7fbd9",
+      "revId": "959babea5624850579116f03045b6cdb740a6818",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
