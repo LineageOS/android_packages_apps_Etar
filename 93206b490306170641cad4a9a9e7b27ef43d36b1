@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5af8093_18db4ee1",
+        "filename": "org.lineageos.etar.allowlist.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-06-29T18:17:50Z",
+      "side": 1,
+      "message": "we rename that package to \"org.lineageos.etar\" as per Android.bp, don\u0027t we?",
+      "revId": "93206b490306170641cad4a9a9e7b27ef43d36b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
