@@ -175,6 +175,24 @@
       "message": "Better alternative, will send upstream: https://review.lineageos.org/c/LineageOS/android_packages_apps_Etar/+/333834",
       "revId": "959babea5624850579116f03045b6cdb740a6818",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf0064f5_919c1a17",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25485
+      },
+      "writtenOn": "2022-07-07T03:59:37Z",
+      "side": 1,
+      "message": "+",
+      "parentUuid": "afa0d22e_941fefcb",
+      "revId": "959babea5624850579116f03045b6cdb740a6818",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
