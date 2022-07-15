@@ -2,14 +2,16 @@ android_app {
     name: "Etar",
     overrides: ["Calendar"],
 
-    resource_dirs: ["res"],
+    resource_dirs: ["app/src/main/res"],
 
     srcs: [
-        "src/**/*.java",
-        "src/**/*.kt",
+        "app/src/main/java/**/*.kt",
+        "app/src/main/java/**/*.java",
         "src_aosp/**/*.java",
         "src_aosp/**/*.kt",
     ],
+
+    manifest: "app/src/main/AndroidManifest.xml",
 
     product_specific: true,
 
@@ -28,7 +30,7 @@ android_app {
     ],
 
     optimize: {
-        proguard_flags_files: ["proguard.flags"],
+        proguard_flags_files: ["app/proguard-rules.pro"],
     },
 
     sdk_version: "current",
@@ -41,6 +43,25 @@ android_app {
     required: [
         "org.lineageos.etar.allowlist"
     ],
+}
+
+android_test {
+    name: "CalendarTests",
+
+    srcs: [
+        "app/src/test/java/**/*.kt",
+        "app/src/test/java/**/*.java",
+    ],
+
+    manifest: "app/src/test/AndroidManifest.xml",
+
+    libs: [
+        "android.test.runner",
+    ],
+
+    certificate: "platform",
+
+    instrumentation_for: "Etar",
 }
 
 prebuilt_etc {
