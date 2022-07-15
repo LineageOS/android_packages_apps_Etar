@@ -45,6 +45,22 @@ android_app {
     ],
 }
 
+android_test {
+    name: "CalendarTests",
+
+    libs: [
+        "android.test.runner",
+    ],
+
+    srcs: ["app/src/test/java/**/*.kt"],
+
+    manifest: "app/src/test/AndroidManifest.xml",
+
+    certificate: "platform",
+
+    instrumentation_for: "Etar",
+}
+
 prebuilt_etc {
     name: "org.lineageos.etar.allowlist",
     product_specific: true,
