@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c71e2c54_3052fb87",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27322
+      },
+      "writtenOn": "2022-07-20T09:26:09Z",
+      "side": 1,
+      "message": "Etar does not follow the pure black theme selected by the system but remains unchanged in the dark",
+      "revId": "d2a0a57d86beb10bfe5590d59963393a99d059a8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
