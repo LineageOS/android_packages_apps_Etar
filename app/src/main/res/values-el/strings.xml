@@ -61,6 +61,7 @@
     <string name="goto_today">"Σήμερα"</string>
     <string name="goto_date">Μεταβείτε σε\u2026</string>
     <string name="menu_preferences">"Ρυθμίσεις"</string>
+    <string name="menu_info">Πληροφορίες</string>
     <string name="search">"Αναζήτηση"</string>
     <string name="hide_controls">"Απόκρ. στοιχ. ελέγχ."</string>
     <string name="show_controls">"Εμφ. στοιχ. ελέγχου"</string>

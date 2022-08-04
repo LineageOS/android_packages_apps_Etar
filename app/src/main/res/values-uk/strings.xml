@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Завтра о <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Без назви)</string>
+    <string name="no_reminder_label">Жодного</string>
     <plurals name="Nminutes">
         <item quantity="one">1 хв.</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> хв</item>
@@ -45,6 +46,12 @@
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> дн.</item>
         <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> дн.</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> дн.</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 тиждень</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> тижні</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> тижнів</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> тижнів</item>
     </plurals>
     <string name="calendar_refresh">"Оновити"</string>
     <string name="show_day_view">"Показ. день"</string>
@@ -76,6 +83,9 @@
     <string name="rsvp_declined">"Відповідь: \"Ні\"."</string>
     <string name="create_event_dialog_save">Зберегти</string>
     <string name="alert_title">Сповіщення календаря</string>
+    <string name="foreground_notification_title">Створення нових нагадувань…</string>
+    <string name="foreground_notification_channel_name">Фонові завдання</string>
+    <string name="foreground_notification_channel_description">Сповіщення необхідні для внутрішньої синхронізації. Канал можна спокійно приховати.</string>
     <string name="event_info_title">Перегл. подію</string>
     <string name="event_info_title_invite">Запрошення на зустріч</string>
     <string name="edit_event_all_day_label">Увесь день</string>
@@ -174,6 +184,7 @@
     <string name="preferences_black_theme">Чорна</string>
     <string name="preferences_color">Основний колір</string>
     <string name="preferences_color_pick">Основний колір</string>
+    <string name="preferences_real_event_colors">Справжні кольори подій</string>
     <string name="preferences_pure_black_night_mode">Повністю чорний нічний режим</string>
     <string name="preferences_reminder_title">Сповіщення й нагадування</string>
     <string name="preferences_hide_declined_title">Сховати відхилені події</string>
@@ -294,4 +305,5 @@
     <string name="preferences_list_add_offline_cancel">Скасувати</string>
     <string name="preferences_menu_about">Про календар</string>
     <string name="offline_account_name">Автономний календар</string>
+    <string name="after_start_of_event">після початку події</string>
 </resources>

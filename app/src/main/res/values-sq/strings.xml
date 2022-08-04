@@ -61,6 +61,7 @@
     <string name="goto_today">"Sot"</string>
     <string name="goto_date">Shko tek\u2026</string>
     <string name="menu_preferences">"Cilësimet"</string>
+    <string name="menu_info">Informacion</string>
     <string name="search">"Kërko"</string>
     <string name="hide_controls">"Fshih kontrollet"</string>
     <string name="show_controls">"Shfaq kontrollet"</string>
