@@ -34,6 +34,23 @@
       "parentUuid": "c71e2c54_3052fb87",
       "revId": "d2a0a57d86beb10bfe5590d59963393a99d059a8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eac9155d_8fff6098",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2022-08-05T13:10:02Z",
+      "side": 1,
+      "message": "Kinda sucks but not much we can do here",
+      "revId": "d2a0a57d86beb10bfe5590d59963393a99d059a8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
