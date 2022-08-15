@@ -67,6 +67,7 @@
     <string name="goto_today">"Azi"</string>
     <string name="goto_date">Mergeți la\u2026</string>
     <string name="menu_preferences">"Setări"</string>
+    <string name="menu_info">Info</string>
     <string name="search">"Căutaţi"</string>
     <string name="hide_controls">"Ascundeţi comenzile"</string>
     <string name="show_controls">"Afişaţi comenzile"</string>

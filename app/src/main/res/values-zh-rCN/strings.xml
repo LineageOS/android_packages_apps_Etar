@@ -55,6 +55,7 @@
     <string name="goto_today">"今天"</string>
     <string name="goto_date">转到 \u2026</string>
     <string name="menu_preferences">"设置"</string>
+    <string name="menu_info">信息</string>
     <string name="search">"搜索"</string>
     <string name="hide_controls">"隐藏控件"</string>
     <string name="show_controls">"显示控件"</string>

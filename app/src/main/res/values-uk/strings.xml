@@ -53,6 +53,12 @@
         <item quantity="many"><xliff:g id="count">%d</xliff:g> тижнів</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> тижнів</item>
     </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Тиждень <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="few">Тиждень <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="many">Тиждень <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Тиждень <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
     <string name="calendar_refresh">"Оновити"</string>
     <string name="show_day_view">"Показ. день"</string>
     <string name="agenda_view">"Порядок денний"</string>
@@ -65,6 +71,7 @@
     <string name="event_delete">"Видалити подію"</string>
     <string name="goto_today">"Сьогодні"</string>
     <string name="menu_preferences">"Налаштування"</string>
+    <string name="menu_info">Деталі</string>
     <string name="search">"Пошук"</string>
     <string name="hide_controls">"Сховати елем. керув."</string>
     <string name="show_controls">"Показати елем.керув."</string>

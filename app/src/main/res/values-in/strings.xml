@@ -55,6 +55,7 @@
     <string name="goto_today">"Hari ini"</string>
     <string name="goto_date">Pergi ke\u2026</string>
     <string name="menu_preferences">"Setelan"</string>
+    <string name="menu_info">Info</string>
     <string name="search">"Telusuri"</string>
     <string name="hide_controls">"Sembunyikan kontrol"</string>
     <string name="show_controls">"Tampilkan kontrol"</string>
@@ -260,6 +261,7 @@
         <item quantity="other">Untuk <xliff:g id="EVENT_COUNT">%d</xliff:g> acara</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">ubah tanggal akhir</string>
+    <string name="user_rejected_calendar_write_permission">Kalender memerlukan izin untuk melihat dan mengubah kalender agar bekerja dengan baik. Harap coba lagi.</string>
     <string name="visibility_default">Standar</string>
     <string name="visibility_confidential">Rahasia</string>
     <string name="visibility_private">Pribadi</string>

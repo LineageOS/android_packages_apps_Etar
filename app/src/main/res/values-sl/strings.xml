@@ -25,21 +25,21 @@
     <string name="no_reminder_label">Brez</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuta</item>
-        <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> min</item>
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> min</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> min</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> minuti</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> minute</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minut</item>
     </plurals>
     <plurals name="Nmins">
-        <item quantity="one">1 min</item>
-        <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> min</item>
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> min</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> min</item>
+        <item quantity="one">1 min.</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> min.</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> min.</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> min.</item>
     </plurals>
     <plurals name="Nhours">
         <item quantity="one">1 ura</item>
-        <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> ur</item>
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> ur</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ur</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> uri</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> ure</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> ur</item>
     </plurals>
     <plurals name="Ndays">
         <item quantity="one">1 dan</item>
@@ -65,7 +65,7 @@
     <string name="day_view">"Dan"</string>
     <string name="week_view">"Teden"</string>
     <string name="month_view">"Mesec"</string>
-    <string name="event_view">"Ogled dogodka"</string>
+    <string name="event_view">"Pokaži dogodek"</string>
     <string name="event_create">"Nov dogodek"</string>
     <string name="event_edit">"Uredi dogodek"</string>
     <string name="event_delete">"Izbriši dogodek"</string>
@@ -73,29 +73,30 @@
     <string name="goto_today">"Danes"</string>
     <string name="goto_date">Pojdi na \u2026</string>
     <string name="menu_preferences">"Nastavitve"</string>
+    <string name="menu_info">Podatki</string>
     <string name="search">"Išči"</string>
     <string name="hide_controls">"Skrij kontrolnike"</string>
     <string name="show_controls">"Pokaži kontrolnike"</string>
     <string name="view_settings">"Nastavitve pogleda"</string>
-    <string name="select_synced_calendars_button">Koledarji za sinhronizacijo</string>
+    <string name="select_synced_calendars_button">Koledarji za sinhroniziranje</string>
     <string name="hint_what">"Ime dogodka"</string>
     <string name="hint_where">"Lokacija"</string>
     <string name="hint_description">"Opis"</string>
     <string name="hint_attendees">"Gostje"</string>
-    <string name="creating_event">"Dogodek je ustvarjen."</string>
-    <string name="saving_event">"Dogodek je shranjen."</string>
-    <string name="empty_event">"Prazen dogodek ni bil ustvarjen."</string>
+    <string name="creating_event">"Dogodek ustvarjen."</string>
+    <string name="saving_event">"Dogodek shranjen."</string>
+    <string name="empty_event">"Prazen dogodek ni ustvarjen."</string>
     <string name="creating_event_with_guest">"Vabila bodo poslana."</string>
     <string name="saving_event_with_guest">"Posodobitve bodo poslane."</string>
-    <string name="rsvp_accepted">"Odgovor »Da«."</string>
-    <string name="rsvp_tentative">"Odgovor »Morda«."</string>
-    <string name="rsvp_declined">"Odgovor »Ne«."</string>
+    <string name="rsvp_accepted">"Se je odzval/a z da."</string>
+    <string name="rsvp_tentative">"Se je odzval/a z morda."</string>
+    <string name="rsvp_declined">"Se je odzval/a z ne."</string>
     <string name="create_event_dialog_save">Shrani</string>
     <string name="alert_title">Obvestila koledarja</string>
     <string name="foreground_notification_title">Načrtovanje novih opomnikov …</string>
     <string name="foreground_notification_channel_name">Naloge v ozadju</string>
     <string name="foreground_notification_channel_description">Obvestila zahtevana za notranjo sinhronizacijo. Ta kanal lahko varno skrijete.</string>
-    <string name="event_info_title">Ogled dogodka</string>
+    <string name="event_info_title">Pokaži dogodek</string>
     <string name="event_info_title_invite">Povabilo na srečanje</string>
     <string name="edit_event_all_day_label">Ves dan</string>
     <string name="edit_event_calendar_label">Koledar</string>
@@ -103,7 +104,7 @@
     <string name="privacy_label">Zasebnost</string>
     <string name="reminders_label">Dodaj opomnik</string>
     <string name="no_syncable_calendars">Ni koledarjev</string>
-    <string name="no_calendars_found">Pred dodajanjem dogodka morate v napravo dodati vsaj en račun za Google Koledar in narediti koledar viden. Dotaknite se možnosti »Dodaj račun«, da dodate račun (če ste ga pravkar dodali, počakajte, da se sinhroniziranje konča, in poskusite znova). Lahko se tudi dotaknete možnosti »Prekliči« in se prepričate, da je viden vsaj en koledar.</string>
+    <string name="no_calendars_found">Preden lahko dodate dogodek, morate dodati vsaj en račun Koledarja v vašo napravo in narediti koledar viden. Dotaknite se Dodaj račun, da dodate račun (če ste račun pravkar dodali, počakajte, da konča sinhroniziranje in poskusite znova). Ali se dotaknite Prekliči in se prepričajte, da je vsaj en koledar viden.</string>
     <string name="add_account">Dodaj račun</string>
     <string name="view_event_calendar_label">Koledar:</string>
     <string name="view_event_organizer_label">Organizator:</string>
@@ -112,76 +113,76 @@
     <string name="event_color_set_to_default">Nastavi na privzeto barvo koledarja</string>
     <string name="calendar_color_picker_dialog_title">Barva koledarja</string>
     <string name="calendar_square_color_picker_description">Izbirnik barve</string>
-    <string name="view_event_response_label">Prisoten?</string>
+    <string name="view_event_response_label">Se boš udeležil/a?</string>
     <string name="response_yes">Da</string>
     <string name="response_maybe">Morda</string>
     <string name="response_no">Ne</string>
-    <string name="email_guests_label">Gostom pošlji e-poštno sporočilo</string>
-    <string name="email_organizer_label">Pošlji e-poštno sporočilo organizatorju</string>
-    <string name="email_picker_label">Pošlji e-pošto z</string>
-    <string name="event_not_found">"Dogodka ni bilo mogoče najti."</string>
+    <string name="email_guests_label">Pošlji e-pošto gostom</string>
+    <string name="email_organizer_label">Pošlji e-pošto organizatorju</string>
+    <string name="email_picker_label">Pošlji e-pošto s/z</string>
+    <string name="event_not_found">"Dogodek ni najden."</string>
     <string name="map_label">Zemljevid</string>
     <string name="no_map">Ni nameščene aplikacije z zemljevidi</string>
     <string name="call_label">Klic</string>
-    <string name="quick_response_settings">Jedrnati odgovori</string>
-    <string name="quick_response_settings_summary">Urejanje privzetih odgovorov za e-poštno pošiljanje</string>
-    <string name="quick_response_settings_edit_title">Jedrnat odgovor</string>
-    <string name="quick_response_dialog_title">Izberite jedrnat odgovor</string>
-    <string name="quick_response_email_failed">E-poštnega programa ni mogoče najti</string>
+    <string name="quick_response_settings">Hitri odzivi</string>
+    <string name="quick_response_settings_summary">Uredite privzete odzive za pošiljanje e-pošte gostom</string>
+    <string name="quick_response_settings_edit_title">Hiter odziv</string>
+    <string name="quick_response_dialog_title">Izberite hiter odziv</string>
+    <string name="quick_response_email_failed">Iskanje programa za e-pošto je spodletelo</string>
     <string-array name="quick_response_defaults">
         <item>Čisto malo zamujam.</item>
         <item>Pridem čez 10 minut.</item>
         <item>Kar brez mene začnite.</item>
         <item>Ne bo mi uspelo, žal. Zmenimo se za drugič.</item>
     </string-array>
-    <string name="quick_response_custom_msg">Napišite lastno besedilo …</string>
+    <string name="quick_response_custom_msg">Napišite lastno \u2026</string>
     <string name="event_info_organizer">Organizator:</string>
     <string name="event_info_reminders_label">Opomniki</string>
     <string name="agenda_today">Danes, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="agenda_yesterday">Včeraj, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="agenda_tomorrow">Jutri, <xliff:g id="date">%1$s</xliff:g></string>
-    <string name="loading">Nalaganje …</string>
-    <string name="show_older_events">Dotaknite se, da prikažete dogodke pred <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
-    <string name="show_newer_events">Dotaknite se, če si želite ogledati dogodke po <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
+    <string name="loading">Nalaganje \u2026</string>
+    <string name="show_older_events">Dotaknite se za prikaz dogodkov pred <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
+    <string name="show_newer_events">Dotaknite se za prikaz dogodkov po <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
     <string name="search_title">Išči v mojih koledarjih</string>
     <string name="edit_event_label">"Podrobnosti"</string>
-    <string name="edit_label">"Urejanje"</string>
+    <string name="edit_label">"Uredi"</string>
     <string name="delete_label">"Izbriši"</string>
     <string name="save_label">Dokončano</string>
     <string name="discard_label">Prekliči</string>
     <string name="dismiss_all_label">"Opusti vse"</string>
     <string name="snooze_label">"Dremež"</string>
     <string name="does_not_repeat">Enkraten dogodek</string>
-    <string name="endByDate">– do <xliff:g id="DATE">%s</xliff:g></string>
+    <string name="endByDate">; do <xliff:g id="date">%s</xliff:g></string>
     <plurals name="endByCount">
-        <item quantity="one">– enkrat</item>
-        <item quantity="two">– tolikokrat: <xliff:g id="NUMBER">%d</xliff:g></item>
-        <item quantity="few">– tolikokrat: <xliff:g id="NUMBER">%d</xliff:g></item>
-        <item quantity="other">– tolikokrat: <xliff:g id="NUMBER">%d</xliff:g></item>
+        <item quantity="one">; enkrat</item>
+        <item quantity="two">; <xliff:g id="number">%d</xliff:g>-krat</item>
+        <item quantity="few">; <xliff:g id="number">%d</xliff:g>-krat</item>
+        <item quantity="other">; <xliff:g id="number">%d</xliff:g>-krat</item>
     </plurals>
     <plurals name="daily">
         <item quantity="one">Dnevno</item>
-        <item quantity="two">Vsakih toliko dni: <xliff:g id="NUMBER">%d</xliff:g></item>
-        <item quantity="few">Vsakih toliko dni: <xliff:g id="NUMBER">%d</xliff:g></item>
-        <item quantity="other">Vsakih toliko dni: <xliff:g id="NUMBER">%d</xliff:g></item>
+        <item quantity="two">Vsaka <xliff:g id="number">%d</xliff:g> dni</item>
+        <item quantity="few">Vsake <xliff:g id="number">%d</xliff:g> dni</item>
+        <item quantity="other">Vsakih <xliff:g id="number">%d</xliff:g> dni</item>
     </plurals>
-    <string name="every_weekday">"Vsak delovni dan (pon–pet)"</string>
+    <string name="every_weekday">"Vsak delovnik (pon\u2013pet)"</string>
     <plurals name="weekly">
-        <item quantity="one">Tedensko: <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
-        <item quantity="two"><xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g> – na vsakih toliko tednov: <xliff:g id="NUMBER">%1$d</xliff:g></item>
-        <item quantity="few"><xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g> – na vsakih toliko tednov: <xliff:g id="NUMBER">%1$d</xliff:g></item>
-        <item quantity="other"><xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g> – na vsakih toliko tednov: <xliff:g id="NUMBER">%1$d</xliff:g></item>
+        <item quantity="one"><xliff:g id="days_of_week">%2$s</xliff:g>, tedensko</item>
+        <item quantity="two"><xliff:g id="days_of_week">%2$s</xliff:g>, vsaka <xliff:g id="number">%1$d</xliff:g> tedna</item>
+        <item quantity="few"><xliff:g id="days_of_week">%2$s</xliff:g>, vsake <xliff:g id="number">%1$d</xliff:g> tedne</item>
+        <item quantity="other"><xliff:g id="days_of_week">%2$s</xliff:g>, vsakih <xliff:g id="number">%1$d</xliff:g> tednov</item>
     </plurals>
     <string name="monthly">Mesečno</string>
     <string name="yearly_plain">Letno</string>
-    <string name="custom" product="default">"Po meri (prilagajanje ni mogoče v telefonu)"</string>
+    <string name="custom" product="default">"Po meri (ni mogoče prilagoditi na telefonu)"</string>
     <string name="modify_event">Spremeni samo ta dogodek</string>
     <string name="modify_all">Spremeni vse dogodke v nizu</string>
     <string name="modify_all_following">Spremeni tega in vse prihodnje dogodke</string>
     <string name="new_event_dialog_label">"Nov dogodek"</string>
     <string name="new_event_dialog_option">"Nov dogodek"</string>
-    <string name="delete_this_event_title">Želite izbrisati ta dogodek?</string>
-    <string name="delete_recurring_event_title">Želite izbrisati <xliff:g id="EVENTTITLE">%s</xliff:g>?</string>
+    <string name="delete_this_event_title">Izbriši ta dogodek?</string>
+    <string name="delete_recurring_event_title">Izbriši <xliff:g id="eventtitle">%s</xliff:g>?</string>
     <string name="change_response_title">Spremeni odziv</string>
     <string name="preferences_title">"Nastavitve"</string>
     <string name="preferences_general_title">Nastavitev pogleda koledarja</string>
@@ -221,7 +222,7 @@
     <string name="preferences_default_reminder_default">10</string>
     <string name="preferences_use_home_tz_title">Uporabi domači časovni pas</string>
     <string name="preferences_use_home_tz_descrip">Prikaže koledarje in čas dogodkov v vašem domačem časovnem pasu, ko potujete</string>
-    <string name="preferences_home_tz_title">Domač časovni pas</string>
+    <string name="preferences_home_tz_title">Domači časovni pas</string>
     <string name="preferences_show_week_num_title">Pokaži številko tedna</string>
     <string name="preferences_alerts_custom_snooze_delay_title">Vprašaj za zakasnitev dremeža opomnika</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">Vprašaj za zakasnitev dremeža ob dremežu opomnikov</string>
@@ -238,23 +239,23 @@
     <string name="source_code">Izvorna koda</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
-        <item quantity="two">+ <xliff:g id="NUMBER">%d</xliff:g></item>
-        <item quantity="few">+ <xliff:g id="NUMBER">%d</xliff:g></item>
-        <item quantity="other">+ <xliff:g id="NUMBER">%d</xliff:g></item>
+        <item quantity="two">+<xliff:g id="number">%d</xliff:g></item>
+        <item quantity="few">+<xliff:g id="number">%d</xliff:g></item>
+        <item quantity="other">+<xliff:g id="number">%d</xliff:g></item>
     </plurals>
     <string name="gadget_no_events">Ni prihajajočih dogodkov v koledarju</string>
-    <string name="preferences_experimental_category">Poskusne</string>
+    <string name="preferences_experimental_category">Poskusno</string>
     <string name="preferences_reminders_responded_label">Preskoči opomnike</string>
     <string name="preferences_reminders_responded_dialog">Preskoči opomnike</string>
     <string name="copy_db">Pošlji zbirko podatkov</string>
-    <string name="directory_searching_fmt">Iskanje <xliff:g id="DOMAIN">%s</xliff:g> ...</string>
+    <string name="directory_searching_fmt">Iskanje <xliff:g id="domain">%s</xliff:g> \u2026</string>
     <string name="accessibility_remove_attendee">Odstrani udeleženca</string>
     <string name="accessibility_pick_start_date">Datum začetka</string>
     <string name="accessibility_pick_start_time">Čas začetka</string>
     <string name="accessibility_pick_end_date">Datum zaključka</string>
     <string name="accessibility_pick_end_time">Čas zaključka</string>
     <string name="accessibility_pick_time_zone">Časovni pas</string>
-    <string name="accessibility_pick_recurrence">Ponavljajoč se dogodek</string>
+    <string name="accessibility_pick_recurrence">Ponovi dogodek</string>
     <string name="accessibility_add_reminder">Dodaj opomnik</string>
     <string name="accessibility_remove_reminder">Odstrani opomnik</string>
     <string name="accessibility_add_attendee">Dodaj udeleženca</string>
@@ -267,55 +268,55 @@
     <string name="template_announce_item_index">Dogodek <xliff:g id="ITEM_INDEX">%1$s</xliff:g> od <xliff:g id="ITEM_COUNT">%2$s</xliff:g>.</string>
     <plurals name="Nevents">
         <item quantity="one">1 dogodek</item>
-        <item quantity="two">Št. dogodkov: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="few">Št. dogodkov: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="other">Št. dogodkov: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> dogodka</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g>je dogodki</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> dogodkov</item>
     </plurals>
     <plurals name="N_remaining_events">
-        <item quantity="one">Še 1 dogodek</item>
-        <item quantity="two">Še toliko dogodkov: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="few">Še toliko dogodkov: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="other">Še toliko dogodkov: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="one">+1 dogodek</item>
+        <item quantity="two">+<xliff:g id="count">%d</xliff:g> dogodka</item>
+        <item quantity="few">+<xliff:g id="count">%d</xliff:g> dogodki</item>
+        <item quantity="other">+<xliff:g id="count">%d</xliff:g> dogodkov</item>
     </plurals>
     <string name="acessibility_selected_marker_description">Izbrani dogodek</string>
     <plurals name="recurrence_interval_daily">
-        <item quantity="one">Vsakih toliko dni: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="two">Vsakih toliko dni: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="few">Vsakih toliko dni: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="other">Vsakih toliko dni: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="one">Vsak <xliff:g id="count">%d</xliff:g> dan</item>
+        <item quantity="two">Vsaka <xliff:g id="count">%d</xliff:g> dni</item>
+        <item quantity="few">Vsake <xliff:g id="count">%d</xliff:g> dni</item>
+        <item quantity="other">Vsakih <xliff:g id="count">%d</xliff:g> dni</item>
     </plurals>
     <plurals name="recurrence_interval_weekly">
-        <item quantity="one">Vsakih toliko tednov: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="two">Vsakih toliko tednov: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="few">Vsakih toliko tednov: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="other">Vsakih toliko tednov: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="one">Vsak <xliff:g id="count">%d</xliff:g> teden</item>
+        <item quantity="two">Vsaka <xliff:g id="count">%d</xliff:g> tedna</item>
+        <item quantity="few">Vsake <xliff:g id="count">%d</xliff:g> tedne</item>
+        <item quantity="other">Vsakih <xliff:g id="count">%d</xliff:g> tednov</item>
     </plurals>
     <plurals name="recurrence_interval_monthly">
-        <item quantity="one">Vsakih toliko mesecev: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="two">Vsakih toliko mesecev: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="few">Vsakih toliko mesecev: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="other">Vsakih toliko mesecev: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="one">Vsak <xliff:g id="count">%d</xliff:g> mesec</item>
+        <item quantity="two">Vsaka <xliff:g id="count">%d</xliff:g> meseca</item>
+        <item quantity="few">Vsake <xliff:g id="count">%d</xliff:g> mesece</item>
+        <item quantity="other">Vsakih <xliff:g id="count">%d</xliff:g> mesecev</item>
     </plurals>
     <plurals name="recurrence_interval_yearly">
-        <item quantity="one">Vsakih toliko let: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="two">Vsakih toliko let: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="few">Vsakih toliko let: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="other">Vsakih toliko let: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="one">Vsako <xliff:g id="count">%d</xliff:g> leto</item>
+        <item quantity="two">Vsaki <xliff:g id="count">%d</xliff:g> leti</item>
+        <item quantity="few">Vsake <xliff:g id="count">%d</xliff:g> leta</item>
+        <item quantity="other">Vsakih <xliff:g id="count">%d</xliff:g> let</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">istega dne vsak mesec</string>
     <string name="recurrence_end_continously">Za vedno</string>
     <string name="recurrence_end_date_label">Do datuma</string>
     <string name="recurrence_end_date">Do <xliff:g id="DATE">%s</xliff:g></string>
-    <string name="recurrence_end_count_label">Za določeno št. dogodkov</string>
+    <string name="recurrence_end_count_label">Za število dogodkov</string>
     <plurals name="recurrence_end_count">
-        <item quantity="one">Za toliko dogodkov: <xliff:g id="EVENT_COUNT">%d</xliff:g></item>
-        <item quantity="two">Za toliko dogodkov: <xliff:g id="EVENT_COUNT">%d</xliff:g></item>
-        <item quantity="few">Za toliko dogodkov: <xliff:g id="EVENT_COUNT">%d</xliff:g></item>
-        <item quantity="other">Za toliko dogodkov: <xliff:g id="EVENT_COUNT">%d</xliff:g></item>
+        <item quantity="one">Za <xliff:g id="event_count">%d</xliff:g> dogodek</item>
+        <item quantity="two">Za <xliff:g id="event_count">%d</xliff:g> dogodka</item>
+        <item quantity="few">Za <xliff:g id="event_count">%d</xliff:g> dogodke</item>
+        <item quantity="other">Za <xliff:g id="event_count">%d</xliff:g> dogodkov</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">sprememba končnega datuma</string>
     <string name="user_rejected_calendar_write_permission">Koledar zahteva dovoljenje za branje in pisanje koledarja za pravilno delovanje. Poskusite znova.</string>
-    <string name="calendar_permission_not_granted">Zahtevana dovoljenja so bila zavrnjena,  za urejanje dogodkov jih omogočite aplikaciji Nastavitve</string>
+    <string name="calendar_permission_not_granted">Zahtevana dovoljenja so bila zavrnjena,  omogočite jih v aplikaciji Nastavitve za urejanje dogodkov</string>
     <string name="visibility_default">Privzeto</string>
     <string name="visibility_confidential">Zaupno</string>
     <string name="visibility_private">Zasebno</string>

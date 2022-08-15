@@ -42,6 +42,7 @@
         <item quantity="one">Selmana <xliff:g id="count">%d</xliff:g></item>
         <item quantity="other">Selmana <xliff:g id="count">%d</xliff:g></item>
     </plurals>
+    <string name="calendar_refresh">"Anovar"</string>
     <string name="agenda_view">"Axenda"</string>
     <string name="day_view">"Día"</string>
     <string name="week_view">"Selmana"</string>
@@ -174,6 +175,7 @@
     <string name="preferences_list_add_offline_button">Amestar</string>
     <string name="preferences_list_add_offline_name">Nome</string>
     <string name="preferences_list_add_offline_cancel">Encaboxar</string>
+    <string name="preferences_menu_about">Tocante a Calendariu</string>
     <string name="offline_account_name">Calendariu llocal</string>
     <string name="after_start_of_event">darréu de comenzar l\'eventu</string>
 </resources>

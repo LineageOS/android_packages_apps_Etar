@@ -56,6 +56,7 @@
     <string name="goto_today">"Ma"</string>
     <string name="goto_date">Ugrás ide\u2026</string>
     <string name="menu_preferences">"Beállítások"</string>
+    <string name="menu_info">Információ</string>
     <string name="search">"Keresés"</string>
     <string name="hide_controls">"Vezérlők elrejtése"</string>
     <string name="show_controls">"Vezérlők megjelenít."</string>
