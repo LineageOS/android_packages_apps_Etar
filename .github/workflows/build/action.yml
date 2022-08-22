@@ -1,0 +1,21 @@
+name: build
+
+runs:
+    using: composite
+
+    steps:
+    - name: Setup JDK 17
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'zulu'
+        java-version: 17
+        cache: 'gradle'
+
+    - name: Generate Android.bp
+      shell: bash
+      run: |
+        ./gradlew app:generateBp
+        if [[ ! -z $(git status -s) ]]; then
+          git status
+          exit -1
+        fi
