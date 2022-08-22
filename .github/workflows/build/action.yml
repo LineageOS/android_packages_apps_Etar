@@ -1,0 +1,43 @@
+name: build
+
+runs:
+    using: composite
+
+    steps:
+    - name: Setup JDK 17
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'zulu'
+        java-version: 17
+        cache: 'gradle'
+
+    - name: Build with Gradle
+      shell: bash
+      run: |
+        sed -i 's/package="org.lineageos.etar"/package="ws.xsoh.etar"/' app/src/main/AndroidManifest.xml
+        ./gradlew assembleDebug
+        sed -i 's/package="ws.xsoh.etar"/package="org.lineageos.etar"/' app/src/main/AndroidManifest.xml
+
+    - name: Generate Android.bp
+      shell: bash
+      run: |
+        ./gradlew app:generateBp
+        if [[ ! -z $(git status -s) ]]; then
+          git status
+          exit -1
+        fi
+
+    - name: Generate databinding
+      shell: bash
+      run: |
+        rm -rf app/src_aosp/main/java/ws/xsoh/etar/databinding
+        cp -R app/build/generated/data_binding_base_class_source_out/debug/out/ws/xsoh/etar/databinding app/src_aosp/main/java/ws/xsoh/etar/databinding
+        if [[ ! -z $(git status -s) ]]; then
+          git status
+          exit -1
+        fi
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: app-debug.apk
+        path: app/build/outputs/apk/debug/app-debug.apk
