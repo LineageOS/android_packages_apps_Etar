@@ -16,6 +16,24 @@
       "message": "why don\u0027t we just remove the compilesdk? it will default to the current one in the tree anyway, and it\u0027ll never be built out of tree i suspect?",
       "revId": "b7d42e916a4347a6ec2c0292cb3f9c88e0275c1b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b07de733_ecf67052",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2022-08-23T06:14:08Z",
+      "side": 1,
+      "message": "Please feel free to send an MR to https://github.com/Etar-Group/Etar-Calendar for the suggested change. The current chain has been already merged upstream. I won\u0027t be doing any changes here.",
+      "parentUuid": "a2cf9b66_84bb8d86",
+      "revId": "b7d42e916a4347a6ec2c0292cb3f9c88e0275c1b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
