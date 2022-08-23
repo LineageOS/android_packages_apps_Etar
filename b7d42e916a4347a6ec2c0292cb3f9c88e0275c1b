@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2cf9b66_84bb8d86",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2022-08-23T06:10:39Z",
+      "side": 1,
+      "message": "why don\u0027t we just remove the compilesdk? it will default to the current one in the tree anyway, and it\u0027ll never be built out of tree i suspect?",
+      "revId": "b7d42e916a4347a6ec2c0292cb3f9c88e0275c1b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
