@@ -61,6 +61,7 @@
     <string name="goto_today">"Heute"</string>
     <string name="goto_date">Gehe zu\u2026</string>
     <string name="menu_preferences">"Einstellungen"</string>
+    <string name="menu_info">Information</string>
     <string name="search">"Suche"</string>
     <string name="hide_controls">"Steuerelemente aus"</string>
     <string name="show_controls">"Steuerelemente ein"</string>
