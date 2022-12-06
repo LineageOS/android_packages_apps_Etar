@@ -41,6 +41,8 @@ android_app {
         "org.lineageos.etar",
     ],
 
+    kotlincflags: ["-Xjvm-default=enable"],
+
     required: [
         "org.lineageos.etar.allowlist"
     ],
