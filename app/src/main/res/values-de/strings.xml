@@ -136,6 +136,7 @@
     <string name="edit_event_label">"Details"</string>
     <string name="edit_label">"Bearbeiten"</string>
     <string name="delete_label">"Löschen"</string>
+    <string name="duplicate_label">Duplizieren</string>
     <string name="save_label">Fertig</string>
     <string name="discard_label">Abbrechen</string>
     <string name="dismiss_all_label">"Alle schließen"</string>

@@ -136,6 +136,7 @@
     <string name="edit_event_label">"Detajet"</string>
     <string name="edit_label">"Redakto"</string>
     <string name="delete_label">"Fshije"</string>
+    <string name="duplicate_label">Dyfisho</string>
     <string name="save_label">U krye!</string>
     <string name="discard_label">Anullo</string>
     <string name="dismiss_all_label">"Hiqi të gjitha"</string>

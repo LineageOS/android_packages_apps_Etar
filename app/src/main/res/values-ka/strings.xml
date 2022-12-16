@@ -136,6 +136,7 @@
     <string name="edit_event_label">"ვრცლად"</string>
     <string name="edit_label">"ჩასწორება"</string>
     <string name="delete_label">"წაშლა"</string>
+    <string name="duplicate_label">გაორკეცება</string>
     <string name="save_label">მზადაა</string>
     <string name="discard_label">გაუქმება</string>
     <string name="dismiss_all_label">"ყველას აცილება"</string>

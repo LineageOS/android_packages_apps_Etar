@@ -148,6 +148,7 @@
     <string name="edit_event_label">"Сведения"</string>
     <string name="edit_label">"Изменить"</string>
     <string name="delete_label">"Удалить"</string>
+    <string name="duplicate_label">Дублировать</string>
     <string name="save_label">Готово</string>
     <string name="discard_label">Отмена</string>
     <string name="dismiss_all_label">"Удалить все"</string>

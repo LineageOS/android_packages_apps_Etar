@@ -130,6 +130,7 @@
     <string name="edit_event_label">"详细信息"</string>
     <string name="edit_label">"编辑"</string>
     <string name="delete_label">"删除"</string>
+    <string name="duplicate_label">复制</string>
     <string name="save_label">完成</string>
     <string name="discard_label">取消</string>
     <string name="dismiss_all_label">"全部关闭"</string>

@@ -136,6 +136,7 @@
     <string name="edit_event_label">"Detalls"</string>
     <string name="edit_label">"Edita"</string>
     <string name="delete_label">"Suprimeix"</string>
+    <string name="duplicate_label">Duplica</string>
     <string name="save_label">Fet</string>
     <string name="discard_label">Cancel·la</string>
     <string name="dismiss_all_label">"Omet-les totes"</string>

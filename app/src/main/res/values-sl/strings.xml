@@ -148,6 +148,7 @@
     <string name="edit_event_label">"Podrobnosti"</string>
     <string name="edit_label">"Uredi"</string>
     <string name="delete_label">"Izbriši"</string>
+    <string name="duplicate_label">Podvoji</string>
     <string name="save_label">Dokončano</string>
     <string name="discard_label">Prekliči</string>
     <string name="dismiss_all_label">"Opusti vse"</string>

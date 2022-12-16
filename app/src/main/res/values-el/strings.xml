@@ -136,6 +136,7 @@
     <string name="edit_event_label">"Λεπτομέρειες"</string>
     <string name="edit_label">"Επεξ/σία"</string>
     <string name="delete_label">"Διαγραφή"</string>
+    <string name="duplicate_label">Δημιουργία διπλότυπου</string>
     <string name="save_label">Ολοκληρώθηκε</string>
     <string name="discard_label">Ακύρωση</string>
     <string name="dismiss_all_label">"Παράβλεψη όλων"</string>
