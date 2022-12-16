@@ -136,6 +136,7 @@
     <string name="edit_event_label">"Detallar"</string>
     <string name="edit_label">"Redaktə et"</string>
     <string name="delete_label">"Sil"</string>
+    <string name="duplicate_label">Dublikat</string>
     <string name="save_label">Bitdi</string>
     <string name="discard_label">Ləğv et</string>
     <string name="dismiss_all_label">"Hamısını kənarlaşdır"</string>

@@ -142,6 +142,7 @@
     <string name="edit_event_label">"Detalii"</string>
     <string name="edit_label">"Editaţi"</string>
     <string name="delete_label">"Ștergeţi"</string>
+    <string name="duplicate_label">Duplicare</string>
     <string name="save_label">Terminat</string>
     <string name="discard_label">Anulați</string>
     <string name="dismiss_all_label">"Renunţaţi la toate"</string>

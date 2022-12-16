@@ -130,6 +130,7 @@
     <string name="edit_event_label">"詳細"</string>
     <string name="edit_label">"編集"</string>
     <string name="delete_label">"削除"</string>
+    <string name="duplicate_label">複製</string>
     <string name="save_label">完了</string>
     <string name="discard_label">キャンセル</string>
     <string name="dismiss_all_label">"通知を消去"</string>
