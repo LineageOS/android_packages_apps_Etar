@@ -18,6 +18,7 @@
 */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="ws.xsoh.etar"
     android:installLocation="auto">
 
@@ -211,6 +212,12 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths"/>
         </provider>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="org.lineageos.etar.androidx-startup"
+            android:exported="false"
+            tools:replace="android:authorities" />
 
         <provider android:name="com.android.calendar.CalendarRecentSuggestionsProvider"
             android:exported="false"
