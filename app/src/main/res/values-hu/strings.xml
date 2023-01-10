@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Holnap <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Nincs cím)</string>
+    <string name="no_reminder_label">Egy sem</string>
     <plurals name="Nminutes">
         <item quantity="one">1 perc</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> perc</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 nap</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> nap</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 hét</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> hét</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one"><xliff:g id="count">%d</xliff:g>. hét</item>
@@ -76,6 +81,9 @@
     <string name="rsvp_declined">"Nemmel válaszolt."</string>
     <string name="create_event_dialog_save">Mentés</string>
     <string name="alert_title">Naptár értesítései</string>
+    <string name="foreground_notification_title">Új emlékeztetők ütemezése…</string>
+    <string name="foreground_notification_channel_name">Háttérfeladatok</string>
+    <string name="foreground_notification_channel_description">A belső szinkronizációhoz értesítések szükségesek.  Ezt a csatornát nyugodtan elrejtheti.</string>
     <string name="event_info_title">Esemény megtekintése</string>
     <string name="event_info_title_invite">Meghívás találkozóra</string>
     <string name="edit_event_all_day_label">Egész nap</string>
@@ -128,6 +136,7 @@
     <string name="edit_event_label">"Részletek"</string>
     <string name="edit_label">"Szerkeszt"</string>
     <string name="delete_label">"Törlés"</string>
+    <string name="duplicate_label">Megkettőzés</string>
     <string name="save_label">Kész</string>
     <string name="discard_label">Mégse</string>
     <string name="dismiss_all_label">"Az összes törlése"</string>
@@ -169,6 +178,7 @@
     <string name="preferences_black_theme">Fekete</string>
     <string name="preferences_color">Elsődleges szín</string>
     <string name="preferences_color_pick">Elsődleges szín</string>
+    <string name="preferences_real_event_colors">Használjon valós eseményszíneket</string>
     <string name="preferences_pure_black_night_mode">Tiszta Fekete éjszakai mód</string>
     <string name="preferences_reminder_title">Értesítések és emlékeztetők</string>
     <string name="preferences_hide_declined_title">Elutasított események elrejtése</string>
@@ -335,4 +345,5 @@
     <string name="preferences_list_add_offline_cancel">Mégse</string>
     <string name="preferences_menu_about">A Naptárról</string>
     <string name="offline_account_name">Offline Naptár</string>
+    <string name="after_start_of_event">az esemény kezdete után</string>
 </resources>

@@ -55,6 +55,7 @@
     <string name="goto_today">"오늘"</string>
     <string name="goto_date">특정 날짜로 이동\u2026</string>
     <string name="menu_preferences">"설정"</string>
+    <string name="menu_info">정보</string>
     <string name="search">"검색"</string>
     <string name="hide_controls">"컨트롤 숨기기"</string>
     <string name="show_controls">"컨트롤 표시"</string>
@@ -129,6 +130,7 @@
     <string name="edit_event_label">"세부정보"</string>
     <string name="edit_label">"수정"</string>
     <string name="delete_label">"삭제"</string>
+    <string name="duplicate_label">복제</string>
     <string name="save_label">완료</string>
     <string name="discard_label">취소</string>
     <string name="dismiss_all_label">"모두 해제"</string>

@@ -127,6 +127,7 @@
     <string name="edit_event_label">"Üksikasjad"</string>
     <string name="edit_label">"Muutmine"</string>
     <string name="delete_label">"Kustuta"</string>
+    <string name="duplicate_label">Loo koopia</string>
     <string name="save_label">Valmis</string>
     <string name="discard_label">Tühista</string>
     <string name="dismiss_all_label">"Loobu kõigist"</string>

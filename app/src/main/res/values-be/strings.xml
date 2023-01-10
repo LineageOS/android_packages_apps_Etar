@@ -14,8 +14,24 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="Nweeks">
+        <item quantity="one">1 тыдзень</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> тыдні</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> тыдняў</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> тыдні</item>
+    </plurals>
     <string name="share_label">Абагуліць</string>
+    <string name="email_guests_label">Напісаць гасцям</string>
+    <string name="email_organizer_label">Напісаць арганізатару</string>
+    <string name="quick_response_settings_summary">Рэдагаваць прадвызначаныя адказы пры адпраўцы гасцям на электронную пошту</string>
     <string name="discard_label">Скасаваць</string>
+    <string name="dismiss_all_label">"Адхіліць усе"</string>
+    <string name="custom" product="default">"Карыстальніцкае (нельга наладзіць на тэлефоне)"</string>
+    <string name="preferences_default_reminder_title">Прадвызначаны час напаміну</string>
+    <string name="preferences_default_reminder_dialog">Прадвызначаны час напаміну</string>
+    <string name="preferences_use_home_tz_descrip">Паказваць календары і час падзеі ў мясцовым часавым поясе падчас падарожжа</string>
+    <string name="accessibility_pick_end_date">Дата завяршэння</string>
+    <string name="accessibility_pick_end_time">Час завяршэння</string>
     <string name="error_generating_ics">Не атрымалася адправіць падзею</string>
     <string name="cal_share_intent_title">Адправіць падзею:</string>
 </resources>
