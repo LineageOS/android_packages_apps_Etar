@@ -61,6 +61,7 @@
     <string name="goto_today">"I dag"</string>
     <string name="goto_date">Gå til\u2026</string>
     <string name="menu_preferences">"Indstillinger"</string>
+    <string name="menu_info">Info</string>
     <string name="search">"Søg"</string>
     <string name="hide_controls">"Skjul knapper"</string>
     <string name="show_controls">"Vis knapper"</string>
@@ -209,7 +210,14 @@
     <string name="preferences_alerts_custom_snooze_delay_summary_off">Brug altid standard-udsættelses tid</string>
     <string name="snooze_delay_dialog_title">Sæt udsættelses tid</string>
     <string name="preferences_default_snooze_delay_title">Standard udsættelses tid</string>
+    <string name="preferences_default_snooze_delay_dialog">Standard udsættelse af udskydelse</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Etar Projekt. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> Android Open Source Projekt.</string>
+    <string name="authors">Forfattere</string>
+    <string name="changelog">Ændringslog</string>
+    <string name="license">Licens</string>
     <string name="preferences_build_version">Version</string>
+    <string name="preferences_issues">Rapportér problemer</string>
+    <string name="source_code">Kilde</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
@@ -272,6 +280,23 @@
         <item quantity="other">For <xliff:g id="EVENT_COUNT">%d</xliff:g> begivenheder</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">skift slutdato</string>
+    <string name="visibility_default">Standard</string>
+    <string name="visibility_confidential">Fortroligt</string>
+    <string name="visibility_private">Privat</string>
+    <string name="visibility_public">Offentlig</string>
+    <string name="two_days">2 dage</string>
+    <string name="three_days">3 dage</string>
+    <string name="four_days">4 dage</string>
+    <string name="five_days">5 dage</string>
+    <string name="six_days">6 dage</string>
+    <string name="seven_days">7 dage</string>
+    <string name="zero_minutes">0 minutter</string>
+    <string name="fifteen_minutes">15 minutter</string>
+    <string name="thirty_minutes">30 minutter</string>
+    <string name="one_hour">1 time</string>
+    <string name="one_and_a_half_hours">1,5 timer</string>
+    <string name="two_hours">2 timer</string>
+    <string name="cal_export_event_sdcard_title">Eksportér til SD-kort</string>
     <string name="preferences_calendar_account">%1$s konto</string>
     <string name="preferences_calendar_account_local">Offline kalender</string>
     <string name="preferences_calendar_configure_account">Konfigurer kalender i %1$s</string>
