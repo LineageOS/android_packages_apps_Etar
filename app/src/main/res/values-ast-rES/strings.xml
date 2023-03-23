@@ -49,7 +49,7 @@
     <string name="month_view">"Mes"</string>
     <string name="event_create">"Eventu nuevu"</string>
     <string name="goto_today">"Güei"</string>
-    <string name="menu_preferences">"Axustes"</string>
+    <string name="menu_preferences">"Configuración"</string>
     <string name="search">"Buscar"</string>
     <string name="hint_what">"Nome del eventu"</string>
     <string name="hint_where">"Llocalización"</string>
@@ -84,6 +84,7 @@
     <string name="edit_event_label">"Detalles"</string>
     <string name="edit_label">"Editar"</string>
     <string name="delete_label">"Desaniciar"</string>
+    <string name="duplicate_label">Duplicar</string>
     <string name="save_label">Fecho</string>
     <string name="discard_label">Encaboxar</string>
     <string name="dismiss_all_label">"Escartar too"</string>
@@ -98,7 +99,7 @@
     <string name="new_event_dialog_option">"Eventu nuevu"</string>
     <string name="delete_this_event_title">¿Quies desaniciar esti eventu?</string>
     <string name="delete_recurring_event_title">¿Quies desaniciar «<xliff:g id="eventtitlte">%s</xliff:g>»?</string>
-    <string name="preferences_title">"Axustes"</string>
+    <string name="preferences_title">"Configuración"</string>
     <string name="preferences_theme">Estilu</string>
     <string name="preferences_system_theme">Lo predeterminao del sistema</string>
     <string name="preferences_light_theme">Claridá</string>
@@ -110,7 +111,7 @@
     <string name="preferences_reminder_title">Avisos y recordatorios</string>
     <string name="default_start_title">Vista predeterminada</string>
     <string name="preferences_days_per_week_title">Díes per semana</string>
-    <string name="preferences_days_per_week_dialog">Díes per semana</string>
+    <string name="preferences_days_per_week_dialog">Díes per selmana</string>
     <string name="preferences_default_event_duration_title">Duración predeterminada de los eventos</string>
     <string name="preferences_clear_search_history_summary">Quita toles busques que ficieres</string>
     <string name="preferences_alerts_title">Avisos</string>
@@ -167,7 +168,7 @@
     <string name="preferences_calendar_delete_message">¿De xuru que quies desaniciar esti calendariu?</string>
     <string name="preferences_calendar_delete_delete">Desanicialu</string>
     <string name="preferences_calendar_delete_cancel">Encaboxar</string>
-    <string name="preferences_list_general">Axustes xenerales</string>
+    <string name="preferences_list_general">Configuración xeneral</string>
     <string name="preferences_list_add_remote">Amestar un calendariu de CalDAV</string>
     <string name="preferences_list_add_remote_etesync">Amestar un calendariu d\'EteSync</string>
     <string name="preferences_list_add_offline">Amestar un calendariu llocal</string>

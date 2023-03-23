@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Yfory am <xliff:g id="time_interval">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Dim teitl)</string>
+    <string name="no_reminder_label">Dim</string>
     <plurals name="Nminutes">
         <item quantity="zero"><xliff:g id="count">%d</xliff:g> munudau</item>
         <item quantity="one">1 munud</item>
@@ -54,6 +55,14 @@
         <item quantity="many"><xliff:g id="count">%d</xliff:g> diwrnod</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> diwrnod</item>
     </plurals>
+    <plurals name="Nweeks">
+        <item quantity="zero"><xliff:g id="count">%d</xliff:g> wythnosau</item>
+        <item quantity="one">1 wythnos</item>
+        <item quantity="two"><xliff:g id="count">%d</xliff:g> wythnos</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> wythnos</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> wythnos</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> wythnos</item>
+    </plurals>
     <plurals name="weekN">
         <item quantity="zero">Wythnos <xliff:g id="count">%d</xliff:g></item>
         <item quantity="one">Wythnos <xliff:g id="count">%d</xliff:g></item>
@@ -76,6 +85,7 @@
     <string name="goto_today">"Heddiw"</string>
     <string name="goto_date">Mynd i\u2026</string>
     <string name="menu_preferences">"Gosodiadau"</string>
+    <string name="menu_info">Gwybodaeth</string>
     <string name="search">"Chwilio"</string>
     <string name="hide_controls">"Cuddio rheolaeth"</string>
     <string name="show_controls">"Dangos rheolaeth"</string>
@@ -95,6 +105,9 @@
     <string name="rsvp_declined">"Wedi ymateb 'na'."</string>
     <string name="create_event_dialog_save">Cadw</string>
     <string name="alert_title">Hysbysiadau Calendr</string>
+    <string name="foreground_notification_title">Yn trefnu negeseuon atgoffa newyd…</string>
+    <string name="foreground_notification_channel_name">Tasgau cefndir</string>
+    <string name="foreground_notification_channel_description">Mae angen hysbysiadau ar gyfer cysoni mewnol. Gellir cuddio\'r sianel hon yn ddiogel.</string>
     <string name="event_info_title">Gweld y digwyddiad</string>
     <string name="event_info_title_invite">Gwahoddiad cyfarfod</string>
     <string name="edit_event_all_day_label">Trwy\'r dydd</string>
@@ -147,6 +160,7 @@
     <string name="edit_event_label">"Manylion"</string>
     <string name="edit_label">"Golygu"</string>
     <string name="delete_label">"Dileu"</string>
+    <string name="duplicate_label">Dyblygu</string>
     <string name="save_label">Iawn</string>
     <string name="discard_label">Diddymu</string>
     <string name="dismiss_all_label">"Diddymu'r cwbl"</string>
@@ -200,6 +214,7 @@
     <string name="preferences_black_theme">Du</string>
     <string name="preferences_color">Prif liw</string>
     <string name="preferences_color_pick">Prif liw</string>
+    <string name="preferences_real_event_colors">Defnydido lliwiau digwyddiadau go iawn</string>
     <string name="preferences_pure_black_night_mode">Modd nos du pur</string>
     <string name="preferences_reminder_title">Hysbysiadau \u0026 negeseuon atgoffa</string>
     <string name="preferences_hide_declined_title">Cuddio digwyddiadau wedi\'u gwrthod</string>
@@ -398,4 +413,5 @@
     <string name="preferences_list_add_offline_cancel">Diddymu</string>
     <string name="preferences_menu_about">Ynghylch Calendr</string>
     <string name="offline_account_name">Calendr All-lein</string>
+    <string name="after_start_of_event">ar ôl dechrau digwyddiad</string>
 </resources>

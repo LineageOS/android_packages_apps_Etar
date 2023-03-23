@@ -24,6 +24,7 @@
     <string name="email_guests_label">Напісаць гасцям</string>
     <string name="email_organizer_label">Напісаць арганізатару</string>
     <string name="quick_response_settings_summary">Рэдагаваць прадвызначаныя адказы пры адпраўцы гасцям на электронную пошту</string>
+    <string name="duplicate_label">Дубліраваць</string>
     <string name="discard_label">Скасаваць</string>
     <string name="dismiss_all_label">"Адхіліць усе"</string>
     <string name="custom" product="default">"Карыстальніцкае (нельга наладзіць на тэлефоне)"</string>

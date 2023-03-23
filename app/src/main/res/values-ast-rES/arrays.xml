@@ -16,7 +16,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string-array name="reminder_methods_labels">
         <item>Avisu</item>
-        <item>Corréu-e</item>
+        <item>Email</item>
         <item>SMS</item>
         <item>Alarma</item>
     </string-array>

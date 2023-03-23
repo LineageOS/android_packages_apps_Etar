@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Demain, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Sans titre)</string>
+    <string name="no_reminder_label">Aucun</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minute</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minutes</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 jour</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> jours</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 semaine</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> semaines</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Semaine <xliff:g id="COUNT">%d</xliff:g></item>
@@ -56,6 +61,7 @@
     <string name="goto_today">"Aujourd'hui"</string>
     <string name="goto_date">Aller à\u2026</string>
     <string name="menu_preferences">"Paramètres"</string>
+    <string name="menu_info">Informations</string>
     <string name="search">"Rechercher"</string>
     <string name="hide_controls">"Masquer commandes"</string>
     <string name="show_controls">"Afficher commandes"</string>
@@ -75,6 +81,9 @@
     <string name="rsvp_declined">"A répondu \"Non\"."</string>
     <string name="create_event_dialog_save">Enregistrer</string>
     <string name="alert_title">Notifications de l\'agenda</string>
+    <string name="foreground_notification_title">Planification de nouveaux rappels…</string>
+    <string name="foreground_notification_channel_name">Tâches en arrière-plan</string>
+    <string name="foreground_notification_channel_description">Notifications requises pour la synchronisation interne. Vous pouvez masquer ce canal en toute sécurité.</string>
     <string name="event_info_title">Afficher l\'événement</string>
     <string name="event_info_title_invite">Invitation à une réunion</string>
     <string name="edit_event_all_day_label">Journée entière</string>
@@ -127,6 +136,7 @@
     <string name="edit_event_label">"Infos"</string>
     <string name="edit_label">"Modifier"</string>
     <string name="delete_label">"Supprimer"</string>
+    <string name="duplicate_label">Dupliquer</string>
     <string name="save_label">OK</string>
     <string name="discard_label">Annuler</string>
     <string name="dismiss_all_label">"Tout supprimer"</string>
@@ -168,6 +178,7 @@
     <string name="preferences_black_theme">Noir</string>
     <string name="preferences_color">Couleur principale</string>
     <string name="preferences_color_pick">Couleur principale</string>
+    <string name="preferences_real_event_colors">Utiliser les couleurs réelles de l\'événement</string>
     <string name="preferences_pure_black_night_mode">Noir pur pour le mode nuit</string>
     <string name="preferences_reminder_title">Notifications et rappels</string>
     <string name="preferences_hide_declined_title">Masquer événements refusés</string>
@@ -334,4 +345,5 @@
     <string name="preferences_list_add_offline_cancel">Annuler</string>
     <string name="preferences_menu_about">À propos du calendrier</string>
     <string name="offline_account_name">Calendrier hors ligne</string>
+    <string name="after_start_of_event">après le début de l\'événement</string>
 </resources>
