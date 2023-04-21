@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Calendari</string>
+    <string name="when_label">Cuant</string>
+    <string name="today">Vuê</string>
+    <string name="tomorrow">Doman</string>
+    <string name="today_at_time_fmt">"Vuê aes <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"Doman aes <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
+    <string name="no_title_label">(Cence titul)</string>
+    <string name="no_reminder_label">Nissun</string>
+    <plurals name="Nminutes">
+        <item quantity="one">1 minût</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minûts</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="one">1 min</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> min</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="one">1 ore</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> oris</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="one">1 dì</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> dîs</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 setemane</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> setemanis</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Setemane <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Setemane <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="calendar_refresh">"Inzorne"</string>
+    <string name="show_day_view">"Mostre dì"</string>
+    <string name="agenda_view">"Agjende"</string>
+    <string name="day_view">"Dì"</string>
+    <string name="week_view">"Setemane"</string>
+    <string name="month_view">"Mês"</string>
+    <string name="event_view">"Visualize event"</string>
+    <string name="event_create">"Gnûf event"</string>
+    <string name="event_edit">"Modifiche event"</string>
+    <string name="event_delete">"Elimine event"</string>
+    <string name="share_label">Condivît</string>
+    <string name="goto_today">"Vuê"</string>
+    <string name="goto_date">Va a\u2026</string>
+    <string name="menu_preferences">"Impostazions"</string>
+    <string name="menu_info">Informazions</string>
+    <string name="search">"Cîr"</string>
+    <string name="hide_controls">"Plate i controi"</string>
+    <string name="show_controls">"Mostre i controi"</string>
+    <string name="view_settings">"Impostazions viodude"</string>
+    <string name="select_synced_calendars_button">Calendaris di sincronizâ</string>
+    <string name="hint_what">"Non dal event"</string>
+    <string name="hint_where">"Lûc"</string>
+    <string name="hint_description">"Descrizion"</string>
+    <string name="hint_attendees">"Invidâts"</string>
+    <string name="creating_event">"Event creât."</string>
+    <string name="saving_event">"Event salvât."</string>
+    <string name="empty_event">"L'event vueit nol è stât creât."</string>
+    <string name="creating_event_with_guest">"I invîts a vignaran mandâts."</string>
+    <string name="saving_event_with_guest">"I inzornaments a vignaran mandâts."</string>
+    <string name="rsvp_accepted">"Rispuindût \"Sì\"."</string>
+    <string name="rsvp_tentative">"Rispuindût \"Forsit\"."</string>
+    <string name="rsvp_declined">"Rispuindût \"No\"."</string>
+    <string name="create_event_dialog_save">Salve</string>
+    <string name="alert_title">Notifichis dal Calendari</string>
+    <string name="foreground_notification_title">Planificazion di gnûfs pro memoria…</string>
+    <string name="foreground_notification_channel_name">Ativitâts in sotfont</string>
+    <string name="foreground_notification_channel_description">Notifichis necessaris pe sincronizazion interne.Tu puedis platâ cun trancuilitât chest canâl.</string>
+    <string name="event_info_title">Visualize event</string>
+    <string name="event_info_title_invite">Invît a riunion</string>
+    <string name="edit_event_all_day_label">Dut il dì</string>
+    <string name="edit_event_calendar_label">Calendari</string>
+    <string name="presence_label">Mostrimi come</string>
+    <string name="privacy_label">Riservatece</string>
+    <string name="reminders_label">Zonte pro memoria</string>
+    <string name="no_syncable_calendars">Nissun calendari</string>
+    <string name="no_calendars_found">Prime di podê zontâ un event, tu scugnis zontâ almancul un account Calendar al dispositîf e rindi visibil un calendari. Tocje Zonte account par zontâ un account (se tu âs a pene zontât un account, spiete il completament de sincronizazion e torne prove). In alternative, tocje Anule e controle che almancul un calendari al sedi visibil.</string>
+    <string name="add_account">Zonte account</string>
+    <string name="view_event_calendar_label">Calendari:</string>
+    <string name="view_event_organizer_label">Organizadôr:</string>
+    <string name="choose_event_color_label">Sielç il colôr dal event</string>
+    <string name="event_color_picker_dialog_title">Colôr dal event</string>
+    <string name="event_color_set_to_default">Met il colôr di calendari predefinît</string>
+    <string name="calendar_color_picker_dialog_title">Colôr dal calendari</string>
+    <string name="calendar_square_color_picker_description">Seletôr colôrs</string>
+    <string name="view_event_response_label">Partecipistu?</string>
+    <string name="response_yes">Sì</string>
+    <string name="response_maybe">Forsit</string>
+    <string name="response_no">No</string>
+    <string name="email_guests_label">Mande e-mails ai invidâts</string>
+    <string name="email_organizer_label">Mande e-mail al organizadôr</string>
+    <string name="email_picker_label">Mande e-mail cun</string>
+    <string name="event_not_found">"Event no cjatât."</string>
+    <string name="map_label">Mape</string>
+    <string name="no_map">Nissune aplicazion pes mapis instalade</string>
+    <string name="call_label">Clame</string>
+    <string name="quick_response_settings">Rispuestis rapidis</string>
+    <string name="quick_response_settings_summary">Modifiche la rispueste predefinide in câs di e-mails ai invidâts</string>
+    <string name="quick_response_settings_edit_title">Rispueste rapide</string>
+    <string name="quick_response_dialog_title">Sielç la rispueste rapide</string>
+    <string name="quick_response_email_failed">No si à podût cjatâ un program di pueste eletroniche</string>
+    <string-array name="quick_response_defaults">
+        <item>O soi in ritart di cualchi minût.</item>
+        <item>O rivi chi di 10 minûts.</item>
+        <item>Scomence cence di me.</item>
+        <item>Mi displâs, no rivi. O varìn di spostâ l\'apontament.</item>
+    </string-array>
+    <string name="quick_response_custom_msg">Scrîf la tô rispueste personâl\u2026</string>
+    <string name="event_info_organizer">Organizadôr:</string>
+    <string name="event_info_reminders_label">Pro memoria</string>
+    <string name="agenda_today">Vuê, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Îr, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Doman, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="loading">Daûr a cjariâ\u2026</string>
+    <string name="show_older_events">Tocje par visualizâ i events prime di: <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
+    <string name="show_newer_events">Tocje par visualizâ i events dopo di: <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
+    <string name="search_title">Cîr tai miei calendaris</string>
+    <string name="edit_event_label">"Detais"</string>
+    <string name="edit_label">"Modifiche"</string>
+    <string name="delete_label">"Elimine"</string>
+    <string name="duplicate_label">Dupliche</string>
+    <string name="save_label">Salve</string>
+    <string name="discard_label">Anule</string>
+    <string name="dismiss_all_label">"Scarte dut"</string>
+    <string name="snooze_label">"Posticipe"</string>
+    <string name="does_not_repeat">Event ocasionâl</string>
+    <string name="endByDate">; fin ai <xliff:g id="DATE">%s</xliff:g></string>
+    <plurals name="endByCount">
+        <item quantity="one">; par une volte</item>
+        <item quantity="other">; par <xliff:g id="NUMBER">%d</xliff:g> voltis</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="one">Ogni dì</item>
+        <item quantity="other">Ogni <xliff:g id="NUMBER">%d</xliff:g> dîs</item>
+    </plurals>
+    <string name="every_weekday">"Ogni dì de setemane (Lun\u2013Vin)"</string>
+    <plurals name="weekly">
+        <item quantity="one">Ogni setemane di <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+        <item quantity="other">Ogni <xliff:g id="NUMBER">%1$d</xliff:g> setemanis di <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+    </plurals>
+    <string name="monthly">Ogni mês</string>
+    <string name="yearly_plain">Ogni an</string>
+    <string name="custom" product="default">"Personalizât (impussibil personalizâ sul telefon)"</string>
+    <string name="modify_event">Modifiche dome chest event</string>
+    <string name="modify_all">Modifiche ducj i events te serie</string>
+    <string name="modify_all_following">Modifiche chest e ducj i events futûrs</string>
+    <string name="new_event_dialog_label">"Gnûf event"</string>
+    <string name="new_event_dialog_option">"Gnûf event"</string>
+    <string name="delete_this_event_title">Eliminâ chest event?</string>
+    <string name="delete_recurring_event_title">Eliminâ <xliff:g id="EVENTTITLE">%s</xliff:g>?</string>
+    <string name="change_response_title">Cambie rispueste</string>
+    <string name="preferences_title">"Impostazions"</string>
+    <string name="preferences_general_title">Impostazion viodude calendari</string>
+    <string name="preferences_month_view_portrait">Disposizion viodude mês (Verticâl)</string>
+    <string name="preferences_month_view_landscape">Disposizion viodude mês (Orizontâl)</string>
+    <string name="preferences_theme">Teme</string>
+    <string name="preferences_system_theme">Predefinît di sisteme</string>
+    <string name="preferences_light_theme">Clâr</string>
+    <string name="preferences_dark_theme">Scûr</string>
+    <string name="preferences_black_theme">Neri</string>
+    <string name="preferences_color">Colôr primari</string>
+    <string name="preferences_color_pick">Colôr primari</string>
+    <string name="preferences_real_event_colors">Dopre i colôrs dai events reâi</string>
+    <string name="preferences_pure_black_night_mode">modalitât gnot neri pûr</string>
+    <string name="preferences_reminder_title">Notifichis e pro memoria</string>
+    <string name="preferences_hide_declined_title">Plate i events refudâts</string>
+    <string name="default_start_title">Viodude predefinide</string>
+    <string name="display_options">Opzions di visualizazion</string>
+    <string name="display_time">Mostre la ore</string>
+    <string name="display_location">Mostre il lûc</string>
+    <string name="maximum_number_of_lines">Numar massim di riis tal event</string>
+    <string name="default_start_last">Viodude doprade prime</string>
+    <string name="preferences_week_start_day_title">La setemane e tache di</string>
+    <string name="preferences_week_start_day_dialog">La setemane e tache di</string>
+    <string name="preferences_days_per_week_title">Dîs par setemane</string>
+    <string name="preferences_days_per_week_dialog">Dîs par setemane</string>
+    <string name="preferences_default_event_duration_title">Durade predefinide dal event</string>
+    <string name="preferences_clear_search_history_title">Nete la cronologjie des ricercjis</string>
+    <string name="preferences_clear_search_history_summary">Gjave dutis lis ricercjis fatis</string>
+    <string name="search_history_cleared">Cronologjie des ricercjis netade.</string>
+    <string name="preferences_alerts_title">Notifichis</string>
+    <string name="preferences_alerts_vibrateWhen_title">Vibrazion</string>
+    <string name="preferences_alerts_ringtone_title">Sun</string>
+    <string name="preferences_alerts_popup_title">Notifiche a comparse</string>
+    <string name="preferences_default_reminder_title">Pro memoria predefinît</string>
+    <string name="preferences_default_reminder_dialog">Pro memoria predefinît</string>
+    <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">Dopre il fûs orari di cjase</string>
+    <string name="preferences_use_home_tz_descrip">Se tu sês in viaç, al mostre i oraris dai calendaris e dai events cul fûs orari di cjase</string>
+    <string name="preferences_home_tz_title">Fûs orari di cjase</string>
+    <string name="preferences_show_week_num_title">Mostre numar de setemane</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Domande il ritart de posticipazion de svee</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Domande il ritart de posticipazion ogni volte che e ven posticipade</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Dopre simpri il ritart di posticipazion predefinît</string>
+    <string name="snooze_delay_dialog_title">Stabilìs ritart posticipazion</string>
+    <string name="preferences_default_snooze_delay_title">Timp di ritart predefinît de posticipazion</string>
+    <string name="preferences_default_snooze_delay_dialog">Ritart de posticipazion predefinît</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Parts \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
+    <string name="authors">Autôrs</string>
+    <string name="changelog">Regjistri modifichis</string>
+    <string name="license">Licence</string>
+    <string name="preferences_build_version">Version di compilazion</string>
+    <string name="preferences_issues">Segnale problemis</string>
+    <string name="source_code">Sorzint</string>
+    <plurals name="month_more_events">
+        <item quantity="one">"+1"</item>
+        <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    </plurals>
+    <string name="gadget_no_events">Nissun event di calendari iminent</string>
+    <string name="preferences_experimental_category">Sperimentâls</string>
+    <string name="preferences_reminders_responded_label">Salte pro memoria</string>
+    <string name="preferences_reminders_responded_dialog">Salte pro memoria</string>
+    <string name="copy_db">Mande base di dâts</string>
+    <string name="directory_searching_fmt">Daûr a cirî in <xliff:g id="DOMAIN">%s</xliff:g>\u2026</string>
+    <string name="accessibility_remove_attendee">Gjave partecipant</string>
+    <string name="accessibility_pick_start_date">Date di inizi</string>
+    <string name="accessibility_pick_start_time">Ore di inizi</string>
+    <string name="accessibility_pick_end_date">Date di fin</string>
+    <string name="accessibility_pick_end_time">Ore di fin</string>
+    <string name="accessibility_pick_time_zone">Fûs orari</string>
+    <string name="accessibility_pick_recurrence">Ripet event</string>
+    <string name="accessibility_add_reminder">Zonte pro memoria</string>
+    <string name="accessibility_remove_reminder">Gjave il pro memoria</string>
+    <string name="accessibility_add_attendee">Zonte partecipant</string>
+    <string name="accessibility_all_day">Event di dut il dì</string>
+    <string name="accessibility_reminder_time">Orari dal pro memoria</string>
+    <string name="accessibility_reminder_type">Gjenar di pro memoria</string>
+    <string name="accessibility_reminder_showmeas">Mostrimi come</string>
+    <string name="accessibility_reminder_privacy">Riservatece</string>
+    <string name="day_view_new_event_hint">+ Gnûf event</string>
+    <string name="template_announce_item_index">Event <xliff:g id="ITEM_INDEX">%1$s</xliff:g> di <xliff:g id="ITEM_COUNT">%2$s</xliff:g>.</string>
+    <plurals name="Nevents">
+        <item quantity="one">1 event</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> events</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="one">Un altri event</item>
+        <item quantity="other">Altris <xliff:g id="COUNT">%d</xliff:g> events</item>
+    </plurals>
+    <string name="acessibility_selected_marker_description">Event selezionât</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Ogni <xliff:g id="COUNT">%d</xliff:g> dì</item>
+        <item quantity="other">Ogni <xliff:g id="COUNT">%d</xliff:g> dîs</item>
+    </plurals>
+    <plurals name="recurrence_interval_weekly">
+        <item quantity="one">Ogni <xliff:g id="COUNT">%d</xliff:g> setemane</item>
+        <item quantity="other">Ogni <xliff:g id="COUNT">%d</xliff:g> setemanis</item>
+    </plurals>
+    <plurals name="recurrence_interval_monthly">
+        <item quantity="one">Ogni <xliff:g id="COUNT">%d</xliff:g> mês</item>
+        <item quantity="other">Ogni <xliff:g id="COUNT">%d</xliff:g> mês</item>
+    </plurals>
+    <plurals name="recurrence_interval_yearly">
+        <item quantity="one">Ogni <xliff:g id="COUNT">%d</xliff:g> an</item>
+        <item quantity="other">Ogni <xliff:g id="COUNT">%d</xliff:g> agns</item>
+    </plurals>
+    <string name="recurrence_month_pattern_by_day">tal stes dì ogni mês</string>
+    <string name="recurrence_end_continously">Simpri</string>
+    <string name="recurrence_end_date_label">Insin une date</string>
+    <string name="recurrence_end_date">Insin <xliff:g id="date">%s</xliff:g></string>
+    <string name="recurrence_end_count_label">Par un ciert numar di events</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Par <xliff:g id="EVENT_COUNT">%d</xliff:g> event</item>
+        <item quantity="other">Par <xliff:g id="EVENT_COUNT">%d</xliff:g> events</item>
+    </plurals>
+    <string name="acessibility_recurrence_choose_end_date_description">modifiche date di fin</string>
+    <string name="user_rejected_calendar_write_permission">Calendari al à bisugne dai permès di leture e scriture dal calendari par funzionâ ben. Torne prove.</string>
+    <string name="calendar_permission_not_granted">I permès domandâts a son stâts dineâts, abilitiju de aplicazion Impostazions par modificâ i events</string>
+    <string name="visibility_default">Predefinide</string>
+    <string name="visibility_confidential">Confidenziâl</string>
+    <string name="visibility_private">Privade</string>
+    <string name="visibility_public">Publiche</string>
+    <string name="two_days">2 dîs</string>
+    <string name="three_days">3 dîs</string>
+    <string name="four_days">4 dîs</string>
+    <string name="five_days">5 dîs</string>
+    <string name="six_days">6 dîs</string>
+    <string name="seven_days">7 dîs</string>
+    <string name="zero_minutes">0 minûts</string>
+    <string name="fifteen_minutes">15 minûts</string>
+    <string name="thirty_minutes">30 minûts</string>
+    <string name="one_hour">1 ore</string>
+    <string name="one_and_a_half_hours">1,5 oris</string>
+    <string name="two_hours">2 oris</string>
+    <string name="error_generating_ics">Capitâts problemis tal condividi l\'event</string>
+    <string name="cal_share_intent_title">Mande event a:</string>
+    <string name="cal_export_event_sdcard_title">Espuarte su schede SD</string>
+    <string name="cal_export_succ_msg">Event espuartât cun sucès: %1$s</string>
+    <string name="cal_import_menu_title">Impuarte event</string>
+    <string name="cal_nothing_to_import">Nuie di impuartâ</string>
+    <string name="cal_import_error_msg">Importazion sul calendari falide</string>
+    <string name="cal_import_error_time_zone_msg">Impussibil capî il fûs orari specificât: %s</string>
+    <string name="cal_import_error_date_msg">Impussibil capî la date indicade: %s</string>
+    <string name="cal_pick_ics">Sielç il file di impuartâ</string>
+    <string name="show_time_no">No sta mostrâ la ore</string>
+    <string name="show_time_start">Dome la ore di inizi</string>
+    <string name="show_time_start_end">Ore di inizi e di fin</string>
+    <string name="show_time_start_end_below">Ore di inizi e di fin sot dal event</string>
+    <string name="preferences_calendar_no_display_name">Calendari cence non</string>
+    <string name="preferences_calendar_account">Account di %1$s</string>
+    <string name="preferences_calendar_account_local">Calendari fûr rêt</string>
+    <string name="preferences_calendar_configure_account">Configure calendari in %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d events</string>
+    <string name="preferences_calendar_delete">Elimine calendari</string>
+    <string name="preferences_calendar_display_name">Cambie non</string>
+    <string name="preferences_calendar_info_category">Informazions calendari</string>
+    <string name="preferences_calendar_color">Colôr</string>
+    <string name="preferences_calendar_visible">Visualize events</string>
+    <string name="preferences_calendar_synchronize">Sincronize chest calendari</string>
+    <string name="preferences_calendar_color_warning_title">Atenzion</string>
+    <string name="preferences_calendar_color_warning_message">Al è pussibil che, ae prossime sincronizazion dal calendari, il colôr modificât al torni al valôr di prime.\n\n In \'Gjestìs colôrs calendari\' di DAVx⁵ al è pussibil impedî chest acjadiment.</string>
+    <string name="preferences_calendar_color_warning_button">O capìs</string>
+    <string name="preferences_calendar_delete_message">Eliminâ pardabon chest calendari?</string>
+    <string name="preferences_calendar_delete_delete">Elimine calendari</string>
+    <string name="preferences_calendar_delete_cancel">Anule</string>
+    <string name="preferences_list_calendar_summary_sync_off">No sincronizât</string>
+    <string name="preferences_list_calendar_summary_invisible">I events no vegnin visualizâts</string>
+    <string name="preferences_list_general">Impostazions gjenerâls</string>
+    <string name="preferences_list_add_remote">Zonte calendari CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">Zonte calendari EteSync</string>
+    <string name="preferences_list_add_offline">Zonte calendari fûr rêt</string>
+    <string name="preferences_list_add_offline_title">Zonte calendari fûr rêt</string>
+    <string name="preferences_list_add_offline_error_empty">Inserìs un non pal calendari!</string>
+    <string name="preferences_list_add_offline_message">I calendaris fûr rêt NO son sincronizâts cui servizis cloud e a son disponibii dome sul to telefon.</string>
+    <string name="preferences_list_add_offline_button">Zonte calendari</string>
+    <string name="preferences_list_add_offline_name">Non</string>
+    <string name="preferences_list_add_offline_cancel">Anule</string>
+    <string name="preferences_menu_about">Informazions su Calendari</string>
+    <string name="offline_account_name">Calendari fûr rêt</string>
+    <string name="after_start_of_event">dopo l\'inizi dal event</string>
+</resources>
