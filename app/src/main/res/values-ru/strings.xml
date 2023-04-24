@@ -73,6 +73,7 @@
     <string name="goto_today">"Сегодня"</string>
     <string name="goto_date">Перейти к\u2026</string>
     <string name="menu_preferences">"Настройки"</string>
+    <string name="menu_info">Информация</string>
     <string name="search">"Поиск"</string>
     <string name="hide_controls">"Скрыть боковую панель"</string>
     <string name="show_controls">"Показать боковую панель"</string>

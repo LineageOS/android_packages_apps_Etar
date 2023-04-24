@@ -61,6 +61,7 @@
     <string name="goto_today">"Vandaag"</string>
     <string name="goto_date">Ga naar\u2026</string>
     <string name="menu_preferences">"Instellingen"</string>
+    <string name="menu_info">info</string>
     <string name="search">"Zoeken"</string>
     <string name="hide_controls">"Bediening verbergen"</string>
     <string name="show_controls">"Bediening weergeven"</string>

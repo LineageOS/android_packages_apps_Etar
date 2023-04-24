@@ -262,6 +262,7 @@
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">ubah tanggal akhir</string>
     <string name="user_rejected_calendar_write_permission">Kalender memerlukan izin untuk melihat dan mengubah kalender agar bekerja dengan baik. Harap coba lagi.</string>
+    <string name="calendar_permission_not_granted">Izin yang diperlukan ditolak, aktifkan dari aplikasi Setelan untuk mengedit acara</string>
     <string name="visibility_default">Standar</string>
     <string name="visibility_confidential">Rahasia</string>
     <string name="visibility_private">Pribadi</string>
@@ -290,6 +291,8 @@
     <string name="cal_pick_ics">Pilih berkas yang akan diimpor</string>
     <string name="show_time_no">Jangan tampilkan waktu</string>
     <string name="show_time_start">Hanya waktu mulai</string>
+    <string name="show_time_start_end">Waktu mulai dan berakhir</string>
+    <string name="show_time_start_end_below">Waktu mulai dan berakhir di bawah acara</string>
     <string name="preferences_calendar_no_display_name">Kalender tanpa nama</string>
     <string name="preferences_calendar_account">%1$s akun</string>
     <string name="preferences_calendar_account_local">Kalender offline</string>
