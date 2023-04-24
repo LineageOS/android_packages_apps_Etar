@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="reminder_methods_labels">
+        <item>Notifiche</item>
+        <item>E-mail</item>
+        <item>SMS</item>
+        <item>Svee</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Predefinît de regjon</item>
+        <item>Sabide</item>
+        <item>Domenie</item>
+        <item>Lunis</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Impegnât</item>
+        <item>Disponibil</item>
+        <item>Di confermâ</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Nissune rispueste</item>
+        <item>Sì</item>
+        <item>Forsit</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Dome chest event</item>
+        <item>Cheste e i events futûrs</item>
+        <item>Ducj i events</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Dome chest event</item>
+        <item>Ducj i events te serie</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Dì</item>
+        <item>Setemane</item>
+        <item>Mês</item>
+        <item>Ordin dal dì</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Dome se refudâts</item>
+        <item>Se refudâts o cence rispueste</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>RIPETI OGNI DÌ</item>
+        <item>RIPETI OGNI SETEMANE</item>
+        <item>RIPETI OGNI MÊS</item>
+        <item>RIPETI OGNI AN</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>ogni prime Domenie</item>
+        <item>ogni seconde Domenie</item>
+        <item>ogni tierce Domenie</item>
+        <item>ogni cuarte Domenie</item>
+        <item>ogni ultime Domenie</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>ogni prin Lunis</item>
+        <item>ogni secont Lunis</item>
+        <item>ogni tierç Lunis</item>
+        <item>ogni cuart Lunis</item>
+        <item>ogni ultin Lunis</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>ogni prin Martars</item>
+        <item>ogni secont Martars</item>
+        <item>ogni tierç Martars</item>
+        <item>ogni cuart Martars</item>
+        <item>ogni ultin Martars</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>ogni prin Miercus</item>
+        <item>ogni secont Miercus</item>
+        <item>ogni tierç Miercus</item>
+        <item>ogni cuart Miercus</item>
+        <item>ogni ultin Miercus</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>ogni prime Joibe</item>
+        <item>ogni seconde Joibe</item>
+        <item>ogni tierce Joibe</item>
+        <item>ogni cuarte Joibe</item>
+        <item>ogni ultime Joibe</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>ogni prin Vinars</item>
+        <item>ogni secont Vinars</item>
+        <item>ogni tierç Vinars</item>
+        <item>ogni cuart Vinars</item>
+        <item>ogni ultin Vinars</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>ogni prime Sabide</item>
+        <item>ogni seconde Sabide</item>
+        <item>ogni tierce Sabide</item>
+        <item>ogni cuarte Sabide</item>
+        <item>ogni ultime Sabide</item>
+    </string-array>
+</resources>

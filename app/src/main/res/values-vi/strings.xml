@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Ngày mai lúc <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Không có tiêu đề)</string>
+    <string name="no_reminder_label">Không có</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> phút</item>
     </plurals>
@@ -33,6 +34,9 @@
     </plurals>
     <plurals name="Ndays">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ngày</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> tuần</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other">Tuần <xliff:g id="count">%d</xliff:g></item>
@@ -51,6 +55,7 @@
     <string name="goto_today">"Hôm nay"</string>
     <string name="goto_date">Đi tới\u2026</string>
     <string name="menu_preferences">"Cài đặt"</string>
+    <string name="menu_info">Thông tin</string>
     <string name="search">"Tìm kiếm"</string>
     <string name="hide_controls">"Ẩn các điều khiển"</string>
     <string name="show_controls">"Hiển thị các điều khiển"</string>
@@ -70,6 +75,9 @@
     <string name="rsvp_declined">"Đã trả lời \"Không\"."</string>
     <string name="create_event_dialog_save">Lưu</string>
     <string name="alert_title">Thông báo lịch</string>
+    <string name="foreground_notification_title">Đang lên lịch lời nhắc mới…</string>
+    <string name="foreground_notification_channel_name">Tác vụ chạy nền</string>
+    <string name="foreground_notification_channel_description">Cần có thông báo để đồng bộ hóa nội bộ. Bạn có thể ẩn kênh này một cách an toàn.</string>
     <string name="event_info_title">Xem sự kiện</string>
     <string name="event_info_title_invite">Thư mời họp</string>
     <string name="edit_event_all_day_label">Cả ngày</string>
@@ -122,6 +130,7 @@
     <string name="edit_event_label">"Chi tiết"</string>
     <string name="edit_label">"Chỉnh sửa"</string>
     <string name="delete_label">"Xóa"</string>
+    <string name="duplicate_label">Tạo bản sao</string>
     <string name="save_label">Xong</string>
     <string name="discard_label">Hủy</string>
     <string name="dismiss_all_label">"Loại bỏ tất cả"</string>
@@ -160,6 +169,7 @@
     <string name="preferences_black_theme">Đen</string>
     <string name="preferences_color">Màu chủ đạo</string>
     <string name="preferences_color_pick">Chọn màu chủ đạo</string>
+    <string name="preferences_real_event_colors">Sử dụng màu sắc sự kiện thực tế</string>
     <string name="preferences_pure_black_night_mode">Chế độ đen tuyền</string>
     <string name="preferences_reminder_title">Thông báo và lời nhắc</string>
     <string name="preferences_hide_declined_title">Ẩn sự kiện bị từ chối</string>
@@ -318,4 +328,5 @@
     <string name="preferences_list_add_offline_cancel">Hủy</string>
     <string name="preferences_menu_about">Giới thiệu về Lịch</string>
     <string name="offline_account_name">Lịch ngoại tuyến</string>
+    <string name="after_start_of_event">sau khi bắt đầu sự kiện</string>
 </resources>
