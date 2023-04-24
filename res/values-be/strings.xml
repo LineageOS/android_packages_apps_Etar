@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="Ndays">
+        <item quantity="one">1 дзень</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> дні</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> дзён</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> дні</item>
+    </plurals>
+    <string name="share_label">Абагуліць</string>
+    <string name="email_guests_label">Напісаць гасцям</string>
+    <string name="quick_response_settings_summary">Рэдагаваць прадвызначаныя адказы пры адпраўцы гасцям на электронную пошту</string>
+    <string name="event_info_reminders_label">Напаміны</string>
+    <string name="edit_event_label">"Падрабязнасці"</string>
+    <string name="dismiss_all_label">"Адхіліць усе"</string>
+    <plurals name="daily">
+        <item quantity="one">Штодзень</item>
+        <item quantity="few">Кожныя <xliff:g id="number">%d</xliff:g> дні</item>
+        <item quantity="many">Кожныя <xliff:g id="number">%d</xliff:g> дзён</item>
+        <item quantity="other">Кожныя <xliff:g id="number">%d</xliff:g> дні</item>
+    </plurals>
+    <string name="custom" product="default">"Карыстальніцкае (нельга наладзіць на тэлефоне)"</string>
+    <string name="delete_this_event_title">Выдаліць гэту падзею?</string>
+    <string name="delete_recurring_event_title">Выдаліць <xliff:g id="eventtitle">%s</xliff:g>?</string>
+    <string name="display_options">Параметры паказу</string>
+    <string name="display_location">Паказваць месцазнаходжанне</string>
+    <string name="preferences_default_event_duration_title">Прадвызначаная працягласць падзеі</string>
+    <string name="preferences_default_reminder_title">Прадвызначаны час напаміну</string>
+    <string name="preferences_default_reminder_dialog">Прадвызначаны час напаміну</string>
+    <string name="preferences_use_home_tz_descrip">Паказваць календары і час падзеі ў мясцовым часавым поясе падчас падарожжа</string>
+    <string name="preferences_default_snooze_delay_title">Прадвызначаны час затрымкі адкладання</string>
+    <string name="preferences_reminders_responded_label">Прапусціць напамін</string>
+    <string name="preferences_reminders_responded_dialog">Прапусціць напамін</string>
+    <string name="copy_db">Адправіць базу даных</string>
+    <string name="accessibility_reminder_type">Тып напаміну</string>
+    <plurals name="recurrence_interval_daily">
+        <item quantity="one">Кожны <xliff:g id="count">%d</xliff:g> дзень</item>
+        <item quantity="few">Кожныя <xliff:g id="count">%d</xliff:g> дні</item>
+        <item quantity="many">Кожныя <xliff:g id="count">%d</xliff:g> дзён</item>
+        <item quantity="other">Кожныя <xliff:g id="count">%d</xliff:g> дні</item>
+    </plurals>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Для <xliff:g id="event_count">%d</xliff:g> падзеі</item>
+        <item quantity="few">Для <xliff:g id="event_count">%d</xliff:g> падзей</item>
+        <item quantity="many">Для <xliff:g id="event_count">%d</xliff:g> падзей</item>
+        <item quantity="other">Для <xliff:g id="event_count">%d</xliff:g> падзей</item>
+    </plurals>
+    <string name="error_generating_ics">Не атрымалася адправіць падзею</string>
+    <string name="preferences_list_add_offline_name">Назва</string>
+    <string name="preferences_list_add_offline_cancel">Скасаваць</string>
+</resources>
