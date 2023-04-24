@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Tasmektit</string>
+    <string name="when_label">Melmi</string>
+    <string name="today">Assa</string>
+    <string name="tomorrow">Azekka</string>
+    <plurals name="Nmins">
+        <item quantity="one">1 n tesdat</item>
+        <item quantity="other">1 tisdat<xliff:g id="count">%d</xliff:g> tisdatin</item>
+    </plurals>
+    <string name="calendar_refresh">"Sismeḍ"</string>
+    <string name="agenda_view">"Tasmektit"</string>
+    <string name="day_view">"Ass"</string>
+    <string name="week_view">"Amalas"</string>
+    <string name="month_view">"Aggur"</string>
+    <string name="share_label">Bḍu</string>
+    <string name="goto_today">"Assa"</string>
+    <string name="menu_preferences">"Iɣewwaṛen"</string>
+    <string name="search">"Nadi"</string>
+    <string name="hint_where">"Adig"</string>
+    <string name="hint_description">"Aglam:"</string>
+    <string name="hint_attendees">"Inebgawen"</string>
+    <string name="create_event_dialog_save">Sekles</string>
+    <string name="edit_event_all_day_label">Ass kamel</string>
+    <string name="edit_event_calendar_label">Tasmektit</string>
+    <string name="privacy_label">Tabaḍnit</string>
+    <string name="response_yes">Ih</string>
+    <string name="response_no">Uhu</string>
+    <string name="map_label">Tagertilt</string>
+    <string name="no_map">Ulac asnas n takarḍa yettwasersen</string>
+    <string name="call_label">Siwel</string>
+    <string name="loading">Asali\u2026</string>
+    <string name="edit_event_label">"Talqayt"</string>
+    <string name="edit_label">"Édition"</string>
+    <string name="delete_label">"KKES"</string>
+    <string name="save_label">Immed</string>
+    <string name="discard_label">Sefex</string>
+    <string name="monthly">Yal aggur</string>
+    <string name="yearly_plain">s useggass</string>
+    <string name="preferences_title">"Iɣewwaṛen"</string>
+    <string name="preferences_theme">Asentel</string>
+    <string name="preferences_light_theme">Aceɛlal</string>
+    <string name="preferences_dark_theme">Aberkan</string>
+    <string name="preferences_black_theme">Aberkan</string>
+    <string name="default_start_title">Timeẓri tamezwert</string>
+    <string name="display_options">Tixtiṛiyin n ubeqqeḍ</string>
+    <string name="display_location">Beqqeḍ ideg</string>
+    <string name="default_start_last">Askan aneggaru yettwasqedcen</string>
+    <string name="preferences_alerts_title">Ilɣa</string>
+    <string name="preferences_alerts_vibrateWhen_title">Senhez</string>
+    <string name="preferences_alerts_ringtone_title">Imesli</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Suter tafada n wallus usmekti</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Suter tafada n wallus usmekti yal tikkelt mi id yella wallus usmekti</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Seqdec tafada n wallus tamezwert yal tikelt</string>
+    <string name="snooze_delay_dialog_title">Sbadu tafada n wallus</string>
+    <string name="preferences_default_snooze_delay_title">Tafada n wallus amezwer</string>
+    <string name="preferences_default_snooze_delay_dialog">Tafada n wallus tamezwert</string>
+    <string name="authors">Auteurs</string>
+    <string name="changelog">Aɣmis n ubeddel</string>
+    <string name="license">Licence</string>
+    <string name="preferences_experimental_category">Expérimental</string>
+    <string name="accessibility_pick_start_date">Azemz n tazwara</string>
+    <string name="accessibility_pick_start_time">Temps de début</string>
+    <string name="accessibility_pick_end_date">Azemz n tagara</string>
+    <string name="accessibility_pick_end_time">Asrag n tagara</string>
+    <string name="accessibility_pick_time_zone">Iẓḍi usrig</string>
+    <string name="accessibility_reminder_privacy">Tabaḍnit</string>
+    <string name="recurrence_month_pattern_by_day">Deg iwen n wass yal aggur</string>
+    <string name="recurrence_end_continously">Yal tikelt</string>
+    <string name="recurrence_end_date_label">Arama d azemz</string>
+    <string name="recurrence_end_count_label">I kra n umdan n tedyanin</string>
+    <string name="acessibility_recurrence_choose_end_date_description">snifel azemz n tagara</string>
+    <string name="visibility_default">Prédéfini(e)</string>
+    <string name="visibility_confidential">Awtilan</string>
+    <string name="visibility_private">Uslig</string>
+    <string name="visibility_public">Azayez</string>
+    <string name="two_days">2 ussan</string>
+    <string name="three_days">3 ussan</string>
+    <string name="zero_minutes">0 n tisdatin</string>
+    <string name="fifteen_minutes">15 n tisdatin</string>
+    <string name="thirty_minutes">30 n tisdatin</string>
+    <string name="one_hour">1 asrag</string>
+    <string name="two_hours">2 n isragen</string>
+    <string name="error_generating_ics">Uguren ittwamlalen g beḍḍu n tadyant</string>
+    <string name="cal_share_intent_title">Azen tadyant i:</string>
+    <string name="cal_export_event_sdcard_title">Sifeḍ ɣer takarḍa n SD</string>
+    <string name="cal_import_menu_title">Kter tadyant</string>
+    <string name="cal_nothing_to_import">Ulac ad ittwaketren</string>
+    <string name="cal_import_error_msg">Icceḍ ukter ar tasmektit</string>
+    <string name="cal_pick_ics">Fren afaylu ad ketraḍ</string>
+    <string name="preferences_calendar_color">Ini</string>
+    <string name="preferences_calendar_color_warning_title">Ɣur-k</string>
+    <string name="preferences_calendar_color_warning_button">Gziɣ</string>
+    <string name="preferences_calendar_delete_cancel">Sefsex</string>
+    <string name="preferences_list_general">Iɣewwaṛen imuta</string>
+    <string name="preferences_list_add_offline_button">Rnu awitay</string>
+    <string name="preferences_list_add_offline_name">Isem</string>
+    <string name="preferences_list_add_offline_cancel">Sefsex</string>
+</resources>
