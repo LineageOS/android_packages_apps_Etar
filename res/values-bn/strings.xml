@@ -38,6 +38,7 @@
         <item quantity="one">১ দিন</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> দিন</item>
     </plurals>
+    <string name="calendar_refresh">"রিফ্রেশ"</string>
     <string name="show_day_view">"দিনটি দেখান"</string>
     <string name="agenda_view">"কার্যসূচি"</string>
     <string name="day_view">"দিন"</string>
@@ -47,6 +48,7 @@
     <string name="event_create">"নতুন ইভেন্ট"</string>
     <string name="event_edit">"ইভেন্ট সম্পাদনা করুন"</string>
     <string name="event_delete">"ইভেন্ট মুছুন"</string>
+    <string name="share_label">শেয়ার</string>
     <string name="goto_today">"আজ"</string>
     <string name="menu_preferences">"সেটিংস"</string>
     <string name="search">"অনুসন্ধান করুন"</string>
@@ -93,6 +95,7 @@
     <string name="email_picker_label">এটি সহ ইমেল পাঠান</string>
     <string name="event_not_found">"ইভেন্ট পাওয়া যায়নি৷"</string>
     <string name="map_label">মানচিত্র</string>
+    <string name="no_map">কোনো ম্যাপ অ্যাপ ইন্সটল করা নেই</string>
     <string name="call_label">কল করুন</string>
     <string name="quick_response_settings">দ্রুত প্রতিক্রিয়াগুলি</string>
     <string name="quick_response_settings_summary">অতিথিদের ইমেল পাঠানোর সময়ে ডিফল্ট প্রতিক্রিয়াগুলির সম্পাদনা করুন</string>
