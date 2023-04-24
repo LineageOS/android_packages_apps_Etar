@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Zítra v <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(bez názvu)</string>
+    <string name="no_reminder_label">Žádné</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuta</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> minut</item>
@@ -46,6 +47,12 @@
         <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> dnů</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dnů</item>
     </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 týden</item>
+        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> týdny</item>
+        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> týdnů</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> týdnů</item>
+    </plurals>
     <plurals name="weekN">
         <item quantity="one"><xliff:g id="count">%d</xliff:g>.\u00a0týden</item>
         <item quantity="few"><xliff:g id="count">%d</xliff:g>.\u00a0týden</item>
@@ -66,6 +73,7 @@
     <string name="goto_today">"Dnes"</string>
     <string name="goto_date">Přejít na\u2026</string>
     <string name="menu_preferences">"Nastavení"</string>
+    <string name="menu_info">Info</string>
     <string name="search">"Hledat"</string>
     <string name="hide_controls">"Skrýt ovládací prvky"</string>
     <string name="show_controls">"Zobrazit ovládací prvky"</string>
@@ -85,6 +93,9 @@
     <string name="rsvp_declined">"Odpověď Ne."</string>
     <string name="create_event_dialog_save">Uložit</string>
     <string name="alert_title">Upozornění kalendáře</string>
+    <string name="foreground_notification_title">Plánování nových připomenutí…</string>
+    <string name="foreground_notification_channel_name">Úlohy na pozadí</string>
+    <string name="foreground_notification_channel_description">Upozornění vyžadovaná pro interní synchronizaci. Toto oznámení můžete bezpečně skrýt.</string>
     <string name="event_info_title">Zobrazit událost</string>
     <string name="event_info_title_invite">Pozvánka na schůzku</string>
     <string name="edit_event_all_day_label">Celý den</string>
@@ -184,6 +195,7 @@
     <string name="preferences_black_theme">Černý</string>
     <string name="preferences_color">Primární barva</string>
     <string name="preferences_color_pick">Primární barva</string>
+    <string name="preferences_real_event_colors">Použít skutečné barvy události</string>
     <string name="preferences_pure_black_night_mode">Čistě černý noční režim</string>
     <string name="preferences_reminder_title">Oznámení a připomenutí</string>
     <string name="preferences_hide_declined_title">Skrýt odmítnuté události</string>
@@ -366,4 +378,5 @@
     <string name="preferences_list_add_offline_cancel">Zrušit</string>
     <string name="preferences_menu_about">O Kalendáři</string>
     <string name="offline_account_name">Offline Kalendář</string>
+    <string name="after_start_of_event">po zahájení události</string>
 </resources>
