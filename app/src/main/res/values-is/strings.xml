@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Á morgun klukkan <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g> kl. <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Enginn titill)</string>
+    <string name="no_reminder_label">Ekkert</string>
     <plurals name="Nminutes">
         <item quantity="one">1 mínúta</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> mínútur</item>
@@ -38,6 +39,15 @@
         <item quantity="one">1 dagur</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dagar</item>
     </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 vika</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> vikur</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Vika <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="other">Vika <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="calendar_refresh">"Endurlesa"</string>
     <string name="show_day_view">"Sýna dag"</string>
     <string name="agenda_view">"Dagskrá"</string>
     <string name="day_view">"Dagur"</string>
@@ -47,11 +57,15 @@
     <string name="event_create">"Nýr viðburður"</string>
     <string name="event_edit">"Breyta viðburði"</string>
     <string name="event_delete">"Eyða viðburði"</string>
+    <string name="share_label">Deila</string>
     <string name="goto_today">"Í dag"</string>
+    <string name="goto_date">Fara á\u2026</string>
     <string name="menu_preferences">"Stillingar"</string>
+    <string name="menu_info">Upplýsingar</string>
     <string name="search">"Leita"</string>
     <string name="hide_controls">"Fela stýringu"</string>
     <string name="show_controls">"Sýna stýringar"</string>
+    <string name="view_settings">"Skoða stillingar"</string>
     <string name="select_synced_calendars_button">Dagatöl sem á að samstilla</string>
     <string name="hint_what">"Heiti viðburðar"</string>
     <string name="hint_where">"Staðsetning"</string>
@@ -67,6 +81,9 @@
     <string name="rsvp_declined">"Mætir ekki."</string>
     <string name="create_event_dialog_save">Vista</string>
     <string name="alert_title">Dagatalstilkynningar</string>
+    <string name="foreground_notification_title">Set nýjar áminningar á áætlun…</string>
+    <string name="foreground_notification_channel_name">Bakgrunnsverkefni</string>
+    <string name="foreground_notification_channel_description">Tilkynningar nauðsynlegar fyrir samstillingu innri áminninga. Þú getur falið þessa rás.</string>
     <string name="event_info_title">Skoða viðburð</string>
     <string name="event_info_title_invite">Fundarboð</string>
     <string name="edit_event_all_day_label">Allur dagurinn</string>
@@ -93,6 +110,7 @@
     <string name="email_picker_label">Senda með</string>
     <string name="event_not_found">"Viðburðurinn fannst ekki."</string>
     <string name="map_label">Kort</string>
+    <string name="no_map">Það eru engin forrit uppsett fyrir landakort</string>
     <string name="call_label">Hringja</string>
     <string name="quick_response_settings">Snarsvör</string>
     <string name="quick_response_settings_summary">Breyta sjálfgefnum svörum þegar gestum er sendur tölvupóstur</string>
@@ -108,6 +126,9 @@
     <string name="quick_response_custom_msg">Skrifaðu þitt eigið...</string>
     <string name="event_info_organizer">Skipuleggjandi:</string>
     <string name="event_info_reminders_label">Áminningar</string>
+    <string name="agenda_today">Í dag, <xliff:g id="DATE">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Í gær, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Á morgun, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Hleður…</string>
     <string name="show_older_events">Snertu til að skoða viðburði fyrir <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">Snertu til að skoða viðburði eftir <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
@@ -115,6 +136,7 @@
     <string name="edit_event_label">"Upplýsingar"</string>
     <string name="edit_label">"Breyta"</string>
     <string name="delete_label">"Eyða"</string>
+    <string name="duplicate_label">Tvítaka</string>
     <string name="save_label">Lokið</string>
     <string name="discard_label">Hætta við</string>
     <string name="dismiss_all_label">"Hunsa allt"</string>
@@ -147,10 +169,30 @@
     <string name="change_response_title">Breyta svari</string>
     <string name="preferences_title">"Stillingar"</string>
     <string name="preferences_general_title">Birtingarstilling dagatals</string>
+    <string name="preferences_month_view_portrait">Mánaðar framsetning (lóðrétt)</string>
+    <string name="preferences_month_view_landscape">Mánaðar framsetning (lárétt)</string>
+    <string name="preferences_theme">Þema</string>
+    <string name="preferences_system_theme">Sjálfgefið í kerfinu</string>
+    <string name="preferences_light_theme">Ljóst</string>
+    <string name="preferences_dark_theme">Dökkt</string>
+    <string name="preferences_black_theme">Svart</string>
+    <string name="preferences_color">Aðallitur</string>
+    <string name="preferences_color_pick">Aðallitur</string>
+    <string name="preferences_real_event_colors">Nota raunverulega liti atburða</string>
+    <string name="preferences_pure_black_night_mode">Hreinn svartur næturhamur</string>
     <string name="preferences_reminder_title">Tilkynningar og áminningar</string>
     <string name="preferences_hide_declined_title">Fela viðburði sem hefur verið hafnað</string>
+    <string name="default_start_title">Sjálfgefin sýn</string>
+    <string name="display_options">Birtingarkostir</string>
+    <string name="display_time">Birta tíma</string>
+    <string name="display_location">Birta staðsetningu</string>
+    <string name="maximum_number_of_lines">Hámarksfjöldi lína í viðburði</string>
+    <string name="default_start_last">Áður notuð sýn</string>
     <string name="preferences_week_start_day_title">Vika byrjar á</string>
     <string name="preferences_week_start_day_dialog">Vika byrjar á</string>
+    <string name="preferences_days_per_week_title">Dagar í viku</string>
+    <string name="preferences_days_per_week_dialog">Dagar í viku</string>
+    <string name="preferences_default_event_duration_title">Sjálfgefin tímalengd viðburða</string>
     <string name="preferences_clear_search_history_title">Hreinsa leitarferil</string>
     <string name="preferences_clear_search_history_summary">Fjarlægja allar fyrri leitir</string>
     <string name="search_history_cleared">Leitarferill hreinsaður.</string>
@@ -165,7 +207,19 @@
     <string name="preferences_use_home_tz_descrip">Birtir dagatöl og tímasetningu viðburða með tíma heimalands</string>
     <string name="preferences_home_tz_title">Heimatímabelti</string>
     <string name="preferences_show_week_num_title">Sýna vikunúmer</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Spyrja um töf á blundi áminningar</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Spyrja um töf á blundi þegar áminningar eru blundaðar</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Alltaf nota sjálfgefna töf á blundi</string>
+    <string name="snooze_delay_dialog_title">Stilla töf á blundi</string>
+    <string name="preferences_default_snooze_delay_title">Sjálfgefinn tími fyrir töf á blundi</string>
+    <string name="preferences_default_snooze_delay_dialog">Sjálfgefin töf á blundi</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Etar-verkefnið. Hlutar eru \u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
+    <string name="authors">Höfundar</string>
+    <string name="changelog">Breytingaskrá</string>
+    <string name="license">Notkunarleyfi</string>
     <string name="preferences_build_version">Útgáfa smíðar</string>
+    <string name="preferences_issues">Tilkynna vandamál</string>
+    <string name="source_code">Frumkóði</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
@@ -228,4 +282,72 @@
         <item quantity="other">Fyrir <xliff:g id="EVENT_COUNT">%d</xliff:g> viðburði</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">breyta lokadegi</string>
+    <string name="user_rejected_calendar_write_permission">Dagatal/Calendar krefst heimilda til að lesa og skrifa svo það virki rétt. 
+Endilega reyndu aftur.</string>
+    <string name="calendar_permission_not_granted">Nauðsynlegum heimildum varhafnað, virkjaðu þær í stillingaforritinu til að
+ geta breytt viðburðum</string>
+    <string name="visibility_default">Sjálfgefið</string>
+    <string name="visibility_confidential">Trúnaðarmál</string>
+    <string name="visibility_private">Einka</string>
+    <string name="visibility_public">Opinbert</string>
+    <string name="two_days">2 dagar</string>
+    <string name="three_days">3 dagar</string>
+    <string name="four_days">4 dagar</string>
+    <string name="five_days">5 dagar</string>
+    <string name="six_days">6 dagar</string>
+    <string name="seven_days">7 dagar</string>
+    <string name="zero_minutes">0 mínútur</string>
+    <string name="fifteen_minutes">15 mínútur</string>
+    <string name="thirty_minutes">30 mínútur</string>
+    <string name="one_hour">1 klukkustund</string>
+    <string name="one_and_a_half_hours">1.5 klukkustundir</string>
+    <string name="two_hours">2 klukkustundir</string>
+    <string name="error_generating_ics">Vandamál komu upp við að deila atburði</string>
+    <string name="cal_share_intent_title">Senda atburð til:</string>
+    <string name="cal_export_event_sdcard_title">Flytja út á SD-minniskort</string>
+    <string name="cal_export_succ_msg">Tókst að flytja út atburð: %1$s</string>
+    <string name="cal_import_menu_title">Flytja inn atburð</string>
+    <string name="cal_nothing_to_import">Ekkert hægt að flytja inn</string>
+    <string name="cal_import_error_msg">Innflutningur í dagatal mistókst</string>
+    <string name="cal_import_error_time_zone_msg">Tókst ekki að túlka uppgefið tímabelti: %s</string>
+    <string name="cal_import_error_date_msg">Tókst ekki að túlka uppgefna dagsetningu: %s</string>
+    <string name="cal_pick_ics">Veldu skrá til að flytja inn</string>
+    <string name="show_time_no">Ekki birta tíma</string>
+    <string name="show_time_start">Aðeins upphafstími</string>
+    <string name="show_time_start_end">Upphafs- og lokatími</string>
+    <string name="show_time_start_end_below">Upphafs- og lokatími neðan við viðburð</string>
+    <string name="preferences_calendar_no_display_name">Ónefnt dagatal</string>
+    <string name="preferences_calendar_account">%1$s aðgangur</string>
+    <string name="preferences_calendar_account_local">Ónettengt dagatal</string>
+    <string name="preferences_calendar_configure_account">Stilla dagatal í %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d atburðir</string>
+    <string name="preferences_calendar_delete">Eyða dagatali</string>
+    <string name="preferences_calendar_display_name">Breyta nafni</string>
+    <string name="preferences_calendar_info_category">Upplýsingar dagatals</string>
+    <string name="preferences_calendar_color">Litur</string>
+    <string name="preferences_calendar_visible">Birta atburði</string>
+    <string name="preferences_calendar_synchronize">Samstilla þetta dagatal</string>
+    <string name="preferences_calendar_color_warning_title">Aðvörun</string>
+    <string name="preferences_calendar_color_warning_message">Breyting á lit gæti verið tekin til baka næst þegar dagatalið er samstillt.\n
+\n
+Hægt er að koma í veg fyrir þetta í DAVx⁵ \'Manage calendar colors\' stillingum.</string>
+    <string name="preferences_calendar_color_warning_button">Ég skil</string>
+    <string name="preferences_calendar_delete_message">Viltu í alvörunni eyða þessu dagatali?</string>
+    <string name="preferences_calendar_delete_delete">Eyða dagatali</string>
+    <string name="preferences_calendar_delete_cancel">Hætta við</string>
+    <string name="preferences_list_calendar_summary_sync_off">Ekki samstillt</string>
+    <string name="preferences_list_calendar_summary_invisible">Viðburðir eru ekki birtir</string>
+    <string name="preferences_list_general">Almennar stillingar</string>
+    <string name="preferences_list_add_remote">Bæta við CalDAV-dagatali</string>
+    <string name="preferences_list_add_remote_etesync">Bæta við EteSync-dagatali</string>
+    <string name="preferences_list_add_offline">Bæta við ónettengdu dagatali</string>
+    <string name="preferences_list_add_offline_title">Bæta við ónettengdu dagatali</string>
+    <string name="preferences_list_add_offline_error_empty">Settu inn heiti dagatals!</string>
+    <string name="preferences_list_add_offline_message">Ónettengd dagatöl eru EKKI samstillt við skýjaþjónustur og því aðeins tiltæk á símanum þínum.</string>
+    <string name="preferences_list_add_offline_button">Bæta við dagatali</string>
+    <string name="preferences_list_add_offline_name">Nafn</string>
+    <string name="preferences_list_add_offline_cancel">Hætta við</string>
+    <string name="preferences_menu_about">Um dagatalið</string>
+    <string name="offline_account_name">Ónettengt dagatal</string>
+    <string name="after_start_of_event">eftir upphaf viðburðar</string>
 </resources>
