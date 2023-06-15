@@ -46,6 +46,7 @@
     <string name="goto_today">"Güei"</string>
     <string name="menu_preferences">"Configuración"</string>
     <string name="search">"Buscar"</string>
+    <string name="view_settings">"Configuración de la vista"</string>
     <string name="hint_what">"Nome del eventu"</string>
     <string name="hint_where">"Llugar"</string>
     <string name="hint_description">"Descripción"</string>
@@ -105,9 +106,11 @@
     <string name="preferences_reminder_title">Avisos y recordatorios</string>
     <string name="preferences_hide_declined_title">Anubrir los eventos refugaos</string>
     <string name="default_start_title">Vista predeterminada</string>
-    <string name="default_start_last">La vista usada con anterioridá</string>
-    <string name="preferences_days_per_week_title">Díes per semana</string>
-    <string name="preferences_days_per_week_dialog">Díes per semana</string>
+    <string name="display_options">Opciones de l\'amuesa</string>
+    <string name="display_location">Amosar la llocalización</string>
+    <string name="default_start_last">La usada con anterioridá</string>
+    <string name="preferences_days_per_week_title">Díes per selmana</string>
+    <string name="preferences_days_per_week_dialog">Díes per selmana</string>
     <string name="preferences_default_event_duration_title">Duración predeterminada de los eventos</string>
     <string name="preferences_clear_search_history_summary">Quita toles busques que ficieres</string>
     <string name="preferences_alerts_title">Avisos</string>
@@ -157,6 +160,9 @@
     <string name="error_generating_ics">Atopáronse problemes mentanto se compartía l\'eventu</string>
     <string name="cal_import_error_time_zone_msg">Nun ye posible entender el fusu horariu apurríu: %s</string>
     <string name="cal_import_error_date_msg">Nun ye posible entender la data apurrida: %s</string>
+    <string name="show_time_no">Non</string>
+    <string name="show_time_start">Namás la de comienzu</string>
+    <string name="show_time_start_end">La de comienzu ya la de fin</string>
     <string name="preferences_calendar_no_display_name">Calendariu ensin nome</string>
     <string name="preferences_calendar_account_local">Calendariu llocal</string>
     <string name="preferences_calendar_number_of_events">Númberu d\'eventos: %1$d</string>
@@ -176,7 +182,7 @@
     <string name="preferences_list_add_offline">Amestar un calendariu llocal</string>
     <string name="preferences_list_add_offline_title">Amiestu d\'un calendariu llocal</string>
     <string name="preferences_list_add_offline_error_empty">¡Introduz un nome!</string>
-    <string name="preferences_list_add_offline_message">Los calendarios llocales NUN se sincronicen colos servicios na ñube y namás tán disponibles nel preséu.</string>
+    <string name="preferences_list_add_offline_message">Los calendarios llocales NUN se sincronicen colos servicios na nube y namás tán disponibles nel preséu.</string>
     <string name="preferences_list_add_offline_button">Amestar</string>
     <string name="preferences_list_add_offline_name">Nome</string>
     <string name="preferences_list_add_offline_cancel">Encaboxar</string>

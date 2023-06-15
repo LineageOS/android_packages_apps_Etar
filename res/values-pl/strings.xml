@@ -23,10 +23,10 @@
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Bez tytułu)</string>
     <plurals name="Nminutes">
-        <item quantity="one">1 min</item>
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> min</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> min</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> min</item>
+        <item quantity="one">1 minuta</item>
+        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> minuty</item>
+        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> minut</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minut</item>
     </plurals>
     <plurals name="Nmins">
         <item quantity="one">1 min</item>
@@ -36,9 +36,9 @@
     </plurals>
     <plurals name="Nhours">
         <item quantity="one">1 godzina</item>
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> godz.</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> godz.</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> godz.</item>
+        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> godziny</item>
+        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> godzin</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> godzin</item>
     </plurals>
     <plurals name="Ndays">
         <item quantity="one">1 dzień</item>
@@ -47,10 +47,10 @@
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dni</item>
     </plurals>
     <plurals name="weekN">
-        <item quantity="one">Tydzień <xliff:g id="count">%d</xliff:g></item>
-        <item quantity="few">Tydzień <xliff:g id="count">%d</xliff:g></item>
-        <item quantity="many">Tydzień <xliff:g id="count">%d</xliff:g></item>
-        <item quantity="other">Tydzień <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="one">Tydzień: <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="few">Tydzień: <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="many">Tydzień: <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Tydzień: <xliff:g id="count">%d</xliff:g></item>
     </plurals>
     <string name="calendar_refresh">"Odśwież"</string>
     <string name="show_day_view">"Pokaż dzień"</string>
@@ -109,8 +109,8 @@
     <string name="response_maybe">Może</string>
     <string name="response_no">Nie</string>
     <string name="email_guests_label">Napisz do gości</string>
-    <string name="email_organizer_label">Wyślij e-maila do organizatora</string>
-    <string name="email_picker_label">E-mail przez</string>
+    <string name="email_organizer_label">Napisz do organizatora</string>
+    <string name="email_picker_label">Napisz do</string>
     <string name="event_not_found">"Nie znaleziono wydarzenia."</string>
     <string name="map_label">Mapa</string>
     <string name="no_map">Brak zainstalowanej aplikacji do obsługi map</string>
@@ -132,7 +132,7 @@
     <string name="agenda_today">Dzisiaj, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="agenda_yesterday">Wczoraj, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="agenda_tomorrow">Jutro, <xliff:g id="date">%1$s</xliff:g></string>
-    <string name="loading">Trwa wczytywanie...</string>
+    <string name="loading">Wczytywanie\u2026</string>
     <string name="show_older_events">Dotknij, aby wyświetlić wydarzenia przed <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">Dotknij, aby wyświetlić wydarzenia po <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="search_title">Szukaj w moich kalendarzach</string>
@@ -141,7 +141,7 @@
     <string name="delete_label">"Usuń"</string>
     <string name="save_label">Gotowe</string>
     <string name="discard_label">Anuluj</string>
-    <string name="dismiss_all_label">"Zamknij"</string>
+    <string name="dismiss_all_label">"Odrzuć wszystkie"</string>
     <string name="snooze_label">"Drzemka"</string>
     <string name="does_not_repeat">Wydarzenie jednorazowe</string>
     <string name="endByDate">; do <xliff:g id="DATE">%s</xliff:g></string>
@@ -157,12 +157,12 @@
         <item quantity="many">Co <xliff:g id="NUMBER">%d</xliff:g> dni</item>
         <item quantity="other">Co <xliff:g id="NUMBER">%d</xliff:g> dni</item>
     </plurals>
-    <string name="every_weekday">"Codziennie (pn-pt)"</string>
+    <string name="every_weekday">"Codziennie (pn\u2013pt)"</string>
     <plurals name="weekly">
         <item quantity="one">Co tydzień w <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
-        <item quantity="few">Co <xliff:g id="NUMBER">%1$d</xliff:g> tyg. w <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
-        <item quantity="many">Co <xliff:g id="NUMBER">%1$d</xliff:g> tyg. w <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
-        <item quantity="other">Co <xliff:g id="NUMBER">%1$d</xliff:g> tyg. w <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+        <item quantity="few">Co <xliff:g id="NUMBER">%1$d</xliff:g> tygodnie w <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+        <item quantity="many">Co <xliff:g id="NUMBER">%1$d</xliff:g> tygodni w <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
+        <item quantity="other">Co <xliff:g id="NUMBER">%1$d</xliff:g> tygodni w <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
     </plurals>
     <string name="monthly">Co miesiąc</string>
     <string name="yearly_plain">Co rok</string>
@@ -214,10 +214,10 @@
     <string name="preferences_use_home_tz_descrip">Godziny będą podawane w domowej strefie czasowej (nawet w podróży)</string>
     <string name="preferences_home_tz_title">Domowa strefa czasowa</string>
     <string name="preferences_show_week_num_title">Pokaż numer tygodnia</string>
-    <string name="preferences_alerts_custom_snooze_delay_title">Pytaj o długość drzemki</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Pytaj o czas trwania drzemki</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">Pytaj o czas trwania drzemki, podczas odkładania przypomnień</string>
-    <string name="preferences_alerts_custom_snooze_delay_summary_off">Zawsze używaj domyślnego opóźnienia drzemki</string>
-    <string name="snooze_delay_dialog_title">Ustaw opóźnienie drzemki</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Zawsze używaj domyślnego czasu trwania drzemki</string>
+    <string name="snooze_delay_dialog_title">Ustaw czas trwania drzemki</string>
     <string name="preferences_default_snooze_delay_title">Domyślny czas trwania drzemki</string>
     <string name="preferences_default_snooze_delay_dialog">Domyślne opóźnienie drzemki</string>
     <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Projekt Etar. Fragmenty \u00a9 2005-<xliff:g>%1$s</xliff:g> Projekt Android Open Source.</string>
@@ -234,11 +234,11 @@
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
     </plurals>
     <string name="gadget_no_events">Brak zbliżających się wydarzeń w kalendarzu</string>
-    <string name="preferences_experimental_category">Eksperymentalny</string>
+    <string name="preferences_experimental_category">Eksperymentalne</string>
     <string name="preferences_reminders_responded_label">Pomiń przypomnienia</string>
     <string name="preferences_reminders_responded_dialog">Pomiń przypomnienia</string>
     <string name="copy_db">Wyślij bazę danych</string>
-    <string name="directory_searching_fmt">Trwa wyszukiwanie w witrynie <xliff:g id="DOMAIN">%s</xliff:g>…</string>
+    <string name="directory_searching_fmt">Wyszukiwanie <xliff:g id="DOMAIN">%s</xliff:g>\u2026</string>
     <string name="accessibility_remove_attendee">Usuń uczestnika</string>
     <string name="accessibility_pick_start_date">Data rozpoczęcia</string>
     <string name="accessibility_pick_start_time">Godzina rozpoczęcia</string>
@@ -258,15 +258,15 @@
     <string name="template_announce_item_index">Wydarzenie <xliff:g id="ITEM_INDEX">%1$s</xliff:g> z <xliff:g id="ITEM_COUNT">%2$s</xliff:g></string>
     <plurals name="Nevents">
         <item quantity="one">1 wydarzenie</item>
-        <item quantity="few">Nowe wydarzenia (<xliff:g id="COUNT">%d</xliff:g>)</item>
-        <item quantity="many">Nowe wydarzenia (<xliff:g id="COUNT">%d</xliff:g>)</item>
-        <item quantity="other">Nowe wydarzenia (<xliff:g id="COUNT">%d</xliff:g>)</item>
+        <item quantity="few">(<xliff:g id="COUNT">%d</xliff:g>) wydarzenia</item>
+        <item quantity="many">(<xliff:g id="COUNT">%d</xliff:g>) wydarzeń</item>
+        <item quantity="other">(<xliff:g id="COUNT">%d</xliff:g>) wydarzeń</item>
     </plurals>
     <plurals name="N_remaining_events">
         <item quantity="one">+1 wydarzenie</item>
-        <item quantity="few">+<xliff:g id="COUNT">%d</xliff:g> wydarzenia(ń)</item>
-        <item quantity="many">+<xliff:g id="COUNT">%d</xliff:g> wydarzenia(ń)</item>
-        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> wydarzenia(ń)</item>
+        <item quantity="few">+<xliff:g id="COUNT">%d</xliff:g> wydarzenia</item>
+        <item quantity="many">+<xliff:g id="COUNT">%d</xliff:g> wydarzeń</item>
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> wydarzeń</item>
     </plurals>
     <string name="acessibility_selected_marker_description">Wybrane wydarzenie</string>
     <plurals name="recurrence_interval_daily">
@@ -277,21 +277,21 @@
     </plurals>
     <plurals name="recurrence_interval_weekly">
         <item quantity="one">Co <xliff:g id="COUNT">%d</xliff:g> tydzień</item>
-        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> tyg.</item>
-        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> tyg.</item>
-        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> tyg.</item>
+        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> tygodnie</item>
+        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> tygodni</item>
+        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> tygodni</item>
     </plurals>
     <plurals name="recurrence_interval_monthly">
         <item quantity="one">Co <xliff:g id="COUNT">%d</xliff:g> miesiąc</item>
-        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> mies.</item>
-        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> mies.</item>
-        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> mies.</item>
+        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> miesiące</item>
+        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> miesięcy</item>
+        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> miesięcy</item>
     </plurals>
     <plurals name="recurrence_interval_yearly">
         <item quantity="one">Co <xliff:g id="COUNT">%d</xliff:g> rok</item>
-        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> lat(a)</item>
-        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> lat(a)</item>
-        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> lat(a)</item>
+        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> lata</item>
+        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> lat</item>
+        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> lat</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">tego samego dnia miesiąca</string>
     <string name="recurrence_end_continously">Bez daty zakończenia</string>
