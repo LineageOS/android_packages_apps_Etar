@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Imorgon kl. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Ingen titel)</string>
+    <string name="no_reminder_label">Ingen</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minut</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minuter</item>
@@ -38,6 +39,15 @@
         <item quantity="one">1 dag</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dagar</item>
     </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 vecka</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> veckor</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Vecka <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Vecka <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="calendar_refresh">"Uppdatera"</string>
     <string name="show_day_view">"Visa dag"</string>
     <string name="agenda_view">"Agenda"</string>
     <string name="day_view">"Dag"</string>
@@ -47,11 +57,15 @@
     <string name="event_create">"Ny händelse"</string>
     <string name="event_edit">"Redigera händelse"</string>
     <string name="event_delete">"Ta bort händelse"</string>
+    <string name="share_label">Dela</string>
     <string name="goto_today">"Idag"</string>
+    <string name="goto_date">Gå till\u2026</string>
     <string name="menu_preferences">"Inställningar"</string>
+    <string name="menu_info">Info</string>
     <string name="search">"Sök"</string>
     <string name="hide_controls">"Dölj kontroller"</string>
     <string name="show_controls">"Visa kontroller"</string>
+    <string name="view_settings">"Visa inställningar"</string>
     <string name="select_synced_calendars_button">Kalendrar som ska synkroniseras</string>
     <string name="hint_what">"Eventnamn"</string>
     <string name="hint_where">"Plats"</string>
@@ -67,6 +81,9 @@
     <string name="rsvp_declined">"Svarade nej."</string>
     <string name="create_event_dialog_save">Spara</string>
     <string name="alert_title">Kalenderaviseringar</string>
+    <string name="foreground_notification_title">Schemalägger nya påminnelser…</string>
+    <string name="foreground_notification_channel_name">Bakgrundsuppgifter</string>
+    <string name="foreground_notification_channel_description">Aviseringar krävs för intern synkronisering. Du kan säkert gömma den här kanalen.</string>
     <string name="event_info_title">Visa händelse</string>
     <string name="event_info_title_invite">Inbjudan till möte</string>
     <string name="edit_event_all_day_label">Hela dagen</string>
@@ -93,6 +110,7 @@
     <string name="email_picker_label">Skicka e-post till</string>
     <string name="event_not_found">"Händelsen hittades inte."</string>
     <string name="map_label">Karta</string>
+    <string name="no_map">Det finns ingen kart-app installerad</string>
     <string name="call_label">Ring</string>
     <string name="quick_response_settings">Snabbsvar</string>
     <string name="quick_response_settings_summary">Redigera standardsvar när du skickar e-post till gäster</string>
@@ -108,6 +126,9 @@
     <string name="quick_response_custom_msg">Skriv eget svar ...</string>
     <string name="event_info_organizer">Organisatör:</string>
     <string name="event_info_reminders_label">Påminnelser</string>
+    <string name="agenda_today">Idag, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Igår, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Imorgon, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Hämtar…</string>
     <string name="show_older_events">Tryck om du vill visa händelser före <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">Tryck om du vill visa händelser efter <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
@@ -115,10 +136,11 @@
     <string name="edit_event_label">"Information"</string>
     <string name="edit_label">"Redigera"</string>
     <string name="delete_label">"Ta bort"</string>
+    <string name="duplicate_label">Duplicera</string>
     <string name="save_label">Färdig</string>
     <string name="discard_label">Avbryt</string>
     <string name="dismiss_all_label">"Ta bort alla permanent"</string>
-    <string name="snooze_label">"Pausa"</string>
+    <string name="snooze_label">"Snooza"</string>
     <string name="does_not_repeat">Engångshändelse</string>
     <string name="endByDate">, till <xliff:g id="DATE">%s</xliff:g></string>
     <plurals name="endByCount">
@@ -147,10 +169,29 @@
     <string name="change_response_title">Ändra svar</string>
     <string name="preferences_title">"Inställningar"</string>
     <string name="preferences_general_title">Inställning för kalendervy</string>
+    <string name="preferences_month_view_portrait">Månadsvy (Porträtt)</string>
+    <string name="preferences_month_view_landscape">Månadsvy (Landskap)</string>
+    <string name="preferences_theme">Tema</string>
+    <string name="preferences_system_theme">Systemstandard</string>
+    <string name="preferences_light_theme">Ljust</string>
+    <string name="preferences_dark_theme">Mörkt</string>
+    <string name="preferences_black_theme">Svart</string>
+    <string name="preferences_color">Primär färg</string>
+    <string name="preferences_color_pick">Primär färg</string>
+    <string name="preferences_pure_black_night_mode">Helsvart nattläge</string>
     <string name="preferences_reminder_title">Meddelanden och påminnelser</string>
     <string name="preferences_hide_declined_title">Dölj avböjda händelser</string>
+    <string name="default_start_title">Standardvy</string>
+    <string name="display_options">Visningsalternativ</string>
+    <string name="display_time">Visa tid</string>
+    <string name="display_location">Visa plats</string>
+    <string name="maximum_number_of_lines">Högsta antalet rader i händelse</string>
+    <string name="default_start_last">Senast använda vyn</string>
     <string name="preferences_week_start_day_title">Veckan börjar med</string>
     <string name="preferences_week_start_day_dialog">Veckan börjar med</string>
+    <string name="preferences_days_per_week_title">Dagar per vecka</string>
+    <string name="preferences_days_per_week_dialog">Dagar per vecka</string>
+    <string name="preferences_default_event_duration_title">Standardvaraktighet för händelse</string>
     <string name="preferences_clear_search_history_title">Rensa sökhistorik</string>
     <string name="preferences_clear_search_history_summary">Ta bort alla sökningar som du har gjort</string>
     <string name="search_history_cleared">Sökhistoriken har rensats.</string>
@@ -165,7 +206,19 @@
     <string name="preferences_use_home_tz_descrip">Tiderna i kalendern visas i din standardtidszon när du är ute och reser.</string>
     <string name="preferences_home_tz_title">Standardtidszon</string>
     <string name="preferences_show_week_num_title">Visa veckonummer</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Be om påminnelse för snooze-fördröjning</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Be om snooze-fördröjning vid snoozande av påminnelser</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Använd alltid standard för snooze-fördröjning</string>
+    <string name="snooze_delay_dialog_title">Ställ in snooze-fördröjning</string>
+    <string name="preferences_default_snooze_delay_title">Standardtid för snooze-fördröjning</string>
+    <string name="preferences_default_snooze_delay_dialog">Standard snooze-fördröjning</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Etar-projektet. Delar av \u00a9 2005-<xliff:g>%1$s</xliff:g> Androids projekt för öppen källkod (AOSP).</string>
+    <string name="authors">Författare</string>
+    <string name="changelog">Ändringslogg</string>
+    <string name="license">Licens</string>
     <string name="preferences_build_version">Programversion</string>
+    <string name="preferences_issues">Rapportera fel</string>
+    <string name="source_code">Källa</string>
     <plurals name="month_more_events">
         <item quantity="one">"+ 1"</item>
         <item quantity="other">+ <xliff:g id="NUMBER">%d</xliff:g></item>
@@ -228,4 +281,66 @@
         <item quantity="other">För <xliff:g id="EVENT_COUNT">%d</xliff:g> event</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">ändra slutdatum</string>
+    <string name="user_rejected_calendar_write_permission">Kalendern kräver läs- och skrivrättigheter för att fungera korrekt. Vänligen försök igen.</string>
+    <string name="calendar_permission_not_granted">Nödvändiga behörigheter nekades, aktivera dem från appen Inställningar för att redigera händelser</string>
+    <string name="visibility_default">Standard</string>
+    <string name="visibility_confidential">Konfidentiell</string>
+    <string name="visibility_private">Privat</string>
+    <string name="visibility_public">Offentlig</string>
+    <string name="two_days">2 dagar</string>
+    <string name="three_days">3 dagar</string>
+    <string name="four_days">4 dagar</string>
+    <string name="five_days">5 dagar</string>
+    <string name="six_days">6 dagar</string>
+    <string name="seven_days">7 dagar</string>
+    <string name="zero_minutes">0 minuter</string>
+    <string name="fifteen_minutes">15 minuter</string>
+    <string name="thirty_minutes">30 minuter</string>
+    <string name="one_hour">1 timme</string>
+    <string name="one_and_a_half_hours">1.5 timmar</string>
+    <string name="two_hours">2 timmar</string>
+    <string name="error_generating_ics">Problem uppstod vid händelsedelning</string>
+    <string name="cal_share_intent_title">Skicka händelse till:</string>
+    <string name="cal_export_event_sdcard_title">Exportera till SD-kort</string>
+    <string name="cal_export_succ_msg">Exporteringen av händelsen lyckades: %1$s</string>
+    <string name="cal_import_menu_title">Importera händelse</string>
+    <string name="cal_nothing_to_import">Inget att importera</string>
+    <string name="cal_import_error_msg">Importering till kalendern misslyckades</string>
+    <string name="cal_import_error_time_zone_msg">Kunde inte förstå den angivna tidszonen: %s</string>
+    <string name="cal_import_error_date_msg">Kunde inte förstå det angivna datumet: %s</string>
+    <string name="cal_pick_ics">Välj fil att importera</string>
+    <string name="show_time_no">Visa inte tid</string>
+    <string name="show_time_start">Endast starttid</string>
+    <string name="show_time_start_end">Start- och sluttid</string>
+    <string name="show_time_start_end_below">Start- och sluttid under händelsen</string>
+    <string name="preferences_calendar_no_display_name">Kalender utan namn</string>
+    <string name="preferences_calendar_account_local">Offline-kalender</string>
+    <string name="preferences_calendar_configure_account">Konfigurera kalender i %1$s</string>
+    <string name="preferences_calendar_delete">Ta bort kalender</string>
+    <string name="preferences_calendar_display_name">Byt namn</string>
+    <string name="preferences_calendar_info_category">Information om kalendern</string>
+    <string name="preferences_calendar_color">Färg</string>
+    <string name="preferences_calendar_visible">Visa händelser</string>
+    <string name="preferences_calendar_synchronize">Synkronisera den här kalendern</string>
+    <string name="preferences_calendar_color_warning_title">Varning</string>
+    <string name="preferences_calendar_color_warning_message">Färgbytet kan återkallas när kalendern synkroniseras igen.\n\n\'Hantera kalenderfärger\' kan inaktiveras i DAVx⁵ för att förhindra det här.</string>
+    <string name="preferences_calendar_color_warning_button">Jag förstår</string>
+    <string name="preferences_calendar_delete_message">Vill du verkligen ta bort den här kalendern?</string>
+    <string name="preferences_calendar_delete_delete">Ta bort kalender</string>
+    <string name="preferences_calendar_delete_cancel">Avbryt</string>
+    <string name="preferences_list_calendar_summary_sync_off">Inte synkroniserad</string>
+    <string name="preferences_list_calendar_summary_invisible">Händelser visas inte</string>
+    <string name="preferences_list_general">Generella inställningar</string>
+    <string name="preferences_list_add_remote">Lägg till CalDAV-kalender</string>
+    <string name="preferences_list_add_remote_etesync">Lägg till EteSync-kalender</string>
+    <string name="preferences_list_add_offline">Lägg till offline-kalender</string>
+    <string name="preferences_list_add_offline_title">Lägg till offline-kalender</string>
+    <string name="preferences_list_add_offline_error_empty">Fyll i ett namn på kalendern!</string>
+    <string name="preferences_list_add_offline_message">Offline-kalendrar är INTE synkroniserade till en molntjänst och är endast tillgängliga i din telefon.</string>
+    <string name="preferences_list_add_offline_button">Lägg till kalender</string>
+    <string name="preferences_list_add_offline_name">Namn</string>
+    <string name="preferences_list_add_offline_cancel">Avbryt</string>
+    <string name="preferences_menu_about">Om Kalender</string>
+    <string name="offline_account_name">Offline-kalender</string>
+    <string name="after_start_of_event">efter händelsen har startat</string>
 </resources>

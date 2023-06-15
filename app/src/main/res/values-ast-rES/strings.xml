@@ -50,6 +50,7 @@
     <string name="event_create">"Eventu nuevu"</string>
     <string name="goto_today">"Güei"</string>
     <string name="menu_preferences">"Configuración"</string>
+    <string name="menu_info">Información</string>
     <string name="search">"Buscar"</string>
     <string name="hint_what">"Nome del eventu"</string>
     <string name="hint_where">"Llocalización"</string>
@@ -68,6 +69,8 @@
     <string name="response_maybe">Seique</string>
     <string name="response_no">Non</string>
     <string name="event_not_found">"Nun s'atopó l'eventu."</string>
+    <string name="map_label">Mapa</string>
+    <string name="no_map">Nun hai nenguna aplicación de mapes instalada</string>
     <string name="quick_response_settings">Rempuestes rápides</string>
     <string name="quick_response_settings_edit_title">Rempuesta rápida</string>
     <string-array name="quick_response_defaults">
@@ -81,6 +84,8 @@
     <string name="agenda_yesterday">Ayeri, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="agenda_tomorrow">Mañana, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Cargando\u2026</string>
+    <string name="show_older_events">Toca equí pa ver los eventos anteriores al <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
+    <string name="show_newer_events">Toca equí pa ver los eventos posteriores al <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
     <string name="edit_event_label">"Detalles"</string>
     <string name="edit_label">"Editar"</string>
     <string name="delete_label">"Desaniciar"</string>
@@ -100,6 +105,9 @@
     <string name="delete_this_event_title">¿Quies desaniciar esti eventu?</string>
     <string name="delete_recurring_event_title">¿Quies desaniciar «<xliff:g id="eventtitlte">%s</xliff:g>»?</string>
     <string name="preferences_title">"Configuración"</string>
+    <string name="preferences_general_title">Configuración de la vista del calendariu</string>
+    <string name="preferences_month_view_portrait">Distribución de la vista mensual (vertical)</string>
+    <string name="preferences_month_view_landscape">Distribución de la vista mensual (horizontal)</string>
     <string name="preferences_theme">Estilu</string>
     <string name="preferences_system_theme">Lo predeterminao del sistema</string>
     <string name="preferences_light_theme">Claridá</string>
@@ -107,16 +115,24 @@
     <string name="preferences_black_theme">Prietu</string>
     <string name="preferences_color">Color primariu</string>
     <string name="preferences_color_pick">Color primariu</string>
-    <string name="preferences_real_event_colors">Usar los colores de los eventos reales</string>
+    <string name="preferences_real_event_colors">Usar los colores reales de los eventos</string>
     <string name="preferences_reminder_title">Avisos y recordatorios</string>
+    <string name="preferences_hide_declined_title">Anubrir los eventos refugaos</string>
     <string name="default_start_title">Vista predeterminada</string>
-    <string name="preferences_days_per_week_title">Díes per semana</string>
+    <string name="preferences_week_start_day_title">Día de comienzu de la selmana</string>
+    <string name="preferences_week_start_day_dialog">Día de comienzu de la selmana</string>
+    <string name="preferences_days_per_week_title">Díes per selmana</string>
     <string name="preferences_days_per_week_dialog">Díes per selmana</string>
     <string name="preferences_default_event_duration_title">Duración predeterminada de los eventos</string>
+    <string name="preferences_clear_search_history_title">Borrar l\'historial de busques</string>
     <string name="preferences_clear_search_history_summary">Quita toles busques que ficieres</string>
+    <string name="search_history_cleared">Borróse l\'historial de busques.</string>
     <string name="preferences_alerts_title">Avisos</string>
     <string name="preferences_alerts_popup_title">Avisu emerxente</string>
     <string name="preferences_default_reminder_default">10</string>
+    <string name="preferences_use_home_tz_title">Usar el fusu horariu llocal</string>
+    <string name="preferences_home_tz_title">Fusu horariu llocal</string>
+    <string name="preferences_show_week_num_title">Amosar el númberu de selmana</string>
     <string name="changelog">Rexistru de cambeos</string>
     <string name="license">Llicencia</string>
     <string name="preferences_build_version">Versión de la compilación</string>
@@ -172,7 +188,7 @@
     <string name="preferences_list_add_remote">Amestar un calendariu de CalDAV</string>
     <string name="preferences_list_add_remote_etesync">Amestar un calendariu d\'EteSync</string>
     <string name="preferences_list_add_offline">Amestar un calendariu llocal</string>
-    <string name="preferences_list_add_offline_message">Los calendarios llocales NUN se sincronicen colos servicios na ñube y namás tán disponibles nel preséu.</string>
+    <string name="preferences_list_add_offline_message">Los calendarios llocales NUN se sincronicen colos servicios na nube y namás tán disponibles nel preséu.</string>
     <string name="preferences_list_add_offline_button">Amestar</string>
     <string name="preferences_list_add_offline_name">Nome</string>
     <string name="preferences_list_add_offline_cancel">Encaboxar</string>

@@ -24,10 +24,10 @@
     <string name="no_title_label">(Bez tytułu)</string>
     <string name="no_reminder_label">Brak</string>
     <plurals name="Nminutes">
-        <item quantity="one">1 min</item>
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> min</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> min</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> min</item>
+        <item quantity="one">1 minuta</item>
+        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> minuty</item>
+        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> minut</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minut</item>
     </plurals>
     <plurals name="Nmins">
         <item quantity="one">1 min</item>
@@ -37,9 +37,9 @@
     </plurals>
     <plurals name="Nhours">
         <item quantity="one">1 godzina</item>
-        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> godz.</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> godz.</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> godz.</item>
+        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> godziny</item>
+        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> godzin</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> godzin</item>
     </plurals>
     <plurals name="Ndays">
         <item quantity="one">1 dzień</item>
@@ -54,7 +54,7 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> tygodni</item>
     </plurals>
     <plurals name="weekN">
-        <item quantity="one">Tydzień <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="one">Tydzień: <xliff:g id="count">%d</xliff:g></item>
         <item quantity="few">Tydzień: <xliff:g id="count">%d</xliff:g></item>
         <item quantity="many">Tydzień: <xliff:g id="count">%d</xliff:g></item>
         <item quantity="other">Tydzień: <xliff:g id="count">%d</xliff:g></item>
@@ -148,7 +148,7 @@
     <string name="edit_event_label">"Szczegóły"</string>
     <string name="edit_label">"Edytuj"</string>
     <string name="delete_label">"Usuń"</string>
-    <string name="duplicate_label">Duplikat</string>
+    <string name="duplicate_label">Duplikuj</string>
     <string name="save_label">Gotowe</string>
     <string name="discard_label">Anuluj</string>
     <string name="dismiss_all_label">"Zamknij"</string>
@@ -225,12 +225,12 @@
     <string name="preferences_use_home_tz_descrip">Godziny będą podawane w domowej strefie czasowej (nawet w podróży)</string>
     <string name="preferences_home_tz_title">Domowa strefa czasowa</string>
     <string name="preferences_show_week_num_title">Pokaż numer tygodnia</string>
-    <string name="preferences_alerts_custom_snooze_delay_title">Pytaj o długość drzemki</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">Pytaj o czas trwania drzemki</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">Pytaj o czas trwania drzemki, podczas odkładania przypomnień</string>
-    <string name="preferences_alerts_custom_snooze_delay_summary_off">Zawsze używaj domyślnej długości drzemki</string>
-    <string name="snooze_delay_dialog_title">Ustaw długość drzemki</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Zawsze używaj domyślnego czasu trwania drzemki</string>
+    <string name="snooze_delay_dialog_title">Ustaw czas trwania drzemki</string>
     <string name="preferences_default_snooze_delay_title">Domyślny czas trwania drzemki</string>
-    <string name="preferences_default_snooze_delay_dialog">Domyślna długość drzemki</string>
+    <string name="preferences_default_snooze_delay_dialog">Domyślny czas trwania drzemki</string>
     <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Projekt Etar. Fragmenty \u00a9
 2005-<xliff:g>%1$s</xliff:g> Projekt Android Open Source.</string>
     <string name="authors">Twórcy</string>
@@ -270,15 +270,15 @@
     <string name="template_announce_item_index">Wydarzenie <xliff:g id="ITEM_INDEX">%1$s</xliff:g> z <xliff:g id="ITEM_COUNT">%2$s</xliff:g></string>
     <plurals name="Nevents">
         <item quantity="one">1 wydarzenie</item>
-        <item quantity="few">Nowe wydarzenia (<xliff:g id="COUNT">%d</xliff:g>)</item>
-        <item quantity="many">Nowe wydarzenia (<xliff:g id="COUNT">%d</xliff:g>)</item>
-        <item quantity="other">Nowe wydarzenia (<xliff:g id="COUNT">%d</xliff:g>)</item>
+        <item quantity="few">(<xliff:g id="COUNT">%d</xliff:g>) wydarzenia</item>
+        <item quantity="many">(<xliff:g id="COUNT">%d</xliff:g>) wydarzeń</item>
+        <item quantity="other">(<xliff:g id="COUNT">%d</xliff:g>) wydarzeń</item>
     </plurals>
     <plurals name="N_remaining_events">
         <item quantity="one">+1 wydarzenie</item>
-        <item quantity="few">+<xliff:g id="COUNT">%d</xliff:g> wydarzenia(ń)</item>
-        <item quantity="many">+<xliff:g id="COUNT">%d</xliff:g> wydarzenia(ń)</item>
-        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> wydarzenia(ń)</item>
+        <item quantity="few">+<xliff:g id="COUNT">%d</xliff:g> wydarzenia</item>
+        <item quantity="many">+<xliff:g id="COUNT">%d</xliff:g> wydarzeń</item>
+        <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> wydarzeń</item>
     </plurals>
     <string name="acessibility_selected_marker_description">Wybrane wydarzenie</string>
     <plurals name="recurrence_interval_daily">
@@ -289,21 +289,21 @@
     </plurals>
     <plurals name="recurrence_interval_weekly">
         <item quantity="one">Co <xliff:g id="COUNT">%d</xliff:g> tydzień</item>
-        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> tyg.</item>
-        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> tyg.</item>
-        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> tyg.</item>
+        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> tygodnie</item>
+        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> tygodni</item>
+        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> tygodni</item>
     </plurals>
     <plurals name="recurrence_interval_monthly">
         <item quantity="one">Co <xliff:g id="COUNT">%d</xliff:g> miesiąc</item>
-        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> mies.</item>
-        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> mies.</item>
-        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> mies.</item>
+        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> miesiące</item>
+        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> miesięcy</item>
+        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> miesięcy</item>
     </plurals>
     <plurals name="recurrence_interval_yearly">
         <item quantity="one">Co <xliff:g id="COUNT">%d</xliff:g> rok</item>
-        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> lat(a)</item>
-        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> lat(a)</item>
-        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> lat(a)</item>
+        <item quantity="few">Co <xliff:g id="COUNT">%d</xliff:g> lata</item>
+        <item quantity="many">Co <xliff:g id="COUNT">%d</xliff:g> lat</item>
+        <item quantity="other">Co <xliff:g id="COUNT">%d</xliff:g> lat</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">tego samego dnia miesiąca</string>
     <string name="recurrence_end_continously">Bez daty zakończenia</string>
@@ -311,10 +311,10 @@
     <string name="recurrence_end_date">Do <xliff:g id="DATE">%s</xliff:g></string>
     <string name="recurrence_end_count_label">Określona liczba powtórzeń</string>
     <plurals name="recurrence_end_count">
-        <item quantity="one">Do <xliff:g id="EVENT_COUNT">%d</xliff:g> wydarzenia</item>
-        <item quantity="few">Dla <xliff:g id="EVENT_COUNT">%d</xliff:g> wystąpienia</item>
-        <item quantity="many">Dla <xliff:g id="EVENT_COUNT">%d</xliff:g> wystąpienia</item>
-        <item quantity="other">Dla <xliff:g id="EVENT_COUNT">%d</xliff:g> wystąpienia</item>
+        <item quantity="one">Dla <xliff:g id="EVENT_COUNT">%d</xliff:g> wydarzenia</item>
+        <item quantity="few">Dla <xliff:g id="EVENT_COUNT">%d</xliff:g> wydarzeń</item>
+        <item quantity="many">Dla <xliff:g id="EVENT_COUNT">%d</xliff:g> wydarzeń</item>
+        <item quantity="other">Dla <xliff:g id="EVENT_COUNT">%d</xliff:g> wydarzeń</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">zmień datę zakończenia</string>
     <string name="user_rejected_calendar_write_permission">Kalendarz wymaga uprawnień odczytu i zapisu kalendarza do poprawnego działania. Spróbuj ponownie.</string>
@@ -351,7 +351,7 @@
     <string name="show_time_start_end_below">Czas rozpoczęcia i zakończenia poniżej wydarzenia</string>
     <string name="preferences_calendar_no_display_name">Kalendarz bez nazwy</string>
     <string name="preferences_calendar_account">Konto %1$s</string>
-    <string name="preferences_calendar_account_local">Kalendarz offline</string>
+    <string name="preferences_calendar_account_local">Kalendarz lokalny</string>
     <string name="preferences_calendar_configure_account">Skonfiguruj kalendarz w %1$s</string>
     <string name="preferences_calendar_number_of_events">%1$d wydarzeń</string>
     <string name="preferences_calendar_delete">Usuń kalendarz</string>
