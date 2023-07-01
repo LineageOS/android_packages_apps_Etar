@@ -49,6 +49,7 @@
     <string name="month_view">"Mes"</string>
     <string name="event_create">"Eventu nuevu"</string>
     <string name="goto_today">"Güei"</string>
+    <string name="goto_date">Dir a\u2026</string>
     <string name="menu_preferences">"Configuración"</string>
     <string name="menu_info">Información</string>
     <string name="search">"Buscar"</string>

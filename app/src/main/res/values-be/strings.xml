@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
+    <string name="calendar_refresh">"Абнавіць"</string>
     <string name="day_view">"Дзень"</string>
     <string name="month_view">"Месяц"</string>
     <string name="event_create">"Новая падзея"</string>
@@ -26,12 +27,14 @@
     <string name="email_organizer_label">Напісаць арганізатару</string>
     <string name="event_not_found">"Падзея не знойдзена."</string>
     <string name="quick_response_settings_summary">Рэдагаваць прадвызначаныя адказы пры адпраўцы гасцям на электронную пошту</string>
+    <string name="event_info_reminders_label">Напаміны</string>
     <string name="duplicate_label">Дубліраваць</string>
     <string name="discard_label">Скасаваць</string>
     <string name="dismiss_all_label">"Адхіліць усе"</string>
     <string name="custom" product="default">"Карыстальніцкае (нельга наладзіць на тэлефоне)"</string>
     <string name="new_event_dialog_label">"Новая падзея"</string>
     <string name="new_event_dialog_option">"Новая падзея"</string>
+    <string name="preferences_color">Асноўны колер</string>
     <string name="preferences_reminder_title">Апавяшчэнні і напаміны</string>
     <string name="preferences_default_reminder_title">Прадвызначаны час напаміну</string>
     <string name="preferences_default_reminder_dialog">Прадвызначаны час напаміну</string>
@@ -42,8 +45,8 @@
     <string name="accessibility_pick_end_date">Дата завяршэння</string>
     <string name="accessibility_pick_end_time">Час завяршэння</string>
     <string name="one_hour">1 гадзіна</string>
-    <string name="error_generating_ics">Не атрымалася адправіць падзею</string>
     <string name="cal_share_intent_title">Адправіць падзею:</string>
+    <string name="preferences_calendar_account_local">Пазасеткавы каляндар</string>
     <string name="preferences_list_calendar_summary_sync_off">Не сінхранізаваны</string>
     <string name="preferences_list_add_offline">Дадаць пазасеткавы каляндар</string>
     <string name="preferences_list_add_offline_title">Дадаць пазасеткавы каляндар</string>
@@ -51,5 +54,6 @@
     <string name="preferences_list_add_offline_button">Дадаць каляндар</string>
     <string name="preferences_list_add_offline_name">Назва</string>
     <string name="preferences_list_add_offline_cancel">Скасаваць</string>
+    <string name="offline_account_name">Пазасеткавы каляндар</string>
     <string name="after_start_of_event">пасля пачатку падзеі</string>
 </resources>

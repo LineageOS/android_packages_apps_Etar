@@ -136,6 +136,7 @@
     <string name="edit_event_label">"Detaljer"</string>
     <string name="edit_label">"Rediger"</string>
     <string name="delete_label">"Slet"</string>
+    <string name="duplicate_label">Dupliker</string>
     <string name="save_label">Gem</string>
     <string name="discard_label">Annuller</string>
     <string name="dismiss_all_label">"Luk alle"</string>
@@ -207,6 +208,7 @@
     <string name="preferences_home_tz_title">Egen tidszone</string>
     <string name="preferences_show_week_num_title">Vis ugenummer</string>
     <string name="preferences_alerts_custom_snooze_delay_title">Spørg efter udsættelse ved påmindelse</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Bed om udsættelse af udskydelse ved udskydelse af påmindelser</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">Brug altid standard-udsættelses tid</string>
     <string name="snooze_delay_dialog_title">Sæt udsættelses tid</string>
     <string name="preferences_default_snooze_delay_title">Standard udsættelses tid</string>
@@ -280,6 +282,8 @@
         <item quantity="other">For <xliff:g id="EVENT_COUNT">%d</xliff:g> begivenheder</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">skift slutdato</string>
+    <string name="user_rejected_calendar_write_permission">Kalender kræver læse- og skriverettigheder for at fungere korrekt. Prøv igen.</string>
+    <string name="calendar_permission_not_granted">Nødvendige tilladelser blev nægtet, aktivér dem fra Indstillinger for at redigere begivenheder</string>
     <string name="visibility_default">Standard</string>
     <string name="visibility_confidential">Fortroligt</string>
     <string name="visibility_private">Privat</string>
@@ -296,7 +300,21 @@
     <string name="one_hour">1 time</string>
     <string name="one_and_a_half_hours">1,5 timer</string>
     <string name="two_hours">2 timer</string>
+    <string name="error_generating_ics">Problemer fundet ved deling af begivenhed</string>
+    <string name="cal_share_intent_title">Send begivenhed til:</string>
     <string name="cal_export_event_sdcard_title">Eksportér til SD-kort</string>
+    <string name="cal_export_succ_msg">Begivenhed eksporteret succesfuldt: %1$s</string>
+    <string name="cal_import_menu_title">Importér begivenhed</string>
+    <string name="cal_nothing_to_import">Intet at importere</string>
+    <string name="cal_import_error_msg">Import til kalender fejlede</string>
+    <string name="cal_import_error_time_zone_msg">Kan ikke forstå given tidszone: %s</string>
+    <string name="cal_import_error_date_msg">Kan ikke forstå given dato: %s</string>
+    <string name="cal_pick_ics">Vælg fil til import</string>
+    <string name="show_time_no">Vis ikke tid</string>
+    <string name="show_time_start">Kun starttidspunkt</string>
+    <string name="show_time_start_end">Start- og sluttid</string>
+    <string name="show_time_start_end_below">Start og slut tid under begivenheden</string>
+    <string name="preferences_calendar_no_display_name">Unavngiven kalender</string>
     <string name="preferences_calendar_account">%1$s konto</string>
     <string name="preferences_calendar_account_local">Offline kalender</string>
     <string name="preferences_calendar_configure_account">Konfigurer kalender i %1$s</string>
