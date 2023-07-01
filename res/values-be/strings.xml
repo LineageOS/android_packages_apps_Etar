@@ -22,6 +22,7 @@
         <item quantity="many"><xliff:g id="count">%d</xliff:g> хвілін</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> хвілін</item>
     </plurals>
+    <string name="calendar_refresh">"Абнавiць"</string>
     <string name="agenda_view">"Расклад"</string>
     <string name="day_view">"Дзень"</string>
     <string name="month_view">"Месяц"</string>
@@ -31,8 +32,10 @@
     <string name="event_info_title_invite">Запрашэнне на сустрэчу</string>
     <string name="edit_event_all_day_label">Увесь дзень</string>
     <string name="edit_event_calendar_label">Каляндар</string>
+    <string name="privacy_label">Прыватнасць</string>
     <string name="no_syncable_calendars">Няма календароў</string>
     <string name="view_event_calendar_label">Каляндар:</string>
+    <string name="view_event_organizer_label">Арганізатар:</string>
     <string name="calendar_color_picker_dialog_title">Колер календара</string>
     <string name="view_event_response_label">Пойдзеце?</string>
     <string name="response_maybe">Магчыма</string>
@@ -41,13 +44,16 @@
     <string name="email_organizer_label">Напісаць арганізатару</string>
     <string name="event_not_found">"Падзея не знойдзена."</string>
     <string name="call_label">Выклік</string>
+    <string name="quick_response_settings">Хуткія адказы</string>
     <string name="quick_response_settings_summary">Рэдагаваць прадвызначаныя адказы пры адпраўцы гасцям на электронную пошту</string>
+    <string name="quick_response_settings_edit_title">Хуткі адказ</string>
     <string-array name="quick_response_defaults">
         <item>Running just a couple of minutes late.</item>
         <item>Be there in about 10 minutes.</item>
         <item>Пачынайце без мяне.</item>
         <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
     </string-array>
+    <string name="event_info_organizer">Арганізатар:</string>
     <string name="event_info_reminders_label">Напаміны</string>
     <string name="loading">Загрузка\u2026</string>
     <string name="edit_event_label">"Падрабязнасці"</string>
@@ -55,6 +61,7 @@
     <string name="save_label">Гатова</string>
     <string name="discard_label">Скасаваць</string>
     <string name="dismiss_all_label">"Адхіліць усе"</string>
+    <string name="does_not_repeat">Аднаразовая падзея</string>
     <string name="monthly">Штомесяц</string>
     <string name="custom" product="default">"Карыстальніцкае (нельга наладзіць на тэлефоне)"</string>
     <string name="modify_event">Змяніць толькі гэту падзею</string>
@@ -63,6 +70,8 @@
     <string name="delete_this_event_title">Выдаліць гэту падзею?</string>
     <string name="delete_recurring_event_title">Выдаліць <xliff:g id="eventtitle">%s</xliff:g>?</string>
     <string name="change_response_title">Змяніць адказ</string>
+    <string name="preferences_color">Асноўны колер</string>
+    <string name="preferences_color_pick">Асноўны колер</string>
     <string name="display_options">Параметры паказу</string>
     <string name="display_location">Паказваць месцазнаходжанне</string>
     <string name="preferences_default_event_duration_title">Прадвызначаная працягласць падзеі</string>
@@ -77,8 +86,10 @@
     <string name="preferences_reminders_responded_label">Прапусціць напамін</string>
     <string name="preferences_reminders_responded_dialog">Прапусціць напамін</string>
     <string name="copy_db">Адправіць базу даных</string>
+    <string name="accessibility_remove_attendee">Выдаліць удзельніка</string>
     <string name="accessibility_add_attendee">Дадаць удзельніка</string>
     <string name="accessibility_reminder_type">Тып напаміну</string>
+    <string name="recurrence_month_pattern_by_day">у адзін і той жа дзень кожнага месяца</string>
     <string name="recurrence_end_count_label">Колькасць паўтораў</string>
     <plurals name="recurrence_end_count">
         <item quantity="one">Для <xliff:g id="event_count">%d</xliff:g> падзеі</item>
@@ -88,7 +99,7 @@
     </plurals>
     <string name="fifteen_minutes">15 хвілін</string>
     <string name="one_hour">1 гадзіна</string>
-    <string name="error_generating_ics">Не атрымалася адправіць падзею</string>
+    <string name="preferences_calendar_account_local">Пазасеткавы каляндар</string>
     <string name="preferences_list_calendar_summary_sync_off">Не сінхранізаваны</string>
     <string name="preferences_list_add_offline">Дадаць пазасеткавы каляндар</string>
     <string name="preferences_list_add_offline_title">Дадаць пазасеткавы каляндар</string>
@@ -96,4 +107,5 @@
     <string name="preferences_list_add_offline_button">Дадаць каляндар</string>
     <string name="preferences_list_add_offline_name">Назва</string>
     <string name="preferences_list_add_offline_cancel">Скасаваць</string>
+    <string name="offline_account_name">Пазасеткавы каляндар</string>
 </resources>

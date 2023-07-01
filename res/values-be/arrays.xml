@@ -80,4 +80,53 @@
         <item>Месяц</item>
         <item>Расклад</item>
     </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>on every first Sunday</item>
+        <item>on every second Sunday</item>
+        <item>кожную трэцюю нядзелю</item>
+        <item>кожную чацвёртую нядзелю</item>
+        <item>кожную апошнюю нядзелю</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>on every first Monday</item>
+        <item>on every second Monday</item>
+        <item>on every third Monday</item>
+        <item>кожны чацвёрты панядзелак</item>
+        <item>on every last Monday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>кожны першы аўторак</item>
+        <item>on every second Tuesday</item>
+        <item>кожны трэці аўторак</item>
+        <item>кожны чацвёрты аўторак</item>
+        <item>on every last Tuesday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>on every first Wednesday</item>
+        <item>on every second Wednesday</item>
+        <item>on every third Wednesday</item>
+        <item>кожную чацвёртую сераду</item>
+        <item>on every last Wednesday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>on every first Thursday</item>
+        <item>кожны другі чацвер</item>
+        <item>кожны трэці чацвер</item>
+        <item>on every fourth Thursday</item>
+        <item>on every last Thursday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>on every first Friday</item>
+        <item>кожную другую пятніцу</item>
+        <item>кожную трэцюю пятніцу</item>
+        <item>кожную чацвёртую пятніцу</item>
+        <item>кожную апошнюю пятніцу</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>кожную першую суботу</item>
+        <item>on every second Saturday</item>
+        <item>on every third Saturday</item>
+        <item>on every fourth Saturday</item>
+        <item>on every last Saturday</item>
+    </string-array>
 </resources>
