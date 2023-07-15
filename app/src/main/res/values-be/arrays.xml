@@ -22,8 +22,8 @@
     </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Locale default</item>
-        <item>Saturday</item>
-        <item>Sunday</item>
+        <item>Субота</item>
+        <item>Нядзеля</item>
         <item>Панядзелак</item>
     </string-array>
     <string-array name="response_labels1">
@@ -34,7 +34,7 @@
     </string-array>
     <string-array name="delete_repeating_labels">
         <item>Only this event</item>
-        <item>This and future events</item>
+        <item>Гэта і будучыя падзеі</item>
         <item>Усе падзеі</item>
     </string-array>
     <string-array name="buttons_list">
