@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"明天，<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>，<xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(無標題)</string>
+    <string name="no_reminder_label">無</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 分鐘</item>
     </plurals>
@@ -33,6 +34,9 @@
     </plurals>
     <plurals name="Ndays">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 天</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> 周</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other">第 <xliff:g id="COUNT">%d</xliff:g> 週</item>
@@ -51,6 +55,7 @@
     <string name="goto_today">"今日"</string>
     <string name="goto_date">跳轉到\u2026</string>
     <string name="menu_preferences">"設定"</string>
+    <string name="menu_info">資訊</string>
     <string name="search">"搜尋"</string>
     <string name="hide_controls">"隱藏控制介面"</string>
     <string name="show_controls">"顯示控制介面"</string>
@@ -70,6 +75,9 @@
     <string name="rsvp_declined">"已回覆不參加。"</string>
     <string name="create_event_dialog_save">儲存</string>
     <string name="alert_title">日曆通知</string>
+    <string name="foreground_notification_title">新提醒安排中…</string>
+    <string name="foreground_notification_channel_name">後台任務</string>
+    <string name="foreground_notification_channel_description">內部同步所需的通知。您可以安全地隱藏此頻道。</string>
     <string name="event_info_title">檢視活動</string>
     <string name="event_info_title_invite">會議邀請</string>
     <string name="edit_event_all_day_label">全天</string>
@@ -122,6 +130,7 @@
     <string name="edit_event_label">"詳細資料"</string>
     <string name="edit_label">"編輯"</string>
     <string name="delete_label">"刪除"</string>
+    <string name="duplicate_label">複製</string>
     <string name="save_label">完成</string>
     <string name="discard_label">取消</string>
     <string name="dismiss_all_label">"全部關閉"</string>
@@ -160,6 +169,7 @@
     <string name="preferences_black_theme">黑色主題</string>
     <string name="preferences_color">主要色調</string>
     <string name="preferences_color_pick">主要色調</string>
+    <string name="preferences_real_event_colors">使用真實事件顏色</string>
     <string name="preferences_pure_black_night_mode">純深色主題</string>
     <string name="preferences_reminder_title">通知和提醒</string>
     <string name="preferences_hide_declined_title">隱藏已拒絕的活動</string>
@@ -318,4 +328,5 @@
     <string name="preferences_list_add_offline_cancel">取消</string>
     <string name="preferences_menu_about">關於日曆</string>
     <string name="offline_account_name">離線日曆</string>
+    <string name="after_start_of_event">與事件開始後</string>
 </resources>
