@@ -46,7 +46,7 @@ android_app {
         "ws.xsoh.etar",
     ],
 
-    kotlincflags: ["-Xjvm-default=enable"],
+    kotlincflags: ["-Xjvm-default=all"],
 
     required: [
         "org.lineageos.etar.allowlist"
