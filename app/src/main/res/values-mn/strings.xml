@@ -75,8 +75,6 @@
     <string name="privacy_label">Нууцлал</string>
     <string name="reminders_label">Сануулагч нэмэх</string>
     <string name="no_syncable_calendars">Календарь байхгүй</string>
-    <string name="no_calendars_found">Та үйл явдал нэмэхийн өмнө дор хаяж нэг Календарь акаунтыг төхөөрөмжид нэмж, календарийг харагддаг болгосон байх шаардлагатай. Акаунт нэмэхийн тулд Акаунт нэмэх гэсэнд хүрнэ үү (хэрэв та дөнгөж акаунт нэмсэн бол синк хийж дуустал хүлээгээд дахин оролдоно уу). Эсхүл Цуцлах гэсэнд хүрээд дор хаяж нэг календарь харагдахуйц болгоорой.</string>
-    <string name="add_account">Акаунт нэмэх</string>
     <string name="view_event_calendar_label">Календарь</string>
     <string name="view_event_organizer_label">Зохион байгуулагч:</string>
     <string name="choose_event_color_label">Үйл явдлын өнгийг сонгох</string>

@@ -75,8 +75,6 @@
     <string name="privacy_label">تایبەتی</string>
     <string name="reminders_label">زیاکردنی بیرهێنەرەوە</string>
     <string name="no_syncable_calendars">بێ ساڵنامە</string>
-    <string name="no_calendars_found">پێش ئەوەی ڕووداوێک زێدە بکەی، ئەبێ لانیکەم ئەژمێرێکی رۆژژمێر بۆ ئامێرەکەت دابنێی بۆ ئەوەی رۆژژمێر بخەیتە بەر چاو. دەست لێدە بۆ زێدە کردنی ئەژمێرێک (ئەگەر ئەژمێرێکت زێدە کردووە، چاوەڕوان بە تاکو هاوکاتسازی کۆتایی دێت و دووبارە هەوڵ بدەوە). یان دەست لێدە بۆ پاشگەزبوونەوە و دڵنیابوون لەوەی کە لانیکەم یەک رۆژژمێر دیار و بەرچاوە.</string>
-    <string name="add_account">زیادکردنی هەژمار</string>
     <string name="view_event_calendar_label">ڕۆژژمێر:</string>
     <string name="view_event_organizer_label">ڕێکخەر:</string>
     <string name="choose_event_color_label">ڕەنگی ڕووداو هەڵبژێرە</string>

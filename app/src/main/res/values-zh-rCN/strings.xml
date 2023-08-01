@@ -64,6 +64,7 @@
     <string name="hint_what">"活动名称"</string>
     <string name="hint_where">"地点"</string>
     <string name="hint_description">"说明"</string>
+    <string name="hint_url">"网址"</string>
     <string name="hint_attendees">"邀请对象"</string>
     <string name="creating_event">"活动已创建。"</string>
     <string name="saving_event">"活动已保存。"</string>
@@ -86,8 +87,8 @@
     <string name="privacy_label">活动性质</string>
     <string name="reminders_label">添加提醒</string>
     <string name="no_syncable_calendars">无日历</string>
-    <string name="no_calendars_found">您必须向设备中至少添加一个日历帐户并显示一个日历，然后才能添加活动。您可以触摸“添加帐户”以添加帐户（如果您​​刚刚添加过帐户，请等待该帐户完成同步，然后重试）。您也可以触摸“取消”，并确保至少显示了一个日历。</string>
-    <string name="add_account">添加帐户</string>
+    <string name="no_calendars_found">在添加事件之前，您必须至少向您的设备添加一个日历。</string>
+    <string name="add_calendar">添加日历</string>
     <string name="view_event_calendar_label">日历：</string>
     <string name="view_event_organizer_label">组织者：</string>
     <string name="choose_event_color_label">选择活动颜色</string>

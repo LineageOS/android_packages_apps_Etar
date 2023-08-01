@@ -95,8 +95,7 @@
     <string name="privacy_label">الخصوصية</string>
     <string name="reminders_label">إضافة تذكير</string>
     <string name="no_syncable_calendars">بلا تقاويم</string>
-    <string name="no_calendars_found">قبل أن تتمكن من إضافة حدث، يتعين عليك إضافة حساب تقويم واحد على الأقل إلى جهازك وجعل أحد التقويمات مرئيًا. يمكنك لمس \"إضافة حساب\" لإضافة حساب (إذا أضفت حسابًا، فانتظر حتى تكتمل عملية مزامنته وحاول مرة أخرى). أو يمكنك لمس \"إلغاء\" والتأكد من أن تقويمًا واحدًا على الأقل مرئي.</string>
-    <string name="add_account">إضافة حساب</string>
+    <string name="add_calendar">إضافة تقويم</string>
     <string name="view_event_calendar_label">التقويم:</string>
     <string name="view_event_organizer_label">المنظِّم:</string>
     <string name="choose_event_color_label">اختيار لون الحدث</string>

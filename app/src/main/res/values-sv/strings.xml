@@ -92,8 +92,7 @@
     <string name="privacy_label">Sekretess</string>
     <string name="reminders_label">Lägg till påminnelse</string>
     <string name="no_syncable_calendars">Inga kalendrar</string>
-    <string name="no_calendars_found">Innan du kan lägga till en händelse måste du lägga till minst ett kalenderkonto på enheten och göra en kalender synlig. Tryck på Lägg till konto (om du precis har lagt till ett konto väntar du tills synkroniseringen är slutförd och försöker sedan igen). Annars trycker du på Avbryt och kontrollerar att minst en kalender visas.</string>
-    <string name="add_account">Lägg till konto</string>
+    <string name="add_calendar">Lägg till kalender</string>
     <string name="view_event_calendar_label">Kalender:</string>
     <string name="view_event_organizer_label">Organisatör:</string>
     <string name="choose_event_color_label">Välj färg på eventet</string>

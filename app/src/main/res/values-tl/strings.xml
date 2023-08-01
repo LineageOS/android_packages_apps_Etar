@@ -75,8 +75,6 @@
     <string name="privacy_label">Privacy</string>
     <string name="reminders_label">Magdagdag ng paalala</string>
     <string name="no_syncable_calendars">Walang mga kalendaryo</string>
-    <string name="no_calendars_found">Bago ka makapagdagdag ng isang kaganapan, dapat kang magdagdag ng hindi bababa sa isang Calendar account sa iyong device at gawing nakikita ang isang kalendaryo. Pindutin ang Magdagdag ng Account upang magdagdag ng isang account (kung kadaragdag mo lang ng isang account, hintayin itong matapos sa pag-sync at subukang muli). O pindutin ang Kanselahin at tiyaking nakikita ang hindi bababa sa isang kalendaryo.</string>
-    <string name="add_account">Magdagdag ng account</string>
     <string name="view_event_calendar_label">Kalendaryo:</string>
     <string name="view_event_organizer_label">Organizer:</string>
     <string name="choose_event_color_label">Pumili ng kulay ng kaganapan</string>

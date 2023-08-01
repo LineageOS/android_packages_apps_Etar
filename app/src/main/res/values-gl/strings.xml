@@ -83,8 +83,7 @@
     <string name="privacy_label">Privacidade</string>
     <string name="reminders_label">Engadir recordatorio</string>
     <string name="no_syncable_calendars">Non hai calendarios</string>
-    <string name="no_calendars_found">Antes de engadires un evento, engade polo menos unha conta de Calendario no dispositivo e fai visible un calendario. Toca Engadir conta para engadir unha conta (se acabas de engadir unha, espera a que acabe de sincronizarse e téntao de novo) ou toca Cancelar e asegúrate de que polo menos é visible un calendario.</string>
-    <string name="add_account">Engadir conta</string>
+    <string name="add_calendar">Engadir calendario</string>
     <string name="view_event_calendar_label">Calendario:</string>
     <string name="view_event_organizer_label">Organizador:</string>
     <string name="choose_event_color_label">Escoller a cor do evento</string>

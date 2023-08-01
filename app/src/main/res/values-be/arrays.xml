@@ -28,7 +28,7 @@
     </string-array>
     <string-array name="response_labels1">
         <item>No response</item>
-        <item>Yes</item>
+        <item>Так</item>
         <item>Магчыма</item>
         <item>Не</item>
     </string-array>
@@ -39,7 +39,7 @@
     </string-array>
     <string-array name="buttons_list">
         <item>Дзень</item>
-        <item>Week</item>
+        <item>Тыдзень</item>
         <item>Месяц</item>
         <item>Расклад</item>
     </string-array>

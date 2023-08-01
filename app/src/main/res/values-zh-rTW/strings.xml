@@ -64,6 +64,7 @@
     <string name="hint_what">"活動名稱"</string>
     <string name="hint_where">"地點"</string>
     <string name="hint_description">"說明"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"邀請對象"</string>
     <string name="creating_event">"已建立活動。"</string>
     <string name="saving_event">"已儲存活動。"</string>
@@ -86,8 +87,8 @@
     <string name="privacy_label">隱私權</string>
     <string name="reminders_label">新增提醒</string>
     <string name="no_syncable_calendars">無日曆</string>
-    <string name="no_calendars_found">您必須在裝置上至少新增一個「日曆」帳戶，並將一個日曆設為顯示，才能新增活動。輕觸 [新增帳戶] 即可新增帳戶 (如果您剛剛新增帳戶，請稍候片刻，待帳戶同步處理完成後再試一次)；或是輕觸 [取消]，並確認至少將一個日曆設為顯示。</string>
-    <string name="add_account">新增帳戶</string>
+    <string name="no_calendars_found">新增活動前，您需要先在裝置內加入行事曆</string>
+    <string name="add_calendar">新增日曆</string>
     <string name="view_event_calendar_label">日曆：</string>
     <string name="view_event_organizer_label">主辦人：</string>
     <string name="choose_event_color_label">選擇活動顏色</string>

@@ -75,8 +75,6 @@
     <string name="privacy_label">தனியுரிமை</string>
     <string name="reminders_label">நினைவூட்டலைச் சேர்</string>
     <string name="no_syncable_calendars">கேலெண்டர்கள் இல்லை</string>
-    <string name="no_calendars_found">நீங்கள் நிகழ்வைச் சேர்ப்பதற்கு முன், உங்கள் சாதனத்தில் ஒரு கேலெண்டர் கணக்கையாவது சேர்த்து, அதைத் தெரிவுநிலையில் வைக்க வேண்டும். கணக்கைச் சேர்ப்பதற்கு, கணக்கைச் சேர் என்பதைத் தொடவும் (நீங்கள் கணக்கைச் சேர்த்தீர்கள் எனில், அது ஒத்திசைத்து முடியும் வரை காத்திருந்து மீண்டும் முயற்சிக்கவும்). அல்லது ரத்துசெய் என்பதைத் தொடவும், மேலும் ஒரு கேலெண்டராவது தெரிவுநிலையில் இருக்கிறது என்பதை உறுதிசெய்யவும்.</string>
-    <string name="add_account">கணக்கைச் சேர்</string>
     <string name="view_event_calendar_label">கேலெண்டர்:</string>
     <string name="view_event_organizer_label">அமைப்பாளர்:</string>
     <string name="choose_event_color_label">நிகழ்வின் வண்ணத்தைத் தேர்வுசெய்க</string>

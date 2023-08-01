@@ -76,6 +76,7 @@
     <string name="hint_what">"Numele evenimentului"</string>
     <string name="hint_where">"Locaţie"</string>
     <string name="hint_description">"Descriere"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Invitaţi"</string>
     <string name="creating_event">"Eveniment creat."</string>
     <string name="saving_event">"Eveniment salvat."</string>
@@ -98,8 +99,8 @@
     <string name="privacy_label">Confidenţialitate</string>
     <string name="reminders_label">Adăugaţi memento</string>
     <string name="no_syncable_calendars">Niciun calendar</string>
-    <string name="no_calendars_found">Înainte de a putea adăuga un eveniment, trebuie să adăugaţi cel puţin un cont Calendar pe dispozitiv şi să faceţi un calendar vizibil. Atingeţi „Adăugaţi un cont” pentru a adăuga un cont (dacă tocmai aţi adăugat un cont, aşteptaţi să se termine sincronizarea şi încercaţi din nou). Sau atingeţi „Anulați” şi asiguraţi-vă că cel puţin un calendar este vizibil.</string>
-    <string name="add_account">Adăugaţi un cont</string>
+    <string name="no_calendars_found">Înainte de a putea adăuga un eveniment, trebuie să adăugaţi cel puţin un calendar pe dispozitiv</string>
+    <string name="add_calendar">Adăugare calendar</string>
     <string name="view_event_calendar_label">Calendar:</string>
     <string name="view_event_organizer_label">Organizator:</string>
     <string name="choose_event_color_label">Alegeți o culoare pentru eveniment</string>

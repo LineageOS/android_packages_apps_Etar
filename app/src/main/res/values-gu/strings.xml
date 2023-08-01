@@ -75,8 +75,6 @@
     <string name="privacy_label">ગોપનીયતા</string>
     <string name="reminders_label">રિમાઇન્ડર ઉમેરો</string>
     <string name="no_syncable_calendars">કોઈ કેલેન્ડર્સ નથી</string>
-    <string name="no_calendars_found">તમે કોઈ ઇવેન્ટ ઉમેરી શકો તે પહેલાં, તમારે તમારા ઉપકરણ પર ઓછામાં ઓછું એક કેલેન્ડર એકાઉન્ટ ઉમેરવું અને કેલેન્ડરને દૃશ્યક્ષમ બનાવવું આવશ્યક છે. એકાઉન્ટ ઉમેરવા માટે એકાઉન્ટ ઉમેરો પર ટચ કરો (જો તમે હમણાંજ એકાઉન્ટ ઉમેર્યું છે, તો તે સમન્વયિત થવાનું સમાપ્ત થાય ત્યાં સુધી રાહ જુઓ અને ફરી પ્રયાસ કરો). અથવા રદ કરો પર ટચ કરો અને ઓછામાં ઓછું એક કેલેન્ડર દૃશ્યક્ષમ છે તેની ખાતરી કરો.</string>
-    <string name="add_account">એકાઉન્ટ ઉમેરો</string>
     <string name="view_event_calendar_label">કેલેન્ડર:</string>
     <string name="view_event_organizer_label">આયોજક:</string>
     <string name="choose_event_color_label">ઇવેન્ટ રંગ પસંદ કરો</string>

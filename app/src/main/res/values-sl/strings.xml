@@ -82,6 +82,7 @@
     <string name="hint_what">"Ime dogodka"</string>
     <string name="hint_where">"Lokacija"</string>
     <string name="hint_description">"Opis"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Gostje"</string>
     <string name="creating_event">"Dogodek ustvarjen."</string>
     <string name="saving_event">"Dogodek shranjen."</string>
@@ -104,8 +105,8 @@
     <string name="privacy_label">Zasebnost</string>
     <string name="reminders_label">Dodaj opomnik</string>
     <string name="no_syncable_calendars">Ni koledarjev</string>
-    <string name="no_calendars_found">Preden lahko dodate dogodek, morate dodati vsaj en račun Koledarja v vašo napravo in narediti koledar viden. Dotaknite se Dodaj račun, da dodate račun (če ste račun pravkar dodali, počakajte, da konča sinhroniziranje in poskusite znova). Ali se dotaknite Prekliči in se prepričajte, da je vsaj en koledar viden.</string>
-    <string name="add_account">Dodaj račun</string>
+    <string name="no_calendars_found">Preden lahko dodate dogodek, morate dodati vsaj en koledar v vašo napravo</string>
+    <string name="add_calendar">Dodaj koledar</string>
     <string name="view_event_calendar_label">Koledar:</string>
     <string name="view_event_organizer_label">Organizator:</string>
     <string name="choose_event_color_label">Izberite barvo dogodka</string>

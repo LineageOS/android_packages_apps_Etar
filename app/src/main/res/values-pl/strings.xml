@@ -82,6 +82,7 @@
     <string name="hint_what">"Nazwa wydarzenia"</string>
     <string name="hint_where">"Lokalizacja"</string>
     <string name="hint_description">"Opis"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Goście"</string>
     <string name="creating_event">"Utworzono wydarzenie."</string>
     <string name="saving_event">"Zapisano wydarzenie."</string>
@@ -104,8 +105,8 @@
     <string name="privacy_label">Prywatność</string>
     <string name="reminders_label">Dodaj przypomnienie</string>
     <string name="no_syncable_calendars">Brak kalendarzy</string>
-    <string name="no_calendars_found">Przed utworzeniem wydarzenia musisz dodać do urządzenia konto z Kalendarzem i ustawić wybrany kalendarz jako widoczny. Wybierz „Dodaj konto” (jeśli właśnie to zrobiłeś, poczekaj na zakończenie synchronizacji i spróbuj ponownie). Możesz też dotknąć Anuluj i upewnić się, że co najmniej jeden kalendarz jest widoczny.</string>
-    <string name="add_account">Dodaj konto</string>
+    <string name="no_calendars_found">Zanim będzie można dodać wydarzenie, musisz dodać przynajmniej jeden kalendarz do swojego urządzenia</string>
+    <string name="add_calendar">Dodaj kalendarz</string>
     <string name="view_event_calendar_label">Kalendarz:</string>
     <string name="view_event_organizer_label">Organizator:</string>
     <string name="choose_event_color_label">Wybierz kolor wydarzenia</string>

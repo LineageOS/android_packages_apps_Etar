@@ -70,6 +70,7 @@
     <string name="hint_what">"Nom de l'esdeveniment"</string>
     <string name="hint_where">"Ubicació"</string>
     <string name="hint_description">"Descripció"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Convidats"</string>
     <string name="creating_event">"S'ha creat un esdeveniment."</string>
     <string name="saving_event">"S'ha desat l'esdeveniment."</string>
@@ -92,8 +93,8 @@
     <string name="privacy_label">Privadesa</string>
     <string name="reminders_label">Afegeix recordatori</string>
     <string name="no_syncable_calendars">No hi ha cap calendari</string>
-    <string name="no_calendars_found">Per poder afegir un esdeveniment, has d\'afegir com a mínim un compte de Calendar al dispositiu i fer que un calendari estigui visible. Toca Afegeix un compte per afegir un compte (si n\'acabes d\'afegir un, espera fins que s\'hagi acabat de sincronitzar i torna-ho a provar). O bé toca Cancel·la i assegura\'t que almenys un calendari estigui visible.</string>
-    <string name="add_account">Afegeix un compte</string>
+    <string name="no_calendars_found">Abans de poder afegir un esdeveniment, heu d\'afegir almenys un calendari al vostre dispositiu</string>
+    <string name="add_calendar">Afegeix un calendari</string>
     <string name="view_event_calendar_label">Calendari:</string>
     <string name="view_event_organizer_label">Organitzador:</string>
     <string name="choose_event_color_label">Tria el color de l\'esdeveniment</string>

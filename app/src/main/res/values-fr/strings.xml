@@ -70,6 +70,7 @@
     <string name="hint_what">"Nom de l'événement"</string>
     <string name="hint_where">"Lieu"</string>
     <string name="hint_description">"Description"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Invités"</string>
     <string name="creating_event">"Événement créé."</string>
     <string name="saving_event">"Événement enregistré."</string>
@@ -92,8 +93,8 @@
     <string name="privacy_label">Confidentialité</string>
     <string name="reminders_label">Ajouter un rappel</string>
     <string name="no_syncable_calendars">Pas d\'agenda</string>
-    <string name="no_calendars_found">Avant d\'ajouter un événement, vous devez ajouter au moins un compte Google Agenda à votre appareil et activer la visibilité de cet agenda. Pour cela, appuyez sur \"Ajouter un compte\", ou sur \"Annuler\" si vous pensez qu\'au moins un agenda est activé (vérifiez que c\'est bien le cas). Si vous venez d\'ajouter un compte, patientez jusqu\'à la fin de la synchronisation, puis réessayez.</string>
-    <string name="add_account">Ajouter un compte</string>
+    <string name="no_calendars_found">Avant de pouvoir ajouter un événement, vous devez ajouter au moins un calendrier à votre appareil</string>
+    <string name="add_calendar">Ajouter un calendrier</string>
     <string name="view_event_calendar_label">Agenda :</string>
     <string name="view_event_organizer_label">Organisateur :</string>
     <string name="choose_event_color_label">Sélectionnez la couleur de l\'événement</string>

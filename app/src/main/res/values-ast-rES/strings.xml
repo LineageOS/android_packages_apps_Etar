@@ -56,6 +56,7 @@
     <string name="hint_what">"Nome del eventu"</string>
     <string name="hint_where">"Llocalización"</string>
     <string name="hint_description">"Descripción"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Convidaos"</string>
     <string name="foreground_notification_title">Programando los recordatorios nuevos…</string>
     <string name="foreground_notification_channel_name">Xeres en segundu planu</string>
@@ -63,6 +64,7 @@
     <string name="edit_event_all_day_label">Tol día</string>
     <string name="edit_event_calendar_label">Calendariu</string>
     <string name="privacy_label">Privacidá</string>
+    <string name="add_calendar">Amestar</string>
     <string name="view_event_calendar_label">Calendariu:</string>
     <string name="calendar_color_picker_dialog_title">Color del calendariu</string>
     <string name="view_event_response_label">¿Vas asistir?</string>

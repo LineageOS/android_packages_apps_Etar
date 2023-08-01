@@ -71,8 +71,6 @@
     <string name="privacy_label">ကိုယ်ရေး</string>
     <string name="reminders_label">သတိပေးချက် ထည့်ရန်</string>
     <string name="no_syncable_calendars">ပြက္ခဒိန်များ မရှိ</string>
-    <string name="no_calendars_found">သင်သည် ဖြစ်ရပ် တစ်ခုကို ထည့်မပေးခင်မှာ၊ သင်သည် အနည်းဆုံး ပြက္ခဒိန် ဖြစ်ရပ် တစ်ခုကို ထည့်ပေးလျက် ပြက္ခဒိန် တစ်ခုကို မြင်ရအောင် လုပ်ပေးရန် လိုမည်။ အကောင့် တစ်ခုကို ထည့်ရန် အကောင့် ထည့်ရန်ကို ထိပါ (အကယ်၍ သင်သည် အကောင့်ကို ယခုလေးတင် ထည့်ပေးခဲ့သည် ဆိုလျှင် ၎င်းက စင့်က် လုပ်ပြီးမှကို စောင့်ပြီး နောက်မှာ ထပ်စမ်းပါ)။ သို့မဟုတ် ပယ်ဖျက်ရန်ကို ထိလိုက်ကာ အနည်းဆုံး ပြက္ခဒိန် တစ်ခု မြင်ရတာ သေချာပါစေ။</string>
-    <string name="add_account">အကောင့် ထည့်ရန်</string>
     <string name="view_event_calendar_label">ပြက္ခဒိန်:</string>
     <string name="view_event_organizer_label">စည်းရုံးသူ:</string>
     <string name="choose_event_color_label">ဖြစ်ရပ် အရောင်ကို ရွေးရန်</string>

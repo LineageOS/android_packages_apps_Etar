@@ -71,8 +71,6 @@
     <string name="privacy_label">ភាព​ឯកជន</string>
     <string name="reminders_label">បន្ថែម​កម្មវិធី​រំលឹក</string>
     <string name="no_syncable_calendars">មិន​មានប្រតិទិន</string>
-    <string name="no_calendars_found">ដើម្បី​អាច​បន្ថែម​ព្រឹត្តិការណ៍​បាន អ្នក​ត្រូវតែ​បន្ថែម​គណនី​ប្រតិទិន​យ៉ាង​ហោច​មួយ​ទៅកាន់​ឧបករណ៍ រួច​ធ្វើឲ្យ​ប្រតិទិន​មើល​ឃើញ។ ប៉ះ \"បន្ថែម​គណនី\" ដើម្បី​បន្ថែម​គណនី (ប្រសិនបើ​អ្នក​គ្រាន់តែ​បន្ថែម​គណនី សូម​រង់ចាំ​ឲ្យ​វា​បញ្ចប់​ការ​ធ្វើ​សមកាលកម្ម រួច​ព្យាយាម​ម្ដងទៀត)។ ឬ​ប៉ះ បោះបង់ និង​ប្រាកដ​ថា​មាន​ប្រតិទិន​យ៉ាង​ហោច​មួយ​ដែល​អាច​មើល​ឃើញ។</string>
-    <string name="add_account">បន្ថែម​គណនី</string>
     <string name="view_event_calendar_label">ប្រតិទិន៖</string>
     <string name="view_event_organizer_label">អ្នក​រៀបចំ៖</string>
     <string name="choose_event_color_label">ជ្រើស​ពណ៌​ព្រឹត្តិការណ៍</string>

@@ -83,8 +83,6 @@
     <string name="privacy_label">Privatumas</string>
     <string name="reminders_label">Pridėti priminimą</string>
     <string name="no_syncable_calendars">Nėra kalendorių</string>
-    <string name="no_calendars_found">Jei norite pridėti įvykį, savo įrenginyje turite pridėti bent vieną Kalendoriaus paskyrą ir padaryti kalendorių matomą. Jei norite pridėti paskyrą, palieskite „Pridėti paskyrą“ (jei paskyrą ką tik pridėjote, palaukite, kol ji bus sinchronizuota, ir bandykite dar kartą). Arba palieskite „Atšaukti“ ir įsitikinkite, kad matomas bent vienas kalendorius.</string>
-    <string name="add_account">Pridėti paskyrą</string>
     <string name="view_event_calendar_label">Kalendorius:</string>
     <string name="view_event_organizer_label">Tvarkytuvė:</string>
     <string name="choose_event_color_label">Pasirinkti įvykio spalvą</string>

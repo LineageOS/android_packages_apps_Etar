@@ -75,8 +75,6 @@
     <string name="privacy_label">පෞද්ගලිකත්වය</string>
     <string name="reminders_label">සිහි කැඳවීමක් එක් කරන්න</string>
     <string name="no_syncable_calendars">දින දර්ශන නොමැත</string>
-    <string name="no_calendars_found">ඔබ සිදුවීමක් එක් කිරීමට පෙර, ඔබ අඩුම තරමේ එක් දින දර්ශන ගිණුමක් වත් ඔබේ උපාංගයට එක් කර දින දර්ශනය පෙන්වා තිබිය යුතුය. ගිණුමක් එක් කිරීමට \"ගිණුමක් එක් කරන්න\" ස්පර්ශ කරන්න (ඔබ දැන් ගිණුමක් එක් කළේ නම්, එය සමමුහුර්ත වන තුරු ඉවසා පසුව උත්සාහ කරන්න). නැති නම් අවලංගු කරන්න ස්පර්ශ කර අඩු තරමේ එක් ගිණුමක් වත් දර්ශන වීමට ඇතැයි යන්න සැක හැර දැනගන්න.</string>
-    <string name="add_account">ගිණුමක් එක් කරන්න</string>
     <string name="view_event_calendar_label">දින දර්ශනය:</string>
     <string name="view_event_organizer_label">සංවිධායක:</string>
     <string name="choose_event_color_label">සිදුවීමේ පැහැය තෝරන්න</string>

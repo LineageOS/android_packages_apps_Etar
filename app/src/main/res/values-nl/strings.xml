@@ -70,6 +70,7 @@
     <string name="hint_what">"Afspraaknaam"</string>
     <string name="hint_where">"Locatie"</string>
     <string name="hint_description">"Beschrijving"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Gasten"</string>
     <string name="creating_event">"Afspraak gemaakt."</string>
     <string name="saving_event">"Afspraak opgeslagen."</string>
@@ -92,8 +93,8 @@
     <string name="privacy_label">Privacy</string>
     <string name="reminders_label">Herinnering toevoegen</string>
     <string name="no_syncable_calendars">Geen agenda\'s</string>
-    <string name="no_calendars_found">Voordat je een afspraak kunt toevoegen, moet je ten minste één Agenda-account aan je apparaat toevoegen en de agenda zichtbaar maken. Raak \'Account toevoegen\' aan om een account toe te voegen (als je net een account hebt toegevoegd, wacht je tot het synchroniseren is voltooid en probeer je het opnieuw). Of raak \'Annuleren\' aan en zorg ervoor dat er ten minste één agenda zichtbaar is.</string>
-    <string name="add_account">Account toevoegen</string>
+    <string name="no_calendars_found">Voordat je een afspraak kunt toevoegen moet je minimaal één kalender aan je apparaat toevoegen</string>
+    <string name="add_calendar">Voeg kalender toe</string>
     <string name="view_event_calendar_label">Agenda:</string>
     <string name="view_event_organizer_label">Organisator:</string>
     <string name="choose_event_color_label">Kleur voor afspraak kiezen</string>

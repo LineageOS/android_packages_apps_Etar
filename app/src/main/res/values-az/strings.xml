@@ -70,6 +70,7 @@
     <string name="hint_what">"Tədbir adı"</string>
     <string name="hint_where">"Yer"</string>
     <string name="hint_description">"Təsvir"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Qonaqlar"</string>
     <string name="creating_event">"Tədbir yaradıldı."</string>
     <string name="saving_event">"Tədbir yadda saxlanıldı."</string>
@@ -92,8 +93,8 @@
     <string name="privacy_label">Gizlilik</string>
     <string name="reminders_label">Xatırladıcı əlavə et</string>
     <string name="no_syncable_calendars">Təqvim yoxdur</string>
-    <string name="no_calendars_found">Tədbir əlavə etməzdən əvvəl cihaza ən az bir Təqvim hesabı əlavə edib təqvimi görünən etməlisiniz. Hesab əlavə etmək üçün Hesab Əlavə Et-ə toxunun (əgər yenicə hesab əlavə etmisinizsə, onun sinxronlaşdırılmasını gözləyin və yenidən yoxlayın). Və ya Ləğv Et-ə toxunun və ən az bir təqvimin görünən olduğundan əmin olun.</string>
-    <string name="add_account">Hesab əlavə et</string>
+    <string name="no_calendars_found">Bir tədbir əlavə edə bilmək üçün cihazınıza ən azı bir təqvim əlavə etməlisiniz</string>
+    <string name="add_calendar">Təqvim əlavə et</string>
     <string name="view_event_calendar_label">Təqvim:</string>
     <string name="view_event_organizer_label">Təşkilatçı:</string>
     <string name="choose_event_color_label">Tədbir rəngini seç</string>

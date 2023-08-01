@@ -101,8 +101,7 @@
     <string name="privacy_label">Конфіденц.</string>
     <string name="reminders_label">Додати нагадування</string>
     <string name="no_syncable_calendars">Немає календ.</string>
-    <string name="no_calendars_found">Перш ніж додавати подію, потрібно додати в пристрій хоча б один обліковий запис служби Календар і зробити календар видимим. Щоб додати обліковий запис, торкніться опції \"Додати обліковий запис\" (якщо ви його щойно додали, зачекайте завершення синхронізації та повторіть спробу). Або торкніться опції \"Скасувати\" та переконайтеся, що принаймні один календар видимий.</string>
-    <string name="add_account">Додати обліковий запис</string>
+    <string name="add_calendar">Додати календар</string>
     <string name="view_event_calendar_label">Календар:</string>
     <string name="view_event_organizer_label">Організатор:</string>
     <string name="choose_event_color_label">Виберіть колір події</string>

@@ -70,6 +70,7 @@
     <string name="hint_what">"ღონისძიების სახელი"</string>
     <string name="hint_where">"მდებარეობა"</string>
     <string name="hint_description">"აღწერილობა"</string>
+    <string name="hint_url">"ბმული"</string>
     <string name="hint_attendees">"სტუმრები"</string>
     <string name="creating_event">"ღონისძიება შექმნილია."</string>
     <string name="saving_event">"ღონისძიება დამახსორებულია."</string>
@@ -92,8 +93,8 @@
     <string name="privacy_label">პირადულობა</string>
     <string name="reminders_label">შეხსენების დამატება</string>
     <string name="no_syncable_calendars">კალენდრები არ არის</string>
-    <string name="no_calendars_found">ვიდრე შეძლებდეთ ღონისძიებას შექმნას, სულ მცირე ერთი კალენდრის ანგარიში მაინც უნდა დაამატოთ თქვენს მოწყობილობას და გახადოთ ის ხილვადი. ამისათვის, შეეხეთ „ანგარიშის დამატებას“ (თუ უკვე დაამატეთ ანგარიში, დაელოდეთ სანამ დაასრულებს სინქრონიზაციას და სცადეთ ხელახლა). ან დააჭირეთ გაუქმებას და დარწმუნდით რომ სულ მცირე ერთი კალენდარი მაინც არის ხილვადი.</string>
-    <string name="add_account">ანგარიშის დამატება</string>
+    <string name="no_calendars_found">სანამ შეძლებთ ღონისძიების მითითებას, ერთი კალენდარი მაინც უნდა დაამატოთ მოწყობილობაზე</string>
+    <string name="add_calendar">კალენდრის დამატება</string>
     <string name="view_event_calendar_label">კალენდარი</string>
     <string name="view_event_organizer_label">მოთავე:</string>
     <string name="choose_event_color_label">ღონისძიების ფერის შერჩევა</string>

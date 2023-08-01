@@ -116,8 +116,7 @@
     <string name="privacy_label">Preifatrwydd</string>
     <string name="reminders_label">Ychwanegu nodyn atgoffa</string>
     <string name="no_syncable_calendars">Dim calendrau</string>
-    <string name="no_calendars_found">Cyn ychwanegu digwyddiad, rhaid ychwanegu o leiaf un cyfrif calendr i dy ddyfais a gwneud calendr yn weledol. Cyffyrdda Ychwanegu Cyfrif i ychwanegu cyfrif. (Os wyt ti newydd ychwanegu gyfrif, arhosa iddo orffen cysoni a cheisio eto.) Neu cyffyrdda Diddymu a sicrhau bod o leiaf un calendr yn weledol.</string>
-    <string name="add_account">Ychwanegu cyfrif</string>
+    <string name="add_calendar">Ychwanegu calendr</string>
     <string name="view_event_calendar_label">Calendr:</string>
     <string name="view_event_organizer_label">Trefnydd:</string>
     <string name="choose_event_color_label">Dewis lliw digwyddiad</string>

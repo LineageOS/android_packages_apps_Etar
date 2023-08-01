@@ -59,8 +59,6 @@
     <string name="privacy_label">شەخسىيەت</string>
     <string name="reminders_label">ئەسكەرتىش قوش</string>
     <string name="no_syncable_calendars">يىلنامە يوق</string>
-    <string name="no_calendars_found">پائالىيەت قوشۇشتىن ئىلگىرى، سىز ئاز دېگەندە بىر يىلنامە ھېساباتى قوشۇپ، يىلنامەنى كۆرسىتىشىڭىز لازىم. ھېسابات قوشنى چەكسىڭىزلا ھېسابات قوشۇلىدۇ(ئەگەر بايىلا ھېسابات قوشقان بولسىڭىز، ھېساباتنىڭ قەدەمداشلىنىشىنى كۈتۈپ ئاندىن قايتا سىناڭ). ياكى ۋاز كەچنى چېكىپ، ئاز دېگەندە بىر يىلنامەنىڭ كۆرۈنۈشىگە كاپالەتلىك قىلىڭ.</string>
-    <string name="add_account">ھېسابات قوش</string>
     <string name="view_event_calendar_label">يىلنامە:</string>
     <string name="view_event_organizer_label">تەشكىللىگۈچى:</string>
     <string name="choose_event_color_label">پائالىيەت رەڭگىنى تاللاڭ</string>

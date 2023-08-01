@@ -75,8 +75,6 @@
     <string name="privacy_label">Գաղտնիություն</string>
     <string name="reminders_label">Ավելացնել հիշեցում</string>
     <string name="no_syncable_calendars">Օրացույցներ չկան</string>
-    <string name="no_calendars_found">Նախքան դուք կարող եք ավելացնել իրադարձություն, դուք պետք է սարքում ավելացնեք նվազագույնը մեկ օրացուցային հաշիվ և այն դարձնեք տեսանելի: Հպեք Ավելացնել հաշիվ՝ հաշվի ավելացման համար (եթե քիչ առաջ ավելացրել եք հաշիվ, սպասեք, մինչ կավարտվի համաժամեցումը և կրկին փորձեք): Կամ հպեք Չեղարկել և համոզվեք, որ նվազագույնը մեկ օրացույց տեսանելի է:</string>
-    <string name="add_account">Ավելացնել հաշիվ</string>
     <string name="view_event_calendar_label">Օրացույց՝</string>
     <string name="view_event_organizer_label">Կազմակերպիչ՝</string>
     <string name="choose_event_color_label">Ընտրել իրադարձության գույնը</string>

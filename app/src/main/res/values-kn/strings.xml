@@ -75,8 +75,6 @@
     <string name="privacy_label">ಗೌಪ್ಯತೆ</string>
     <string name="reminders_label">ಜ್ಞಾಪನೆಯನ್ನು ಸೇರಿಸಿ</string>
     <string name="no_syncable_calendars">ಯಾವುದೇ ಕ್ಯಾಲೆಂಡರ್‌ಗಳಿಲ್ಲ</string>
-    <string name="no_calendars_found">ಒಂದು ಈವೆಂಟ್ ಸೇರಿಸುವ ಮೊದಲು, ನೀವು ಕನಿಷ್ಟ ಒಂದು ಕ್ಯಾಲೆಂಡರ್ ಖಾತೆಯನ್ನು ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಸೇರಿಸಬೇಕು ಮತ್ತು ಅದು ಗೋಚರಿಸುವಂತೆ ಮಾಡಬೇಕು. ಖಾತೆಯನ್ನು ಸೇರಿಸಲು ಖಾತೆ ಸೇರಿಸು ಸ್ಪರ್ಶಿಸಿ (ನೀವು ಈಗತಾನೇ ಖಾತೆಯನ್ನು ಸೇರಿಸಿದ್ದರೆ, ಸಿಂಕ್ ಮಾಡುವುದನ್ನು ಪೂರೈಸುವವರೆಗೂ ಕಾಯಿರಿ ಮತ್ತು ನಂತರ ಪ್ರಯತ್ನಿಸಿ). ಅಥವಾ  ರದ್ದುಮಾಡು ಒತ್ತಿ ಹಾಗೂ ಕನಿಷ್ಟ ಒಂದು ಕ್ಯಾಲೆಂಡರ್ ಆದರೂ ಕಾಣಿಸುತ್ತಿದೆಯೇ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
-    <string name="add_account">ಖಾತೆಯನ್ನು ಸೇರಿಸು</string>
     <string name="view_event_calendar_label">ಕ್ಯಾಲೆಂಡರ್‌:</string>
     <string name="view_event_organizer_label">ಸಂಘಟಕ:</string>
     <string name="choose_event_color_label">ಈವೆಂಟ್ ಬಣ್ಣವನ್ನು ಆರಿಸಿ</string>

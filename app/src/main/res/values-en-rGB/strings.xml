@@ -70,6 +70,7 @@
     <string name="hint_what">"Event name"</string>
     <string name="hint_where">"Location"</string>
     <string name="hint_description">"Description"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Guests"</string>
     <string name="creating_event">"Event created."</string>
     <string name="saving_event">"Event saved."</string>
@@ -92,8 +93,8 @@
     <string name="privacy_label">Privacy</string>
     <string name="reminders_label">Add reminder</string>
     <string name="no_syncable_calendars">No calendars</string>
-    <string name="no_calendars_found">Before you can add an event, you must add at least one Calendar account to your device and make a calendar visible. Touch Add Account to add an account (if you\'ve just added an account, wait for it to finish syncing and try again). Or touch Cancel and make sure that at least one calendar is visible.</string>
-    <string name="add_account">Add account</string>
+    <string name="no_calendars_found">Before you can add an event, you must add at least one calendar to your device</string>
+    <string name="add_calendar">Add calendar</string>
     <string name="view_event_calendar_label">Calendar:</string>
     <string name="view_event_organizer_label">Organiser:</string>
     <string name="choose_event_color_label">Choose event colour</string>

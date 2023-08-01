@@ -70,6 +70,7 @@
     <string name="hint_what">"Non dal event"</string>
     <string name="hint_where">"Lûc"</string>
     <string name="hint_description">"Descrizion"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Invidâts"</string>
     <string name="creating_event">"Event creât."</string>
     <string name="saving_event">"Event salvât."</string>
@@ -92,8 +93,8 @@
     <string name="privacy_label">Riservatece</string>
     <string name="reminders_label">Zonte pro memoria</string>
     <string name="no_syncable_calendars">Nissun calendari</string>
-    <string name="no_calendars_found">Prime di podê zontâ un event, tu scugnis zontâ almancul un account Calendar al dispositîf e rindi visibil un calendari. Tocje Zonte account par zontâ un account (se tu âs a pene zontât un account, spiete il completament de sincronizazion e torne prove). In alternative, tocje Anule e controle che almancul un calendari al sedi visibil.</string>
-    <string name="add_account">Zonte account</string>
+    <string name="no_calendars_found">Prime di podê zontâ un event, tu scugnis zontâ almancul un calendari al to dispositîf</string>
+    <string name="add_calendar">Zonte calendari</string>
     <string name="view_event_calendar_label">Calendari:</string>
     <string name="view_event_organizer_label">Organizadôr:</string>
     <string name="choose_event_color_label">Sielç il colôr dal event</string>

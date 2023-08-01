@@ -92,8 +92,7 @@
     <string name="privacy_label">Privatësia</string>
     <string name="reminders_label">Shto një kujtesë</string>
     <string name="no_syncable_calendars">Nuk ka kalendare</string>
-    <string name="no_calendars_found">Para se të shtosh një ngjarje, ju duhet të shtoni te paktën nje llogari kalendari në paisjen tënde dhe ta shfaqni atë kalendar. Shtyp Shto Llogari për të shtuar llogari (nëse sapo e ke shtuar një llogari, prisni sa të sinkronizohet dhe provo sërish). Ose shtyp Anullo dhe sigurohu që të paktën nje këlendar është i dukshëm.</string>
-    <string name="add_account">Shto llogari</string>
+    <string name="add_calendar">Shto kalendar</string>
     <string name="view_event_calendar_label">Kalendari</string>
     <string name="view_event_organizer_label">Organizuesi:</string>
     <string name="choose_event_color_label">Zgjidhni ngjyrën e ngjarjes</string>

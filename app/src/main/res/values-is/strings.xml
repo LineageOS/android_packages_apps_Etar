@@ -92,8 +92,8 @@
     <string name="privacy_label">Birtingarstillingar</string>
     <string name="reminders_label">Bæta áminningu við</string>
     <string name="no_syncable_calendars">Engin dagatöl</string>
-    <string name="no_calendars_found">Áður en þú getur bætt viðburði við verður þú að bæta a.m.k. einum dagatalsreikningi við tækið þitt og gera dagatal sýnilegt. Smelltu á Bæta við reikningi til að bæta reikningi við (ef þú hefur þegar bætt reikningi við skaltu bíða eftir að samstillingu hans ljúki og reyna aftur). Eða smelltu á Hætta við til að ganga úr skugga um að a.m.k. eitt dagatal sé sýnilegt.</string>
-    <string name="add_account">Bæta við reikningi</string>
+    <string name="no_calendars_found">Þú verður að bæta við a.m.k. einu dagatali áður en þú getur bætt við atburði</string>
+    <string name="add_calendar">Bæta við dagatali</string>
     <string name="view_event_calendar_label">Dagatal:</string>
     <string name="view_event_organizer_label">Skipuleggjandi:</string>
     <string name="choose_event_color_label">Velja lit fyrir viðburðinn</string>
@@ -336,7 +336,7 @@ Hægt er að koma í veg fyrir þetta í DAVx⁵ \'Manage calendar colors\' stil
     <string name="preferences_calendar_delete_delete">Eyða dagatali</string>
     <string name="preferences_calendar_delete_cancel">Hætta við</string>
     <string name="preferences_list_calendar_summary_sync_off">Ekki samstillt</string>
-    <string name="preferences_list_calendar_summary_invisible">Viðburðir eru ekki birtir</string>
+    <string name="preferences_list_calendar_summary_invisible">Atburðir eru ekki birtir</string>
     <string name="preferences_list_general">Almennar stillingar</string>
     <string name="preferences_list_add_remote">Bæta við CalDAV-dagatali</string>
     <string name="preferences_list_add_remote_etesync">Bæta við EteSync-dagatali</string>

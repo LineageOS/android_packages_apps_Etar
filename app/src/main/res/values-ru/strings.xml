@@ -82,6 +82,7 @@
     <string name="hint_what">"Название мероприятия"</string>
     <string name="hint_where">"Место"</string>
     <string name="hint_description">"Описание"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Гости"</string>
     <string name="creating_event">"Мероприятие создано."</string>
     <string name="saving_event">"Мероприятие сохранено."</string>
@@ -104,8 +105,8 @@
     <string name="privacy_label">Конфиденциальность</string>
     <string name="reminders_label">Добавить напоминание</string>
     <string name="no_syncable_calendars">Нет календарей</string>
-    <string name="no_calendars_found">Добавить мероприятие можно только в видимый календарь, связанный с аккаунтом Google. Нажмите \"Добавить аккаунт\" или, если аккаунт уже добавлен, дождитесь окончания синхронизации и повторите попытку. Либо нажмите \"Отмена\" и сделайте видимым хотя бы один календарь.</string>
-    <string name="add_account">Добавить аккаунт</string>
+    <string name="no_calendars_found">Перед созданием события необходимо добавить на устройство хотя бы один календарь</string>
+    <string name="add_calendar">Добавить календарь</string>
     <string name="view_event_calendar_label">Календарь:</string>
     <string name="view_event_organizer_label">Организатор:</string>
     <string name="choose_event_color_label">Выбрать цвет мероприятия</string>

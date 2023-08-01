@@ -79,8 +79,6 @@
     <string name="privacy_label">Privatnost</string>
     <string name="reminders_label">Dodavanje podsjetnika</string>
     <string name="no_syncable_calendars">Nema kalendara</string>
-    <string name="no_calendars_found">Prije nego što ćete moći dodati događaj morate dodati barem jedan račun usluge Kalendar na svoj uređaj i kalendar učiniti vidljivim. Da biste dodali račun, dodirnite Dodaj račun (ako ste upravo dodali račun, pričekajte dovrši sinkronizaciju i pokušajte ponovno) ili dodirnite Odustani i provjerite je li barem jedan kalendar vidljiv.</string>
-    <string name="add_account">Dodavanje računa</string>
     <string name="view_event_calendar_label">Kalendar:</string>
     <string name="view_event_organizer_label">Organizator:</string>
     <string name="choose_event_color_label">Odabir boje za događaj</string>

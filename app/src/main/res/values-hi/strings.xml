@@ -75,8 +75,6 @@
     <string name="privacy_label">गोपनीयता</string>
     <string name="reminders_label">रिमाइंडर जोड़ें</string>
     <string name="no_syncable_calendars">कोई कैलेंडर नहीं</string>
-    <string name="no_calendars_found">आप कोई ईवेंट जोड़ें उसके पहले, आपको अपने डिवाइस में कम से कम एक कैलेंडर खाता जोड़ना होगा और कैलेंडर को दृश्यमान बनाना होगा. कोई खाता जोड़ने के लिए खाता जोड़ें स्पर्श करें (यदि आपने अभी कोई खाता जोड़ा है, तो इसका समन्वयन पूरा होने की प्रतीक्षा करें और पुन: प्रयास करें). या अभी नहीं स्पर्श करें और सुनिश्चित करें कि कम से कम एक कैलेंडर दृश्यमान है.</string>
-    <string name="add_account">खाता जोड़ें</string>
     <string name="view_event_calendar_label">कैलेंडर:</string>
     <string name="view_event_organizer_label">आयोजक:</string>
     <string name="choose_event_color_label">ईवेंट का रंग चुनें</string>

@@ -71,8 +71,6 @@
     <string name="privacy_label">ຄວາມເປັນສ່ວນຕົວ</string>
     <string name="reminders_label">ເພີ່ມການເຕືອນ</string>
     <string name="no_syncable_calendars">ບໍ່ມີປະຕິທິນ</string>
-    <string name="no_calendars_found">ກ່ອນທີ່ທ່ານຈະສາມາດເພີ່ມນັດໝາຍ, ທ່ານຕ້ອງເພີ່ມບັນຊີປະຕິທິນໃສ່ອຸປະກອນ ຢ່າງໜ້ອຍນຶ່ງບັນຊີ ແລະ ເປີດປະຕິທິນສາມາດເບິ່ງເຫັນໄດ້. ແຕະທີ່ \"ເພີ່ມບັນຊີ\" ເພື່ອເພີ່ມບັນຊີ (ຖ້າຫາກທ່ານຫາກໍເພີ່ມບັນຊີ, ໃຫ້ລໍຖ້າຈົນກວ່າມັນຈະສຳເລັດການຊິ້ງຂໍ້ມູນ ແລ້ວລອງໃໝ່) ຫຼື ແຕະປຸ່ມຍົກເລີກ ແລະກວດໃຫ້ແນ່ໃຈວ່າມີປະຕິທິນຢ່າງໜ້ອຍນຶ່ງອັນ ທີ່ສາມາດເບິ່ງເຫັນໄດ້.</string>
-    <string name="add_account">ເພີ່ມບັນຊີ</string>
     <string name="view_event_calendar_label">ປະຕິທິນ:</string>
     <string name="view_event_organizer_label">ຜູ່ຈັດງານ:</string>
     <string name="choose_event_color_label">ເລືອກສີນັດໝາຍ</string>
