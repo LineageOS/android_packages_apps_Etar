@@ -335,7 +335,7 @@ Hægt er að koma í veg fyrir þetta í DAVx⁵ \'Manage calendar colors\' stil
     <string name="preferences_calendar_delete_delete">Eyða dagatali</string>
     <string name="preferences_calendar_delete_cancel">Hætta við</string>
     <string name="preferences_list_calendar_summary_sync_off">Ekki samstillt</string>
-    <string name="preferences_list_calendar_summary_invisible">Viðburðir eru ekki birtir</string>
+    <string name="preferences_list_calendar_summary_invisible">Atburðir eru ekki birtir</string>
     <string name="preferences_list_general">Almennar stillingar</string>
     <string name="preferences_list_add_remote">Bæta við CalDAV-dagatali</string>
     <string name="preferences_list_add_remote_etesync">Bæta við EteSync-dagatali</string>

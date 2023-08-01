@@ -14,6 +14,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="when_label">Калі</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
     <string name="calendar_refresh">"Абнавіць"</string>
     <string name="day_view">"Дзень"</string>
@@ -22,6 +23,7 @@
     <string name="share_label">Абагуліць</string>
     <string name="foreground_notification_title">Планаванне новых напамінаў…</string>
     <string name="foreground_notification_channel_name">Фонавыя задачы</string>
+    <string name="event_info_title">Прагляд падзеі</string>
     <string name="edit_event_calendar_label">Каляндар</string>
     <string name="presence_label">Мой статус:</string>
     <string name="no_syncable_calendars">Няма календароў</string>
@@ -43,8 +45,6 @@
     <string name="preferences_default_reminder_title">Прадвызначаны час напаміну</string>
     <string name="preferences_default_reminder_dialog">Прадвызначаны час напаміну</string>
     <string name="preferences_use_home_tz_descrip">Паказваць календары і час падзеі ў мясцовым часавым поясе падчас падарожжа</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Праект Etar. Раздзелы \u00a9
-2005-<xliff:g>%1$s</xliff:g> Праект Android з адкрытым зыходным кодам.</string>
     <string name="changelog">Журнал змяненняў</string>
     <string name="accessibility_pick_start_date">Дата пачатку</string>
     <string name="accessibility_pick_end_date">Дата завяршэння</string>
