@@ -15,6 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_label">Каляндар</string>
+    <string name="when_label">Калі</string>
     <string name="tomorrow">Заўтра</string>
     <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
     <plurals name="Nminutes">
@@ -23,16 +24,25 @@
         <item quantity="many"><xliff:g id="count">%d</xliff:g> хвілін</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> хвілін</item>
     </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Тыдзень <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="few">Тыдні <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="many">Тыдняў <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Тыдняў <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
     <string name="calendar_refresh">"Абнавiць"</string>
     <string name="show_day_view">"Паказаць дзень"</string>
     <string name="agenda_view">"Расклад"</string>
     <string name="day_view">"Дзень"</string>
+    <string name="week_view">"Тыдзень"</string>
     <string name="month_view">"Месяц"</string>
+    <string name="event_view">"Прагляд падзеі"</string>
     <string name="event_create">"Новая падзея"</string>
     <string name="event_delete">"Выдаліць падзею"</string>
     <string name="share_label">Абагуліць</string>
     <string name="menu_preferences">"Налады"</string>
     <string name="search">"Пошук"</string>
+    <string name="event_info_title">Прагляд падзеі</string>
     <string name="event_info_title_invite">Запрашэнне на сустрэчу</string>
     <string name="edit_event_all_day_label">Увесь дзень</string>
     <string name="edit_event_calendar_label">Каляндар</string>
@@ -42,6 +52,7 @@
     <string name="view_event_organizer_label">Арганізатар:</string>
     <string name="calendar_color_picker_dialog_title">Колер календара</string>
     <string name="view_event_response_label">Пойдзеце?</string>
+    <string name="response_yes">Так</string>
     <string name="response_maybe">Магчыма</string>
     <string name="response_no">Не</string>
     <string name="email_guests_label">Напісаць гасцям</string>
@@ -57,9 +68,11 @@
         <item>Пачынайце без мяне.</item>
         <item>Не паспяваю. Давядзецца перанесці.</item>
     </string-array>
+    <string name="quick_response_custom_msg">Напісаць уласны адказ\u2026</string>
     <string name="event_info_organizer">Арганізатар:</string>
     <string name="event_info_reminders_label">Напаміны</string>
     <string name="agenda_today">Сёння, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Учора, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="agenda_tomorrow">Заўтра, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Загрузка\u2026</string>
     <string name="search_title">Пошук у маіх календарах</string>
@@ -71,6 +84,7 @@
     <string name="snooze_label">"Адкласці"</string>
     <string name="does_not_repeat">Аднаразовая падзея</string>
     <string name="monthly">Штомесяц</string>
+    <string name="yearly_plain">Штогод</string>
     <string name="custom" product="default">"Карыстальніцкае (нельга наладзіць на тэлефоне)"</string>
     <string name="modify_event">Змяніць толькі гэту падзею</string>
     <string name="new_event_dialog_label">"Новая падзея"</string>
