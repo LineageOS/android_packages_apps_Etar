@@ -26,6 +26,7 @@
     <string name="event_info_title">Прагляд падзеі</string>
     <string name="edit_event_calendar_label">Каляндар</string>
     <string name="presence_label">Мой статус:</string>
+    <string name="reminders_label">Дадаць напамін</string>
     <string name="no_syncable_calendars">Няма календароў</string>
     <string name="email_guests_label">Напісаць гасцям</string>
     <string name="email_organizer_label">Напісаць арганізатару</string>
@@ -49,6 +50,7 @@
     <string name="accessibility_pick_start_date">Дата пачатку</string>
     <string name="accessibility_pick_end_date">Дата завяршэння</string>
     <string name="accessibility_pick_end_time">Час завяршэння</string>
+    <string name="accessibility_add_reminder">Дадаць напамін</string>
     <string name="accessibility_remove_reminder">Выдаліць напамін</string>
     <string name="accessibility_reminder_showmeas">Мой статус</string>
     <string name="one_hour">1 гадзіна</string>
