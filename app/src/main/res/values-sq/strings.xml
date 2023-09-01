@@ -70,6 +70,7 @@
     <string name="hint_what">"Emri i ngjarjes"</string>
     <string name="hint_where">"Vendndodhja"</string>
     <string name="hint_description">"Përshkrimi"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Të ftuarit"</string>
     <string name="creating_event">"Ngjarja u krijua."</string>
     <string name="saving_event">"Ngjarja u ruajt."</string>
@@ -92,6 +93,7 @@
     <string name="privacy_label">Privatësia</string>
     <string name="reminders_label">Shto një kujtesë</string>
     <string name="no_syncable_calendars">Nuk ka kalendare</string>
+    <string name="no_calendars_found">Përpara se të shtoni një ngjarje, duhet të shtoni të paktën një kalendar në pajisjen tuaj</string>
     <string name="add_calendar">Shto kalendar</string>
     <string name="view_event_calendar_label">Kalendari</string>
     <string name="view_event_organizer_label">Organizuesi:</string>

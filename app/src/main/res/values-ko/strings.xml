@@ -64,6 +64,7 @@
     <string name="hint_what">"일정 이름"</string>
     <string name="hint_where">"장소"</string>
     <string name="hint_description">"일정 설명"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"참석자 추가"</string>
     <string name="creating_event">"일정을 만들었습니다."</string>
     <string name="saving_event">"일정을 저장했습니다."</string>
