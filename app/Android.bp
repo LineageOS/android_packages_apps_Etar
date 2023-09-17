@@ -2,38 +2,41 @@ android_app {
     name: "Etar",
     overrides: ["Calendar"],
 
-    asset_dirs: ["app/src/main/assets"],
+    asset_dirs: ["src/main/assets"],
 
-    resource_dirs: ["app/src/main/res"],
+    resource_dirs: ["src/main/res"],
 
     srcs: [
-        "app/src/main/java/**/*.kt",
-        "app/src/main/java/**/*.java",
+        "src/main/java/**/*.kt",
+        "src/main/java/**/*.java",
         "src_aosp/**/*.java",
         "src_aosp/**/*.kt",
     ],
 
-    manifest: "app/src/main/AndroidManifest.xml",
+    manifest: "src/main/AndroidManifest.xml",
 
     product_specific: true,
 
     static_libs: [
+        // DO NOT EDIT THIS SECTION MANUALLY
+        "androidx.core_core-ktx",
+        "androidx.preference_preference",
+        "androidx.appcompat_appcompat",
+        "androidx-constraintlayout_constraintlayout",
+        "com.google.android.material_material",
+        "kotlinx-coroutines-core",
+        "kotlinx-coroutines-android",
+        "Etar-Calendar_org.dmfs_lib-recur",
+    ] + [
         "android-common",
         "android-opt-timezonepicker",
         "calendar-common",
         "colorpicker",
         "libchips",
-        "kotlin-annotations",
-        "kotlinx-coroutines-android",
-        "kotlinx-coroutines-core",
-        "androidx-constraintlayout_constraintlayout",
-        "androidx.preference_preference",
-        "androidx.appcompat_appcompat",
-        "com.google.android.material_material",
     ],
 
     optimize: {
-        proguard_flags_files: ["app/proguard-rules.pro"],
+        proguard_flags_files: ["proguard-rules.pro"],
     },
 
     sdk_version: "current",
@@ -54,11 +57,11 @@ android_test {
     name: "CalendarTests",
 
     srcs: [
-        "app/src/test/java/**/*.kt",
-        "app/src/test/java/**/*.java",
+        "src/test/java/**/*.kt",
+        "src/test/java/**/*.java",
     ],
 
-    manifest: "app/src/test/AndroidManifest.xml",
+    manifest: "src/test/AndroidManifest.xml",
 
     libs: [
         "android.test.runner",
