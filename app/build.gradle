@@ -113,4 +113,7 @@ dependencies {
 
 }
 
+ext.targetSdk = android.defaultConfig.targetSdk
+apply from: 'generatebp.gradle.kts'
+
 preBuild.dependsOn (":aarGen")
