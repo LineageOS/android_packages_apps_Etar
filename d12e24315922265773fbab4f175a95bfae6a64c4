@@ -16,6 +16,24 @@
       "message": "We should also pick https://github.com/Etar-Group/Etar-Calendar/pull/1444",
       "revId": "d12e24315922265773fbab4f175a95bfae6a64c4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d053e1a_370ef9c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2023-09-19T06:34:41Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_packages_apps_Etar/+/366607",
+      "parentUuid": "68320f0e_af31e516",
+      "revId": "d12e24315922265773fbab4f175a95bfae6a64c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
