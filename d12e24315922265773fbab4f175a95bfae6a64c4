@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68320f0e_af31e516",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2023-09-19T04:08:06Z",
+      "side": 1,
+      "message": "We should also pick https://github.com/Etar-Group/Etar-Calendar/pull/1444",
+      "revId": "d12e24315922265773fbab4f175a95bfae6a64c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
