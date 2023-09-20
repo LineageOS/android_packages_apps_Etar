@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72afef35_c1ec1547",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-09-20T06:27:57Z",
+      "side": 1,
+      "message": "https://android.googlesource.com/platform/packages/apps/Calendar/+/21ea50b26386b3a68db5fef6f8d2519db596debf%5E%21/",
+      "revId": "ecd9820b94d5df62ee040d11b85227c4cc96f0ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
