@@ -69,6 +69,23 @@
       "parentUuid": "80503ba4_de5a31ae",
       "revId": "ecd9820b94d5df62ee040d11b85227c4cc96f0ad",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc692d96_a06dc790",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-09-20T09:51:00Z",
+      "side": 1,
+      "message": "Created a diff patch. Since they still support older android versions.\nhttps://github.com/Etar-Group/Etar-Calendar/pull/1446",
+      "revId": "ecd9820b94d5df62ee040d11b85227c4cc96f0ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
