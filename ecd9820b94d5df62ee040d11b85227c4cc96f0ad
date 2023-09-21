@@ -104,6 +104,24 @@
       "parentUuid": "fc692d96_a06dc790",
       "revId": "ecd9820b94d5df62ee040d11b85227c4cc96f0ad",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed707666_ea34d4bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-09-21T15:11:23Z",
+      "side": 1,
+      "message": "Its merged. Should i push to gerrit or it will upstreamed with other changes?\nhttps://github.com/Etar-Group/Etar-Calendar/commit/3c724de065164a4f9c2bf5bd25d65771217e8892",
+      "parentUuid": "351d8b23_5f474139",
+      "revId": "ecd9820b94d5df62ee040d11b85227c4cc96f0ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
