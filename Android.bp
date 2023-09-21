@@ -37,8 +37,8 @@ android_app {
     sdk_version: "current",
 
     aaptflags: [
-        "--rename-manifest-package",
-        "org.lineageos.etar",
+        "--custom-package",
+        "ws.xsoh.etar",
     ],
 
     kotlincflags: ["-Xjvm-default=enable"],
