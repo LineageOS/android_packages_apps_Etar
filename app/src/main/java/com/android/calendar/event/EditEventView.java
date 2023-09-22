@@ -102,6 +102,7 @@ import java.util.Formatter;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.OptionalInt;
 import java.util.TimeZone;
 import java.util.stream.Collectors;
 
@@ -1549,10 +1550,15 @@ public class EditEventView implements View.OnClickListener, DialogInterface.OnCa
 
         // try to find the event color in the new calendar, remove it otherwise
         if (mModel.isEventColorInitialized() && mModel.getCalendarEventColors() != null) {
-            Arrays.stream(mModel.getCalendarEventColors())
+            OptionalInt eventColor = Arrays.stream(mModel.getCalendarEventColors())
                     .filter(color -> color == mModel.getEventColor())
-                    .findFirst()
-                    .ifPresentOrElse(mModel::setEventColor, mModel::removeEventColor);
+                    .findFirst();
+
+            if (eventColor.isPresent()) {
+                mModel.setEventColor(eventColor.getAsInt());
+            } else {
+                mModel.removeEventColor();
+            }
         } else {
             mModel.removeEventColor();
         }
