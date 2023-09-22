@@ -455,7 +455,7 @@ public class EditEventHelper {
 
         ContentProviderOperation.Builder b;
 
-        if (model.mUrl != null && !model.mUrl.isBlank()) {
+        if (model.mUrl != null && !model.mUrl.trim().isEmpty()) {
             Uri extendedPropUri = ExtendedProperty.contentUri(model.mCalendarAccountName, model.mCalendarAccountType);
             values.clear();
             values.put(ExtendedProperties.NAME, ExtendedProperty.URL_NAME);

@@ -214,12 +214,6 @@
                 android:resource="@xml/provider_paths"/>
         </provider>
 
-        <provider
-            android:name="androidx.startup.InitializationProvider"
-            android:authorities="org.lineageos.etar.androidx-startup"
-            android:exported="false"
-            tools:replace="android:authorities" />
-
         <provider android:name="com.android.calendar.CalendarRecentSuggestionsProvider"
             android:exported="false"
             android:authorities="org.lineageos.etar.CalendarRecentSuggestionsProvider" />
