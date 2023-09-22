@@ -402,14 +402,6 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
                     Manifest.permission.WRITE_EXTERNAL_STORAGE)
             );
 
-            // Permission for calendar notifications
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
-                    (ContextCompat.checkSelfPermission(this,
-                            Manifest.permission.POST_NOTIFICATIONS)
-                            != PackageManager.PERMISSION_GRANTED)) {
-                permissionsList.add(Manifest.permission.POST_NOTIFICATIONS);
-            }
-
             // No explanation needed, we can request the permission.
             String[] permissionsArray = new String[permissionsList.size()];
             ActivityCompat.requestPermissions(this,
