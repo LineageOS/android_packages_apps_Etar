@@ -82,6 +82,7 @@
     <string name="hint_what">"Název události"</string>
     <string name="hint_where">"Místo"</string>
     <string name="hint_description">"Popis"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Hosté"</string>
     <string name="creating_event">"Událost byla vytvořena."</string>
     <string name="saving_event">"Událost byla uložena."</string>
@@ -104,6 +105,7 @@
     <string name="privacy_label">Soukromá/Veřejná</string>
     <string name="reminders_label">Přidat připomenutí</string>
     <string name="no_syncable_calendars">Žádné kalendáře</string>
+    <string name="no_calendars_found">Než budete moci přidat událost, musíte do zařízení přidat alespoň jeden kalendář</string>
     <string name="add_calendar">Přidat kalendář</string>
     <string name="view_event_calendar_label">Kalendář:</string>
     <string name="view_event_organizer_label">Organizátor:</string>
@@ -147,6 +149,7 @@
     <string name="edit_event_label">"Podrobnosti"</string>
     <string name="edit_label">"Upravit"</string>
     <string name="delete_label">"Smazat"</string>
+    <string name="duplicate_label">Duplikovat</string>
     <string name="save_label">Hotovo</string>
     <string name="discard_label">Zrušit</string>
     <string name="dismiss_all_label">"Zavřít vše"</string>
