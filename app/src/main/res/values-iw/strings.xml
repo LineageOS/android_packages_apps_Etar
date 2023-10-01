@@ -83,8 +83,6 @@
     <string name="privacy_label">פרטיות</string>
     <string name="reminders_label">הוסף תזכורת</string>
     <string name="no_syncable_calendars">אין לוחות שנה</string>
-    <string name="no_calendars_found">‏לפני שתוכל להוסיף אירוע, עליך להוסיף למכשיר לפחות חשבון \'יומן Google\' אחד ולהגדיר לוח שנה אחד כגלוי. גע באפשרות \'הוסף חשבון\' כדי להוסיף חשבון (אם זה עתה הוספת חשבון, המתן להשלמת תהליך הסינכרון שלו ונסה שוב). לחלופין, גע באפשרות \'ביטול\' וודא שלפחות לוח שנה אחד מוגדר כגלוי.</string>
-    <string name="add_account">הוסף חשבון</string>
     <string name="view_event_calendar_label">יומן:</string>
     <string name="view_event_organizer_label">מארגן:</string>
     <string name="choose_event_color_label">בחר צבע אירוע</string>

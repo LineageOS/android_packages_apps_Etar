@@ -33,6 +33,7 @@
     <string name="event_not_found">"Падзея не знойдзена."</string>
     <string name="quick_response_settings_summary">Рэдагаваць прадвызначаныя адказы пры адпраўцы гасцям на электронную пошту</string>
     <string name="event_info_reminders_label">Напаміны</string>
+    <string name="duplicate_label">Дубліраваць</string>
     <string name="discard_label">Скасаваць</string>
     <string name="dismiss_all_label">"Адхіліць усе"</string>
     <string name="snooze_label">"Адкласці"</string>

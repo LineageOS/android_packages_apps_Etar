@@ -70,6 +70,7 @@
     <string name="hint_what">"Begivenhedens navn"</string>
     <string name="hint_where">"Placering"</string>
     <string name="hint_description">"Beskrivelse"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Gæster"</string>
     <string name="creating_event">"Begivenheden er oprettet."</string>
     <string name="saving_event">"Begivenheden er gemt."</string>
@@ -92,8 +93,7 @@
     <string name="privacy_label">Privatliv</string>
     <string name="reminders_label">Tilføj påmindelse</string>
     <string name="no_syncable_calendars">Der er ingen kalendere</string>
-    <string name="no_calendars_found">Før du kan tilføje en begivenhed, skal du tilføje mindst én Kalender-konto til din enhed og gøre en kalender synlig. Tryk på Tilføj konto for at tilføje en konto (hvis du lige har tilføjet en konto, så vent til den er færdig med at synkronisere, og prøv så igen). Eller tryk på Annuller, og sørg for, at mindst én kalender er synlig.</string>
-    <string name="add_account">Tilføj konto</string>
+    <string name="no_calendars_found">Før du kan tilføje en begivenhed, skal du tilføje mindst en kalender til din enhed</string>
     <string name="view_event_calendar_label">Kalender:</string>
     <string name="view_event_organizer_label">Organisator:</string>
     <string name="choose_event_color_label">Vælg begivenhedsfarve</string>
@@ -136,6 +136,7 @@
     <string name="edit_event_label">"Detaljer"</string>
     <string name="edit_label">"Rediger"</string>
     <string name="delete_label">"Slet"</string>
+    <string name="duplicate_label">Dupliker</string>
     <string name="save_label">Gem</string>
     <string name="discard_label">Annuller</string>
     <string name="dismiss_all_label">"Luk alle"</string>

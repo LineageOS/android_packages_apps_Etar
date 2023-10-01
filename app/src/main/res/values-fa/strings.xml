@@ -75,8 +75,6 @@
     <string name="privacy_label">حریم خصوصی</string>
     <string name="reminders_label">افزودن یادآور</string>
     <string name="no_syncable_calendars">تقویمی موجود نیست</string>
-    <string name="no_calendars_found">قبل از اینکه بتوانید یک رویداد اضافه کنید، باید حداقل یک حساب تقویم به دستگاه خود اضافه کرده و تقویمی را قابل مشاهده کنید. برای افزودن یک حساب، \"افزودن حساب\" را لمس کنید (اگر بتازگی حسابی اضافه کرده‌اید، منتظر بمانید تا همگامسازی آن تمام شود و سپس دوباره امتحان کنید). همچنین می‌توانید \"لغو\" را لمس کرده و اطمینان حاصل کنید که حداقل یک تقویم قابل مشاهده است.</string>
-    <string name="add_account">افزودن حساب</string>
     <string name="view_event_calendar_label">تقویم:</string>
     <string name="view_event_organizer_label">سازمان دهنده:</string>
     <string name="choose_event_color_label">انتخاب رنگ رویداد</string>

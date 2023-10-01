@@ -75,8 +75,6 @@
     <string name="privacy_label">గోప్యత</string>
     <string name="reminders_label">రిమైండర్‌ను జోడించ.</string>
     <string name="no_syncable_calendars">క్యాలెండర్‌లు లేవు</string>
-    <string name="no_calendars_found">మీరు ఈవెంట్‌ను జోడించడానికి ముందు, తప్పనిసరిగా మీ పరికరానికి కనీసం ఒక క్యాలెండర్ ఖాతాను జోడించాలి మరియు క్యాలెండర్‌ను కనిపించేలా ఉంచాలి. ఖాతాను జోడించడానికి ఖాతాను జోడించు నొక్కండి (మీరు ఖాతాను ఇప్పుడే జోడించినట్లయితే, దీని సమకాలీకరణ ముగిసేవరకు వేచి ఉండి మళ్లీ ప్రయత్నించండి). లేదా రద్దు చేయి నొక్కి, కనీసం ఒక క్యాలెండర్ కనిపిస్తోందని నిర్ధారించుకోండి.</string>
-    <string name="add_account">ఖాతాను జోడించు</string>
     <string name="view_event_calendar_label">క్యాలెండర్:</string>
     <string name="view_event_organizer_label">నిర్వాహకుడు:</string>
     <string name="choose_event_color_label">ఈవెంట్ రంగుని ఎంచుకోండి</string>

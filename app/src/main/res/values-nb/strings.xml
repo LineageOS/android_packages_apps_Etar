@@ -75,8 +75,6 @@
     <string name="privacy_label">Personvern</string>
     <string name="reminders_label">Legg til påminnelse</string>
     <string name="no_syncable_calendars">Ingen kalendere</string>
-    <string name="no_calendars_found">Før du kan legge til en aktivitet, må du tilordne enheten din minst én Kalender-konto samt sørge for at du har en synlig kalender. Trykk på Legg til konto for å legge til en konto (Hvis du akkurat har gjort det, bør du vente til kontoen er synkronisert og prøve på nytt). Alternativt kan du trykke på Avbryt og sørge for at minst én kalender er synlig.</string>
-    <string name="add_account">Legg til konto</string>
     <string name="view_event_calendar_label">Kalender:</string>
     <string name="view_event_organizer_label">Arrangør:</string>
     <string name="choose_event_color_label">Velg aktivitetsfarge</string>

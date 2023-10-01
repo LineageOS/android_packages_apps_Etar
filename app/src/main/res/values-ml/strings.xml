@@ -75,8 +75,6 @@
     <string name="privacy_label">സ്വകാര്യത</string>
     <string name="reminders_label">ഓർമ്മപ്പെടുത്തൽ ചേർക്കുക</string>
     <string name="no_syncable_calendars">കലണ്ടറുകളൊന്നുമില്ല</string>
-    <string name="no_calendars_found">നിങ്ങൾക്ക് ഒരു അക്കൗണ്ട് ചേർക്കാനാകുന്നതിന് മുമ്പ്, നിങ്ങളുടെ ഉപകരണത്തിൽ കുറഞ്ഞത് ഒരു കലണ്ടർ അക്കൗണ്ടെങ്കിലും ചേർത്ത്, കലണ്ടർ ദൃശ്യമാക്കിയിരിക്കണം. ഒരു അക്കൗണ്ട് ചേർക്കുന്നതിന് അക്കൗണ്ട് ചേർക്കുക എന്നതിൽ സ്‌പർശിക്കുക (നിങ്ങൾ ഇപ്പോഴാണ് ഒരു അക്കൗണ്ട് ചേർത്തതെങ്കിൽ, അത് സമന്വയിപ്പിക്കുന്നത് വരെ കാത്തിരുന്നശേഷം വീണ്ടും ശ്രമിക്കുക). അല്ലെങ്കിൽ റദ്ദാക്കുക എന്നത് സ്‌പർശിച്ച ശേഷം കുറഞ്ഞത് ഒരു കലണ്ടറെങ്കിലും ദൃശ്യമാണെന്ന് ഉറപ്പുവരുത്തുക.</string>
-    <string name="add_account">അക്കൗണ്ട് ചേർക്കുക</string>
     <string name="view_event_calendar_label">കലണ്ടർ:</string>
     <string name="view_event_organizer_label">ഓർഗനൈസർ:</string>
     <string name="choose_event_color_label">ഇവന്റ് വർണ്ണം തിരഞ്ഞെടുക്കുക</string>

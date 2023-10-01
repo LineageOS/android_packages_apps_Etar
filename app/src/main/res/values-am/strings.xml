@@ -75,8 +75,6 @@
     <string name="privacy_label">ግላዊነት</string>
     <string name="reminders_label">አስታዋሽ አክል</string>
     <string name="no_syncable_calendars">ምንም ቀንመቁጠሪያ ዎች የለዎትም</string>
-    <string name="no_calendars_found">ክስተት ከማከልዎ በፊት ቢያንስ አንድ የቀን መቁጠሪያ መለያ ወደ መሳሪያዎ ማከል እና የቀን መቁጠሪያውን የሚታይ ማድረግ አለብዎት። መለያ ለማከል መለያ አክል የሚለውን ይንኩ (መለያ ያከሉ ከሆነ ማመሳስል እስኪጨርስ ድረስ ይጠብቁትና እንደገና ይሞክሩ)። ወይም ይቅር የሚለውን ይንኩ እና ቢያንስ አንድ የቀን መቁጠሪያ የሚታይ መሆኑን ያረጋግጡ።</string>
-    <string name="add_account">መለያ አክል</string>
     <string name="view_event_calendar_label">የቀን አቆጣጠር:</string>
     <string name="view_event_organizer_label">አዘጋጅ፡</string>
     <string name="choose_event_color_label">የክስተት ቀለም ምረጥ</string>

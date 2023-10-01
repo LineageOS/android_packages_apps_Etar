@@ -69,6 +69,7 @@
     <string name="hint_what">"Tapahtuman nimi"</string>
     <string name="hint_where">"Sijainti"</string>
     <string name="hint_description">"Kuvaus"</string>
+    <string name="hint_url">"URL-osoite"</string>
     <string name="hint_attendees">"Vieraat"</string>
     <string name="creating_event">"Tapahtuma luotu."</string>
     <string name="saving_event">"Tapahtuma tallennettu."</string>
@@ -88,8 +89,8 @@
     <string name="privacy_label">Tietosuoja</string>
     <string name="reminders_label">Lisää muistutus</string>
     <string name="no_syncable_calendars">Ei kalentereita</string>
-    <string name="no_calendars_found">Ennen kuin voit lisätä tapahtuman, sinun on lisättävä laitteeseen vähintään yksi kalenteritili ja otettava kalenteri näkyviin. Lisää tili koskettamalla Lisää tili (jos olet jo lisännyt tilin, odota synkronoinnin valmistumista ja yritä uudelleen). Tai kosketa Peruuta ja varmista, että vähintään yksi kalenteri on näkyvissä.</string>
-    <string name="add_account">Lisää tili</string>
+    <string name="no_calendars_found">Ennen kuin voit lisätä tapahtuman, sinun on lisättävä laitteelle ainakin yksi kalenteri</string>
+    <string name="add_calendar">Lisää kalenteri</string>
     <string name="view_event_calendar_label">Kalenteri:</string>
     <string name="view_event_organizer_label">Järjestäjä:</string>
     <string name="choose_event_color_label">Valitse tapahtuman väri</string>

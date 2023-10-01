@@ -56,6 +56,7 @@
     <string name="hint_what">"Nome del eventu"</string>
     <string name="hint_where">"Llocalización"</string>
     <string name="hint_description">"Descripción"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Convidaos"</string>
     <string name="foreground_notification_title">Programando los recordatorios nuevos…</string>
     <string name="foreground_notification_channel_name">Xeres en segundu planu</string>
@@ -90,6 +91,7 @@
     <string name="edit_event_label">"Detalles"</string>
     <string name="edit_label">"Editar"</string>
     <string name="delete_label">"Desaniciar"</string>
+    <string name="duplicate_label">Duplicar</string>
     <string name="save_label">Fecho</string>
     <string name="discard_label">Encaboxar</string>
     <string name="dismiss_all_label">"Escartar too"</string>

@@ -75,8 +75,6 @@
     <string name="privacy_label">Pribatutasuna</string>
     <string name="reminders_label">Gehitu abisua</string>
     <string name="no_syncable_calendars">Ez dago egutegirik</string>
-    <string name="no_calendars_found">Gertaera bat gehitu aurretik, Google Calendar zerbitzuko kontu bat gutxienez gehitu behar duzu gailuan, eta gutxienez egutegi bat jarri behar duzu ikusgai. Ukitu \"Gehitu kontua\" botoia eta gehitu kontu bat (kontu bat gehitu berri baduzu, itxaron sinkronizatzen amaitu arte eta saiatu berriro) edo ukitu \"Utzi\" botoia eta ziurtatu gutxienez egutegi bat ikusgai dagoela.</string>
-    <string name="add_account">Gehitu kontua</string>
     <string name="view_event_calendar_label">Egutegia:</string>
     <string name="view_event_organizer_label">Antolatzailea:</string>
     <string name="choose_event_color_label">Aukeratu gertaeraren kolorea</string>
