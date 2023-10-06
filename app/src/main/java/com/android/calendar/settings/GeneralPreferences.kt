@@ -262,7 +262,7 @@ class GeneralPreferences : PreferenceFragmentCompat(),
         super.onStop()
     }
 
-    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
+    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String?) {
         val a = activity ?: return
 
         BackupManager.dataChanged(a.packageName)
