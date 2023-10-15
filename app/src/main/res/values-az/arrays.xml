@@ -21,7 +21,7 @@
         <item>Zəngli saat</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
-        <item>İlkin yerli tənzimləmə</item>
+        <item>İlkin yerli ayar</item>
         <item>Şənbə</item>
         <item>Bazar günü</item>
         <item>Bazar Ertəsi</item>
