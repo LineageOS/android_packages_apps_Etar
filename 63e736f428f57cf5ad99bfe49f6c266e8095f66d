@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f86ef7ea_16263d81",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-10-19T12:44:51Z",
+      "side": 1,
+      "message": "Will do a test build and ship changes for both branches, assuming that someone +2\u0027s 19.1 cherry-pick.",
+      "revId": "63e736f428f57cf5ad99bfe49f6c266e8095f66d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
