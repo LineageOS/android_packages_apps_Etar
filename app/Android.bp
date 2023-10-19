@@ -2,6 +2,8 @@ android_app {
     name: "Etar",
     overrides: ["Calendar"],
 
+    asset_dirs: ["src/main/assets"],
+
     resource_dirs: ["src/main/res"],
 
     srcs: [
