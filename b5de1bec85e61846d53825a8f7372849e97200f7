@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ff672a0_3afc9f02",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-10-25T20:48:26Z",
+      "side": 1,
+      "message": "Needs Android.bp changes and prebuilts for the external dependency",
+      "revId": "b5de1bec85e61846d53825a8f7372849e97200f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
