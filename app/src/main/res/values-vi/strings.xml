@@ -88,6 +88,7 @@
     <string name="reminders_label">Thêm lời nhắc</string>
     <string name="no_syncable_calendars">Không có lịch</string>
     <string name="no_calendars_found">Trước khi có thể thêm sự kiện, bạn phải thêm ít nhất một lịch vào thiết bị của mình</string>
+    <string name="add_calendar">Thêm lịch</string>
     <string name="view_event_calendar_label">Lịch:</string>
     <string name="view_event_organizer_label">Người tổ chức:</string>
     <string name="choose_event_color_label">Chọn màu sự kiện</string>
