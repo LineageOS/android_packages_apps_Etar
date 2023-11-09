@@ -1301,8 +1301,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
             }
 
             // Check toMillis method for the value -1 and if yes add one hour.
-            // This prevents the date "1970" from being displayed on the day of the
-            // daylight saving time changeover when you tap on the hour that is skipped.
+            // This prevents the date "1970" from being displayed on the day of the daylight saving time changeover when you tap on the hour that is skipped.
             if (event.startTime.toMillis() == -1) {
                 event.startTime.set(0, 0, 1, event.startTime.getDay(), event.startTime.getMonth(), event.startTime.getYear());
             }

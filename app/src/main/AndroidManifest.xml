@@ -18,8 +18,7 @@
 */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="org.lineageos.etar"
+    package="ws.xsoh.etar"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -58,8 +57,8 @@
         android:requestLegacyExternalStorage="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_label"
-        android:taskAffinity="org.lineageos.etar.task"
+        android:label="@string/standalone_app_label"
+        android:taskAffinity="ws.xsoh.etar.task"
         android:requiredAccountType="*"
         android:usesCleartextTraffic="false"
         android:theme="@style/CalendarAppThemeLight">
@@ -86,9 +85,6 @@
 
             <meta-data android:name="android.app.shortcuts"
                 android:resource="@xml/shortcuts" />
-
-            <meta-data android:name="org.lineageos.etar.dynamic_icons"
-                android:resource="@array/calendar_icons_dynamic" />
 
         </activity>
 
@@ -207,7 +203,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="org.lineageos.etar.provider"
+            android:authorities="${applicationId}.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -215,15 +211,9 @@
                 android:resource="@xml/provider_paths"/>
         </provider>
 
-        <provider
-            android:name="androidx.startup.InitializationProvider"
-            android:authorities="org.lineageos.etar.androidx-startup"
-            android:exported="false"
-            tools:replace="android:authorities" />
-
         <provider android:name="com.android.calendar.CalendarRecentSuggestionsProvider"
             android:exported="false"
-            android:authorities="org.lineageos.etar.CalendarRecentSuggestionsProvider" />
+            android:authorities="${applicationId}.CalendarRecentSuggestionsProvider" />
 
         <!-- Declarations for alerts/reminders -->
         <activity

@@ -8,6 +8,6 @@
         <intent
             android:action="android.intent.action.INSERT"
             android:targetClass="com.android.calendar.EditEventActivity"
-            android:targetPackage="org.lineageos.etar" />
+            android:targetPackage="ws.xsoh.etar" />
     </shortcut>
 </shortcuts>

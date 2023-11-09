@@ -1,11 +1,11 @@
 Karakteristike:
 - Prikaz mjeseca.
-- Prikaz tjedna, dana i rasporeda.
+- Prikaz tjedna, dana i agende.
 - Koristi Androidovu sinkronizaciju kalendara. Radi s Google Calendar, Exchange, itd.
 - Material dizajn.
 - Tamna i svijetla tema.
 - Slobodan program otvorenog koda bez oglasa.
-- Podržava dijeljenje kalendara putem ICS-a i omoguäuje uvoz/izvoz na SD karticu.
+- Podržava dijeljenje kalendara putem ICS-a i omogućuje uvoz/izvoz na SD karticu.
 - Višejezično sučelje.
 
 Greške i povratne informacije: https://github.com/Etar-Group/Etar-Calendar/issues
