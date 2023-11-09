@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db0c26d5_c6a8be2d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2023-11-09T16:27:01Z",
+      "side": 1,
+      "message": "Let\u0027s eliminate the changelog and strings diff to make this easier to view?",
+      "revId": "53bfbb9d8cde0d9195677e606ac81191267d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
