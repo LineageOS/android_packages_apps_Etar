@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a8d496c_4b1a33f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2023-11-10T01:18:31Z",
+      "side": 1,
+      "message": "```\nerror: invalid file path \u0027packages/apps/Etar/app/src/main/res/resources.properties\u0027.                                                                                                                        \n10:51:41 ninja failed with: exit status 1\n```",
+      "revId": "70dcee758873a9e6e30f37aa09256819e9713288",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
