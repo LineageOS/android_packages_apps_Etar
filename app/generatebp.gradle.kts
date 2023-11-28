@@ -20,7 +20,10 @@ configure<GenerateBpPluginExtension> {
     targetSdk.set(extra.get("targetSdk") as Int)
     availableInAOSP.set { module: Module ->
         when {
-            module.group.startsWith("androidx") -> true
+            module.group.startsWith("androidx") -> {
+                // We provide our own androidx.core
+                module.name != "core"
+            }
             module.group.startsWith("com.google") -> true
             module.group.startsWith("org.jetbrains") -> true
             else -> false
