@@ -229,7 +229,7 @@
     <string name="preferences_experimental_category">Eksperimental</string>
     <string name="preferences_reminders_responded_label">Xatırladıcıları keç</string>
     <string name="preferences_reminders_responded_dialog">Xatırladıcıları keç</string>
-    <string name="copy_db">Verilənlər bazasını göndər</string>
+    <string name="copy_db">Data bazanı göndər</string>
     <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> axtarılır…</string>
     <string name="accessibility_remove_attendee">İştirakçını sil</string>
     <string name="accessibility_pick_start_date">Başlama tarixi</string>

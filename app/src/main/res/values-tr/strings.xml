@@ -70,6 +70,7 @@
     <string name="hint_what">"Etkinlik adı"</string>
     <string name="hint_where">"Konum"</string>
     <string name="hint_description">"Açıklama"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Konuklar"</string>
     <string name="creating_event">"Etkinlik oluşturuldu."</string>
     <string name="saving_event">"Etkinlik kaydedildi."</string>
@@ -92,6 +93,7 @@
     <string name="privacy_label">Gizlilik</string>
     <string name="reminders_label">Hatırlatıcı ekle</string>
     <string name="no_syncable_calendars">Takvim yok</string>
+    <string name="no_calendars_found">Etkinlik ekleyebilmeniz için cihazınıza en az bir takvim eklemeniz gerekir</string>
     <string name="add_calendar">Takvim ekle</string>
     <string name="view_event_calendar_label">Takvim:</string>
     <string name="view_event_organizer_label">Düzenleyici:</string>
