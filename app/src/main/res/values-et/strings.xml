@@ -64,6 +64,7 @@
     <string name="hint_what">"Sündmuse nimi"</string>
     <string name="hint_where">"Asukoht"</string>
     <string name="hint_description">"Kirjeldus"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Külalised"</string>
     <string name="creating_event">"Sündmus on loodud."</string>
     <string name="saving_event">"Sündmus on salvestatud."</string>
