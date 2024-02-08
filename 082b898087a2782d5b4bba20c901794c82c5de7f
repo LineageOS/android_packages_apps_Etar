@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4789b24_fffc93b1",
+        "filename": "app/src/main/java/com/android/calendar/alerts/AlertService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 976,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2024-02-08T20:36:59Z",
+      "side": 0,
+      "message": "Tiny conflict here",
+      "revId": "082b898087a2782d5b4bba20c901794c82c5de7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
