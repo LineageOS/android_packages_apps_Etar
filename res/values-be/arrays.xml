@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="reminder_methods_labels">
+        <item>Апавяшчэнне</item>
+        <item>Электронная пошта</item>
+        <item>SMS</item>
+        <item>Будзільнік</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 хвілін</item>
+        <item>1 хвіліна</item>
+        <item>5 хвілін</item>
+        <item>10 хвілін</item>
+        <item>15 хвілін</item>
+        <item>20 хвілін</item>
+        <item>25 хвілін</item>
+        <item>30 хвілін</item>
+        <item>45 хвілін</item>
+        <item>1 гадзіна</item>
+        <item>2 гадзіны</item>
+        <item>3 гадзіны</item>
+        <item>12 гадзін</item>
+        <item>24 гадзіны</item>
+        <item>2 дні</item>
+        <item>1 тыдзень</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>None</item>
+        <item>0 хвілін</item>
+        <item>1 хвіліна</item>
+        <item>5 хвілін</item>
+        <item>10 хвілін</item>
+        <item>15 хвілін</item>
+        <item>20 хвілін</item>
+        <item>25 хвілін</item>
+        <item>30 хвілін</item>
+        <item>45 хвілін</item>
+        <item>1 гадзіна</item>
+        <item>2 гадзіны</item>
+        <item>3 гадзіны</item>
+        <item>12 гадзін</item>
+        <item>24 гадзіны</item>
+        <item>2 дні</item>
+        <item>1 тыдзень</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Locale default</item>
+        <item>Субота</item>
+        <item>Нядзеля</item>
+        <item>Панядзелак</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>No response</item>
+        <item>Так</item>
+        <item>Магчыма</item>
+        <item>Не</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Only this event</item>
+        <item>Гэта і будучыя падзеі</item>
+        <item>Усе падзеі</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Дзень</item>
+        <item>Тыдзень</item>
+        <item>Месяц</item>
+        <item>Расклад</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>on every first Sunday</item>
+        <item>on every second Sunday</item>
+        <item>кожную трэцюю нядзелю</item>
+        <item>кожную чацвёртую нядзелю</item>
+        <item>кожную апошнюю нядзелю</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>on every first Monday</item>
+        <item>on every second Monday</item>
+        <item>on every third Monday</item>
+        <item>кожны чацвёрты панядзелак</item>
+        <item>on every last Monday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>кожны першы аўторак</item>
+        <item>on every second Tuesday</item>
+        <item>кожны трэці аўторак</item>
+        <item>кожны чацвёрты аўторак</item>
+        <item>on every last Tuesday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>on every first Wednesday</item>
+        <item>on every second Wednesday</item>
+        <item>on every third Wednesday</item>
+        <item>кожную чацвёртую сераду</item>
+        <item>on every last Wednesday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>on every first Thursday</item>
+        <item>кожны другі чацвер</item>
+        <item>кожны трэці чацвер</item>
+        <item>on every fourth Thursday</item>
+        <item>on every last Thursday</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>on every first Friday</item>
+        <item>кожную другую пятніцу</item>
+        <item>кожную трэцюю пятніцу</item>
+        <item>кожную чацвёртую пятніцу</item>
+        <item>кожную апошнюю пятніцу</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>кожную першую суботу</item>
+        <item>on every second Saturday</item>
+        <item>on every third Saturday</item>
+        <item>on every fourth Saturday</item>
+        <item>on every last Saturday</item>
+    </string-array>
+</resources>

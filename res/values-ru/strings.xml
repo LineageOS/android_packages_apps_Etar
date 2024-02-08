@@ -264,10 +264,10 @@
         <item quantity="other">Мероприятий: <xliff:g id="COUNT">%d</xliff:g></item>
     </plurals>
     <plurals name="N_remaining_events">
-        <item quantity="one">Ещё мероприятий: 1</item>
-        <item quantity="few">Ещё мероприятий: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="many">Ещё мероприятий: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="other">Ещё мероприятий: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="one">+1 событие</item>
+        <item quantity="few">+<xliff:g id="count">%d</xliff:g> события</item>
+        <item quantity="many">+<xliff:g id="count">%d</xliff:g> событий</item>
+        <item quantity="other">+<xliff:g id="count">%d</xliff:g> событий</item>
     </plurals>
     <string name="acessibility_selected_marker_description">Выбранное мероприятие</string>
     <plurals name="recurrence_interval_daily">

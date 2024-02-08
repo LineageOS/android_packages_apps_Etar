@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Каляндар</string>
+    <string name="when_label">Калі</string>
+    <string name="tomorrow">Заўтра</string>
+    <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
+    <plurals name="Nminutes">
+        <item quantity="one">1 хвіліна</item>
+        <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> хвіліны</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> хвілін</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> хвілін</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">Тыдзень <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="few">Тыдні <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="many">Тыдняў <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">Тыдняў <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="calendar_refresh">"Абнавiць"</string>
+    <string name="show_day_view">"Паказаць дзень"</string>
+    <string name="agenda_view">"Расклад"</string>
+    <string name="day_view">"Дзень"</string>
+    <string name="week_view">"Тыдзень"</string>
+    <string name="month_view">"Месяц"</string>
+    <string name="event_view">"Прагляд падзеі"</string>
+    <string name="event_create">"Новая падзея"</string>
+    <string name="event_delete">"Выдаліць падзею"</string>
+    <string name="share_label">Абагуліць</string>
+    <string name="menu_preferences">"Налады"</string>
+    <string name="search">"Пошук"</string>
+    <string name="event_info_title">Прагляд падзеі</string>
+    <string name="event_info_title_invite">Запрашэнне на сустрэчу</string>
+    <string name="edit_event_all_day_label">Увесь дзень</string>
+    <string name="edit_event_calendar_label">Каляндар</string>
+    <string name="privacy_label">Прыватнасць</string>
+    <string name="reminders_label">Дадаць напамін</string>
+    <string name="no_syncable_calendars">Няма календароў</string>
+    <string name="view_event_calendar_label">Каляндар:</string>
+    <string name="view_event_organizer_label">Арганізатар:</string>
+    <string name="calendar_color_picker_dialog_title">Колер календара</string>
+    <string name="view_event_response_label">Пойдзеце?</string>
+    <string name="response_yes">Так</string>
+    <string name="response_maybe">Магчыма</string>
+    <string name="response_no">Не</string>
+    <string name="email_guests_label">Напісаць гасцям</string>
+    <string name="email_organizer_label">Напісаць арганізатару</string>
+    <string name="event_not_found">"Падзея не знойдзена."</string>
+    <string name="call_label">Выклік</string>
+    <string name="quick_response_settings">Хуткія адказы</string>
+    <string name="quick_response_settings_summary">Рэдагаваць прадвызначаныя адказы пры адпраўцы гасцям на электронную пошту</string>
+    <string name="quick_response_settings_edit_title">Хуткі адказ</string>
+    <string-array name="quick_response_defaults">
+        <item>Running just a couple of minutes late.</item>
+        <item>Be there in about 10 minutes.</item>
+        <item>Пачынайце без мяне.</item>
+        <item>Не паспяваю. Давядзецца перанесці.</item>
+    </string-array>
+    <string name="quick_response_custom_msg">Напісаць уласны адказ\u2026</string>
+    <string name="event_info_organizer">Арганізатар:</string>
+    <string name="event_info_reminders_label">Напаміны</string>
+    <string name="agenda_today">Сёння, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">Учора, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Заўтра, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="loading">Загрузка\u2026</string>
+    <string name="search_title">Пошук у маіх календарах</string>
+    <string name="edit_event_label">"Падрабязнасці"</string>
+    <string name="delete_label">"Выдаліць"</string>
+    <string name="save_label">Гатова</string>
+    <string name="discard_label">Скасаваць</string>
+    <string name="dismiss_all_label">"Адхіліць усе"</string>
+    <string name="snooze_label">"Адкласці"</string>
+    <string name="does_not_repeat">Аднаразовая падзея</string>
+    <string name="monthly">Штомесяц</string>
+    <string name="yearly_plain">Штогод</string>
+    <string name="custom" product="default">"Карыстальніцкае (нельга наладзіць на тэлефоне)"</string>
+    <string name="modify_event">Змяніць толькі гэту падзею</string>
+    <string name="new_event_dialog_label">"Новая падзея"</string>
+    <string name="new_event_dialog_option">"Новая падзея"</string>
+    <string name="delete_this_event_title">Выдаліць гэту падзею?</string>
+    <string name="delete_recurring_event_title">Выдаліць <xliff:g id="eventtitle">%s</xliff:g>?</string>
+    <string name="change_response_title">Змяніць адказ</string>
+    <string name="preferences_title">"Налады"</string>
+    <string name="preferences_color">Асноўны колер</string>
+    <string name="preferences_color_pick">Асноўны колер</string>
+    <string name="display_options">Параметры паказу</string>
+    <string name="display_location">Паказваць месцазнаходжанне</string>
+    <string name="preferences_default_event_duration_title">Прадвызначаная працягласць падзеі</string>
+    <string name="preferences_alerts_ringtone_title">Гук</string>
+    <string name="preferences_default_reminder_title">Прадвызначаны час напаміну</string>
+    <string name="preferences_default_reminder_dialog">Прадвызначаны час напаміну</string>
+    <string name="preferences_use_home_tz_descrip">Паказваць календары і час падзеі ў мясцовым часавым поясе падчас падарожжа</string>
+    <string name="preferences_default_snooze_delay_title">Прадвызначаны час затрымкі адкладання</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Праект Etar. Раздзелы \u00a9
+2005-<xliff:g>%1$s</xliff:g> Праект Android з адкрытым зыходным кодам.</string>
+    <string name="authors">Аўтары</string>
+    <string name="changelog">Журнал змяненняў</string>
+    <string name="copy_db">Адправіць базу даных</string>
+    <string name="directory_searching_fmt">Пошук у <xliff:g id="domain">%s</xliff:g>\u2026</string>
+    <string name="accessibility_remove_attendee">Выдаліць удзельніка</string>
+    <string name="accessibility_pick_start_date">Дата пачатку</string>
+    <string name="accessibility_pick_start_time">Час пачатку</string>
+    <string name="accessibility_pick_time_zone">Часавы пояс</string>
+    <string name="accessibility_add_reminder">Дадаць напамін</string>
+    <string name="accessibility_remove_reminder">Выдаліць напамін</string>
+    <string name="accessibility_add_attendee">Дадаць удзельніка</string>
+    <string name="accessibility_reminder_type">Тып напаміну</string>
+    <string name="recurrence_month_pattern_by_day">у адзін і той жа дзень кожнага месяца</string>
+    <string name="recurrence_end_date_label">Да вызначанай даты</string>
+    <string name="recurrence_end_count_label">Колькасць паўтораў</string>
+    <plurals name="recurrence_end_count">
+        <item quantity="one">Для <xliff:g id="event_count">%d</xliff:g> падзеі</item>
+        <item quantity="few">Для <xliff:g id="event_count">%d</xliff:g> падзей</item>
+        <item quantity="many">Для <xliff:g id="event_count">%d</xliff:g> падзей</item>
+        <item quantity="other">Для <xliff:g id="event_count">%d</xliff:g> падзей</item>
+    </plurals>
+    <string name="fifteen_minutes">15 хвілін</string>
+    <string name="one_hour">1 гадзіна</string>
+    <string name="preferences_calendar_account_local">Пазасеткавы каляндар</string>
+    <string name="preferences_list_calendar_summary_sync_off">Не сінхранізаваны</string>
+    <string name="preferences_list_add_offline">Дадаць пазасеткавы каляндар</string>
+    <string name="preferences_list_add_offline_title">Дадаць пазасеткавы каляндар</string>
+    <string name="preferences_list_add_offline_error_empty">Увядзіце назву календара!</string>
+    <string name="preferences_list_add_offline_button">Дадаць каляндар</string>
+    <string name="preferences_list_add_offline_name">Назва</string>
+    <string name="preferences_list_add_offline_cancel">Скасаваць</string>
+    <string name="offline_account_name">Пазасеткавы каляндар</string>
+</resources>
