@@ -88,7 +88,7 @@
     <string name="reminders_label">通知を追加</string>
     <string name="no_syncable_calendars">カレンダーがありません</string>
     <string name="no_calendars_found">イベントを追加する前に、少なくとも1つのカレンダーをデバイスに追加する必要があります</string>
-    <string name="add_calendar">カレンダーの追加</string>
+    <string name="add_calendar">カレンダーを追加</string>
     <string name="view_event_calendar_label">カレンダー:</string>
     <string name="view_event_organizer_label">主催者:</string>
     <string name="choose_event_color_label">予定の色を選択</string>

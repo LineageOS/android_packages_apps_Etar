@@ -94,7 +94,6 @@
     <string name="reminders_label">Tilføj påmindelse</string>
     <string name="no_syncable_calendars">Der er ingen kalendere</string>
     <string name="no_calendars_found">Før du kan tilføje en begivenhed, skal du tilføje mindst en kalender til din enhed</string>
-    <string name="add_calendar">Tilføj kalender</string>
     <string name="view_event_calendar_label">Kalender:</string>
     <string name="view_event_organizer_label">Organisator:</string>
     <string name="choose_event_color_label">Vælg begivenhedsfarve</string>

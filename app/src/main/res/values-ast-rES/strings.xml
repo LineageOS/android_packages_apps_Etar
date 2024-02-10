@@ -64,7 +64,7 @@
     <string name="edit_event_all_day_label">Tol día</string>
     <string name="edit_event_calendar_label">Calendariu</string>
     <string name="privacy_label">Privacidá</string>
-    <string name="add_calendar">Amestar</string>
+    <string name="no_calendars_found">Enantes de poder amestar un eventu, tienes d\'amestar polo menos un calendariu nel preséu</string>
     <string name="view_event_calendar_label">Calendariu:</string>
     <string name="calendar_color_picker_dialog_title">Color del calendariu</string>
     <string name="view_event_response_label">¿Vas asistir?</string>

@@ -87,7 +87,7 @@
     <string name="privacy_label">공개 설정</string>
     <string name="reminders_label">알림 추가</string>
     <string name="no_syncable_calendars">캘린더 없음</string>
-    <string name="add_calendar">캘린더 추가</string>
+    <string name="no_calendars_found">일정을 추가하려면 먼저 기기에 하나 이상의 캘린더를 추가해야 합니다.</string>
     <string name="view_event_calendar_label">캘린더:</string>
     <string name="view_event_organizer_label">주최자:</string>
     <string name="choose_event_color_label">일정 색상 선택</string>

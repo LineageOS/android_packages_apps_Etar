@@ -92,7 +92,6 @@
     <string name="privacy_label">Privacidade</string>
     <string name="reminders_label">Adicionar lembrete</string>
     <string name="no_syncable_calendars">Sem calendários</string>
-    <string name="add_calendar">Adicionar calendário</string>
     <string name="view_event_calendar_label">Calendário:</string>
     <string name="view_event_organizer_label">Organizador:</string>
     <string name="choose_event_color_label">Escolher a cor do evento</string>

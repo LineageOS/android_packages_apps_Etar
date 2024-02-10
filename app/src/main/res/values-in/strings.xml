@@ -85,7 +85,6 @@
     <string name="privacy_label">Privasi</string>
     <string name="reminders_label">Tambahkan pengingat</string>
     <string name="no_syncable_calendars">Tak ada kalender</string>
-    <string name="add_calendar">Tambah kalender</string>
     <string name="view_event_calendar_label">Kalender:</string>
     <string name="view_event_organizer_label">Penyelenggara:</string>
     <string name="choose_event_color_label">Pilih warna acara</string>

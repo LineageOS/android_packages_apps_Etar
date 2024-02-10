@@ -60,12 +60,12 @@
     <string name="share_label">Paylaş</string>
     <string name="goto_today">"Bugün"</string>
     <string name="goto_date">Get\u2026</string>
-    <string name="menu_preferences">"Tənzimləmələr"</string>
+    <string name="menu_preferences">"Ayarlar"</string>
     <string name="menu_info">Məlumat</string>
     <string name="search">"Axtarış"</string>
     <string name="hide_controls">"Kontrolu gizlət"</string>
     <string name="show_controls">"Kontrolu göstər"</string>
-    <string name="view_settings">"Tənzimləmələrə bax"</string>
+    <string name="view_settings">"Ayarlara bax"</string>
     <string name="select_synced_calendars_button">Sinxronlaşdırılacaq təqvimlər</string>
     <string name="hint_what">"Tədbir adı"</string>
     <string name="hint_where">"Yer"</string>
@@ -168,14 +168,14 @@
     <string name="delete_this_event_title">Bu tədbir silinsin?</string>
     <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g> silinsin?</string>
     <string name="change_response_title">Cavabı dəyiş</string>
-    <string name="preferences_title">"Tənzimləmələr"</string>
-    <string name="preferences_general_title">Təqvim baxış tənzimləməsi</string>
+    <string name="preferences_title">"Ayarlar"</string>
+    <string name="preferences_general_title">Təqvim görünüşü ayarı</string>
     <string name="preferences_month_view_portrait">Ay görünüş düzümü (Şaquli)</string>
     <string name="preferences_month_view_landscape">Ay görünüş düzümü (Üfüqi)</string>
     <string name="preferences_theme">Tema</string>
     <string name="preferences_system_theme">İlkin sistem</string>
     <string name="preferences_light_theme">Açıq</string>
-    <string name="preferences_dark_theme">Tünd</string>
+    <string name="preferences_dark_theme">Qaranlıq</string>
     <string name="preferences_black_theme">Qara</string>
     <string name="preferences_color">Əsas rəng</string>
     <string name="preferences_color_pick">Əsas rəng</string>
@@ -211,7 +211,7 @@
     <string name="preferences_alerts_custom_snooze_delay_title">Xatırladıcını ertələmə gecikməsini istəyin</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">Xatırladıcıları ertələyərkən ertələmə gecikməsini istəyin</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">Həmişə ilkin ertələmə gecikməsini istifadə edin</string>
-    <string name="snooze_delay_dialog_title">Ertələmə gecikməsini tənzimlə</string>
+    <string name="snooze_delay_dialog_title">Ertələmə gecikməsini ayarla</string>
     <string name="preferences_default_snooze_delay_title">İlkin ertələmə gecikmə vaxtı</string>
     <string name="preferences_default_snooze_delay_dialog">İlkin ertələmə gecikməsi</string>
     <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Etar Layihəsi. Hissələr \u00a9 2005-<xliff:g>%1$s</xliff:g> Açıq Mənbəli Android Layihəsi.</string>
@@ -229,7 +229,7 @@
     <string name="preferences_experimental_category">Eksperimental</string>
     <string name="preferences_reminders_responded_label">Xatırladıcıları keç</string>
     <string name="preferences_reminders_responded_dialog">Xatırladıcıları keç</string>
-    <string name="copy_db">Verilənlər bazasını göndər</string>
+    <string name="copy_db">Data bazanı göndər</string>
     <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> axtarılır…</string>
     <string name="accessibility_remove_attendee">İştirakçını sil</string>
     <string name="accessibility_pick_start_date">Başlama tarixi</string>
@@ -283,8 +283,8 @@
         <item quantity="other">Hər <xliff:g id="EVENT_COUNT">%d</xliff:g> tədbir</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">son tarixi dəyiş</string>
-    <string name="user_rejected_calendar_write_permission">Təqvim, normal işləməsi üçün oxuma və yazma icazəsi tələb edir. Zəhmət olmasa yenidən sınayın.</string>
-    <string name="calendar_permission_not_granted">Tələb edilən icazələr rədd edildi, tədbirlərə düzəliş etmək üçün Tənzimləmələr tətbiqindən icazələri fəallaşdırın.</string>
+    <string name="user_rejected_calendar_write_permission">Təqvim, normal işləməsi üçün oxuma və yazma icazəsi tələb edir. Lütfən yenidən sınayın.</string>
+    <string name="calendar_permission_not_granted">Tələb edilən icazələr rədd edildi, tədbirlərə düzəliş etmək üçün Ayarlardan icazələri fəallaşdırın.</string>
     <string name="visibility_default">İlkin</string>
     <string name="visibility_confidential">Gizli</string>
     <string name="visibility_private">Özəl</string>
@@ -334,7 +334,7 @@
     <string name="preferences_calendar_delete_cancel">İmtina</string>
     <string name="preferences_list_calendar_summary_sync_off">Eyniləşdirilməyib</string>
     <string name="preferences_list_calendar_summary_invisible">Tədbirlər görüntülənmir</string>
-    <string name="preferences_list_general">Ümumi tənzimləmələr</string>
+    <string name="preferences_list_general">Ümumi ayarlar</string>
     <string name="preferences_list_add_remote">CalDAV təqvimi əlavə et</string>
     <string name="preferences_list_add_remote_etesync">EteSync təqvimi əlavə et</string>
     <string name="preferences_list_add_offline">Xətdən kənar təqvim əlavə et</string>

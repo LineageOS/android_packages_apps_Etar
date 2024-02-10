@@ -93,7 +93,6 @@
     <string name="privacy_label">Prìobhaideachd</string>
     <string name="reminders_label">Cuir cuimhneachan ris</string>
     <string name="no_syncable_calendars">Chan eil mìosachan ann</string>
-    <string name="add_calendar">Cuir mìosachan ris</string>
     <string name="view_event_calendar_label">Mìosachan:</string>
     <string name="view_event_organizer_label">Eagraiche:</string>
     <string name="choose_event_color_label">Tagh dath an tachartais</string>

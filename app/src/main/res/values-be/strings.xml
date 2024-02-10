@@ -28,7 +28,6 @@
     <string name="presence_label">Мой статус:</string>
     <string name="reminders_label">Дадаць напамін</string>
     <string name="no_syncable_calendars">Няма календароў</string>
-    <string name="add_calendar">Дадаць каляндар</string>
     <string name="email_guests_label">Напісаць гасцям</string>
     <string name="email_organizer_label">Напісаць арганізатару</string>
     <string name="event_not_found">"Падзея не знойдзена."</string>

@@ -93,7 +93,6 @@
     <string name="privacy_label">Úroveň súkromia</string>
     <string name="reminders_label">Pridať pripomenutie</string>
     <string name="no_syncable_calendars">Žiadne kalendáre</string>
-    <string name="add_calendar">Pridať kalendár</string>
     <string name="view_event_calendar_label">Kalendár:</string>
     <string name="view_event_organizer_label">Organizátor:</string>
     <string name="choose_event_color_label">Vyberte farbu udalosti</string>

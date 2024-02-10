@@ -101,7 +101,6 @@
     <string name="privacy_label">Конфіденц.</string>
     <string name="reminders_label">Додати нагадування</string>
     <string name="no_syncable_calendars">Немає календ.</string>
-    <string name="add_calendar">Додати календар</string>
     <string name="view_event_calendar_label">Календар:</string>
     <string name="view_event_organizer_label">Організатор:</string>
     <string name="choose_event_color_label">Виберіть колір події</string>

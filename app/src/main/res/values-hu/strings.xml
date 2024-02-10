@@ -92,7 +92,6 @@
     <string name="privacy_label">Adatvédelem</string>
     <string name="reminders_label">Emlékeztető hozzáad.</string>
     <string name="no_syncable_calendars">Nincs naptár</string>
-    <string name="add_calendar">Naptár-hozzáadás</string>
     <string name="view_event_calendar_label">Naptár:</string>
     <string name="view_event_organizer_label">Szervező:</string>
     <string name="choose_event_color_label">Válasszon egy eseményszínt</string>

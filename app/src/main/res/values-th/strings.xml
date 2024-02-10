@@ -78,7 +78,6 @@
     <string name="privacy_label">ข้อมูลส่วนบุคคล</string>
     <string name="reminders_label">เพิ่มการแจ้งเตือน</string>
     <string name="no_syncable_calendars">ไม่มีปฏิทิน</string>
-    <string name="add_calendar">เพิ่มปฏิทิน</string>
     <string name="view_event_calendar_label">ปฏิทิน:</string>
     <string name="view_event_organizer_label">ผู้จัด:</string>
     <string name="choose_event_color_label">เลือกสีของกิจกรรม</string>

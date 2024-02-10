@@ -83,7 +83,6 @@
     <string name="privacy_label">Поверителност</string>
     <string name="reminders_label">Добавяне: Напомняне</string>
     <string name="no_syncable_calendars">Няма календари</string>
-    <string name="add_calendar">Добави календар</string>
     <string name="view_event_calendar_label">Календар:</string>
     <string name="view_event_organizer_label">Организатор:</string>
     <string name="choose_event_color_label">Избиране на цвят на събитието</string>

@@ -95,7 +95,6 @@
     <string name="privacy_label">الخصوصية</string>
     <string name="reminders_label">إضافة تذكير</string>
     <string name="no_syncable_calendars">بلا تقاويم</string>
-    <string name="add_calendar">إضافة تقويم</string>
     <string name="view_event_calendar_label">التقويم:</string>
     <string name="view_event_organizer_label">المنظِّم:</string>
     <string name="choose_event_color_label">اختيار لون الحدث</string>
