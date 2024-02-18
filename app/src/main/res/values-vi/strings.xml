@@ -308,6 +308,7 @@
     <string name="preferences_calendar_info_category">Thông tin lịch</string>
     <string name="preferences_calendar_color">Màu sắc</string>
     <string name="preferences_calendar_visible">Hiển thị sự kiện</string>
+    <string name="preferences_manage_notifications">Quản lý thông báo</string>
     <string name="preferences_calendar_synchronize">Đồng bộ hóa lịch này</string>
     <string name="preferences_calendar_color_warning_title">Cảnh báo</string>
     <string name="preferences_calendar_color_warning_message">Việc thay đổi màu có thể được hoàn nguyên khi lịch được đồng bộ hóa trở lại.\n\nTính năng \'Quản lý màu lịch\' trong DAVx⁵ có thể được vô hiệu hóa để ngăn chặn điều này.</string>
@@ -330,4 +331,7 @@
     <string name="preferences_menu_about">Giới thiệu về Lịch</string>
     <string name="offline_account_name">Lịch ngoại tuyến</string>
     <string name="after_start_of_event">sau khi bắt đầu sự kiện</string>
+    <string name="preferences_do_not_check_battery_optimization">Không kiểm tra tối ưu hóa pin</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Sử dụng rủi ro của riêng bạn! Thông báo sẽ không còn hoạt động, tiện ích sẽ không còn cập nhật và các dịch vụ nền sẽ gặp sự cố. Nhưng bạn sẽ không được hỏi lại nếu bạn muốn bật dịch vụ nền.</string>
+    <string name="calendars">Lịch</string>
 </resources>

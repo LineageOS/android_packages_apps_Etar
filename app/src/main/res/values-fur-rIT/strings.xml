@@ -325,6 +325,7 @@
     <string name="preferences_calendar_info_category">Informazions calendari</string>
     <string name="preferences_calendar_color">Colôr</string>
     <string name="preferences_calendar_visible">Visualize events</string>
+    <string name="preferences_manage_notifications">Gjestìs notifichis</string>
     <string name="preferences_calendar_synchronize">Sincronize chest calendari</string>
     <string name="preferences_calendar_color_warning_title">Atenzion</string>
     <string name="preferences_calendar_color_warning_message">Al è pussibil che, ae prossime sincronizazion dal calendari, il colôr modificât al torni al valôr di prime.\n\n In \'Gjestìs colôrs calendari\' di DAVx⁵ al è pussibil impedî chest acjadiment.</string>
@@ -347,4 +348,7 @@
     <string name="preferences_menu_about">Informazions su Calendari</string>
     <string name="offline_account_name">Calendari fûr rêt</string>
     <string name="after_start_of_event">dopo l\'inizi dal event</string>
+    <string name="preferences_do_not_check_battery_optimization">No sta controlâ la otimizazion de batarie</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Doprilu a to risi e pericul! Lis notifichis no funzionaran plui, i widget no si inzornaran plui e i servizis in sotfont a colassaran. Ma no ti vignarà domandât di gnûf se tu desideris ativâi servizis in sotfont.</string>
+    <string name="calendars">Calendaris</string>
 </resources>

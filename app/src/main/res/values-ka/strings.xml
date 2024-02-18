@@ -325,6 +325,7 @@
     <string name="preferences_calendar_info_category">კალენდრის მონაცემები</string>
     <string name="preferences_calendar_color">ფერი</string>
     <string name="preferences_calendar_visible">ღონისძიებების ჩვენება</string>
+    <string name="preferences_manage_notifications">შეტყობინებების მართვა</string>
     <string name="preferences_calendar_synchronize">ამ კალენდრის დასინქრონება</string>
     <string name="preferences_calendar_color_warning_title">გაფრთხილება</string>
     <string name="preferences_calendar_color_warning_message">შეცვლილი ფერის დაბრუნება შესაძლებელი იქნება კალენდრის ხელმეორედ დასინქრონებისას.\n\nDAVx⁵ „კალენდრის ფერების მართვის“ გათიშვით შეიძლება ამის არიდება.</string>
@@ -347,4 +348,7 @@
     <string name="preferences_menu_about">კალენდრის შესახებ</string>
     <string name="offline_account_name">ხაზგარეშე კალენდარი</string>
     <string name="after_start_of_event">ღონისძიების დაწყების შემდგომ</string>
+    <string name="preferences_do_not_check_battery_optimization">არ შემოწმდეს ბატარეის ოპტიმიზაცია</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">გამოიყენეთ სიფრთხილით! შეტყობინებები აღარ იმუშავებს, ეკრანზე პროგრამის ნაწილები აღარ განახლდება და ფონური მომსახურებებიც გაითიშება. სამაგიეროდ, აღარ იხილავთ შეკითხვას, ხომ არ გსურთ ფონური მომსახურების კვლავ ჩართვა.</string>
+    <string name="calendars">კალენდრები</string>
 </resources>
