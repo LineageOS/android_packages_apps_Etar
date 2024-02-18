@@ -325,6 +325,7 @@
     <string name="preferences_calendar_info_category">Informations du calendrier</string>
     <string name="preferences_calendar_color">Couleur</string>
     <string name="preferences_calendar_visible">Afficher les événements</string>
+    <string name="preferences_manage_notifications">Gérer les notifications</string>
     <string name="preferences_calendar_synchronize">Synchroniser ce calendrier</string>
     <string name="preferences_calendar_color_warning_title">Avertissement</string>
     <string name="preferences_calendar_color_warning_message">La modification de la couleur peut être annulée lorsque le calendrier est synchronisé à nouveau.\n\nDans DAVx5, \'Gérer les couleurs du calendrier\' peut être désactivé pour éviter cela.</string>
@@ -347,4 +348,7 @@
     <string name="preferences_menu_about">À propos du calendrier</string>
     <string name="offline_account_name">Calendrier hors ligne</string>
     <string name="after_start_of_event">après le début de l\'événement</string>
+    <string name="preferences_do_not_check_battery_optimization">Ne pas vérifier l\'optimisation de la batterie</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Utilisez à vos risques et périls ! Les notifications cesseront de fonctionner, le widget ne se mettra plus à jour et les services en arrière-plan planteront. Cependant, vous ne serez plus invité à activer le service en arrière-plan.</string>
+    <string name="calendars">Calendriers</string>
 </resources>

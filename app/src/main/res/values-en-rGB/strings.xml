@@ -325,6 +325,7 @@
     <string name="preferences_calendar_info_category">Calendar information</string>
     <string name="preferences_calendar_color">Colour</string>
     <string name="preferences_calendar_visible">Display events</string>
+    <string name="preferences_manage_notifications">Manage notifications</string>
     <string name="preferences_calendar_synchronize">Synchronise this calendar</string>
     <string name="preferences_calendar_color_warning_title">Warning</string>
     <string name="preferences_calendar_color_warning_message">Changing the colour may be reverted when the calendar is synchronised again.\n\nIn DAVx⁵ \'Manage calendar colours\' can be disabled to prevent this.</string>
@@ -347,4 +348,7 @@
     <string name="preferences_menu_about">About Calendar</string>
     <string name="offline_account_name">Offline Calendar</string>
     <string name="after_start_of_event">after start of event</string>
+    <string name="preferences_do_not_check_battery_optimization">Don\'t check battery optimisation</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Use at your own risk! Notifications will no longer work, widget will no longer update and background services will crash. But you won\'t get asked again if you want to enable the background service.</string>
+    <string name="calendars">Calendars</string>
 </resources>

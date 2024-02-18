@@ -342,6 +342,7 @@
     <string name="preferences_calendar_info_category">Informații calendar</string>
     <string name="preferences_calendar_color">Culoare</string>
     <string name="preferences_calendar_visible">Afișează evenimente</string>
+    <string name="preferences_manage_notifications">Gestionați notificările</string>
     <string name="preferences_calendar_synchronize">Sincronizează acest calendar</string>
     <string name="preferences_calendar_color_warning_title">Avertisment</string>
     <string name="preferences_calendar_color_warning_message">Schimbarea culorii poate fi anulată atunci când calendarul este sincronizat din nou.\n\nÎn DAVx⁵, \'Gestionare culori calendar\' poate fi dezactivat pentru a preveni acest lucru.</string>
@@ -364,4 +365,7 @@
     <string name="preferences_menu_about">Despre Calendar</string>
     <string name="offline_account_name">Calendar offline</string>
     <string name="after_start_of_event">după începerea evenimentului</string>
+    <string name="preferences_do_not_check_battery_optimization">Nu verifica optimizarea bateriei</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Utilizați pe propriul risc! Notificările nu vor mai funcționa, widget-urile nu se vor mai actualiza și serviciile de fundal se vor bloca. Dar nu veți mai fi întrebat din nou dacă vreți să activați serviciul de fundal.</string>
+    <string name="calendars">Calendare</string>
 </resources>

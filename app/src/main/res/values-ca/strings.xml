@@ -325,6 +325,7 @@
     <string name="preferences_calendar_info_category">Informació del calendari</string>
     <string name="preferences_calendar_color">Color</string>
     <string name="preferences_calendar_visible">Mostra els esdeveniments</string>
+    <string name="preferences_manage_notifications">Gestiona les notificacions</string>
     <string name="preferences_calendar_synchronize">Sincronitza aquest calendari</string>
     <string name="preferences_calendar_color_warning_title">Advertència</string>
     <string name="preferences_calendar_color_warning_message">El canvi de color es pot revertir quan es torni a sincronitzar el calendari.\n\nAl «Gestor de colors del calendari» del DAVx⁵ es pot desactivar per evitar això.</string>
@@ -347,4 +348,7 @@
     <string name="preferences_menu_about">Quant al Calendari</string>
     <string name="offline_account_name">Calendari fora de línia</string>
     <string name="after_start_of_event">després de l\'inici de l\'esdeveniment</string>
+    <string name="preferences_do_not_check_battery_optimization">No comproveu l\'optimització de la bateria</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Feu-ho servir sota el vostre propi risc! Les notificacions ja no funcionaran, el giny ja no s\'actualitzarà i els serveis en segon pla es bloquejaran. Però no se us tornarà a preguntar si voleu habilitar el servei en segon pla.</string>
+    <string name="calendars">Calendaris</string>
 </resources>

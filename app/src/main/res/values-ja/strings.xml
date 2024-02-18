@@ -308,6 +308,7 @@
     <string name="preferences_calendar_info_category">カレンダー情報</string>
     <string name="preferences_calendar_color">色</string>
     <string name="preferences_calendar_visible">予定の表示</string>
+    <string name="preferences_manage_notifications">通知を管理</string>
     <string name="preferences_calendar_synchronize">このカレンダーを同期する</string>
     <string name="preferences_calendar_color_warning_title">警告</string>
     <string name="preferences_calendar_color_warning_message">カレンダーが再度同期されると色が元に戻ることがあります。\n\nDAVx⁵では、これを防ぐために「カレンダーの色を管理」を無効にすることができます。</string>
@@ -330,4 +331,7 @@
     <string name="preferences_menu_about">カレンダーについて</string>
     <string name="offline_account_name">オフラインカレンダー</string>
     <string name="after_start_of_event">イベント開始後</string>
+    <string name="preferences_do_not_check_battery_optimization">電池の最適化をチェックしない</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">自己責任で使用してください！通知は機能しなくなり、ウィジェットはもはや更新されず、バックグラウンドサービスは強制停止されます。 ただし、バックグラウンドサービスを有効にするかどうかは再び尋ねられません。</string>
+    <string name="calendars">カレンダー</string>
 </resources>
