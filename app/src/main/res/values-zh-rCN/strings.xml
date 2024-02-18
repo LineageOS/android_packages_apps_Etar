@@ -308,6 +308,7 @@
     <string name="preferences_calendar_info_category">日历信息</string>
     <string name="preferences_calendar_color">颜色</string>
     <string name="preferences_calendar_visible">显示事件</string>
+    <string name="preferences_manage_notifications">管理通知</string>
     <string name="preferences_calendar_synchronize">同步此日历</string>
     <string name="preferences_calendar_color_warning_title">警告</string>
     <string name="preferences_calendar_color_warning_message">当日历重新同步时，更改颜色可能会被还原。\n\n在 DAVx5 中，可以禁用“管理日历颜色”来防止这种情况。</string>
@@ -330,4 +331,7 @@
     <string name="preferences_menu_about">关于日历</string>
     <string name="offline_account_name">离线日历</string>
     <string name="after_start_of_event">事件开始后</string>
+    <string name="preferences_do_not_check_battery_optimization">不要检查电池优化</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">风险自担！通知将不再起作用，小部件将不再更新，后台服务将崩溃。但系统不会再次询问您是否要启用后台服务。</string>
+    <string name="calendars">日历</string>
 </resources>

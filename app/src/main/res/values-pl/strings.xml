@@ -360,6 +360,7 @@
     <string name="preferences_calendar_info_category">Informacje o kalendarzu</string>
     <string name="preferences_calendar_color">Kolor</string>
     <string name="preferences_calendar_visible">Wyświetl listę wydarzeń</string>
+    <string name="preferences_manage_notifications">Zarządzanie powiadomieniami</string>
     <string name="preferences_calendar_synchronize">Synchronizuj ten kalendarz</string>
     <string name="preferences_calendar_color_warning_title">Uwaga</string>
     <string name="preferences_calendar_color_warning_message">Zmiana koloru może zostać cofnięta, gdy kalendarz zostanie ponownie zsynchronizowany. Można temu zapobiec wyłączając opcję\n\n DAVx5 w sekcji \"Zarządzaj kolorami kalendarza\".</string>
@@ -382,4 +383,7 @@
     <string name="preferences_menu_about">Kalendarz – informacje</string>
     <string name="offline_account_name">Kalendarz lokalny</string>
     <string name="after_start_of_event">po rozpoczęciu wydarzenia</string>
+    <string name="preferences_do_not_check_battery_optimization">Nie sprawdzaj optymalizacji baterii</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Używasz na własne ryzyko! Powiadomienia przestaną działać, widżet nie będzie aktualizowany, a usługi działające w tle ulegną awarii. Nie będzie ponownego zapytania, czy chcesz włączyć usługę działającą w tle.</string>
+    <string name="calendars">Kalendarze</string>
 </resources>

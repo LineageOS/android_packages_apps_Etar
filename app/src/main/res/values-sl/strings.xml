@@ -359,6 +359,7 @@
     <string name="preferences_calendar_info_category">Podatki koledarja</string>
     <string name="preferences_calendar_color">Barva</string>
     <string name="preferences_calendar_visible">Prikaži dogodke</string>
+    <string name="preferences_manage_notifications">Upravljaj z obvestili</string>
     <string name="preferences_calendar_synchronize">Sinhroniziraj ta koledar</string>
     <string name="preferences_calendar_color_warning_title">Opozorilo</string>
     <string name="preferences_calendar_color_warning_message">Sprememba barve je lahko obnovljena, ko je koledar ponovno sinhroniziran.\n\nIn DAVx⁵ »Upravljaj barve koledarja« se lahko onemogoči za preprečitev tega.</string>
@@ -381,4 +382,7 @@
     <string name="preferences_menu_about">O Koledarju</string>
     <string name="offline_account_name">Koledar brez povezave</string>
     <string name="after_start_of_event">po začetku dogodka</string>
+    <string name="preferences_do_not_check_battery_optimization">Ne preveri optimizacije baterije</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Uporaba na lastno odgovornost! Obvestila ne bodo več delovala, pripomočki se ne bodo več posodabljali in storitve v ozadju se bodo sesule. Ampak ne boste več vprašani, če želite omogočiti storitev v ozadju.</string>
+    <string name="calendars">Koledarji</string>
 </resources>

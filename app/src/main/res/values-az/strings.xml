@@ -325,6 +325,7 @@
     <string name="preferences_calendar_info_category">Təqvim məlumatı</string>
     <string name="preferences_calendar_color">Rəng</string>
     <string name="preferences_calendar_visible">Tədbirləri görüntülə</string>
+    <string name="preferences_manage_notifications">Bildirişləri idarə et</string>
     <string name="preferences_calendar_synchronize">Bu təqvimi eyniləşdir</string>
     <string name="preferences_calendar_color_warning_title">Xəbərdarlıq</string>
     <string name="preferences_calendar_color_warning_message">Təqvim təkrar eyniləşdiriləndə rəng dəyişdirilməsi geri qaytarıla bilər.\n\n DAVx⁵-də bunun qarşısını almaq üçün \'Təqvim rənglərini idarə et\' sıradan çıxarılmış ola bilər.</string>
@@ -347,4 +348,7 @@
     <string name="preferences_menu_about">Təqvim Haqqında</string>
     <string name="offline_account_name">Xətdən Kənar Təqvim</string>
     <string name="after_start_of_event">tədbir başlayandan sonra</string>
+    <string name="preferences_do_not_check_battery_optimization">Batareya optimallaşdırmasını yoxlama</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Öz riskinizlə istifadə edin! Bildirişlər artıq işləməyəcək, vicet artıq güncəllənməyəcək və arxaplan xidmətləri çökəcək. Ancaq arxaplan xidmətlərini fəallaşdırmaq istəyib-istəmədiyiniz bir daha soruşulmayacaq.</string>
+    <string name="calendars">Təqvimlər</string>
 </resources>

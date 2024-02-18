@@ -183,6 +183,7 @@
     <string name="preferences_calendar_account_local">Calendariu llocal</string>
     <string name="preferences_calendar_display_name">Camudar el nome</string>
     <string name="preferences_calendar_color">Color</string>
+    <string name="preferences_manage_notifications">Xestionar los avisos</string>
     <string name="preferences_calendar_color_warning_title">Alvertencia</string>
     <string name="preferences_calendar_delete_message">¿De xuru que quies desaniciar esti calendariu?</string>
     <string name="preferences_calendar_delete_delete">Desanicialu</string>
@@ -198,4 +199,6 @@
     <string name="preferences_menu_about">Tocante a Calendariu</string>
     <string name="offline_account_name">Calendariu llocal</string>
     <string name="after_start_of_event">darréu de comenzar l\'eventu</string>
+    <string name="preferences_do_not_check_battery_optimization">Nun comprobar la optimización de la batería</string>
+    <string name="calendars">Calendarios</string>
 </resources>

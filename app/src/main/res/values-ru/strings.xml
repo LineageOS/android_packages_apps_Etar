@@ -360,6 +360,7 @@
     <string name="preferences_calendar_info_category">Информация о календаре</string>
     <string name="preferences_calendar_color">Цвет</string>
     <string name="preferences_calendar_visible">Показать события</string>
+    <string name="preferences_manage_notifications">Управление уведомлениями</string>
     <string name="preferences_calendar_synchronize">Синхронизировать этот календарь</string>
     <string name="preferences_calendar_color_warning_title">Предупреждение</string>
     <string name="preferences_calendar_color_warning_message">Цвет может быть восстановлен при повторной синхронизации календаря.</string>
@@ -382,4 +383,7 @@
     <string name="preferences_menu_about">О календаре</string>
     <string name="offline_account_name">Автономный календарь</string>
     <string name="after_start_of_event">после начала события</string>
+    <string name="preferences_do_not_check_battery_optimization">Не проверять оптимизацию батареи</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Используйте на свой страх и риск! Уведомления больше не будут работать, виджеты не будут обновляться, а фоновые службы будут сбоить. Но вас больше не спросят, хотите ли вы включить фоновую службу.</string>
+    <string name="calendars">Календари</string>
 </resources>
