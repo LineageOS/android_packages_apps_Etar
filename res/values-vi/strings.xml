@@ -196,7 +196,7 @@
     <string name="snooze_delay_dialog_title">Đặt độ trễ báo lại</string>
     <string name="preferences_default_snooze_delay_title">Thời gian trễ báo lại mặc định</string>
     <string name="preferences_default_snooze_delay_dialog">Độ trễ báo lại mặc định</string>
-    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Portions \u00a9 2005-<xliff:g>%1$s</xliff:g> Dự án mã nguồn mở Android.</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. \u00a9 2005-<xliff:g>%1$s</xliff:g> Một phần của Dự án mã nguồn mở Android.</string>
     <string name="authors">Tác giả</string>
     <string name="changelog">Nhật kí thay đổi</string>
     <string name="license">Giấy phép</string>
