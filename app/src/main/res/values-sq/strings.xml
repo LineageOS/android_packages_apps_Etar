@@ -325,6 +325,7 @@
     <string name="preferences_calendar_info_category">Të dhëna të kalendarit</string>
     <string name="preferences_calendar_color">Ngjyra</string>
     <string name="preferences_calendar_visible">Shfaq ngjarjet</string>
+    <string name="preferences_manage_notifications">Menaxho njoftimet</string>
     <string name="preferences_calendar_synchronize">Sinkronizo këtë kalendar</string>
     <string name="preferences_calendar_color_warning_title">Paralajmërim</string>
     <string name="preferences_calendar_color_warning_message">Ndryshimi i ngjyrës mund të rikthehet kur të sinkronizohet kalendari.\n\nNë DAVx⁵ \'Menaxho ngjyrat e kalendarit\' mund të hiqet që të shmanget kjo.</string>
@@ -347,4 +348,7 @@
     <string name="preferences_menu_about">Rreth Kalendarit</string>
     <string name="offline_account_name">Kalendar lokal</string>
     <string name="after_start_of_event">pas fillimit të ngjarjes</string>
+    <string name="preferences_do_not_check_battery_optimization">Mos e kontrolloni optimizimin e baterisë</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Përdoreni në rrezikun tuaj! Njoftimet nuk do të funksionojnë më, miniaplikacioni nuk do të përditësohet më dhe shërbimet e sfondit do të prishen. Por nuk do të pyeteni përsëri nëse dëshironi të aktivizoni shërbimin e sfondit.</string>
+    <string name="calendars">Kalendarët</string>
 </resources>
