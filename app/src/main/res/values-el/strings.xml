@@ -325,6 +325,7 @@
     <string name="preferences_calendar_info_category">Πληροφορίες ημερολογίου</string>
     <string name="preferences_calendar_color">Χρώμα</string>
     <string name="preferences_calendar_visible">Προβολή συμβάντων</string>
+    <string name="preferences_manage_notifications">Διαχείριση ειδοποιήσεων</string>
     <string name="preferences_calendar_synchronize">Συγχρονισμός αυτού του ημερολογίου</string>
     <string name="preferences_calendar_color_warning_title">Προσοχή</string>
     <string name="preferences_calendar_color_warning_message">Η αλλαγή του χρώματος μπορεί να αντιστραφεί όταν συγχρονιστεί ξανά το ημερολόγιο.\n\nΜπορείτε να απενεργοποιήσετε τη \"Διαχείριση χρωμάτων ημερολογίου\" στο DAVx⁵ για να αποφευχθεί αυτό.</string>
@@ -347,4 +348,7 @@
     <string name="preferences_menu_about">Σχετικά με το Ημερολόγιο</string>
     <string name="offline_account_name">Ημερολόγιο χωρίς σύνδεση</string>
     <string name="after_start_of_event">μετά την έναρξη του συμβάντος</string>
+    <string name="preferences_do_not_check_battery_optimization">Να μη γίνεται έλεγχος για βελτιστοποίηση της μπαταρίας</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Χρησιμοποιήστε το με δική σας ευθύνη! Οι ειδοποιήσεις δε θα λειτουργούν πλέον, το widget δε θα ενημερώνεται πλέον και οι υπηρεσίες παρασκηνίου θα κολλήσουν. Αλλά δε θα ερωτηθείτε ξανά αν θέλετε να ενεργοποιήσετε την υπηρεσία παρασκηνίου.</string>
+    <string name="calendars">Ημερολόγια</string>
 </resources>
