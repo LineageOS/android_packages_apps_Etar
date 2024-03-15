@@ -48,6 +48,7 @@
     <string name="week_view">"Selmana"</string>
     <string name="month_view">"Mes"</string>
     <string name="event_create">"Eventu nuevu"</string>
+    <string name="share_label">Compartir</string>
     <string name="goto_today">"Güei"</string>
     <string name="goto_date">Dir a\u2026</string>
     <string name="menu_preferences">"Configuración"</string>
@@ -58,14 +59,20 @@
     <string name="hint_description">"Descripción"</string>
     <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Convidaos"</string>
+    <string name="saving_event">"Guardóse l'eventu."</string>
+    <string name="empty_event">"Nun se creó l'eventu baleru."</string>
     <string name="foreground_notification_title">Programando los recordatorios nuevos…</string>
     <string name="foreground_notification_channel_name">Xeres en segundu planu</string>
     <string name="foreground_notification_channel_description">Los avisos riquíos pa la sincronización interna. Pues anubrir esta canal ensin nengún problema.</string>
     <string name="edit_event_all_day_label">Tol día</string>
     <string name="edit_event_calendar_label">Calendariu</string>
     <string name="privacy_label">Privacidá</string>
+    <string name="reminders_label">Amestar un recordatoriu</string>
+    <string name="no_syncable_calendars">Nun hai nengún calendariu</string>
     <string name="no_calendars_found">Enantes de poder amestar un eventu, tienes d\'amestar polo menos un calendariu nel preséu</string>
     <string name="view_event_calendar_label">Calendariu:</string>
+    <string name="choose_event_color_label">Escoyer el color del eventu</string>
+    <string name="event_color_picker_dialog_title">Color del eventu</string>
     <string name="calendar_color_picker_dialog_title">Color del calendariu</string>
     <string name="view_event_response_label">¿Vas asistir?</string>
     <string name="response_yes">Sí</string>
@@ -122,6 +129,9 @@
     <string name="preferences_reminder_title">Avisos y recordatorios</string>
     <string name="preferences_hide_declined_title">Anubrir los eventos refugaos</string>
     <string name="default_start_title">Vista predeterminada</string>
+    <string name="display_options">Opciones de la visualización</string>
+    <string name="display_location">Amosar la llocalización</string>
+    <string name="default_start_last">La vista usada anteriormente</string>
     <string name="preferences_week_start_day_title">Día de comienzu de la selmana</string>
     <string name="preferences_week_start_day_dialog">Día de comienzu de la selmana</string>
     <string name="preferences_days_per_week_title">Díes per selmana</string>
@@ -141,6 +151,7 @@
     <string name="preferences_build_version">Versión de la compilación</string>
     <string name="preferences_experimental_category">Esperimental</string>
     <string name="accessibility_pick_time_zone">Fusu horariu</string>
+    <string name="accessibility_add_reminder">Amestar un recordatoriu</string>
     <string name="accessibility_reminder_showmeas">Apaecer como</string>
     <string name="accessibility_reminder_privacy">Privacidá</string>
     <plurals name="Nevents">
@@ -164,6 +175,7 @@
         <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> años</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">el mesmu día de cada mes</string>
+    <string name="visibility_default">Por defeutu</string>
     <string name="two_days">2 díes</string>
     <string name="three_days">3 díes</string>
     <string name="four_days">4 díes</string>
@@ -177,14 +189,20 @@
     <string name="one_and_a_half_hours">1,5 hores</string>
     <string name="two_hours">2 hores</string>
     <string name="error_generating_ics">Atopáronse problemes mentanto se compartía l\'eventu</string>
+    <string name="cal_export_event_sdcard_title">Esportar a la tarxeta SD</string>
     <string name="cal_import_error_time_zone_msg">Nun ye posible entender el fusu horariu apurríu: %s</string>
     <string name="cal_import_error_date_msg">Nun ye posible entender la data apurrida: %s</string>
     <string name="preferences_calendar_no_display_name">Calendariu ensin nome</string>
     <string name="preferences_calendar_account_local">Calendariu llocal</string>
+    <string name="preferences_calendar_number_of_events">%1$d eventos</string>
+    <string name="preferences_calendar_delete">Desaniciar el calendariu</string>
     <string name="preferences_calendar_display_name">Camudar el nome</string>
+    <string name="preferences_calendar_info_category">Información del calendariu</string>
     <string name="preferences_calendar_color">Color</string>
+    <string name="preferences_calendar_visible">Amosar los eventos</string>
     <string name="preferences_manage_notifications">Xestionar los avisos</string>
     <string name="preferences_calendar_color_warning_title">Alvertencia</string>
+    <string name="preferences_calendar_color_warning_button">Entiéndolo</string>
     <string name="preferences_calendar_delete_message">¿De xuru que quies desaniciar esti calendariu?</string>
     <string name="preferences_calendar_delete_delete">Desanicialu</string>
     <string name="preferences_calendar_delete_cancel">Encaboxar</string>
@@ -198,7 +216,7 @@
     <string name="preferences_list_add_offline_cancel">Encaboxar</string>
     <string name="preferences_menu_about">Tocante a Calendariu</string>
     <string name="offline_account_name">Calendariu llocal</string>
-    <string name="after_start_of_event">darréu de comenzar l\'eventu</string>
-    <string name="preferences_do_not_check_battery_optimization">Nun comprobar la optimización de la batería</string>
+    <string name="after_start_of_event">tres comenzar l\'eventu</string>
+    <string name="preferences_do_not_check_battery_optimization">Nun comprobar la optimización d\'enerxía</string>
     <string name="calendars">Calendarios</string>
 </resources>
