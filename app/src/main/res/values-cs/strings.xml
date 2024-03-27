@@ -359,6 +359,7 @@
     <string name="preferences_calendar_info_category">Informace o kalendáři</string>
     <string name="preferences_calendar_color">Barva</string>
     <string name="preferences_calendar_visible">Zobrazit události</string>
+    <string name="preferences_manage_notifications">Správa oznámení</string>
     <string name="preferences_calendar_synchronize">Synchronizovat tento kalendář</string>
     <string name="preferences_calendar_color_warning_title">Varování</string>
     <string name="preferences_calendar_color_warning_message">Nastavená barva může být během synchronizace kalendáře navrácena do původního stavu.\n\nTomu lze předejít tím, že v\u00a0DAVx⁵ zakážete položku „Spravovat barvy kalendáře“.</string>
@@ -381,4 +382,7 @@
     <string name="preferences_menu_about">O Kalendáři</string>
     <string name="offline_account_name">Offline Kalendář</string>
     <string name="after_start_of_event">po zahájení události</string>
+    <string name="preferences_do_not_check_battery_optimization">Nekontrolovat optimalizaci baterie</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Používat na vlastní nebezpečí! Upozornění již nebudou fungovat, widget již nebude aktualizován a služby na pozadí se zhroutí. Ale nebudete znovu dotázáni, pokud chcete povolit službu na pozadí.</string>
+    <string name="calendars">Kalendáře</string>
 </resources>

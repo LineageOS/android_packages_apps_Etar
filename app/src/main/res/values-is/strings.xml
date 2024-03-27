@@ -326,6 +326,7 @@ Endilega reyndu aftur.</string>
     <string name="preferences_calendar_info_category">Upplýsingar dagatals</string>
     <string name="preferences_calendar_color">Litur</string>
     <string name="preferences_calendar_visible">Birta atburði</string>
+    <string name="preferences_manage_notifications">Sýsla með tilkynningar</string>
     <string name="preferences_calendar_synchronize">Samstilla þetta dagatal</string>
     <string name="preferences_calendar_color_warning_title">Aðvörun</string>
     <string name="preferences_calendar_color_warning_message">Breyting á lit gæti verið tekin til baka næst þegar dagatalið er samstillt.\n
@@ -350,4 +351,7 @@ Hægt er að koma í veg fyrir þetta í DAVx⁵ \'Manage calendar colors\' stil
     <string name="preferences_menu_about">Um dagatalið</string>
     <string name="offline_account_name">Ónettengt dagatal</string>
     <string name="after_start_of_event">eftir upphaf viðburðar</string>
+    <string name="preferences_do_not_check_battery_optimization">Ekki athuga rafhlöðusparnað</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Notist á eigin ábyrgð! Tilkynningar munu ekki lengur virka, viðmótshluti mun ekki uppfærast og bakgrunnsþjónustur munu hrynja. En þú færð ekki lengur spurningar um hvor þú viljir virkja bakgrunnsþjónustuna.</string>
+    <string name="calendars">Dagatöl</string>
 </resources>

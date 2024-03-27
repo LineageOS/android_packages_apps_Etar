@@ -64,6 +64,7 @@
     <string name="hint_what">"Nama acara"</string>
     <string name="hint_where">"Lokasi"</string>
     <string name="hint_description">"Deskripsi"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Tamu"</string>
     <string name="creating_event">"Acara dibuat."</string>
     <string name="saving_event">"Acara disimpan."</string>
@@ -127,6 +128,7 @@
     <string name="edit_event_label">"Detail"</string>
     <string name="edit_label">"Edit"</string>
     <string name="delete_label">"Hapus"</string>
+    <string name="duplicate_label">Gandakan</string>
     <string name="save_label">Selesai</string>
     <string name="discard_label">Batal</string>
     <string name="dismiss_all_label">"Tutup semua"</string>
