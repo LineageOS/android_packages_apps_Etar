@@ -50,6 +50,7 @@ android_app {
 
     required: [
         "org.lineageos.etar.allowlist",
+        "initial-package-stopped-states-org.lineageos.etar",
         "preinstalled-packages-org.lineageos.etar",
     ],
 }
@@ -78,6 +79,14 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "sysconfig",
     src: "org.lineageos.etar.allowlist.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "initial-package-stopped-states-org.lineageos.etar",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "initial-package-stopped-states-org.lineageos.etar.xml",
     filename_from_src: true,
 }
 
