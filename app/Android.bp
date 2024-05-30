@@ -49,7 +49,8 @@ android_app {
     kotlincflags: ["-Xjvm-default=all"],
 
     required: [
-        "org.lineageos.etar.allowlist"
+        "org.lineageos.etar.allowlist",
+        "preinstalled-packages-org.lineageos.etar",
     ],
 }
 
@@ -77,5 +78,13 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "sysconfig",
     src: "org.lineageos.etar.allowlist.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-org.lineageos.etar",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-org.lineageos.etar.xml",
     filename_from_src: true,
 }
