@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f52d5846_7c1fac45",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29742
+      },
+      "writtenOn": "2024-06-03T16:39:37Z",
+      "side": 1,
+      "message": "I will test this version and other patches, in the common/merged version on los21, Etar crashes when the screen goes to landscape.",
+      "revId": "860a589d97b9a398938a915d7581d56171108eef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
