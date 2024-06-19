@@ -27,6 +27,7 @@ android_app {
         "kotlinx-coroutines-core",
         "kotlinx-coroutines-android",
         "Etar-Calendar_org.dmfs_lib-recur",
+        "androidx.lifecycle_lifecycle-livedata",
     ] + [
         "android-common",
         "android-opt-timezonepicker",
