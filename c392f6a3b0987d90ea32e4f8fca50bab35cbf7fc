@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d58fe19d_6eaa3e7c",
+        "filename": "app/build.gradle.kts",
+        "patchSetId": 2
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-06-19T18:58:45Z",
+      "side": 1,
+      "message": "+tab",
+      "range": {
+        "startLine": 166,
+        "startChar": 0,
+        "endLine": 169,
+        "endChar": 15
+      },
+      "revId": "c392f6a3b0987d90ea32e4f8fca50bab35cbf7fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
