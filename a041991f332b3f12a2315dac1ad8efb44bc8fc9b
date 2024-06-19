@@ -16,6 +16,24 @@
       "message": "packages/apps/Etar/app/src/main/java/com/android/calendar/settings/MainListViewModel.kt:23:27: error: unresolved reference: asLiveData\nimport androidx.lifecycle.asLiveData\n                          ^\npackages/apps/Etar/app/src/main/java/com/android/calendar/settings/MainListViewModel.kt:43:66: error: unresolved reference: asLiveData\n        allCalendars \u003d repository.getCalendarsOrderedByAccount().asLiveData()\n                                                                 ^",
       "revId": "a041991f332b3f12a2315dac1ad8efb44bc8fc9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7870bb9_34a96c5a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-06-19T20:59:20Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_packages_apps_Etar/+/395026",
+      "parentUuid": "13a0502b_c6f3d215",
+      "revId": "a041991f332b3f12a2315dac1ad8efb44bc8fc9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
