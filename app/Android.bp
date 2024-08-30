@@ -67,7 +67,7 @@ android_test {
     manifest: "src/test/AndroidManifest.xml",
 
     libs: [
-        "android.test.runner",
+        "android.test.runner.stubs.system",
     ],
 
     certificate: "platform",
