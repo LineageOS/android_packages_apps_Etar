@@ -69,7 +69,7 @@ class AboutFragment : Fragment() {
         return try {
             val context = requireContext()
             val packageInfo = context.packageManager.getPackageInfo(context.packageName, 0)
-            packageInfo.versionName
+            packageInfo.versionName ?: "?"
         } catch (e: PackageManager.NameNotFoundException) {
             "?"
         }
