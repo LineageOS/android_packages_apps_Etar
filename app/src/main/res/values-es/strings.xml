@@ -22,6 +22,7 @@
     <string name="tomorrow_at_time_fmt">"Mañana a las <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Sin título)</string>
+    <string name="no_reminder_label">Ninguna</string>
     <plurals name="Nminutes">
         <item quantity="one">1 minuto</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> minutos</item>
@@ -37,6 +38,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 día</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> días</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 semana</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> semanas</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Semana <xliff:g id="count">%d</xliff:g></item>
@@ -56,6 +61,7 @@
     <string name="goto_today">"Hoy"</string>
     <string name="goto_date">Ir a\u2026</string>
     <string name="menu_preferences">"Ajustes"</string>
+    <string name="menu_info">Información</string>
     <string name="search">"Buscar"</string>
     <string name="hide_controls">"Ocultar controles"</string>
     <string name="show_controls">"Mostrar controles"</string>
@@ -64,6 +70,7 @@
     <string name="hint_what">"Nombre del evento"</string>
     <string name="hint_where">"Ubicación"</string>
     <string name="hint_description">"Descripción"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Invitados"</string>
     <string name="creating_event">"Evento creado"</string>
     <string name="saving_event">"Evento guardado"</string>
@@ -75,6 +82,9 @@
     <string name="rsvp_declined">"Ha respondido que no irá."</string>
     <string name="create_event_dialog_save">Guardar</string>
     <string name="alert_title">Notificaciones de Calendar</string>
+    <string name="foreground_notification_title">Programando nuevos recordatorios…</string>
+    <string name="foreground_notification_channel_name">Tareas en segundo plano</string>
+    <string name="foreground_notification_channel_description">Notificaciones requeridas para sincronización interna. Puedes ocultar este canal de forma segura.</string>
     <string name="event_info_title">Ver evento</string>
     <string name="event_info_title_invite">Invitación a un evento</string>
     <string name="edit_event_all_day_label">Todo el día</string>
@@ -83,6 +93,7 @@
     <string name="privacy_label">Privacidad</string>
     <string name="reminders_label">Añadir recordatorio</string>
     <string name="no_syncable_calendars">No hay calendarios.</string>
+    <string name="no_calendars_found">Antes de poder añadir un evento, debes tener al menos un calendario en tu dispositivo</string>
     <string name="add_calendar">Añadir calendario</string>
     <string name="view_event_calendar_label">Calendario:</string>
     <string name="view_event_organizer_label">Organizador:</string>
@@ -118,6 +129,7 @@
     <string name="event_info_reminders_label">Recordatorios</string>
     <string name="agenda_today">Hoy, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="agenda_yesterday">Ayer, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">Mañana, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">Cargando...</string>
     <string name="show_older_events">Tocar para ver eventos anteriores al <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">Tocar para ver eventos posteriores al <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
@@ -125,6 +137,7 @@
     <string name="edit_event_label">"Detalles"</string>
     <string name="edit_label">"Editar"</string>
     <string name="delete_label">"Eliminar"</string>
+    <string name="duplicate_label">Duplicar</string>
     <string name="save_label">Listo</string>
     <string name="discard_label">Cancelar</string>
     <string name="dismiss_all_label">"Descartar todo"</string>
@@ -166,6 +179,7 @@
     <string name="preferences_black_theme">Negro</string>
     <string name="preferences_color">Color principal</string>
     <string name="preferences_color_pick">Color principal</string>
+    <string name="preferences_real_event_colors">Usar colores reales del evento</string>
     <string name="preferences_pure_black_night_mode">Modo noche negro puro</string>
     <string name="preferences_reminder_title">Notificaciones y recordatorios</string>
     <string name="preferences_hide_declined_title">Ocultar eventos rechazados</string>
@@ -197,8 +211,10 @@
     <string name="preferences_alerts_custom_snooze_delay_title">Solicitar demora de repetición del recordatorio</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">Solicitar la demora de repetición cada vez que posponga recordatorios</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">Utilizar siempre la demora de repetición predefinida</string>
+    <string name="snooze_delay_dialog_title">Retardo de repetición</string>
     <string name="preferences_default_snooze_delay_title">Tiempo de demora de repetición predefinido</string>
     <string name="preferences_default_snooze_delay_dialog">Demora de repetición predefinida</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> Etar Project. Porciones de \u00a9 2005-<xliff:g>%1$s</xliff:g> Android Open Source Project.</string>
     <string name="authors">Autores</string>
     <string name="changelog">Registro de cambios</string>
     <string name="license">Licencia</string>
@@ -285,12 +301,24 @@
     <string name="one_hour">1 hora</string>
     <string name="one_and_a_half_hours">1,5 horas</string>
     <string name="two_hours">2 horas</string>
+    <string name="error_generating_ics">Han surgido problemas al compartir el evento</string>
     <string name="cal_share_intent_title">Enviar evento a:</string>
     <string name="cal_export_event_sdcard_title">Exportar a tarjeta SD</string>
     <string name="cal_export_succ_msg">Evento exportado con éxito: %1s</string>
     <string name="cal_import_menu_title">Importar evento</string>
     <string name="cal_nothing_to_import">Nada para importar</string>
     <string name="cal_import_error_msg">Error al importar al calendario</string>
+    <string name="cal_import_error_time_zone_msg">No se entiende la zona horaria dada: %s</string>
+    <string name="cal_import_error_date_msg">No se entiende la fecha dada: %s</string>
+    <string name="cal_pick_ics">Elige un archivo a importar</string>
+    <string name="show_time_no">No mostrar la hora</string>
+    <string name="show_time_start">Solo hora de inicio</string>
+    <string name="show_time_start_end">Hora de inicio y fin</string>
+    <string name="show_time_start_end_below">Hora de inicio y finalización del evento</string>
+    <string name="preferences_calendar_no_display_name">Calendario sin nombre</string>
+    <string name="preferences_calendar_account">Cuenta de %1$s</string>
+    <string name="preferences_calendar_account_local">Calendario sin conexión</string>
+    <string name="preferences_calendar_configure_account">Configurar calendario en %1$s</string>
     <string name="preferences_calendar_number_of_events">%1$d eventos</string>
     <string name="preferences_calendar_delete">Borrar calendario</string>
     <string name="preferences_calendar_display_name">Cambiar nombre</string>
@@ -318,4 +346,5 @@
     <string name="preferences_list_add_offline_cancel">Cancelar</string>
     <string name="preferences_menu_about">Acerca de Calendario</string>
     <string name="offline_account_name">Calendario sin conexión</string>
+    <string name="after_start_of_event">después del inicio del evento</string>
 </resources>

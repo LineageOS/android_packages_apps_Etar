@@ -63,7 +63,7 @@
     <string name="empty_event">"Nun se creó l'eventu baleru."</string>
     <string name="foreground_notification_title">Programando los recordatorios nuevos…</string>
     <string name="foreground_notification_channel_name">Xeres en segundu planu</string>
-    <string name="foreground_notification_channel_description">Los avisos riquíos pa la sincronización interna. Pues anubrir esta canal ensin nengún problema.</string>
+    <string name="foreground_notification_channel_description">Los avisos riquíos pa la sincronización interna. Pues esconder esta canal ensin nengún problema.</string>
     <string name="edit_event_all_day_label">Tol día</string>
     <string name="edit_event_calendar_label">Calendariu</string>
     <string name="privacy_label">Privacidá</string>
@@ -128,7 +128,7 @@
     <string name="preferences_color_pick">Color primariu</string>
     <string name="preferences_real_event_colors">Usar los colores reales de los eventos</string>
     <string name="preferences_reminder_title">Avisos y recordatorios</string>
-    <string name="preferences_hide_declined_title">Anubrir los eventos refugaos</string>
+    <string name="preferences_hide_declined_title">Esconder los eventos refugaos</string>
     <string name="default_start_title">Vista predeterminada</string>
     <string name="display_options">Opciones de la visualización</string>
     <string name="display_location">Amosar la llocalización</string>
