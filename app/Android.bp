@@ -40,7 +40,9 @@ android_app {
     ],
 
     optimize: {
+        optimize: true,
         proguard_flags_files: ["proguard-rules.pro"],
+        shrink_resources: true,
     },
 
     sdk_version: "35",
