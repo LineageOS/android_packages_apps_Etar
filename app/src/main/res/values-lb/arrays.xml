@@ -20,43 +20,6 @@
         <item>SMS</item>
         <item>Alarm</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 Minutten</item>
-        <item>1 Minutt</item>
-        <item>5 Minutten</item>
-        <item>10 Minutten</item>
-        <item>15 Minutten</item>
-        <item>20 Minutten</item>
-        <item>25 Minutten</item>
-        <item>30 Minutten</item>
-        <item>45 Minutten</item>
-        <item>1 Stonn</item>
-        <item>2 Stonnen</item>
-        <item>3 Stonnen</item>
-        <item>12 Stonnen</item>
-        <item>24 Stonnen</item>
-        <item>2 Deeg</item>
-        <item>1 Woch</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Keen</item>
-        <item>0 Minutten</item>
-        <item>1 Minutt</item>
-        <item>5 Minutten</item>
-        <item>10 Minutten</item>
-        <item>15 Minutten</item>
-        <item>20 Minutten</item>
-        <item>25 Minutten</item>
-        <item>30 Minutten</item>
-        <item>45 Minutten</item>
-        <item>1 Stonn</item>
-        <item>2 Stonnen</item>
-        <item>3 Stonnen</item>
-        <item>12 Stonnen</item>
-        <item>24 Stonnen</item>
-        <item>2 Deeg</item>
-        <item>1 Woch</item>
-    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Regional Standardastellung</item>
         <item>Samschdeg</item>
