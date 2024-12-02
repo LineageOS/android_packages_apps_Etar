@@ -18,7 +18,7 @@
         <item>அறிவிப்பு</item>
         <item>மின்னஞ்சல்</item>
         <item>SMS</item>
-        <item>அலாரம்</item>
+        <item>அலறி</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>இயல்பு மொழி</item>

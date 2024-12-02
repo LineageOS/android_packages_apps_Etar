@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="reminder_methods_labels">
+        <item>Fógra</item>
+        <item>Ríomhphost</item>
+        <item>SMS</item>
+        <item>Aláram</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Réamhshocrú locale</item>
+        <item>Dé Sathairn</item>
+        <item>Dé Domhnaigh</item>
+        <item>Dé Luain</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Gnóthach</item>
+        <item>Ar fáil</item>
+        <item>Sealadach</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Gan freagra</item>
+        <item>Tá</item>
+        <item>B’fhéidir</item>
+        <item>Níl</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Imeacht seo amháin</item>
+        <item>Seo agus imeachtaí amach anseo</item>
+        <item>Imeachtaí ar fad</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Imeacht seo amháin</item>
+        <item>Gach imeachtaí sa tsraith</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Lá</item>
+        <item>Seachtain</item>
+        <item>Mí</item>
+        <item>Clár oibre</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Ach amháin má dhiúltaítear</item>
+        <item>Má dhiúltaítear nó mura dtugtar freagra</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>ATHDHÉANAMH LAETHÚIL</item>
+        <item>ATHDHÉANAMH SEACHTAINIÚIL</item>
+        <item>ATHDHÉANAMH MÍOSÚIL</item>
+        <item>ATHDHÉANAMH BLIAIN</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>ar gach chéad Domhnach</item>
+        <item>ar gach dara Domhnach</item>
+        <item>ar gach tríú Domhnach</item>
+        <item>ar gach ceathrú Domhnach</item>
+        <item>ar gach Domhnach seo caite</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>ar gach chéad Luan</item>
+        <item>ar gach dara Luan</item>
+        <item>ar gach tríú Luan</item>
+        <item>ar gach ceathrú Luan</item>
+        <item>ar gach Luan seo caite</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>ar gach chéad Mháirt</item>
+        <item>ar gach dara Máirt</item>
+        <item>ar gach tríú Máirt</item>
+        <item>ar gach ceathrú Máirt</item>
+        <item>ar gach Máirt seo caite</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>ar gach céad Céadaoin</item>
+        <item>ar gach dara Céadaoin</item>
+        <item>ar gach tríú Céadaoin</item>
+        <item>ar gach ceathrú Céadaoin</item>
+        <item>ar gach Céadaoin seo caite</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>ar gach chéad Déardaoin</item>
+        <item>ar gach dara Déardaoin</item>
+        <item>ar gach tríú Déardaoin</item>
+        <item>ar gach ceathrú Déardaoin</item>
+        <item>ar gach Déardaoin seo caite</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>ar gach chéad Aoine</item>
+        <item>ar gach dara Aoine</item>
+        <item>ar gach tríú Aoine</item>
+        <item>ar gach ceathrú Aoine</item>
+        <item>ar gach Aoine seo caite</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>ar gach chéad Satharn</item>
+        <item>ar gach dara Satharn</item>
+        <item>ar gach tríú Satharn</item>
+        <item>ar gach ceathrú Satharn</item>
+        <item>ar gach Satharn seo caite</item>
+    </string-array>
+</resources>
