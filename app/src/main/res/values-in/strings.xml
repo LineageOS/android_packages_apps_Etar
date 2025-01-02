@@ -305,6 +305,7 @@
     <string name="preferences_calendar_info_category">Informasi kalender</string>
     <string name="preferences_calendar_color">Warna</string>
     <string name="preferences_calendar_visible">Tampilkan acara</string>
+    <string name="preferences_manage_notifications">Kelola notifikasi</string>
     <string name="preferences_calendar_synchronize">Sinkronkan kalender ini</string>
     <string name="preferences_calendar_color_warning_title">Peringatan</string>
     <string name="preferences_calendar_color_warning_message">Penggantian warna mungkin dikembalikan ketika kalender disinkronkan lagi.\n\nPada DAVx⁵ \'Kelola warna kalender\' dapat dinonaktifkan untuk mencegah hal ini.</string>
