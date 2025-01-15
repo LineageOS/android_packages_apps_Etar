@@ -181,7 +181,7 @@
     <string name="preferences_color">Cor principal</string>
     <string name="preferences_color_pick">Cor principal</string>
     <string name="preferences_real_event_colors">Usar cores reais para eventos</string>
-    <string name="preferences_pure_black_night_mode">Modo noturno preto puro</string>
+    <string name="preferences_pure_black_night_mode">Modo noturno com preto profundo</string>
     <string name="preferences_reminder_title">Notificações e lembretes</string>
     <string name="preferences_hide_declined_title">Ocultar eventos recusados</string>
     <string name="default_start_title">Visualização padrão</string>

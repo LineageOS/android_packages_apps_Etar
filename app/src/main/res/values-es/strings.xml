@@ -82,7 +82,7 @@
     <string name="rsvp_tentative">"Ha respondido que tal vez vaya."</string>
     <string name="rsvp_declined">"Ha respondido que no irá."</string>
     <string name="create_event_dialog_save">Guardar</string>
-    <string name="alert_title">Notificaciones de Calendar</string>
+    <string name="alert_title">Notificaciones del calendario</string>
     <string name="foreground_notification_title">Programando nuevos recordatorios…</string>
     <string name="foreground_notification_channel_name">Tareas en segundo plano</string>
     <string name="foreground_notification_channel_description">Notificaciones requeridas para sincronización interna. Puedes ocultar este canal de forma segura.</string>
@@ -125,13 +125,13 @@
         <item>Empezad sin mí</item>
         <item>No puedo, mejor en otro momento</item>
     </string-array>
-    <string name="quick_response_custom_msg">Escribe tu propia respuesta…</string>
+    <string name="quick_response_custom_msg">Escribe tu propia respuesta\u2026</string>
     <string name="event_info_organizer">Organizador:</string>
     <string name="event_info_reminders_label">Recordatorios</string>
     <string name="agenda_today">Hoy, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="agenda_yesterday">Ayer, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="agenda_tomorrow">Mañana, <xliff:g id="date">%1$s</xliff:g></string>
-    <string name="loading">Cargando...</string>
+    <string name="loading">Cargando\u2026</string>
     <string name="show_older_events">Tocar para ver eventos anteriores al <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">Tocar para ver eventos posteriores al <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="search_title">Buscar en mis calendarios</string>
