@@ -22,6 +22,8 @@
     <string name="tomorrow_at_time_fmt">"Утре от <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Без заглавие)</string>
+    <string name="no_reminder_label">Няма</string>
+    <string name="no_snooze_label">Няма</string>
     <plurals name="Nminutes">
         <item quantity="one">1 минута</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> минути</item>
@@ -37,6 +39,10 @@
     <plurals name="Ndays">
         <item quantity="one">1 ден</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> дни</item>
+    </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">1 седмица</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> седмици</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Седмица <xliff:g id="count">%d</xliff:g></item>
@@ -56,6 +62,7 @@
     <string name="goto_today">"Днес"</string>
     <string name="goto_date">Отиди на\u2026</string>
     <string name="menu_preferences">"Настройки"</string>
+    <string name="menu_info">Информация</string>
     <string name="search">"Търсене"</string>
     <string name="hide_controls">"Контроли: Скриване"</string>
     <string name="show_controls">"Контроли: Показване"</string>
@@ -64,6 +71,7 @@
     <string name="hint_what">"Име на събитието"</string>
     <string name="hint_where">"Местоположение"</string>
     <string name="hint_description">"Описание"</string>
+    <string name="hint_url">"Адрес"</string>
     <string name="hint_attendees">"Гости"</string>
     <string name="creating_event">"Събитието е създадено."</string>
     <string name="saving_event">"Събитието е запазено."</string>
@@ -75,6 +83,9 @@
     <string name="rsvp_declined">"Отговорихте с „не“."</string>
     <string name="create_event_dialog_save">Запазване</string>
     <string name="alert_title">Известия от Календар</string>
+    <string name="foreground_notification_title">Планиране на нови напомняния</string>
+    <string name="foreground_notification_channel_name">Задачи на заден фон</string>
+    <string name="foreground_notification_channel_description">Необходими са известията за вътрешна синхронизация.Можете безопасно да скриете този канал.</string>
     <string name="event_info_title">Преглед на събитие</string>
     <string name="event_info_title_invite">Покана за среща</string>
     <string name="edit_event_all_day_label">Цял ден</string>
@@ -83,6 +94,8 @@
     <string name="privacy_label">Поверителност</string>
     <string name="reminders_label">Добавяне: Напомняне</string>
     <string name="no_syncable_calendars">Няма календари</string>
+    <string name="no_calendars_found">За да отбележите събитие трябва да добавите поне един календар </string>
+    <string name="add_calendar">Добави календар</string>
     <string name="view_event_calendar_label">Календар:</string>
     <string name="view_event_organizer_label">Организатор:</string>
     <string name="choose_event_color_label">Избиране на цвят на събитието</string>
@@ -125,6 +138,7 @@
     <string name="edit_event_label">"Подробности"</string>
     <string name="edit_label">"Редакт."</string>
     <string name="delete_label">"Изтриване"</string>
+    <string name="duplicate_label">Дублиране</string>
     <string name="save_label">Готово</string>
     <string name="discard_label">Отказ</string>
     <string name="dismiss_all_label">"Отхвърляне на всички"</string>
@@ -166,6 +180,7 @@
     <string name="preferences_black_theme">Черна</string>
     <string name="preferences_color">Основен цвят</string>
     <string name="preferences_color_pick">Основен цвят</string>
+    <string name="preferences_real_event_colors">Използвне на истински цветове на събитията</string>
     <string name="preferences_pure_black_night_mode">Чисто черно в нощен режим</string>
     <string name="preferences_reminder_title">Известия и напомняния</string>
     <string name="preferences_hide_declined_title">Скриване на отказани събития</string>
@@ -332,5 +347,6 @@
     <string name="preferences_list_add_offline_cancel">Отказ</string>
     <string name="preferences_menu_about">Всичко за Календар</string>
     <string name="offline_account_name">Офлайн календар</string>
+    <string name="after_start_of_event">след започване на събитие</string>
     <string name="cancel">Отказ</string>
 </resources>

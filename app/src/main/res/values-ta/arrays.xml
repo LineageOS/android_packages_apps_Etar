@@ -21,94 +21,94 @@
         <item>அலறி</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
-        <item>இயல்பு மொழி</item>
+        <item>வட்டார மொழி</item>
         <item>சனிக்கிழமை</item>
         <item>ஞாயிற்றுக்கிழமை</item>
         <item>திங்கட்கிழமை</item>
     </string-array>
     <string-array name="availability">
         <item>பணிமிகுதி</item>
-        <item>இருக்கிறார்</item>
-        <item>வருவதில் நிச்சயமில்லை</item>
+        <item>உள்ளேன்</item>
+        <item>உறுதியில்லா</item>
     </string-array>
     <string-array name="response_labels1">
         <item>பதில் இல்லை</item>
         <item>ஆம்</item>
-        <item>கலந்துகொள்ளக்கூடும்</item>
+        <item>இருக்கலாம்</item>
         <item>இல்லை</item>
     </string-array>
     <string-array name="delete_repeating_labels">
         <item>இந்த நிகழ்விற்கு மட்டும்</item>
-        <item>இந்த நிகழ்வு மற்றும் எதிர்கால நிகழ்வுகள்</item>
-        <item>எல்லா நிகழ்வுகளும்</item>
+        <item>இதுவும் எதிர்கால நிகழ்வுகளும்</item>
+        <item>நிகழ்வுகள் அனைத்தும்</item>
     </string-array>
     <string-array name="change_response_labels">
         <item>இந்த நிகழ்விற்கு மட்டும்</item>
-        <item>தொடரில் உள்ள எல்லா நிகழ்வுகளுக்கும்</item>
+        <item>தொடரிலுள்ள நிகழ்வுகள் அனைத்தும்</item>
     </string-array>
     <string-array name="buttons_list">
         <item>நாள்</item>
-        <item>வாரம்</item>
-        <item>மாதம்</item>
-        <item>நிகழ்ச்சி விவரம்</item>
+        <item>கிழமை</item>
+        <item>திங்கள்</item>
+        <item>செய்நிரல்</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
-        <item>நிராகரிக்கப்பட்டிருந்தால் மட்டும்</item>
-        <item>நிராகரிக்கப்பட்டிருந்தால் அல்லது பதிலளிக்காமல் இருந்தால்</item>
+        <item>மறுத்தால் மட்டுமே</item>
+        <item>மறுத்தாலோ, பதிலளிக்கவில்லை என்றாலோ</item>
     </string-array>
     <string-array name="recurrence_freq">
-        <item>தினமும் நினைவுபடுத்து</item>
-        <item>வாரந்தோறும் நினைவுபடுத்து</item>
-        <item>மாதந்தோறும் நினைவுபடுத்து</item>
-        <item>ஆண்டுதோறும் நினைவுபடுத்து</item>
+        <item>நாளும் நினைவூட்டுக</item>
+        <item>கிழமைதோறும் நினைவூட்டுக</item>
+        <item>திங்கள்தோறும் நினைவூட்டுக</item>
+        <item>ஆண்டுதோறும் நினைவூட்டுக</item>
     </string-array>
     <string-array name="repeat_by_nth_sun">
-        <item>ஒவ்வொரு முதல் ஞாயிற்றுக்கிழமை</item>
-        <item>ஒவ்வொரு இரண்டாவது ஞாயிற்றுக்கிழமை</item>
-        <item>ஒவ்வொரு மூன்றாவது ஞாயிற்றுக்கிழமை</item>
-        <item>ஒவ்வொரு நான்காவது ஞாயிற்றுக்கிழமை</item>
-        <item>ஒவ்வொரு கடைசி ஞாயிற்றுக்கிழமை</item>
+        <item>ஒவ்வொரு முதல் ஞாயிற்றுக்கிழமையும்</item>
+        <item>ஒவ்வொரு இரண்டாவது ஞாயிற்றுக்கிழமையும்</item>
+        <item>ஒவ்வொரு மூன்றாவது ஞாயிற்றுக்கிழமையும்</item>
+        <item>ஒவ்வொரு நான்காவது ஞாயிற்றுக்கிழமையும்</item>
+        <item>ஒவ்வொரு கடைசி ஞாயிற்றுக்கிழமையும்</item>
     </string-array>
     <string-array name="repeat_by_nth_mon">
-        <item>ஒவ்வொரு முதல் திங்கட்கிழமை</item>
-        <item>ஒவ்வொரு இரண்டாவது திங்கட்கிழமை</item>
-        <item>ஒவ்வொரு மூன்றாவது திங்கட்கிழமை</item>
-        <item>ஒவ்வொரு நான்காவது திங்கட்கிழமை</item>
-        <item>ஒவ்வொரு கடைசி திங்கட்கிழமை</item>
+        <item>ஒவ்வொரு முதல் திங்கட்கிழமையும்</item>
+        <item>ஒவ்வொரு இரண்டாவது திங்கட்கிழமையும்</item>
+        <item>ஒவ்வொரு மூன்றாவது திங்கட்கிழமையும்</item>
+        <item>ஒவ்வொரு நான்காவது திங்கட்கிழமையும்</item>
+        <item>ஒவ்வொரு கடைசி திங்கட்கிழமையும்</item>
     </string-array>
     <string-array name="repeat_by_nth_tues">
-        <item>ஒவ்வொரு முதல் செவ்வாய்க்கிழமை</item>
-        <item>ஒவ்வொரு இரண்டாவது செவ்வாய்க்கிழமை</item>
-        <item>ஒவ்வொரு மூன்றாவது செவ்வாய்க்கிழமை</item>
-        <item>ஒவ்வொரு நான்காவது செவ்வாய்க்கிழமை</item>
-        <item>ஒவ்வொரு கடைசி செவ்வாய்க்கிழமை</item>
+        <item>ஒவ்வொரு முதல் செவ்வாய்க்கிழமையும்</item>
+        <item>ஒவ்வொரு இரண்டாவது செவ்வாய்க்கிழமையும்</item>
+        <item>ஒவ்வொரு மூன்றாவது செவ்வாய்க்கிழமையும்</item>
+        <item>ஒவ்வொரு நான்காவது செவ்வாய்க்கிழமையும்</item>
+        <item>ஒவ்வொரு கடைசி செவ்வாய்க்கிழமையும்</item>
     </string-array>
     <string-array name="repeat_by_nth_wed">
-        <item>ஒவ்வொரு முதல் புதன்கிழமை</item>
-        <item>ஒவ்வொரு இரண்டாவது புதன்கிழமை</item>
-        <item>ஒவ்வொரு மூன்றாவது புதன்கிழமை</item>
-        <item>ஒவ்வொரு நான்காவது புதன்கிழமை</item>
-        <item>ஒவ்வொரு கடைசி புதன்கிழமை</item>
+        <item>ஒவ்வொரு முதல் புதன்கிழமையும்</item>
+        <item>ஒவ்வொரு இரண்டாவது புதன்கிழமையும்</item>
+        <item>ஒவ்வொரு மூன்றாவது புதன்கிழமையும்</item>
+        <item>ஒவ்வொரு நான்காவது புதன்கிழமையும்</item>
+        <item>ஒவ்வொரு கடைசி புதன்கிழமையும்</item>
     </string-array>
     <string-array name="repeat_by_nth_thurs">
-        <item>ஒவ்வொரு முதல் வியாழக்கிழமை</item>
-        <item>ஒவ்வொரு இரண்டாவது வியாழக்கிழமை</item>
-        <item>ஒவ்வொரு மூன்றாவது வியாழக்கிழமை</item>
-        <item>ஒவ்வொரு நான்காவது வியாழக்கிழமை</item>
-        <item>ஒவ்வொரு கடைசி வியாழக்கிழமை</item>
+        <item>ஒவ்வொரு முதல் வியாழக்கிழமையும்</item>
+        <item>ஒவ்வொரு இரண்டாவது வியாழக்கிழமையும்</item>
+        <item>ஒவ்வொரு மூன்றாவது வியாழக்கிழமையும்</item>
+        <item>ஒவ்வொரு நான்காவது வியாழக்கிழமையும்</item>
+        <item>ஒவ்வொரு கடைசி வியாழக்கிழமையும்</item>
     </string-array>
     <string-array name="repeat_by_nth_fri">
-        <item>ஒவ்வொரு முதல் வெள்ளிக்கிழமை</item>
-        <item>ஒவ்வொரு இரண்டாவது வெள்ளிக்கிழமை</item>
-        <item>ஒவ்வொரு மூன்றாவது வெள்ளிக்கிழமை</item>
-        <item>ஒவ்வொரு நான்காவது வெள்ளிக்கிழமை</item>
-        <item>ஒவ்வொரு கடைசி வெள்ளிக்கிழமை</item>
+        <item>ஒவ்வொரு முதல் வெள்ளிக்கிழமையும்</item>
+        <item>ஒவ்வொரு இரண்டாவது வெள்ளிக்கிழமையும்</item>
+        <item>ஒவ்வொரு மூன்றாவது வெள்ளிக்கிழமையும்</item>
+        <item>ஒவ்வொரு நான்காவது வெள்ளிக்கிழமையும்</item>
+        <item>ஒவ்வொரு கடைசி வெள்ளிக்கிழமையும்</item>
     </string-array>
     <string-array name="repeat_by_nth_sat">
-        <item>ஒவ்வொரு முதல் சனிக்கிழமை</item>
-        <item>ஒவ்வொரு இரண்டாவது சனிக்கிழமை</item>
-        <item>ஒவ்வொரு மூன்றாவது சனிக்கிழமை</item>
-        <item>ஒவ்வொரு நான்காவது சனிக்கிழமை</item>
-        <item>ஒவ்வொரு கடைசி சனிக்கிழமை</item>
+        <item>ஒவ்வொரு முதல் சனிக்கிழமையும்</item>
+        <item>ஒவ்வொரு இரண்டாவது சனிக்கிழமையும்</item>
+        <item>ஒவ்வொரு மூன்றாவது சனிக்கிழமையும்</item>
+        <item>ஒவ்வொரு நான்காவது சனிக்கிழமையும்</item>
+        <item>ஒவ்வொரு கடைசி சனிக்கிழமையும்</item>
     </string-array>
 </resources>

@@ -329,7 +329,7 @@
     <string name="preferences_manage_notifications">Gestionar notificaciones</string>
     <string name="preferences_calendar_synchronize">Sincronizar este calendario</string>
     <string name="preferences_calendar_color_warning_title">Advertencia</string>
-    <string name="preferences_calendar_color_warning_message">El cambio de color puede revertirse cuando el calendario se sincroniza nuevamente.\n\nIn DAVx⁵ \'Administrar colores de calendario\' se puede desactivar para evitar esto.</string>
+    <string name="preferences_calendar_color_warning_message">El cambio de color puede revertirse cuando el calendario se sincroniza nuevamente.\n\nEn DAVx⁵ \'Administrar colores de calendario\' se puede desactivar para evitar esto.</string>
     <string name="preferences_calendar_color_warning_button">Entendido</string>
     <string name="preferences_calendar_delete_message">¿Realmente quieres eliminar este calendario?</string>
     <string name="preferences_calendar_delete_delete">Borrar calendario</string>
