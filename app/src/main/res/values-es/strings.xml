@@ -112,7 +112,7 @@
     <string name="email_picker_label">Correo electrónico con</string>
     <string name="event_not_found">"No se ha encontrado el evento."</string>
     <string name="map_label">Mapa</string>
-    <string name="no_map">No hay ninguna aplicación de mapas instalada</string>
+    <string name="no_map">No tienes ninguna aplicación de mapas</string>
     <string name="call_label">Llamar</string>
     <string name="quick_response_settings">Respuestas rápidas</string>
     <string name="quick_response_settings_summary">Editar respuestas predefinidas al enviar correos electrónicos a los invitados</string>
@@ -153,7 +153,7 @@
         <item quantity="one">Diariamente</item>
         <item quantity="other">Cada <xliff:g id="NUMBER">%d</xliff:g> días</item>
     </plurals>
-    <string name="every_weekday">"Cada día laborable (lunes-viernes)"</string>
+    <string name="every_weekday">"Cada día laborable (lunes\u2013viernes)"</string>
     <plurals name="weekly">
         <item quantity="one">Semanalmente el <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
         <item quantity="other">Cada <xliff:g id="NUMBER">%1$d</xliff:g> semanas el <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
@@ -210,7 +210,7 @@
     <string name="preferences_home_tz_title">Zona horaria local</string>
     <string name="preferences_show_week_num_title">Mostrar número de semana</string>
     <string name="preferences_alerts_custom_snooze_delay_title">Solicitar demora de repetición del recordatorio</string>
-    <string name="preferences_alerts_custom_snooze_delay_summary_on">Solicitar la demora de repetición cada vez que posponga recordatorios</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">Solicitar la demora de repetición cada vez que pospongas recordatorios</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">Utilizar siempre la demora de repetición predefinida</string>
     <string name="snooze_delay_dialog_title">Retardo de repetición</string>
     <string name="preferences_default_snooze_delay_title">Tiempo de demora de repetición predefinido</string>
@@ -226,7 +226,7 @@
         <item quantity="one">"+1"</item>
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
     </plurals>
-    <string name="gadget_no_events">No hay futuros eventos en el calendario.</string>
+    <string name="gadget_no_events">No hay eventos futuros en el calendario</string>
     <string name="preferences_experimental_category">Experimental</string>
     <string name="preferences_reminders_responded_label">Omitir recordatorios</string>
     <string name="preferences_reminders_responded_dialog">Omitir recordatorios</string>
@@ -284,7 +284,7 @@
         <item quantity="other">Para <xliff:g id="EVENT_COUNT">%d</xliff:g> eventos</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">cambiar fecha de finalización</string>
-    <string name="user_rejected_calendar_write_permission">El calendario necesita permisos de lectura y escritura del calendario para funcionar correctamente. Por favor, inténtelo de nuevo.</string>
+    <string name="user_rejected_calendar_write_permission">El calendario requiere permisos de lectura y escritura para funcionar correctamente. Por favor, inténtalo de nuevo.</string>
     <string name="calendar_permission_not_granted">Se han denegado los permisos necesarios, puedes editar eventos una vez cambies los permisos en Ajustes</string>
     <string name="visibility_default">Predefinido</string>
     <string name="visibility_confidential">Confidencial</string>
@@ -335,14 +335,14 @@
     <string name="preferences_calendar_delete_delete">Borrar calendario</string>
     <string name="preferences_calendar_delete_cancel">Cancelar</string>
     <string name="preferences_list_calendar_summary_sync_off">No sincronizado</string>
-    <string name="preferences_list_calendar_summary_invisible">Los eventos no se muestran</string>
+    <string name="preferences_list_calendar_summary_invisible">No se muestran los eventos</string>
     <string name="preferences_list_general">Ajustes generales</string>
     <string name="preferences_list_add_remote">Añadir calendario CalDAV</string>
     <string name="preferences_list_add_remote_etesync">Añadir calendario EteSync</string>
     <string name="preferences_list_add_offline">Añadir calendario sin conexión</string>
     <string name="preferences_list_add_offline_title">Añadir calendario sin conexión</string>
-    <string name="preferences_list_add_offline_error_empty">¡Ingrese un nombre del calendario!</string>
-    <string name="preferences_list_add_offline_message">Los calendarios sin conexión NO están sincronizados con un servicio en la nube y solo están disponibles en su teléfono.</string>
+    <string name="preferences_list_add_offline_error_empty">¡Introduce un nombre para el calendario!</string>
+    <string name="preferences_list_add_offline_message">Los calendarios sin conexión NO están sincronizados con un servicio en la nube y solo están disponibles en tu teléfono.</string>
     <string name="preferences_list_add_offline_button">Añadir calendario</string>
     <string name="preferences_list_add_offline_name">Nombre</string>
     <string name="preferences_list_add_offline_cancel">Cancelar</string>

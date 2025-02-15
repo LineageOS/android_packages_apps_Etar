@@ -22,6 +22,8 @@
     <string name="tomorrow_at_time_fmt">"فردا در <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>، <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(بدون عنوان)</string>
+    <string name="no_reminder_label">هیچ</string>
+    <string name="no_snooze_label">هیچ</string>
     <plurals name="Nminutes">
         <item quantity="one">۱ دقیقه</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> دقیقه</item>
@@ -38,6 +40,15 @@
         <item quantity="one">۱ روز</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> روز</item>
     </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">۱ هفته</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> هفته</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">هفته <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">هفته <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="calendar_refresh">"بازخوانی"</string>
     <string name="show_day_view">"نمایش روز"</string>
     <string name="agenda_view">"دستور کار"</string>
     <string name="day_view">"روز"</string>
@@ -47,15 +58,20 @@
     <string name="event_create">"رویداد جدید"</string>
     <string name="event_edit">"ویرایش رویداد"</string>
     <string name="event_delete">"حذف رویداد"</string>
+    <string name="share_label">هم‌رسانی</string>
     <string name="goto_today">"امروز"</string>
+    <string name="goto_date">رفتن به/u2026</string>
     <string name="menu_preferences">"تنظیمات"</string>
+    <string name="menu_info">اطلاعات</string>
     <string name="search">"جستجو"</string>
     <string name="hide_controls">"مخفی کردن کنترل ها"</string>
     <string name="show_controls">"نمایش کنترل ها"</string>
+    <string name="view_settings">"تنظیمات نما"</string>
     <string name="select_synced_calendars_button">تقویم‌ها برای همگام‌سازی</string>
     <string name="hint_what">"نام رویداد"</string>
     <string name="hint_where">"مکان"</string>
     <string name="hint_description">"توضیح"</string>
+    <string name="hint_url">"نشانی"</string>
     <string name="hint_attendees">"مهمان ها"</string>
     <string name="creating_event">"رویداد ایجاد شد."</string>
     <string name="saving_event">"رویداد ذخیره شد."</string>
@@ -67,6 +83,9 @@
     <string name="rsvp_declined">"پاسخ منفی داد."</string>
     <string name="create_event_dialog_save">ذخیره</string>
     <string name="alert_title">اعلان‌های تقویم</string>
+    <string name="foreground_notification_title">زمان‌بندی یادآوری‌های جدید…</string>
+    <string name="foreground_notification_channel_name">وظایف پس‌زمینه</string>
+    <string name="foreground_notification_channel_description">اعلان‌های مورد نیاز برای همگام سازی داخلی. می توانید با خیال راحت این کانال را مخفی کنید.</string>
     <string name="event_info_title">مشاهده رویداد</string>
     <string name="event_info_title_invite">دعوت نامه جلسه</string>
     <string name="edit_event_all_day_label">همه روز</string>
@@ -75,6 +94,8 @@
     <string name="privacy_label">حریم خصوصی</string>
     <string name="reminders_label">افزودن یادآور</string>
     <string name="no_syncable_calendars">تقویمی موجود نیست</string>
+    <string name="no_calendars_found">قبل از اینکه بتوانید رویدادی را اضافه کنید، باید حداقل یک تقویم به دستگاه خود اضافه کنید</string>
+    <string name="add_calendar">افزودن تقویم</string>
     <string name="view_event_calendar_label">تقویم:</string>
     <string name="view_event_organizer_label">سازمان دهنده:</string>
     <string name="choose_event_color_label">انتخاب رنگ رویداد</string>
@@ -91,6 +112,7 @@
     <string name="email_picker_label">ایمیل با</string>
     <string name="event_not_found">"رویداد یافت نشد."</string>
     <string name="map_label">نقشه</string>
+    <string name="no_map">هیچ برنامه‌ی نقشه‌ای نصب نشده است</string>
     <string name="call_label">تماس</string>
     <string name="quick_response_settings">پاسخ‌های سریع</string>
     <string name="quick_response_settings_summary">ویرایش پاسخ‌های پیش‌فرض هنگام ارسال ایمیل به مهمان‌ها</string>
@@ -106,6 +128,9 @@
     <string name="quick_response_custom_msg">نوشتن ...</string>
     <string name="event_info_organizer">سازمان دهنده:</string>
     <string name="event_info_reminders_label">یادآورها</string>
+    <string name="agenda_today">امروز، <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">دیروز، <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">فردا، <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">در حال بارگیری…</string>
     <string name="show_older_events">برای مشاهده رویدادهای قبل از <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> لمس کنید</string>
     <string name="show_newer_events">جهت مشاهده رویدادهای پس از <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> لمس کنید</string>
@@ -113,6 +138,7 @@
     <string name="edit_event_label">"جزئیات"</string>
     <string name="edit_label">"ویرایش"</string>
     <string name="delete_label">"حذف"</string>
+    <string name="duplicate_label">تکراری</string>
     <string name="save_label">انجام شد</string>
     <string name="discard_label">لغو</string>
     <string name="dismiss_all_label">"رد کردن همه"</string>
@@ -145,10 +171,30 @@
     <string name="change_response_title">تغییر پاسخ</string>
     <string name="preferences_title">"تنظیمات"</string>
     <string name="preferences_general_title">تنظیم نمای تقویم</string>
+    <string name="preferences_month_view_portrait">چیدمان به صورت ماهانه (عمودی)</string>
+    <string name="preferences_month_view_landscape">چیدمان به صورت ماهانه (افقی)</string>
+    <string name="preferences_theme">پوسته</string>
+    <string name="preferences_system_theme">پیش‌فرض سیستم</string>
+    <string name="preferences_light_theme">روشن</string>
+    <string name="preferences_dark_theme">تاریک</string>
+    <string name="preferences_black_theme">سیاه</string>
+    <string name="preferences_color">رنگ اصلی</string>
+    <string name="preferences_color_pick">رنگ اصلی</string>
+    <string name="preferences_real_event_colors">از رنگ های رویداد واقعی استفاده کنید</string>
+    <string name="preferences_pure_black_night_mode">حالت شب سیاه خالص</string>
     <string name="preferences_reminder_title">اعلان‌ها و یادآورها</string>
     <string name="preferences_hide_declined_title">پنهان کردن رویدادهای رد شده</string>
+    <string name="default_start_title">نمای پیش‌فرض</string>
+    <string name="display_options">گزینه‌های نمایش</string>
+    <string name="display_time">نمایش زمان</string>
+    <string name="display_location">نمایش مکان</string>
+    <string name="maximum_number_of_lines">بیشترین تعداد هشدار در رویداد</string>
+    <string name="default_start_last">نمای قبلا استفاده شده</string>
     <string name="preferences_week_start_day_title">شروع هفته از</string>
     <string name="preferences_week_start_day_dialog">شروع هفته از</string>
+    <string name="preferences_days_per_week_title">تعداد روزها در هفته</string>
+    <string name="preferences_days_per_week_dialog">تعداد روزها در هفته</string>
+    <string name="preferences_default_event_duration_title">مدت زمان پیش‌فرض رویداد</string>
     <string name="preferences_clear_search_history_title">پاک کردن سابقه جستجو</string>
     <string name="preferences_clear_search_history_summary">تمام جستجوهایی را که انجام داده‌اید، حذف کنید</string>
     <string name="search_history_cleared">سابقه جستجو پاک شد.</string>
@@ -163,8 +209,19 @@
     <string name="preferences_use_home_tz_descrip">تقویم‌ها و زمان رویداد را حتی هنگام مسافرت به منطقهٔ زمانی مبدأ شما نمایش می‌دهد</string>
     <string name="preferences_home_tz_title">منطقهٔ زمانی مبدأ</string>
     <string name="preferences_show_week_num_title">شماره هفته نمایش</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">درخواست مدت تعویق یادآوری</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">درخواست مدت تعویق هنگام تعویق یادآوری‌ها</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">استفاده‌ همیشگی از مدت تعویق پیش‌فرض</string>
+    <string name="snooze_delay_dialog_title">تنظیم مدت تعویق</string>
+    <string name="preferences_default_snooze_delay_title">زمان پیش‌فرض برای مدت تعویق</string>
+    <string name="preferences_default_snooze_delay_dialog">مدت زمان تعویق پیش‌فرض</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> پروژه ایتار. بخشها \u00a9 2005-<xliff:g>%1$s</xliff:g> پروژه منبع باز اندروید.</string>
+    <string name="authors">سازندگان</string>
+    <string name="changelog">لیست تغییرات</string>
     <string name="license">پروانه</string>
     <string name="preferences_build_version">نسخه ساخت</string>
+    <string name="preferences_issues">گزارش مشکلات</string>
+    <string name="source_code">منبع</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
@@ -227,5 +284,75 @@
         <item quantity="other">برای <xliff:g id="EVENT_COUNT">%d</xliff:g> رویداد</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">تغییر تاریخ پایان</string>
+    <string name="user_rejected_calendar_write_permission">تقویم برای درست کارکردن نیاز به مجوز خواندن و نوشتن در تقویم را دارد. لطفا دوباره امتحان کنید.</string>
+    <string name="calendar_permission_not_granted">مجوزهای لازم داده نشد. برای اصلاح رویدادها، از تنظیمات مجوزها را فعال کنید</string>
+    <string name="visibility_default">پیش‌فرض</string>
+    <string name="visibility_confidential">محرمانه</string>
+    <string name="visibility_private">خصوصی</string>
+    <string name="visibility_public">عمومی</string>
+    <string name="two_days">۲ روز</string>
+    <string name="three_days">۳ روز</string>
+    <string name="four_days">۴ روز</string>
+    <string name="five_days">۵ روز</string>
+    <string name="six_days">۶ روز</string>
+    <string name="seven_days">۷ روز</string>
+    <string name="zero_minutes">۰ دقیقه</string>
+    <string name="fifteen_minutes">۱۵ دقیقه</string>
+    <string name="thirty_minutes">۳۰ دقیقه</string>
+    <string name="one_hour">۱ ساعت</string>
+    <string name="one_and_a_half_hours">۱.۵ ساعت</string>
+    <string name="two_hours">۲ ساعت</string>
+    <string name="error_generating_ics">هنگام اشتراک‌گذاری رویداد مشکلی پیش آمد</string>
+    <string name="cal_share_intent_title">ارسال رویداد به:</string>
+    <string name="cal_export_event_sdcard_title">ذخیره کردن در کارت SD</string>
+    <string name="cal_export_succ_msg">از رویداد با موفقیت خروجی گرفته شد: %1$s</string>
+    <string name="cal_import_menu_title">وارد کردن رویداد</string>
+    <string name="cal_nothing_to_import">چیزی برای وارد کردن وجود ندارد</string>
+    <string name="cal_import_error_msg">واردسازی به تقویم ناموفق بود</string>
+    <string name="cal_import_error_time_zone_msg">منطقه‌ی زمانی واردشده تشخیص داده نشد: %s</string>
+    <string name="cal_import_error_date_msg">تاریخ واردشده تشخیص داده نشد: %s</string>
+    <string name="cal_pick_ics">انتخاب فایل برای واردسازی</string>
+    <string name="show_time_no">نشان ندادن زمان</string>
+    <string name="show_time_start">فقط زمان شروع</string>
+    <string name="show_time_start_end">زمان شروع و پایان</string>
+    <string name="show_time_start_end_below">زمان شروع و پایان زیر رویداد</string>
+    <string name="preferences_calendar_no_display_name">تقویم بی‌نام</string>
+    <string name="preferences_calendar_account">حساب %1$s</string>
+    <string name="preferences_calendar_account_local">تقویم آفلاین</string>
+    <string name="preferences_calendar_configure_account">پیکربندی تقویم در %1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d رویداد</string>
+    <string name="preferences_calendar_delete">حذف تقویم</string>
+    <string name="preferences_calendar_display_name">تغییرنام</string>
+    <string name="preferences_calendar_info_category">اطلاعات تقویم</string>
+    <string name="preferences_calendar_color">رنگ</string>
+    <string name="preferences_calendar_visible">نمایش رویدادها</string>
+    <string name="preferences_manage_notifications">مدیریت اعلان‌ها</string>
+    <string name="preferences_calendar_synchronize">همگام‌سازی این تقویم</string>
+    <string name="preferences_calendar_color_warning_title">هشدار</string>
+    <string name="preferences_calendar_color_warning_message">وقتی تقویم دوباره همگام سازی شود، ممکن است تغییر رنگ برگردانده شود.\n\nبرای جلوگیری از این امر، در DAVx⁵ \"مدیریت رنگ تقویم\" غیرفعال می‌شود.</string>
+    <string name="preferences_calendar_color_warning_button">می‌فهمم</string>
+    <string name="preferences_calendar_delete_message">واقعاً می‌خواهید این تقویم را حذف کنید؟</string>
+    <string name="preferences_calendar_delete_delete">حذف تقویم</string>
+    <string name="preferences_calendar_delete_cancel">لغو</string>
+    <string name="preferences_list_calendar_summary_sync_off">همگام‌سازی نشده است</string>
+    <string name="preferences_list_calendar_summary_invisible">رویدادها نمایش داده نمی‌شوند</string>
+    <string name="preferences_list_general">تنظیمات کلی</string>
+    <string name="preferences_list_add_remote">افزودن تقویم CalDAV </string>
+    <string name="preferences_list_add_remote_etesync">افزودن تقویم EteSync </string>
+    <string name="preferences_list_add_offline">اضافه کردن تقویم آفلاین</string>
+    <string name="preferences_list_add_offline_title">اضافه کردن تقویم آفلاین</string>
+    <string name="preferences_list_add_offline_error_empty">یک نام برای تقویم وارد کنید</string>
+    <string name="preferences_list_add_offline_message">تقویم‌های آفلاین با سرویس‌ ابری همگام نمی‌شوند و فقط در تلفن شما در دسترس خواهد بود.</string>
+    <string name="preferences_list_add_offline_button">افزودن تقویم</string>
+    <string name="preferences_list_add_offline_name">نام</string>
+    <string name="preferences_list_add_offline_cancel">لغو</string>
+    <string name="preferences_menu_about">درباره تقویم</string>
+    <string name="offline_account_name">تقویم آفلاین</string>
+    <string name="after_start_of_event">پس از شروع رویداد</string>
+    <string name="preferences_do_not_check_battery_optimization">بهینه‌سازی باتری را بررسی نکنید</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">با مسئولیت خودتان استفاده کنید! اعلان‌ها دیگر کار نمی‌کنند، ویجت به‌روزرسانی نمی‌شود و سرویس‌های پس‌زمینه خراب می‌شوند. اما از شما دوباره پرسیده نمی‌شود که آیا می‌خواهید سرویس پس‌زمینه را فعال کنید.</string>
+    <string name="calendars">تقویم‌ها</string>
+    <string name="discard_event_changes">آیا می خواهید تغییرات را نادیده بگیرید؟</string>
+    <string name="discard">صرف‌نظر کردن</string>
     <string name="cancel">لغو</string>
 </resources>
