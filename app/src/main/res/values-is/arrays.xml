@@ -18,7 +18,7 @@
         <item>Tilkynningu</item>
         <item>Tölvupóst</item>
         <item>SMS</item>
-        <item>Viðvörun</item>
+        <item>Áminning</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>Sjálfgefinn tungumálskóði</item>

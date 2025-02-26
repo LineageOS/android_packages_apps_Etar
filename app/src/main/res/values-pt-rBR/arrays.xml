@@ -52,6 +52,10 @@
         <item>Mês</item>
         <item>Agenda</item>
     </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Apenas se recusado</item>
+        <item>Se recusado ou sem resposta</item>
+    </string-array>
     <string-array name="recurrence_freq">
         <item>REPETIR DIARIAMENTE</item>
         <item>REPETIR SEMANALMENTE</item>

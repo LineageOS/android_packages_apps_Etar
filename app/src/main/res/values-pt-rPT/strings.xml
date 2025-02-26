@@ -70,6 +70,7 @@
     <string name="hint_what">"Nome do evento"</string>
     <string name="hint_where">"Localização"</string>
     <string name="hint_description">"Descrição"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Convidados"</string>
     <string name="creating_event">"Evento criado."</string>
     <string name="saving_event">"Evento guardado."</string>
@@ -92,6 +93,8 @@
     <string name="privacy_label">Privacidade</string>
     <string name="reminders_label">Adicionar lembrete</string>
     <string name="no_syncable_calendars">Sem calendários</string>
+    <string name="no_calendars_found">Antes de poder adicionar um evento, deve adicionar pelo menos um calendário ao seu dispositivo</string>
+    <string name="add_calendar">Adicionar calendário</string>
     <string name="view_event_calendar_label">Calendário:</string>
     <string name="view_event_organizer_label">Organizador:</string>
     <string name="choose_event_color_label">Escolher a cor do evento</string>

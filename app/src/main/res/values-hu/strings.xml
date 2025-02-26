@@ -70,6 +70,7 @@
     <string name="hint_what">"Esemény neve"</string>
     <string name="hint_where">"Hely"</string>
     <string name="hint_description">"Leírás"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Résztvevők"</string>
     <string name="creating_event">"Az esemény létrehozása megtörtént."</string>
     <string name="saving_event">"Az esemény mentve"</string>
@@ -92,6 +93,8 @@
     <string name="privacy_label">Adatvédelem</string>
     <string name="reminders_label">Emlékeztető hozzáad.</string>
     <string name="no_syncable_calendars">Nincs naptár</string>
+    <string name="no_calendars_found">Mégis, hogyan tudna Eseményt rögzíteni úgy, hogy nincs Naptár-alkalmazás a készülékén?</string>
+    <string name="add_calendar">Új naptár</string>
     <string name="view_event_calendar_label">Naptár:</string>
     <string name="view_event_organizer_label">Szervező:</string>
     <string name="choose_event_color_label">Válasszon egy eseményszínt</string>
