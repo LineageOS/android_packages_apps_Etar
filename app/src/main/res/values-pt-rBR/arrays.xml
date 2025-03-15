@@ -29,7 +29,7 @@
     <string-array name="availability">
         <item>Ocupado</item>
         <item>Disponível</item>
-        <item>Tentative</item>
+        <item>Tentativo</item>
     </string-array>
     <string-array name="response_labels1">
         <item>Sem resposta</item>
@@ -39,7 +39,7 @@
     </string-array>
     <string-array name="delete_repeating_labels">
         <item>Apenas este evento</item>
-        <item>This and future events</item>
+        <item>Este e eventos futuros</item>
         <item>Todos os eventos</item>
     </string-array>
     <string-array name="change_response_labels">
@@ -50,7 +50,7 @@
         <item>Dia</item>
         <item>Semana</item>
         <item>Mês</item>
-        <item>Agenda</item>
+        <item>Cronograma</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
         <item>Apenas se recusado</item>
