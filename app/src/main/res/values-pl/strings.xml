@@ -102,7 +102,7 @@
     <string name="event_info_title_invite">Zaproszenie na spotkanie</string>
     <string name="edit_event_all_day_label">Cały dzień</string>
     <string name="edit_event_calendar_label">Kalendarz</string>
-    <string name="presence_label">Pokaż mój stan jako</string>
+    <string name="presence_label">Pokazuj mój stan jako</string>
     <string name="privacy_label">Prywatność</string>
     <string name="reminders_label">Dodaj przypomnienie</string>
     <string name="no_syncable_calendars">Brak kalendarzy</string>
@@ -226,7 +226,7 @@
     <string name="preferences_use_home_tz_title">Domowa strefa czasowa</string>
     <string name="preferences_use_home_tz_descrip">Godziny będą podawane w domowej strefie czasowej (nawet w podróży)</string>
     <string name="preferences_home_tz_title">Domowa strefa czasowa</string>
-    <string name="preferences_show_week_num_title">Pokaż numer tygodnia</string>
+    <string name="preferences_show_week_num_title">Pokazuj numer tygodnia</string>
     <string name="preferences_alerts_custom_snooze_delay_title">Pytaj o czas trwania drzemki</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">Pytaj o czas trwania drzemki, podczas odkładania przypomnień</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">Zawsze używaj domyślnego czasu trwania drzemki</string>
@@ -266,7 +266,7 @@
     <string name="accessibility_all_day">Wydarzenie całodniowe</string>
     <string name="accessibility_reminder_time">Godzina przypomnienia</string>
     <string name="accessibility_reminder_type">Typ przypomnienia</string>
-    <string name="accessibility_reminder_showmeas">Pokaż mój stan jako</string>
+    <string name="accessibility_reminder_showmeas">Pokazuj mój stan jako</string>
     <string name="accessibility_reminder_privacy">Prywatność</string>
     <string name="day_view_new_event_hint">+ Nowe wydarzenie</string>
     <string name="template_announce_item_index">Wydarzenie <xliff:g id="ITEM_INDEX">%1$s</xliff:g> z <xliff:g id="ITEM_COUNT">%2$s</xliff:g></string>
