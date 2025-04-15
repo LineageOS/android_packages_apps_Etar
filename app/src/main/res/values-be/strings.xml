@@ -15,7 +15,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="when_label">Калі</string>
-    <string name="date_time_fmt">"<xliff:g id="date">%1$s</xliff:g>, <xliff:g id="time_interval">%2$s</xliff:g>"</string>
     <string name="calendar_refresh">"Абнавіць"</string>
     <string name="day_view">"Дзень"</string>
     <string name="month_view">"Месяц"</string>
@@ -28,6 +27,7 @@
     <string name="presence_label">Мой статус:</string>
     <string name="reminders_label">Дадаць напамін</string>
     <string name="no_syncable_calendars">Няма календароў</string>
+    <string name="add_calendar">Дадаць каляндар</string>
     <string name="email_guests_label">Напісаць гасцям</string>
     <string name="email_organizer_label">Напісаць арганізатару</string>
     <string name="event_not_found">"Падзея не знойдзена."</string>
@@ -54,7 +54,6 @@
     <string name="accessibility_add_reminder">Дадаць напамін</string>
     <string name="accessibility_remove_reminder">Выдаліць напамін</string>
     <string name="accessibility_reminder_showmeas">Мой статус</string>
-    <string name="one_hour">1 гадзіна</string>
     <string name="preferences_calendar_account_local">Пазасеткавы каляндар</string>
     <string name="preferences_list_calendar_summary_sync_off">Не сінхранізаваны</string>
     <string name="preferences_list_add_offline">Дадаць пазасеткавы каляндар</string>

@@ -326,6 +326,7 @@
     <string name="preferences_calendar_info_category">Информация за календара</string>
     <string name="preferences_calendar_color">Цвят</string>
     <string name="preferences_calendar_visible">Покажи събития</string>
+    <string name="preferences_manage_notifications">Управление известия</string>
     <string name="preferences_calendar_synchronize">Синхронизиране на този календар</string>
     <string name="preferences_calendar_color_warning_title">Предупреждение</string>
     <string name="preferences_calendar_color_warning_message">Смяната на цвета може да се отмени, когато календарът се синхронизира отново. \n\n Във DAVx⁵ „Управление на цветовете на календара“ трябва да се деактивира, за да се предотврати това.</string>
@@ -348,6 +349,7 @@
     <string name="preferences_menu_about">Всичко за Календар</string>
     <string name="offline_account_name">Офлайн календар</string>
     <string name="after_start_of_event">след започване на събитие</string>
+    <string name="preferences_do_not_check_battery_optimization">Не проверявай оптимизацията на батерията</string>
     <string name="preferences_do_not_check_battery_optimization_summary">Използвайте  на собствена отговорност! Известията няма да функционират, приспособленията на екрана няма да се опресняват и процесите на заден план ще спрат да работят. Вие няма да бъдете питани отново дали искате да включите процесът на заден план.</string>
     <string name="calendars">Календари</string>
     <string name="discard_event_changes">Отмяна на промените?</string>
