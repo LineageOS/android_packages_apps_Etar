@@ -43,7 +43,9 @@
         <item>Alle Termine</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Nur diesen Termin</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Alle Termine in der Reihe</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Terminübersicht</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Nur bei Ablehnung</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Bei Ablehnung oder keine Antwort</item>
     </string-array>
     <string-array name="recurrence_freq">

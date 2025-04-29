@@ -23,23 +23,35 @@
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Без наслова)</string>
     <plurals name="Nminutes">
+        <!-- This is the label for a 1-minute reminder. -->
         <item quantity="one">1 минут</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> минута</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> минута</item>
     </plurals>
     <plurals name="Nmins">
+        <!-- This is the label for a 1-minute reminder. -->
         <item quantity="one">1 мин</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> мин</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> мин</item>
     </plurals>
     <plurals name="Nhours">
+        <!-- This is the label for a 1-hour reminder. -->
         <item quantity="one">1 сат</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> сата(и)</item>
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> сата(и)</item>
     </plurals>
     <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
         <item quantity="one">1 дан</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> дана</item>
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> дана</item>
     </plurals>
     <string name="show_day_view">"Прикажи дан"</string>
@@ -172,8 +184,11 @@
     <string name="preferences_show_week_num_title">Прикажи број недеље</string>
     <string name="preferences_build_version">Верзија апликације</string>
     <plurals name="month_more_events">
+        <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
         <item quantity="one">"+1"</item>
         <item quantity="few">+<xliff:g id="NUMBER">%d</xliff:g></item>
+        <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
     </plurals>
     <string name="gadget_no_events">Нема предстојећих догађаја у календару</string>
@@ -200,34 +215,46 @@
     <string name="day_view_new_event_hint">+ Нови догађај</string>
     <string name="template_announce_item_index">Догађај <xliff:g id="ITEM_INDEX">%1$s</xliff:g> од <xliff:g id="ITEM_COUNT">%2$s</xliff:g>.</string>
     <plurals name="Nevents">
+        <!-- This is the label for a 1 event. -->
         <item quantity="one">1 догађај</item>
         <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> догађаја</item>
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> догађаја</item>
     </plurals>
     <plurals name="N_remaining_events">
+        <!-- This is the label for 1 event. -->
         <item quantity="one">још 1 догађај</item>
         <item quantity="few">још <xliff:g id="COUNT">%d</xliff:g> догађаја</item>
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other">још <xliff:g id="COUNT">%d</xliff:g> догађаја</item>
     </plurals>
     <string name="acessibility_selected_marker_description">Изабрани догађај</string>
     <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">На <xliff:g id="COUNT">%d</xliff:g> дан</item>
         <item quantity="few">На <xliff:g id="COUNT">%d</xliff:g> дана</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">На <xliff:g id="COUNT">%d</xliff:g> дана</item>
     </plurals>
     <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">На <xliff:g id="COUNT">%d</xliff:g> недељу</item>
         <item quantity="few">На <xliff:g id="COUNT">%d</xliff:g> недеље(а)</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">На <xliff:g id="COUNT">%d</xliff:g> недеље(а)</item>
     </plurals>
     <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">На <xliff:g id="COUNT">%d</xliff:g> месец</item>
         <item quantity="few">На <xliff:g id="COUNT">%d</xliff:g> месеца(и)</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">На <xliff:g id="COUNT">%d</xliff:g> месеца(и)</item>
     </plurals>
     <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">На <xliff:g id="COUNT">%d</xliff:g> годину</item>
         <item quantity="few">На <xliff:g id="COUNT">%d</xliff:g> године(а)</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">На <xliff:g id="COUNT">%d</xliff:g> године(а)</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">истог дана сваког месеца</string>

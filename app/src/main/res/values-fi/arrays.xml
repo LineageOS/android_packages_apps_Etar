@@ -43,7 +43,9 @@
         <item>Kaikki tapahtumat</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Vain tämä tapahtuma</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Kaikki toistokerrat</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Tapahtumat</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Vain jos kieltäydyn</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Jos kieltäydyn tai en vastaa</item>
     </string-array>
     <string-array name="recurrence_freq">

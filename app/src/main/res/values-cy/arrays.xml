@@ -43,7 +43,9 @@
         <item>Pob digwyddiad</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Dim ond y digwyddiad hwn</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Pob digwyddiad yn y gyfres</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Agenda</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Dim ond os gwrthodwyd</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Os gwrthodwyd neu heb ymateb</item>
     </string-array>
     <string-array name="recurrence_freq">

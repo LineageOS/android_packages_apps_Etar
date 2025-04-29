@@ -43,7 +43,9 @@
         <item>Бүх үйл явдал</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Зөвхөн энэ үйл явдал</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Дараалсан бүх үйл явдал</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Хөтөлбөр</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Зөвхөн татгалзвал</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Татгалзсан эсхүл хариулаагүй бол</item>
     </string-array>
     <string-array name="recurrence_freq">

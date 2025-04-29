@@ -43,7 +43,9 @@
         <item>Alle begivenheder</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Kun denne begivenhed</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Alle begivenheder i serien</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Dagsorden</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Kun hvis afvist</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Hvis afvist eller der ikke reageres</item>
     </string-array>
     <string-array name="recurrence_freq">

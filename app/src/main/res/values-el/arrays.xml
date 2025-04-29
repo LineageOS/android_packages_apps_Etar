@@ -43,7 +43,9 @@
         <item>Όλα τα συμβάντα</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Μόνο αυτό το συμβάν</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Όλα τα συμβάντα στη σειρά</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Ατζέντα</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Μόνο μετά από απόρριψη</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Μετά από απόρριψη ή μη απόκριση</item>
     </string-array>
     <string-array name="recurrence_freq">

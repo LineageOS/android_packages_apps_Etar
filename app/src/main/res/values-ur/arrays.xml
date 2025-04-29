@@ -20,7 +20,9 @@
         <item>وقتی</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>صرف یہ ایونٹ</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>اس سلسلے کے سبھی ایونٹس</item>
     </string-array>
     <string-array name="buttons_list">

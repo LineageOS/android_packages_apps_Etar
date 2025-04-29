@@ -43,7 +43,9 @@
         <item>ဖြစ်ရပ်များ အားလုံး</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>ဒီဖြစ်ရပ် သာလျှင်</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>စီးရီးများထဲက ဖြစ်ရပ် အားလုံး</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>အစီအစဉ်</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>ငြင်းပယ် ခံခဲ့ရမှသာ</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>ငြင်းခံခဲ့ရ သို့မဟုတ် မတုံ့ပြန်လျှင်</item>
     </string-array>
     <string-array name="recurrence_freq">

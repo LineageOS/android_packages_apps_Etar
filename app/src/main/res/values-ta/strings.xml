@@ -25,27 +25,43 @@
     <string name="no_reminder_label">ஏதுமில்லை</string>
     <string name="no_snooze_label">ஏதுமில்லை</string>
     <plurals name="Nminutes">
-        <item quantity="one">1 நுணுத்தம்</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நுணுத்தம்</item>
+        <!-- This is the label for a 1-minute reminder. -->
+        <item quantity="one">1 நிமிடம்</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நிமிடம்</item>
     </plurals>
     <plurals name="Nmins">
-        <item quantity="one">1 நுணுத்தம்</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நுணுத்தம்</item>
+        <!-- This is the label for a 1-minute reminder. -->
+        <item quantity="one">1 நிமி</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நிமி</item>
     </plurals>
     <plurals name="Nhours">
+        <!-- This is the label for a 1-hour reminder. -->
         <item quantity="one">1 மணிநேரம்</item>
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> மணிநேரம்</item>
     </plurals>
     <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
         <item quantity="one">1 நாள்</item>
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நாள்</item>
     </plurals>
     <plurals name="Nweeks">
+        <!-- This is the label for a reminder of 1 week. -->
         <item quantity="one">1 கிழமை</item>
+        <!-- This is the label for a reminder of 2 or more weeks. The actual number of
+             weeks is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> கிழமை</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">கிழமை <xliff:g id="count">%d</xliff:g></item>
+        <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
         <item quantity="other">கிழமை <xliff:g id="count">%d</xliff:g></item>
     </plurals>
     <string name="calendar_refresh">"புதுப்பிக்க"</string>
@@ -120,8 +136,8 @@
     <string name="quick_response_dialog_title">விரைவு பதிலைத் தேர்வுசெய்க</string>
     <string name="quick_response_email_failed">மின்னஞ்சல் திட்டத்தைக் கண்டறிவதில் தோல்வி</string>
     <string-array name="quick_response_defaults">
-        <item>ஒரு சில நுணுத்தம் காலந்தாழ்வாகத் தொடங்குகின்றது.</item>
-        <item>இன்னும் 10 நுணுத்தத்தில் அங்கு இருங்கள்.</item>
+        <item>ஓரிரு நிமிடம் காலந்தாழ்வாகத் தொடங்குகின்றது.</item>
+        <item>இன்னும், 10 நிமிடத்தில் அங்கு இருங்கள்.</item>
         <item>நான் இல்லாமல் தொடங்கவும்.</item>
         <item>மன்னிக்கவும், என்னால் பங்கேற்க முடியாது. நாம் மீண்டும் திட்டமிட வேண்டும்.</item>
     </string-array>
@@ -223,7 +239,10 @@
     <string name="preferences_issues">சிக்கலைக் குற்றங்கூறுக</string>
     <string name="source_code">மூலம்</string>
     <plurals name="month_more_events">
+        <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
         <item quantity="one">"+1"</item>
+        <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
         <item quantity="other">+<xliff:g id="number">%d</xliff:g></item>
     </plurals>
     <string name="gadget_no_events">வரவிருக்கும் நாட்காட்டி நிகழ்வுகள் எவையும் இல்லை</string>
@@ -250,28 +269,40 @@
     <string name="day_view_new_event_hint">+ புதிய நிகழ்வு</string>
     <string name="template_announce_item_index"><xliff:g id="item_index">%1$s</xliff:g> ஆவது நிகழ்வு <xliff:g id="item_count">%2$s</xliff:g> இல்.</string>
     <plurals name="Nevents">
+        <!-- This is the label for a 1 event. -->
         <item quantity="one">1 நிகழ்வு</item>
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> நிகழ்வு</item>
     </plurals>
     <plurals name="N_remaining_events">
+        <!-- This is the label for 1 event. -->
         <item quantity="one">+1 நிகழ்வு</item>
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other">+<xliff:g id="count">%d</xliff:g> நிகழ்வு</item>
     </plurals>
     <string name="acessibility_selected_marker_description">தேர்ந்தெடுத்த நிகழ்வு</string>
     <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> நாளுக்கு ஒருமுறை</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> நாளுக்கு ஒருமுறை</item>
     </plurals>
     <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> கிழமை ஒருமுறை</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> கிழமை ஒருமுறை</item>
     </plurals>
     <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> திங்களுக்கு ஒருமுறை</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> திங்களுக்கு ஒருமுறை</item>
     </plurals>
     <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one"><xliff:g id="count">%d</xliff:g> ஆண்டுக்கு ஒருமுறை</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> ஆண்டுக்கு ஒருமுறை</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">ஒவ்வொரு திங்களும் ஒரே நாளில்</string>
@@ -296,9 +327,9 @@
     <string name="five_days">5 நாள்</string>
     <string name="six_days">6 நாள்</string>
     <string name="seven_days">7 நாள்</string>
-    <string name="zero_minutes">0 நுணுத்தம்</string>
-    <string name="fifteen_minutes">15 நுணுத்தம்</string>
-    <string name="thirty_minutes">30 நுணுத்தம்</string>
+    <string name="zero_minutes">0 நிமிடம்</string>
+    <string name="fifteen_minutes">15 நிமிடம்</string>
+    <string name="thirty_minutes">30 நிமிடம்</string>
     <string name="one_hour">1 மணிநேரம்</string>
     <string name="one_and_a_half_hours">1.5 மணிநேரம்</string>
     <string name="two_hours">2 மணிநேரம்</string>

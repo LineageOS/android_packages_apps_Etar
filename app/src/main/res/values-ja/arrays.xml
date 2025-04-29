@@ -43,7 +43,9 @@
         <item>すべての予定</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>この予定のみ</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>繰り返す予定すべて</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>予定リスト</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>辞退した場合のみ</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>辞退したか応答がなかった場合</item>
     </string-array>
     <string-array name="recurrence_freq">

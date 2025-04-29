@@ -43,7 +43,9 @@
         <item>Alle ôfspraken</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Allinnich dizze ôfspraak</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Alle barrens yn de rige</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Aginda</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Allinnich wannear wegere</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Wannear wegere of net reagearre</item>
     </string-array>
     <string-array name="recurrence_freq">

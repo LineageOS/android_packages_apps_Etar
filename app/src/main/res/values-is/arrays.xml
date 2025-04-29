@@ -43,7 +43,9 @@
         <item>Allir viðburðir</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Aðeins þessi viðburður</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Allir viðburðir í þessari röð</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Dagskrá</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Aðeins ef hafnað</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Ef hafnað eða ef ekkert svar berst</item>
     </string-array>
     <string-array name="recurrence_freq">

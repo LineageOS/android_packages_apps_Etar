@@ -43,7 +43,9 @@
         <item>All events</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Only this event</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>All events in the series</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Agenda</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Only if declined</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>If declined or not responded</item>
     </string-array>
     <string-array name="recurrence_freq">

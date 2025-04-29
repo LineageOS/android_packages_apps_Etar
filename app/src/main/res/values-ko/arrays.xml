@@ -43,7 +43,9 @@
         <item>모든 일정</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>이번 일정만</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>모든 반복 일정</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>일정목록</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>거부한 경우에만 해당</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>거부했거나 응답이 없는 경우만 해당</item>
     </string-array>
     <string-array name="recurrence_freq">

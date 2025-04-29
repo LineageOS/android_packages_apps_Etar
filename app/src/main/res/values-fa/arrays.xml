@@ -43,7 +43,9 @@
         <item>همه رویدادها</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>فقط این رویداد</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>همه رویدادهای موجود در این مجموعه</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>دستور کار</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>فقط درصورت ردکردن</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>درصورت ردکردن یا پاسخ ندادن</item>
     </string-array>
     <string-array name="recurrence_freq">

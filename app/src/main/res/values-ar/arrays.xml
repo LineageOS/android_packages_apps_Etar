@@ -43,7 +43,9 @@
         <item>جميع الأحداث</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>هذا الحدث فقط</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>جميع الأحداث في سلسلة الأحداث</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>أجندة</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>في حالة الرفض فقط</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>في حالة الرفض أو عدم الرد</item>
     </string-array>
     <string-array name="recurrence_freq">

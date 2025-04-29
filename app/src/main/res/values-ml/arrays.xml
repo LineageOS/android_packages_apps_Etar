@@ -43,7 +43,9 @@
         <item>എല്ലാ ഇവന്റുകളും</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>ഈ ഇവന്റ് മാത്രം</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>സീരീസിലുള്ള എല്ലാ ഇവന്റുകളും</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>അജൻഡ</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>നിരസിച്ചെങ്കിൽ മാത്രം</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>നിരസിച്ചതോ പ്രതികരണമില്ലാത്തതോ ആണെങ്കിൽ മാത്രം</item>
     </string-array>
     <string-array name="recurrence_freq">

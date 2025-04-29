@@ -25,27 +25,43 @@
     <string name="no_reminder_label">Egy sem</string>
     <string name="no_snooze_label">Egy sem</string>
     <plurals name="Nminutes">
+        <!-- This is the label for a 1-minute reminder. -->
         <item quantity="one">1 perc</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> perc</item>
     </plurals>
     <plurals name="Nmins">
+        <!-- This is the label for a 1-minute reminder. -->
         <item quantity="one">1 p</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> p</item>
     </plurals>
     <plurals name="Nhours">
+        <!-- This is the label for a 1-hour reminder. -->
         <item quantity="one">1 óra</item>
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> óra</item>
     </plurals>
     <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
         <item quantity="one">1 nap</item>
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> nap</item>
     </plurals>
     <plurals name="Nweeks">
+        <!-- This is the label for a reminder of 1 week. -->
         <item quantity="one">1 hét</item>
+        <!-- This is the label for a reminder of 2 or more weeks. The actual number of
+             weeks is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> hét</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one"><xliff:g id="count">%d</xliff:g>. hét</item>
+        <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g>. hét</item>
     </plurals>
     <string name="calendar_refresh">"Frissítés"</string>
@@ -223,7 +239,10 @@
     <string name="preferences_issues">Probléma jelentése</string>
     <string name="source_code">Forrás</string>
     <plurals name="month_more_events">
+        <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
         <item quantity="one">"+1"</item>
+        <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
     </plurals>
     <string name="gadget_no_events">Nincsenek közelgő események a naptárban</string>
@@ -250,28 +269,40 @@
     <string name="day_view_new_event_hint">+ Új esemény</string>
     <string name="template_announce_item_index"><xliff:g id="ITEM_COUNT">%2$s</xliff:g>/<xliff:g id="ITEM_INDEX">%1$s</xliff:g> esemény.</string>
     <plurals name="Nevents">
+        <!-- This is the label for a 1 event. -->
         <item quantity="one">1 esemény</item>
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> esemény</item>
     </plurals>
     <plurals name="N_remaining_events">
+        <!-- This is the label for 1 event. -->
         <item quantity="one">+1 esemény</item>
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> esemény</item>
     </plurals>
     <string name="acessibility_selected_marker_description">Kiválasztott esemény</string>
     <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> naponta</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> naponta</item>
     </plurals>
     <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> hetente</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> hetente</item>
     </plurals>
     <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> havonta</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> havonta</item>
     </plurals>
     <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> évente</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> évente</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">havonta ugyanakkor</string>

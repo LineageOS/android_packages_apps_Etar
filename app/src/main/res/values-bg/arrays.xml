@@ -43,7 +43,9 @@
         <item>Всички събития</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Само това събитие</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Всички събития в поредицата</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>График</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Само при отхвърляне</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>При отхвърляне или липса на отговор</item>
     </string-array>
     <string-array name="recurrence_freq">
