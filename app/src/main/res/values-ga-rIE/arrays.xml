@@ -43,7 +43,9 @@
         <item>Imeachtaí ar fad</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Imeacht seo amháin</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Gach imeachtaí sa tsraith</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Clár oibre</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Ach amháin má dhiúltaítear</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Má dhiúltaítear nó mura dtugtar freagra</item>
     </string-array>
     <string-array name="recurrence_freq">

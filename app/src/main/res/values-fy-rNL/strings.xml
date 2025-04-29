@@ -23,23 +23,36 @@
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(Gjinn titel)</string>
     <plurals name="Nminutes">
+        <!-- This is the label for a 1-minute reminder. -->
         <item quantity="one">1 minút</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> minuten</item>
     </plurals>
     <plurals name="Nmins">
+        <!-- This is the label for a 1-minute reminder. -->
         <item quantity="one">1 min.</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> min.</item>
     </plurals>
     <plurals name="Nhours">
+        <!-- This is the label for a 1-hour reminder. -->
         <item quantity="one">1 oerr</item>
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> oerr</item>
     </plurals>
     <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
         <item quantity="one">1 dei</item>
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dagen</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Wike <xliff:g id="count">%d</xliff:g></item>
+        <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
         <item quantity="other">Wiken <xliff:g id="count">%d</xliff:g></item>
     </plurals>
     <string name="calendar_refresh">"Aktualisearje"</string>

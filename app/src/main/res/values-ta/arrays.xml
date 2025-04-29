@@ -43,7 +43,9 @@
         <item>நிகழ்வுகள் அனைத்தும்</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>இந்த நிகழ்விற்கு மட்டும்</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>தொடரிலுள்ள நிகழ்வுகள் அனைத்தும்</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>செய்நிரல்</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>மறுத்தால் மட்டுமே</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>மறுத்தாலோ, பதிலளிக்கவில்லை என்றாலோ</item>
     </string-array>
     <string-array name="recurrence_freq">

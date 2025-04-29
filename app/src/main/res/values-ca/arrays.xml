@@ -43,7 +43,9 @@
         <item>Tots els esdeveniments</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Només aquest esdeveniment</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Tots els esdeveniments de la sèrie</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Agenda</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Només si es rebutja</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Si es rebutja o no es contesta</item>
     </string-array>
     <string-array name="recurrence_freq">

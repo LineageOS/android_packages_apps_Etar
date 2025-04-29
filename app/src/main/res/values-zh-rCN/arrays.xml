@@ -43,7 +43,9 @@
         <item>所有活动</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>仅限此活动</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>所有重复的活动</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>日程</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>仅在您不参加的情况下</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>在您不参加或未回复的情况下</item>
     </string-array>
     <string-array name="recurrence_freq">

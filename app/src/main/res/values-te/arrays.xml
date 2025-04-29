@@ -43,7 +43,9 @@
         <item>అన్ని ఈవెంట్‌లు</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>ఈ ఈవెంట్ మాత్రమే</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>శ్రేణిలోని అన్ని ఈవెంట్‌లు</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>విషయ పట్టిక</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>తిరస్కరిస్తే మాత్రమే</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>తిరస్కరిస్తే లేదా ప్రతిస్పందించకపోతే</item>
     </string-array>
     <string-array name="recurrence_freq">

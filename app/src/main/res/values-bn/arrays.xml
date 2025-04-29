@@ -43,7 +43,9 @@
         <item>সমস্ত ইভেন্ট</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>শুধুমাত্র এই ইভেন্ট</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>এই সিরিজের প্রতিটি ইভেন্ট</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>আলোচ্যসূচি</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>শুধুমাত্র যদি অস্বীকৃত হয়</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>অস্বীকৃত হলে বা প্রতিক্রিয়া না দিলে</item>
     </string-array>
     <string-array name="recurrence_freq">

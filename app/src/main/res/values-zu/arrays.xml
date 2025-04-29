@@ -43,7 +43,9 @@
         <item>Zonke izenzakalo</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Kuphela lo mcimbi</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Zonke izenzakalo ochungechungeni</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Ajenda</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Uma ngabe kunqatshelwe kuphela</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Uma ngabe kunqatshelwe noma kungaphendulwanga</item>
     </string-array>
     <string-array name="recurrence_freq">

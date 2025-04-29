@@ -43,7 +43,9 @@
         <item>ព្រឹត្តិការណ៍​ទាំងអស់</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>តែ​ព្រឹត្តិការណ៍​នេះ</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>គ្រប់​ព្រឹត្តិការណ៍​ទាំងអស់​នៅ​ក្នុង​ស៊េរី</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>របៀបវារៈ</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>តែ​ពេល​បដិសេធ</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>ប្រសិនបើ​បដិសេធ ឬ​មិន​ឆ្លើយតប</item>
     </string-array>
     <string-array name="recurrence_freq">

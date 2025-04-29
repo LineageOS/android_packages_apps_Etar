@@ -43,7 +43,9 @@
         <item>Tất cả sự kiện</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Chỉ sự kiện này</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Tất cả sự kiện trong hàng loạt sự kiện</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Lịch biểu</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Chỉ khi bị từ chối</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Nếu bị từ chối hoặc không phản hổi</item>
     </string-array>
     <string-array name="recurrence_freq">

@@ -24,23 +24,36 @@
     <string name="no_reminder_label">Nada</string>
     <string name="no_snooze_label">Nada</string>
     <plurals name="Nminutes">
+        <!-- This is the label for a 1-minute reminder. -->
         <item quantity="one">1 minutu</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos</item>
     </plurals>
     <plurals name="Nhours">
+        <!-- This is the label for a 1-hour reminder. -->
         <item quantity="one">1 hora</item>
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> hores</item>
     </plurals>
     <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
         <item quantity="one">1 día</item>
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> díes</item>
     </plurals>
     <plurals name="Nweeks">
+        <!-- This is the label for a reminder of 1 week. -->
         <item quantity="one">1 selmana</item>
+        <!-- This is the label for a reminder of 2 or more weeks. The actual number of
+             weeks is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> selmanes</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">Selmana <xliff:g id="count">%d</xliff:g></item>
+        <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
         <item quantity="other">Selmana <xliff:g id="count">%d</xliff:g></item>
     </plurals>
     <string name="calendar_refresh">"Anovar"</string>
@@ -156,23 +169,33 @@
     <string name="accessibility_reminder_showmeas">Apaecer como</string>
     <string name="accessibility_reminder_privacy">Privacidá</string>
     <plurals name="Nevents">
+        <!-- This is the label for a 1 event. -->
         <item quantity="one">1 eventu</item>
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> eventos</item>
     </plurals>
     <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> día</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> díes</item>
     </plurals>
     <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> selmana</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> selmanes</item>
     </plurals>
     <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> mes</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> meses</item>
     </plurals>
     <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
         <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> añu</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> años</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">el mesmu día de cada mes</string>

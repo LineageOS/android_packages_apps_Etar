@@ -43,7 +43,9 @@
         <item>Сви догађаји</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Само овај догађај</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Сви догађаји у овом низу</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Распоред</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Само за одбијања</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>За одбијања или догађаје без одговора</item>
     </string-array>
     <string-array name="recurrence_freq">

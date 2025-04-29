@@ -19,7 +19,10 @@
     <string name="today">Assa</string>
     <string name="tomorrow">Azekka</string>
     <plurals name="Nmins">
+        <!-- This is the label for a 1-minute reminder. -->
         <item quantity="one">1 n tesdat</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other">1 tisdat<xliff:g id="count">%d</xliff:g> tisdatin</item>
     </plurals>
     <string name="calendar_refresh">"Sismeḍ"</string>

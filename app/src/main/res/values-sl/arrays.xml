@@ -43,7 +43,9 @@
         <item>Vsi dogodki</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Samo ta dogodek</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Vsi dogodki v nizu</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Dnevni red</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Samo ob zavrnitvi</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Ob zavrnitvi ali neodzivanju</item>
     </string-array>
     <string-array name="recurrence_freq">

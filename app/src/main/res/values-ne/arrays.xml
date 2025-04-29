@@ -43,7 +43,9 @@
         <item>सम्पूर्ण घटनाहरू</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>यो घटना मात्र</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>पङ्तिमा रहेका सबै घटनाहरू</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>एजेन्डा</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>अस्वीकृत भएमा मात्र</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>अस्वीकृत वा जवाफ प्राप्त नभएमा मात्र</item>
     </string-array>
     <string-array name="recurrence_freq">

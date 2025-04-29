@@ -43,7 +43,9 @@
         <item>Ducj i events</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Dome chest event</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Ducj i events te serie</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Ordin dal dì</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Dome se refudâts</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Se refudâts o cence rispueste</item>
     </string-array>
     <string-array name="recurrence_freq">

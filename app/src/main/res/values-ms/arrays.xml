@@ -43,7 +43,9 @@
         <item>Semua acara</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Acara ini sahaja</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Semua acara dalam siri</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Agenda</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Hanya jika ditolak</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Jika ditolak atau tidak dijawab</item>
     </string-array>
     <string-array name="recurrence_freq">

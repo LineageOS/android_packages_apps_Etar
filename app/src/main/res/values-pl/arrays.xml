@@ -43,7 +43,9 @@
         <item>Wszystkie wydarzenia</item>
     </string-array>
     <string-array name="change_response_labels">
+        <!-- The choice for responding to only one instance of a repeating event -->
         <item>Tylko to wydarzenie</item>
+        <!-- The choice for responding to all instances of a repeating event -->
         <item>Wszystkie wydarzenia w serii</item>
     </string-array>
     <string-array name="buttons_list">
@@ -53,7 +55,9 @@
         <item>Plan dnia</item>
     </string-array>
     <string-array name="preferences_skip_reminders_labels">
+        <!-- Default choice -->
         <item>Tylko po odrzuceniu</item>
+        <!-- Second option, for skipping reminders to events not yet responded to. -->
         <item>Po odrzuceniu lub gdy brak odpowiedzi</item>
     </string-array>
     <string-array name="recurrence_freq">

@@ -23,15 +23,27 @@
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g> <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(無標題)</string>
     <plurals name="Nminutes">
+        <!-- This is the label for a 1-minute reminder. -->
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 分鐘</item>
     </plurals>
     <plurals name="Nmins">
+        <!-- This is the label for a 1-minute reminder. -->
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 分鐘</item>
     </plurals>
     <plurals name="Nhours">
+        <!-- This is the label for a 1-hour reminder. -->
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 小時</item>
     </plurals>
     <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 天</item>
     </plurals>
     <string name="show_day_view">"顯示天"</string>
@@ -158,6 +170,9 @@
     <string name="preferences_show_week_num_title">顯示週數</string>
     <string name="preferences_build_version">型號版本</string>
     <plurals name="month_more_events">
+        <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
+        <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
     </plurals>
     <string name="gadget_no_events">沒有即將開始的日曆活動</string>
@@ -184,22 +199,34 @@
     <string name="day_view_new_event_hint">+ 新活動</string>
     <string name="template_announce_item_index">第 <xliff:g id="ITEM_INDEX">%1$s</xliff:g> 項活動 (共 <xliff:g id="ITEM_COUNT">%2$s</xliff:g> 項)</string>
     <plurals name="Nevents">
+        <!-- This is the label for a 1 event. -->
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 項活動</item>
     </plurals>
     <plurals name="N_remaining_events">
+        <!-- This is the label for 1 event. -->
+        <!-- This is the label for 2 or more events. -->
         <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> 項活動</item>
     </plurals>
     <string name="acessibility_selected_marker_description">選取的活動</string>
     <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">每 <xliff:g id="COUNT">%d</xliff:g> 天</item>
     </plurals>
     <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">每 <xliff:g id="COUNT">%d</xliff:g> 星期</item>
     </plurals>
     <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">每 <xliff:g id="COUNT">%d</xliff:g> 個月</item>
     </plurals>
     <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <!-- Plural form [CHAR LIMIT=30] -->
         <item quantity="other">每 <xliff:g id="COUNT">%d</xliff:g> 年</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">每月同一日</string>
