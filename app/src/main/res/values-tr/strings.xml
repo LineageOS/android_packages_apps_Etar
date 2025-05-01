@@ -326,6 +326,7 @@
     <string name="preferences_calendar_info_category">Takvim bilgileri</string>
     <string name="preferences_calendar_color">Renk</string>
     <string name="preferences_calendar_visible">Etkinlikleri görüntüle</string>
+    <string name="preferences_manage_notifications">Bildirimleri yönet</string>
     <string name="preferences_calendar_synchronize">Bu takvimi senkronize et</string>
     <string name="preferences_calendar_color_warning_title">Uyarı</string>
     <string name="preferences_calendar_color_warning_message">Takvim tekrar senkronize edildiğinde rengin değiştirilmesi geri alınabilir.\n\nBunu önlemek için DAVx⁵\'de \'Takvim renklerini yönet\' devre dışı bırakılabilir.</string>
@@ -348,5 +349,10 @@
     <string name="preferences_menu_about">Takvim hakkında</string>
     <string name="offline_account_name">Çevrim dışı Takvim</string>
     <string name="after_start_of_event">etkinlik başladıktan sonra</string>
+    <string name="preferences_do_not_check_battery_optimization">Pil optimizasyonunu kontrol etme</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">Kendi sorumluluğunuzda kullanın! Bildirimler artık çalışmayacak, widget güncellenmeyecek ve arka plan hizmetleri çökecektir. Ancak arka plan hizmetini etkinleştirmek isteyip istemediğiniz tekrar sorulmayacak.</string>
+    <string name="calendars">Takvimler</string>
+    <string name="discard_event_changes">Değişiklikleri silmek istiyor musunuz?</string>
+    <string name="discard">Silinsin</string>
     <string name="cancel">İptal</string>
 </resources>
