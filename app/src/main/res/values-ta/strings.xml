@@ -25,12 +25,12 @@
     <string name="no_reminder_label">ஏதுமில்லை</string>
     <string name="no_snooze_label">ஏதுமில்லை</string>
     <plurals name="Nminutes">
-        <item quantity="one">1 நுணுத்தம்</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நுணுத்தம்</item>
+        <item quantity="one">1 நிமிடம்</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நிமிடம்</item>
     </plurals>
     <plurals name="Nmins">
-        <item quantity="one">1 நுணுத்தம்</item>
-        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நுணுத்தம்</item>
+        <item quantity="one">1 நிமி</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> நிமி</item>
     </plurals>
     <plurals name="Nhours">
         <item quantity="one">1 மணிநேரம்</item>
@@ -120,8 +120,8 @@
     <string name="quick_response_dialog_title">விரைவு பதிலைத் தேர்வுசெய்க</string>
     <string name="quick_response_email_failed">மின்னஞ்சல் திட்டத்தைக் கண்டறிவதில் தோல்வி</string>
     <string-array name="quick_response_defaults">
-        <item>ஒரு சில நுணுத்தம் காலந்தாழ்வாகத் தொடங்குகின்றது.</item>
-        <item>இன்னும் 10 நுணுத்தத்தில் அங்கு இருங்கள்.</item>
+        <item>ஓரிரு நிமிடம் காலந்தாழ்வாகத் தொடங்குகின்றது.</item>
+        <item>இன்னும், 10 நிமிடத்தில் அங்கு இருங்கள்.</item>
         <item>நான் இல்லாமல் தொடங்கவும்.</item>
         <item>மன்னிக்கவும், என்னால் பங்கேற்க முடியாது. நாம் மீண்டும் திட்டமிட வேண்டும்.</item>
     </string-array>
@@ -296,9 +296,9 @@
     <string name="five_days">5 நாள்</string>
     <string name="six_days">6 நாள்</string>
     <string name="seven_days">7 நாள்</string>
-    <string name="zero_minutes">0 நுணுத்தம்</string>
-    <string name="fifteen_minutes">15 நுணுத்தம்</string>
-    <string name="thirty_minutes">30 நுணுத்தம்</string>
+    <string name="zero_minutes">0 நிமிடம்</string>
+    <string name="fifteen_minutes">15 நிமிடம்</string>
+    <string name="thirty_minutes">30 நிமிடம்</string>
     <string name="one_hour">1 மணிநேரம்</string>
     <string name="one_and_a_half_hours">1.5 மணிநேரம்</string>
     <string name="two_hours">2 மணிநேரம்</string>
