@@ -414,6 +414,5 @@
     <string name="preferences_menu_about">Ynghylch Calendr</string>
     <string name="offline_account_name">Calendr All-lein</string>
     <string name="after_start_of_event">ar ôl dechrau digwyddiad</string>
-    <string name="discard_event_changes"/>
     <string name="cancel">Diddymu</string>
 </resources>

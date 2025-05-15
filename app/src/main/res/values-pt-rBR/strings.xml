@@ -57,7 +57,7 @@
     <string name="event_view">"Visualizar evento"</string>
     <string name="event_create">"Novo evento"</string>
     <string name="event_edit">"Editar evento"</string>
-    <string name="event_delete">"Excluir evento"</string>
+    <string name="event_delete">"Apagar evento"</string>
     <string name="share_label">Compartilhar</string>
     <string name="goto_today">"Hoje"</string>
     <string name="goto_date">Ir para\u2026</string>
@@ -137,7 +137,7 @@
     <string name="search_title">Pesquisar nos meus calendários</string>
     <string name="edit_event_label">"Detalhes"</string>
     <string name="edit_label">"Editar"</string>
-    <string name="delete_label">"Excluir"</string>
+    <string name="delete_label">"Apagar"</string>
     <string name="duplicate_label">Duplicar</string>
     <string name="save_label">Pronto</string>
     <string name="discard_label">Cancelar</string>
@@ -166,8 +166,8 @@
     <string name="modify_all_following">Alterar este e todos os eventos futuros</string>
     <string name="new_event_dialog_label">"Novo evento"</string>
     <string name="new_event_dialog_option">"Novo evento"</string>
-    <string name="delete_this_event_title">Excluir este evento?</string>
-    <string name="delete_recurring_event_title">Excluir: <xliff:g id="name">%s</xliff:g></string>
+    <string name="delete_this_event_title">Apagar este evento?</string>
+    <string name="delete_recurring_event_title">Apagar <xliff:g id="eventtitle">%s</xliff:g>?</string>
     <string name="change_response_title">Alterar resposta</string>
     <string name="preferences_title">"Configurações"</string>
     <string name="preferences_general_title">Configuração de visualização do calendário</string>
@@ -321,7 +321,7 @@
     <string name="preferences_calendar_account_local">Calendário local</string>
     <string name="preferences_calendar_configure_account">Configurar o calendário em %1$s</string>
     <string name="preferences_calendar_number_of_events">%1$d eventos</string>
-    <string name="preferences_calendar_delete">Excluir calendário</string>
+    <string name="preferences_calendar_delete">Apagar calendário</string>
     <string name="preferences_calendar_display_name">Renomear </string>
     <string name="preferences_calendar_info_category">Informações do calendário</string>
     <string name="preferences_calendar_color">Cor</string>
@@ -331,8 +331,8 @@
     <string name="preferences_calendar_color_warning_title">Aviso</string>
     <string name="preferences_calendar_color_warning_message">A mudança de cor pode ser revertida quando o calendário sincronizar novamente.\n\nNo DAVx⁵ \'Alterar cor do calendário\' pode ser desativado para previnir isto.</string>
     <string name="preferences_calendar_color_warning_button">Entendi</string>
-    <string name="preferences_calendar_delete_message">Tem certeza de que deseja excluir este calendário?</string>
-    <string name="preferences_calendar_delete_delete">Excluir calendário</string>
+    <string name="preferences_calendar_delete_message">Tem certeza de que quer apagar este calendário?</string>
+    <string name="preferences_calendar_delete_delete">Apagar calendário</string>
     <string name="preferences_calendar_delete_cancel">Cancelar</string>
     <string name="preferences_list_calendar_summary_sync_off">Não sincronizado</string>
     <string name="preferences_list_calendar_summary_invisible">Eventos não são visíveis</string>
