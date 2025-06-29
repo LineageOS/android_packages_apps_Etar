@@ -118,7 +118,7 @@ kotlin {
 	useLibrary("android.test.mock")
 
 	androidResources {
-		generateLocaleConfig = true
+		generateLocaleConfig = false
 	}
 
 }
