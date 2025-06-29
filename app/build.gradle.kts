@@ -1,9 +1,13 @@
+import com.android.build.gradle.internal.tasks.factory.dependsOn
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import org.lineageos.generatebp.GenerateBpPluginExtension
+import org.lineageos.generatebp.models.Module
 
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.ec4j.editorconfig)
+    alias(libs.plugins.lineageos.generatebp)
 }
 
 editorconfig {
@@ -139,4 +143,18 @@ dependencies {
 
 	// lifecycle
 	implementation(libs.androidx.lifecycle.livedata)
+}
+
+configure<GenerateBpPluginExtension> {
+	targetSdk.set(android.defaultConfig.targetSdk!!)
+	minSdk.set(android.defaultConfig.minSdk!!)
+	availableInAOSP.set { module: Module ->
+		when {
+			module.group.startsWith("androidx.databinding") -> false
+			module.group.startsWith("androidx") -> true
+			module.group.startsWith("com.google") -> true
+			module.group.startsWith("org.jetbrains") -> true
+			else -> false
+		}
+	}
 }
