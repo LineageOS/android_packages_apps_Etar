@@ -20,7 +20,7 @@ androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "c
 androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraint" }
 androidx-core = { module = "androidx.core:core-ktx", version.ref = "core" }
 androidx-lifecycle-livedata = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
-androidx-preference = { module = "androidx.preference:preference-ktx", version.ref = "preference" }
+androidx-preference = { module = "androidx.preference:preference", version.ref = "preference" }
 android-tools-desugar = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar" }
 junit = { module = "junit:junit", version.ref = "junit" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
