@@ -1,0 +1,23 @@
+android_test {
+    name: "CalendarTests",
+
+    srcs: [
+        "java/**/*.kt",
+        "java/**/*.java",
+    ],
+
+    manifest: "AndroidManifest.xml",
+
+    static_libs: [
+        "androidx.test.runner",
+    ],
+
+    libs: [
+        "android.test.base.stubs",
+        "android.test.mock.stubs",
+    ],
+
+    certificate: "platform",
+
+    instrumentation_for: "Etar",
+}
