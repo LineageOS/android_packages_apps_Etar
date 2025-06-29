@@ -13,6 +13,7 @@ libRecur = "0.17.1"
 lifecycle = "2.9.1"
 material = "1.12.0"
 preference = "1.2.1"
+generateBp = "+"
 
 [libraries]
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "compat" }
@@ -32,3 +33,4 @@ android-library = { id = "com.android.library", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 jetbrains-idea-ext = { id = "org.jetbrains.gradle.plugin.idea-ext", version.ref = "ideaExt" }
 ec4j-editorconfig = { id = "org.ec4j.editorconfig", version.ref = "editorconfig" }
+lineageos-generatebp = { id = "org.lineageos.generatebp", version.ref = "generateBp" }
