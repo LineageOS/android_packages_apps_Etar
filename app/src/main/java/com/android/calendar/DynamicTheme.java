@@ -42,7 +42,7 @@ public class DynamicTheme {
         activity.setTheme(currentTheme);
 
         // Only required since Android 15
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.VANILLA_ICE_CREAM) {
+        if (Build.VERSION.SDK_INT >= 35) {
             setupEdgeToEdge(activity);
         }
     }
@@ -224,7 +224,7 @@ public class DynamicTheme {
         }
     }
 
-    @RequiresApi(Build.VERSION_CODES.VANILLA_ICE_CREAM)
+    @RequiresApi(35)
     private static void setupEdgeToEdge(@NonNull Activity activity) {
         Window window = activity.getWindow();
         View rootView = activity.getWindow().getDecorView().getRootView();
@@ -242,7 +242,7 @@ public class DynamicTheme {
         setSystemBarsColors(activity);
     }
 
-    @RequiresApi(Build.VERSION_CODES.VANILLA_ICE_CREAM)
+    @RequiresApi(35)
     private static void setSystemBarsColors(@NonNull Activity activity) {
         boolean lightAppearance = !DynamicTheme.isSystemInDarkTheme(activity);
         View rootView = activity.getWindow().getDecorView().getRootView();
