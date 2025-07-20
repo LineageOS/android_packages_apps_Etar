@@ -16,6 +16,23 @@
       "message": "Let\u0027s squash this with the previous and save the 100KiB of png history",
       "revId": "246c29f7f3d481a6fa52e4b4e020366b1a8cc170",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e6efa89_9698dd58",
+        "filename": "app/src/main/res/drawable/stat_notify_calendar.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-07-20T23:13:50Z",
+      "side": 1,
+      "message": "This file was renamed to stat_notify_calendar_events",
+      "revId": "246c29f7f3d481a6fa52e4b4e020366b1a8cc170",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
