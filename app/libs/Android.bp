@@ -1,5 +1,5 @@
 //
-// SPDX-FileCopyrightText: 2023-2024 The LineageOS Project
+// SPDX-FileCopyrightText: 2023-2025 The LineageOS Project
 // SPDX-License-Identifier: Apache-2.0
 //
 
@@ -7,7 +7,7 @@
 
 java_import {
     name: "Etar-Calendar_org.dmfs_jems2-nodeps",
-    jars: ["org/dmfs/jems2/2.22.0/jems2-2.22.0.jar"],
+    jars: ["org/dmfs/jems2/2.23.1/jems2-2.23.1.jar"],
     sdk_version: "34",
     min_sdk_version: "14",
     apex_available: [
@@ -32,7 +32,7 @@ java_library_static {
 
 java_import {
     name: "Etar-Calendar_org.dmfs_lib-recur-nodeps",
-    jars: ["org/dmfs/lib-recur/0.16.0/lib-recur-0.16.0.jar"],
+    jars: ["org/dmfs/lib-recur/0.17.1/lib-recur-0.17.1.jar"],
     sdk_version: "34",
     min_sdk_version: "14",
     apex_available: [
