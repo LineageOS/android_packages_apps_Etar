@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "752a5ad6_8d3b066b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-07-20T23:05:59Z",
+      "side": 1,
+      "message": "Let\u0027s squash this with the previous and save the 100KiB of png history",
+      "revId": "246c29f7f3d481a6fa52e4b4e020366b1a8cc170",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
