@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef524541_545b9a6c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-07-21T12:31:05Z",
+      "side": 1,
+      "message": "can you squash it yourself? idk what commit metadata for this is supposed to look like.",
+      "parentUuid": "752a5ad6_8d3b066b",
+      "revId": "246c29f7f3d481a6fa52e4b4e020366b1a8cc170",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9e6efa89_9698dd58",
