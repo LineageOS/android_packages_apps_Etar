@@ -16,6 +16,24 @@
       "message": "Might be worth sending upstream too?",
       "revId": "599b376033629de8e8538e7fcf4ce7e9793c14e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa83c70d_444b8275",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-07-21T15:33:19Z",
+      "side": 1,
+      "message": "android studio likes to really insists on using -ktx, so probably not.",
+      "parentUuid": "ce735e34_a3f4ad50",
+      "revId": "599b376033629de8e8538e7fcf4ce7e9793c14e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
