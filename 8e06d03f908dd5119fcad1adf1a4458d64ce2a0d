@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5156e043_3b9534be",
+        "filename": "app/src/main/java/com/android/calendar/alerts/AlertReceiver.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-07-21T13:13:05Z",
+      "side": 1,
+      "message": "restore original string? it\u0027s just a wakelock name anyway.",
+      "revId": "8e06d03f908dd5119fcad1adf1a4458d64ce2a0d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
