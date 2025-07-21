@@ -16,6 +16,24 @@
       "message": "I don\u0027t think we need calendar_permission_not_granted_lineage, the original string is debranded",
       "revId": "88322aabcdfbed98e00fc684cce0ea012a30f893",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "222ca634_2170a2b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-07-21T13:10:38Z",
+      "side": 1,
+      "message": "done.",
+      "parentUuid": "6e52e6ea_8e666c3d",
+      "revId": "88322aabcdfbed98e00fc684cce0ea012a30f893",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
