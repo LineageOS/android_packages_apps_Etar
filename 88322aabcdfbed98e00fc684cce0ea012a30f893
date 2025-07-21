@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e52e6ea_8e666c3d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-07-21T13:09:17Z",
+      "side": 1,
+      "message": "I don\u0027t think we need calendar_permission_not_granted_lineage, the original string is debranded",
+      "revId": "88322aabcdfbed98e00fc684cce0ea012a30f893",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
