@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d562d479_13d44754",
+        "filename": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-07-21T13:00:22Z",
+      "side": 0,
+      "message": "hmm not sure if correct.",
+      "revId": "7fc7451d347b8d6d1ad40df823d4a1a65f315aac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
