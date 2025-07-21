@@ -69,6 +69,24 @@
       "message": "This file was renamed to stat_notify_calendar_events",
       "revId": "246c29f7f3d481a6fa52e4b4e020366b1a8cc170",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03d46d27_984f99a5",
+        "filename": "app/src/main/res/drawable/stat_notify_calendar.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-07-21T12:52:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9e6efa89_9698dd58",
+      "revId": "246c29f7f3d481a6fa52e4b4e020366b1a8cc170",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
