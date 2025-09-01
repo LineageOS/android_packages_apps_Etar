@@ -22,6 +22,8 @@
     <string name="tomorrow_at_time_fmt">"מחר ב-<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(אין כותרת)</string>
+    <string name="no_reminder_label">ללא</string>
+    <string name="no_snooze_label">ללא</string>
     <plurals name="Nminutes">
         <item quantity="one">דקה אחת</item>
         <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> דקות</item>
@@ -46,6 +48,19 @@
         <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> ימים</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ימים</item>
     </plurals>
+    <plurals name="Nweeks">
+        <item quantity="one">שבוע</item>
+        <item quantity="two">שבועיים</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> שבועות</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> שבועות</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="one">שבוע <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="two">שבוע <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="many">שבוע <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">שבוע <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <string name="calendar_refresh">"ריענון"</string>
     <string name="show_day_view">"הצג יום"</string>
     <string name="agenda_view">"סדר יום"</string>
     <string name="day_view">"יום"</string>
@@ -53,17 +68,22 @@
     <string name="month_view">"חודש"</string>
     <string name="event_view">"הצג אירוע"</string>
     <string name="event_create">"אירוע חדש"</string>
-    <string name="event_edit">"ערוך אירוע"</string>
+    <string name="event_edit">"עריכת אירוע"</string>
     <string name="event_delete">"מחק אירוע"</string>
+    <string name="share_label">שיתוף</string>
     <string name="goto_today">"היום"</string>
+    <string name="goto_date">מעבר אל\u2026</string>
     <string name="menu_preferences">"הגדרות"</string>
+    <string name="menu_info">מידע</string>
     <string name="search">"חפש"</string>
     <string name="hide_controls">"הסתר פקדים"</string>
     <string name="show_controls">"הצג פקדים"</string>
+    <string name="view_settings">"הצגת הגדרות"</string>
     <string name="select_synced_calendars_button">יומנים לסינכרון</string>
     <string name="hint_what">"שם אירוע"</string>
     <string name="hint_where">"מיקום"</string>
     <string name="hint_description">"תיאור"</string>
+    <string name="hint_url">"כתובת אתר"</string>
     <string name="hint_attendees">"אורחים"</string>
     <string name="creating_event">"האירוע נוצר."</string>
     <string name="saving_event">"האירוע נשמר."</string>
@@ -75,6 +95,9 @@
     <string name="rsvp_declined">"השיבו 'לא'"</string>
     <string name="create_event_dialog_save">שמור</string>
     <string name="alert_title">התראות של יומן</string>
+    <string name="foreground_notification_title">מתזמן תזכורות חדשות...</string>
+    <string name="foreground_notification_channel_name">משימות ברקע</string>
+    <string name="foreground_notification_channel_description">נדרשות התראות לסנכרון פנימי. ניתן להסתיר ערוץ זה בבטחה.</string>
     <string name="event_info_title">הצג אירוע</string>
     <string name="event_info_title_invite">הזמנה לפגישה</string>
     <string name="edit_event_all_day_label">כל היום</string>
@@ -82,13 +105,15 @@
     <string name="presence_label">הצג אותי כ</string>
     <string name="privacy_label">פרטיות</string>
     <string name="reminders_label">הוסף תזכורת</string>
-    <string name="no_syncable_calendars">אין לוחות שנה</string>
+    <string name="no_syncable_calendars">אין יומנים</string>
+    <string name="no_calendars_found">לפני שניתן להוסיף אירוע, נדרש להוסיף יומן אחד לפחות להתקן שלך</string>
+    <string name="add_calendar">הוספת יומן</string>
     <string name="view_event_calendar_label">יומן:</string>
     <string name="view_event_organizer_label">מארגן:</string>
     <string name="choose_event_color_label">בחר צבע אירוע</string>
     <string name="event_color_picker_dialog_title">צבע אירוע</string>
-    <string name="event_color_set_to_default">הגדר כצבע ברירת המחדל של לוח השנה</string>
-    <string name="calendar_color_picker_dialog_title">צבע לוח שנה</string>
+    <string name="event_color_set_to_default">הגדרה כצבע ברירת המחדל של יומן</string>
+    <string name="calendar_color_picker_dialog_title">צבע היומן</string>
     <string name="calendar_square_color_picker_description">בוחר צבעים</string>
     <string name="view_event_response_label">משתתף?</string>
     <string name="response_yes">כן</string>
@@ -99,9 +124,10 @@
     <string name="email_picker_label">שלח אימייל באמצעות</string>
     <string name="event_not_found">"האירוע לא נמצא."</string>
     <string name="map_label">מפה</string>
+    <string name="no_map">אין יישומי מפות מותקנים</string>
     <string name="call_label">שיחה</string>
     <string name="quick_response_settings">תגובות מהירות</string>
-    <string name="quick_response_settings_summary">ערוך תגובות ברירת מחדל בעת שליחת אימייל לאורחים</string>
+    <string name="quick_response_settings_summary">עריכת תגובות ברירת מחדל בעת שליחת דוא\"ל לאורחים</string>
     <string name="quick_response_settings_edit_title">תגובה מהירה</string>
     <string name="quick_response_dialog_title">בחר תגובה מהירה</string>
     <string name="quick_response_email_failed">חיפוש תוכנת האימיילים נכשל</string>
@@ -114,13 +140,17 @@
     <string name="quick_response_custom_msg">כתוב אחת משלך…</string>
     <string name="event_info_organizer">מארגן:</string>
     <string name="event_info_reminders_label">תזכורות</string>
+    <string name="agenda_today">היום, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_yesterday">אתמול, <xliff:g id="date">%1$s</xliff:g></string>
+    <string name="agenda_tomorrow">מחר, <xliff:g id="date">%1$s</xliff:g></string>
     <string name="loading">טוען...</string>
     <string name="show_older_events">גע כדי להציג אירועים לפני <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="show_newer_events">גע כדי להציג אירועים אחרי <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
     <string name="search_title">חפש ביומנים שלי</string>
     <string name="edit_event_label">"פרטים"</string>
-    <string name="edit_label">"ערוך"</string>
-    <string name="delete_label">"מחק"</string>
+    <string name="edit_label">"עריכה"</string>
+    <string name="delete_label">"מחיקה"</string>
+    <string name="duplicate_label">שכפול</string>
     <string name="save_label">סיום</string>
     <string name="discard_label">ביטול</string>
     <string name="dismiss_all_label">"דחה הכל"</string>
@@ -139,7 +169,7 @@
         <item quantity="many">כל <xliff:g id="NUMBER">%d</xliff:g> ימים</item>
         <item quantity="other">כל <xliff:g id="NUMBER">%d</xliff:g> ימים</item>
     </plurals>
-    <string name="every_weekday">"כל יום חול (ראשון-חמישי)"</string>
+    <string name="every_weekday">"כל יום חול (ראשון\u2013חמישי)"</string>
     <plurals name="weekly">
         <item quantity="one">שבועי ביום <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
         <item quantity="two">כל <xliff:g id="NUMBER">%1$d</xliff:g> שבועות ביום <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
@@ -159,10 +189,30 @@
     <string name="change_response_title">שנה תגובה</string>
     <string name="preferences_title">"הגדרות"</string>
     <string name="preferences_general_title">הגדרות תצוגה של יומן</string>
+    <string name="preferences_month_view_portrait">פריסת תצוגת חודש (לאורך)</string>
+    <string name="preferences_month_view_landscape">פריסת תצוגת חודש (לרוחב)</string>
+    <string name="preferences_theme">ערכת נושא</string>
+    <string name="preferences_system_theme">ברירת המחדל של המערכת</string>
+    <string name="preferences_light_theme">בהיר</string>
+    <string name="preferences_dark_theme">כהה</string>
+    <string name="preferences_black_theme">שחור</string>
+    <string name="preferences_color">צבע ראשי</string>
+    <string name="preferences_color_pick">צבע ראשי</string>
+    <string name="preferences_real_event_colors">שימוש בצבעי ארוע אמיתיים</string>
+    <string name="preferences_pure_black_night_mode">מצב לילה שחור אמיתי</string>
     <string name="preferences_reminder_title">התראות ותזכורות</string>
     <string name="preferences_hide_declined_title">הסתר אירועים שנדחו</string>
+    <string name="default_start_title">תצוגת ברירת מחדל</string>
+    <string name="display_options">אפשרויות תצוגה</string>
+    <string name="display_time">הצגת זמן</string>
+    <string name="display_location">הצגת מיקום</string>
+    <string name="maximum_number_of_lines">מספר שורות מקסימלי באירוע</string>
+    <string name="default_start_last">תצוגה שהשתמשת בה בעבר</string>
     <string name="preferences_week_start_day_title">השבוע מתחיל ב:</string>
     <string name="preferences_week_start_day_dialog">השבוע מתחיל ב:</string>
+    <string name="preferences_days_per_week_title">ימים בשבוע</string>
+    <string name="preferences_days_per_week_dialog">ימים בשבוע</string>
+    <string name="preferences_default_event_duration_title">משך אירוע ברירת מחדל</string>
     <string name="preferences_clear_search_history_title">נקה את היסטוריית החיפושים</string>
     <string name="preferences_clear_search_history_summary">הסר את כל החיפושים שביצעת</string>
     <string name="search_history_cleared">היסטוריית החיפושים נוקתה.</string>
@@ -174,17 +224,29 @@
     <string name="preferences_default_reminder_dialog">ברירת מחדל של מועד תזכורת</string>
     <string name="preferences_default_reminder_default">10</string>
     <string name="preferences_use_home_tz_title">השתמש באזור הזמן המקומי</string>
-    <string name="preferences_use_home_tz_descrip">מציג לוחות שנה ושעות אירועים באזור הזמן המקומי שלך בנסיעות</string>
+    <string name="preferences_use_home_tz_descrip">מציג יומנים ושעות אירועים באזור הזמן המקומי שלך בנסיעות</string>
     <string name="preferences_home_tz_title">אזור זמן מקומי</string>
     <string name="preferences_show_week_num_title">הצג מספר שבוע</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">בקש זמן דחייה לתזכורת</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">שאל לכמה זמן לדחות את התזכורת בכל פעם שאדחה תזכורת</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">השתמש תמיד בזמן ברירת המחדל לדחיית תזכורת</string>
+    <string name="snooze_delay_dialog_title">הגדרת זמן לדחיית תזכורת</string>
+    <string name="preferences_default_snooze_delay_title">זמן ברירת המחדל לדחיית תזכורת</string>
+    <string name="preferences_default_snooze_delay_dialog">ברירת מחדל לדחיית תזכורת</string>
+    <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> פרוייקט Etar. חלק\u00a9 2005-<xliff:g>%1$s</xliff:g> מפרוייקט הקוד הפתוח של אנדרואיד.</string>
+    <string name="authors">מחברים</string>
+    <string name="changelog">רשימת שינויים</string>
+    <string name="license">רשיונות</string>
     <string name="preferences_build_version">‏גרסת Build</string>
+    <string name="preferences_issues">דיווח על בעיה</string>
+    <string name="source_code">מקור</string>
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
         <item quantity="two">+<xliff:g id="NUMBER">%d</xliff:g></item>
         <item quantity="many">+<xliff:g id="NUMBER">%d</xliff:g></item>
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
     </plurals>
-    <string name="gadget_no_events">אין אירועים צפויים בלוח השנה</string>
+    <string name="gadget_no_events">אין אירועים צפויים ביומן</string>
     <string name="preferences_experimental_category">ניסיוני</string>
     <string name="preferences_reminders_responded_label">דלג על תזכורות</string>
     <string name="preferences_reminders_responded_dialog">דלג על תזכורות</string>
@@ -239,10 +301,10 @@
         <item quantity="other">כל <xliff:g id="COUNT">%d</xliff:g> חודשים</item>
     </plurals>
     <plurals name="recurrence_interval_yearly">
-        <item quantity="one">כל שנה <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="two">כל <xliff:g id="COUNT">%d</xliff:g> שנים</item>
-        <item quantity="many">כל <xliff:g id="COUNT">%d</xliff:g> שנים</item>
-        <item quantity="other">כל <xliff:g id="COUNT">%d</xliff:g> שנים</item>
+        <item quantity="one">כל שנה <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="two">כל <xliff:g id="count">%d</xliff:g> שנים</item>
+        <item quantity="many">כל <xliff:g id="count">%d</xliff:g> שנים</item>
+        <item quantity="other">כל <xliff:g id="count">%d</xliff:g> שנים</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">באותו יום בכל חודש</string>
     <string name="recurrence_end_continously">ללא תאריך סיום</string>
@@ -256,5 +318,75 @@
         <item quantity="other">עבור <xliff:g id="EVENT_COUNT">%d</xliff:g> אירועים</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">שינוי של תאריך הסיום</string>
+    <string name="user_rejected_calendar_write_permission">היומן דורש הרשאות קריאה וכתיבה ביומן כדי לפעול כראוי. נא לנסות שנית.</string>
+    <string name="calendar_permission_not_granted">ההרשאות הנדרשות נדחו, יש לאפשר אותן מההגדרות כדי לערוך אירועים</string>
+    <string name="visibility_default">ברירת מחדל</string>
+    <string name="visibility_confidential">חסוי</string>
+    <string name="visibility_private">פרטי</string>
+    <string name="visibility_public">ציבורי</string>
+    <string name="two_days">יומיים</string>
+    <string name="three_days">3 ימים</string>
+    <string name="four_days">4 ימים</string>
+    <string name="five_days">5 ימים</string>
+    <string name="six_days">6 ימים</string>
+    <string name="seven_days">7 ימים</string>
+    <string name="zero_minutes">0 דקות</string>
+    <string name="fifteen_minutes">רבע שעה</string>
+    <string name="thirty_minutes">חצי שעה</string>
+    <string name="one_hour">שעה</string>
+    <string name="one_and_a_half_hours">שעה וחצי</string>
+    <string name="two_hours">שעתיים</string>
+    <string name="error_generating_ics">חלה תקלה בזמן שיתוף האירוע</string>
+    <string name="cal_share_intent_title">שליחת אירוע אל:</string>
+    <string name="cal_export_event_sdcard_title">ייצוא לכרטיס זיכרון</string>
+    <string name="cal_export_succ_msg">האירוע יוצא בהצלחה: %1$s</string>
+    <string name="cal_import_menu_title">ייבוא אירוע</string>
+    <string name="cal_nothing_to_import">אין מה לייבא</string>
+    <string name="cal_import_error_msg">הייבוא ליומן נכשל</string>
+    <string name="cal_import_error_time_zone_msg">לא ניתן להבין את אזור הזמן שניתן: %s</string>
+    <string name="cal_import_error_date_msg">לא ניתן להבין את התאריך שניתן: %s</string>
+    <string name="cal_pick_ics">בחירת קובץ לייבוא</string>
+    <string name="show_time_no">אל תציג שעה</string>
+    <string name="show_time_start">זמן התחלה בלבד</string>
+    <string name="show_time_start_end">זמן התחלה וסיום</string>
+    <string name="show_time_start_end_below">זמני התחלה וסיום מתחת לאירוע</string>
+    <string name="preferences_calendar_no_display_name">יומן ללא שם</string>
+    <string name="preferences_calendar_account">%1$s חשבון</string>
+    <string name="preferences_calendar_account_local">יומן מקומי</string>
+    <string name="preferences_calendar_configure_account">קביעת תצורת יומן ב-%1$s</string>
+    <string name="preferences_calendar_number_of_events">%1$d אירועים</string>
+    <string name="preferences_calendar_delete">מחיקת יומן</string>
+    <string name="preferences_calendar_display_name">שינוי שם</string>
+    <string name="preferences_calendar_info_category">מידע על היומן</string>
+    <string name="preferences_calendar_color">צבע</string>
+    <string name="preferences_calendar_visible">הצגת אירועים</string>
+    <string name="preferences_manage_notifications">ניהול התראות</string>
+    <string name="preferences_calendar_synchronize">סינכרון יומן הזה</string>
+    <string name="preferences_calendar_color_warning_title">אזהרה</string>
+    <string name="preferences_calendar_color_warning_message">שינוי הצבע עשוי להתבטל כאשר היומן יסתנכרן בשנית.\n\nב־DAVx⁵ ניתן להשבית את \'ניהול צבעי היומן\' כדי למנוע זאת.</string>
+    <string name="preferences_calendar_color_warning_button">הבנתי</string>
+    <string name="preferences_calendar_delete_message">האם בוודאות ברצונך למחוק יומן הזה?</string>
+    <string name="preferences_calendar_delete_delete">מחיקת יומן</string>
+    <string name="preferences_calendar_delete_cancel">ביטול</string>
+    <string name="preferences_list_calendar_summary_sync_off">לא מסונכרן</string>
+    <string name="preferences_list_calendar_summary_invisible">אירועים לא מוצגים</string>
+    <string name="preferences_list_general">הגדרות כלליות</string>
+    <string name="preferences_list_add_remote">הוספת יומן CalDAV</string>
+    <string name="preferences_list_add_remote_etesync">הוספת יומן EteSync</string>
+    <string name="preferences_list_add_offline">הוספת יומן לא מקוון</string>
+    <string name="preferences_list_add_offline_title">הוספת יומן לא מקוון</string>
+    <string name="preferences_list_add_offline_error_empty">יש להזין שם ליומן!</string>
+    <string name="preferences_list_add_offline_message">יומנים לא מקוונים אינם מסונכרנים עם שירות הענן וזמינים רק בהתקנך.</string>
+    <string name="preferences_list_add_offline_button">הוספת יומן</string>
+    <string name="preferences_list_add_offline_name">שם</string>
+    <string name="preferences_list_add_offline_cancel">ביטול</string>
+    <string name="preferences_menu_about">אודות היומן</string>
+    <string name="offline_account_name">יומן לא מקוון</string>
+    <string name="after_start_of_event">לאחר תחילת האירוע</string>
+    <string name="preferences_do_not_check_battery_optimization">לא לבדוק אופטימיזציה של הסוללה</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">השימוש באחריותך בלבד! ההתראות לא יעבדו, הווידג\'ט לא יתעדכן ושירותי הרקע יקרסו. ואף לא נשאל שוב אם ברצונך להפעיל את שירות הרקע.</string>
+    <string name="calendars">יומנים</string>
+    <string name="discard_event_changes">האם ברצונך לבטל את השינויים?</string>
+    <string name="discard">ביטול</string>
     <string name="cancel">ביטול</string>
 </resources>
