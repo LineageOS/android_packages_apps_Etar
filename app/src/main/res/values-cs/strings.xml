@@ -386,5 +386,7 @@
     <string name="preferences_do_not_check_battery_optimization">Nekontrolovat optimalizaci baterie</string>
     <string name="preferences_do_not_check_battery_optimization_summary">Používat na vlastní nebezpečí! Upozornění již nebudou fungovat, widget již nebude aktualizován a služby na pozadí se zhroutí. Ale nebudete znovu dotázáni, pokud chcete povolit službu na pozadí.</string>
     <string name="calendars">Kalendáře</string>
+    <string name="discard_event_changes">Opravdu chcete zahodit provedené změny?</string>
+    <string name="discard">Zahodit</string>
     <string name="cancel">Zrušit</string>
 </resources>
