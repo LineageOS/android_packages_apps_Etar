@@ -298,6 +298,7 @@
     <string name="preferences_calendar_display_name">Змінити назву</string>
     <string name="preferences_calendar_color">Колір</string>
     <string name="preferences_calendar_color_warning_title">Попередження</string>
+    <string name="preferences_calendar_delete_message">Точно видалити календар?</string>
     <string name="preferences_calendar_delete_delete">Видалити календар</string>
     <string name="preferences_calendar_delete_cancel">Скасувати</string>
     <string name="preferences_list_add_remote">Додати календар CalDAV</string>
