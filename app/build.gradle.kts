@@ -28,7 +28,7 @@ android {
 		targetSdk = 34
 		versionCode = 51
 		versionName = "1.0.51"
-		applicationId = "ws.xsoh.etar"
+		applicationId = "org.lineageos.etar"
 		testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 	}
 
@@ -82,7 +82,7 @@ android {
 		println("Found sign properties in gradle.properties! Signing build…")
 
 		signingConfigs {
-			named("release").configure {
+			create("release") {
 				storeFile = File(signingStoreLocation!!)
 				storePassword = signingStorePassword
 				keyAlias = signingKeyAlias
@@ -132,6 +132,7 @@ dependencies {
 	implementation(libs.androidx.constraintlayout)
 	implementation(libs.google.android.material)
 	testImplementation(libs.junit)
+	testImplementation(libs.androidx.runner)
 
 	coreLibraryDesugaring(libs.android.tools.desugar)
 
