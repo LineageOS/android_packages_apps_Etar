@@ -2,6 +2,7 @@ import com.android.build.gradle.internal.tasks.factory.dependsOn
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.lineageos.generatebp.GenerateBpPluginExtension
 import org.lineageos.generatebp.models.Module
+import java.util.Properties
 
 plugins {
     alias(libs.plugins.android.application)
@@ -61,17 +62,22 @@ android {
 	}
 
 	/*
-	 * To sign release build, create file gradle.properties in ~/.gradle/ with this content:
+	 * To sign release build, create file local.properties in ~/ with this content:
 	 *
 	 * signingStoreLocation=/home/key.store
 	 * signingStorePassword=xxx
 	 * signingKeyAlias=alias
 	 * signingKeyPassword=xxx
 	 */
-	val signingStoreLocation: String? by project
-	val signingStorePassword: String? by project
-	val signingKeyAlias: String? by project
-	val signingKeyPassword: String? by project
+	val localProps = Properties().apply {
+		val file = rootProject.file("local.properties")
+		if (file.exists()) load(file.inputStream())
+	}
+
+	val signingStoreLocation = localProps.getProperty("signingStoreLocation")
+	val signingStorePassword = localProps.getProperty("signingStorePassword")
+	val signingKeyAlias = localProps.getProperty("signingKeyAlias")
+	val signingKeyPassword = localProps.getProperty("signingKeyPassword")
 
 	if (
 		signingStoreLocation != null &&
@@ -83,7 +89,7 @@ android {
 
 		signingConfigs {
 			create("release") {
-				storeFile = File(signingStoreLocation!!)
+				storeFile = File(signingStoreLocation)
 				storePassword = signingStorePassword
 				keyAlias = signingKeyAlias
 				keyPassword = signingKeyPassword
