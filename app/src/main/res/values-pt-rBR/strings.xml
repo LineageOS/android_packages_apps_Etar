@@ -100,7 +100,7 @@
     <string name="view_event_organizer_label">Organizador:</string>
     <string name="choose_event_color_label">Selecionar a cor do evento</string>
     <string name="event_color_picker_dialog_title">Cor do evento</string>
-    <string name="event_color_set_to_default">Definir para cor padrão do calendário</string>
+    <string name="event_color_set_to_default">Configurar como cor padrão do calendário</string>
     <string name="calendar_color_picker_dialog_title">Cor do calendário</string>
     <string name="calendar_square_color_picker_description">Seletor de cores</string>
     <string name="view_event_response_label">Participar?</string>
@@ -212,9 +212,9 @@
     <string name="preferences_alerts_custom_snooze_delay_title">Perguntar tempo da soneca para lembretes</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">Perguntar o tempo da soneca sempre que usar a opção Soneca em lembretes</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_off">Sempre usar o atraso padrão de soneca</string>
-    <string name="snooze_delay_dialog_title">Definir atraso da soneca</string>
+    <string name="snooze_delay_dialog_title">Configurar atraso da soneca</string>
     <string name="preferences_default_snooze_delay_title">Tempo padrão de atraso da soneca</string>
-    <string name="preferences_default_snooze_delay_dialog">Definir atraso da soneca</string>
+    <string name="preferences_default_snooze_delay_dialog">Configurar atraso da soneca</string>
     <string name="app_copyright">\u00a9 2015-<xliff:g>%1$s</xliff:g> The Etar Project. Partes do\u00a9 2005-<xliff:g>%1$s</xliff:g> The Android Open Source Project.</string>
     <string name="authors">Autores</string>
     <string name="changelog">Alterações</string>
