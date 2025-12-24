@@ -46,12 +46,14 @@ android_app {
     sdk_version: "35",
 
     aaptflags: [
-        "--custom-package",
-        "ws.xsoh.etar",
+        // DO NOT EDIT THIS SECTION MANUALLY
         "--version-name",
         "1.0.52",
         "--version-code",
         "52",
+    ] + [
+        "--custom-package",
+        "ws.xsoh.etar",
     ],
 
     kotlincflags: ["-Xjvm-default=all"],
