@@ -7,8 +7,8 @@
 
 android_library_import {
     name: "Etar-Calendar_androidx.databinding_viewbinding",
-    aars: ["androidx/databinding/viewbinding/8.11.1/viewbinding-8.11.1.aar"],
-    sdk_version: "34",
+    aars: ["androidx/databinding/viewbinding/8.13.2/viewbinding-8.13.2.aar"],
+    sdk_version: "35",
     min_sdk_version: "23",
     apex_available: [
         "//apex_available:platform",
@@ -22,7 +22,7 @@ android_library_import {
 java_import {
     name: "Etar-Calendar_org.dmfs_jems2",
     jars: ["org/dmfs/jems2/2.23.1/jems2-2.23.1.jar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "23",
     apex_available: [
         "//apex_available:platform",
@@ -35,7 +35,7 @@ java_import {
 java_import {
     name: "Etar-Calendar_org.dmfs_lib-recur",
     jars: ["org/dmfs/lib-recur/0.17.1/lib-recur-0.17.1.jar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "23",
     apex_available: [
         "//apex_available:platform",
@@ -50,7 +50,7 @@ java_import {
 java_import {
     name: "Etar-Calendar_org.dmfs_rfc5545-datetime",
     jars: ["org/dmfs/rfc5545-datetime/0.3/rfc5545-datetime-0.3.jar"],
-    sdk_version: "34",
+    sdk_version: "35",
     min_sdk_version: "23",
     apex_available: [
         "//apex_available:platform",

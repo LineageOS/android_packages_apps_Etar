@@ -26,6 +26,7 @@ android_app {
         "androidx-constraintlayout_constraintlayout",
         "androidx.core_core-ktx",
         "Etar-Calendar_androidx.databinding_viewbinding",
+        "androidx.graphics_graphics-shapes",
         "androidx.lifecycle_lifecycle-livedata-ktx",
         "androidx.lifecycle_lifecycle-runtime",
         "androidx.lifecycle_lifecycle-runtime-ktx",
@@ -42,7 +43,7 @@ android_app {
         proguard_flags_files: ["proguard-rules.pro"],
     },
 
-    sdk_version: "34",
+    sdk_version: "35",
 
     aaptflags: [
         "--custom-package",
