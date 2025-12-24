@@ -48,6 +48,10 @@ android_app {
     aaptflags: [
         "--custom-package",
         "ws.xsoh.etar",
+        "--version-name",
+        "1.0.52",
+        "--version-code",
+        "52",
     ],
 
     kotlincflags: ["-Xjvm-default=all"],
