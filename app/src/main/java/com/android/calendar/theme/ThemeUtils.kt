@@ -3,8 +3,8 @@ package com.android.calendar.theme
 import android.content.Context
 import android.os.Build
 import com.android.calendar.Utils
-import com.android.calendar.theme.model.Color
 import com.android.calendar.theme.model.Theme
+import kotlin.text.lowercase
 
 object ThemeUtils {
 
@@ -23,8 +23,19 @@ object ThemeUtils {
         return Theme.valueOf(theme.uppercase())
     }
 
-    fun getColor(): Color {
-        val color = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) Color.MONET.name else Color.TEAL.name
-        return Color.valueOf(color.uppercase())
+    fun getSuffix(context: Context): String {
+        val theme = getTheme(context)
+        when (theme) {
+            Theme.SYSTEM -> if (isSystemInDarkTheme(context)) {
+                return "_" + "dark"
+            } else {
+                return ""
+            }
+
+            Theme.LIGHT -> return ""
+            Theme.DARK, Theme.BLACK -> return "_" + theme.name.lowercase()
+            else -> throw IllegalArgumentException("Unknown theme: " + theme)
+        }
     }
+
 }
