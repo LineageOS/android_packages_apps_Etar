@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 The LineageOS Project
+ * Copyright (C) 2020-2025 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,6 +17,6 @@ package ws.xsoh.etar;
 
 public final class BuildConfig {
     public static final String APPLICATION_ID = "org.lineageos.etar";
-    public static final String VERSION_NAME = "1.0.47";
+    public static final String VERSION_NAME = "1.0.52";
     public static final boolean DEBUG = false;
 }
