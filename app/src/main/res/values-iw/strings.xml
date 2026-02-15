@@ -104,7 +104,7 @@
     <string name="edit_event_calendar_label">יומן</string>
     <string name="presence_label">הצג אותי כ</string>
     <string name="privacy_label">פרטיות</string>
-    <string name="reminders_label">הוסף תזכורת</string>
+    <string name="reminders_label">הוספת תזכורת</string>
     <string name="no_syncable_calendars">אין יומנים</string>
     <string name="no_calendars_found">לפני שניתן להוסיף אירוע, נדרש להוסיף יומן אחד לפחות להתקן שלך</string>
     <string name="add_calendar">הוספת יומן</string>
@@ -259,9 +259,9 @@
     <string name="accessibility_pick_end_time">שעת סיום</string>
     <string name="accessibility_pick_time_zone">אזור זמן</string>
     <string name="accessibility_pick_recurrence">חזור על האירוע</string>
-    <string name="accessibility_add_reminder">הוסף תזכורת</string>
+    <string name="accessibility_add_reminder">הוספת תזכורת</string>
     <string name="accessibility_remove_reminder">הסר תזכורת</string>
-    <string name="accessibility_add_attendee">הוסף משתתף</string>
+    <string name="accessibility_add_attendee">הוספת משתתף</string>
     <string name="accessibility_all_day">אירוע הנמשך יום שלם</string>
     <string name="accessibility_reminder_time">שעת תזכורת</string>
     <string name="accessibility_reminder_type">סוג תזכורת</string>
