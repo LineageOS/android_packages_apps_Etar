@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="reminder_methods_labels">
+        <item>Varsel</item>
+        <item>E-post</item>
+        <item>SMS</item>
+        <item>Alarm</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Standard for regionen</item>
+        <item>laurdag</item>
+        <item>sundag</item>
+        <item>måndag</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Oppteken</item>
+        <item>Ledig</item>
+        <item>Førebels</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Ikkje svara</item>
+        <item>Ja</item>
+        <item>Kanskje</item>
+        <item>Nei</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Berre denne hendinga</item>
+        <item>Denne og hendingar etterpå</item>
+        <item>Alle hendingar</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Berre denne hendinga</item>
+        <item>Alle hendingane i serien</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Dag</item>
+        <item>Veke</item>
+        <item>Månad</item>
+        <item>Tidsplan</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>Berre om avslått</item>
+        <item>Om avslått eller ikkje svara på</item>
+    </string-array>
+    <string-array name="recurrence_freq">
+        <item>GJENTA KVAR DAG</item>
+        <item>GJENTA KVAR VEKE</item>
+        <item>GJENTA KVAR MÅNAD</item>
+        <item>GJENTA ÅRLEG</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>kvar fyrste sundag</item>
+        <item>kvar andre sundag</item>
+        <item>kvar tredje sundag</item>
+        <item>kvar fjerde sundag</item>
+        <item>kvar siste sundag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>kvar fyrste måndag</item>
+        <item>kvar andre måndag</item>
+        <item>kvar tredje måndag</item>
+        <item>kvar fjerde måndag</item>
+        <item>kvar siste måndag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>kvar fyrste tysdag</item>
+        <item>kvar andre tysdag</item>
+        <item>kvar tredje tysdag</item>
+        <item>kvar fjerde tysdag</item>
+        <item>kvar siste tysdag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>kvar fyrste onsdag</item>
+        <item>kvar andre onsdag</item>
+        <item>kvar tredje onsdag</item>
+        <item>kvar fjerde onsdag</item>
+        <item>kvar siste onsdag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>kvar fyrste torsdag</item>
+        <item>kvar andre torsdag</item>
+        <item>kvar tredje torsdag</item>
+        <item>kvar fjerde torsdag</item>
+        <item>kvar siste torsdag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>kvar fyrste fredag</item>
+        <item>kvar andre fredag</item>
+        <item>kvar tredje fredag</item>
+        <item>kvar fjerde fredag</item>
+        <item>kvar siste fredag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>kvar fyrste laurdag</item>
+        <item>kvar andre laurdag</item>
+        <item>kvar tredje laurdag</item>
+        <item>kvar fjerde laurdag</item>
+        <item>kvar siste laurdag</item>
+    </string-array>
+</resources>
