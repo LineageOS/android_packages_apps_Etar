@@ -1,17 +1,15 @@
 import com.android.build.gradle.internal.tasks.factory.dependsOn
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.lineageos.generatebp.GenerateBpPluginExtension
 import org.lineageos.generatebp.models.Module
 
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.ec4j.editorconfig)
     alias(libs.plugins.lineageos.generatebp)
 }
 
 editorconfig {
-	excludes = listOf("metadata/**", "**/*.webp")
+	excludes = listOf("metadata/**", "**/*.xml", "**/*.webp")
 }
 
 kotlin {
@@ -25,9 +23,9 @@ android {
 
 	defaultConfig {
 		minSdk = 23
-		targetSdk = 35
-		versionCode = 52
-		versionName = "1.0.52"
+		targetSdk = 36
+		versionCode = 53
+		versionName = "1.0.53"
 		applicationId = "ws.xsoh.etar"
 		testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 	}
@@ -58,6 +56,7 @@ android {
 	buildFeatures {
         buildConfig = true
 		viewBinding = true
+		resValues = true
 	}
 
 	/*
@@ -108,12 +107,6 @@ android {
 		targetCompatibility(JavaVersion.VERSION_21)
 	}
 
-kotlin {
-    compilerOptions {
-         jvmTarget = JvmTarget.JVM_21
-    }
-}
-
 	useLibrary("android.test.base")
 	useLibrary("android.test.mock")
 
@@ -131,7 +124,10 @@ dependencies {
 	implementation(libs.androidx.appcompat)
 	implementation(libs.androidx.constraintlayout)
 	implementation(libs.google.android.material)
-	testImplementation(libs.junit)
+    implementation(libs.androidx.work.runtime)
+    implementation(libs.androidx.concurrent.futures)
+    testImplementation(libs.junit)
+	testImplementation(libs.androidx.test.runner)
 
 	coreLibraryDesugaring(libs.android.tools.desugar)
 

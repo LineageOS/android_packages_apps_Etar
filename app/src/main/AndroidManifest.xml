@@ -89,6 +89,9 @@
             <meta-data android:name="${applicationId}.dynamic_icons"
                 android:resource="@array/calendar_icons_dynamic" />
 
+            <meta-data android:name="com.teslacoilsw.launcher.calendarIconArray"
+                android:resource="@array/calendar_icons_dynamic" />
+
         </activity>
 
         <activity-alias android:name="com.android.calendar.LaunchActivity"
@@ -271,9 +274,11 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="com.android.calendar.alerts.AlertService"
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:foregroundServiceType= "systemExempted"
             android:exported="false"
-            android:foregroundServiceType="systemExempted" />
+            tools:node="merge" />
 
         <service android:name="com.android.calendar.alerts.DismissAlarmsService" />
 
