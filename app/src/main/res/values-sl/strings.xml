@@ -212,7 +212,7 @@
     <string name="preferences_week_start_day_dialog">Prvi dan v tednu je</string>
     <string name="preferences_days_per_week_title">Dnevi na teden</string>
     <string name="preferences_days_per_week_dialog">Dnevi na teden</string>
-    <string name="preferences_default_event_duration_title">Privzeto trajanje dogodka</string>
+    <string name="preferences_default_event_duration_title">Privzeta dolžina dogodka</string>
     <string name="preferences_clear_search_history_title">Počisti zgodovino iskanja</string>
     <string name="preferences_clear_search_history_summary">Odstrani vsa iskanja, ki ste jih izvedli</string>
     <string name="search_history_cleared">Zgodovina iskanja je izbrisana.</string>
