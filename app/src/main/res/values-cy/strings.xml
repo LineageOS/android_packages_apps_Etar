@@ -95,6 +95,7 @@
     <string name="hint_what">"Enw'r digwyddiad"</string>
     <string name="hint_where">"Lleoliad"</string>
     <string name="hint_description">"Disgrifiad"</string>
+    <string name="hint_url">"URL"</string>
     <string name="hint_attendees">"Gwesteion"</string>
     <string name="creating_event">"Digwyddiad wedi'i greu."</string>
     <string name="saving_event">"Digwyddiad wedi'i gadw."</string>
@@ -392,6 +393,7 @@
     <string name="preferences_calendar_info_category">Gwybodaeth y calendr</string>
     <string name="preferences_calendar_color">Lliw</string>
     <string name="preferences_calendar_visible">Dangos digwyddiadau</string>
+    <string name="preferences_manage_notifications">Rheoli hysbysiadau</string>
     <string name="preferences_calendar_synchronize">Cysoni\'r calendr hwn</string>
     <string name="preferences_calendar_color_warning_title">Rhybudd</string>
     <string name="preferences_calendar_color_warning_message">Gellir dadwneud newid i\'r lliw pan gaiff y calendr ei gydweddu eto.\n\nYn DAVx⁵ gellir analluogi \'Rheoli lliwiau calendr\' i atal hyn.</string>
@@ -414,5 +416,9 @@
     <string name="preferences_menu_about">Ynghylch Calendr</string>
     <string name="offline_account_name">Calendr All-lein</string>
     <string name="after_start_of_event">ar ôl dechrau digwyddiad</string>
+    <string name="preferences_do_not_check_battery_optimization">Peidio a gwirio optimeiddiad batri</string>
+    <string name="calendars">Calendrau</string>
+    <string name="discard_event_changes">Wyt ti am beidio cadw\'r newidiadau?</string>
+    <string name="discard">Gwaredu</string>
     <string name="cancel">Diddymu</string>
 </resources>
