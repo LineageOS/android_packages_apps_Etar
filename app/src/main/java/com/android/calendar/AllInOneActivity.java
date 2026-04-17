@@ -1235,7 +1235,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
         MaterialPickerOnPositiveButtonClickListener<Long> materialPickerOnPositiveButtonClickListener = new MaterialPickerOnPositiveButtonClickListener<>() {
             @Override
             public void onPositiveButtonClick(Long selection) {
-                Calendar calendar = Calendar.getInstance();
+                Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("UTC"));
                 calendar.setTime(new Date(selection));
 
                 Time selectedTime = new Time(mTimeZone);
@@ -1347,10 +1347,14 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
                 if (event.startTime != null && event.endTime != null) {
                     // Event is all day , adjust the goto time to local time
                     if (event.isAllDay()) {
-                        Utils.convertAlldayUtcToLocal(
-                                event.startTime, event.startTime.toMillis(), mTimeZone);
-                        Utils.convertAlldayUtcToLocal(
-                                event.endTime, event.endTime.toMillis(), mTimeZone);
+                        long start = Utils.convertAlldayUtcToLocal(
+                                null, event.startTime.toMillis(), mTimeZone);
+                        long end = Utils.convertAlldayUtcToLocal(
+                                null, event.endTime.toMillis(), mTimeZone);
+                        event.startTime.setTimezone(mTimeZone);
+                        event.startTime.set(start);
+                        event.endTime.setTimezone(mTimeZone);
+                        event.endTime.set(end);
                     }
                     mController.sendEvent(this, EventType.GO_TO, event.startTime, event.endTime,
                             event.selectedTime, event.id, ViewType.AGENDA,

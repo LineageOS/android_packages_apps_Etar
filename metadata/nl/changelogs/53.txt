@@ -1,0 +1,6 @@
+- Repareer dubbele contactverjaardagsmeldingen
+- Repareer CalDAV-compatibiliteit voor terugkerende gebeurtenissen.
+- Gebruik WorkManager voor een betere afhandeling van meldingen
+- Verander donkere kleur voor beter contrast
+- Repareer "zwarte themakleuren niet geladen"
+- Bugfixes
