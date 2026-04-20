@@ -53,9 +53,9 @@ android_app {
     aaptflags: [
         // DO NOT EDIT THIS SECTION MANUALLY
         "--version-name",
-        "1.0.54",
+        "1.0.55",
         "--version-code",
-        "54",
+        "55",
     ] + [
         "--custom-package",
         "ws.xsoh.etar",
