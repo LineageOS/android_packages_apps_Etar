@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9610a646_a0e96432",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-04-25T17:21:35Z",
+      "side": 1,
+      "message": "Upstream gradle has isMinifyEnabled \u003d false so maybe go for that first",
+      "revId": "5986c4f5eb2ccf95c1db6acf68c35f3e07e58533",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
