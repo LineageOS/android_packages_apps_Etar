@@ -112,7 +112,7 @@
     <string name="email_picker_label">ئیمێڵ له‌گه‌ڵ</string>
     <string name="event_not_found">"ڕووداو نەدۆزرایەوە."</string>
     <string name="map_label">نەخشە</string>
-    <string name="no_map">هیچ ئەپێکی نەخشە جێگیر نەکراوە</string>
+    <string name="no_map">هیچ بەرنامەیەکی نەخشە جێگیر نەکراوە</string>
     <string name="call_label">پەیوەندی کردن</string>
     <string name="quick_response_settings">وه‌ڵامی خێرا</string>
     <string name="quick_response_settings_summary">دەستکاریکردنی وەڵامە بنەڕەتەکان کاتی هاتنی ئیمێڵی میوانان</string>
@@ -291,7 +291,7 @@
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">گۆڕینی بەرواری تەواوبوون</string>
     <string name="user_rejected_calendar_write_permission">ڕۆژژمێر پێویستی بە مۆڵەتی خوێندنەوە و نووسین هەیە بۆ ئەوەی بە دروستی کار بکات. تکایە دووبارە هەوڵ بدەرەوە.</string>
-    <string name="calendar_permission_not_granted">مۆڵەتە پێویستەکان ڕەتکراونەتەوە، لە ڕێکخستنەکانی ئەپەوە چالاکیان بکە بۆ دەستکاریکردنی ڕووداوەکان.</string>
+    <string name="calendar_permission_not_granted">مۆڵەتە پێویستەکان ڕەتکراونەتەوە، لە ڕێکخستنەکانی بەرنامەوە چالاکیان بکە بۆ دەستکاریکردنی ڕووداوەکان.</string>
     <string name="visibility_default">بنەڕەتی</string>
     <string name="visibility_confidential">نهێنی</string>
     <string name="visibility_private">تایبەت</string>
