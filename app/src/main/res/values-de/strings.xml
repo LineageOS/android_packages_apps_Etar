@@ -253,8 +253,8 @@
     <string name="cal_import_menu_title">Importiere Termin</string>
     <string name="cal_import_error_msg">Import zum Kalender ist fehlgeschlagen</string>
     <string name="cal_import_error_date_msg">Datum konnte nicht erkannt werden: %s</string>
-    <string name="cal_export_succ_msg">Termin erfolgreich exportiert: %1$s</string>
-    <string name="cal_export_event_sdcard_title">Export auf SD-Karte</string>
+    <string name="cal_export_succ_msg">Termin erfolgreich exportiert</string>
+    <string name="cal_export_event_title">Termin exportieren</string>
     <string name="rsvp_accepted">Zugesagt.</string>
     <string name="rsvp_declined">Abgelehnt.</string>
     <string name="rsvp_tentative">Vielleicht.</string>
@@ -370,4 +370,7 @@
     <string name="chips_action_copy" msgid="6984158516334578792">"Kopieren"</string>
     <string name="chips_action_cancel" msgid="2582257014578396781">"Abbrechen"</string>
     <string name="chips_permission_text" msgid="5601284803674008863">"Kontaktvorschläge zulassen"</string>
+    <string name="week_start_locale_default">Gebietsschema - Standard</string>
+    <string name="cal_export_success">Termin erfolgreich exportiert</string>
+    <string name="cal_export_error">Termin konnte nicht exportiert werden</string>
 </resources>

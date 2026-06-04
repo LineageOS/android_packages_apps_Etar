@@ -294,7 +294,7 @@
     <string name="preferences_month_view_portrait">Оформление на месечен изглед (портрет)</string>
     <string name="preferences_days_per_week_title">Дни в седмицата</string>
     <string name="one_and_a_half_hours">1.5 часа</string>
-    <string name="cal_export_succ_msg">Събитието е експортирано успешно:%1$s</string>
+    <string name="cal_export_succ_msg">Събитието е изнесено</string>
     <string name="preferences_calendar_account">%1$s акаунт</string>
     <string name="cal_pick_ics">Изберете файл за импортиране</string>
     <string name="preferences_calendar_color_warning_title">Внимание</string>
@@ -308,7 +308,7 @@
     <string name="error_generating_ics">Проблеми, възникнали при споделяне на събитията</string>
     <string name="cal_import_error_time_zone_msg">Не мога да разбера дадената часова зона:%s</string>
     <string name="cal_share_intent_title">Изпрати събитие до:</string>
-    <string name="cal_export_event_sdcard_title">Експортиране в SD карта</string>
+    <string name="cal_export_event_title">Експортиране в SD карта</string>
     <string name="cal_import_menu_title">Импортиране на събитие</string>
     <string name="cal_nothing_to_import">Нищо за импортиране</string>
     <string name="cal_import_error_msg">Импортирането в календара е неуспешно</string>
@@ -360,7 +360,6 @@
     <string name="searchview_description_clear" msgid="1603860069305867810">"Изчистване на заявката"</string>
     <string name="no_results_found" msgid="5475293015394772651">"Няма намерени резултати"</string>
     <string name="palestine_display_name" msgid="3485026339977302148">"Палестина"</string>
-
     <string name="more_string" msgid="643992135011109762">"+ <xliff:g id="COUNT">%1$d</xliff:g>"</string>
     <string name="copy_email" msgid="1084563757174121331">"Копиране на имейл адреса"</string>
     <string name="copy_number" msgid="8860802152973030914">"Копиране на телефонния номер"</string>
@@ -371,4 +370,6 @@
     <string name="chips_action_copy" msgid="6984158516334578792">"Копиране"</string>
     <string name="chips_action_cancel" msgid="2582257014578396781">"Отказ"</string>
     <string name="chips_permission_text" msgid="5601284803674008863">"Разрешаване на предложенията за контакти"</string>
+    <string name="cal_export_success">Събитието е изнесено</string>
+    <string name="cal_export_error">Грешка при изнасяне на събитие</string>
 </resources>
