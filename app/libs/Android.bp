@@ -7,7 +7,7 @@
 
 android_library_import {
     name: "Etar-Calendar_androidx.databinding_viewbinding",
-    aars: ["androidx/databinding/viewbinding/9.1.0/viewbinding-9.1.0.aar"],
+    aars: ["androidx/databinding/viewbinding/9.2.1/viewbinding-9.2.1.aar"],
     sdk_version: "36",
     min_sdk_version: "23",
     apex_available: [
