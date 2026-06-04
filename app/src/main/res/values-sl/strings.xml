@@ -260,7 +260,7 @@
     <string name="goto_date">Pojdi na…</string>
     <string name="share_label">Delite</string>
     <string name="two_hours">2 uri</string>
-    <string name="cal_export_event_sdcard_title">Izvozi na kartico SD</string>
+    <string name="cal_export_event_title">Izvozi na kartico SD</string>
     <string name="foreground_notification_title">Načrtovanje novih opomnikov…</string>
     <string name="no_map">Nameščene ni nobene aplikacije z zemljevidi</string>
     <string name="user_rejected_calendar_write_permission">Etar za pravilno delovanje potrebuje dovoljenja za branje in pisanje koledarja. Prosimo, poskusite znova.</string>
@@ -369,7 +369,6 @@
     <string name="searchview_description_clear" msgid="1603860069305867810">"Izbris poizvedbe"</string>
     <string name="no_results_found" msgid="5475293015394772651">"Ni rezultatov"</string>
     <string name="palestine_display_name" msgid="3485026339977302148">"Palestina"</string>
-
     <string name="more_string" msgid="643992135011109762">"+<xliff:g id="COUNT">%1$d</xliff:g>"</string>
     <string name="copy_email" msgid="1084563757174121331">"Kopiranje e-poštnega naslova"</string>
     <string name="copy_number" msgid="8860802152973030914">"Kopiranje telefonske številke"</string>

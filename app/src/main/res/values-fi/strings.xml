@@ -268,7 +268,7 @@
     <string name="default_start_last">Aiemmin käytetty näkymä</string>
     <string name="error_generating_ics">Ongelmia tapahtuman jakamisessa</string>
     <string name="cal_share_intent_title">Lähetä tapahtuma:</string>
-    <string name="cal_export_event_sdcard_title">Vie SD-kortille</string>
+    <string name="cal_export_event_title">Vie SD-kortille</string>
     <string name="cal_export_succ_msg">Tapahtuma vietiin onnistuneesti: %1$s</string>
     <string name="cal_import_menu_title">Tuo tapahtuma</string>
     <string name="cal_nothing_to_import">Ei mitään tuotavaa</string>
@@ -334,7 +334,6 @@
     <string name="searchview_description_clear" msgid="1603860069305867810">"Tyhjennä kysely"</string>
     <string name="no_results_found" msgid="5475293015394772651">"Ei tuloksia"</string>
     <string name="palestine_display_name" msgid="3485026339977302148">"Palestiina"</string>
-
     <string name="more_string" msgid="643992135011109762">"yli <xliff:g id="COUNT">%1$d</xliff:g>"</string>
     <string name="copy_email" msgid="1084563757174121331">"Kopioi sähköpostiosoite"</string>
     <string name="copy_number" msgid="8860802152973030914">"Kopioi puhelinnumero"</string>

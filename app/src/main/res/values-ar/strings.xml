@@ -374,7 +374,7 @@
     <string name="cal_import_error_date_msg">تعذر فهم التاريخ المحدد: %s</string>
     <string name="cal_import_error_time_zone_msg">تعذر فهم الوقت المحدد: %s</string>
     <string name="cal_import_error_msg">فشل الاستيراد إلى التقويم</string>
-    <string name="cal_export_event_sdcard_title">تصدير إلى بطاقة SD</string>
+    <string name="cal_export_event_title">تصدير إلى بطاقة SD</string>
     <string name="cal_share_intent_title">أرسل الحدث إلى:</string>
     <string name="error_generating_ics">حدثت مشاكل أثناء مشاركة الحدث</string>
     <string name="one_and_a_half_hours">ساعة ونصف</string>
@@ -428,7 +428,6 @@
     <string name="searchview_description_clear" msgid="1603860069305867810">"محو طلب البحث"</string>
     <string name="no_results_found" msgid="5475293015394772651">"لم يتم العثور على نتائج"</string>
     <string name="palestine_display_name" msgid="3485026339977302148">"فلسطين"</string>
-
     <string name="more_string" msgid="643992135011109762">"<xliff:g id="COUNT">%1$d</xliff:g>+"</string>
     <string name="copy_email" msgid="1084563757174121331">"نسخ عنوان البريد الإلكتروني"</string>
     <string name="copy_number" msgid="8860802152973030914">"نسخ رقم الهاتف"</string>

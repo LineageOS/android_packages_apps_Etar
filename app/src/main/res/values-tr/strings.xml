@@ -268,8 +268,8 @@
     <string name="preferences_default_snooze_delay_dialog">Öntanımlı erteleme süresi</string>
     <string name="error_generating_ics">Etkinlik paylaşılırken bir hata oluştu</string>
     <string name="cal_share_intent_title">Etkinliği şuna gönder:</string>
-    <string name="cal_export_event_sdcard_title">SD karta aktar</string>
-    <string name="cal_export_succ_msg">Etkinlik başarıyla dışarıya aktarıldı: %1$s</string>
+    <string name="cal_export_event_title">SD karta aktar</string>
+    <string name="cal_export_succ_msg">Etkinlik başarıyla dışarıya aktarıldı</string>
     <string name="cal_import_menu_title">Etkinliği içeri aktar</string>
     <string name="cal_nothing_to_import">İçeri aktarılacak hiçbir şey yok</string>
     <string name="cal_import_error_msg">Takvime aktarma başarısız oldu</string>
@@ -360,7 +360,6 @@
     <string name="searchview_description_clear" msgid="1603860069305867810">"Sorguyu temizle"</string>
     <string name="no_results_found" msgid="5475293015394772651">"Sonuç bulunamadı"</string>
     <string name="palestine_display_name" msgid="3485026339977302148">"Filistin"</string>
-
     <string name="more_string" msgid="643992135011109762">"+<xliff:g id="COUNT">%1$d</xliff:g>"</string>
     <string name="copy_email" msgid="1084563757174121331">"E-posta adresini kopyala"</string>
     <string name="copy_number" msgid="8860802152973030914">"Telefon numarasını kopyala"</string>
@@ -371,4 +370,6 @@
     <string name="chips_action_copy" msgid="6984158516334578792">"Kopyala"</string>
     <string name="chips_action_cancel" msgid="2582257014578396781">"İptal"</string>
     <string name="chips_permission_text" msgid="5601284803674008863">"Kişi önerilerine izin ver"</string>
+    <string name="cal_export_success">Etkinlik başarıyla dışarıya aktarıldı</string>
+    <string name="cal_export_error">Etkinlik dışa aktarılamadı</string>
 </resources>

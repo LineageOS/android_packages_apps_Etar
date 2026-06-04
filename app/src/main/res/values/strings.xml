@@ -499,6 +499,7 @@
     <string name="preferences_week_start_day_dialog">Week starts on</string>
     <!-- DO NOT TRANSLATE -->
     <string name="preferences_week_start_day_default" translatable="false">-1</string>
+    <string name="week_start_locale_default">Locale default</string>
 
     <string name="preferences_days_per_week_title">Days per week</string>
     <string name="preferences_days_per_week_dialog">Days per week</string>
@@ -751,8 +752,10 @@
 
     <!-- Sharing calendar event -->
     <string name="cal_share_intent_title">Send event to:</string>
-    <string name="cal_export_event_sdcard_title">Export to SD card</string>
-    <string name="cal_export_succ_msg">Event exported successfully: %1$s</string>
+    <string name="cal_export_event_title">Export event</string>
+    <string name="cal_export_success">Event exported successfully</string>
+    <string name="cal_export_error">Failed to export event</string>
+    <string name="cal_export_succ_msg">Event exported successfully</string>
     <string name="cal_import_menu_title">Import event</string>
     <string name="cal_nothing_to_import">Nothing to import</string>
     <string name="cal_import_error_msg">Importing to calendar failed</string>

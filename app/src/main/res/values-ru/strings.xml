@@ -293,8 +293,8 @@
     <string name="default_start_last">Ранее использованный вид</string>
     <string name="error_generating_ics">Возникли проблемы при совместном использовании события</string>
     <string name="cal_share_intent_title">Отправить событие:</string>
-    <string name="cal_export_event_sdcard_title">Экспорт на SD-карту</string>
-    <string name="cal_export_succ_msg">Событие успешно экспортировано: %1$s</string>
+    <string name="cal_export_event_title">Экспорт на SD-карту</string>
+    <string name="cal_export_succ_msg">Событие успешно экспортировано</string>
     <string name="cal_import_menu_title">Импортировать событие</string>
     <string name="cal_nothing_to_import">Нечего импортировать</string>
     <string name="cal_import_error_msg">Ошибка при импортировании в календарь</string>
@@ -387,7 +387,6 @@
     <string name="searchview_description_clear" msgid="1603860069305867810">"Удалить запрос"</string>
     <string name="no_results_found" msgid="5475293015394772651">"Ничего не найдено"</string>
     <string name="palestine_display_name" msgid="3485026339977302148">"Палестина"</string>
-
     <string name="more_string" msgid="643992135011109762">"ещё <xliff:g id="COUNT">%1$d</xliff:g>"</string>
     <string name="copy_email" msgid="1084563757174121331">"Скопировать адрес эл. почты"</string>
     <string name="copy_number" msgid="8860802152973030914">"Скопировать номер телефона"</string>
@@ -398,4 +397,6 @@
     <string name="chips_action_copy" msgid="6984158516334578792">"Скопировать"</string>
     <string name="chips_action_cancel" msgid="2582257014578396781">"Отменить"</string>
     <string name="chips_permission_text" msgid="5601284803674008863">"Разрешить предлагать контакты"</string>
+    <string name="cal_export_success">Событие успешно экспортировано</string>
+    <string name="cal_export_error">Невозможно экспортировать событие</string>
 </resources>

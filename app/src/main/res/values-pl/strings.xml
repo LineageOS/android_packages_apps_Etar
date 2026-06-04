@@ -299,7 +299,7 @@
     <string name="default_start_last">Poprzednio używany widok</string>
     <string name="error_generating_ics">Podczas udostępniania wydarzenia wystąpiły problemy</string>
     <string name="cal_share_intent_title">Wyślij wydarzenie do:</string>
-    <string name="cal_export_event_sdcard_title">Eksportuj na kartę SD</string>
+    <string name="cal_export_event_title">Eksportuj na kartę SD</string>
     <string name="cal_import_menu_title">Importuj wydarzenie</string>
     <string name="cal_nothing_to_import">Nic do zaimportowania</string>
     <string name="cal_import_error_msg">Importowanie do kalendarza nie powiodło się</string>
@@ -390,7 +390,6 @@
     <string name="searchview_description_clear" msgid="1603860069305867810">"Wyczyść zapytanie"</string>
     <string name="no_results_found" msgid="5475293015394772651">"Nie znaleziono wyników"</string>
     <string name="palestine_display_name" msgid="3485026339977302148">"Palestyna"</string>
-
     <string name="more_string" msgid="643992135011109762">"+<xliff:g id="COUNT">%1$d</xliff:g>"</string>
     <string name="copy_email" msgid="1084563757174121331">"Kopiuj adres e-mail"</string>
     <string name="copy_number" msgid="8860802152973030914">"Kopiuj numer telefonu"</string>
