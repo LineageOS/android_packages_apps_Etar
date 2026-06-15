@@ -41,7 +41,7 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> رۆژ</item>
     </plurals>
     <plurals name="Nweeks">
-        <item quantity="one">١ هەفتە</item>
+        <item quantity="one">1 هەفتە</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> هەفتە</item>
     </plurals>
     <plurals name="weekN">
@@ -153,10 +153,10 @@
         <item quantity="one">ڕۆژانە</item>
         <item quantity="other">هەر <xliff:g id="number">%d</xliff:g> ڕۆژێک</item>
     </plurals>
-    <string name="every_weekday">"هەموو ڕۆژانی حەوتە (د.ش\u2013هەینی)"</string>
+    <string name="every_weekday">"هەموو ڕۆژانی هەفتە (د.ش\u2013هەینی)"</string>
     <plurals name="weekly">
         <item quantity="one">هەفتانە لە ڕۆژی <xliff:g id="days_of_week">%2$s</xliff:g></item>
-        <item quantity="other">هەر <xliff:g id="number">%1$d</xliff:g> حەوتەیەک لە ڕۆژی <xliff:g id="days_of_week">%2$s</xliff:g></item>
+        <item quantity="other">هەر <xliff:g id="number">%1$d</xliff:g> هەفتەیەک لە ڕۆژی <xliff:g id="days_of_week">%2$s</xliff:g></item>
     </plurals>
     <string name="monthly">مانگانە</string>
     <string name="yearly_plain">ساڵانه‌</string>
@@ -190,8 +190,8 @@
     <string name="display_location">پیشاندانی شوێن</string>
     <string name="maximum_number_of_lines">زۆرترین ژمارەی دێڕەکان لە ڕووداودا</string>
     <string name="default_start_last">کۆتا بینین کە بەکارهاتووە</string>
-    <string name="preferences_week_start_day_title">حەوتە دەستپێدەکات لە</string>
-    <string name="preferences_week_start_day_dialog">حەوتە دەستپێدەکات لە</string>
+    <string name="preferences_week_start_day_title">هەفتە دەستپێدەکات لە</string>
+    <string name="preferences_week_start_day_dialog">هەفتە دەستپێدەکات لە</string>
     <string name="preferences_days_per_week_title">ژمارەی ڕۆژ لە هەفتەیەکدا</string>
     <string name="preferences_days_per_week_dialog">ژمارەی ڕۆژ لە هەفتەیەکدا</string>
     <string name="preferences_default_event_duration_title">ماوەی بنەڕەتیی ڕووداو</string>
@@ -208,23 +208,23 @@
     <string name="preferences_use_home_tz_title">بەکارهێنانی کاتی ناوخۆ</string>
     <string name="preferences_use_home_tz_descrip">پیشاندانی رۆژژمێرەکان و ڕووداوەکان بە کاتی ناوخۆ لە کاتی گەشت کردن</string>
     <string name="preferences_home_tz_title">کاتی ناوخۆیی وڵات</string>
-    <string name="preferences_show_week_num_title">ژمارەی حەوتە پیشان بدە</string>
+    <string name="preferences_show_week_num_title">ژمارەی هەفتە پیشان بدە</string>
     <string name="preferences_alerts_custom_snooze_delay_title">پرسیارکردن دەربارەی دواخستنی بیرهێنەرەوە</string>
-    <string name="preferences_alerts_custom_snooze_delay_summary_on">کاتی خەواندنی زەنگ بپرسە لە کاتی بیرهێنانەوەدا</string>
-    <string name="preferences_alerts_custom_snooze_delay_summary_off">هەمیشە کاتی بنەڕەتیی خەواندن بەکاربهێنە</string>
-    <string name="snooze_delay_dialog_title">دانانی ماوەی خەواندن (Snooze)</string>
-    <string name="preferences_default_snooze_delay_title">کاتی بنەڕەتیی خەواندن</string>
-    <string name="preferences_default_snooze_delay_dialog">کاتی بنەڕەتیی خەواندن</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">کاتی دواخستنی زەنگ بپرسە لە کاتی بیرهێنانەوەدا</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">هەمیشە ماوەی دواخستنی بنەڕەتی بەکاربهێنە</string>
+    <string name="snooze_delay_dialog_title">دانانی ماوەی دواخستن (Snooze)</string>
+    <string name="preferences_default_snooze_delay_title">کاتی بنەڕەتیی دواخستن</string>
+    <string name="preferences_default_snooze_delay_dialog">کاتی بنەڕەتیی دواخستن</string>
     <string name="app_copyright"><string name="app_copyright">
-مافی لەبەرگرتنەوە \u00a9 ٢٠١٥-
+مافی لەبەرگرتنەوە \u00a9 2015-
 <xliff:g>%1$s</xliff:g>
- پڕۆژەی Etar. بەشەکانی \u00a9 ٢٠٠٥-
+ پڕۆژەی Etar. بەشەکانی \u00a9 2005-
 <xliff:g>%1$s</xliff:g>
  پڕۆژەی سەرچاوە کراوەی ئەندرۆید (AOSP).
 </string></string>
     <string name="authors">نووسەران</string>
     <string name="changelog">گۆڕانکارییەکان</string>
-    <string name="license">مۆڵەت (License)</string>
+    <string name="license">مافنامە</string>
     <string name="preferences_build_version">وەشانی سازکراو</string>
     <string name="preferences_issues">ڕاپۆرتکردنی کێشەکان</string>
     <string name="source_code">سەرچاوە</string>
@@ -269,8 +269,8 @@
         <item quantity="other">هەر <xliff:g id="count">%d</xliff:g> ڕۆژ</item>
     </plurals>
     <plurals name="recurrence_interval_weekly">
-        <item quantity="one">هەر <xliff:g id="count">%d</xliff:g> حەوتە</item>
-        <item quantity="other">هەر <xliff:g id="count">%d</xliff:g> حەوتە</item>
+        <item quantity="one">هەر <xliff:g id="count">%d</xliff:g> هەفتە</item>
+        <item quantity="other">هەر <xliff:g id="count">%d</xliff:g> هەفتە</item>
     </plurals>
     <plurals name="recurrence_interval_monthly">
         <item quantity="one">هەر <xliff:g id="count">%d</xliff:g> مانگ</item>
@@ -290,24 +290,24 @@
         <item quantity="other">بۆ <xliff:g id="event_count">%d</xliff:g> ڕووداو</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">گۆڕینی بەرواری تەواوبوون</string>
-    <string name="user_rejected_calendar_write_permission">ڕۆژژمێر پێویستی بە مۆڵەتی خوێندنەوە و نووسین هەیە بۆ ئەوەی بە دروستی کار بکات. تکایە دووبارە هەوڵ بدەرەوە.</string>
-    <string name="calendar_permission_not_granted">مۆڵەتە پێویستەکان ڕەتکراونەتەوە، لە ڕێکخستنەکانی بەرنامەوە چالاکیان بکە بۆ دەستکاریکردنی ڕووداوەکان.</string>
+    <string name="user_rejected_calendar_write_permission">ڕۆژژمێر پێویستی بە ڕێپێدانی خوێندنەوە و نووسین هەیە بۆ ئەوەی بە دروستی کار بکات. تکایە دووبارە هەوڵ بدەرەوە.</string>
+    <string name="calendar_permission_not_granted">ڕێپێدانە پێویستەکان ڕەتکراونەتەوە، لە ڕێکخستنەکانی بەرنامەوە چالاکیان بکە بۆ دەستکاریکردنی ڕووداوەکان.</string>
     <string name="visibility_default">بنەڕەتی</string>
     <string name="visibility_confidential">نهێنی</string>
     <string name="visibility_private">تایبەت</string>
     <string name="visibility_public">گشتی</string>
-    <string name="two_days">٢ ڕۆژ</string>
-    <string name="three_days">٣ ڕۆژ</string>
-    <string name="four_days">٤ ڕۆژ</string>
-    <string name="five_days">٥ ڕۆژ</string>
-    <string name="six_days">٦ ڕۆژ</string>
-    <string name="seven_days">٧ ڕۆژ</string>
-    <string name="zero_minutes">٠ خولەک</string>
-    <string name="fifteen_minutes">١٥ خولەک</string>
-    <string name="thirty_minutes">٣٠ خولەک</string>
-    <string name="one_hour">١ کاتژمێر</string>
-    <string name="one_and_a_half_hours">١.٥ کاتژمێر</string>
-    <string name="two_hours">٢ کاتژمێر</string>
+    <string name="two_days">2 ڕۆژ</string>
+    <string name="three_days">3 ڕۆژ</string>
+    <string name="four_days">4 ڕۆژ</string>
+    <string name="five_days">5 ڕۆژ</string>
+    <string name="six_days">6 ڕۆژ</string>
+    <string name="seven_days">7 ڕۆژ</string>
+    <string name="zero_minutes">0 خولەک</string>
+    <string name="fifteen_minutes">15 خولەک</string>
+    <string name="thirty_minutes">30 خولەک</string>
+    <string name="one_hour">1 کاتژمێر</string>
+    <string name="one_and_a_half_hours">1.5 کاتژمێر</string>
+    <string name="two_hours">2 کاتژمێر</string>
     <string name="error_generating_ics">کێشە لە هاوبەشکردنی ڕووداوەکەدا ڕوویدا</string>
     <string name="cal_share_intent_title">ناردنی ڕووداو بۆ:</string>
     <string name="cal_export_event_sdcard_title">هەناردەکردن بۆ SD card</string>
@@ -356,7 +356,7 @@
     <string name="offline_account_name">ڕۆژژمێری ئۆفلاین</string>
     <string name="after_start_of_event">دوای دەستپێکردنی ڕووداوەکە</string>
     <string name="preferences_do_not_check_battery_optimization">پشکنینی باشترکردنی باتری مەکە</string>
-    <string name="preferences_do_not_check_battery_optimization_summary">بەرپرسیارییەتییەکە لەسەر خۆتە! ڕەنگە ئاگادارکردنەوەکان و ویجێت کار نەکەن.</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">بە بەرپرسیارێتی خۆت بەکاری بهێنە! ئاگادارکردنەوەکان چیتر کار ناکەن، بەرنامۆچکەکان نوێ نابنەوە و ڕاژەکانی پشتخان پەکیان دەکەوێت. بەڵام چیتر پرسیارت لێ ناکرێتەوە بۆ چالاککردنی ڕاژەی پشتخانەکە.</string>
     <string name="calendars">ڕۆژژمێرەکان</string>
     <string name="discard_event_changes">دەتەوێت گۆڕانکارییەکان فڕێ بدەیت؟</string>
     <string name="discard">فڕێدان</string>
