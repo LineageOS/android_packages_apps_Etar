@@ -130,7 +130,7 @@
     <string name="quick_response_settings_summary">Uredite privzete odzive za pošiljanje e-pošte gostom</string>
     <string name="quick_response_settings_edit_title">Hiter odziv</string>
     <string name="quick_response_dialog_title">Izberite hiter odziv</string>
-    <string name="quick_response_email_failed">Iskanje programa za e-pošto je spodletelo</string>
+    <string name="quick_response_email_failed">Iskanje programa za e-pošto ni uspelo</string>
     <string-array name="quick_response_defaults">
         <item>Čisto malo zamujam.</item>
         <item>Pridem čez 10 minut.</item>
@@ -342,7 +342,7 @@
     <string name="cal_export_succ_msg">Dogodek uspešno izvožen: %1$s</string>
     <string name="cal_import_menu_title">Uvozi dogodek</string>
     <string name="cal_nothing_to_import">Ničesar ni za uvoziti</string>
-    <string name="cal_import_error_msg">Uvoz v koledar je spodletel</string>
+    <string name="cal_import_error_msg">Uvažanje v koledar ni uspelo</string>
     <string name="cal_import_error_time_zone_msg">Danega časovnega pasa ni mogoče razumeti: %s</string>
     <string name="cal_import_error_date_msg">Danega datuma ni mogoče razumeti: %s</string>
     <string name="cal_pick_ics">Izberite datoteko za uvoz</string>

@@ -79,7 +79,8 @@
     <string name="alert_title">日曆通知</string>
     <string name="foreground_notification_title">新提醒安排中…</string>
     <string name="foreground_notification_channel_name">後台任務</string>
-    <string name="foreground_notification_channel_description">內部同步所需的通知。您可以安全地隱藏此頻道。</string>
+    <string name="foreground_notification_channel_description">內部同步所需的通知。您可以安全地隱藏此頻道。
+</string>
     <string name="event_info_title">檢視活動</string>
     <string name="event_info_title_invite">會議邀請</string>
     <string name="edit_event_all_day_label">全天</string>
