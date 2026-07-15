@@ -218,7 +218,7 @@
     <string name="authors">Höfundar</string>
     <string name="changelog">Breytingaskrá</string>
     <string name="license">Notkunarleyfi</string>
-    <string name="preferences_build_version">Útgáfa smíðar</string>
+    <string name="preferences_build_version">Útgáfa samsetningar</string>
     <string name="preferences_issues">Tilkynna vandamál</string>
     <string name="source_code">Frumkóði</string>
     <plurals name="month_more_events">

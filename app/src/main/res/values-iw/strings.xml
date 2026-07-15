@@ -384,7 +384,8 @@
     <string name="offline_account_name">יומן לא מקוון</string>
     <string name="after_start_of_event">לאחר תחילת האירוע</string>
     <string name="preferences_do_not_check_battery_optimization">לא לבדוק אופטימיזציה של הסוללה</string>
-    <string name="preferences_do_not_check_battery_optimization_summary">השימוש באחריותך בלבד! ההתראות לא יעבדו, הווידג\'ט לא יתעדכן ושירותי הרקע יקרסו. ואף לא נשאל שוב אם ברצונך להפעיל את שירות הרקע.</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">השימוש באחריותך בלבד! ההתראות לא יעבדו, הווידג\'ט לא יתעדכן ושירותי הרקע יקרסו. ואף לא נשאל שוב אם ברצונך להפעיל את שירות הרקע.
+</string>
     <string name="calendars">יומנים</string>
     <string name="discard_event_changes">האם ברצונך לבטל את השינויים?</string>
     <string name="discard">ביטול</string>
