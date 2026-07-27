@@ -48,7 +48,7 @@ android_app {
         proguard_flags_files: ["proguard-rules.pro"],
     },
 
-    sdk_version: "37",
+    sdk_version: "36",
 
     aaptflags: [
         // DO NOT EDIT THIS SECTION MANUALLY
