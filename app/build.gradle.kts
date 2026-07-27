@@ -23,7 +23,7 @@ android {
 
 	defaultConfig {
 		minSdk = 23
-		targetSdk = 37
+		targetSdk = 36
 		versionCode = 57
 		versionName = "1.0.57"
 		applicationId = "ws.xsoh.etar"
