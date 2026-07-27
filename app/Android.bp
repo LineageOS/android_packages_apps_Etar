@@ -48,14 +48,14 @@ android_app {
         proguard_flags_files: ["proguard-rules.pro"],
     },
 
-    sdk_version: "36",
+    sdk_version: "37",
 
     aaptflags: [
         // DO NOT EDIT THIS SECTION MANUALLY
         "--version-name",
-        "1.0.56",
+        "1.0.57",
         "--version-code",
-        "56",
+        "57",
     ] + [
         "--custom-package",
         "ws.xsoh.etar",
