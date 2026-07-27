@@ -177,10 +177,10 @@ public class AlertUtils {
                 startMillis, flags));
 
         if (!allDay && tz != Utils.getCurrentTimezone()) {
-            // Assumes time was set to the current tz
-            time.set(startMillis);
-            sb.append(" ").append(TimeZone.getTimeZone(tz).getDisplayName(
-                    false, TimeZone.SHORT, Locale.getDefault()));
+            TimeZone displayTz = TimeZone.getTimeZone(tz);
+            sb.append(" ").append(displayTz.getDisplayName(
+                    displayTz.inDaylightTime(new java.util.Date(startMillis)),
+                    TimeZone.SHORT, Locale.getDefault()));
         }
 
         if (eventDay == today + 1) {

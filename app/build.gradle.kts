@@ -19,13 +19,13 @@ kotlin {
 android {
 	namespace = "ws.xsoh.etar"
 	testNamespace = "com.android.calendar.tests"
-	compileSdk = 36
+	compileSdk = 37
 
 	defaultConfig {
 		minSdk = 23
-		targetSdk = 36
-		versionCode = 56
-		versionName = "1.0.56"
+		targetSdk = 37
+		versionCode = 57
+		versionName = "1.0.57"
 		applicationId = "ws.xsoh.etar"
 		testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 	}
