@@ -61,7 +61,7 @@
         <item quantity="other">Tydzień: <xliff:g id="count">%d</xliff:g></item>
     </plurals>
     <string name="calendar_refresh">"Odśwież"</string>
-    <string name="show_day_view">"Pokaż dzień"</string>
+    <string name="show_day_view">"Pokazuj dzień"</string>
     <string name="agenda_view">"Plan dnia"</string>
     <string name="day_view">"Dzień"</string>
     <string name="week_view">"Tydzień"</string>
