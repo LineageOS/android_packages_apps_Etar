@@ -284,8 +284,8 @@
         <item quantity="other">Hər <xliff:g id="EVENT_COUNT">%d</xliff:g> tədbir</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">son tarixi dəyiş</string>
-    <string name="user_rejected_calendar_write_permission">Təqvim, normal işləməsi üçün oxuma və yazma icazəsi tələb edir. Lütfən yenidən sınayın.</string>
-    <string name="calendar_permission_not_granted">Tələb edilən icazələr rədd edildi, tədbirlərə düzəliş etmək üçün Ayarlardan icazələri fəallaşdırın.</string>
+    <string name="user_rejected_calendar_write_permission">Təqvim, normal işləməsi üçün oxuma və yazma izinlərini tələb edir. Lütfən yenidən sınayın.</string>
+    <string name="calendar_permission_not_granted">Tələb edilən izinlər rədd edildi, tədbirlərə düzəliş etmək üçün Ayarlardan izinləri fəallaşdırın.</string>
     <string name="visibility_default">İlkin</string>
     <string name="visibility_confidential">Gizli</string>
     <string name="visibility_private">Məxfi</string>
