@@ -27,37 +27,31 @@
     <plurals name="Nminutes">
         <item quantity="one">דקה אחת</item>
         <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> דקות</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> דקות</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> דקות</item>
     </plurals>
     <plurals name="Nmins">
         <item quantity="one">דקה אחת</item>
         <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> דקות</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> דקות</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> דקות</item>
     </plurals>
     <plurals name="Nhours">
         <item quantity="one">שעה אחת</item>
         <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> שעות</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> שעות</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> שעות</item>
     </plurals>
     <plurals name="Ndays">
         <item quantity="one">יום אחד</item>
         <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> ימים</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> ימים</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ימים</item>
     </plurals>
     <plurals name="Nweeks">
         <item quantity="one">שבוע</item>
         <item quantity="two">שבועיים</item>
-        <item quantity="many"><xliff:g id="count">%d</xliff:g> שבועות</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> שבועות</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="one">שבוע <xliff:g id="count">%d</xliff:g></item>
         <item quantity="two">שבוע <xliff:g id="count">%d</xliff:g></item>
-        <item quantity="many">שבוע <xliff:g id="count">%d</xliff:g></item>
         <item quantity="other">שבוע <xliff:g id="count">%d</xliff:g></item>
     </plurals>
     <string name="calendar_refresh">"ריענון"</string>
@@ -106,7 +100,7 @@
     <string name="privacy_label">פרטיות</string>
     <string name="reminders_label">הוספת תזכורת</string>
     <string name="no_syncable_calendars">אין יומנים</string>
-    <string name="no_calendars_found">לפני שניתן להוסיף אירוע, נדרש להוסיף יומן אחד לפחות להתקן שלך</string>
+    <string name="no_calendars_found">לפני שניתן להוסיף אירוע, נדרש להוסיף יומן אחד לפחות למכשיר שלך</string>
     <string name="add_calendar">הוספת יומן</string>
     <string name="view_event_calendar_label">יומן:</string>
     <string name="view_event_organizer_label">מארגן:</string>
@@ -160,20 +154,17 @@
     <plurals name="endByCount">
         <item quantity="one">; פעם אחת</item>
         <item quantity="two">; <xliff:g id="NUMBER">%d</xliff:g> פעמים</item>
-        <item quantity="many">; <xliff:g id="NUMBER">%d</xliff:g> פעמים</item>
         <item quantity="other">; <xliff:g id="NUMBER">%d</xliff:g> פעמים</item>
     </plurals>
     <plurals name="daily">
         <item quantity="one">יומי</item>
         <item quantity="two">כל <xliff:g id="NUMBER">%d</xliff:g> ימים</item>
-        <item quantity="many">כל <xliff:g id="NUMBER">%d</xliff:g> ימים</item>
         <item quantity="other">כל <xliff:g id="NUMBER">%d</xliff:g> ימים</item>
     </plurals>
     <string name="every_weekday">"כל יום חול (ראשון\u2013חמישי)"</string>
     <plurals name="weekly">
         <item quantity="one">שבועי ביום <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
         <item quantity="two">כל <xliff:g id="NUMBER">%1$d</xliff:g> שבועות ביום <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
-        <item quantity="many">כל <xliff:g id="NUMBER">%1$d</xliff:g> שבועות ביום <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
         <item quantity="other">כל <xliff:g id="NUMBER">%1$d</xliff:g> שבועות ביום <xliff:g id="DAYS_OF_WEEK">%2$s</xliff:g></item>
     </plurals>
     <string name="monthly">כל חודש</string>
@@ -243,7 +234,6 @@
     <plurals name="month_more_events">
         <item quantity="one">"+1"</item>
         <item quantity="two">+<xliff:g id="NUMBER">%d</xliff:g></item>
-        <item quantity="many">+<xliff:g id="NUMBER">%d</xliff:g></item>
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
     </plurals>
     <string name="gadget_no_events">אין אירועים צפויים ביומן</string>
@@ -272,38 +262,32 @@
     <plurals name="Nevents">
         <item quantity="one">אירוע אחד</item>
         <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> אירועים</item>
-        <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> אירועים</item>
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> אירועים</item>
     </plurals>
     <plurals name="N_remaining_events">
         <item quantity="one">+אירוע אחד</item>
         <item quantity="two">+<xliff:g id="COUNT">%d</xliff:g> אירועים</item>
-        <item quantity="many">+<xliff:g id="COUNT">%d</xliff:g> אירועים</item>
         <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> אירועים</item>
     </plurals>
     <string name="acessibility_selected_marker_description">אירוע נבחר</string>
     <plurals name="recurrence_interval_daily">
         <item quantity="one">כל יום <xliff:g id="COUNT">%d</xliff:g></item>
         <item quantity="two">כל <xliff:g id="COUNT">%d</xliff:g> ימים</item>
-        <item quantity="many">כל <xliff:g id="COUNT">%d</xliff:g> ימים</item>
         <item quantity="other">כל <xliff:g id="COUNT">%d</xliff:g> ימים</item>
     </plurals>
     <plurals name="recurrence_interval_weekly">
         <item quantity="one">כל שבוע <xliff:g id="COUNT">%d</xliff:g></item>
         <item quantity="two">כל <xliff:g id="COUNT">%d</xliff:g> שבועות</item>
-        <item quantity="many">כל <xliff:g id="COUNT">%d</xliff:g> שבועות</item>
         <item quantity="other">כל <xliff:g id="COUNT">%d</xliff:g> שבועות</item>
     </plurals>
     <plurals name="recurrence_interval_monthly">
         <item quantity="one">כל חודש <xliff:g id="COUNT">%d</xliff:g></item>
         <item quantity="two">כל <xliff:g id="COUNT">%d</xliff:g> חודשים</item>
-        <item quantity="many">כל <xliff:g id="COUNT">%d</xliff:g> חודשים</item>
         <item quantity="other">כל <xliff:g id="COUNT">%d</xliff:g> חודשים</item>
     </plurals>
     <plurals name="recurrence_interval_yearly">
         <item quantity="one">כל שנה <xliff:g id="count">%d</xliff:g></item>
         <item quantity="two">כל <xliff:g id="count">%d</xliff:g> שנים</item>
-        <item quantity="many">כל <xliff:g id="count">%d</xliff:g> שנים</item>
         <item quantity="other">כל <xliff:g id="count">%d</xliff:g> שנים</item>
     </plurals>
     <string name="recurrence_month_pattern_by_day">באותו יום בכל חודש</string>
@@ -314,7 +298,6 @@
     <plurals name="recurrence_end_count">
         <item quantity="one">עבור אירוע <xliff:g id="EVENT_COUNT">%d</xliff:g></item>
         <item quantity="two">עבור <xliff:g id="EVENT_COUNT">%d</xliff:g> אירועים</item>
-        <item quantity="many">עבור <xliff:g id="EVENT_COUNT">%d</xliff:g> אירועים</item>
         <item quantity="other">עבור <xliff:g id="EVENT_COUNT">%d</xliff:g> אירועים</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">שינוי של תאריך הסיום</string>
@@ -376,7 +359,7 @@
     <string name="preferences_list_add_offline">הוספת יומן לא מקוון</string>
     <string name="preferences_list_add_offline_title">הוספת יומן לא מקוון</string>
     <string name="preferences_list_add_offline_error_empty">יש להזין שם ליומן!</string>
-    <string name="preferences_list_add_offline_message">יומנים לא מקוונים אינם מסונכרנים עם שירות הענן וזמינים רק בהתקנך.</string>
+    <string name="preferences_list_add_offline_message">יומנים לא מקוונים אינם מסונכרנים עם שירות הענן וזמינים רק בטלפון שלך.</string>
     <string name="preferences_list_add_offline_button">הוספת יומן</string>
     <string name="preferences_list_add_offline_name">שם</string>
     <string name="preferences_list_add_offline_cancel">ביטול</string>
