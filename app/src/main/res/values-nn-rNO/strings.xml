@@ -341,7 +341,7 @@
     <string name="preferences_list_add_remote_etesync">Legg til EteSync-kalender</string>
     <string name="preferences_list_add_offline">Legg til fråkopla kalender</string>
     <string name="preferences_list_add_offline_title">Legg til fråkopla kalender</string>
-    <string name="preferences_list_add_offline_error_empty">Skriv inn eit kalendarnamn!</string>
+    <string name="preferences_list_add_offline_error_empty">Skriv eit kalendarnamn!</string>
     <string name="preferences_list_add_offline_message">Fråkopla kalenderar vert IKKJE synkroniserte med ei skytenteeste, og er berre tilgjengelege på telefonen din.</string>
     <string name="preferences_list_add_offline_button">Legg til kalender</string>
     <string name="preferences_list_add_offline_name">Namn</string>
