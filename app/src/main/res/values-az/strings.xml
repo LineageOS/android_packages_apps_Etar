@@ -135,7 +135,7 @@
     <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> seçimindən əvvəlki tədbirləri görmək üçün toxunun</string>
     <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> seçimindən sonrakı tədbirləri görmək üçün toxunun</string>
     <string name="search_title">Təqvimlərimdə axtar</string>
-    <string name="edit_event_label">"Detallar"</string>
+    <string name="edit_event_label">"Ayrıntılar"</string>
     <string name="edit_label">"Redaktə et"</string>
     <string name="delete_label">"Sil"</string>
     <string name="duplicate_label">Dublikat</string>
@@ -185,7 +185,7 @@
     <string name="preferences_reminder_title">Bildirişlər &amp; xatırladıcılar</string>
     <string name="preferences_hide_declined_title">Rədd edilmiş tədbirləri gizlət</string>
     <string name="default_start_title">İlkin görünüş</string>
-    <string name="display_options">Görüntü seçimləri</string>
+    <string name="display_options">Görüntü seçənəkləri</string>
     <string name="display_time">Görüntü müddəti</string>
     <string name="display_location">Görüntü yerləşməsi</string>
     <string name="maximum_number_of_lines">Tədbirdə maksimal sətir sayı</string>
@@ -196,7 +196,7 @@
     <string name="preferences_days_per_week_dialog">Həftə başına gün</string>
     <string name="preferences_default_event_duration_title">İlkin tədbir müddəti</string>
     <string name="preferences_clear_search_history_title">Axtarış tarixçəsini təmizlə</string>
-    <string name="preferences_clear_search_history_summary">Bütün axtarışlarınızı silin</string>
+    <string name="preferences_clear_search_history_summary">Etdiyiniz bütün axtarışları silin</string>
     <string name="search_history_cleared">Axtarış tarixçəsi təmizləndi.</string>
     <string name="preferences_alerts_title">Bildirişlər</string>
     <string name="preferences_alerts_vibrateWhen_title">Vibrasiya etdir</string>
@@ -232,7 +232,7 @@
     <string name="preferences_reminders_responded_dialog">Xatırladıcıları keç</string>
     <string name="copy_db">Veri bazasına göndər</string>
     <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> axtarılır…</string>
-    <string name="accessibility_remove_attendee">İştirakçını sil</string>
+    <string name="accessibility_remove_attendee">İştirakçını kənarlaşdır</string>
     <string name="accessibility_pick_start_date">Başlama tarixi</string>
     <string name="accessibility_pick_start_time">Başlama vaxtı</string>
     <string name="accessibility_pick_end_date">Bitmə tarixi</string>
