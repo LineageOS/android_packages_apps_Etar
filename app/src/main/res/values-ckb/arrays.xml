@@ -16,7 +16,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string-array name="reminder_methods_labels">
         <item>ئاگادارییەکان</item>
-        <item>ئیمەیڵ</item>
+        <item>پۆستی ئەلیکترۆنی</item>
         <item>کورتەنامە</item>
         <item>وریاکەرەوە</item>
     </string-array>
@@ -28,8 +28,8 @@
     </string-array>
     <string-array name="availability">
         <item>سەرقاڵ</item>
-        <item>له‌کاره‌</item>
-        <item>ديارىنەكراو</item>
+        <item>لەکارە</item>
+        <item>دیارینەکراو</item>
     </string-array>
     <string-array name="response_labels1">
         <item>وەڵام نیە</item>
@@ -57,38 +57,38 @@
         <item>ئەگەر پوچەڵکرایەوە یان وەڵام نەدرایەوە</item>
     </string-array>
     <string-array name="recurrence_freq">
-        <item>دوباره‌ كردنه‌وه‌ی ڕۆژانه‌</item>
-        <item>دوباره‌ كردنه‌وه‌ی هه‌فتانه‌</item>
-        <item>دوباره‌ كردنه‌وه‌ی مانگانه‌</item>
-        <item> دوباره‌ كردنه‌وه‌ی ساڵانه‌</item>
+        <item>دووبارەکردنەوەی ڕۆژانە</item>
+        <item>دووبارەکردنەوەی هەفتانە</item>
+        <item>دووبارەکردنەوەی مانگانە</item>
+        <item> دووبارەکردنەوەی ساڵانە</item>
     </string-array>
     <string-array name="repeat_by_nth_sun">
-        <item>له‌ هه‌ر یه‌كه‌م ڕۆژی یه‌كشه‌مه‌دا</item>
-        <item>له‌ هه‌ر دووه‌م ڕۆژی یه‌كشه‌مه‌دا</item>
-        <item>له‌ هه‌ر سێهه‌م ڕۆژی یه‌كشه‌مه‌دا</item>
-        <item>له‌ هه‌ر چواره‌م ڕۆژی یه‌كشه‌مه‌دا</item>
-        <item>له‌ كۆتایی ڕۆژی یه‌كشه‌مه‌دا</item>
+        <item>لە هەر یەکەم ڕۆژی یەکشەممەدا</item>
+        <item>لە هەر دووەم ڕۆژی یەکشەممەدا</item>
+        <item>لە هەر سێیەم ڕۆژی یەکشەممەدا</item>
+        <item>لە هەر چوارەم ڕۆژی یەکشەممەدا</item>
+        <item>لە کۆتایی ڕۆژی یەکشەممەدا</item>
     </string-array>
     <string-array name="repeat_by_nth_mon">
-        <item>له‌ هه‌ر یه‌كه‌م ڕۆژی دوو شه‌مه‌دا</item>
+        <item>لە هەر یەکەم ڕۆژی دووشەممەدا</item>
         <item>لە هەر یەکێک نا یەکێک دوشەممانەدا</item>
-        <item>له‌ هه‌ر سێهه‌م ڕۆژی دوو شه‌مه‌دا</item>
-        <item>له‌ هه‌ر چواره‌م ڕۆژی دوو شه‌مه‌دا</item>
-        <item>له‌ كۆتایی هه‌ر دوو شه‌مه‌یه‌كدا</item>
+        <item>لە هەر سێیەم ڕۆژی دووشەممەدا</item>
+        <item>لە هەر چوارەم ڕۆژی دووشەممەدا</item>
+        <item>لە کۆتایی هەر دووشەممەیەکدا</item>
     </string-array>
     <string-array name="repeat_by_nth_tues">
-        <item>له‌ هه‌ر یه‌كه‌م ڕۆژی سێ شه‌مه‌دا</item>
-        <item>له‌ هه‌ردووه‌م ڕۆژی سێ شه‌مه‌دا</item>
-        <item>له‌ هه‌ر سێهه‌م ڕۆژی سێ شه‌مه‌دا</item>
-        <item>له‌ هه‌ر چواره‌م ڕۆژی سێ شه‌مه‌دا</item>
-        <item>له‌ كۆتایی هه‌ر سێشه‌مه‌یه‌كدا</item>
+        <item>لە هەر یەکەم ڕۆژی سێشەممەدا</item>
+        <item>لە هەردووەم ڕۆژی سێشەممەدا</item>
+        <item>لە هەر سێیەم ڕۆژی سێشەممەدا</item>
+        <item>لە هەر چوارەم ڕۆژی سێشەممەدا</item>
+        <item>لە کۆتایی هەر سێشەممەیەکدا</item>
     </string-array>
     <string-array name="repeat_by_nth_wed">
-        <item>له‌ هه‌ر یه‌كه‌م ڕۆژی چوار شه‌مه‌دا</item>
-        <item>له‌ هه‌ر دووه‌م ڕۆژی چوار شه‌مه‌دا</item>
-        <item>له‌ هه‌ر سێهه‌م ڕۆژی چوار شه‌مه‌دا</item>
-        <item>له‌ كۆتایی هه‌ر چوار شه‌مه‌یه‌كدا</item>
-        <item>لە کۆتای هەموو چوارشەمەیەک</item>
+        <item>لە هەر یەکەم ڕۆژی چوارشەممەدا</item>
+        <item>لە هەر دووەم ڕۆژی چوارشەممەدا</item>
+        <item>لە هەر سێیەم ڕۆژی چوارشەممەدا</item>
+        <item>لە کۆتایی هەر چوارشەممەیەکدا</item>
+        <item>لە کۆتای هەموو چوارشەممەیەک</item>
     </string-array>
     <string-array name="repeat_by_nth_thurs">
         <item>لە کۆتای هەموو 5 شەمەیەک</item>
