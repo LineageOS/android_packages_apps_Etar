@@ -189,7 +189,7 @@
     <string name="display_time">Apresentar hora</string>
     <string name="display_location">Mostrar localização</string>
     <string name="maximum_number_of_lines">Número máximo de linhas no evento</string>
-    <string name="default_start_last">Modo utilizado anteriormente</string>
+    <string name="default_start_last">Modo usado anteriormente</string>
     <string name="preferences_week_start_day_title">A semana começa</string>
     <string name="preferences_week_start_day_dialog">A semana começa</string>
     <string name="preferences_days_per_week_title">Dias por semana</string>
@@ -211,7 +211,7 @@
     <string name="preferences_show_week_num_title">Mostrar número da semana</string>
     <string name="preferences_alerts_custom_snooze_delay_title">Perguntar o tempo para adiamento para lembretes</string>
     <string name="preferences_alerts_custom_snooze_delay_summary_on">Perguntar o tempo para adiamento do lembrete sempre que este for adiado</string>
-    <string name="preferences_alerts_custom_snooze_delay_summary_off">Utilizar sempre o tempo para adiamento de repetição padrão</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">Usar sempre o tempo para adiamento de repetição padrão</string>
     <string name="snooze_delay_dialog_title">Definir o tempo para adiamento</string>
     <string name="preferences_default_snooze_delay_title">Tempo para adiamento predefinido</string>
     <string name="preferences_default_snooze_delay_dialog">Tempo para adiamento predefinido</string>

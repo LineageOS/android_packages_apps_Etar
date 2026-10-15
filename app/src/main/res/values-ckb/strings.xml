@@ -25,7 +25,7 @@
     <string name="no_reminder_label">هیچیان</string>
     <string name="no_snooze_label">هیچیان</string>
     <plurals name="Nminutes">
-        <item quantity="one">1 خوله‌ک</item>
+        <item quantity="one">1 خولەک</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> خولەک</item>
     </plurals>
     <plurals name="Nmins">
@@ -57,15 +57,15 @@
     <string name="event_view">"دەرخستنی بەسەرهات"</string>
     <string name="event_create">"بەسەرهات نە"</string>
     <string name="event_edit">"دەستکارکردنی روداو"</string>
-    <string name="event_delete">"سڕینه‌وه‌ی ڕووداو"</string>
+    <string name="event_delete">"سڕینەوەی ڕووداو"</string>
     <string name="share_label">هاوبەشکردن</string>
     <string name="goto_today">"ئەمڕۆ"</string>
     <string name="goto_date">چوون بۆ ڕێککەوتی\u2026</string>
-    <string name="menu_preferences">"ڕێکخستنه‌کان"</string>
+    <string name="menu_preferences">"ڕێکخستنەکان"</string>
     <string name="menu_info">زانیاری</string>
-    <string name="search">"گه‌ڕان"</string>
-    <string name="hide_controls">"كۆنترۆڵ بشاره‌وه‌"</string>
-    <string name="show_controls">"كۆنترۆڵ پيشان بدە"</string>
+    <string name="search">"گەڕان"</string>
+    <string name="hide_controls">"کۆنترۆڵ بشارەوە"</string>
+    <string name="show_controls">"کۆنترۆڵ پیشان بدە"</string>
     <string name="view_settings">"ڕێکخستنەکانی بینین"</string>
     <string name="select_synced_calendars_button">رۆژژمێرەکان بۆ هاوکاتسازی</string>
     <string name="hint_what">"ناوی ڕووداو"</string>
@@ -93,7 +93,7 @@
     <string name="presence_label">پیشانم بە وەکوو</string>
     <string name="privacy_label">تایبەتی</string>
     <string name="reminders_label">زیاکردنی بیرهێنەرەوە</string>
-    <string name="no_syncable_calendars">بێ ساڵنامە</string>
+    <string name="no_syncable_calendars">بێ ڕۆژژمێر</string>
     <string name="no_calendars_found">پێش ئەوەی بتوانیت ڕووداوێک زیاد بکەیت، دەبێت لایەنی کەم یەک ڕۆژژمێر بۆ ئامێرەکەت زیاد بکەیت</string>
     <string name="add_calendar">زیادکردنی ڕۆژژمێر</string>
     <string name="view_event_calendar_label">ڕۆژژمێر:</string>
@@ -101,24 +101,24 @@
     <string name="choose_event_color_label">ڕەنگی ڕووداو هەڵبژێرە</string>
     <string name="event_color_picker_dialog_title">ڕەنگی ڕووداو</string>
     <string name="event_color_set_to_default">دانان بۆ ڕەنگی بنەڕەتی رۆژژمێر</string>
-    <string name="calendar_color_picker_dialog_title">ڕه‌نگی ساڵنامه‌</string>
+    <string name="calendar_color_picker_dialog_title">ڕەنگی ڕۆژژمێر</string>
     <string name="calendar_square_color_picker_description">ڕەنگ هەڵگر</string>
     <string name="view_event_response_label">بەردەوامی؟</string>
     <string name="response_yes">بەڵێ</string>
     <string name="response_maybe">لەوانەیە</string>
     <string name="response_no">نا</string>
-    <string name="email_guests_label">میوانانی ئیمێڵ</string>
-    <string name="email_organizer_label">ڕێكخه‌ری ئیمێڵ</string>
-    <string name="email_picker_label">ئیمێڵ له‌گه‌ڵ</string>
+    <string name="email_guests_label">ناردنی پۆستی ئەلیکترۆنی بۆ میوانەکان</string>
+    <string name="email_organizer_label">ڕێکخەری پۆستی ئەلیکترۆنی</string>
+    <string name="email_picker_label">ناردنی پۆستی ئەلیکترۆنی لەگەڵ</string>
     <string name="event_not_found">"ڕووداو نەدۆزرایەوە."</string>
     <string name="map_label">نەخشە</string>
     <string name="no_map">هیچ بەرنامەیەکی نەخشە جێگیر نەکراوە</string>
     <string name="call_label">پەیوەندی کردن</string>
-    <string name="quick_response_settings">وه‌ڵامی خێرا</string>
-    <string name="quick_response_settings_summary">دەستکاریکردنی وەڵامە بنەڕەتەکان کاتی هاتنی ئیمێڵی میوانان</string>
-    <string name="quick_response_settings_edit_title">وه‌ڵامی خێرا</string>
+    <string name="quick_response_settings">وەڵامی خێرا</string>
+    <string name="quick_response_settings_summary">دەستکاریکردنی وەڵامە بنەڕەتەکان لەکاتی ناردنی پۆستی ئەلیکترۆنی بۆ میوانەکان</string>
+    <string name="quick_response_settings_edit_title">وەڵامی خێرا</string>
     <string name="quick_response_dialog_title">وەڵامی خێرا هەڵبژێرە</string>
-    <string name="quick_response_email_failed">نەرمەواڵایەک بۆ ئیمێڵ نەدۆزرایەوە</string>
+    <string name="quick_response_email_failed">هیچ بەرنامەیەکی پۆستی ئەلیکترۆنی نەدۆزرایەوە</string>
     <string-array name="quick_response_defaults">
         <item>چەند خۆلەکێک درەنگ ئەبێت.</item>
         <item>10 خۆلەکی تر لەوێ بە.</item>
@@ -135,14 +135,14 @@
     <string name="show_older_events">دەست لێدە بۆ بینینی ڕووداوەکان پێش <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
     <string name="show_newer_events">دەست لێدە بۆ بینینی ڕووداوەکان پاش <xliff:g id="newest_search_range">%1$s</xliff:g></string>
     <string name="search_title">رۆژژمێرەکانم بگەڕێ</string>
-    <string name="edit_event_label">"ورده‌كاری"</string>
+    <string name="edit_event_label">"وردەکاری"</string>
     <string name="edit_label">"دەستکاریکردن"</string>
-    <string name="delete_label">"سڕینه‌وه‌"</string>
+    <string name="delete_label">"سڕینەوە"</string>
     <string name="duplicate_label">لەبەرگرتنەوە</string>
     <string name="save_label">کراو</string>
     <string name="discard_label">هەڵوەشاندنەوە</string>
     <string name="dismiss_all_label">"وێڵکردنی هەمووان"</string>
-    <string name="snooze_label">"سووکه‌ نوستن"</string>
+    <string name="snooze_label">"دواخستنی زەنگ"</string>
     <string name="does_not_repeat">ڕووداوی ڕۆژێک لە ڕۆژن</string>
     <string name="endByDate">; تاکو <xliff:g id="date">%s</xliff:g></string>
     <plurals name="endByCount">
@@ -159,24 +159,24 @@
         <item quantity="other">هەر <xliff:g id="number">%1$d</xliff:g> هەفتەیەک لە ڕۆژی <xliff:g id="days_of_week">%2$s</xliff:g></item>
     </plurals>
     <string name="monthly">مانگانە</string>
-    <string name="yearly_plain">ساڵانه‌</string>
+    <string name="yearly_plain">ساڵانە</string>
     <string name="custom" product="default">"بە دڵی خۆ (نەتوانرا بە دڵی خۆ کردن بکرێت لەناو مۆبایل)"</string>
     <string name="modify_event">تەنها ئەم ڕووداوە بگۆڕە</string>
     <string name="modify_all">هەموو ڕووداوەکانی ناو زنجیرەکە بگۆڕە</string>
     <string name="modify_all_following">ئەم ڕووداوە و هەموو ئەوانەی داهاتوو بگۆڕە</string>
     <string name="new_event_dialog_label">"ڕووداوی نوێ"</string>
     <string name="new_event_dialog_option">"ڕووداوی نوێ"</string>
-    <string name="delete_this_event_title">ئایا ده‌ته‌وێت ئه‌م ڕوداوه‌ بسڕیته‌وه‌</string>
-    <string name="delete_recurring_event_title">سڕینه‌وه‌</string>
-    <string name="change_response_title">گۆڕینی وه‌ڵام</string>
-    <string name="preferences_title">"ڕێکخستنه‌کان"</string>
+    <string name="delete_this_event_title">ئایا دەتەوێت ئەم ڕوداوە بسڕیتەوە</string>
+    <string name="delete_recurring_event_title">سڕینەوە</string>
+    <string name="change_response_title">گۆڕینی وەڵام</string>
+    <string name="preferences_title">"ڕێکخستنەکان"</string>
     <string name="preferences_general_title">ڕێکخستنەکانی بینینی رۆژژمێر</string>
     <string name="preferences_month_view_portrait">شێوازی پیشاندانی مانگ (ستوونی)</string>
     <string name="preferences_month_view_landscape">شێوازی پیشاندانی مانگ (ئاسۆیی)</string>
     <string name="preferences_theme">ڕوکار</string>
     <string name="preferences_system_theme">بنەڕەتیی سیستم</string>
     <string name="preferences_light_theme">ڕووناک</string>
-    <string name="preferences_dark_theme">تاریك</string>
+    <string name="preferences_dark_theme">تاریک</string>
     <string name="preferences_black_theme">ڕەش</string>
     <string name="preferences_color">ڕەنگی سەرەکی</string>
     <string name="preferences_color_pick">هەڵبژاردنی ڕەنگی سەرەکی</string>
@@ -198,8 +198,8 @@
     <string name="preferences_clear_search_history_title">پاککردنەوەی مێژووی گەڕان</string>
     <string name="preferences_clear_search_history_summary">لابردنی هەموو ئەو شتانەی بۆی گەڕابووی</string>
     <string name="search_history_cleared">مێژووی گەڕان پاککرایەوە.</string>
-    <string name="preferences_alerts_title">ئاگادارییه‌کان</string>
-    <string name="preferences_alerts_vibrateWhen_title">له‌رینه‌وه‌</string>
+    <string name="preferences_alerts_title">ئاگادارییەکان</string>
+    <string name="preferences_alerts_vibrateWhen_title">لەرینەوە</string>
     <string name="preferences_alerts_ringtone_title">دەنگ</string>
     <string name="preferences_alerts_popup_title">تێبینی سەرهەڵدەر</string>
     <string name="preferences_default_reminder_title">کاتی بنەڕەتی بەیادهێنەر</string>
