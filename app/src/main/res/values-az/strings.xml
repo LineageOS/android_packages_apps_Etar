@@ -178,8 +178,8 @@
     <string name="preferences_light_theme">Açıq</string>
     <string name="preferences_dark_theme">Qaranlıq</string>
     <string name="preferences_black_theme">Qara</string>
-    <string name="preferences_color">Əsas rəng</string>
-    <string name="preferences_color_pick">Əsas rəng</string>
+    <string name="preferences_color">Birinci dərəcəli rəng</string>
+    <string name="preferences_color_pick">Birinci dərəcəli rəng</string>
     <string name="preferences_real_event_colors">Gerçək tədbir rənglərini istifadə et</string>
     <string name="preferences_pure_black_night_mode">Saf qara gecə rejimi</string>
     <string name="preferences_reminder_title">Bildirişlər &amp; xatırladıcılar</string>
