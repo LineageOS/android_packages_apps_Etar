@@ -62,7 +62,7 @@
     <string name="goto_today">"Bugün"</string>
     <string name="goto_date">Get\u2026</string>
     <string name="menu_preferences">"Ayarlar"</string>
-    <string name="menu_info">Məlumat</string>
+    <string name="menu_info">Bilgi</string>
     <string name="search">"Axtarış"</string>
     <string name="hide_controls">"Kontrolu gizlət"</string>
     <string name="show_controls">"Kontrolu göstər"</string>
@@ -323,7 +323,7 @@
     <string name="preferences_calendar_number_of_events">%1$d tədbir</string>
     <string name="preferences_calendar_delete">Təqvimi sil</string>
     <string name="preferences_calendar_display_name">Adı dəyişdir</string>
-    <string name="preferences_calendar_info_category">Təqvim məlumatı</string>
+    <string name="preferences_calendar_info_category">Təqvim bilgiləri</string>
     <string name="preferences_calendar_color">Rəng</string>
     <string name="preferences_calendar_visible">Tədbirləri görüntülə</string>
     <string name="preferences_manage_notifications">Bildirişləri idarə et</string>

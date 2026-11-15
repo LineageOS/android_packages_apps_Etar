@@ -22,6 +22,8 @@
     <string name="tomorrow_at_time_fmt">"明天 <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
     <string name="date_time_fmt">"<xliff:g id="DATE">%1$s</xliff:g> <xliff:g id="TIME_INTERVAL">%2$s</xliff:g>"</string>
     <string name="no_title_label">(無標題)</string>
+    <string name="no_reminder_label">無</string>
+    <string name="no_snooze_label">無</string>
     <plurals name="Nminutes">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 分鐘</item>
     </plurals>
@@ -33,6 +35,9 @@
     </plurals>
     <plurals name="Ndays">
         <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 天</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="other">第 <xliff:g id="count">%d</xliff:g> 週</item>
     </plurals>
     <string name="show_day_view">"顯示天"</string>
     <string name="agenda_view">"待辦事項"</string>
@@ -49,7 +54,7 @@
     <string name="hide_controls">"隱藏控制介面"</string>
     <string name="show_controls">"顯示控制介面"</string>
     <string name="select_synced_calendars_button">要同步處理的日曆</string>
-    <string name="hint_what">"事件名稱"</string>
+    <string name="hint_what">"活動名稱"</string>
     <string name="hint_where">"位置"</string>
     <string name="hint_description">"說明"</string>
     <string name="hint_attendees">"邀請對象"</string>
@@ -63,6 +68,8 @@
     <string name="rsvp_declined">"已回覆不參加。"</string>
     <string name="create_event_dialog_save">儲存</string>
     <string name="alert_title">日曆通知</string>
+    <string name="foreground_notification_channel_description">內部同步所需的通知。您可以安全地隱藏此頻道。
+</string>
     <string name="event_info_title">檢視活動</string>
     <string name="event_info_title_invite">會議邀請</string>
     <string name="edit_event_all_day_label">整天</string>
@@ -71,6 +78,7 @@
     <string name="privacy_label">私隱權</string>
     <string name="reminders_label">新增提醒</string>
     <string name="no_syncable_calendars">沒有日曆</string>
+    <string name="add_calendar">新增日曆</string>
     <string name="view_event_calendar_label">日曆：</string>
     <string name="view_event_organizer_label">主辦人：</string>
     <string name="choose_event_color_label">選擇活動顏色</string>
@@ -87,6 +95,7 @@
     <string name="email_picker_label">傳送電郵時使用</string>
     <string name="event_not_found">"找不到活動。"</string>
     <string name="map_label">地圖</string>
+    <string name="no_map">沒有已安裝的地圖應用程式</string>
     <string name="call_label">撥號</string>
     <string name="quick_response_settings">快速回應</string>
     <string name="quick_response_settings_summary">編輯向邀請對象發送電郵時的預設回應</string>
@@ -112,7 +121,7 @@
     <string name="save_label">完成</string>
     <string name="discard_label">取消</string>
     <string name="dismiss_all_label">"全部關閉"</string>
-    <string name="snooze_label">"重響"</string>
+    <string name="snooze_label">"延後"</string>
     <string name="does_not_repeat">單次活動</string>
     <string name="endByDate">；直至 <xliff:g id="DATE">%s</xliff:g></string>
     <plurals name="endByCount">
@@ -140,6 +149,9 @@
     <string name="preferences_general_title">日曆檢視設定</string>
     <string name="preferences_reminder_title">通知與提醒</string>
     <string name="preferences_hide_declined_title">隱藏已拒絕的活動</string>
+    <string name="display_options">顯示選項</string>
+    <string name="display_time">顯示時間</string>
+    <string name="display_location">顯示位置</string>
     <string name="preferences_week_start_day_title">一週起始日</string>
     <string name="preferences_week_start_day_dialog">一週起始日</string>
     <string name="preferences_clear_search_history_title">清除搜尋記錄</string>
@@ -156,7 +168,17 @@
     <string name="preferences_use_home_tz_descrip">在旅行期間以您的居住地時區顯示日曆及活動時間</string>
     <string name="preferences_home_tz_title">居住地時區</string>
     <string name="preferences_show_week_num_title">顯示週數</string>
+    <string name="preferences_alerts_custom_snooze_delay_title">詢問提醒事項延後時間</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_on">每次延後提醒事項時詢問延後時間</string>
+    <string name="preferences_alerts_custom_snooze_delay_summary_off">一律使用預設延後時間</string>
+    <string name="snooze_delay_dialog_title">設定延後時間</string>
+    <string name="preferences_default_snooze_delay_title">預設延後時間</string>
+    <string name="preferences_default_snooze_delay_dialog">預設延後時間</string>
+    <string name="authors">作者</string>
+    <string name="changelog">更新日誌</string>
+    <string name="license">許可協議</string>
     <string name="preferences_build_version">型號版本</string>
+    <string name="preferences_issues">回報問題</string>
     <plurals name="month_more_events">
         <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
     </plurals>
@@ -211,5 +233,62 @@
         <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g>的活動</item>
     </plurals>
     <string name="acessibility_recurrence_choose_end_date_description">更改結束日期</string>
+    <string name="user_rejected_calendar_write_permission">日曆需要日曆讀寫權限才能正常運作，請再試一次。</string>
+    <string name="visibility_default">預設</string>
+    <string name="visibility_private">私人</string>
+    <string name="visibility_public">公開</string>
+    <string name="two_days">2 日</string>
+    <string name="three_days">3 日</string>
+    <string name="four_days">4 日</string>
+    <string name="five_days">5 日</string>
+    <string name="six_days">6 日</string>
+    <string name="seven_days">7 日</string>
+    <string name="zero_minutes">0 分鐘</string>
+    <string name="fifteen_minutes">15 分鐘</string>
+    <string name="thirty_minutes">30 分鐘</string>
+    <string name="one_hour">1 小時</string>
+    <string name="one_and_a_half_hours">1.5 小時</string>
+    <string name="two_hours">2 小時</string>
+    <string name="cal_share_intent_title">傳送活動至：</string>
+    <string name="cal_export_succ_msg">已成功匯出活動：%1$s</string>
+    <string name="cal_import_menu_title">匯入活動</string>
+    <string name="cal_nothing_to_import">沒有可匯入的活動</string>
+    <string name="cal_pick_ics">選擇要匯入的檔案</string>
+    <string name="show_time_no">不要顯示時間</string>
+    <string name="preferences_calendar_no_display_name">未命名的日曆</string>
+    <string name="preferences_calendar_account">%1$s 帳戶</string>
+    <string name="preferences_calendar_account_local">離線日曆</string>
+    <string name="preferences_calendar_delete">刪除日曆</string>
+    <string name="preferences_calendar_display_name">變更名稱</string>
+    <string name="preferences_calendar_info_category">日曆資訊</string>
+    <string name="preferences_calendar_color">顏色</string>
+    <string name="preferences_calendar_visible">顯示活動</string>
+    <string name="preferences_manage_notifications">管理通知</string>
+    <string name="preferences_calendar_synchronize">同步此日曆</string>
+    <string name="preferences_calendar_color_warning_title">警告</string>
+    <string name="preferences_calendar_color_warning_button">我了解</string>
+    <string name="preferences_calendar_delete_message">你確定要刪除此日曆嗎？</string>
+    <string name="preferences_calendar_delete_delete">刪除日曆</string>
+    <string name="preferences_calendar_delete_cancel">取消</string>
+    <string name="preferences_list_calendar_summary_sync_off">未同步</string>
+    <string name="preferences_list_calendar_summary_invisible">活動未有顯示</string>
+    <string name="preferences_list_general">一般設定</string>
+    <string name="preferences_list_add_remote">新增 CalDAV 日曆</string>
+    <string name="preferences_list_add_remote_etesync">新增 EteSync 日曆</string>
+    <string name="preferences_list_add_offline">新增離線日曆</string>
+    <string name="preferences_list_add_offline_title">新增離線日曆</string>
+    <string name="preferences_list_add_offline_error_empty">輸入日曆名稱！</string>
+    <string name="preferences_list_add_offline_message">離線日曆不會同步到雲端服務，只能在手機上使用。</string>
+    <string name="preferences_list_add_offline_button">新增日曆</string>
+    <string name="preferences_list_add_offline_name">名稱</string>
+    <string name="preferences_list_add_offline_cancel">取消</string>
+    <string name="preferences_menu_about">關於日曆</string>
+    <string name="offline_account_name">離線日曆</string>
+    <string name="after_start_of_event">於活動開始後</string>
+    <string name="preferences_do_not_check_battery_optimization">不檢查電池最佳化</string>
+    <string name="preferences_do_not_check_battery_optimization_summary">後果自負！通知將無法運作，小工具不再更新，背景服務亦會停止運作。但系統不會再次詢問您是否要啟用背景服務。</string>
+    <string name="calendars">日曆</string>
+    <string name="discard_event_changes">您要捨棄所作的變更嗎？</string>
+    <string name="discard">捨棄</string>
     <string name="cancel">取消</string>
 </resources>
