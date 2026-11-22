@@ -4,9 +4,8 @@ package ws.xsoh.etar.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CheckBox;
 import android.widget.ImageButton;
-import android.widget.Spinner;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -22,25 +21,16 @@ public final class EditReminderItemBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Spinner reminderMethodValue;
-
-  @NonNull
-  public final CheckBox reminderMinutesSign;
-
-  @NonNull
-  public final Spinner reminderMinutesValue;
-
-  @NonNull
   public final ImageButton reminderRemove;
 
+  @NonNull
+  public final TextView reminderValue;
+
   private EditReminderItemBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Spinner reminderMethodValue, @NonNull CheckBox reminderMinutesSign,
-      @NonNull Spinner reminderMinutesValue, @NonNull ImageButton reminderRemove) {
+      @NonNull ImageButton reminderRemove, @NonNull TextView reminderValue) {
     this.rootView = rootView;
-    this.reminderMethodValue = reminderMethodValue;
-    this.reminderMinutesSign = reminderMinutesSign;
-    this.reminderMinutesValue = reminderMinutesValue;
     this.reminderRemove = reminderRemove;
+    this.reminderValue = reminderValue;
   }
 
   @Override
@@ -70,32 +60,20 @@ public final class EditReminderItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.reminder_method_value;
-      Spinner reminderMethodValue = ViewBindings.findChildViewById(rootView, id);
-      if (reminderMethodValue == null) {
-        break missingId;
-      }
-
-      id = R.id.reminder_minutes_sign;
-      CheckBox reminderMinutesSign = ViewBindings.findChildViewById(rootView, id);
-      if (reminderMinutesSign == null) {
-        break missingId;
-      }
-
-      id = R.id.reminder_minutes_value;
-      Spinner reminderMinutesValue = ViewBindings.findChildViewById(rootView, id);
-      if (reminderMinutesValue == null) {
-        break missingId;
-      }
-
       id = R.id.reminder_remove;
       ImageButton reminderRemove = ViewBindings.findChildViewById(rootView, id);
       if (reminderRemove == null) {
         break missingId;
       }
 
-      return new EditReminderItemBinding((ConstraintLayout) rootView, reminderMethodValue,
-          reminderMinutesSign, reminderMinutesValue, reminderRemove);
+      id = R.id.reminder_value;
+      TextView reminderValue = ViewBindings.findChildViewById(rootView, id);
+      if (reminderValue == null) {
+        break missingId;
+      }
+
+      return new EditReminderItemBinding((ConstraintLayout) rootView, reminderRemove,
+          reminderValue);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

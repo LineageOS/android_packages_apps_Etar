@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -20,7 +19,7 @@ import ws.xsoh.etar.R;
 
 public final class AppwidgetBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final TextView date;
@@ -38,23 +37,28 @@ public final class AppwidgetBinding implements ViewBinding {
   public final ImageView ivAdd;
 
   @NonNull
-  public final LinearLayout widgetBackground;
+  public final ImageView ivSettings;
 
-  private AppwidgetBinding(@NonNull LinearLayout rootView, @NonNull TextView date,
+  @NonNull
+  public final RelativeLayout widgetBackground;
+
+  private AppwidgetBinding(@NonNull RelativeLayout rootView, @NonNull TextView date,
       @NonNull TextView dayOfWeek, @NonNull ListView eventsList, @NonNull RelativeLayout header,
-      @NonNull ImageView ivAdd, @NonNull LinearLayout widgetBackground) {
+      @NonNull ImageView ivAdd, @NonNull ImageView ivSettings,
+      @NonNull RelativeLayout widgetBackground) {
     this.rootView = rootView;
     this.date = date;
     this.dayOfWeek = dayOfWeek;
     this.eventsList = eventsList;
     this.header = header;
     this.ivAdd = ivAdd;
+    this.ivSettings = ivSettings;
     this.widgetBackground = widgetBackground;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -109,10 +113,16 @@ public final class AppwidgetBinding implements ViewBinding {
         break missingId;
       }
 
-      LinearLayout widgetBackground = (LinearLayout) rootView;
+      id = R.id.iv_settings;
+      ImageView ivSettings = ViewBindings.findChildViewById(rootView, id);
+      if (ivSettings == null) {
+        break missingId;
+      }
 
-      return new AppwidgetBinding((LinearLayout) rootView, date, dayOfWeek, eventsList, header,
-          ivAdd, widgetBackground);
+      RelativeLayout widgetBackground = (RelativeLayout) rootView;
+
+      return new AppwidgetBinding((RelativeLayout) rootView, date, dayOfWeek, eventsList, header,
+          ivAdd, ivSettings, widgetBackground);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
