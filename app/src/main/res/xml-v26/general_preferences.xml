@@ -37,6 +37,11 @@
             app:title="@string/default_start_title"
             app:entries="@array/default_start_entries"
             app:entryValues="@array/default_start_values" />
+        <SwitchPreference
+            app:key="pref_view_switch_buttons"
+            app:defaultValue="false"
+            app:title="@string/preferences_view_switch_buttons"
+            app:summary="@string/preferences_view_switch_buttons_summary" />
         <Preference
             app:key="pref_view_details"
             app:title="@string/display_options"
@@ -94,11 +99,6 @@
         <Preference
             app:key="preferences_notification"
             app:title="@string/preferences_alerts_title" />
-
-        <SwitchPreference
-            app:key="preferences_alerts_popup"
-            app:defaultValue="false"
-            app:title="@string/preferences_alerts_popup_title" />
 
         <SwitchPreference
             app:key="preferences_custom_snooze_delay"

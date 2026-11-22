@@ -18,7 +18,6 @@
     <string name="standalone_app_label" translatable="false">Etar</string>
     <!-- This is the label underneath the icon for Calendar -->
     <string name="app_label">Calendar</string>
-
     <!-- Shared Labels. These labels are shared among the activities. -->
     <skip/>
     <!-- This is the label for the time of an event [CHAR LIMIT=30] -->
@@ -487,6 +486,8 @@
     <string name="preferences_hide_declined_title">Hide declined events</string>
     <!-- Label values for the default start page preference. -->
     <string name="default_start_title">Default view</string>
+    <string name="preferences_view_switch_buttons">View buttons in the toolbar</string>
+    <string name="preferences_view_switch_buttons_summary">Switch between the day, week and month views in one tap (months are abbreviated in the title)</string>
     <string name="display_options">Display options</string>
     <string name="display_time">Display time</string>
     <string name="display_location">Display location</string>
@@ -756,6 +757,9 @@
     <!-- Sharing calendar event -->
     <string name="cal_share_intent_title">Send event to:</string>
     <string name="cal_export_event_title">Export event</string>
+    <string name="cal_export_calendar_title">Export calendar</string>
+    <string name="cal_export_calendar_summary">Export all events from a calendar to an .ics file</string>
+    <string name="cal_export_select_calendar_title">Select calendar to export</string>
     <string name="cal_export_success">Event exported successfully</string>
     <string name="cal_export_error">Failed to export event</string>
     <string name="cal_export_succ_msg">Event exported successfully</string>
@@ -864,4 +868,35 @@
     <string name="chips_action_cancel">Cancel</string>
     <!-- Text displayed on the drop down item that is shown when app doesn't have Contact permission. This item will open dialog to request permission. [CHAR LIMIT=50] -->
     <string name="chips_permission_text">Allow contacts suggestions</string>
+
+    <!-- Widget labels -->
+    <!-- Label for the month view widget in the widget picker -->
+    <string name="month_widget_label">Calendar Month View</string>
+    <!-- Description for the month view widget shown in the widget picker on Android 12+ -->
+    <string name="month_widget_description">Displays the current month with event indicators</string>
+    <!-- Label for the week view widget in the widget picker -->
+    <string name="week_widget_label">Calendar Week View</string>
+    <!-- Description for the week view widget shown in the widget picker on Android 12+ -->
+    <string name="week_widget_description">Displays the current week with event times and details</string>
+    <!-- Widget configure strings -->
+    <string name="widget_configure_title">Widget Calendars</string>
+    <string name="widget_configure_description">Select the calendars whose events should be displayed in this widget:</string>
+    <string name="widget_configure_save">Save</string>
+    <!-- Fallback title for events with no title -->
+    <string name="widget_no_title">(No title)</string>
+    <!-- Overflow indicator when more events exist than can be displayed. %d is the number of additional events. -->
+    <string name="widget_event_overflow">+%d more</string>
+    <!-- Custom reminder picker -->
+    <string name="custom_reminder_label">Custom…</string>
+    <string name="custom_reminder_title">Set reminder time</string>
+    <string name="reminder_unit_minutes">Minutes</string>
+    <string name="reminder_unit_hours">Hours</string>
+    <string name="reminder_unit_days">Days</string>
+    <string name="reminder_unit_weeks">Weeks</string>
+    <string name="reminder_notification">Notification</string>
+    <string name="reminder_email">Email</string>
+    <string name="reminder_alarm">Alarm</string>
+    <string name="reminder_before">%1$s before</string>
+    <string name="reminder_after">%1$s after</string>
+    <string name="reminder_email_suffix">as email</string>
 </resources>

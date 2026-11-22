@@ -37,6 +37,11 @@
             app:title="@string/default_start_title"
             app:entries="@array/default_start_entries"
             app:entryValues="@array/default_start_values" />
+        <SwitchPreference
+            app:key="pref_view_switch_buttons"
+            app:defaultValue="false"
+            app:title="@string/preferences_view_switch_buttons"
+            app:summary="@string/preferences_view_switch_buttons_summary" />
         <Preference
             app:key="pref_view_details"
             app:title="@string/display_options"
@@ -107,12 +112,6 @@
             app:key="preferences_alerts_vibrate"
             app:title="@string/preferences_alerts_vibrateWhen_title"
             app:defaultValue="false"
-            app:dependency="preferences_alerts" />
-
-        <SwitchPreference
-            app:key="preferences_alerts_popup"
-            app:defaultValue="false"
-            app:title="@string/preferences_alerts_popup_title"
             app:dependency="preferences_alerts" />
 
         <SwitchPreference

@@ -232,8 +232,8 @@
     <string name="preferences_light_theme">亮</string>
     <string name="preferences_dark_theme">暗</string>
     <string name="preferences_black_theme">黑</string>
-    <string name="preferences_color">原色</string>
-    <string name="preferences_color_pick">基础色</string>
+    <string name="preferences_color">强调色</string>
+    <string name="preferences_color_pick">强调色</string>
     <string name="preferences_days_per_week_title">每周天数</string>
     <string name="preferences_days_per_week_dialog">每周天数</string>
     <string name="preferences_default_event_duration_title">默认活动持续时间</string>
@@ -317,7 +317,7 @@
     <string name="two_days">2天</string>
     <string name="preferences_system_theme">系统默认</string>
     <string name="preferences_list_add_remote_etesync">添加 EteSync 日历</string>
-    <string name="preferences_list_add_remote">添加 CalDAV日历</string>
+    <string name="preferences_list_add_remote">添加 CalDAV 日历</string>
     <string name="preferences_pure_black_night_mode">纯黑夜间模式</string>
     <string name="no_reminder_label">无</string>
     <plurals name="Nweeks">
@@ -325,7 +325,7 @@
     </plurals>
     <string name="foreground_notification_title">安排新提醒中…</string>
     <string name="after_start_of_event">在活动开始后</string>
-    <string name="preferences_real_event_colors">使用真实活动颜色</string>
+    <string name="preferences_real_event_colors">使用真实的事件颜色</string>
     <string name="menu_info">信息</string>
     <string name="duplicate_label">复制</string>
     <string name="hint_url">URL</string>
@@ -358,4 +358,29 @@
     <string name="week_start_locale_default">使用当地默认值</string>
     <string name="preferences_staggered_display_title">交错显示</string>
     <string name="preferences_staggered_display_summary">以交错布局显示重叠活动</string>
+    <string name="cal_export_calendar_title">导出日历</string>
+    <string name="cal_export_calendar_summary">导出日历所有活动到 .ics 文件</string>
+    <string name="cal_export_select_calendar_title">选择要导出的日历</string>
+    <string name="preferences_view_switch_buttons">查看工具栏按钮</string>
+    <string name="preferences_view_switch_buttons_summary">一键切换日视图、周视图和月视图（标题中的月份为缩写形式）</string>
+    <string name="month_widget_label">日历月视图</string>
+    <string name="month_widget_description">显示带活动指示器的当前月份</string>
+    <string name="week_widget_label">日历周视图</string>
+    <string name="week_widget_description">显示带活动时间和详情的当前周</string>
+    <string name="widget_no_title">（无标题）</string>
+    <string name="widget_event_overflow">另外 +%d</string>
+    <string name="widget_configure_title">小组件日历</string>
+    <string name="widget_configure_description">选择活动应显示在这个小组件中的日历：</string>
+    <string name="widget_configure_save">保存</string>
+    <string name="custom_reminder_label">自定义…</string>
+    <string name="custom_reminder_title">设置提醒时间</string>
+    <string name="reminder_unit_minutes">分钟</string>
+    <string name="reminder_unit_hours">小时</string>
+    <string name="reminder_unit_days">天</string>
+    <string name="reminder_unit_weeks">周</string>
+    <string name="reminder_notification">通知</string>
+    <string name="reminder_email">电子邮件</string>
+    <string name="reminder_alarm">闹钟</string>
+    <string name="reminder_before">在下列时间前用 %1$s 提醒</string>
+    <string name="reminder_after">在下列时间后用 %1$s 提醒</string>
 </resources>

@@ -75,7 +75,6 @@ class GeneralPreferences : PreferenceFragmentCompat(),
     private lateinit var defaultEventDurationPref: ListPreference
     private lateinit var useHomeTzPref: CheckBoxPreference
     private lateinit var homeTzPref: Preference
-    private lateinit var popupPref: SwitchPreference
     private lateinit var snoozeDelayPref: ListPreference
     private lateinit var useDefaultCustomSnoozeDelayPref: Preference
     private lateinit var defaultReminderPref: ListPreference
@@ -121,7 +120,6 @@ class GeneralPreferences : PreferenceFragmentCompat(),
         defaultEventDurationPref = preferenceScreen.findPreference(KEY_DEFAULT_EVENT_DURATION)!!
         useHomeTzPref = preferenceScreen.findPreference(KEY_HOME_TZ_ENABLED)!!
         homeTzPref = preferenceScreen.findPreference(KEY_HOME_TZ)!!
-        popupPref = preferenceScreen.findPreference(KEY_ALERTS_POPUP)!!
         snoozeDelayPref = preferenceScreen.findPreference(KEY_DEFAULT_SNOOZE_DELAY)!!
         useDefaultCustomSnoozeDelayPref = preferenceScreen.findPreference(KEY_USE_CUSTOM_SNOOZE_DELAY)!!
         defaultReminderPref = preferenceScreen.findPreference(KEY_DEFAULT_REMINDER)!!
@@ -200,7 +198,7 @@ class GeneralPreferences : PreferenceFragmentCompat(),
     private fun showTimezoneDialog() {
         val arguments = Bundle().apply {
             putLong(TimeZonePickerDialog.BUNDLE_START_TIME_MILLIS, System.currentTimeMillis())
-            putString(TimeZonePickerDialog.BUNDLE_TIME_ZONE, Utils.getTimeZone(activity, null))
+            putString(TimeZonePickerDialog.BUNDLE_TIME_ZONE, timeZoneId ?: Utils.getTimeZone(activity, null))
         }
 
         val fm = requireActivity().supportFragmentManager
@@ -500,9 +498,11 @@ class GeneralPreferences : PreferenceFragmentCompat(),
     }
 
     override fun onTimeZoneSet(tzi: TimeZoneInfo) {
+        timeZoneId = tzi.mTzId
         val timeZoneDisplayName = tzPickerUtils.getGmtDisplayName(
                 activity, tzi.mTzId, System.currentTimeMillis(), false)
         homeTzPref.summary = timeZoneDisplayName
+        useHomeTzPref.isChecked = true
         Utils.setTimeZone(activity, tzi.mTzId)
     }
 
@@ -510,6 +510,8 @@ class GeneralPreferences : PreferenceFragmentCompat(),
         // Preference keys
         const val KEY_THEME_PREF = "pref_theme"
         const val KEY_REAL_EVENT_COLORS = "pref_real_event_colors"
+        /** Show buttons to switch between the day, week and month views in the toolbar */
+        const val KEY_VIEW_SWITCH_BUTTONS = "pref_view_switch_buttons"
         const val KEY_DO_NOT_CHECK_BATTERY_OPTIMIZATION = "pref_do_not_check_battery_optimization"
         const val KEY_PURE_BLACK_NIGHT_MODE = "pref_pure_black_night_mode"
         const val KEY_DEFAULT_START = "preferences_default_start"
@@ -525,7 +527,6 @@ class GeneralPreferences : PreferenceFragmentCompat(),
         const val KEY_NOTIFICATION = "preferences_notification"
         const val KEY_ALERTS_VIBRATE = "preferences_alerts_vibrate"
         const val KEY_ALERTS_RINGTONE = "preferences_alerts_ringtone"
-        const val KEY_ALERTS_POPUP = "preferences_alerts_popup"
         const val KEY_SHOW_CONTROLS = "preferences_show_controls"
         const val KEY_DEFAULT_REMINDER = "preferences_default_reminder"
         const val NO_REMINDER = -2147483648

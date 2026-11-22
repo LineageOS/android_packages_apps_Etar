@@ -1313,6 +1313,11 @@ public class EventInfoFragment extends DialogFragment implements OnCheckedChange
 
         final Intent intent = new Intent(mContext, EditEventActivity.class);
         intent.setType("vnd.android.cursor.item/event");
+        // Default the duplicate to the source event's calendar, but only when it is writeable;
+        // otherwise fall back to the default calendar so we never preselect a read-only one.
+        if (mCanModifyCalendar) {
+            intent.putExtra(CalendarContract.Events.CALENDAR_ID, mEventCursor.getLong(EVENT_INDEX_CALENDAR_ID));
+        }
         intent.putExtra(CalendarContract.Events.TITLE, mEventCursor.getString(EVENT_INDEX_TITLE));
         intent.putExtra(CalendarContract.Events.DESCRIPTION, mEventCursor.getString(EVENT_INDEX_DESCRIPTION));
         intent.putExtra(CalendarContract.Events.EVENT_LOCATION, mEventCursor.getString(EVENT_INDEX_EVENT_LOCATION));
@@ -1331,7 +1336,7 @@ public class EventInfoFragment extends DialogFragment implements OnCheckedChange
         final String allAttendees = Stream.of(mAcceptedAttendees, mDeclinedAttendees, mTentativeAttendees, mNoResponseAttendees)
                 .flatMap(Collection::stream)
                 .map(attendee -> attendee.mEmail)
-                .collect(Collectors.joining());
+                .collect(Collectors.joining(","));
         intent.putExtra(Intent.EXTRA_EMAIL, allAttendees);
 
         startActivity(intent);
@@ -2265,22 +2270,9 @@ public class EventInfoFragment extends DialogFragment implements OnCheckedChange
      * reminder time and method.
      */
     private void addReminder() {
-        // TODO: when adding a new reminder, make it different from the
-        // last one in the list (if any).
-        if (mDefaultReminderMinutes == GeneralPreferences.NO_REMINDER) {
-            EventViewUtils.addReminder(mActivity, mScrollView, this, mReminderViews,
-                    mReminderMinuteValues, mReminderMinuteLabels, mReminderMethodValues,
-                    mReminderMethodLabels,
-                    ReminderEntry.valueOf(GeneralPreferences.REMINDER_DEFAULT_TIME), mMaxReminders,
-                    mReminderChangeListener);
-        } else {
-            EventViewUtils.addReminder(mActivity, mScrollView, this, mReminderViews,
-                    mReminderMinuteValues, mReminderMinuteLabels, mReminderMethodValues,
-                    mReminderMethodLabels, ReminderEntry.valueOf(mDefaultReminderMinutes),
-                    mMaxReminders, mReminderChangeListener);
-        }
-
-        EventViewUtils.updateAddReminderButton(mView, mReminderViews, mMaxReminders);
+        EventViewUtils.showAddReminderDialog(mActivity, mView, this, mReminderViews,
+                mReminderMinuteValues, mReminderMinuteLabels, mReminderMethodValues,
+                mReminderMethodLabels, mMaxReminders, mReminderChangeListener);
     }
 
     synchronized private void prepareReminders() {
@@ -2298,6 +2290,9 @@ public class EventInfoFragment extends DialogFragment implements OnCheckedChange
         // new event that aren't in the default set.
         Resources r = mActivity.getResources();
         mReminderMinuteValues = loadIntegerArray(r, R.array.reminder_minutes_values);
+        if (!mReminderMinuteValues.contains(EventViewUtils.CUSTOM_SELECTION_VALUE)) {
+            mReminderMinuteValues.add(EventViewUtils.CUSTOM_SELECTION_VALUE);
+        }
         mReminderMinuteLabels = EventViewUtils.constructReminderLabelsFromValues(mActivity,
                 mReminderMinuteValues, false);
         mReminderMethodValues = loadIntegerArray(r, R.array.reminder_methods_values);
@@ -2540,8 +2535,10 @@ public class EventInfoFragment extends DialogFragment implements OnCheckedChange
                     initReminders(mView, mRemindersCursor);
                     break;
                 case TOKEN_QUERY_EXTENDED:
-                    mExtendedCursor = Utils.matrixCursorFromCursor(cursor);
-                    initExtended(mExtendedCursor);
+                    if (cursor != null) {
+                        mExtendedCursor = Utils.matrixCursorFromCursor(cursor);
+                        initExtended(mExtendedCursor);
+                    }
                     break;
                 case TOKEN_QUERY_VISIBLE_CALENDARS:
                     if (cursor.getCount() > 1) {
@@ -2577,7 +2574,9 @@ public class EventInfoFragment extends DialogFragment implements OnCheckedChange
                     mCalendarName.setText(sb);
                     break;
             }
-            cursor.close();
+            if (cursor != null) {
+                cursor.close();
+            }
             sendAccessibilityEventIfQueryDone(token);
 
             // All queries are done, show the view.

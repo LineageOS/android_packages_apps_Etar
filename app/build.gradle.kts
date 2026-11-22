@@ -22,10 +22,10 @@ android {
 	compileSdk = 37
 
 	defaultConfig {
-		minSdk = 23
+		minSdk = 24
 		targetSdk = 37
-		versionCode = 57
-		versionName = "1.0.57"
+		versionCode = 58
+		versionName = "1.0.58"
 		applicationId = "ws.xsoh.etar"
 		testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 	}
@@ -81,7 +81,7 @@ android {
 		println("Found sign properties in gradle.properties! Signing build…")
 
 		signingConfigs {
-			named("release").configure {
+            register("release") {
 				storeFile = File(signingStoreLocation!!)
 				storePassword = signingStorePassword
 				keyAlias = signingKeyAlias
@@ -89,10 +89,14 @@ android {
 			}
 		}
 
-		buildTypes.named("release").get().signingConfig = signingConfigs.named("release").get()
-	} else {
-		buildTypes.named("release").get().signingConfig = null
-	}
+        buildTypes.named("release") {
+            signingConfig = signingConfigs.getByName("release")
+        }
+    } else {
+        buildTypes.named("release") {
+            signingConfig = null
+        }
+    }
 
 	lint {
 		lintConfig = file("lint.xml")
